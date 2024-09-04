@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /var/www/html/ojs-main/lib/pkp/classes/galley</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../_css/bootstrap.min.css?v=11.0.5" rel="stylesheet" type="text/css">
+  <link href="../../_css/nv.d3.min.css?v=11.0.5" rel="stylesheet" type="text/css">
+  <link href="../../_css/style.css?v=11.0.5" rel="stylesheet" type="text/css">
+  <link href="../../_css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="../../index.html">/var/www/html/ojs-main/lib/pkp</a></li>
+         <li class="breadcrumb-item"><a href="../index.html">classes</a></li>
+         <li class="breadcrumb-item"><a href="index.html">galley</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Collector.php.html#27">PKP\galley\Collector</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DAO.php.html#38">PKP\galley\DAO</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Galley.php.html#26">PKP\galley\Galley</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Repository.php.html#26">PKP\galley\Repository</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="maps/Schema.php.html#26">PKP\galley\maps\Schema</a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="DAO.php.html#38">PKP\galley\DAO</a></td><td class="text-right">552</td></tr>
+       <tr><td><a href="Galley.php.html#26">PKP\galley\Galley</a></td><td class="text-right">506</td></tr>
+       <tr><td><a href="Repository.php.html#26">PKP\galley\Repository</a></td><td class="text-right">420</td></tr>
+       <tr><td><a href="maps/Schema.php.html#26">PKP\galley\maps\Schema</a></td><td class="text-right">240</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Collector.php.html#37"><abbr title="PKP\galley\Collector::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Collector.php.html#42"><abbr title="PKP\galley\Collector::getCount">getCount</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Collector.php.html#50"><abbr title="PKP\galley\Collector::getIds">getIds</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Collector.php.html#60"><abbr title="PKP\galley\Collector::getMany">getMany</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Collector.php.html#65"><abbr title="PKP\galley\Collector::filterByPublicationIds">filterByPublicationIds</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Collector.php.html#71"><abbr title="PKP\galley\Collector::filterByContextIds">filterByContextIds</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Collector.php.html#77"><abbr title="PKP\galley\Collector::filterByDoiIds">filterByDoiIds</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Collector.php.html#83"><abbr title="PKP\galley\Collector::getQueryBuilder">getQueryBuilder</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DAO.php.html#71"><abbr title="PKP\galley\DAO::getParentColumn">getParentColumn</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DAO.php.html#76"><abbr title="PKP\galley\DAO::newDataObject">newDataObject</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DAO.php.html#81"><abbr title="PKP\galley\DAO::getByUrlPath">getByUrlPath</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DAO.php.html#93"><abbr title="PKP\galley\DAO::getCount">getCount</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DAO.php.html#105"><abbr title="PKP\galley\DAO::getIds">getIds</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DAO.php.html#118"><abbr title="PKP\galley\DAO::getMany">getMany</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DAO.php.html#131"><abbr title="PKP\galley\DAO::fromRow">fromRow</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DAO.php.html#142"><abbr title="PKP\galley\DAO::insert">insert</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DAO.php.html#147"><abbr title="PKP\galley\DAO::update">update</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DAO.php.html#152"><abbr title="PKP\galley\DAO::delete">delete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DAO.php.html#157"><abbr title="PKP\galley\DAO::getById">getById</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DAO.php.html#172"><abbr title="PKP\galley\DAO::getByPublicationId">getByPublicationId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DAO.php.html#181"><abbr title="PKP\galley\DAO::updateObject">updateObject</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DAO.php.html#189"><abbr title="PKP\galley\DAO::pubIdExists">pubIdExists</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DAO.php.html#205"><abbr title="PKP\galley\DAO::changePubId">changePubId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DAO.php.html#216"><abbr title="PKP\galley\DAO::deletePubId">deletePubId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DAO.php.html#227"><abbr title="PKP\galley\DAO::deleteAllPubIds">deleteAllPubIds</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DAO.php.html#257"><abbr title="PKP\galley\DAO::getExportable">getExportable</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Galley.php.html#38"><abbr title="PKP\galley\Galley::getLabel">getLabel</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Galley.php.html#48"><abbr title="PKP\galley\Galley::setLabel">setLabel</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Galley.php.html#58"><abbr title="PKP\galley\Galley::getLocale">getLocale</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Galley.php.html#68"><abbr title="PKP\galley\Galley::setLocale">setLocale</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Galley.php.html#79"><abbr title="PKP\galley\Galley::getBestGalleyId">getBestGalleyId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Galley.php.html#91"><abbr title="PKP\galley\Galley::getFile">getFile</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Galley.php.html#106"><abbr title="PKP\galley\Galley::getFileType">getFileType</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Galley.php.html#119"><abbr title="PKP\galley\Galley::isPdfGalley">isPdfGalley</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Galley.php.html#129"><abbr title="PKP\galley\Galley::getGalleyLabel">getGalleyLabel</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Galley.php.html#148"><abbr title="PKP\galley\Galley::getName">getName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Galley.php.html#160"><abbr title="PKP\galley\Galley::getLocalizedName">getLocalizedName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Galley.php.html#168"><abbr title="PKP\galley\Galley::setStoredPubId">setStoredPubId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Galley.php.html#192"><abbr title="PKP\galley\Galley::getLanguageNames">getLanguageNames</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Galley.php.html#200"><abbr title="PKP\galley\Galley::getLanguages">getLanguages</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Repository.php.html#38"><abbr title="PKP\galley\Repository::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Repository.php.html#46"><abbr title="PKP\galley\Repository::newDataObject">newDataObject</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Repository.php.html#56"><abbr title="PKP\galley\Repository::get">get</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Repository.php.html#62"><abbr title="PKP\galley\Repository::exists">exists</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Repository.php.html#71"><abbr title="PKP\galley\Repository::getByBestId">getByBestId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Repository.php.html#81"><abbr title="PKP\galley\Repository::getByUrlPath">getByUrlPath</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Repository.php.html#87"><abbr title="PKP\galley\Repository::getCollector">getCollector</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Repository.php.html#98"><abbr title="PKP\galley\Repository::getSchemaMap">getSchemaMap</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Repository.php.html#123"><abbr title="PKP\galley\Repository::validate">validate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Repository.php.html#172"><abbr title="PKP\galley\Repository::add">add</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Repository.php.html#181"><abbr title="PKP\galley\Repository::edit">edit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Repository.php.html#192"><abbr title="PKP\galley\Repository::delete">delete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="maps/Schema.php.html#34"><abbr title="PKP\galley\maps\Schema::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="maps/Schema.php.html#46"><abbr title="PKP\galley\maps\Schema::map">map</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="maps/Schema.php.html#56"><abbr title="PKP\galley\maps\Schema::summarize">summarize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="maps/Schema.php.html#66"><abbr title="PKP\galley\maps\Schema::mapMany">mapMany</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="maps/Schema.php.html#79"><abbr title="PKP\galley\maps\Schema::summarizeMany">summarizeMany</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="maps/Schema.php.html#90"><abbr title="PKP\galley\maps\Schema::mapByProperties">mapByProperties</abbr></a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="maps/Schema.php.html#90"><abbr title="PKP\galley\maps\Schema::mapByProperties">mapByProperties</abbr></a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="Repository.php.html#123"><abbr title="PKP\galley\Repository::validate">validate</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="Galley.php.html#91"><abbr title="PKP\galley\Galley::getFile">getFile</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Galley.php.html#129"><abbr title="PKP\galley\Galley::getGalleyLabel">getGalleyLabel</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Galley.php.html#168"><abbr title="PKP\galley\Galley::setStoredPubId">setStoredPubId</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="DAO.php.html#81"><abbr title="PKP\galley\DAO::getByUrlPath">getByUrlPath</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="DAO.php.html#118"><abbr title="PKP\galley\DAO::getMany">getMany</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="DAO.php.html#131"><abbr title="PKP\galley\DAO::fromRow">fromRow</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="DAO.php.html#157"><abbr title="PKP\galley\DAO::getById">getById</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="DAO.php.html#227"><abbr title="PKP\galley\DAO::deleteAllPubIds">deleteAllPubIds</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Galley.php.html#79"><abbr title="PKP\galley\Galley::getBestGalleyId">getBestGalleyId</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Galley.php.html#106"><abbr title="PKP\galley\Galley::getFileType">getFileType</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Repository.php.html#46"><abbr title="PKP\galley\Repository::newDataObject">newDataObject</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Repository.php.html#71"><abbr title="PKP\galley\Repository::getByBestId">getByBestId</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Repository.php.html#192"><abbr title="PKP\galley\Repository::delete">delete</abbr></a></td><td class="text-right">6</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 11.0.5</a> using <a href="https://www.php.net/" target="_top">PHP 8.3.11</a> and <a href="https://phpunit.de/">PHPUnit 11.2.8</a> at Wed Sep 4 13:31:09 UTC 2024.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../../_js/jquery.min.js?v=11.0.5" type="text/javascript"></script>
+  <script src="../../_js/d3.min.js?v=11.0.5" type="text/javascript"></script>
+  <script src="../../_js/nv.d3.min.js?v=11.0.5" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([5,0,0,0,0,0,0,0,0,0,0,0], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([58,0,0,0,0,0,0,0,0,0,0,0], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[0,8,"<a href=\"Collector.php.html#27\">PKP\\galley\\Collector<\/a>"],[0,23,"<a href=\"DAO.php.html#38\">PKP\\galley\\DAO<\/a>"],[0,22,"<a href=\"Galley.php.html#26\">PKP\\galley\\Galley<\/a>"],[0,20,"<a href=\"Repository.php.html#26\">PKP\\galley\\Repository<\/a>"],[0,15,"<a href=\"maps\/Schema.php.html#26\">PKP\\galley\\maps\\Schema<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[0,1,"<a href=\"Collector.php.html#37\">PKP\\galley\\Collector::__construct<\/a>"],[0,1,"<a href=\"Collector.php.html#42\">PKP\\galley\\Collector::getCount<\/a>"],[0,1,"<a href=\"Collector.php.html#50\">PKP\\galley\\Collector::getIds<\/a>"],[0,1,"<a href=\"Collector.php.html#60\">PKP\\galley\\Collector::getMany<\/a>"],[0,1,"<a href=\"Collector.php.html#65\">PKP\\galley\\Collector::filterByPublicationIds<\/a>"],[0,1,"<a href=\"Collector.php.html#71\">PKP\\galley\\Collector::filterByContextIds<\/a>"],[0,1,"<a href=\"Collector.php.html#77\">PKP\\galley\\Collector::filterByDoiIds<\/a>"],[0,1,"<a href=\"Collector.php.html#83\">PKP\\galley\\Collector::getQueryBuilder<\/a>"],[0,1,"<a href=\"DAO.php.html#71\">PKP\\galley\\DAO::getParentColumn<\/a>"],[0,1,"<a href=\"DAO.php.html#76\">PKP\\galley\\DAO::newDataObject<\/a>"],[0,2,"<a href=\"DAO.php.html#81\">PKP\\galley\\DAO::getByUrlPath<\/a>"],[0,1,"<a href=\"DAO.php.html#93\">PKP\\galley\\DAO::getCount<\/a>"],[0,1,"<a href=\"DAO.php.html#105\">PKP\\galley\\DAO::getIds<\/a>"],[0,2,"<a href=\"DAO.php.html#118\">PKP\\galley\\DAO::getMany<\/a>"],[0,2,"<a href=\"DAO.php.html#131\">PKP\\galley\\DAO::fromRow<\/a>"],[0,1,"<a href=\"DAO.php.html#142\">PKP\\galley\\DAO::insert<\/a>"],[0,1,"<a href=\"DAO.php.html#147\">PKP\\galley\\DAO::update<\/a>"],[0,1,"<a href=\"DAO.php.html#152\">PKP\\galley\\DAO::delete<\/a>"],[0,2,"<a href=\"DAO.php.html#157\">PKP\\galley\\DAO::getById<\/a>"],[0,1,"<a href=\"DAO.php.html#172\">PKP\\galley\\DAO::getByPublicationId<\/a>"],[0,1,"<a href=\"DAO.php.html#181\">PKP\\galley\\DAO::updateObject<\/a>"],[0,1,"<a href=\"DAO.php.html#189\">PKP\\galley\\DAO::pubIdExists<\/a>"],[0,1,"<a href=\"DAO.php.html#205\">PKP\\galley\\DAO::changePubId<\/a>"],[0,1,"<a href=\"DAO.php.html#216\">PKP\\galley\\DAO::deletePubId<\/a>"],[0,2,"<a href=\"DAO.php.html#227\">PKP\\galley\\DAO::deleteAllPubIds<\/a>"],[0,1,"<a href=\"DAO.php.html#257\">PKP\\galley\\DAO::getExportable<\/a>"],[0,1,"<a href=\"Galley.php.html#38\">PKP\\galley\\Galley::getLabel<\/a>"],[0,1,"<a href=\"Galley.php.html#48\">PKP\\galley\\Galley::setLabel<\/a>"],[0,1,"<a href=\"Galley.php.html#58\">PKP\\galley\\Galley::getLocale<\/a>"],[0,1,"<a href=\"Galley.php.html#68\">PKP\\galley\\Galley::setLocale<\/a>"],[0,2,"<a href=\"Galley.php.html#79\">PKP\\galley\\Galley::getBestGalleyId<\/a>"],[0,3,"<a href=\"Galley.php.html#91\">PKP\\galley\\Galley::getFile<\/a>"],[0,2,"<a href=\"Galley.php.html#106\">PKP\\galley\\Galley::getFileType<\/a>"],[0,1,"<a href=\"Galley.php.html#119\">PKP\\galley\\Galley::isPdfGalley<\/a>"],[0,3,"<a href=\"Galley.php.html#129\">PKP\\galley\\Galley::getGalleyLabel<\/a>"],[0,1,"<a href=\"Galley.php.html#148\">PKP\\galley\\Galley::getName<\/a>"],[0,1,"<a href=\"Galley.php.html#160\">PKP\\galley\\Galley::getLocalizedName<\/a>"],[0,3,"<a href=\"Galley.php.html#168\">PKP\\galley\\Galley::setStoredPubId<\/a>"],[0,1,"<a href=\"Galley.php.html#192\">PKP\\galley\\Galley::getLanguageNames<\/a>"],[0,1,"<a href=\"Galley.php.html#200\">PKP\\galley\\Galley::getLanguages<\/a>"],[0,1,"<a href=\"Repository.php.html#38\">PKP\\galley\\Repository::__construct<\/a>"],[0,2,"<a href=\"Repository.php.html#46\">PKP\\galley\\Repository::newDataObject<\/a>"],[0,1,"<a href=\"Repository.php.html#56\">PKP\\galley\\Repository::get<\/a>"],[0,1,"<a href=\"Repository.php.html#62\">PKP\\galley\\Repository::exists<\/a>"],[0,2,"<a href=\"Repository.php.html#71\">PKP\\galley\\Repository::getByBestId<\/a>"],[0,1,"<a href=\"Repository.php.html#81\">PKP\\galley\\Repository::getByUrlPath<\/a>"],[0,1,"<a href=\"Repository.php.html#87\">PKP\\galley\\Repository::getCollector<\/a>"],[0,1,"<a href=\"Repository.php.html#98\">PKP\\galley\\Repository::getSchemaMap<\/a>"],[0,6,"<a href=\"Repository.php.html#123\">PKP\\galley\\Repository::validate<\/a>"],[0,1,"<a href=\"Repository.php.html#172\">PKP\\galley\\Repository::add<\/a>"],[0,1,"<a href=\"Repository.php.html#181\">PKP\\galley\\Repository::edit<\/a>"],[0,2,"<a href=\"Repository.php.html#192\">PKP\\galley\\Repository::delete<\/a>"],[0,1,"<a href=\"maps\/Schema.php.html#34\">PKP\\galley\\maps\\Schema::__construct<\/a>"],[0,1,"<a href=\"maps\/Schema.php.html#46\">PKP\\galley\\maps\\Schema::map<\/a>"],[0,1,"<a href=\"maps\/Schema.php.html#56\">PKP\\galley\\maps\\Schema::summarize<\/a>"],[0,1,"<a href=\"maps\/Schema.php.html#66\">PKP\\galley\\maps\\Schema::mapMany<\/a>"],[0,1,"<a href=\"maps\/Schema.php.html#79\">PKP\\galley\\maps\\Schema::summarizeMany<\/a>"],[0,10,"<a href=\"maps\/Schema.php.html#90\">PKP\\galley\\maps\\Schema::mapByProperties<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

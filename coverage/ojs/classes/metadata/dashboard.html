@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /var/www/html/ojs-main/lib/pkp/classes/metadata</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../_css/bootstrap.min.css?v=11.0.5" rel="stylesheet" type="text/css">
+  <link href="../../_css/nv.d3.min.css?v=11.0.5" rel="stylesheet" type="text/css">
+  <link href="../../_css/style.css?v=11.0.5" rel="stylesheet" type="text/css">
+  <link href="../../_css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="../../index.html">/var/www/html/ojs-main/lib/pkp</a></li>
+         <li class="breadcrumb-item"><a href="../index.html">classes</a></li>
+         <li class="breadcrumb-item"><a href="index.html">metadata</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="CrosswalkFilter.php.html#26">PKP\metadata\CrosswalkFilter</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MetadataDataObjectAdapter.php.html#32">PKP\metadata\MetadataDataObjectAdapter</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MetadataDescription.php.html#106">PKP\metadata\MetadataDescription</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MetadataProperty.php.html#42">PKP\metadata\MetadataProperty</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MetadataRecord.php.html#24">PKP\metadata\MetadataRecord</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MetadataSchema.php.html#69">PKP\metadata\MetadataSchema</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MetadataTypeDescription.php.html#26">PKP\metadata\MetadataTypeDescription</a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="MetadataDescription.php.html#106">PKP\metadata\MetadataDescription</a></td><td class="text-right">4830</td></tr>
+       <tr><td><a href="MetadataProperty.php.html#42">PKP\metadata\MetadataProperty</a></td><td class="text-right">4422</td></tr>
+       <tr><td><a href="MetadataDataObjectAdapter.php.html#32">PKP\metadata\MetadataDataObjectAdapter</a></td><td class="text-right">2550</td></tr>
+       <tr><td><a href="MetadataSchema.php.html#69">PKP\metadata\MetadataSchema</a></td><td class="text-right">506</td></tr>
+       <tr><td><a href="MetadataTypeDescription.php.html#26">PKP\metadata\MetadataTypeDescription</a></td><td class="text-right">210</td></tr>
+       <tr><td><a href="MetadataRecord.php.html#24">PKP\metadata\MetadataRecord</a></td><td class="text-right">182</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="CrosswalkFilter.php.html#34"><abbr title="PKP\metadata\CrosswalkFilter::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MetadataDataObjectAdapter.php.html#67"><abbr title="PKP\metadata\MetadataDataObjectAdapter::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MetadataDataObjectAdapter.php.html#123"><abbr title="PKP\metadata\MetadataDataObjectAdapter::getMode">getMode</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MetadataDataObjectAdapter.php.html#134"><abbr title="PKP\metadata\MetadataDataObjectAdapter::getMetadataSchemaName">getMetadataSchemaName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MetadataDataObjectAdapter.php.html#144"><abbr title="PKP\metadata\MetadataDataObjectAdapter::getMetadataSchema">getMetadataSchema</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MetadataDataObjectAdapter.php.html#171"><abbr title="PKP\metadata\MetadataDataObjectAdapter::getMetadataNamespace">getMetadataNamespace</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MetadataDataObjectAdapter.php.html#182"><abbr title="PKP\metadata\MetadataDataObjectAdapter::getDataObjectName">getDataObjectName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MetadataDataObjectAdapter.php.html#193"><abbr title="PKP\metadata\MetadataDataObjectAdapter::getDataObjectClass">getDataObjectClass</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MetadataDataObjectAdapter.php.html#210"><abbr title="PKP\metadata\MetadataDataObjectAdapter::getAssocType">getAssocType</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MetadataDataObjectAdapter.php.html#220"><abbr title="PKP\metadata\MetadataDataObjectAdapter::setTargetDataObject">setTargetDataObject</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MetadataDataObjectAdapter.php.html#228"><abbr title="PKP\metadata\MetadataDataObjectAdapter::getTargetDataObject">getTargetDataObject</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MetadataDataObjectAdapter.php.html#245"><abbr title="PKP\metadata\MetadataDataObjectAdapter::injectMetadataIntoDataObject">injectMetadataIntoDataObject</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MetadataDataObjectAdapter.php.html#258"><abbr title="PKP\metadata\MetadataDataObjectAdapter::extractMetadataFromDataObject">extractMetadataFromDataObject</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MetadataDataObjectAdapter.php.html#277"><abbr title="PKP\metadata\MetadataDataObjectAdapter::getDataObjectMetadataFieldNames">getDataObjectMetadataFieldNames</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MetadataDataObjectAdapter.php.html#297"><abbr title="PKP\metadata\MetadataDataObjectAdapter::process">process</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MetadataDataObjectAdapter.php.html#340"><abbr title="PKP\metadata\MetadataDataObjectAdapter::instantiateDataObject">instantiateDataObject</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MetadataDataObjectAdapter.php.html#354"><abbr title="PKP\metadata\MetadataDataObjectAdapter::instantiateMetadataDescription">instantiateMetadataDescription</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MetadataDataObjectAdapter.php.html#369"><abbr title="PKP\metadata\MetadataDataObjectAdapter::getMetadataFieldNames">getMetadataFieldNames</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MetadataDataObjectAdapter.php.html#403"><abbr title="PKP\metadata\MetadataDataObjectAdapter::addLocalizedStatements">addLocalizedStatements</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MetadataDataObjectAdapter.php.html#427"><abbr title="PKP\metadata\MetadataDataObjectAdapter::injectUnmappedDataObjectMetadataFields">injectUnmappedDataObjectMetadataFields</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MetadataDataObjectAdapter.php.html#457"><abbr title="PKP\metadata\MetadataDataObjectAdapter::extractUnmappedDataObjectMetadataFields">extractUnmappedDataObjectMetadataFields</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MetadataDescription.php.html#141"><abbr title="PKP\metadata\MetadataDescription::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MetadataDescription.php.html#156"><abbr title="PKP\metadata\MetadataDescription::getMetadataSchemaName">getMetadataSchemaName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MetadataDescription.php.html#166"><abbr title="PKP\metadata\MetadataDescription::getMetadataSchema">getMetadataSchema</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MetadataDescription.php.html#190"><abbr title="PKP\metadata\MetadataDescription::getAssocType">getAssocType</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MetadataDescription.php.html#200"><abbr title="PKP\metadata\MetadataDescription::getAssocId">getAssocId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MetadataDescription.php.html#210"><abbr title="PKP\metadata\MetadataDescription::setAssocId">setAssocId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MetadataDescription.php.html#222"><abbr title="PKP\metadata\MetadataDescription::getAssoc">getAssoc</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MetadataDescription.php.html#235"><abbr title="PKP\metadata\MetadataDescription::setDisplayName">setDisplayName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MetadataDescription.php.html#245"><abbr title="PKP\metadata\MetadataDescription::getDisplayName">getDisplayName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MetadataDescription.php.html#255"><abbr title="PKP\metadata\MetadataDescription::setSequence">setSequence</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MetadataDescription.php.html#265"><abbr title="PKP\metadata\MetadataDescription::getSequence">getSequence</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MetadataDescription.php.html#283"><abbr title="PKP\metadata\MetadataDescription::addStatement">addStatement</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MetadataDescription.php.html#352"><abbr title="PKP\metadata\MetadataDescription::removeStatement">removeStatement</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MetadataDescription.php.html#368"><abbr title="PKP\metadata\MetadataDescription::getStatements">getStatements</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MetadataDescription.php.html#389"><abbr title="PKP\metadata\MetadataDescription::getStatement">getStatement</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MetadataDescription.php.html#419"><abbr title="PKP\metadata\MetadataDescription::getStatementTranslations">getStatementTranslations</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MetadataDescription.php.html#441"><abbr title="PKP\metadata\MetadataDescription::setStatements">setStatements</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MetadataDescription.php.html#520"><abbr title="PKP\metadata\MetadataDescription::getProperties">getProperties</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MetadataDescription.php.html#534"><abbr title="PKP\metadata\MetadataDescription::getProperty">getProperty</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MetadataDescription.php.html#548"><abbr title="PKP\metadata\MetadataDescription::getNamespacedPropertyId">getNamespacedPropertyId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MetadataDescription.php.html#560"><abbr title="PKP\metadata\MetadataDescription::getPropertyNames">getPropertyNames</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MetadataDescription.php.html#574"><abbr title="PKP\metadata\MetadataDescription::getPropertyNamesByType">getPropertyNamesByType</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MetadataDescription.php.html#586"><abbr title="PKP\metadata\MetadataDescription::getSetPropertyNames">getSetPropertyNames</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MetadataDescription.php.html#599"><abbr title="PKP\metadata\MetadataDescription::hasProperty">hasProperty</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MetadataDescription.php.html#612"><abbr title="PKP\metadata\MetadataDescription::hasStatement">hasStatement</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MetadataDescription.php.html#626"><abbr title="PKP\metadata\MetadataDescription::isTranslatedProperty">isTranslatedProperty</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MetadataDescription.php.html#641"><abbr title="PKP\metadata\MetadataDescription::_allowedReplaceLevels">_allowedReplaceLevels</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MetadataProperty.php.html#101"><abbr title="PKP\metadata\MetadataProperty::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MetadataProperty.php.html#223"><abbr title="PKP\metadata\MetadataProperty::getName">getName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MetadataProperty.php.html#235"><abbr title="PKP\metadata\MetadataProperty::getId">getId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MetadataProperty.php.html#256"><abbr title="PKP\metadata\MetadataProperty::getDisplayName">getDisplayName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MetadataProperty.php.html#269"><abbr title="PKP\metadata\MetadataProperty::getAssocTypes">getAssocTypes</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MetadataProperty.php.html#279"><abbr title="PKP\metadata\MetadataProperty::getAllowedTypes">getAllowedTypes</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MetadataProperty.php.html#289"><abbr title="PKP\metadata\MetadataProperty::getTranslated">getTranslated</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MetadataProperty.php.html#299"><abbr title="PKP\metadata\MetadataProperty::getCardinality">getCardinality</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MetadataProperty.php.html#309"><abbr title="PKP\metadata\MetadataProperty::getValidationMessage">getValidationMessage</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MetadataProperty.php.html#319"><abbr title="PKP\metadata\MetadataProperty::getMandatory">getMandatory</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MetadataProperty.php.html#343"><abbr title="PKP\metadata\MetadataProperty::isValid">isValid</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MetadataProperty.php.html#514"><abbr title="PKP\metadata\MetadataProperty::getSupportedTypes">getSupportedTypes</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MetadataProperty.php.html#532"><abbr title="PKP\metadata\MetadataProperty::getSupportedCardinalities">getSupportedCardinalities</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MetadataRecord.php.html#41"><abbr title="PKP\metadata\MetadataRecord::addDescription">addDescription</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MetadataRecord.php.html#72"><abbr title="PKP\metadata\MetadataRecord::removeDescription">removeDescription</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MetadataRecord.php.html#88"><abbr title="PKP\metadata\MetadataRecord::getDescriptions">getDescriptions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MetadataRecord.php.html#102"><abbr title="PKP\metadata\MetadataRecord::getDescription">getDescription</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MetadataRecord.php.html#124"><abbr title="PKP\metadata\MetadataRecord::setDescriptions">setDescriptions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MetadataSchema.php.html#103"><abbr title="PKP\metadata\MetadataSchema::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MetadataSchema.php.html#129"><abbr title="PKP\metadata\MetadataSchema::getName">getName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MetadataSchema.php.html#139"><abbr title="PKP\metadata\MetadataSchema::getNamespace">getNamespace</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MetadataSchema.php.html#149"><abbr title="PKP\metadata\MetadataSchema::getClassName">getClassName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MetadataSchema.php.html#160"><abbr title="PKP\metadata\MetadataSchema::getAssocTypes">getAssocTypes</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MetadataSchema.php.html#170"><abbr title="PKP\metadata\MetadataSchema::getProperties">getProperties</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MetadataSchema.php.html#181"><abbr title="PKP\metadata\MetadataSchema::getProperty">getProperty</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MetadataSchema.php.html#200"><abbr title="PKP\metadata\MetadataSchema::getNamespacedPropertyId">getNamespacedPropertyId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MetadataSchema.php.html#212"><abbr title="PKP\metadata\MetadataSchema::setProperties">setProperties</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MetadataSchema.php.html#234"><abbr title="PKP\metadata\MetadataSchema::addProperty">addProperty</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MetadataSchema.php.html#258"><abbr title="PKP\metadata\MetadataSchema::getPropertyNames">getPropertyNames</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MetadataSchema.php.html#270"><abbr title="PKP\metadata\MetadataSchema::getPropertyNamesByType">getPropertyNamesByType</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MetadataSchema.php.html#292"><abbr title="PKP\metadata\MetadataSchema::hasProperty">hasProperty</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MetadataTypeDescription.php.html#46"><abbr title="PKP\metadata\MetadataTypeDescription::getNamespace">getNamespace</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MetadataTypeDescription.php.html#54"><abbr title="PKP\metadata\MetadataTypeDescription::getMetadataSchemaClass">getMetadataSchemaClass</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MetadataTypeDescription.php.html#68"><abbr title="PKP\metadata\MetadataTypeDescription::getAssocType">getAssocType</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MetadataTypeDescription.php.html#80"><abbr title="PKP\metadata\MetadataTypeDescription::parseTypeName">parseTypeName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MetadataTypeDescription.php.html#119"><abbr title="PKP\metadata\MetadataTypeDescription::checkType">checkType</abbr></a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="MetadataProperty.php.html#343"><abbr title="PKP\metadata\MetadataProperty::isValid">isValid</abbr></a></td><td class="text-right">1190</td></tr>
+       <tr><td><a href="MetadataProperty.php.html#101"><abbr title="PKP\metadata\MetadataProperty::__construct">__construct</abbr></a></td><td class="text-right">462</td></tr>
+       <tr><td><a href="MetadataDescription.php.html#441"><abbr title="PKP\metadata\MetadataDescription::setStatements">setStatements</abbr></a></td><td class="text-right">306</td></tr>
+       <tr><td><a href="MetadataDescription.php.html#283"><abbr title="PKP\metadata\MetadataDescription::addStatement">addStatement</abbr></a></td><td class="text-right">240</td></tr>
+       <tr><td><a href="MetadataDataObjectAdapter.php.html#457"><abbr title="PKP\metadata\MetadataDataObjectAdapter::extractUnmappedDataObjectMetadataFields">extractUnmappedDataObjectMetadataFields</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="MetadataDataObjectAdapter.php.html#67"><abbr title="PKP\metadata\MetadataDataObjectAdapter::__construct">__construct</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="MetadataDataObjectAdapter.php.html#144"><abbr title="PKP\metadata\MetadataDataObjectAdapter::getMetadataSchema">getMetadataSchema</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="MetadataDataObjectAdapter.php.html#297"><abbr title="PKP\metadata\MetadataDataObjectAdapter::process">process</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="MetadataDataObjectAdapter.php.html#403"><abbr title="PKP\metadata\MetadataDataObjectAdapter::addLocalizedStatements">addLocalizedStatements</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="MetadataDataObjectAdapter.php.html#427"><abbr title="PKP\metadata\MetadataDataObjectAdapter::injectUnmappedDataObjectMetadataFields">injectUnmappedDataObjectMetadataFields</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="MetadataDescription.php.html#166"><abbr title="PKP\metadata\MetadataDescription::getMetadataSchema">getMetadataSchema</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="MetadataDescription.php.html#389"><abbr title="PKP\metadata\MetadataDescription::getStatement">getStatement</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="MetadataSchema.php.html#103"><abbr title="PKP\metadata\MetadataSchema::__construct">__construct</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="MetadataTypeDescription.php.html#80"><abbr title="PKP\metadata\MetadataTypeDescription::parseTypeName">parseTypeName</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="MetadataTypeDescription.php.html#119"><abbr title="PKP\metadata\MetadataTypeDescription::checkType">checkType</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="MetadataDataObjectAdapter.php.html#369"><abbr title="PKP\metadata\MetadataDataObjectAdapter::getMetadataFieldNames">getMetadataFieldNames</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="MetadataRecord.php.html#41"><abbr title="PKP\metadata\MetadataRecord::addDescription">addDescription</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="MetadataDescription.php.html#352"><abbr title="PKP\metadata\MetadataDescription::removeStatement">removeStatement</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="MetadataRecord.php.html#72"><abbr title="PKP\metadata\MetadataRecord::removeDescription">removeDescription</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="MetadataRecord.php.html#124"><abbr title="PKP\metadata\MetadataRecord::setDescriptions">setDescriptions</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="MetadataSchema.php.html#270"><abbr title="PKP\metadata\MetadataSchema::getPropertyNamesByType">getPropertyNamesByType</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="MetadataDataObjectAdapter.php.html#193"><abbr title="PKP\metadata\MetadataDataObjectAdapter::getDataObjectClass">getDataObjectClass</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="MetadataDescription.php.html#141"><abbr title="PKP\metadata\MetadataDescription::__construct">__construct</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="MetadataDescription.php.html#222"><abbr title="PKP\metadata\MetadataDescription::getAssoc">getAssoc</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="MetadataRecord.php.html#102"><abbr title="PKP\metadata\MetadataRecord::getDescription">getDescription</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="MetadataSchema.php.html#181"><abbr title="PKP\metadata\MetadataSchema::getProperty">getProperty</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="MetadataSchema.php.html#212"><abbr title="PKP\metadata\MetadataSchema::setProperties">setProperties</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="MetadataSchema.php.html#234"><abbr title="PKP\metadata\MetadataSchema::addProperty">addProperty</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="MetadataTypeDescription.php.html#54"><abbr title="PKP\metadata\MetadataTypeDescription::getMetadataSchemaClass">getMetadataSchemaClass</abbr></a></td><td class="text-right">6</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 11.0.5</a> using <a href="https://www.php.net/" target="_top">PHP 8.3.11</a> and <a href="https://phpunit.de/">PHPUnit 11.2.8</a> at Wed Sep 4 13:31:09 UTC 2024.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../../_js/jquery.min.js?v=11.0.5" type="text/javascript"></script>
+  <script src="../../_js/d3.min.js?v=11.0.5" type="text/javascript"></script>
+  <script src="../../_js/nv.d3.min.js?v=11.0.5" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([7,0,0,0,0,0,0,0,0,0,0,0], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([84,0,0,0,0,0,0,0,0,0,0,0], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[0,1,"<a href=\"CrosswalkFilter.php.html#26\">PKP\\metadata\\CrosswalkFilter<\/a>"],[0,50,"<a href=\"MetadataDataObjectAdapter.php.html#32\">PKP\\metadata\\MetadataDataObjectAdapter<\/a>"],[0,69,"<a href=\"MetadataDescription.php.html#106\">PKP\\metadata\\MetadataDescription<\/a>"],[0,66,"<a href=\"MetadataProperty.php.html#42\">PKP\\metadata\\MetadataProperty<\/a>"],[0,13,"<a href=\"MetadataRecord.php.html#24\">PKP\\metadata\\MetadataRecord<\/a>"],[0,22,"<a href=\"MetadataSchema.php.html#69\">PKP\\metadata\\MetadataSchema<\/a>"],[0,14,"<a href=\"MetadataTypeDescription.php.html#26\">PKP\\metadata\\MetadataTypeDescription<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[0,1,"<a href=\"CrosswalkFilter.php.html#34\">PKP\\metadata\\CrosswalkFilter::__construct<\/a>"],[0,5,"<a href=\"MetadataDataObjectAdapter.php.html#67\">PKP\\metadata\\MetadataDataObjectAdapter::__construct<\/a>"],[0,1,"<a href=\"MetadataDataObjectAdapter.php.html#123\">PKP\\metadata\\MetadataDataObjectAdapter::getMode<\/a>"],[0,1,"<a href=\"MetadataDataObjectAdapter.php.html#134\">PKP\\metadata\\MetadataDataObjectAdapter::getMetadataSchemaName<\/a>"],[0,5,"<a href=\"MetadataDataObjectAdapter.php.html#144\">PKP\\metadata\\MetadataDataObjectAdapter::getMetadataSchema<\/a>"],[0,1,"<a href=\"MetadataDataObjectAdapter.php.html#171\">PKP\\metadata\\MetadataDataObjectAdapter::getMetadataNamespace<\/a>"],[0,1,"<a href=\"MetadataDataObjectAdapter.php.html#182\">PKP\\metadata\\MetadataDataObjectAdapter::getDataObjectName<\/a>"],[0,2,"<a href=\"MetadataDataObjectAdapter.php.html#193\">PKP\\metadata\\MetadataDataObjectAdapter::getDataObjectClass<\/a>"],[0,1,"<a href=\"MetadataDataObjectAdapter.php.html#210\">PKP\\metadata\\MetadataDataObjectAdapter::getAssocType<\/a>"],[0,1,"<a href=\"MetadataDataObjectAdapter.php.html#220\">PKP\\metadata\\MetadataDataObjectAdapter::setTargetDataObject<\/a>"],[0,1,"<a href=\"MetadataDataObjectAdapter.php.html#228\">PKP\\metadata\\MetadataDataObjectAdapter::getTargetDataObject<\/a>"],[0,1,"<a href=\"MetadataDataObjectAdapter.php.html#245\">PKP\\metadata\\MetadataDataObjectAdapter::injectMetadataIntoDataObject<\/a>"],[0,1,"<a href=\"MetadataDataObjectAdapter.php.html#258\">PKP\\metadata\\MetadataDataObjectAdapter::extractMetadataFromDataObject<\/a>"],[0,1,"<a href=\"MetadataDataObjectAdapter.php.html#277\">PKP\\metadata\\MetadataDataObjectAdapter::getDataObjectMetadataFieldNames<\/a>"],[0,5,"<a href=\"MetadataDataObjectAdapter.php.html#297\">PKP\\metadata\\MetadataDataObjectAdapter::process<\/a>"],[0,1,"<a href=\"MetadataDataObjectAdapter.php.html#340\">PKP\\metadata\\MetadataDataObjectAdapter::instantiateDataObject<\/a>"],[0,1,"<a href=\"MetadataDataObjectAdapter.php.html#354\">PKP\\metadata\\MetadataDataObjectAdapter::instantiateMetadataDescription<\/a>"],[0,4,"<a href=\"MetadataDataObjectAdapter.php.html#369\">PKP\\metadata\\MetadataDataObjectAdapter::getMetadataFieldNames<\/a>"],[0,5,"<a href=\"MetadataDataObjectAdapter.php.html#403\">PKP\\metadata\\MetadataDataObjectAdapter::addLocalizedStatements<\/a>"],[0,5,"<a href=\"MetadataDataObjectAdapter.php.html#427\">PKP\\metadata\\MetadataDataObjectAdapter::injectUnmappedDataObjectMetadataFields<\/a>"],[0,7,"<a href=\"MetadataDataObjectAdapter.php.html#457\">PKP\\metadata\\MetadataDataObjectAdapter::extractUnmappedDataObjectMetadataFields<\/a>"],[0,2,"<a href=\"MetadataDescription.php.html#141\">PKP\\metadata\\MetadataDescription::__construct<\/a>"],[0,1,"<a href=\"MetadataDescription.php.html#156\">PKP\\metadata\\MetadataDescription::getMetadataSchemaName<\/a>"],[0,5,"<a href=\"MetadataDescription.php.html#166\">PKP\\metadata\\MetadataDescription::getMetadataSchema<\/a>"],[0,1,"<a href=\"MetadataDescription.php.html#190\">PKP\\metadata\\MetadataDescription::getAssocType<\/a>"],[0,1,"<a href=\"MetadataDescription.php.html#200\">PKP\\metadata\\MetadataDescription::getAssocId<\/a>"],[0,1,"<a href=\"MetadataDescription.php.html#210\">PKP\\metadata\\MetadataDescription::setAssocId<\/a>"],[0,2,"<a href=\"MetadataDescription.php.html#222\">PKP\\metadata\\MetadataDescription::getAssoc<\/a>"],[0,1,"<a href=\"MetadataDescription.php.html#235\">PKP\\metadata\\MetadataDescription::setDisplayName<\/a>"],[0,1,"<a href=\"MetadataDescription.php.html#245\">PKP\\metadata\\MetadataDescription::getDisplayName<\/a>"],[0,1,"<a href=\"MetadataDescription.php.html#255\">PKP\\metadata\\MetadataDescription::setSequence<\/a>"],[0,1,"<a href=\"MetadataDescription.php.html#265\">PKP\\metadata\\MetadataDescription::getSequence<\/a>"],[0,15,"<a href=\"MetadataDescription.php.html#283\">PKP\\metadata\\MetadataDescription::addStatement<\/a>"],[0,3,"<a href=\"MetadataDescription.php.html#352\">PKP\\metadata\\MetadataDescription::removeStatement<\/a>"],[0,1,"<a href=\"MetadataDescription.php.html#368\">PKP\\metadata\\MetadataDescription::getStatements<\/a>"],[0,5,"<a href=\"MetadataDescription.php.html#389\">PKP\\metadata\\MetadataDescription::getStatement<\/a>"],[0,1,"<a href=\"MetadataDescription.php.html#419\">PKP\\metadata\\MetadataDescription::getStatementTranslations<\/a>"],[0,17,"<a href=\"MetadataDescription.php.html#441\">PKP\\metadata\\MetadataDescription::setStatements<\/a>"],[0,1,"<a href=\"MetadataDescription.php.html#520\">PKP\\metadata\\MetadataDescription::getProperties<\/a>"],[0,1,"<a href=\"MetadataDescription.php.html#534\">PKP\\metadata\\MetadataDescription::getProperty<\/a>"],[0,1,"<a href=\"MetadataDescription.php.html#548\">PKP\\metadata\\MetadataDescription::getNamespacedPropertyId<\/a>"],[0,1,"<a href=\"MetadataDescription.php.html#560\">PKP\\metadata\\MetadataDescription::getPropertyNames<\/a>"],[0,1,"<a href=\"MetadataDescription.php.html#574\">PKP\\metadata\\MetadataDescription::getPropertyNamesByType<\/a>"],[0,1,"<a href=\"MetadataDescription.php.html#586\">PKP\\metadata\\MetadataDescription::getSetPropertyNames<\/a>"],[0,1,"<a href=\"MetadataDescription.php.html#599\">PKP\\metadata\\MetadataDescription::hasProperty<\/a>"],[0,1,"<a href=\"MetadataDescription.php.html#612\">PKP\\metadata\\MetadataDescription::hasStatement<\/a>"],[0,1,"<a href=\"MetadataDescription.php.html#626\">PKP\\metadata\\MetadataDescription::isTranslatedProperty<\/a>"],[0,1,"<a href=\"MetadataDescription.php.html#641\">PKP\\metadata\\MetadataDescription::_allowedReplaceLevels<\/a>"],[0,21,"<a href=\"MetadataProperty.php.html#101\">PKP\\metadata\\MetadataProperty::__construct<\/a>"],[0,1,"<a href=\"MetadataProperty.php.html#223\">PKP\\metadata\\MetadataProperty::getName<\/a>"],[0,1,"<a href=\"MetadataProperty.php.html#235\">PKP\\metadata\\MetadataProperty::getId<\/a>"],[0,1,"<a href=\"MetadataProperty.php.html#256\">PKP\\metadata\\MetadataProperty::getDisplayName<\/a>"],[0,1,"<a href=\"MetadataProperty.php.html#269\">PKP\\metadata\\MetadataProperty::getAssocTypes<\/a>"],[0,1,"<a href=\"MetadataProperty.php.html#279\">PKP\\metadata\\MetadataProperty::getAllowedTypes<\/a>"],[0,1,"<a href=\"MetadataProperty.php.html#289\">PKP\\metadata\\MetadataProperty::getTranslated<\/a>"],[0,1,"<a href=\"MetadataProperty.php.html#299\">PKP\\metadata\\MetadataProperty::getCardinality<\/a>"],[0,1,"<a href=\"MetadataProperty.php.html#309\">PKP\\metadata\\MetadataProperty::getValidationMessage<\/a>"],[0,1,"<a href=\"MetadataProperty.php.html#319\">PKP\\metadata\\MetadataProperty::getMandatory<\/a>"],[0,34,"<a href=\"MetadataProperty.php.html#343\">PKP\\metadata\\MetadataProperty::isValid<\/a>"],[0,1,"<a href=\"MetadataProperty.php.html#514\">PKP\\metadata\\MetadataProperty::getSupportedTypes<\/a>"],[0,1,"<a href=\"MetadataProperty.php.html#532\">PKP\\metadata\\MetadataProperty::getSupportedCardinalities<\/a>"],[0,4,"<a href=\"MetadataRecord.php.html#41\">PKP\\metadata\\MetadataRecord::addDescription<\/a>"],[0,3,"<a href=\"MetadataRecord.php.html#72\">PKP\\metadata\\MetadataRecord::removeDescription<\/a>"],[0,1,"<a href=\"MetadataRecord.php.html#88\">PKP\\metadata\\MetadataRecord::getDescriptions<\/a>"],[0,2,"<a href=\"MetadataRecord.php.html#102\">PKP\\metadata\\MetadataRecord::getDescription<\/a>"],[0,3,"<a href=\"MetadataRecord.php.html#124\">PKP\\metadata\\MetadataRecord::setDescriptions<\/a>"],[0,5,"<a href=\"MetadataSchema.php.html#103\">PKP\\metadata\\MetadataSchema::__construct<\/a>"],[0,1,"<a href=\"MetadataSchema.php.html#129\">PKP\\metadata\\MetadataSchema::getName<\/a>"],[0,1,"<a href=\"MetadataSchema.php.html#139\">PKP\\metadata\\MetadataSchema::getNamespace<\/a>"],[0,1,"<a href=\"MetadataSchema.php.html#149\">PKP\\metadata\\MetadataSchema::getClassName<\/a>"],[0,1,"<a href=\"MetadataSchema.php.html#160\">PKP\\metadata\\MetadataSchema::getAssocTypes<\/a>"],[0,1,"<a href=\"MetadataSchema.php.html#170\">PKP\\metadata\\MetadataSchema::getProperties<\/a>"],[0,2,"<a href=\"MetadataSchema.php.html#181\">PKP\\metadata\\MetadataSchema::getProperty<\/a>"],[0,1,"<a href=\"MetadataSchema.php.html#200\">PKP\\metadata\\MetadataSchema::getNamespacedPropertyId<\/a>"],[0,2,"<a href=\"MetadataSchema.php.html#212\">PKP\\metadata\\MetadataSchema::setProperties<\/a>"],[0,2,"<a href=\"MetadataSchema.php.html#234\">PKP\\metadata\\MetadataSchema::addProperty<\/a>"],[0,1,"<a href=\"MetadataSchema.php.html#258\">PKP\\metadata\\MetadataSchema::getPropertyNames<\/a>"],[0,3,"<a href=\"MetadataSchema.php.html#270\">PKP\\metadata\\MetadataSchema::getPropertyNamesByType<\/a>"],[0,1,"<a href=\"MetadataSchema.php.html#292\">PKP\\metadata\\MetadataSchema::hasProperty<\/a>"],[0,1,"<a href=\"MetadataTypeDescription.php.html#46\">PKP\\metadata\\MetadataTypeDescription::getNamespace<\/a>"],[0,2,"<a href=\"MetadataTypeDescription.php.html#54\">PKP\\metadata\\MetadataTypeDescription::getMetadataSchemaClass<\/a>"],[0,1,"<a href=\"MetadataTypeDescription.php.html#68\">PKP\\metadata\\MetadataTypeDescription::getAssocType<\/a>"],[0,5,"<a href=\"MetadataTypeDescription.php.html#80\">PKP\\metadata\\MetadataTypeDescription::parseTypeName<\/a>"],[0,5,"<a href=\"MetadataTypeDescription.php.html#119\">PKP\\metadata\\MetadataTypeDescription::checkType<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

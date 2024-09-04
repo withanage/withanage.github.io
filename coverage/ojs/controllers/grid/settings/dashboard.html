@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /var/www/html/ojs-main/lib/pkp/controllers/grid/settings</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../../_css/bootstrap.min.css?v=11.0.5" rel="stylesheet" type="text/css">
+  <link href="../../../_css/nv.d3.min.css?v=11.0.5" rel="stylesheet" type="text/css">
+  <link href="../../../_css/style.css?v=11.0.5" rel="stylesheet" type="text/css">
+  <link href="../../../_css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="../../../index.html">/var/www/html/ojs-main/lib/pkp</a></li>
+         <li class="breadcrumb-item"><a href="../../index.html">controllers</a></li>
+         <li class="breadcrumb-item"><a href="../index.html">grid</a></li>
+         <li class="breadcrumb-item"><a href="index.html">settings</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="SetupGridHandler.php.html#26">PKP\controllers\grid\settings\SetupGridHandler</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="category/CategoryCategoryGridHandler.php.html#35">PKP\controllers\grid\settings\category\CategoryCategoryGridHandler</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="category/CategoryGridCategoryRow.php.html#26">PKP\controllers\grid\settings\category\CategoryGridCategoryRow</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="category/CategoryGridRow.php.html#24">PKP\controllers\grid\settings\category\CategoryGridRow</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="category/form/CategoryForm.php.html#32">PKP\controllers\grid\settings\category\form\CategoryForm</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="genre/GenreGridHandler.php.html#36">PKP\controllers\grid\settings\genre\GenreGridHandler</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="genre/GenreGridRow.php.html#24">PKP\controllers\grid\settings\genre\GenreGridRow</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="genre/form/GenreForm.php.html#27">PKP\controllers\grid\settings\genre\form\GenreForm</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="languages/ManageLanguageGridHandler.php.html#28">PKP\controllers\grid\settings\languages\ManageLanguageGridHandler</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="languages/SubmissionLanguageGridHandler.php.html#31">PKP\controllers\grid\settings\languages\SubmissionLanguageGridHandler</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="library/LibraryFileAdminGridDataProvider.php.html#25">PKP\controllers\grid\settings\library\LibraryFileAdminGridDataProvider</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="library/LibraryFileAdminGridHandler.php.html#25">PKP\controllers\grid\settings\library\LibraryFileAdminGridHandler</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="library/form/EditLibraryFileForm.php.html#27">PKP\controllers\grid\settings\library\form\EditLibraryFileForm</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="library/form/NewLibraryFileForm.php.html#28">PKP\controllers\grid\settings\library\form\NewLibraryFileForm</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewForms/ReviewFormElementGridCellProvider.php.html#21">PKP\controllers\grid\settings\reviewForms\ReviewFormElementGridCellProvider</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewForms/ReviewFormElementGridRow.php.html#24">PKP\controllers\grid\settings\reviewForms\ReviewFormElementGridRow</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewForms/ReviewFormElementsGridHandler.php.html#36">PKP\controllers\grid\settings\reviewForms\ReviewFormElementsGridHandler</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewForms/ReviewFormGridCellProvider.php.html#25">PKP\controllers\grid\settings\reviewForms\ReviewFormGridCellProvider</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewForms/ReviewFormGridHandler.php.html#40">PKP\controllers\grid\settings\reviewForms\ReviewFormGridHandler</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewForms/ReviewFormGridRow.php.html#24">PKP\controllers\grid\settings\reviewForms\ReviewFormGridRow</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewForms/form/PreviewReviewForm.php.html#28">PKP\controllers\grid\settings\reviewForms\form\PreviewReviewForm</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewForms/form/ReviewFormElementForm.php.html#32">PKP\controllers\grid\settings\reviewForms\form\ReviewFormElementForm</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewForms/form/ReviewFormElements.php.html#27">PKP\controllers\grid\settings\reviewForms\form\ReviewFormElements</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewForms/form/ReviewFormForm.php.html#26">PKP\controllers\grid\settings\reviewForms\form\ReviewFormForm</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="roles/UserGroupGridCellProvider.php.html#30">PKP\controllers\grid\settings\roles\UserGroupGridCellProvider</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="roles/UserGroupGridHandler.php.html#41">PKP\controllers\grid\settings\roles\UserGroupGridHandler</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="roles/UserGroupGridRow.php.html#25">PKP\controllers\grid\settings\roles\UserGroupGridRow</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="roles/form/UserGroupForm.php.html#33">PKP\controllers\grid\settings\roles\form\UserGroupForm</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="sections/form/PKPSectionForm.php.html#30">PKP\controllers\grid\settings\sections\form\PKPSectionForm</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="user/UserGridHandler.php.html#46">PKP\controllers\grid\settings\user\UserGridHandler</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="user/UserGridRow.php.html#29">PKP\controllers\grid\settings\user\UserGridRow</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="user/form/UserDetailsForm.php.html#38">PKP\controllers\grid\settings\user\form\UserDetailsForm</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="user/form/UserDisableForm.php.html#25">PKP\controllers\grid\settings\user\form\UserDisableForm</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="user/form/UserEmailForm.php.html#29">PKP\controllers\grid\settings\user\form\UserEmailForm</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="user/form/UserForm.php.html#24">PKP\controllers\grid\settings\user\form\UserForm</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="user/form/UserRoleForm.php.html#23">PKP\controllers\grid\settings\user\form\UserRoleForm</a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="user/UserGridHandler.php.html#46">PKP\controllers\grid\settings\user\UserGridHandler</a></td><td class="text-right">3906</td></tr>
+       <tr><td><a href="category/form/CategoryForm.php.html#32">PKP\controllers\grid\settings\category\form\CategoryForm</a></td><td class="text-right">2162</td></tr>
+       <tr><td><a href="user/form/UserDetailsForm.php.html#38">PKP\controllers\grid\settings\user\form\UserDetailsForm</a></td><td class="text-right">1722</td></tr>
+       <tr><td><a href="roles/UserGroupGridHandler.php.html#41">PKP\controllers\grid\settings\roles\UserGroupGridHandler</a></td><td class="text-right">1640</td></tr>
+       <tr><td><a href="roles/form/UserGroupForm.php.html#33">PKP\controllers\grid\settings\roles\form\UserGroupForm</a></td><td class="text-right">1640</td></tr>
+       <tr><td><a href="reviewForms/ReviewFormGridHandler.php.html#40">PKP\controllers\grid\settings\reviewForms\ReviewFormGridHandler</a></td><td class="text-right">1406</td></tr>
+       <tr><td><a href="category/CategoryCategoryGridHandler.php.html#35">PKP\controllers\grid\settings\category\CategoryCategoryGridHandler</a></td><td class="text-right">650</td></tr>
+       <tr><td><a href="reviewForms/ReviewFormElementsGridHandler.php.html#36">PKP\controllers\grid\settings\reviewForms\ReviewFormElementsGridHandler</a></td><td class="text-right">462</td></tr>
+       <tr><td><a href="genre/GenreGridHandler.php.html#36">PKP\controllers\grid\settings\genre\GenreGridHandler</a></td><td class="text-right">420</td></tr>
+       <tr><td><a href="reviewForms/form/ReviewFormElementForm.php.html#32">PKP\controllers\grid\settings\reviewForms\form\ReviewFormElementForm</a></td><td class="text-right">380</td></tr>
+       <tr><td><a href="user/form/UserForm.php.html#24">PKP\controllers\grid\settings\user\form\UserForm</a></td><td class="text-right">272</td></tr>
+       <tr><td><a href="sections/form/PKPSectionForm.php.html#30">PKP\controllers\grid\settings\sections\form\PKPSectionForm</a></td><td class="text-right">240</td></tr>
+       <tr><td><a href="user/UserGridRow.php.html#29">PKP\controllers\grid\settings\user\UserGridRow</a></td><td class="text-right">210</td></tr>
+       <tr><td><a href="genre/form/GenreForm.php.html#27">PKP\controllers\grid\settings\genre\form\GenreForm</a></td><td class="text-right">182</td></tr>
+       <tr><td><a href="reviewForms/form/ReviewFormForm.php.html#26">PKP\controllers\grid\settings\reviewForms\form\ReviewFormForm</a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="roles/UserGroupGridCellProvider.php.html#30">PKP\controllers\grid\settings\roles\UserGroupGridCellProvider</a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="user/form/UserDisableForm.php.html#25">PKP\controllers\grid\settings\user\form\UserDisableForm</a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="languages/ManageLanguageGridHandler.php.html#28">PKP\controllers\grid\settings\languages\ManageLanguageGridHandler</a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="reviewForms/ReviewFormGridCellProvider.php.html#25">PKP\controllers\grid\settings\reviewForms\ReviewFormGridCellProvider</a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="languages/SubmissionLanguageGridHandler.php.html#31">PKP\controllers\grid\settings\languages\SubmissionLanguageGridHandler</a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="library/form/EditLibraryFileForm.php.html#27">PKP\controllers\grid\settings\library\form\EditLibraryFileForm</a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="reviewForms/ReviewFormGridRow.php.html#24">PKP\controllers\grid\settings\reviewForms\ReviewFormGridRow</a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="SetupGridHandler.php.html#26">PKP\controllers\grid\settings\SetupGridHandler</a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="category/CategoryGridCategoryRow.php.html#26">PKP\controllers\grid\settings\category\CategoryGridCategoryRow</a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="user/form/UserEmailForm.php.html#29">PKP\controllers\grid\settings\user\form\UserEmailForm</a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="reviewForms/ReviewFormElementGridCellProvider.php.html#21">PKP\controllers\grid\settings\reviewForms\ReviewFormElementGridCellProvider</a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="reviewForms/form/PreviewReviewForm.php.html#28">PKP\controllers\grid\settings\reviewForms\form\PreviewReviewForm</a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="reviewForms/form/ReviewFormElements.php.html#27">PKP\controllers\grid\settings\reviewForms\form\ReviewFormElements</a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="category/CategoryGridRow.php.html#24">PKP\controllers\grid\settings\category\CategoryGridRow</a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="genre/GenreGridRow.php.html#24">PKP\controllers\grid\settings\genre\GenreGridRow</a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="reviewForms/ReviewFormElementGridRow.php.html#24">PKP\controllers\grid\settings\reviewForms\ReviewFormElementGridRow</a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="roles/UserGroupGridRow.php.html#25">PKP\controllers\grid\settings\roles\UserGroupGridRow</a></td><td class="text-right">12</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="SetupGridHandler.php.html#31"><abbr title="PKP\controllers\grid\settings\SetupGridHandler::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SetupGridHandler.php.html#45"><abbr title="PKP\controllers\grid\settings\SetupGridHandler::authorize">authorize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SetupGridHandler.php.html#59"><abbr title="PKP\controllers\grid\settings\SetupGridHandler::uploadImage">uploadImage</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="category/CategoryCategoryGridHandler.php.html#42"><abbr title="PKP\controllers\grid\settings\category\CategoryCategoryGridHandler::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="category/CategoryCategoryGridHandler.php.html#67"><abbr title="PKP\controllers\grid\settings\category\CategoryCategoryGridHandler::authorize">authorize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="category/CategoryCategoryGridHandler.php.html#79"><abbr title="PKP\controllers\grid\settings\category\CategoryCategoryGridHandler::initialize">initialize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="category/CategoryCategoryGridHandler.php.html#122"><abbr title="PKP\controllers\grid\settings\category\CategoryCategoryGridHandler::loadData">loadData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="category/CategoryCategoryGridHandler.php.html#135"><abbr title="PKP\controllers\grid\settings\category\CategoryCategoryGridHandler::initFeatures">initFeatures</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="category/CategoryCategoryGridHandler.php.html#146"><abbr title="PKP\controllers\grid\settings\category\CategoryCategoryGridHandler::getDataElementInCategorySequence">getDataElementInCategorySequence</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="category/CategoryCategoryGridHandler.php.html#154"><abbr title="PKP\controllers\grid\settings\category\CategoryCategoryGridHandler::setDataElementInCategorySequence">setDataElementInCategorySequence</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="category/CategoryCategoryGridHandler.php.html#163"><abbr title="PKP\controllers\grid\settings\category\CategoryCategoryGridHandler::getDataElementSequence">getDataElementSequence</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="category/CategoryCategoryGridHandler.php.html#171"><abbr title="PKP\controllers\grid\settings\category\CategoryCategoryGridHandler::setDataElementSequence">setDataElementSequence</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="category/CategoryCategoryGridHandler.php.html#180"><abbr title="PKP\controllers\grid\settings\category\CategoryCategoryGridHandler::getCategoryRowIdParameterName">getCategoryRowIdParameterName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="category/CategoryCategoryGridHandler.php.html#188"><abbr title="PKP\controllers\grid\settings\category\CategoryCategoryGridHandler::getRowInstance">getRowInstance</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="category/CategoryCategoryGridHandler.php.html#196"><abbr title="PKP\controllers\grid\settings\category\CategoryCategoryGridHandler::getCategoryRowInstance">getCategoryRowInstance</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="category/CategoryCategoryGridHandler.php.html#206"><abbr title="PKP\controllers\grid\settings\category\CategoryCategoryGridHandler::loadCategoryData">loadCategoryData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="category/CategoryCategoryGridHandler.php.html#222"><abbr title="PKP\controllers\grid\settings\category\CategoryCategoryGridHandler::addCategory">addCategory</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="category/CategoryCategoryGridHandler.php.html#235"><abbr title="PKP\controllers\grid\settings\category\CategoryCategoryGridHandler::editCategory">editCategory</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="category/CategoryCategoryGridHandler.php.html#252"><abbr title="PKP\controllers\grid\settings\category\CategoryCategoryGridHandler::updateCategory">updateCategory</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="category/CategoryCategoryGridHandler.php.html#273"><abbr title="PKP\controllers\grid\settings\category\CategoryCategoryGridHandler::deleteCategory">deleteCategory</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="category/CategoryCategoryGridHandler.php.html#298"><abbr title="PKP\controllers\grid\settings\category\CategoryCategoryGridHandler::uploadImage">uploadImage</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="category/CategoryCategoryGridHandler.php.html#325"><abbr title="PKP\controllers\grid\settings\category\CategoryCategoryGridHandler::_getCategoryForm">_getCategoryForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="category/CategoryCategoryGridHandler.php.html#340"><abbr title="PKP\controllers\grid\settings\category\CategoryCategoryGridHandler::_getContextId">_getContextId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="category/CategoryGridCategoryRow.php.html#36"><abbr title="PKP\controllers\grid\settings\category\CategoryGridCategoryRow::initialize">initialize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="category/CategoryGridCategoryRow.php.html#85"><abbr title="PKP\controllers\grid\settings\category\CategoryGridCategoryRow::getCategoryLabel">getCategoryLabel</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="category/CategoryGridRow.php.html#34"><abbr title="PKP\controllers\grid\settings\category\CategoryGridRow::initialize">initialize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="category/form/CategoryForm.php.html#59"><abbr title="PKP\controllers\grid\settings\category\form\CategoryForm::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="category/form/CategoryForm.php.html#100"><abbr title="PKP\controllers\grid\settings\category\form\CategoryForm::getCategoryId">getCategoryId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="category/form/CategoryForm.php.html#110"><abbr title="PKP\controllers\grid\settings\category\form\CategoryForm::setCategoryId">setCategoryId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="category/form/CategoryForm.php.html#120"><abbr title="PKP\controllers\grid\settings\category\form\CategoryForm::getContextId">getContextId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="category/form/CategoryForm.php.html#131"><abbr title="PKP\controllers\grid\settings\category\form\CategoryForm::getLocaleFieldNames">getLocaleFieldNames</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="category/form/CategoryForm.php.html#139"><abbr title="PKP\controllers\grid\settings\category\form\CategoryForm::initData">initData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="category/form/CategoryForm.php.html#187"><abbr title="PKP\controllers\grid\settings\category\form\CategoryForm::validate">validate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="category/form/CategoryForm.php.html#208"><abbr title="PKP\controllers\grid\settings\category\form\CategoryForm::readInputData">readInputData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="category/form/CategoryForm.php.html#227"><abbr title="PKP\controllers\grid\settings\category\form\CategoryForm::fetch">fetch</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="category/form/CategoryForm.php.html#293"><abbr title="PKP\controllers\grid\settings\category\form\CategoryForm::execute">execute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="genre/GenreGridHandler.php.html#41"><abbr title="PKP\controllers\grid\settings\genre\GenreGridHandler::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="genre/GenreGridHandler.php.html#62"><abbr title="PKP\controllers\grid\settings\genre\GenreGridHandler::initialize">initialize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="genre/GenreGridHandler.php.html#119"><abbr title="PKP\controllers\grid\settings\genre\GenreGridHandler::loadData">loadData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="genre/GenreGridHandler.php.html#133"><abbr title="PKP\controllers\grid\settings\genre\GenreGridHandler::initFeatures">initFeatures</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="genre/GenreGridHandler.php.html#143"><abbr title="PKP\controllers\grid\settings\genre\GenreGridHandler::getRowInstance">getRowInstance</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="genre/GenreGridHandler.php.html#151"><abbr title="PKP\controllers\grid\settings\genre\GenreGridHandler::getDataElementSequence">getDataElementSequence</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="genre/GenreGridHandler.php.html#159"><abbr title="PKP\controllers\grid\settings\genre\GenreGridHandler::setDataElementSequence">setDataElementSequence</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="genre/GenreGridHandler.php.html#177"><abbr title="PKP\controllers\grid\settings\genre\GenreGridHandler::addGenre">addGenre</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="genre/GenreGridHandler.php.html#191"><abbr title="PKP\controllers\grid\settings\genre\GenreGridHandler::editGenre">editGenre</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="genre/GenreGridHandler.php.html#212"><abbr title="PKP\controllers\grid\settings\genre\GenreGridHandler::updateGenre">updateGenre</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="genre/GenreGridHandler.php.html#235"><abbr title="PKP\controllers\grid\settings\genre\GenreGridHandler::deleteGenre">deleteGenre</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="genre/GenreGridHandler.php.html#273"><abbr title="PKP\controllers\grid\settings\genre\GenreGridHandler::restoreGenres">restoreGenres</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="genre/GenreGridRow.php.html#34"><abbr title="PKP\controllers\grid\settings\genre\GenreGridRow::initialize">initialize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="genre/form/GenreForm.php.html#37"><abbr title="PKP\controllers\grid\settings\genre\form\GenreForm::setGenreId">setGenreId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="genre/form/GenreForm.php.html#47"><abbr title="PKP\controllers\grid\settings\genre\form\GenreForm::getGenreId">getGenreId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="genre/form/GenreForm.php.html#58"><abbr title="PKP\controllers\grid\settings\genre\form\GenreForm::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="genre/form/GenreForm.php.html#83"><abbr title="PKP\controllers\grid\settings\genre\form\GenreForm::initData">initData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="genre/form/GenreForm.php.html#121"><abbr title="PKP\controllers\grid\settings\genre\form\GenreForm::fetch">fetch</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="genre/form/GenreForm.php.html#137"><abbr title="PKP\controllers\grid\settings\genre\form\GenreForm::readInputData">readInputData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="genre/form/GenreForm.php.html#147"><abbr title="PKP\controllers\grid\settings\genre\form\GenreForm::execute">execute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="languages/ManageLanguageGridHandler.php.html#33"><abbr title="PKP\controllers\grid\settings\languages\ManageLanguageGridHandler::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="languages/ManageLanguageGridHandler.php.html#49"><abbr title="PKP\controllers\grid\settings\languages\ManageLanguageGridHandler::authorize">authorize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="languages/ManageLanguageGridHandler.php.html#58"><abbr title="PKP\controllers\grid\settings\languages\ManageLanguageGridHandler::loadData">loadData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="languages/ManageLanguageGridHandler.php.html#89"><abbr title="PKP\controllers\grid\settings\languages\ManageLanguageGridHandler::initialize">initialize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="languages/ManageLanguageGridHandler.php.html#109"><abbr title="PKP\controllers\grid\settings\languages\ManageLanguageGridHandler::reloadLocale">reloadLocale</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="languages/SubmissionLanguageGridHandler.php.html#36"><abbr title="PKP\controllers\grid\settings\languages\SubmissionLanguageGridHandler::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="languages/SubmissionLanguageGridHandler.php.html#52"><abbr title="PKP\controllers\grid\settings\languages\SubmissionLanguageGridHandler::authorize">authorize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="languages/SubmissionLanguageGridHandler.php.html#61"><abbr title="PKP\controllers\grid\settings\languages\SubmissionLanguageGridHandler::loadData">loadData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="languages/SubmissionLanguageGridHandler.php.html#90"><abbr title="PKP\controllers\grid\settings\languages\SubmissionLanguageGridHandler::initialize">initialize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="languages/SubmissionLanguageGridHandler.php.html#120"><abbr title="PKP\controllers\grid\settings\languages\SubmissionLanguageGridHandler::addLanguageModal">addLanguageModal</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="languages/SubmissionLanguageGridHandler.php.html#130"><abbr title="PKP\controllers\grid\settings\languages\SubmissionLanguageGridHandler::addLanguages">addLanguages</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="library/LibraryFileAdminGridDataProvider.php.html#36"><abbr title="PKP\controllers\grid\settings\library\LibraryFileAdminGridDataProvider::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="library/LibraryFileAdminGridDataProvider.php.html#50"><abbr title="PKP\controllers\grid\settings\library\LibraryFileAdminGridDataProvider::getAuthorizationPolicy">getAuthorizationPolicy</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="library/LibraryFileAdminGridDataProvider.php.html#59"><abbr title="PKP\controllers\grid\settings\library\LibraryFileAdminGridDataProvider::getRequestArgs">getRequestArgs</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="library/LibraryFileAdminGridDataProvider.php.html#69"><abbr title="PKP\controllers\grid\settings\library\LibraryFileAdminGridDataProvider::getContext">getContext</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="library/LibraryFileAdminGridDataProvider.php.html#80"><abbr title="PKP\controllers\grid\settings\library\LibraryFileAdminGridDataProvider::canEdit">canEdit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="library/LibraryFileAdminGridDataProvider.php.html#91"><abbr title="PKP\controllers\grid\settings\library\LibraryFileAdminGridDataProvider::loadCategoryData">loadCategoryData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="library/LibraryFileAdminGridHandler.php.html#30"><abbr title="PKP\controllers\grid\settings\library\LibraryFileAdminGridHandler::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="library/LibraryFileAdminGridHandler.php.html#54"><abbr title="PKP\controllers\grid\settings\library\LibraryFileAdminGridHandler::initialize">initialize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="library/LibraryFileAdminGridHandler.php.html#69"><abbr title="PKP\controllers\grid\settings\library\LibraryFileAdminGridHandler::_getNewFileForm">_getNewFileForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="library/LibraryFileAdminGridHandler.php.html#82"><abbr title="PKP\controllers\grid\settings\library\LibraryFileAdminGridHandler::_getEditFileForm">_getEditFileForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="library/form/EditLibraryFileForm.php.html#37"><abbr title="PKP\controllers\grid\settings\library\form\EditLibraryFileForm::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="library/form/EditLibraryFileForm.php.html#53"><abbr title="PKP\controllers\grid\settings\library\form\EditLibraryFileForm::readInputData">readInputData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="library/form/EditLibraryFileForm.php.html#62"><abbr title="PKP\controllers\grid\settings\library\form\EditLibraryFileForm::initData">initData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="library/form/EditLibraryFileForm.php.html#75"><abbr title="PKP\controllers\grid\settings\library\form\EditLibraryFileForm::execute">execute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="library/form/NewLibraryFileForm.php.html#35"><abbr title="PKP\controllers\grid\settings\library\form\NewLibraryFileForm::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="library/form/NewLibraryFileForm.php.html#46"><abbr title="PKP\controllers\grid\settings\library\form\NewLibraryFileForm::readInputData">readInputData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="library/form/NewLibraryFileForm.php.html#57"><abbr title="PKP\controllers\grid\settings\library\form\NewLibraryFileForm::execute">execute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewForms/ReviewFormElementGridCellProvider.php.html#32"><abbr title="PKP\controllers\grid\settings\reviewForms\ReviewFormElementGridCellProvider::getTemplateVarsFromRowColumn">getTemplateVarsFromRowColumn</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewForms/ReviewFormElementGridRow.php.html#34"><abbr title="PKP\controllers\grid\settings\reviewForms\ReviewFormElementGridRow::initialize">initialize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewForms/ReviewFormElementsGridHandler.php.html#44"><abbr title="PKP\controllers\grid\settings\reviewForms\ReviewFormElementsGridHandler::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewForms/ReviewFormElementsGridHandler.php.html#60"><abbr title="PKP\controllers\grid\settings\reviewForms\ReviewFormElementsGridHandler::authorize">authorize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewForms/ReviewFormElementsGridHandler.php.html#83"><abbr title="PKP\controllers\grid\settings\reviewForms\ReviewFormElementsGridHandler::initialize">initialize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewForms/ReviewFormElementsGridHandler.php.html#134"><abbr title="PKP\controllers\grid\settings\reviewForms\ReviewFormElementsGridHandler::initFeatures">initFeatures</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewForms/ReviewFormElementsGridHandler.php.html#144"><abbr title="PKP\controllers\grid\settings\reviewForms\ReviewFormElementsGridHandler::getRowInstance">getRowInstance</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewForms/ReviewFormElementsGridHandler.php.html#154"><abbr title="PKP\controllers\grid\settings\reviewForms\ReviewFormElementsGridHandler::loadData">loadData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewForms/ReviewFormElementsGridHandler.php.html#167"><abbr title="PKP\controllers\grid\settings\reviewForms\ReviewFormElementsGridHandler::getRequestArgs">getRequestArgs</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewForms/ReviewFormElementsGridHandler.php.html#175"><abbr title="PKP\controllers\grid\settings\reviewForms\ReviewFormElementsGridHandler::getDataElementSequence">getDataElementSequence</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewForms/ReviewFormElementsGridHandler.php.html#183"><abbr title="PKP\controllers\grid\settings\reviewForms\ReviewFormElementsGridHandler::setDataElementSequence">setDataElementSequence</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewForms/ReviewFormElementsGridHandler.php.html#202"><abbr title="PKP\controllers\grid\settings\reviewForms\ReviewFormElementsGridHandler::createReviewFormElement">createReviewFormElement</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewForms/ReviewFormElementsGridHandler.php.html#218"><abbr title="PKP\controllers\grid\settings\reviewForms\ReviewFormElementsGridHandler::editReviewFormElement">editReviewFormElement</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewForms/ReviewFormElementsGridHandler.php.html#237"><abbr title="PKP\controllers\grid\settings\reviewForms\ReviewFormElementsGridHandler::updateReviewFormElement">updateReviewFormElement</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewForms/ReviewFormElementsGridHandler.php.html#276"><abbr title="PKP\controllers\grid\settings\reviewForms\ReviewFormElementsGridHandler::deleteReviewFormElement">deleteReviewFormElement</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewForms/ReviewFormGridCellProvider.php.html#36"><abbr title="PKP\controllers\grid\settings\reviewForms\ReviewFormGridCellProvider::getTemplateVarsFromRowColumn">getTemplateVarsFromRowColumn</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewForms/ReviewFormGridCellProvider.php.html#57"><abbr title="PKP\controllers\grid\settings\reviewForms\ReviewFormGridCellProvider::getCellActions">getCellActions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewForms/ReviewFormGridHandler.php.html#45"><abbr title="PKP\controllers\grid\settings\reviewForms\ReviewFormGridHandler::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewForms/ReviewFormGridHandler.php.html#66"><abbr title="PKP\controllers\grid\settings\reviewForms\ReviewFormGridHandler::initialize">initialize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewForms/ReviewFormGridHandler.php.html#144"><abbr title="PKP\controllers\grid\settings\reviewForms\ReviewFormGridHandler::authorize">authorize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewForms/ReviewFormGridHandler.php.html#164"><abbr title="PKP\controllers\grid\settings\reviewForms\ReviewFormGridHandler::getRowInstance">getRowInstance</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewForms/ReviewFormGridHandler.php.html#174"><abbr title="PKP\controllers\grid\settings\reviewForms\ReviewFormGridHandler::loadData">loadData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewForms/ReviewFormGridHandler.php.html#187"><abbr title="PKP\controllers\grid\settings\reviewForms\ReviewFormGridHandler::setDataElementSequence">setDataElementSequence</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewForms/ReviewFormGridHandler.php.html#197"><abbr title="PKP\controllers\grid\settings\reviewForms\ReviewFormGridHandler::getDataElementSequence">getDataElementSequence</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewForms/ReviewFormGridHandler.php.html#205"><abbr title="PKP\controllers\grid\settings\reviewForms\ReviewFormGridHandler::initFeatures">initFeatures</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewForms/ReviewFormGridHandler.php.html#222"><abbr title="PKP\controllers\grid\settings\reviewForms\ReviewFormGridHandler::reviewFormPreview">reviewFormPreview</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewForms/ReviewFormGridHandler.php.html#247"><abbr title="PKP\controllers\grid\settings\reviewForms\ReviewFormGridHandler::createReviewForm">createReviewForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewForms/ReviewFormGridHandler.php.html#263"><abbr title="PKP\controllers\grid\settings\reviewForms\ReviewFormGridHandler::editReviewForm">editReviewForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewForms/ReviewFormGridHandler.php.html#291"><abbr title="PKP\controllers\grid\settings\reviewForms\ReviewFormGridHandler::reviewFormBasics">reviewFormBasics</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewForms/ReviewFormGridHandler.php.html#311"><abbr title="PKP\controllers\grid\settings\reviewForms\ReviewFormGridHandler::reviewFormElements">reviewFormElements</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewForms/ReviewFormGridHandler.php.html#337"><abbr title="PKP\controllers\grid\settings\reviewForms\ReviewFormGridHandler::updateReviewForm">updateReviewForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewForms/ReviewFormGridHandler.php.html#375"><abbr title="PKP\controllers\grid\settings\reviewForms\ReviewFormGridHandler::copyReviewForm">copyReviewForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewForms/ReviewFormGridHandler.php.html#421"><abbr title="PKP\controllers\grid\settings\reviewForms\ReviewFormGridHandler::activateReviewForm">activateReviewForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewForms/ReviewFormGridHandler.php.html#457"><abbr title="PKP\controllers\grid\settings\reviewForms\ReviewFormGridHandler::deactivateReviewForm">deactivateReviewForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewForms/ReviewFormGridHandler.php.html#492"><abbr title="PKP\controllers\grid\settings\reviewForms\ReviewFormGridHandler::deleteReviewForm">deleteReviewForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewForms/ReviewFormGridRow.php.html#34"><abbr title="PKP\controllers\grid\settings\reviewForms\ReviewFormGridRow::initialize">initialize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewForms/form/PreviewReviewForm.php.html#38"><abbr title="PKP\controllers\grid\settings\reviewForms\form\PreviewReviewForm::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewForms/form/PreviewReviewForm.php.html#54"><abbr title="PKP\controllers\grid\settings\reviewForms\form\PreviewReviewForm::fetch">fetch</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewForms/form/PreviewReviewForm.php.html#67"><abbr title="PKP\controllers\grid\settings\reviewForms\form\PreviewReviewForm::initData">initData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewForms/form/ReviewFormElementForm.php.html#46"><abbr title="PKP\controllers\grid\settings\reviewForms\form\ReviewFormElementForm::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewForms/form/ReviewFormElementForm.php.html#63"><abbr title="PKP\controllers\grid\settings\reviewForms\form\ReviewFormElementForm::getLocaleFieldNames">getLocaleFieldNames</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewForms/form/ReviewFormElementForm.php.html#74"><abbr title="PKP\controllers\grid\settings\reviewForms\form\ReviewFormElementForm::fetch">fetch</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewForms/form/ReviewFormElementForm.php.html#91"><abbr title="PKP\controllers\grid\settings\reviewForms\form\ReviewFormElementForm::initData">initData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewForms/form/ReviewFormElementForm.php.html#117"><abbr title="PKP\controllers\grid\settings\reviewForms\form\ReviewFormElementForm::readInputData">readInputData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewForms/form/ReviewFormElementForm.php.html#127"><abbr title="PKP\controllers\grid\settings\reviewForms\form\ReviewFormElementForm::execute">execute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewForms/form/ReviewFormElementForm.php.html#173"><abbr title="PKP\controllers\grid\settings\reviewForms\form\ReviewFormElementForm::insertEntry">insertEntry</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewForms/form/ReviewFormElementForm.php.html#186"><abbr title="PKP\controllers\grid\settings\reviewForms\form\ReviewFormElementForm::deleteEntry">deleteEntry</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewForms/form/ReviewFormElementForm.php.html#201"><abbr title="PKP\controllers\grid\settings\reviewForms\form\ReviewFormElementForm::updateEntry">updateEntry</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewForms/form/ReviewFormElements.php.html#37"><abbr title="PKP\controllers\grid\settings\reviewForms\form\ReviewFormElements::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewForms/form/ReviewFormElements.php.html#53"><abbr title="PKP\controllers\grid\settings\reviewForms\form\ReviewFormElements::fetch">fetch</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewForms/form/ReviewFormElements.php.html#66"><abbr title="PKP\controllers\grid\settings\reviewForms\form\ReviewFormElements::initData">initData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewForms/form/ReviewFormForm.php.html#36"><abbr title="PKP\controllers\grid\settings\reviewForms\form\ReviewFormForm::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewForms/form/ReviewFormForm.php.html#50"><abbr title="PKP\controllers\grid\settings\reviewForms\form\ReviewFormForm::readInputData">readInputData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewForms/form/ReviewFormForm.php.html#58"><abbr title="PKP\controllers\grid\settings\reviewForms\form\ReviewFormForm::initData">initData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewForms/form/ReviewFormForm.php.html#76"><abbr title="PKP\controllers\grid\settings\reviewForms\form\ReviewFormForm::fetch">fetch</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewForms/form/ReviewFormForm.php.html#89"><abbr title="PKP\controllers\grid\settings\reviewForms\form\ReviewFormForm::execute">execute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewForms/form/ReviewFormForm.php.html#121"><abbr title="PKP\controllers\grid\settings\reviewForms\form\ReviewFormForm::getLocaleFieldNames">getLocaleFieldNames</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="roles/UserGroupGridCellProvider.php.html#41"><abbr title="PKP\controllers\grid\settings\roles\UserGroupGridCellProvider::getTemplateVarsFromRowColumn">getTemplateVarsFromRowColumn</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="roles/UserGroupGridCellProvider.php.html#77"><abbr title="PKP\controllers\grid\settings\roles\UserGroupGridCellProvider::getCellActions">getCellActions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="roles/UserGroupGridHandler.php.html#53"><abbr title="PKP\controllers\grid\settings\roles\UserGroupGridHandler::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="roles/UserGroupGridHandler.php.html#79"><abbr title="PKP\controllers\grid\settings\roles\UserGroupGridHandler::authorize">authorize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="roles/UserGroupGridHandler.php.html#111"><abbr title="PKP\controllers\grid\settings\roles\UserGroupGridHandler::initialize">initialize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="roles/UserGroupGridHandler.php.html#167"><abbr title="PKP\controllers\grid\settings\roles\UserGroupGridHandler::loadData">loadData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="roles/UserGroupGridHandler.php.html#212"><abbr title="PKP\controllers\grid\settings\roles\UserGroupGridHandler::getRowInstance">getRowInstance</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="roles/UserGroupGridHandler.php.html#220"><abbr title="PKP\controllers\grid\settings\roles\UserGroupGridHandler::renderFilter">renderFilter</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="roles/UserGroupGridHandler.php.html#244"><abbr title="PKP\controllers\grid\settings\roles\UserGroupGridHandler::getFilterSelectionData">getFilterSelectionData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="roles/UserGroupGridHandler.php.html#261"><abbr title="PKP\controllers\grid\settings\roles\UserGroupGridHandler::getFilterForm">getFilterForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="roles/UserGroupGridHandler.php.html#269"><abbr title="PKP\controllers\grid\settings\roles\UserGroupGridHandler::initFeatures">initFeatures</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="roles/UserGroupGridHandler.php.html#284"><abbr title="PKP\controllers\grid\settings\roles\UserGroupGridHandler::addUserGroup">addUserGroup</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="roles/UserGroupGridHandler.php.html#296"><abbr title="PKP\controllers\grid\settings\roles\UserGroupGridHandler::editUserGroup">editUserGroup</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="roles/UserGroupGridHandler.php.html#313"><abbr title="PKP\controllers\grid\settings\roles\UserGroupGridHandler::updateUserGroup">updateUserGroup</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="roles/UserGroupGridHandler.php.html#338"><abbr title="PKP\controllers\grid\settings\roles\UserGroupGridHandler::removeUserGroup">removeUserGroup</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="roles/UserGroupGridHandler.php.html#402"><abbr title="PKP\controllers\grid\settings\roles\UserGroupGridHandler::assignStage">assignStage</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="roles/UserGroupGridHandler.php.html#413"><abbr title="PKP\controllers\grid\settings\roles\UserGroupGridHandler::unassignStage">unassignStage</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="roles/UserGroupGridHandler.php.html#430"><abbr title="PKP\controllers\grid\settings\roles\UserGroupGridHandler::_toggleAssignment">_toggleAssignment</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="roles/UserGroupGridHandler.php.html#480"><abbr title="PKP\controllers\grid\settings\roles\UserGroupGridHandler::_getUserGroupForm">_getUserGroupForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="roles/UserGroupGridHandler.php.html#495"><abbr title="PKP\controllers\grid\settings\roles\UserGroupGridHandler::_getContextId">_getContextId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="roles/UserGroupGridRow.php.html#35"><abbr title="PKP\controllers\grid\settings\roles\UserGroupGridRow::initialize">initialize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="roles/form/UserGroupForm.php.html#48"><abbr title="PKP\controllers\grid\settings\roles\form\UserGroupForm::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="roles/form/UserGroupForm.php.html#72"><abbr title="PKP\controllers\grid\settings\roles\form\UserGroupForm::getUserGroupId">getUserGroupId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="roles/form/UserGroupForm.php.html#82"><abbr title="PKP\controllers\grid\settings\roles\form\UserGroupForm::getContextId">getContextId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="roles/form/UserGroupForm.php.html#93"><abbr title="PKP\controllers\grid\settings\roles\form\UserGroupForm::getLocaleFieldNames">getLocaleFieldNames</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="roles/form/UserGroupForm.php.html#101"><abbr title="PKP\controllers\grid\settings\roles\form\UserGroupForm::initData">initData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="roles/form/UserGroupForm.php.html#138"><abbr title="PKP\controllers\grid\settings\roles\form\UserGroupForm::readInputData">readInputData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="roles/form/UserGroupForm.php.html#148"><abbr title="PKP\controllers\grid\settings\roles\form\UserGroupForm::fetch">fetch</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="roles/form/UserGroupForm.php.html#171"><abbr title="PKP\controllers\grid\settings\roles\form\UserGroupForm::getPermitSelfRegistrationRoles">getPermitSelfRegistrationRoles</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="roles/form/UserGroupForm.php.html#181"><abbr title="PKP\controllers\grid\settings\roles\form\UserGroupForm::getRecommendOnlyRoles">getRecommendOnlyRoles</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="roles/form/UserGroupForm.php.html#189"><abbr title="PKP\controllers\grid\settings\roles\form\UserGroupForm::execute">execute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="roles/form/UserGroupForm.php.html#267"><abbr title="PKP\controllers\grid\settings\roles\form\UserGroupForm::_assignStagesToUserGroup">_assignStagesToUserGroup</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="roles/form/UserGroupForm.php.html#308"><abbr title="PKP\controllers\grid\settings\roles\form\UserGroupForm::_setUserGroupLocaleFields">_setUserGroupLocaleFields</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="sections/form/PKPSectionForm.php.html#56"><abbr title="PKP\controllers\grid\settings\sections\form\PKPSectionForm::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="sections/form/PKPSectionForm.php.html#73"><abbr title="PKP\controllers\grid\settings\sections\form\PKPSectionForm::readInputData">readInputData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="sections/form/PKPSectionForm.php.html#83"><abbr title="PKP\controllers\grid\settings\sections\form\PKPSectionForm::getSectionId">getSectionId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="sections/form/PKPSectionForm.php.html#93"><abbr title="PKP\controllers\grid\settings\sections\form\PKPSectionForm::setSectionId">setSectionId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="sections/form/PKPSectionForm.php.html#98"><abbr title="PKP\controllers\grid\settings\sections\form\PKPSectionForm::getSection">getSection</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="sections/form/PKPSectionForm.php.html#103"><abbr title="PKP\controllers\grid\settings\sections\form\PKPSectionForm::setSection">setSection</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="sections/form/PKPSectionForm.php.html#113"><abbr title="PKP\controllers\grid\settings\sections\form\PKPSectionForm::fetch">fetch</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="sections/form/PKPSectionForm.php.html#142"><abbr title="PKP\controllers\grid\settings\sections\form\PKPSectionForm::initData">initData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="sections/form/PKPSectionForm.php.html#177"><abbr title="PKP\controllers\grid\settings\sections\form\PKPSectionForm::execute">execute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="user/UserGridHandler.php.html#54"><abbr title="PKP\controllers\grid\settings\user\UserGridHandler::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="user/UserGridHandler.php.html#73"><abbr title="PKP\controllers\grid\settings\user\UserGridHandler::authorize">authorize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="user/UserGridHandler.php.html#84"><abbr title="PKP\controllers\grid\settings\user\UserGridHandler::initialize">initialize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="user/UserGridHandler.php.html#190"><abbr title="PKP\controllers\grid\settings\user\UserGridHandler::getRowInstance">getRowInstance</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="user/UserGridHandler.php.html#198"><abbr title="PKP\controllers\grid\settings\user\UserGridHandler::initFeatures">initFeatures</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="user/UserGridHandler.php.html#210"><abbr title="PKP\controllers\grid\settings\user\UserGridHandler::loadData">loadData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="user/UserGridHandler.php.html#238"><abbr title="PKP\controllers\grid\settings\user\UserGridHandler::renderFilter">renderFilter</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="user/UserGridHandler.php.html#279"><abbr title="PKP\controllers\grid\settings\user\UserGridHandler::getFilterSelectionData">getFilterSelectionData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="user/UserGridHandler.php.html#302"><abbr title="PKP\controllers\grid\settings\user\UserGridHandler::getFilterForm">getFilterForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="user/UserGridHandler.php.html#312"><abbr title="PKP\controllers\grid\settings\user\UserGridHandler::getJSHandler">getJSHandler</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="user/UserGridHandler.php.html#327"><abbr title="PKP\controllers\grid\settings\user\UserGridHandler::addUser">addUser</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="user/UserGridHandler.php.html#341"><abbr title="PKP\controllers\grid\settings\user\UserGridHandler::editUser">editUser</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="user/UserGridHandler.php.html#378"><abbr title="PKP\controllers\grid\settings\user\UserGridHandler::updateUser">updateUser</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="user/UserGridHandler.php.html#430"><abbr title="PKP\controllers\grid\settings\user\UserGridHandler::updateUserRoles">updateUserRoles</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="user/UserGridHandler.php.html#464"><abbr title="PKP\controllers\grid\settings\user\UserGridHandler::editDisableUser">editDisableUser</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="user/UserGridHandler.php.html#498"><abbr title="PKP\controllers\grid\settings\user\UserGridHandler::disableUser">disableUser</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="user/UserGridHandler.php.html#537"><abbr title="PKP\controllers\grid\settings\user\UserGridHandler::removeUser">removeUser</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="user/UserGridHandler.php.html#577"><abbr title="PKP\controllers\grid\settings\user\UserGridHandler::editEmail">editEmail</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="user/UserGridHandler.php.html#611"><abbr title="PKP\controllers\grid\settings\user\UserGridHandler::sendEmail">sendEmail</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="user/UserGridHandler.php.html#649"><abbr title="PKP\controllers\grid\settings\user\UserGridHandler::mergeUsers">mergeUsers</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="user/UserGridHandler.php.html#680"><abbr title="PKP\controllers\grid\settings\user\UserGridHandler::getRequestArgs">getRequestArgs</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="user/UserGridRow.php.html#39"><abbr title="PKP\controllers\grid\settings\user\UserGridRow::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="user/UserGridRow.php.html#54"><abbr title="PKP\controllers\grid\settings\user\UserGridRow::initialize">initialize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="user/UserGridRow.php.html#224"><abbr title="PKP\controllers\grid\settings\user\UserGridRow::getOldUserId">getOldUserId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="user/form/UserDetailsForm.php.html#56"><abbr title="PKP\controllers\grid\settings\user\form\UserDetailsForm::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="user/form/UserDetailsForm.php.html#80"><abbr title="PKP\controllers\grid\settings\user\form\UserDetailsForm::attachValidationChecks">attachValidationChecks</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="user/form/UserDetailsForm.php.html#135"><abbr title="PKP\controllers\grid\settings\user\form\UserDetailsForm::applyUserGroupUpdateOnly">applyUserGroupUpdateOnly</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="user/form/UserDetailsForm.php.html#145"><abbr title="PKP\controllers\grid\settings\user\form\UserDetailsForm::initData">initData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="user/form/UserDetailsForm.php.html#210"><abbr title="PKP\controllers\grid\settings\user\form\UserDetailsForm::display">display</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="user/form/UserDetailsForm.php.html#243"><abbr title="PKP\controllers\grid\settings\user\form\UserDetailsForm::readInputData">readInputData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="user/form/UserDetailsForm.php.html#285"><abbr title="PKP\controllers\grid\settings\user\form\UserDetailsForm::getLocaleFieldNames">getLocaleFieldNames</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="user/form/UserDetailsForm.php.html#293"><abbr title="PKP\controllers\grid\settings\user\form\UserDetailsForm::execute">execute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="user/form/UserDisableForm.php.html#36"><abbr title="PKP\controllers\grid\settings\user\form\UserDisableForm::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="user/form/UserDisableForm.php.html#50"><abbr title="PKP\controllers\grid\settings\user\form\UserDisableForm::initData">initData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="user/form/UserDisableForm.php.html#68"><abbr title="PKP\controllers\grid\settings\user\form\UserDisableForm::readInputData">readInputData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="user/form/UserDisableForm.php.html#83"><abbr title="PKP\controllers\grid\settings\user\form\UserDisableForm::display">display</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="user/form/UserDisableForm.php.html#96"><abbr title="PKP\controllers\grid\settings\user\form\UserDisableForm::execute">execute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="user/form/UserEmailForm.php.html#39"><abbr title="PKP\controllers\grid\settings\user\form\UserEmailForm::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="user/form/UserEmailForm.php.html#56"><abbr title="PKP\controllers\grid\settings\user\form\UserEmailForm::readInputData">readInputData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="user/form/UserEmailForm.php.html#69"><abbr title="PKP\controllers\grid\settings\user\form\UserEmailForm::fetch">fetch</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="user/form/UserEmailForm.php.html#88"><abbr title="PKP\controllers\grid\settings\user\form\UserEmailForm::execute">execute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="user/form/UserForm.php.html#34"><abbr title="PKP\controllers\grid\settings\user\form\UserForm::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="user/form/UserForm.php.html#48"><abbr title="PKP\controllers\grid\settings\user\form\UserForm::initData">initData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="user/form/UserForm.php.html#70"><abbr title="PKP\controllers\grid\settings\user\form\UserForm::readInputData">readInputData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="user/form/UserForm.php.html#82"><abbr title="PKP\controllers\grid\settings\user\form\UserForm::display">display</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="user/form/UserForm.php.html#108"><abbr title="PKP\controllers\grid\settings\user\form\UserForm::execute">execute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="user/form/UserForm.php.html#116"><abbr title="PKP\controllers\grid\settings\user\form\UserForm::saveUserGroupAssignments">saveUserGroupAssignments</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="user/form/UserRoleForm.php.html#34"><abbr title="PKP\controllers\grid\settings\user\form\UserRoleForm::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="user/form/UserRoleForm.php.html#49"><abbr title="PKP\controllers\grid\settings\user\form\UserRoleForm::display">display</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="user/form/UserRoleForm.php.html#62"><abbr title="PKP\controllers\grid\settings\user\form\UserRoleForm::execute">execute</abbr></a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="category/form/CategoryForm.php.html#293"><abbr title="PKP\controllers\grid\settings\category\form\CategoryForm::execute">execute</abbr></a></td><td class="text-right">462</td></tr>
+       <tr><td><a href="roles/form/UserGroupForm.php.html#189"><abbr title="PKP\controllers\grid\settings\roles\form\UserGroupForm::execute">execute</abbr></a></td><td class="text-right">272</td></tr>
+       <tr><td><a href="user/form/UserDetailsForm.php.html#293"><abbr title="PKP\controllers\grid\settings\user\form\UserDetailsForm::execute">execute</abbr></a></td><td class="text-right">210</td></tr>
+       <tr><td><a href="user/UserGridRow.php.html#54"><abbr title="PKP\controllers\grid\settings\user\UserGridRow::initialize">initialize</abbr></a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="user/form/UserDetailsForm.php.html#80"><abbr title="PKP\controllers\grid\settings\user\form\UserDetailsForm::attachValidationChecks">attachValidationChecks</abbr></a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="roles/UserGroupGridHandler.php.html#167"><abbr title="PKP\controllers\grid\settings\roles\UserGroupGridHandler::loadData">loadData</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="category/form/CategoryForm.php.html#187"><abbr title="PKP\controllers\grid\settings\category\form\CategoryForm::validate">validate</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="reviewForms/form/ReviewFormElementForm.php.html#127"><abbr title="PKP\controllers\grid\settings\reviewForms\form\ReviewFormElementForm::execute">execute</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="reviewForms/ReviewFormGridCellProvider.php.html#36"><abbr title="PKP\controllers\grid\settings\reviewForms\ReviewFormGridCellProvider::getTemplateVarsFromRowColumn">getTemplateVarsFromRowColumn</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="reviewForms/ReviewFormGridHandler.php.html#492"><abbr title="PKP\controllers\grid\settings\reviewForms\ReviewFormGridHandler::deleteReviewForm">deleteReviewForm</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="reviewForms/ReviewFormGridRow.php.html#34"><abbr title="PKP\controllers\grid\settings\reviewForms\ReviewFormGridRow::initialize">initialize</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="roles/UserGroupGridCellProvider.php.html#41"><abbr title="PKP\controllers\grid\settings\roles\UserGroupGridCellProvider::getTemplateVarsFromRowColumn">getTemplateVarsFromRowColumn</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="roles/form/UserGroupForm.php.html#267"><abbr title="PKP\controllers\grid\settings\roles\form\UserGroupForm::_assignStagesToUserGroup">_assignStagesToUserGroup</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="user/UserGridHandler.php.html#378"><abbr title="PKP\controllers\grid\settings\user\UserGridHandler::updateUser">updateUser</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="user/form/UserForm.php.html#116"><abbr title="PKP\controllers\grid\settings\user\form\UserForm::saveUserGroupAssignments">saveUserGroupAssignments</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="category/form/CategoryForm.php.html#139"><abbr title="PKP\controllers\grid\settings\category\form\CategoryForm::initData">initData</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="genre/GenreGridHandler.php.html#235"><abbr title="PKP\controllers\grid\settings\genre\GenreGridHandler::deleteGenre">deleteGenre</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="reviewForms/ReviewFormElementsGridHandler.php.html#237"><abbr title="PKP\controllers\grid\settings\reviewForms\ReviewFormElementsGridHandler::updateReviewFormElement">updateReviewFormElement</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="roles/form/UserGroupForm.php.html#308"><abbr title="PKP\controllers\grid\settings\roles\form\UserGroupForm::_setUserGroupLocaleFields">_setUserGroupLocaleFields</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="sections/form/PKPSectionForm.php.html#177"><abbr title="PKP\controllers\grid\settings\sections\form\PKPSectionForm::execute">execute</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="user/UserGridHandler.php.html#341"><abbr title="PKP\controllers\grid\settings\user\UserGridHandler::editUser">editUser</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="user/UserGridHandler.php.html#464"><abbr title="PKP\controllers\grid\settings\user\UserGridHandler::editDisableUser">editDisableUser</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="user/UserGridHandler.php.html#537"><abbr title="PKP\controllers\grid\settings\user\UserGridHandler::removeUser">removeUser</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="user/UserGridHandler.php.html#611"><abbr title="PKP\controllers\grid\settings\user\UserGridHandler::sendEmail">sendEmail</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="user/UserGridHandler.php.html#649"><abbr title="PKP\controllers\grid\settings\user\UserGridHandler::mergeUsers">mergeUsers</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="user/form/UserDetailsForm.php.html#145"><abbr title="PKP\controllers\grid\settings\user\form\UserDetailsForm::initData">initData</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="user/form/UserDetailsForm.php.html#243"><abbr title="PKP\controllers\grid\settings\user\form\UserDetailsForm::readInputData">readInputData</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="category/CategoryCategoryGridHandler.php.html#273"><abbr title="PKP\controllers\grid\settings\category\CategoryCategoryGridHandler::deleteCategory">deleteCategory</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="category/CategoryGridCategoryRow.php.html#36"><abbr title="PKP\controllers\grid\settings\category\CategoryGridCategoryRow::initialize">initialize</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="category/form/CategoryForm.php.html#227"><abbr title="PKP\controllers\grid\settings\category\form\CategoryForm::fetch">fetch</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="genre/form/GenreForm.php.html#147"><abbr title="PKP\controllers\grid\settings\genre\form\GenreForm::execute">execute</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="languages/ManageLanguageGridHandler.php.html#109"><abbr title="PKP\controllers\grid\settings\languages\ManageLanguageGridHandler::reloadLocale">reloadLocale</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="reviewForms/ReviewFormElementGridCellProvider.php.html#32"><abbr title="PKP\controllers\grid\settings\reviewForms\ReviewFormElementGridCellProvider::getTemplateVarsFromRowColumn">getTemplateVarsFromRowColumn</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="reviewForms/ReviewFormGridHandler.php.html#337"><abbr title="PKP\controllers\grid\settings\reviewForms\ReviewFormGridHandler::updateReviewForm">updateReviewForm</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="reviewForms/ReviewFormGridHandler.php.html#375"><abbr title="PKP\controllers\grid\settings\reviewForms\ReviewFormGridHandler::copyReviewForm">copyReviewForm</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="reviewForms/ReviewFormGridHandler.php.html#421"><abbr title="PKP\controllers\grid\settings\reviewForms\ReviewFormGridHandler::activateReviewForm">activateReviewForm</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="reviewForms/ReviewFormGridHandler.php.html#457"><abbr title="PKP\controllers\grid\settings\reviewForms\ReviewFormGridHandler::deactivateReviewForm">deactivateReviewForm</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="roles/UserGroupGridCellProvider.php.html#77"><abbr title="PKP\controllers\grid\settings\roles\UserGroupGridCellProvider::getCellActions">getCellActions</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="roles/UserGroupGridHandler.php.html#79"><abbr title="PKP\controllers\grid\settings\roles\UserGroupGridHandler::authorize">authorize</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="roles/UserGroupGridHandler.php.html#338"><abbr title="PKP\controllers\grid\settings\roles\UserGroupGridHandler::removeUserGroup">removeUserGroup</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="roles/UserGroupGridHandler.php.html#430"><abbr title="PKP\controllers\grid\settings\roles\UserGroupGridHandler::_toggleAssignment">_toggleAssignment</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="user/UserGridHandler.php.html#210"><abbr title="PKP\controllers\grid\settings\user\UserGridHandler::loadData">loadData</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="user/UserGridHandler.php.html#279"><abbr title="PKP\controllers\grid\settings\user\UserGridHandler::getFilterSelectionData">getFilterSelectionData</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="user/UserGridHandler.php.html#430"><abbr title="PKP\controllers\grid\settings\user\UserGridHandler::updateUserRoles">updateUserRoles</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="user/UserGridHandler.php.html#498"><abbr title="PKP\controllers\grid\settings\user\UserGridHandler::disableUser">disableUser</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="user/UserGridHandler.php.html#577"><abbr title="PKP\controllers\grid\settings\user\UserGridHandler::editEmail">editEmail</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="user/form/UserDisableForm.php.html#96"><abbr title="PKP\controllers\grid\settings\user\form\UserDisableForm::execute">execute</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="category/CategoryGridRow.php.html#34"><abbr title="PKP\controllers\grid\settings\category\CategoryGridRow::initialize">initialize</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="category/form/CategoryForm.php.html#208"><abbr title="PKP\controllers\grid\settings\category\form\CategoryForm::readInputData">readInputData</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="genre/GenreGridHandler.php.html#212"><abbr title="PKP\controllers\grid\settings\genre\GenreGridHandler::updateGenre">updateGenre</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="genre/GenreGridRow.php.html#34"><abbr title="PKP\controllers\grid\settings\genre\GenreGridRow::initialize">initialize</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="genre/form/GenreForm.php.html#83"><abbr title="PKP\controllers\grid\settings\genre\form\GenreForm::initData">initData</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="library/form/EditLibraryFileForm.php.html#37"><abbr title="PKP\controllers\grid\settings\library\form\EditLibraryFileForm::__construct">__construct</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="reviewForms/ReviewFormElementGridRow.php.html#34"><abbr title="PKP\controllers\grid\settings\reviewForms\ReviewFormElementGridRow::initialize">initialize</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="reviewForms/ReviewFormElementsGridHandler.php.html#60"><abbr title="PKP\controllers\grid\settings\reviewForms\ReviewFormElementsGridHandler::authorize">authorize</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="reviewForms/ReviewFormElementsGridHandler.php.html#276"><abbr title="PKP\controllers\grid\settings\reviewForms\ReviewFormElementsGridHandler::deleteReviewFormElement">deleteReviewFormElement</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="reviewForms/ReviewFormGridCellProvider.php.html#57"><abbr title="PKP\controllers\grid\settings\reviewForms\ReviewFormGridCellProvider::getCellActions">getCellActions</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="reviewForms/form/ReviewFormForm.php.html#89"><abbr title="PKP\controllers\grid\settings\reviewForms\form\ReviewFormForm::execute">execute</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="roles/UserGroupGridHandler.php.html#111"><abbr title="PKP\controllers\grid\settings\roles\UserGroupGridHandler::initialize">initialize</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="roles/UserGroupGridHandler.php.html#244"><abbr title="PKP\controllers\grid\settings\roles\UserGroupGridHandler::getFilterSelectionData">getFilterSelectionData</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="roles/UserGroupGridRow.php.html#35"><abbr title="PKP\controllers\grid\settings\roles\UserGroupGridRow::initialize">initialize</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="roles/form/UserGroupForm.php.html#101"><abbr title="PKP\controllers\grid\settings\roles\form\UserGroupForm::initData">initData</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="sections/form/PKPSectionForm.php.html#142"><abbr title="PKP\controllers\grid\settings\sections\form\PKPSectionForm::initData">initData</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="user/form/UserDetailsForm.php.html#56"><abbr title="PKP\controllers\grid\settings\user\form\UserDetailsForm::__construct">__construct</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="user/form/UserDetailsForm.php.html#210"><abbr title="PKP\controllers\grid\settings\user\form\UserDetailsForm::display">display</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="user/form/UserDisableForm.php.html#50"><abbr title="PKP\controllers\grid\settings\user\form\UserDisableForm::initData">initData</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="user/form/UserForm.php.html#34"><abbr title="PKP\controllers\grid\settings\user\form\UserForm::__construct">__construct</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="user/form/UserForm.php.html#48"><abbr title="PKP\controllers\grid\settings\user\form\UserForm::initData">initData</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="SetupGridHandler.php.html#45"><abbr title="PKP\controllers\grid\settings\SetupGridHandler::authorize">authorize</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="SetupGridHandler.php.html#59"><abbr title="PKP\controllers\grid\settings\SetupGridHandler::uploadImage">uploadImage</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="category/CategoryCategoryGridHandler.php.html#252"><abbr title="PKP\controllers\grid\settings\category\CategoryCategoryGridHandler::updateCategory">updateCategory</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="category/CategoryCategoryGridHandler.php.html#298"><abbr title="PKP\controllers\grid\settings\category\CategoryCategoryGridHandler::uploadImage">uploadImage</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="category/form/CategoryForm.php.html#59"><abbr title="PKP\controllers\grid\settings\category\form\CategoryForm::__construct">__construct</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="genre/GenreGridHandler.php.html#191"><abbr title="PKP\controllers\grid\settings\genre\GenreGridHandler::editGenre">editGenre</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="genre/GenreGridHandler.php.html#273"><abbr title="PKP\controllers\grid\settings\genre\GenreGridHandler::restoreGenres">restoreGenres</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="genre/form/GenreForm.php.html#58"><abbr title="PKP\controllers\grid\settings\genre\form\GenreForm::__construct">__construct</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="languages/ManageLanguageGridHandler.php.html#58"><abbr title="PKP\controllers\grid\settings\languages\ManageLanguageGridHandler::loadData">loadData</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="languages/SubmissionLanguageGridHandler.php.html#61"><abbr title="PKP\controllers\grid\settings\languages\SubmissionLanguageGridHandler::loadData">loadData</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="languages/SubmissionLanguageGridHandler.php.html#130"><abbr title="PKP\controllers\grid\settings\languages\SubmissionLanguageGridHandler::addLanguages">addLanguages</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="library/form/EditLibraryFileForm.php.html#62"><abbr title="PKP\controllers\grid\settings\library\form\EditLibraryFileForm::initData">initData</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="library/form/EditLibraryFileForm.php.html#75"><abbr title="PKP\controllers\grid\settings\library\form\EditLibraryFileForm::execute">execute</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="reviewForms/ReviewFormGridHandler.php.html#144"><abbr title="PKP\controllers\grid\settings\reviewForms\ReviewFormGridHandler::authorize">authorize</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="reviewForms/ReviewFormGridHandler.php.html#263"><abbr title="PKP\controllers\grid\settings\reviewForms\ReviewFormGridHandler::editReviewForm">editReviewForm</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="reviewForms/form/PreviewReviewForm.php.html#67"><abbr title="PKP\controllers\grid\settings\reviewForms\form\PreviewReviewForm::initData">initData</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="reviewForms/form/ReviewFormElementForm.php.html#91"><abbr title="PKP\controllers\grid\settings\reviewForms\form\ReviewFormElementForm::initData">initData</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="reviewForms/form/ReviewFormElementForm.php.html#173"><abbr title="PKP\controllers\grid\settings\reviewForms\form\ReviewFormElementForm::insertEntry">insertEntry</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="reviewForms/form/ReviewFormElementForm.php.html#186"><abbr title="PKP\controllers\grid\settings\reviewForms\form\ReviewFormElementForm::deleteEntry">deleteEntry</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="reviewForms/form/ReviewFormElementForm.php.html#201"><abbr title="PKP\controllers\grid\settings\reviewForms\form\ReviewFormElementForm::updateEntry">updateEntry</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="reviewForms/form/ReviewFormElements.php.html#66"><abbr title="PKP\controllers\grid\settings\reviewForms\form\ReviewFormElements::initData">initData</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="reviewForms/form/ReviewFormForm.php.html#36"><abbr title="PKP\controllers\grid\settings\reviewForms\form\ReviewFormForm::__construct">__construct</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="reviewForms/form/ReviewFormForm.php.html#58"><abbr title="PKP\controllers\grid\settings\reviewForms\form\ReviewFormForm::initData">initData</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="roles/UserGroupGridHandler.php.html#220"><abbr title="PKP\controllers\grid\settings\roles\UserGroupGridHandler::renderFilter">renderFilter</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="roles/UserGroupGridHandler.php.html#313"><abbr title="PKP\controllers\grid\settings\roles\UserGroupGridHandler::updateUserGroup">updateUserGroup</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="roles/form/UserGroupForm.php.html#48"><abbr title="PKP\controllers\grid\settings\roles\form\UserGroupForm::__construct">__construct</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="roles/form/UserGroupForm.php.html#148"><abbr title="PKP\controllers\grid\settings\roles\form\UserGroupForm::fetch">fetch</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="user/UserGridHandler.php.html#238"><abbr title="PKP\controllers\grid\settings\user\UserGridHandler::renderFilter">renderFilter</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="user/form/UserEmailForm.php.html#88"><abbr title="PKP\controllers\grid\settings\user\form\UserEmailForm::execute">execute</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="user/form/UserForm.php.html#82"><abbr title="PKP\controllers\grid\settings\user\form\UserForm::display">display</abbr></a></td><td class="text-right">6</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 11.0.5</a> using <a href="https://www.php.net/" target="_top">PHP 8.3.11</a> and <a href="https://phpunit.de/">PHPUnit 11.2.8</a> at Wed Sep 4 13:31:09 UTC 2024.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../../../_js/jquery.min.js?v=11.0.5" type="text/javascript"></script>
+  <script src="../../../_js/d3.min.js?v=11.0.5" type="text/javascript"></script>
+  <script src="../../../_js/nv.d3.min.js?v=11.0.5" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([36,0,0,0,0,0,0,0,0,0,0,0], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([233,0,0,0,0,0,0,0,0,0,0,0], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[0,5,"<a href=\"SetupGridHandler.php.html#26\">PKP\\controllers\\grid\\settings\\SetupGridHandler<\/a>"],[0,25,"<a href=\"category\/CategoryCategoryGridHandler.php.html#35\">PKP\\controllers\\grid\\settings\\category\\CategoryCategoryGridHandler<\/a>"],[0,5,"<a href=\"category\/CategoryGridCategoryRow.php.html#26\">PKP\\controllers\\grid\\settings\\category\\CategoryGridCategoryRow<\/a>"],[0,3,"<a href=\"category\/CategoryGridRow.php.html#24\">PKP\\controllers\\grid\\settings\\category\\CategoryGridRow<\/a>"],[0,46,"<a href=\"category\/form\/CategoryForm.php.html#32\">PKP\\controllers\\grid\\settings\\category\\form\\CategoryForm<\/a>"],[0,20,"<a href=\"genre\/GenreGridHandler.php.html#36\">PKP\\controllers\\grid\\settings\\genre\\GenreGridHandler<\/a>"],[0,3,"<a href=\"genre\/GenreGridRow.php.html#24\">PKP\\controllers\\grid\\settings\\genre\\GenreGridRow<\/a>"],[0,13,"<a href=\"genre\/form\/GenreForm.php.html#27\">PKP\\controllers\\grid\\settings\\genre\\form\\GenreForm<\/a>"],[0,9,"<a href=\"languages\/ManageLanguageGridHandler.php.html#28\">PKP\\controllers\\grid\\settings\\languages\\ManageLanguageGridHandler<\/a>"],[0,8,"<a href=\"languages\/SubmissionLanguageGridHandler.php.html#31\">PKP\\controllers\\grid\\settings\\languages\\SubmissionLanguageGridHandler<\/a>"],[0,6,"<a href=\"library\/LibraryFileAdminGridDataProvider.php.html#25\">PKP\\controllers\\grid\\settings\\library\\LibraryFileAdminGridDataProvider<\/a>"],[0,4,"<a href=\"library\/LibraryFileAdminGridHandler.php.html#25\">PKP\\controllers\\grid\\settings\\library\\LibraryFileAdminGridHandler<\/a>"],[0,8,"<a href=\"library\/form\/EditLibraryFileForm.php.html#27\">PKP\\controllers\\grid\\settings\\library\\form\\EditLibraryFileForm<\/a>"],[0,3,"<a href=\"library\/form\/NewLibraryFileForm.php.html#28\">PKP\\controllers\\grid\\settings\\library\\form\\NewLibraryFileForm<\/a>"],[0,4,"<a href=\"reviewForms\/ReviewFormElementGridCellProvider.php.html#21\">PKP\\controllers\\grid\\settings\\reviewForms\\ReviewFormElementGridCellProvider<\/a>"],[0,3,"<a href=\"reviewForms\/ReviewFormElementGridRow.php.html#24\">PKP\\controllers\\grid\\settings\\reviewForms\\ReviewFormElementGridRow<\/a>"],[0,21,"<a href=\"reviewForms\/ReviewFormElementsGridHandler.php.html#36\">PKP\\controllers\\grid\\settings\\reviewForms\\ReviewFormElementsGridHandler<\/a>"],[0,9,"<a href=\"reviewForms\/ReviewFormGridCellProvider.php.html#25\">PKP\\controllers\\grid\\settings\\reviewForms\\ReviewFormGridCellProvider<\/a>"],[0,37,"<a href=\"reviewForms\/ReviewFormGridHandler.php.html#40\">PKP\\controllers\\grid\\settings\\reviewForms\\ReviewFormGridHandler<\/a>"],[0,6,"<a href=\"reviewForms\/ReviewFormGridRow.php.html#24\">PKP\\controllers\\grid\\settings\\reviewForms\\ReviewFormGridRow<\/a>"],[0,4,"<a href=\"reviewForms\/form\/PreviewReviewForm.php.html#28\">PKP\\controllers\\grid\\settings\\reviewForms\\form\\PreviewReviewForm<\/a>"],[0,19,"<a href=\"reviewForms\/form\/ReviewFormElementForm.php.html#32\">PKP\\controllers\\grid\\settings\\reviewForms\\form\\ReviewFormElementForm<\/a>"],[0,4,"<a href=\"reviewForms\/form\/ReviewFormElements.php.html#27\">PKP\\controllers\\grid\\settings\\reviewForms\\form\\ReviewFormElements<\/a>"],[0,10,"<a href=\"reviewForms\/form\/ReviewFormForm.php.html#26\">PKP\\controllers\\grid\\settings\\reviewForms\\form\\ReviewFormForm<\/a>"],[0,10,"<a href=\"roles\/UserGroupGridCellProvider.php.html#30\">PKP\\controllers\\grid\\settings\\roles\\UserGroupGridCellProvider<\/a>"],[0,40,"<a href=\"roles\/UserGroupGridHandler.php.html#41\">PKP\\controllers\\grid\\settings\\roles\\UserGroupGridHandler<\/a>"],[0,3,"<a href=\"roles\/UserGroupGridRow.php.html#25\">PKP\\controllers\\grid\\settings\\roles\\UserGroupGridRow<\/a>"],[0,40,"<a href=\"roles\/form\/UserGroupForm.php.html#33\">PKP\\controllers\\grid\\settings\\roles\\form\\UserGroupForm<\/a>"],[0,15,"<a href=\"sections\/form\/PKPSectionForm.php.html#30\">PKP\\controllers\\grid\\settings\\sections\\form\\PKPSectionForm<\/a>"],[0,62,"<a href=\"user\/UserGridHandler.php.html#46\">PKP\\controllers\\grid\\settings\\user\\UserGridHandler<\/a>"],[0,14,"<a href=\"user\/UserGridRow.php.html#29\">PKP\\controllers\\grid\\settings\\user\\UserGridRow<\/a>"],[0,41,"<a href=\"user\/form\/UserDetailsForm.php.html#38\">PKP\\controllers\\grid\\settings\\user\\form\\UserDetailsForm<\/a>"],[0,10,"<a href=\"user\/form\/UserDisableForm.php.html#25\">PKP\\controllers\\grid\\settings\\user\\form\\UserDisableForm<\/a>"],[0,5,"<a href=\"user\/form\/UserEmailForm.php.html#29\">PKP\\controllers\\grid\\settings\\user\\form\\UserEmailForm<\/a>"],[0,16,"<a href=\"user\/form\/UserForm.php.html#24\">PKP\\controllers\\grid\\settings\\user\\form\\UserForm<\/a>"],[0,3,"<a href=\"user\/form\/UserRoleForm.php.html#23\">PKP\\controllers\\grid\\settings\\user\\form\\UserRoleForm<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[0,1,"<a href=\"SetupGridHandler.php.html#31\">PKP\\controllers\\grid\\settings\\SetupGridHandler::__construct<\/a>"],[0,2,"<a href=\"SetupGridHandler.php.html#45\">PKP\\controllers\\grid\\settings\\SetupGridHandler::authorize<\/a>"],[0,2,"<a href=\"SetupGridHandler.php.html#59\">PKP\\controllers\\grid\\settings\\SetupGridHandler::uploadImage<\/a>"],[0,1,"<a href=\"category\/CategoryCategoryGridHandler.php.html#42\">PKP\\controllers\\grid\\settings\\category\\CategoryCategoryGridHandler::__construct<\/a>"],[0,1,"<a href=\"category\/CategoryCategoryGridHandler.php.html#67\">PKP\\controllers\\grid\\settings\\category\\CategoryCategoryGridHandler::authorize<\/a>"],[0,1,"<a href=\"category\/CategoryCategoryGridHandler.php.html#79\">PKP\\controllers\\grid\\settings\\category\\CategoryCategoryGridHandler::initialize<\/a>"],[0,1,"<a href=\"category\/CategoryCategoryGridHandler.php.html#122\">PKP\\controllers\\grid\\settings\\category\\CategoryCategoryGridHandler::loadData<\/a>"],[0,1,"<a href=\"category\/CategoryCategoryGridHandler.php.html#135\">PKP\\controllers\\grid\\settings\\category\\CategoryCategoryGridHandler::initFeatures<\/a>"],[0,1,"<a href=\"category\/CategoryCategoryGridHandler.php.html#146\">PKP\\controllers\\grid\\settings\\category\\CategoryCategoryGridHandler::getDataElementInCategorySequence<\/a>"],[0,1,"<a href=\"category\/CategoryCategoryGridHandler.php.html#154\">PKP\\controllers\\grid\\settings\\category\\CategoryCategoryGridHandler::setDataElementInCategorySequence<\/a>"],[0,1,"<a href=\"category\/CategoryCategoryGridHandler.php.html#163\">PKP\\controllers\\grid\\settings\\category\\CategoryCategoryGridHandler::getDataElementSequence<\/a>"],[0,1,"<a href=\"category\/CategoryCategoryGridHandler.php.html#171\">PKP\\controllers\\grid\\settings\\category\\CategoryCategoryGridHandler::setDataElementSequence<\/a>"],[0,1,"<a href=\"category\/CategoryCategoryGridHandler.php.html#180\">PKP\\controllers\\grid\\settings\\category\\CategoryCategoryGridHandler::getCategoryRowIdParameterName<\/a>"],[0,1,"<a href=\"category\/CategoryCategoryGridHandler.php.html#188\">PKP\\controllers\\grid\\settings\\category\\CategoryCategoryGridHandler::getRowInstance<\/a>"],[0,1,"<a href=\"category\/CategoryCategoryGridHandler.php.html#196\">PKP\\controllers\\grid\\settings\\category\\CategoryCategoryGridHandler::getCategoryRowInstance<\/a>"],[0,1,"<a href=\"category\/CategoryCategoryGridHandler.php.html#206\">PKP\\controllers\\grid\\settings\\category\\CategoryCategoryGridHandler::loadCategoryData<\/a>"],[0,1,"<a href=\"category\/CategoryCategoryGridHandler.php.html#222\">PKP\\controllers\\grid\\settings\\category\\CategoryCategoryGridHandler::addCategory<\/a>"],[0,1,"<a href=\"category\/CategoryCategoryGridHandler.php.html#235\">PKP\\controllers\\grid\\settings\\category\\CategoryCategoryGridHandler::editCategory<\/a>"],[0,2,"<a href=\"category\/CategoryCategoryGridHandler.php.html#252\">PKP\\controllers\\grid\\settings\\category\\CategoryCategoryGridHandler::updateCategory<\/a>"],[0,4,"<a href=\"category\/CategoryCategoryGridHandler.php.html#273\">PKP\\controllers\\grid\\settings\\category\\CategoryCategoryGridHandler::deleteCategory<\/a>"],[0,2,"<a href=\"category\/CategoryCategoryGridHandler.php.html#298\">PKP\\controllers\\grid\\settings\\category\\CategoryCategoryGridHandler::uploadImage<\/a>"],[0,1,"<a href=\"category\/CategoryCategoryGridHandler.php.html#325\">PKP\\controllers\\grid\\settings\\category\\CategoryCategoryGridHandler::_getCategoryForm<\/a>"],[0,1,"<a href=\"category\/CategoryCategoryGridHandler.php.html#340\">PKP\\controllers\\grid\\settings\\category\\CategoryCategoryGridHandler::_getContextId<\/a>"],[0,4,"<a href=\"category\/CategoryGridCategoryRow.php.html#36\">PKP\\controllers\\grid\\settings\\category\\CategoryGridCategoryRow::initialize<\/a>"],[0,1,"<a href=\"category\/CategoryGridCategoryRow.php.html#85\">PKP\\controllers\\grid\\settings\\category\\CategoryGridCategoryRow::getCategoryLabel<\/a>"],[0,3,"<a href=\"category\/CategoryGridRow.php.html#34\">PKP\\controllers\\grid\\settings\\category\\CategoryGridRow::initialize<\/a>"],[0,2,"<a href=\"category\/form\/CategoryForm.php.html#59\">PKP\\controllers\\grid\\settings\\category\\form\\CategoryForm::__construct<\/a>"],[0,1,"<a href=\"category\/form\/CategoryForm.php.html#100\">PKP\\controllers\\grid\\settings\\category\\form\\CategoryForm::getCategoryId<\/a>"],[0,1,"<a href=\"category\/form\/CategoryForm.php.html#110\">PKP\\controllers\\grid\\settings\\category\\form\\CategoryForm::setCategoryId<\/a>"],[0,1,"<a href=\"category\/form\/CategoryForm.php.html#120\">PKP\\controllers\\grid\\settings\\category\\form\\CategoryForm::getContextId<\/a>"],[0,1,"<a href=\"category\/form\/CategoryForm.php.html#131\">PKP\\controllers\\grid\\settings\\category\\form\\CategoryForm::getLocaleFieldNames<\/a>"],[0,5,"<a href=\"category\/form\/CategoryForm.php.html#139\">PKP\\controllers\\grid\\settings\\category\\form\\CategoryForm::initData<\/a>"],[0,7,"<a href=\"category\/form\/CategoryForm.php.html#187\">PKP\\controllers\\grid\\settings\\category\\form\\CategoryForm::validate<\/a>"],[0,3,"<a href=\"category\/form\/CategoryForm.php.html#208\">PKP\\controllers\\grid\\settings\\category\\form\\CategoryForm::readInputData<\/a>"],[0,4,"<a href=\"category\/form\/CategoryForm.php.html#227\">PKP\\controllers\\grid\\settings\\category\\form\\CategoryForm::fetch<\/a>"],[0,21,"<a href=\"category\/form\/CategoryForm.php.html#293\">PKP\\controllers\\grid\\settings\\category\\form\\CategoryForm::execute<\/a>"],[0,1,"<a href=\"genre\/GenreGridHandler.php.html#41\">PKP\\controllers\\grid\\settings\\genre\\GenreGridHandler::__construct<\/a>"],[0,1,"<a href=\"genre\/GenreGridHandler.php.html#62\">PKP\\controllers\\grid\\settings\\genre\\GenreGridHandler::initialize<\/a>"],[0,1,"<a href=\"genre\/GenreGridHandler.php.html#119\">PKP\\controllers\\grid\\settings\\genre\\GenreGridHandler::loadData<\/a>"],[0,1,"<a href=\"genre\/GenreGridHandler.php.html#133\">PKP\\controllers\\grid\\settings\\genre\\GenreGridHandler::initFeatures<\/a>"],[0,1,"<a href=\"genre\/GenreGridHandler.php.html#143\">PKP\\controllers\\grid\\settings\\genre\\GenreGridHandler::getRowInstance<\/a>"],[0,1,"<a href=\"genre\/GenreGridHandler.php.html#151\">PKP\\controllers\\grid\\settings\\genre\\GenreGridHandler::getDataElementSequence<\/a>"],[0,1,"<a href=\"genre\/GenreGridHandler.php.html#159\">PKP\\controllers\\grid\\settings\\genre\\GenreGridHandler::setDataElementSequence<\/a>"],[0,1,"<a href=\"genre\/GenreGridHandler.php.html#177\">PKP\\controllers\\grid\\settings\\genre\\GenreGridHandler::addGenre<\/a>"],[0,2,"<a href=\"genre\/GenreGridHandler.php.html#191\">PKP\\controllers\\grid\\settings\\genre\\GenreGridHandler::editGenre<\/a>"],[0,3,"<a href=\"genre\/GenreGridHandler.php.html#212\">PKP\\controllers\\grid\\settings\\genre\\GenreGridHandler::updateGenre<\/a>"],[0,5,"<a href=\"genre\/GenreGridHandler.php.html#235\">PKP\\controllers\\grid\\settings\\genre\\GenreGridHandler::deleteGenre<\/a>"],[0,2,"<a href=\"genre\/GenreGridHandler.php.html#273\">PKP\\controllers\\grid\\settings\\genre\\GenreGridHandler::restoreGenres<\/a>"],[0,3,"<a href=\"genre\/GenreGridRow.php.html#34\">PKP\\controllers\\grid\\settings\\genre\\GenreGridRow::initialize<\/a>"],[0,1,"<a href=\"genre\/form\/GenreForm.php.html#37\">PKP\\controllers\\grid\\settings\\genre\\form\\GenreForm::setGenreId<\/a>"],[0,1,"<a href=\"genre\/form\/GenreForm.php.html#47\">PKP\\controllers\\grid\\settings\\genre\\form\\GenreForm::getGenreId<\/a>"],[0,2,"<a href=\"genre\/form\/GenreForm.php.html#58\">PKP\\controllers\\grid\\settings\\genre\\form\\GenreForm::__construct<\/a>"],[0,3,"<a href=\"genre\/form\/GenreForm.php.html#83\">PKP\\controllers\\grid\\settings\\genre\\form\\GenreForm::initData<\/a>"],[0,1,"<a href=\"genre\/form\/GenreForm.php.html#121\">PKP\\controllers\\grid\\settings\\genre\\form\\GenreForm::fetch<\/a>"],[0,1,"<a href=\"genre\/form\/GenreForm.php.html#137\">PKP\\controllers\\grid\\settings\\genre\\form\\GenreForm::readInputData<\/a>"],[0,4,"<a href=\"genre\/form\/GenreForm.php.html#147\">PKP\\controllers\\grid\\settings\\genre\\form\\GenreForm::execute<\/a>"],[0,1,"<a href=\"languages\/ManageLanguageGridHandler.php.html#33\">PKP\\controllers\\grid\\settings\\languages\\ManageLanguageGridHandler::__construct<\/a>"],[0,1,"<a href=\"languages\/ManageLanguageGridHandler.php.html#49\">PKP\\controllers\\grid\\settings\\languages\\ManageLanguageGridHandler::authorize<\/a>"],[0,2,"<a href=\"languages\/ManageLanguageGridHandler.php.html#58\">PKP\\controllers\\grid\\settings\\languages\\ManageLanguageGridHandler::loadData<\/a>"],[0,1,"<a href=\"languages\/ManageLanguageGridHandler.php.html#89\">PKP\\controllers\\grid\\settings\\languages\\ManageLanguageGridHandler::initialize<\/a>"],[0,4,"<a href=\"languages\/ManageLanguageGridHandler.php.html#109\">PKP\\controllers\\grid\\settings\\languages\\ManageLanguageGridHandler::reloadLocale<\/a>"],[0,1,"<a href=\"languages\/SubmissionLanguageGridHandler.php.html#36\">PKP\\controllers\\grid\\settings\\languages\\SubmissionLanguageGridHandler::__construct<\/a>"],[0,1,"<a href=\"languages\/SubmissionLanguageGridHandler.php.html#52\">PKP\\controllers\\grid\\settings\\languages\\SubmissionLanguageGridHandler::authorize<\/a>"],[0,2,"<a href=\"languages\/SubmissionLanguageGridHandler.php.html#61\">PKP\\controllers\\grid\\settings\\languages\\SubmissionLanguageGridHandler::loadData<\/a>"],[0,1,"<a href=\"languages\/SubmissionLanguageGridHandler.php.html#90\">PKP\\controllers\\grid\\settings\\languages\\SubmissionLanguageGridHandler::initialize<\/a>"],[0,1,"<a href=\"languages\/SubmissionLanguageGridHandler.php.html#120\">PKP\\controllers\\grid\\settings\\languages\\SubmissionLanguageGridHandler::addLanguageModal<\/a>"],[0,2,"<a href=\"languages\/SubmissionLanguageGridHandler.php.html#130\">PKP\\controllers\\grid\\settings\\languages\\SubmissionLanguageGridHandler::addLanguages<\/a>"],[0,1,"<a href=\"library\/LibraryFileAdminGridDataProvider.php.html#36\">PKP\\controllers\\grid\\settings\\library\\LibraryFileAdminGridDataProvider::__construct<\/a>"],[0,1,"<a href=\"library\/LibraryFileAdminGridDataProvider.php.html#50\">PKP\\controllers\\grid\\settings\\library\\LibraryFileAdminGridDataProvider::getAuthorizationPolicy<\/a>"],[0,1,"<a href=\"library\/LibraryFileAdminGridDataProvider.php.html#59\">PKP\\controllers\\grid\\settings\\library\\LibraryFileAdminGridDataProvider::getRequestArgs<\/a>"],[0,1,"<a href=\"library\/LibraryFileAdminGridDataProvider.php.html#69\">PKP\\controllers\\grid\\settings\\library\\LibraryFileAdminGridDataProvider::getContext<\/a>"],[0,1,"<a href=\"library\/LibraryFileAdminGridDataProvider.php.html#80\">PKP\\controllers\\grid\\settings\\library\\LibraryFileAdminGridDataProvider::canEdit<\/a>"],[0,1,"<a href=\"library\/LibraryFileAdminGridDataProvider.php.html#91\">PKP\\controllers\\grid\\settings\\library\\LibraryFileAdminGridDataProvider::loadCategoryData<\/a>"],[0,1,"<a href=\"library\/LibraryFileAdminGridHandler.php.html#30\">PKP\\controllers\\grid\\settings\\library\\LibraryFileAdminGridHandler::__construct<\/a>"],[0,1,"<a href=\"library\/LibraryFileAdminGridHandler.php.html#54\">PKP\\controllers\\grid\\settings\\library\\LibraryFileAdminGridHandler::initialize<\/a>"],[0,1,"<a href=\"library\/LibraryFileAdminGridHandler.php.html#69\">PKP\\controllers\\grid\\settings\\library\\LibraryFileAdminGridHandler::_getNewFileForm<\/a>"],[0,1,"<a href=\"library\/LibraryFileAdminGridHandler.php.html#82\">PKP\\controllers\\grid\\settings\\library\\LibraryFileAdminGridHandler::_getEditFileForm<\/a>"],[0,3,"<a href=\"library\/form\/EditLibraryFileForm.php.html#37\">PKP\\controllers\\grid\\settings\\library\\form\\EditLibraryFileForm::__construct<\/a>"],[0,1,"<a href=\"library\/form\/EditLibraryFileForm.php.html#53\">PKP\\controllers\\grid\\settings\\library\\form\\EditLibraryFileForm::readInputData<\/a>"],[0,2,"<a href=\"library\/form\/EditLibraryFileForm.php.html#62\">PKP\\controllers\\grid\\settings\\library\\form\\EditLibraryFileForm::initData<\/a>"],[0,2,"<a href=\"library\/form\/EditLibraryFileForm.php.html#75\">PKP\\controllers\\grid\\settings\\library\\form\\EditLibraryFileForm::execute<\/a>"],[0,1,"<a href=\"library\/form\/NewLibraryFileForm.php.html#35\">PKP\\controllers\\grid\\settings\\library\\form\\NewLibraryFileForm::__construct<\/a>"],[0,1,"<a href=\"library\/form\/NewLibraryFileForm.php.html#46\">PKP\\controllers\\grid\\settings\\library\\form\\NewLibraryFileForm::readInputData<\/a>"],[0,1,"<a href=\"library\/form\/NewLibraryFileForm.php.html#57\">PKP\\controllers\\grid\\settings\\library\\form\\NewLibraryFileForm::execute<\/a>"],[0,4,"<a href=\"reviewForms\/ReviewFormElementGridCellProvider.php.html#32\">PKP\\controllers\\grid\\settings\\reviewForms\\ReviewFormElementGridCellProvider::getTemplateVarsFromRowColumn<\/a>"],[0,3,"<a href=\"reviewForms\/ReviewFormElementGridRow.php.html#34\">PKP\\controllers\\grid\\settings\\reviewForms\\ReviewFormElementGridRow::initialize<\/a>"],[0,1,"<a href=\"reviewForms\/ReviewFormElementsGridHandler.php.html#44\">PKP\\controllers\\grid\\settings\\reviewForms\\ReviewFormElementsGridHandler::__construct<\/a>"],[0,3,"<a href=\"reviewForms\/ReviewFormElementsGridHandler.php.html#60\">PKP\\controllers\\grid\\settings\\reviewForms\\ReviewFormElementsGridHandler::authorize<\/a>"],[0,1,"<a href=\"reviewForms\/ReviewFormElementsGridHandler.php.html#83\">PKP\\controllers\\grid\\settings\\reviewForms\\ReviewFormElementsGridHandler::initialize<\/a>"],[0,1,"<a href=\"reviewForms\/ReviewFormElementsGridHandler.php.html#134\">PKP\\controllers\\grid\\settings\\reviewForms\\ReviewFormElementsGridHandler::initFeatures<\/a>"],[0,1,"<a href=\"reviewForms\/ReviewFormElementsGridHandler.php.html#144\">PKP\\controllers\\grid\\settings\\reviewForms\\ReviewFormElementsGridHandler::getRowInstance<\/a>"],[0,1,"<a href=\"reviewForms\/ReviewFormElementsGridHandler.php.html#154\">PKP\\controllers\\grid\\settings\\reviewForms\\ReviewFormElementsGridHandler::loadData<\/a>"],[0,1,"<a href=\"reviewForms\/ReviewFormElementsGridHandler.php.html#167\">PKP\\controllers\\grid\\settings\\reviewForms\\ReviewFormElementsGridHandler::getRequestArgs<\/a>"],[0,1,"<a href=\"reviewForms\/ReviewFormElementsGridHandler.php.html#175\">PKP\\controllers\\grid\\settings\\reviewForms\\ReviewFormElementsGridHandler::getDataElementSequence<\/a>"],[0,1,"<a href=\"reviewForms\/ReviewFormElementsGridHandler.php.html#183\">PKP\\controllers\\grid\\settings\\reviewForms\\ReviewFormElementsGridHandler::setDataElementSequence<\/a>"],[0,1,"<a href=\"reviewForms\/ReviewFormElementsGridHandler.php.html#202\">PKP\\controllers\\grid\\settings\\reviewForms\\ReviewFormElementsGridHandler::createReviewFormElement<\/a>"],[0,1,"<a href=\"reviewForms\/ReviewFormElementsGridHandler.php.html#218\">PKP\\controllers\\grid\\settings\\reviewForms\\ReviewFormElementsGridHandler::editReviewFormElement<\/a>"],[0,5,"<a href=\"reviewForms\/ReviewFormElementsGridHandler.php.html#237\">PKP\\controllers\\grid\\settings\\reviewForms\\ReviewFormElementsGridHandler::updateReviewFormElement<\/a>"],[0,3,"<a href=\"reviewForms\/ReviewFormElementsGridHandler.php.html#276\">PKP\\controllers\\grid\\settings\\reviewForms\\ReviewFormElementsGridHandler::deleteReviewFormElement<\/a>"],[0,6,"<a href=\"reviewForms\/ReviewFormGridCellProvider.php.html#36\">PKP\\controllers\\grid\\settings\\reviewForms\\ReviewFormGridCellProvider::getTemplateVarsFromRowColumn<\/a>"],[0,3,"<a href=\"reviewForms\/ReviewFormGridCellProvider.php.html#57\">PKP\\controllers\\grid\\settings\\reviewForms\\ReviewFormGridCellProvider::getCellActions<\/a>"],[0,1,"<a href=\"reviewForms\/ReviewFormGridHandler.php.html#45\">PKP\\controllers\\grid\\settings\\reviewForms\\ReviewFormGridHandler::__construct<\/a>"],[0,1,"<a href=\"reviewForms\/ReviewFormGridHandler.php.html#66\">PKP\\controllers\\grid\\settings\\reviewForms\\ReviewFormGridHandler::initialize<\/a>"],[0,2,"<a href=\"reviewForms\/ReviewFormGridHandler.php.html#144\">PKP\\controllers\\grid\\settings\\reviewForms\\ReviewFormGridHandler::authorize<\/a>"],[0,1,"<a href=\"reviewForms\/ReviewFormGridHandler.php.html#164\">PKP\\controllers\\grid\\settings\\reviewForms\\ReviewFormGridHandler::getRowInstance<\/a>"],[0,1,"<a href=\"reviewForms\/ReviewFormGridHandler.php.html#174\">PKP\\controllers\\grid\\settings\\reviewForms\\ReviewFormGridHandler::loadData<\/a>"],[0,1,"<a href=\"reviewForms\/ReviewFormGridHandler.php.html#187\">PKP\\controllers\\grid\\settings\\reviewForms\\ReviewFormGridHandler::setDataElementSequence<\/a>"],[0,1,"<a href=\"reviewForms\/ReviewFormGridHandler.php.html#197\">PKP\\controllers\\grid\\settings\\reviewForms\\ReviewFormGridHandler::getDataElementSequence<\/a>"],[0,1,"<a href=\"reviewForms\/ReviewFormGridHandler.php.html#205\">PKP\\controllers\\grid\\settings\\reviewForms\\ReviewFormGridHandler::initFeatures<\/a>"],[0,1,"<a href=\"reviewForms\/ReviewFormGridHandler.php.html#222\">PKP\\controllers\\grid\\settings\\reviewForms\\ReviewFormGridHandler::reviewFormPreview<\/a>"],[0,1,"<a href=\"reviewForms\/ReviewFormGridHandler.php.html#247\">PKP\\controllers\\grid\\settings\\reviewForms\\ReviewFormGridHandler::createReviewForm<\/a>"],[0,2,"<a href=\"reviewForms\/ReviewFormGridHandler.php.html#263\">PKP\\controllers\\grid\\settings\\reviewForms\\ReviewFormGridHandler::editReviewForm<\/a>"],[0,1,"<a href=\"reviewForms\/ReviewFormGridHandler.php.html#291\">PKP\\controllers\\grid\\settings\\reviewForms\\ReviewFormGridHandler::reviewFormBasics<\/a>"],[0,1,"<a href=\"reviewForms\/ReviewFormGridHandler.php.html#311\">PKP\\controllers\\grid\\settings\\reviewForms\\ReviewFormGridHandler::reviewFormElements<\/a>"],[0,4,"<a href=\"reviewForms\/ReviewFormGridHandler.php.html#337\">PKP\\controllers\\grid\\settings\\reviewForms\\ReviewFormGridHandler::updateReviewForm<\/a>"],[0,4,"<a href=\"reviewForms\/ReviewFormGridHandler.php.html#375\">PKP\\controllers\\grid\\settings\\reviewForms\\ReviewFormGridHandler::copyReviewForm<\/a>"],[0,4,"<a href=\"reviewForms\/ReviewFormGridHandler.php.html#421\">PKP\\controllers\\grid\\settings\\reviewForms\\ReviewFormGridHandler::activateReviewForm<\/a>"],[0,4,"<a href=\"reviewForms\/ReviewFormGridHandler.php.html#457\">PKP\\controllers\\grid\\settings\\reviewForms\\ReviewFormGridHandler::deactivateReviewForm<\/a>"],[0,6,"<a href=\"reviewForms\/ReviewFormGridHandler.php.html#492\">PKP\\controllers\\grid\\settings\\reviewForms\\ReviewFormGridHandler::deleteReviewForm<\/a>"],[0,6,"<a href=\"reviewForms\/ReviewFormGridRow.php.html#34\">PKP\\controllers\\grid\\settings\\reviewForms\\ReviewFormGridRow::initialize<\/a>"],[0,1,"<a href=\"reviewForms\/form\/PreviewReviewForm.php.html#38\">PKP\\controllers\\grid\\settings\\reviewForms\\form\\PreviewReviewForm::__construct<\/a>"],[0,1,"<a href=\"reviewForms\/form\/PreviewReviewForm.php.html#54\">PKP\\controllers\\grid\\settings\\reviewForms\\form\\PreviewReviewForm::fetch<\/a>"],[0,2,"<a href=\"reviewForms\/form\/PreviewReviewForm.php.html#67\">PKP\\controllers\\grid\\settings\\reviewForms\\form\\PreviewReviewForm::initData<\/a>"],[0,1,"<a href=\"reviewForms\/form\/ReviewFormElementForm.php.html#46\">PKP\\controllers\\grid\\settings\\reviewForms\\form\\ReviewFormElementForm::__construct<\/a>"],[0,1,"<a href=\"reviewForms\/form\/ReviewFormElementForm.php.html#63\">PKP\\controllers\\grid\\settings\\reviewForms\\form\\ReviewFormElementForm::getLocaleFieldNames<\/a>"],[0,1,"<a href=\"reviewForms\/form\/ReviewFormElementForm.php.html#74\">PKP\\controllers\\grid\\settings\\reviewForms\\form\\ReviewFormElementForm::fetch<\/a>"],[0,2,"<a href=\"reviewForms\/form\/ReviewFormElementForm.php.html#91\">PKP\\controllers\\grid\\settings\\reviewForms\\form\\ReviewFormElementForm::initData<\/a>"],[0,1,"<a href=\"reviewForms\/form\/ReviewFormElementForm.php.html#117\">PKP\\controllers\\grid\\settings\\reviewForms\\form\\ReviewFormElementForm::readInputData<\/a>"],[0,7,"<a href=\"reviewForms\/form\/ReviewFormElementForm.php.html#127\">PKP\\controllers\\grid\\settings\\reviewForms\\form\\ReviewFormElementForm::execute<\/a>"],[0,2,"<a href=\"reviewForms\/form\/ReviewFormElementForm.php.html#173\">PKP\\controllers\\grid\\settings\\reviewForms\\form\\ReviewFormElementForm::insertEntry<\/a>"],[0,2,"<a href=\"reviewForms\/form\/ReviewFormElementForm.php.html#186\">PKP\\controllers\\grid\\settings\\reviewForms\\form\\ReviewFormElementForm::deleteEntry<\/a>"],[0,2,"<a href=\"reviewForms\/form\/ReviewFormElementForm.php.html#201\">PKP\\controllers\\grid\\settings\\reviewForms\\form\\ReviewFormElementForm::updateEntry<\/a>"],[0,1,"<a href=\"reviewForms\/form\/ReviewFormElements.php.html#37\">PKP\\controllers\\grid\\settings\\reviewForms\\form\\ReviewFormElements::__construct<\/a>"],[0,1,"<a href=\"reviewForms\/form\/ReviewFormElements.php.html#53\">PKP\\controllers\\grid\\settings\\reviewForms\\form\\ReviewFormElements::fetch<\/a>"],[0,2,"<a href=\"reviewForms\/form\/ReviewFormElements.php.html#66\">PKP\\controllers\\grid\\settings\\reviewForms\\form\\ReviewFormElements::initData<\/a>"],[0,2,"<a href=\"reviewForms\/form\/ReviewFormForm.php.html#36\">PKP\\controllers\\grid\\settings\\reviewForms\\form\\ReviewFormForm::__construct<\/a>"],[0,1,"<a href=\"reviewForms\/form\/ReviewFormForm.php.html#50\">PKP\\controllers\\grid\\settings\\reviewForms\\form\\ReviewFormForm::readInputData<\/a>"],[0,2,"<a href=\"reviewForms\/form\/ReviewFormForm.php.html#58\">PKP\\controllers\\grid\\settings\\reviewForms\\form\\ReviewFormForm::initData<\/a>"],[0,1,"<a href=\"reviewForms\/form\/ReviewFormForm.php.html#76\">PKP\\controllers\\grid\\settings\\reviewForms\\form\\ReviewFormForm::fetch<\/a>"],[0,3,"<a href=\"reviewForms\/form\/ReviewFormForm.php.html#89\">PKP\\controllers\\grid\\settings\\reviewForms\\form\\ReviewFormForm::execute<\/a>"],[0,1,"<a href=\"reviewForms\/form\/ReviewFormForm.php.html#121\">PKP\\controllers\\grid\\settings\\reviewForms\\form\\ReviewFormForm::getLocaleFieldNames<\/a>"],[0,6,"<a href=\"roles\/UserGroupGridCellProvider.php.html#41\">PKP\\controllers\\grid\\settings\\roles\\UserGroupGridCellProvider::getTemplateVarsFromRowColumn<\/a>"],[0,4,"<a href=\"roles\/UserGroupGridCellProvider.php.html#77\">PKP\\controllers\\grid\\settings\\roles\\UserGroupGridCellProvider::getCellActions<\/a>"],[0,1,"<a href=\"roles\/UserGroupGridHandler.php.html#53\">PKP\\controllers\\grid\\settings\\roles\\UserGroupGridHandler::__construct<\/a>"],[0,4,"<a href=\"roles\/UserGroupGridHandler.php.html#79\">PKP\\controllers\\grid\\settings\\roles\\UserGroupGridHandler::authorize<\/a>"],[0,3,"<a href=\"roles\/UserGroupGridHandler.php.html#111\">PKP\\controllers\\grid\\settings\\roles\\UserGroupGridHandler::initialize<\/a>"],[0,8,"<a href=\"roles\/UserGroupGridHandler.php.html#167\">PKP\\controllers\\grid\\settings\\roles\\UserGroupGridHandler::loadData<\/a>"],[0,1,"<a href=\"roles\/UserGroupGridHandler.php.html#212\">PKP\\controllers\\grid\\settings\\roles\\UserGroupGridHandler::getRowInstance<\/a>"],[0,2,"<a href=\"roles\/UserGroupGridHandler.php.html#220\">PKP\\controllers\\grid\\settings\\roles\\UserGroupGridHandler::renderFilter<\/a>"],[0,3,"<a href=\"roles\/UserGroupGridHandler.php.html#244\">PKP\\controllers\\grid\\settings\\roles\\UserGroupGridHandler::getFilterSelectionData<\/a>"],[0,1,"<a href=\"roles\/UserGroupGridHandler.php.html#261\">PKP\\controllers\\grid\\settings\\roles\\UserGroupGridHandler::getFilterForm<\/a>"],[0,1,"<a href=\"roles\/UserGroupGridHandler.php.html#269\">PKP\\controllers\\grid\\settings\\roles\\UserGroupGridHandler::initFeatures<\/a>"],[0,1,"<a href=\"roles\/UserGroupGridHandler.php.html#284\">PKP\\controllers\\grid\\settings\\roles\\UserGroupGridHandler::addUserGroup<\/a>"],[0,1,"<a href=\"roles\/UserGroupGridHandler.php.html#296\">PKP\\controllers\\grid\\settings\\roles\\UserGroupGridHandler::editUserGroup<\/a>"],[0,2,"<a href=\"roles\/UserGroupGridHandler.php.html#313\">PKP\\controllers\\grid\\settings\\roles\\UserGroupGridHandler::updateUserGroup<\/a>"],[0,4,"<a href=\"roles\/UserGroupGridHandler.php.html#338\">PKP\\controllers\\grid\\settings\\roles\\UserGroupGridHandler::removeUserGroup<\/a>"],[0,1,"<a href=\"roles\/UserGroupGridHandler.php.html#402\">PKP\\controllers\\grid\\settings\\roles\\UserGroupGridHandler::assignStage<\/a>"],[0,1,"<a href=\"roles\/UserGroupGridHandler.php.html#413\">PKP\\controllers\\grid\\settings\\roles\\UserGroupGridHandler::unassignStage<\/a>"],[0,4,"<a href=\"roles\/UserGroupGridHandler.php.html#430\">PKP\\controllers\\grid\\settings\\roles\\UserGroupGridHandler::_toggleAssignment<\/a>"],[0,1,"<a href=\"roles\/UserGroupGridHandler.php.html#480\">PKP\\controllers\\grid\\settings\\roles\\UserGroupGridHandler::_getUserGroupForm<\/a>"],[0,1,"<a href=\"roles\/UserGroupGridHandler.php.html#495\">PKP\\controllers\\grid\\settings\\roles\\UserGroupGridHandler::_getContextId<\/a>"],[0,3,"<a href=\"roles\/UserGroupGridRow.php.html#35\">PKP\\controllers\\grid\\settings\\roles\\UserGroupGridRow::initialize<\/a>"],[0,2,"<a href=\"roles\/form\/UserGroupForm.php.html#48\">PKP\\controllers\\grid\\settings\\roles\\form\\UserGroupForm::__construct<\/a>"],[0,1,"<a href=\"roles\/form\/UserGroupForm.php.html#72\">PKP\\controllers\\grid\\settings\\roles\\form\\UserGroupForm::getUserGroupId<\/a>"],[0,1,"<a href=\"roles\/form\/UserGroupForm.php.html#82\">PKP\\controllers\\grid\\settings\\roles\\form\\UserGroupForm::getContextId<\/a>"],[0,1,"<a href=\"roles\/form\/UserGroupForm.php.html#93\">PKP\\controllers\\grid\\settings\\roles\\form\\UserGroupForm::getLocaleFieldNames<\/a>"],[0,3,"<a href=\"roles\/form\/UserGroupForm.php.html#101\">PKP\\controllers\\grid\\settings\\roles\\form\\UserGroupForm::initData<\/a>"],[0,1,"<a href=\"roles\/form\/UserGroupForm.php.html#138\">PKP\\controllers\\grid\\settings\\roles\\form\\UserGroupForm::readInputData<\/a>"],[0,2,"<a href=\"roles\/form\/UserGroupForm.php.html#148\">PKP\\controllers\\grid\\settings\\roles\\form\\UserGroupForm::fetch<\/a>"],[0,1,"<a href=\"roles\/form\/UserGroupForm.php.html#171\">PKP\\controllers\\grid\\settings\\roles\\form\\UserGroupForm::getPermitSelfRegistrationRoles<\/a>"],[0,1,"<a href=\"roles\/form\/UserGroupForm.php.html#181\">PKP\\controllers\\grid\\settings\\roles\\form\\UserGroupForm::getRecommendOnlyRoles<\/a>"],[0,16,"<a href=\"roles\/form\/UserGroupForm.php.html#189\">PKP\\controllers\\grid\\settings\\roles\\form\\UserGroupForm::execute<\/a>"],[0,6,"<a href=\"roles\/form\/UserGroupForm.php.html#267\">PKP\\controllers\\grid\\settings\\roles\\form\\UserGroupForm::_assignStagesToUserGroup<\/a>"],[0,5,"<a href=\"roles\/form\/UserGroupForm.php.html#308\">PKP\\controllers\\grid\\settings\\roles\\form\\UserGroupForm::_setUserGroupLocaleFields<\/a>"],[0,1,"<a href=\"sections\/form\/PKPSectionForm.php.html#56\">PKP\\controllers\\grid\\settings\\sections\\form\\PKPSectionForm::__construct<\/a>"],[0,1,"<a href=\"sections\/form\/PKPSectionForm.php.html#73\">PKP\\controllers\\grid\\settings\\sections\\form\\PKPSectionForm::readInputData<\/a>"],[0,1,"<a href=\"sections\/form\/PKPSectionForm.php.html#83\">PKP\\controllers\\grid\\settings\\sections\\form\\PKPSectionForm::getSectionId<\/a>"],[0,1,"<a href=\"sections\/form\/PKPSectionForm.php.html#93\">PKP\\controllers\\grid\\settings\\sections\\form\\PKPSectionForm::setSectionId<\/a>"],[0,1,"<a href=\"sections\/form\/PKPSectionForm.php.html#98\">PKP\\controllers\\grid\\settings\\sections\\form\\PKPSectionForm::getSection<\/a>"],[0,1,"<a href=\"sections\/form\/PKPSectionForm.php.html#103\">PKP\\controllers\\grid\\settings\\sections\\form\\PKPSectionForm::setSection<\/a>"],[0,1,"<a href=\"sections\/form\/PKPSectionForm.php.html#113\">PKP\\controllers\\grid\\settings\\sections\\form\\PKPSectionForm::fetch<\/a>"],[0,3,"<a href=\"sections\/form\/PKPSectionForm.php.html#142\">PKP\\controllers\\grid\\settings\\sections\\form\\PKPSectionForm::initData<\/a>"],[0,5,"<a href=\"sections\/form\/PKPSectionForm.php.html#177\">PKP\\controllers\\grid\\settings\\sections\\form\\PKPSectionForm::execute<\/a>"],[0,1,"<a href=\"user\/UserGridHandler.php.html#54\">PKP\\controllers\\grid\\settings\\user\\UserGridHandler::__construct<\/a>"],[0,1,"<a href=\"user\/UserGridHandler.php.html#73\">PKP\\controllers\\grid\\settings\\user\\UserGridHandler::authorize<\/a>"],[0,1,"<a href=\"user\/UserGridHandler.php.html#84\">PKP\\controllers\\grid\\settings\\user\\UserGridHandler::initialize<\/a>"],[0,1,"<a href=\"user\/UserGridHandler.php.html#190\">PKP\\controllers\\grid\\settings\\user\\UserGridHandler::getRowInstance<\/a>"],[0,1,"<a href=\"user\/UserGridHandler.php.html#198\">PKP\\controllers\\grid\\settings\\user\\UserGridHandler::initFeatures<\/a>"],[0,4,"<a href=\"user\/UserGridHandler.php.html#210\">PKP\\controllers\\grid\\settings\\user\\UserGridHandler::loadData<\/a>"],[0,2,"<a href=\"user\/UserGridHandler.php.html#238\">PKP\\controllers\\grid\\settings\\user\\UserGridHandler::renderFilter<\/a>"],[0,4,"<a href=\"user\/UserGridHandler.php.html#279\">PKP\\controllers\\grid\\settings\\user\\UserGridHandler::getFilterSelectionData<\/a>"],[0,1,"<a href=\"user\/UserGridHandler.php.html#302\">PKP\\controllers\\grid\\settings\\user\\UserGridHandler::getFilterForm<\/a>"],[0,1,"<a href=\"user\/UserGridHandler.php.html#312\">PKP\\controllers\\grid\\settings\\user\\UserGridHandler::getJSHandler<\/a>"],[0,1,"<a href=\"user\/UserGridHandler.php.html#327\">PKP\\controllers\\grid\\settings\\user\\UserGridHandler::addUser<\/a>"],[0,5,"<a href=\"user\/UserGridHandler.php.html#341\">PKP\\controllers\\grid\\settings\\user\\UserGridHandler::editUser<\/a>"],[0,6,"<a href=\"user\/UserGridHandler.php.html#378\">PKP\\controllers\\grid\\settings\\user\\UserGridHandler::updateUser<\/a>"],[0,4,"<a href=\"user\/UserGridHandler.php.html#430\">PKP\\controllers\\grid\\settings\\user\\UserGridHandler::updateUserRoles<\/a>"],[0,5,"<a href=\"user\/UserGridHandler.php.html#464\">PKP\\controllers\\grid\\settings\\user\\UserGridHandler::editDisableUser<\/a>"],[0,4,"<a href=\"user\/UserGridHandler.php.html#498\">PKP\\controllers\\grid\\settings\\user\\UserGridHandler::disableUser<\/a>"],[0,5,"<a href=\"user\/UserGridHandler.php.html#537\">PKP\\controllers\\grid\\settings\\user\\UserGridHandler::removeUser<\/a>"],[0,4,"<a href=\"user\/UserGridHandler.php.html#577\">PKP\\controllers\\grid\\settings\\user\\UserGridHandler::editEmail<\/a>"],[0,5,"<a href=\"user\/UserGridHandler.php.html#611\">PKP\\controllers\\grid\\settings\\user\\UserGridHandler::sendEmail<\/a>"],[0,5,"<a href=\"user\/UserGridHandler.php.html#649\">PKP\\controllers\\grid\\settings\\user\\UserGridHandler::mergeUsers<\/a>"],[0,1,"<a href=\"user\/UserGridHandler.php.html#680\">PKP\\controllers\\grid\\settings\\user\\UserGridHandler::getRequestArgs<\/a>"],[0,1,"<a href=\"user\/UserGridRow.php.html#39\">PKP\\controllers\\grid\\settings\\user\\UserGridRow::__construct<\/a>"],[0,12,"<a href=\"user\/UserGridRow.php.html#54\">PKP\\controllers\\grid\\settings\\user\\UserGridRow::initialize<\/a>"],[0,1,"<a href=\"user\/UserGridRow.php.html#224\">PKP\\controllers\\grid\\settings\\user\\UserGridRow::getOldUserId<\/a>"],[0,3,"<a href=\"user\/form\/UserDetailsForm.php.html#56\">PKP\\controllers\\grid\\settings\\user\\form\\UserDetailsForm::__construct<\/a>"],[0,9,"<a href=\"user\/form\/UserDetailsForm.php.html#80\">PKP\\controllers\\grid\\settings\\user\\form\\UserDetailsForm::attachValidationChecks<\/a>"],[0,1,"<a href=\"user\/form\/UserDetailsForm.php.html#135\">PKP\\controllers\\grid\\settings\\user\\form\\UserDetailsForm::applyUserGroupUpdateOnly<\/a>"],[0,5,"<a href=\"user\/form\/UserDetailsForm.php.html#145\">PKP\\controllers\\grid\\settings\\user\\form\\UserDetailsForm::initData<\/a>"],[0,3,"<a href=\"user\/form\/UserDetailsForm.php.html#210\">PKP\\controllers\\grid\\settings\\user\\form\\UserDetailsForm::display<\/a>"],[0,5,"<a href=\"user\/form\/UserDetailsForm.php.html#243\">PKP\\controllers\\grid\\settings\\user\\form\\UserDetailsForm::readInputData<\/a>"],[0,1,"<a href=\"user\/form\/UserDetailsForm.php.html#285\">PKP\\controllers\\grid\\settings\\user\\form\\UserDetailsForm::getLocaleFieldNames<\/a>"],[0,14,"<a href=\"user\/form\/UserDetailsForm.php.html#293\">PKP\\controllers\\grid\\settings\\user\\form\\UserDetailsForm::execute<\/a>"],[0,1,"<a href=\"user\/form\/UserDisableForm.php.html#36\">PKP\\controllers\\grid\\settings\\user\\form\\UserDisableForm::__construct<\/a>"],[0,3,"<a href=\"user\/form\/UserDisableForm.php.html#50\">PKP\\controllers\\grid\\settings\\user\\form\\UserDisableForm::initData<\/a>"],[0,1,"<a href=\"user\/form\/UserDisableForm.php.html#68\">PKP\\controllers\\grid\\settings\\user\\form\\UserDisableForm::readInputData<\/a>"],[0,1,"<a href=\"user\/form\/UserDisableForm.php.html#83\">PKP\\controllers\\grid\\settings\\user\\form\\UserDisableForm::display<\/a>"],[0,4,"<a href=\"user\/form\/UserDisableForm.php.html#96\">PKP\\controllers\\grid\\settings\\user\\form\\UserDisableForm::execute<\/a>"],[0,1,"<a href=\"user\/form\/UserEmailForm.php.html#39\">PKP\\controllers\\grid\\settings\\user\\form\\UserEmailForm::__construct<\/a>"],[0,1,"<a href=\"user\/form\/UserEmailForm.php.html#56\">PKP\\controllers\\grid\\settings\\user\\form\\UserEmailForm::readInputData<\/a>"],[0,1,"<a href=\"user\/form\/UserEmailForm.php.html#69\">PKP\\controllers\\grid\\settings\\user\\form\\UserEmailForm::fetch<\/a>"],[0,2,"<a href=\"user\/form\/UserEmailForm.php.html#88\">PKP\\controllers\\grid\\settings\\user\\form\\UserEmailForm::execute<\/a>"],[0,3,"<a href=\"user\/form\/UserForm.php.html#34\">PKP\\controllers\\grid\\settings\\user\\form\\UserForm::__construct<\/a>"],[0,3,"<a href=\"user\/form\/UserForm.php.html#48\">PKP\\controllers\\grid\\settings\\user\\form\\UserForm::initData<\/a>"],[0,1,"<a href=\"user\/form\/UserForm.php.html#70\">PKP\\controllers\\grid\\settings\\user\\form\\UserForm::readInputData<\/a>"],[0,2,"<a href=\"user\/form\/UserForm.php.html#82\">PKP\\controllers\\grid\\settings\\user\\form\\UserForm::display<\/a>"],[0,1,"<a href=\"user\/form\/UserForm.php.html#108\">PKP\\controllers\\grid\\settings\\user\\form\\UserForm::execute<\/a>"],[0,6,"<a href=\"user\/form\/UserForm.php.html#116\">PKP\\controllers\\grid\\settings\\user\\form\\UserForm::saveUserGroupAssignments<\/a>"],[0,1,"<a href=\"user\/form\/UserRoleForm.php.html#34\">PKP\\controllers\\grid\\settings\\user\\form\\UserRoleForm::__construct<\/a>"],[0,1,"<a href=\"user\/form\/UserRoleForm.php.html#49\">PKP\\controllers\\grid\\settings\\user\\form\\UserRoleForm::display<\/a>"],[0,1,"<a href=\"user\/form\/UserRoleForm.php.html#62\">PKP\\controllers\\grid\\settings\\user\\form\\UserRoleForm::execute<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

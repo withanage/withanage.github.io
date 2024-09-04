@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /var/www/html/ojs-main/lib/pkp/classes/log</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../_css/bootstrap.min.css?v=11.0.5" rel="stylesheet" type="text/css">
+  <link href="../../_css/nv.d3.min.css?v=11.0.5" rel="stylesheet" type="text/css">
+  <link href="../../_css/style.css?v=11.0.5" rel="stylesheet" type="text/css">
+  <link href="../../_css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="../../index.html">/var/www/html/ojs-main/lib/pkp</a></li>
+         <li class="breadcrumb-item"><a href="../index.html">classes</a></li>
+         <li class="breadcrumb-item"><a href="index.html">log</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="EmailLogEntry.php.html#27">PKP\log\EmailLogEntry</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Repository.php.html#29">PKP\log\Repository</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="event/Collector.php.html#24">PKP\log\event\Collector</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="event/DAO.php.html#23">PKP\log\event\DAO</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="event/EventLogEntry.php.html#23">PKP\log\event\EventLogEntry</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="event/PKPSubmissionEventLogEntry.php.html#19">PKP\log\event\PKPSubmissionEventLogEntry</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="event/Repository.php.html#25">PKP\log\event\Repository</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="event/maps/Schema.php.html#20">PKP\log\event\maps\Schema</a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="event/EventLogEntry.php.html#23">PKP\log\event\EventLogEntry</a></td><td class="text-right">1806</td></tr>
+       <tr><td><a href="event/DAO.php.html#23">PKP\log\event\DAO</a></td><td class="text-right">240</td></tr>
+       <tr><td><a href="Repository.php.html#29">PKP\log\Repository</a></td><td class="text-right">210</td></tr>
+       <tr><td><a href="event/Repository.php.html#25">PKP\log\event\Repository</a></td><td class="text-right">182</td></tr>
+       <tr><td><a href="EmailLogEntry.php.html#27">PKP\log\EmailLogEntry</a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="event/Collector.php.html#24">PKP\log\event\Collector</a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="event/maps/Schema.php.html#20">PKP\log\event\maps\Schema</a></td><td class="text-right">56</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="EmailLogEntry.php.html#57"><abbr title="PKP\log\EmailLogEntry::booted">booted</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EmailLogEntry.php.html#69"><abbr title="PKP\log\EmailLogEntry::id">id</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EmailLogEntry.php.html#81"><abbr title="PKP\log\EmailLogEntry::senderFullName">senderFullName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EmailLogEntry.php.html#96"><abbr title="PKP\log\EmailLogEntry::senderEmail">senderEmail</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EmailLogEntry.php.html#111"><abbr title="PKP\log\EmailLogEntry::prefixedSubject">prefixedSubject</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EmailLogEntry.php.html#121"><abbr title="PKP\log\EmailLogEntry::scopeWithAssocId">scopeWithAssocId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EmailLogEntry.php.html#126"><abbr title="PKP\log\EmailLogEntry::scopeWithSenderId">scopeWithSenderId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EmailLogEntry.php.html#131"><abbr title="PKP\log\EmailLogEntry::scopeWithEventType">scopeWithEventType</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EmailLogEntry.php.html#136"><abbr title="PKP\log\EmailLogEntry::scopeWithAssocType">scopeWithAssocType</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Repository.php.html#31"><abbr title="PKP\log\Repository::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Repository.php.html#41"><abbr title="PKP\log\Repository::getContactString">getContactString</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Repository.php.html#56"><abbr title="PKP\log\Repository::insertLogUserIds">insertLogUserIds</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Repository.php.html#83"><abbr title="PKP\log\Repository::deleteByAssoc">deleteByAssoc</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Repository.php.html#95"><abbr title="PKP\log\Repository::changeUser">changeUser</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Repository.php.html#119"><abbr title="PKP\log\Repository::logMailable">logMailable</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Repository.php.html#149"><abbr title="PKP\log\Repository::getByEventType">getByEventType</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="event/Collector.php.html#33"><abbr title="PKP\log\event\Collector::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="event/Collector.php.html#38"><abbr title="PKP\log\event\Collector::getCount">getCount</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="event/Collector.php.html#43"><abbr title="PKP\log\event\Collector::getIds">getIds</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="event/Collector.php.html#48"><abbr title="PKP\log\event\Collector::getMany">getMany</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="event/Collector.php.html#58"><abbr title="PKP\log\event\Collector::filterByAssoc">filterByAssoc</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="event/Collector.php.html#65"><abbr title="PKP\log\event\Collector::filterByUserIds">filterByUserIds</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="event/Collector.php.html#71"><abbr title="PKP\log\event\Collector::limit">limit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="event/Collector.php.html#77"><abbr title="PKP\log\event\Collector::offset">offset</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="event/Collector.php.html#88"><abbr title="PKP\log\event\Collector::getQueryBuilder">getQueryBuilder</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="event/DAO.php.html#52"><abbr title="PKP\log\event\DAO::newDataObject">newDataObject</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="event/DAO.php.html#60"><abbr title="PKP\log\event\DAO::exists">exists</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="event/DAO.php.html#70"><abbr title="PKP\log\event\DAO::get">get</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="event/DAO.php.html#81"><abbr title="PKP\log\event\DAO::getCount">getCount</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="event/DAO.php.html#91"><abbr title="PKP\log\event\DAO::getIds">getIds</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="event/DAO.php.html#102"><abbr title="PKP\log\event\DAO::getMany">getMany</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="event/DAO.php.html#118"><abbr title="PKP\log\event\DAO::fromRow">fromRow</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="event/DAO.php.html#150"><abbr title="PKP\log\event\DAO::insert">insert</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="event/DAO.php.html#158"><abbr title="PKP\log\event\DAO::delete">delete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="event/DAO.php.html#166"><abbr title="PKP\log\event\DAO::changeUser">changeUser</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="event/EventLogEntry.php.html#36"><abbr title="PKP\log\event\EventLogEntry::getUserId">getUserId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="event/EventLogEntry.php.html#44"><abbr title="PKP\log\event\EventLogEntry::setUserId">setUserId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="event/EventLogEntry.php.html#52"><abbr title="PKP\log\event\EventLogEntry::getDateLogged">getDateLogged</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="event/EventLogEntry.php.html#60"><abbr title="PKP\log\event\EventLogEntry::setDateLogged">setDateLogged</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="event/EventLogEntry.php.html#68"><abbr title="PKP\log\event\EventLogEntry::getEventType">getEventType</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="event/EventLogEntry.php.html#76"><abbr title="PKP\log\event\EventLogEntry::setEventType">setEventType</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="event/EventLogEntry.php.html#84"><abbr title="PKP\log\event\EventLogEntry::getAssocType">getAssocType</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="event/EventLogEntry.php.html#92"><abbr title="PKP\log\event\EventLogEntry::setAssocType">setAssocType</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="event/EventLogEntry.php.html#100"><abbr title="PKP\log\event\EventLogEntry::getAssocId">getAssocId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="event/EventLogEntry.php.html#108"><abbr title="PKP\log\event\EventLogEntry::setAssocId">setAssocId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="event/EventLogEntry.php.html#116"><abbr title="PKP\log\event\EventLogEntry::getMessage">getMessage</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="event/EventLogEntry.php.html#124"><abbr title="PKP\log\event\EventLogEntry::setMessage">setMessage</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="event/EventLogEntry.php.html#133"><abbr title="PKP\log\event\EventLogEntry::getIsTranslated">getIsTranslated</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="event/EventLogEntry.php.html#141"><abbr title="PKP\log\event\EventLogEntry::setIsTranslated">setIsTranslated</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="event/EventLogEntry.php.html#152"><abbr title="PKP\log\event\EventLogEntry::getTranslatedMessage">getTranslatedMessage</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="event/EventLogEntry.php.html#220"><abbr title="PKP\log\event\EventLogEntry::getUserFullName">getUserFullName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="event/EventLogEntry.php.html#233"><abbr title="PKP\log\event\EventLogEntry::getUserEmail">getUserEmail</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="event/PKPSubmissionEventLogEntry.php.html#56"><abbr title="PKP\log\event\PKPSubmissionEventLogEntry::setSubmissionId">setSubmissionId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="event/PKPSubmissionEventLogEntry.php.html#65"><abbr title="PKP\log\event\PKPSubmissionEventLogEntry::getSubmissionId">getSubmissionId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="event/PKPSubmissionEventLogEntry.php.html#74"><abbr title="PKP\log\event\PKPSubmissionEventLogEntry::getAssocType">getAssocType</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="event/Repository.php.html#36"><abbr title="PKP\log\event\Repository::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="event/Repository.php.html#44"><abbr title="PKP\log\event\Repository::newDataObject">newDataObject</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="event/Repository.php.html#54"><abbr title="PKP\log\event\Repository::get">get</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="event/Repository.php.html#60"><abbr title="PKP\log\event\Repository::getCollector">getCollector</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="event/Repository.php.html#69"><abbr title="PKP\log\event\Repository::getSchemaMap">getSchemaMap</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="event/Repository.php.html#85"><abbr title="PKP\log\event\Repository::validate">validate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="event/Repository.php.html#121"><abbr title="PKP\log\event\Repository::add">add</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="event/Repository.php.html#137"><abbr title="PKP\log\event\Repository::delete">delete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="event/Repository.php.html#147"><abbr title="PKP\log\event\Repository::deleteMany">deleteMany</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="event/maps/Schema.php.html#31"><abbr title="PKP\log\event\maps\Schema::map">map</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="event/maps/Schema.php.html#41"><abbr title="PKP\log\event\maps\Schema::summarize">summarize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="event/maps/Schema.php.html#51"><abbr title="PKP\log\event\maps\Schema::mapMany">mapMany</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="event/maps/Schema.php.html#64"><abbr title="PKP\log\event\maps\Schema::summarizeMany">summarizeMany</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="event/maps/Schema.php.html#75"><abbr title="PKP\log\event\maps\Schema::mapByProperties">mapByProperties</abbr></a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="event/EventLogEntry.php.html#152"><abbr title="PKP\log\event\EventLogEntry::getTranslatedMessage">getTranslatedMessage</abbr></a></td><td class="text-right">462</td></tr>
+       <tr><td><a href="Repository.php.html#56"><abbr title="PKP\log\Repository::insertLogUserIds">insertLogUserIds</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="event/DAO.php.html#118"><abbr title="PKP\log\event\DAO::fromRow">fromRow</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="event/EventLogEntry.php.html#220"><abbr title="PKP\log\event\EventLogEntry::getUserFullName">getUserFullName</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="EmailLogEntry.php.html#81"><abbr title="PKP\log\EmailLogEntry::senderFullName">senderFullName</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Repository.php.html#41"><abbr title="PKP\log\Repository::getContactString">getContactString</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="event/EventLogEntry.php.html#233"><abbr title="PKP\log\event\EventLogEntry::getUserEmail">getUserEmail</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="event/maps/Schema.php.html#75"><abbr title="PKP\log\event\maps\Schema::mapByProperties">mapByProperties</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="EmailLogEntry.php.html#96"><abbr title="PKP\log\EmailLogEntry::senderEmail">senderEmail</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Repository.php.html#119"><abbr title="PKP\log\Repository::logMailable">logMailable</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Repository.php.html#149"><abbr title="PKP\log\Repository::getByEventType">getByEventType</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="event/Collector.php.html#88"><abbr title="PKP\log\event\Collector::getQueryBuilder">getQueryBuilder</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="event/DAO.php.html#70"><abbr title="PKP\log\event\DAO::get">get</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="event/DAO.php.html#102"><abbr title="PKP\log\event\DAO::getMany">getMany</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="event/Repository.php.html#44"><abbr title="PKP\log\event\Repository::newDataObject">newDataObject</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="event/Repository.php.html#85"><abbr title="PKP\log\event\Repository::validate">validate</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="event/Repository.php.html#121"><abbr title="PKP\log\event\Repository::add">add</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="event/Repository.php.html#147"><abbr title="PKP\log\event\Repository::deleteMany">deleteMany</abbr></a></td><td class="text-right">6</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 11.0.5</a> using <a href="https://www.php.net/" target="_top">PHP 8.3.11</a> and <a href="https://phpunit.de/">PHPUnit 11.2.8</a> at Wed Sep 4 13:31:09 UTC 2024.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../../_js/jquery.min.js?v=11.0.5" type="text/javascript"></script>
+  <script src="../../_js/d3.min.js?v=11.0.5" type="text/javascript"></script>
+  <script src="../../_js/nv.d3.min.js?v=11.0.5" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([8,0,0,0,0,0,0,0,0,0,0,1], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([69,0,0,0,0,0,0,0,0,0,0,0], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[0,12,"<a href=\"EmailLogEntry.php.html#27\">PKP\\log\\EmailLogEntry<\/a>"],[0,14,"<a href=\"Repository.php.html#29\">PKP\\log\\Repository<\/a>"],[0,10,"<a href=\"event\/Collector.php.html#24\">PKP\\log\\event\\Collector<\/a>"],[0,15,"<a href=\"event\/DAO.php.html#23\">PKP\\log\\event\\DAO<\/a>"],[0,42,"<a href=\"event\/EventLogEntry.php.html#23\">PKP\\log\\event\\EventLogEntry<\/a>"],[0,3,"<a href=\"event\/PKPSubmissionEventLogEntry.php.html#19\">PKP\\log\\event\\PKPSubmissionEventLogEntry<\/a>"],[0,13,"<a href=\"event\/Repository.php.html#25\">PKP\\log\\event\\Repository<\/a>"],[100,0,"<a href=\"event\/SubmissionFileEventLogEntry.php.html#17\">PKP\\log\\event\\SubmissionFileEventLogEntry<\/a>"],[0,7,"<a href=\"event\/maps\/Schema.php.html#20\">PKP\\log\\event\\maps\\Schema<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[0,1,"<a href=\"EmailLogEntry.php.html#57\">PKP\\log\\EmailLogEntry::booted<\/a>"],[0,1,"<a href=\"EmailLogEntry.php.html#69\">PKP\\log\\EmailLogEntry::id<\/a>"],[0,3,"<a href=\"EmailLogEntry.php.html#81\">PKP\\log\\EmailLogEntry::senderFullName<\/a>"],[0,2,"<a href=\"EmailLogEntry.php.html#96\">PKP\\log\\EmailLogEntry::senderEmail<\/a>"],[0,1,"<a href=\"EmailLogEntry.php.html#111\">PKP\\log\\EmailLogEntry::prefixedSubject<\/a>"],[0,1,"<a href=\"EmailLogEntry.php.html#121\">PKP\\log\\EmailLogEntry::scopeWithAssocId<\/a>"],[0,1,"<a href=\"EmailLogEntry.php.html#126\">PKP\\log\\EmailLogEntry::scopeWithSenderId<\/a>"],[0,1,"<a href=\"EmailLogEntry.php.html#131\">PKP\\log\\EmailLogEntry::scopeWithEventType<\/a>"],[0,1,"<a href=\"EmailLogEntry.php.html#136\">PKP\\log\\EmailLogEntry::scopeWithAssocType<\/a>"],[0,1,"<a href=\"Repository.php.html#31\">PKP\\log\\Repository::__construct<\/a>"],[0,3,"<a href=\"Repository.php.html#41\">PKP\\log\\Repository::getContactString<\/a>"],[0,4,"<a href=\"Repository.php.html#56\">PKP\\log\\Repository::insertLogUserIds<\/a>"],[0,1,"<a href=\"Repository.php.html#83\">PKP\\log\\Repository::deleteByAssoc<\/a>"],[0,1,"<a href=\"Repository.php.html#95\">PKP\\log\\Repository::changeUser<\/a>"],[0,2,"<a href=\"Repository.php.html#119\">PKP\\log\\Repository::logMailable<\/a>"],[0,2,"<a href=\"Repository.php.html#149\">PKP\\log\\Repository::getByEventType<\/a>"],[0,1,"<a href=\"event\/Collector.php.html#33\">PKP\\log\\event\\Collector::__construct<\/a>"],[0,1,"<a href=\"event\/Collector.php.html#38\">PKP\\log\\event\\Collector::getCount<\/a>"],[0,1,"<a href=\"event\/Collector.php.html#43\">PKP\\log\\event\\Collector::getIds<\/a>"],[0,1,"<a href=\"event\/Collector.php.html#48\">PKP\\log\\event\\Collector::getMany<\/a>"],[0,1,"<a href=\"event\/Collector.php.html#58\">PKP\\log\\event\\Collector::filterByAssoc<\/a>"],[0,1,"<a href=\"event\/Collector.php.html#65\">PKP\\log\\event\\Collector::filterByUserIds<\/a>"],[0,1,"<a href=\"event\/Collector.php.html#71\">PKP\\log\\event\\Collector::limit<\/a>"],[0,1,"<a href=\"event\/Collector.php.html#77\">PKP\\log\\event\\Collector::offset<\/a>"],[0,2,"<a href=\"event\/Collector.php.html#88\">PKP\\log\\event\\Collector::getQueryBuilder<\/a>"],[0,1,"<a href=\"event\/DAO.php.html#52\">PKP\\log\\event\\DAO::newDataObject<\/a>"],[0,1,"<a href=\"event\/DAO.php.html#60\">PKP\\log\\event\\DAO::exists<\/a>"],[0,2,"<a href=\"event\/DAO.php.html#70\">PKP\\log\\event\\DAO::get<\/a>"],[0,1,"<a href=\"event\/DAO.php.html#81\">PKP\\log\\event\\DAO::getCount<\/a>"],[0,1,"<a href=\"event\/DAO.php.html#91\">PKP\\log\\event\\DAO::getIds<\/a>"],[0,2,"<a href=\"event\/DAO.php.html#102\">PKP\\log\\event\\DAO::getMany<\/a>"],[0,4,"<a href=\"event\/DAO.php.html#118\">PKP\\log\\event\\DAO::fromRow<\/a>"],[0,1,"<a href=\"event\/DAO.php.html#150\">PKP\\log\\event\\DAO::insert<\/a>"],[0,1,"<a href=\"event\/DAO.php.html#158\">PKP\\log\\event\\DAO::delete<\/a>"],[0,1,"<a href=\"event\/DAO.php.html#166\">PKP\\log\\event\\DAO::changeUser<\/a>"],[0,1,"<a href=\"event\/EventLogEntry.php.html#36\">PKP\\log\\event\\EventLogEntry::getUserId<\/a>"],[0,1,"<a href=\"event\/EventLogEntry.php.html#44\">PKP\\log\\event\\EventLogEntry::setUserId<\/a>"],[0,1,"<a href=\"event\/EventLogEntry.php.html#52\">PKP\\log\\event\\EventLogEntry::getDateLogged<\/a>"],[0,1,"<a href=\"event\/EventLogEntry.php.html#60\">PKP\\log\\event\\EventLogEntry::setDateLogged<\/a>"],[0,1,"<a href=\"event\/EventLogEntry.php.html#68\">PKP\\log\\event\\EventLogEntry::getEventType<\/a>"],[0,1,"<a href=\"event\/EventLogEntry.php.html#76\">PKP\\log\\event\\EventLogEntry::setEventType<\/a>"],[0,1,"<a href=\"event\/EventLogEntry.php.html#84\">PKP\\log\\event\\EventLogEntry::getAssocType<\/a>"],[0,1,"<a href=\"event\/EventLogEntry.php.html#92\">PKP\\log\\event\\EventLogEntry::setAssocType<\/a>"],[0,1,"<a href=\"event\/EventLogEntry.php.html#100\">PKP\\log\\event\\EventLogEntry::getAssocId<\/a>"],[0,1,"<a href=\"event\/EventLogEntry.php.html#108\">PKP\\log\\event\\EventLogEntry::setAssocId<\/a>"],[0,1,"<a href=\"event\/EventLogEntry.php.html#116\">PKP\\log\\event\\EventLogEntry::getMessage<\/a>"],[0,1,"<a href=\"event\/EventLogEntry.php.html#124\">PKP\\log\\event\\EventLogEntry::setMessage<\/a>"],[0,1,"<a href=\"event\/EventLogEntry.php.html#133\">PKP\\log\\event\\EventLogEntry::getIsTranslated<\/a>"],[0,1,"<a href=\"event\/EventLogEntry.php.html#141\">PKP\\log\\event\\EventLogEntry::setIsTranslated<\/a>"],[0,21,"<a href=\"event\/EventLogEntry.php.html#152\">PKP\\log\\event\\EventLogEntry::getTranslatedMessage<\/a>"],[0,4,"<a href=\"event\/EventLogEntry.php.html#220\">PKP\\log\\event\\EventLogEntry::getUserFullName<\/a>"],[0,3,"<a href=\"event\/EventLogEntry.php.html#233\">PKP\\log\\event\\EventLogEntry::getUserEmail<\/a>"],[0,1,"<a href=\"event\/PKPSubmissionEventLogEntry.php.html#56\">PKP\\log\\event\\PKPSubmissionEventLogEntry::setSubmissionId<\/a>"],[0,1,"<a href=\"event\/PKPSubmissionEventLogEntry.php.html#65\">PKP\\log\\event\\PKPSubmissionEventLogEntry::getSubmissionId<\/a>"],[0,1,"<a href=\"event\/PKPSubmissionEventLogEntry.php.html#74\">PKP\\log\\event\\PKPSubmissionEventLogEntry::getAssocType<\/a>"],[0,1,"<a href=\"event\/Repository.php.html#36\">PKP\\log\\event\\Repository::__construct<\/a>"],[0,2,"<a href=\"event\/Repository.php.html#44\">PKP\\log\\event\\Repository::newDataObject<\/a>"],[0,1,"<a href=\"event\/Repository.php.html#54\">PKP\\log\\event\\Repository::get<\/a>"],[0,1,"<a href=\"event\/Repository.php.html#60\">PKP\\log\\event\\Repository::getCollector<\/a>"],[0,1,"<a href=\"event\/Repository.php.html#69\">PKP\\log\\event\\Repository::getSchemaMap<\/a>"],[0,2,"<a href=\"event\/Repository.php.html#85\">PKP\\log\\event\\Repository::validate<\/a>"],[0,2,"<a href=\"event\/Repository.php.html#121\">PKP\\log\\event\\Repository::add<\/a>"],[0,1,"<a href=\"event\/Repository.php.html#137\">PKP\\log\\event\\Repository::delete<\/a>"],[0,2,"<a href=\"event\/Repository.php.html#147\">PKP\\log\\event\\Repository::deleteMany<\/a>"],[0,1,"<a href=\"event\/maps\/Schema.php.html#31\">PKP\\log\\event\\maps\\Schema::map<\/a>"],[0,1,"<a href=\"event\/maps\/Schema.php.html#41\">PKP\\log\\event\\maps\\Schema::summarize<\/a>"],[0,1,"<a href=\"event\/maps\/Schema.php.html#51\">PKP\\log\\event\\maps\\Schema::mapMany<\/a>"],[0,1,"<a href=\"event\/maps\/Schema.php.html#64\">PKP\\log\\event\\maps\\Schema::summarizeMany<\/a>"],[0,3,"<a href=\"event\/maps\/Schema.php.html#75\">PKP\\log\\event\\maps\\Schema::mapByProperties<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

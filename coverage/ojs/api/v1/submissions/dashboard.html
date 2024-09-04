@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /var/www/html/ojs-main/lib/pkp/api/v1/submissions</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../../_css/bootstrap.min.css?v=11.0.5" rel="stylesheet" type="text/css">
+  <link href="../../../_css/nv.d3.min.css?v=11.0.5" rel="stylesheet" type="text/css">
+  <link href="../../../_css/style.css?v=11.0.5" rel="stylesheet" type="text/css">
+  <link href="../../../_css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="../../../index.html">/var/www/html/ojs-main/lib/pkp</a></li>
+         <li class="breadcrumb-item"><a href="../../index.html">api</a></li>
+         <li class="breadcrumb-item"><a href="../index.html">v1</a></li>
+         <li class="breadcrumb-item"><a href="index.html">submissions</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="PKPSubmissionController.php.html#60">PKP\API\v1\submissions\PKPSubmissionController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPSubmissionFileController.php.html#41">PKP\API\v1\submissions\PKPSubmissionFileController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AnonymizeData.php.html#30">PKP\API\v1\submissions\AnonymizeData</a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="PKPSubmissionController.php.html#60">PKP\API\v1\submissions\PKPSubmissionController</a></td><td class="text-right">27390</td></tr>
+       <tr><td><a href="PKPSubmissionFileController.php.html#41">PKP\API\v1\submissions\PKPSubmissionFileController</a></td><td class="text-right">5256</td></tr>
+       <tr><td><a href="AnonymizeData.php.html#30">PKP\API\v1\submissions\AnonymizeData</a></td><td class="text-right">72</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="PKPSubmissionController.php.html#125"><abbr title="PKP\API\v1\submissions\PKPSubmissionController::getHandlerPath">getHandlerPath</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPSubmissionController.php.html#133"><abbr title="PKP\API\v1\submissions\PKPSubmissionController::getRouteGroupMiddleware">getRouteGroupMiddleware</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPSubmissionController.php.html#144"><abbr title="PKP\API\v1\submissions\PKPSubmissionController::getGroupRoutes">getGroupRoutes</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPSubmissionController.php.html#298"><abbr title="PKP\API\v1\submissions\PKPSubmissionController::authorize">authorize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPSubmissionController.php.html#332"><abbr title="PKP\API\v1\submissions\PKPSubmissionController::getMany">getMany</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPSubmissionController.php.html#377"><abbr title="PKP\API\v1\submissions\PKPSubmissionController::getSubmissionCollector">getSubmissionCollector</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPSubmissionController.php.html#464"><abbr title="PKP\API\v1\submissions\PKPSubmissionController::get">get</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPSubmissionController.php.html#494"><abbr title="PKP\API\v1\submissions\PKPSubmissionController::add">add</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPSubmissionController.php.html#622"><abbr title="PKP\API\v1\submissions\PKPSubmissionController::edit">edit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPSubmissionController.php.html#664"><abbr title="PKP\API\v1\submissions\PKPSubmissionController::saveForLater">saveForLater</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPSubmissionController.php.html#721"><abbr title="PKP\API\v1\submissions\PKPSubmissionController::submit">submit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPSubmissionController.php.html#797"><abbr title="PKP\API\v1\submissions\PKPSubmissionController::delete">delete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPSubmissionController.php.html#825"><abbr title="PKP\API\v1\submissions\PKPSubmissionController::getDecisions">getDecisions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPSubmissionController.php.html#851"><abbr title="PKP\API\v1\submissions\PKPSubmissionController::getParticipants">getParticipants</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPSubmissionController.php.html#884"><abbr title="PKP\API\v1\submissions\PKPSubmissionController::getPublications">getPublications</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPSubmissionController.php.html#927"><abbr title="PKP\API\v1\submissions\PKPSubmissionController::getPublication">getPublication</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPSubmissionController.php.html#962"><abbr title="PKP\API\v1\submissions\PKPSubmissionController::addPublication">addPublication</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPSubmissionController.php.html#1002"><abbr title="PKP\API\v1\submissions\PKPSubmissionController::versionPublication">versionPublication</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPSubmissionController.php.html#1084"><abbr title="PKP\API\v1\submissions\PKPSubmissionController::editPublication">editPublication</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPSubmissionController.php.html#1164"><abbr title="PKP\API\v1\submissions\PKPSubmissionController::publishPublication">publishPublication</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPSubmissionController.php.html#1222"><abbr title="PKP\API\v1\submissions\PKPSubmissionController::unpublishPublication">unpublishPublication</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPSubmissionController.php.html#1269"><abbr title="PKP\API\v1\submissions\PKPSubmissionController::deletePublication">deletePublication</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPSubmissionController.php.html#1311"><abbr title="PKP\API\v1\submissions\PKPSubmissionController::getContributor">getContributor</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPSubmissionController.php.html#1351"><abbr title="PKP\API\v1\submissions\PKPSubmissionController::getContributors">getContributors</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPSubmissionController.php.html#1383"><abbr title="PKP\API\v1\submissions\PKPSubmissionController::addContributor">addContributor</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPSubmissionController.php.html#1437"><abbr title="PKP\API\v1\submissions\PKPSubmissionController::deleteContributor">deleteContributor</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPSubmissionController.php.html#1487"><abbr title="PKP\API\v1\submissions\PKPSubmissionController::editContributor">editContributor</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPSubmissionController.php.html#1561"><abbr title="PKP\API\v1\submissions\PKPSubmissionController::saveContributorsOrder">saveContributorsOrder</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPSubmissionController.php.html#1620"><abbr title="PKP\API\v1\submissions\PKPSubmissionController::addDecision">addDecision</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPSubmissionController.php.html#1657"><abbr title="PKP\API\v1\submissions\PKPSubmissionController::getFirstUserGroupInRole">getFirstUserGroupInRole</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPSubmissionController.php.html#1665"><abbr title="PKP\API\v1\submissions\PKPSubmissionController::isEditor">isEditor</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPSubmissionController.php.html#1683"><abbr title="PKP\API\v1\submissions\PKPSubmissionController::getWriteDisabledErrors">getWriteDisabledErrors</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPSubmissionFileController.php.html#46"><abbr title="PKP\API\v1\submissions\PKPSubmissionFileController::getHandlerPath">getHandlerPath</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPSubmissionFileController.php.html#54"><abbr title="PKP\API\v1\submissions\PKPSubmissionFileController::getRouteGroupMiddleware">getRouteGroupMiddleware</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPSubmissionFileController.php.html#62"><abbr title="PKP\API\v1\submissions\PKPSubmissionFileController::getGroupRoutes">getGroupRoutes</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPSubmissionFileController.php.html#112"><abbr title="PKP\API\v1\submissions\PKPSubmissionFileController::authorize">authorize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPSubmissionFileController.php.html#158"><abbr title="PKP\API\v1\submissions\PKPSubmissionFileController::getMany">getMany</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPSubmissionFileController.php.html#275"><abbr title="PKP\API\v1\submissions\PKPSubmissionFileController::get">get</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPSubmissionFileController.php.html#289"><abbr title="PKP\API\v1\submissions\PKPSubmissionFileController::add">add</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPSubmissionFileController.php.html#415"><abbr title="PKP\API\v1\submissions\PKPSubmissionFileController::edit">edit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPSubmissionFileController.php.html#491"><abbr title="PKP\API\v1\submissions\PKPSubmissionFileController::copy">copy</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPSubmissionFileController.php.html#562"><abbr title="PKP\API\v1\submissions\PKPSubmissionFileController::delete">delete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPSubmissionFileController.php.html#580"><abbr title="PKP\API\v1\submissions\PKPSubmissionFileController::getFileGenres">getFileGenres</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPSubmissionFileController.php.html#593"><abbr title="PKP\API\v1\submissions\PKPSubmissionFileController::getUploadErrorResponse">getUploadErrorResponse</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AnonymizeData.php.html#32"><abbr title="PKP\API\v1\submissions\AnonymizeData::getRequest">getRequest</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AnonymizeData.php.html#42"><abbr title="PKP\API\v1\submissions\AnonymizeData::anonymizeReviews">anonymizeReviews</abbr></a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="PKPSubmissionController.php.html#377"><abbr title="PKP\API\v1\submissions\PKPSubmissionController::getSubmissionCollector">getSubmissionCollector</abbr></a></td><td class="text-right">380</td></tr>
+       <tr><td><a href="PKPSubmissionFileController.php.html#158"><abbr title="PKP\API\v1\submissions\PKPSubmissionFileController::getMany">getMany</abbr></a></td><td class="text-right">380</td></tr>
+       <tr><td><a href="PKPSubmissionController.php.html#494"><abbr title="PKP\API\v1\submissions\PKPSubmissionController::add">add</abbr></a></td><td class="text-right">306</td></tr>
+       <tr><td><a href="PKPSubmissionFileController.php.html#289"><abbr title="PKP\API\v1\submissions\PKPSubmissionFileController::add">add</abbr></a></td><td class="text-right">306</td></tr>
+       <tr><td><a href="PKPSubmissionController.php.html#1487"><abbr title="PKP\API\v1\submissions\PKPSubmissionController::editContributor">editContributor</abbr></a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="PKPSubmissionController.php.html#1084"><abbr title="PKP\API\v1\submissions\PKPSubmissionController::editPublication">editPublication</abbr></a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="PKPSubmissionFileController.php.html#491"><abbr title="PKP\API\v1\submissions\PKPSubmissionFileController::copy">copy</abbr></a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="PKPSubmissionController.php.html#721"><abbr title="PKP\API\v1\submissions\PKPSubmissionController::submit">submit</abbr></a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="PKPSubmissionFileController.php.html#593"><abbr title="PKP\API\v1\submissions\PKPSubmissionFileController::getUploadErrorResponse">getUploadErrorResponse</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="AnonymizeData.php.html#42"><abbr title="PKP\API\v1\submissions\AnonymizeData::anonymizeReviews">anonymizeReviews</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="PKPSubmissionController.php.html#1164"><abbr title="PKP\API\v1\submissions\PKPSubmissionController::publishPublication">publishPublication</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="PKPSubmissionController.php.html#1383"><abbr title="PKP\API\v1\submissions\PKPSubmissionController::addContributor">addContributor</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="PKPSubmissionFileController.php.html#415"><abbr title="PKP\API\v1\submissions\PKPSubmissionFileController::edit">edit</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="PKPSubmissionController.php.html#1002"><abbr title="PKP\API\v1\submissions\PKPSubmissionController::versionPublication">versionPublication</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="PKPSubmissionController.php.html#1437"><abbr title="PKP\API\v1\submissions\PKPSubmissionController::deleteContributor">deleteContributor</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="PKPSubmissionController.php.html#1561"><abbr title="PKP\API\v1\submissions\PKPSubmissionController::saveContributorsOrder">saveContributorsOrder</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="PKPSubmissionController.php.html#298"><abbr title="PKP\API\v1\submissions\PKPSubmissionController::authorize">authorize</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="PKPSubmissionController.php.html#1311"><abbr title="PKP\API\v1\submissions\PKPSubmissionController::getContributor">getContributor</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="PKPSubmissionController.php.html#1683"><abbr title="PKP\API\v1\submissions\PKPSubmissionController::getWriteDisabledErrors">getWriteDisabledErrors</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="PKPSubmissionFileController.php.html#112"><abbr title="PKP\API\v1\submissions\PKPSubmissionFileController::authorize">authorize</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="PKPSubmissionController.php.html#332"><abbr title="PKP\API\v1\submissions\PKPSubmissionController::getMany">getMany</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="PKPSubmissionController.php.html#664"><abbr title="PKP\API\v1\submissions\PKPSubmissionController::saveForLater">saveForLater</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="PKPSubmissionController.php.html#851"><abbr title="PKP\API\v1\submissions\PKPSubmissionController::getParticipants">getParticipants</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="PKPSubmissionController.php.html#962"><abbr title="PKP\API\v1\submissions\PKPSubmissionController::addPublication">addPublication</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="PKPSubmissionController.php.html#1222"><abbr title="PKP\API\v1\submissions\PKPSubmissionController::unpublishPublication">unpublishPublication</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="PKPSubmissionController.php.html#1269"><abbr title="PKP\API\v1\submissions\PKPSubmissionController::deletePublication">deletePublication</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="PKPSubmissionController.php.html#464"><abbr title="PKP\API\v1\submissions\PKPSubmissionController::get">get</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="PKPSubmissionController.php.html#622"><abbr title="PKP\API\v1\submissions\PKPSubmissionController::edit">edit</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="PKPSubmissionController.php.html#825"><abbr title="PKP\API\v1\submissions\PKPSubmissionController::getDecisions">getDecisions</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="PKPSubmissionController.php.html#884"><abbr title="PKP\API\v1\submissions\PKPSubmissionController::getPublications">getPublications</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="PKPSubmissionController.php.html#927"><abbr title="PKP\API\v1\submissions\PKPSubmissionController::getPublication">getPublication</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="PKPSubmissionController.php.html#1351"><abbr title="PKP\API\v1\submissions\PKPSubmissionController::getContributors">getContributors</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="PKPSubmissionController.php.html#1620"><abbr title="PKP\API\v1\submissions\PKPSubmissionController::addDecision">addDecision</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="PKPSubmissionController.php.html#797"><abbr title="PKP\API\v1\submissions\PKPSubmissionController::delete">delete</abbr></a></td><td class="text-right">6</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 11.0.5</a> using <a href="https://www.php.net/" target="_top">PHP 8.3.11</a> and <a href="https://phpunit.de/">PHPUnit 11.2.8</a> at Wed Sep 4 13:31:09 UTC 2024.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../../../_js/jquery.min.js?v=11.0.5" type="text/javascript"></script>
+  <script src="../../../_js/d3.min.js?v=11.0.5" type="text/javascript"></script>
+  <script src="../../../_js/nv.d3.min.js?v=11.0.5" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([3,0,0,0,0,0,0,0,0,0,0,0], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([46,0,0,0,0,0,0,0,0,0,0,0], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[0,165,"<a href=\"PKPSubmissionController.php.html#60\">PKP\\API\\v1\\submissions\\PKPSubmissionController<\/a>"],[0,72,"<a href=\"PKPSubmissionFileController.php.html#41\">PKP\\API\\v1\\submissions\\PKPSubmissionFileController<\/a>"],[0,8,"<a href=\"AnonymizeData.php.html#30\">PKP\\API\\v1\\submissions\\AnonymizeData<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[0,1,"<a href=\"PKPSubmissionController.php.html#125\">PKP\\API\\v1\\submissions\\PKPSubmissionController::getHandlerPath<\/a>"],[0,1,"<a href=\"PKPSubmissionController.php.html#133\">PKP\\API\\v1\\submissions\\PKPSubmissionController::getRouteGroupMiddleware<\/a>"],[0,1,"<a href=\"PKPSubmissionController.php.html#144\">PKP\\API\\v1\\submissions\\PKPSubmissionController::getGroupRoutes<\/a>"],[0,5,"<a href=\"PKPSubmissionController.php.html#298\">PKP\\API\\v1\\submissions\\PKPSubmissionController::authorize<\/a>"],[0,4,"<a href=\"PKPSubmissionController.php.html#332\">PKP\\API\\v1\\submissions\\PKPSubmissionController::getMany<\/a>"],[0,19,"<a href=\"PKPSubmissionController.php.html#377\">PKP\\API\\v1\\submissions\\PKPSubmissionController::getSubmissionCollector<\/a>"],[0,3,"<a href=\"PKPSubmissionController.php.html#464\">PKP\\API\\v1\\submissions\\PKPSubmissionController::get<\/a>"],[0,17,"<a href=\"PKPSubmissionController.php.html#494\">PKP\\API\\v1\\submissions\\PKPSubmissionController::add<\/a>"],[0,3,"<a href=\"PKPSubmissionController.php.html#622\">PKP\\API\\v1\\submissions\\PKPSubmissionController::edit<\/a>"],[0,4,"<a href=\"PKPSubmissionController.php.html#664\">PKP\\API\\v1\\submissions\\PKPSubmissionController::saveForLater<\/a>"],[0,9,"<a href=\"PKPSubmissionController.php.html#721\">PKP\\API\\v1\\submissions\\PKPSubmissionController::submit<\/a>"],[0,2,"<a href=\"PKPSubmissionController.php.html#797\">PKP\\API\\v1\\submissions\\PKPSubmissionController::delete<\/a>"],[0,3,"<a href=\"PKPSubmissionController.php.html#825\">PKP\\API\\v1\\submissions\\PKPSubmissionController::getDecisions<\/a>"],[0,4,"<a href=\"PKPSubmissionController.php.html#851\">PKP\\API\\v1\\submissions\\PKPSubmissionController::getParticipants<\/a>"],[0,3,"<a href=\"PKPSubmissionController.php.html#884\">PKP\\API\\v1\\submissions\\PKPSubmissionController::getPublications<\/a>"],[0,3,"<a href=\"PKPSubmissionController.php.html#927\">PKP\\API\\v1\\submissions\\PKPSubmissionController::getPublication<\/a>"],[0,4,"<a href=\"PKPSubmissionController.php.html#962\">PKP\\API\\v1\\submissions\\PKPSubmissionController::addPublication<\/a>"],[0,6,"<a href=\"PKPSubmissionController.php.html#1002\">PKP\\API\\v1\\submissions\\PKPSubmissionController::versionPublication<\/a>"],[0,10,"<a href=\"PKPSubmissionController.php.html#1084\">PKP\\API\\v1\\submissions\\PKPSubmissionController::editPublication<\/a>"],[0,7,"<a href=\"PKPSubmissionController.php.html#1164\">PKP\\API\\v1\\submissions\\PKPSubmissionController::publishPublication<\/a>"],[0,4,"<a href=\"PKPSubmissionController.php.html#1222\">PKP\\API\\v1\\submissions\\PKPSubmissionController::unpublishPublication<\/a>"],[0,4,"<a href=\"PKPSubmissionController.php.html#1269\">PKP\\API\\v1\\submissions\\PKPSubmissionController::deletePublication<\/a>"],[0,5,"<a href=\"PKPSubmissionController.php.html#1311\">PKP\\API\\v1\\submissions\\PKPSubmissionController::getContributor<\/a>"],[0,3,"<a href=\"PKPSubmissionController.php.html#1351\">PKP\\API\\v1\\submissions\\PKPSubmissionController::getContributors<\/a>"],[0,7,"<a href=\"PKPSubmissionController.php.html#1383\">PKP\\API\\v1\\submissions\\PKPSubmissionController::addContributor<\/a>"],[0,6,"<a href=\"PKPSubmissionController.php.html#1437\">PKP\\API\\v1\\submissions\\PKPSubmissionController::deleteContributor<\/a>"],[0,11,"<a href=\"PKPSubmissionController.php.html#1487\">PKP\\API\\v1\\submissions\\PKPSubmissionController::editContributor<\/a>"],[0,6,"<a href=\"PKPSubmissionController.php.html#1561\">PKP\\API\\v1\\submissions\\PKPSubmissionController::saveContributorsOrder<\/a>"],[0,3,"<a href=\"PKPSubmissionController.php.html#1620\">PKP\\API\\v1\\submissions\\PKPSubmissionController::addDecision<\/a>"],[0,1,"<a href=\"PKPSubmissionController.php.html#1657\">PKP\\API\\v1\\submissions\\PKPSubmissionController::getFirstUserGroupInRole<\/a>"],[0,1,"<a href=\"PKPSubmissionController.php.html#1665\">PKP\\API\\v1\\submissions\\PKPSubmissionController::isEditor<\/a>"],[0,5,"<a href=\"PKPSubmissionController.php.html#1683\">PKP\\API\\v1\\submissions\\PKPSubmissionController::getWriteDisabledErrors<\/a>"],[0,1,"<a href=\"PKPSubmissionFileController.php.html#46\">PKP\\API\\v1\\submissions\\PKPSubmissionFileController::getHandlerPath<\/a>"],[0,1,"<a href=\"PKPSubmissionFileController.php.html#54\">PKP\\API\\v1\\submissions\\PKPSubmissionFileController::getRouteGroupMiddleware<\/a>"],[0,1,"<a href=\"PKPSubmissionFileController.php.html#62\">PKP\\API\\v1\\submissions\\PKPSubmissionFileController::getGroupRoutes<\/a>"],[0,5,"<a href=\"PKPSubmissionFileController.php.html#112\">PKP\\API\\v1\\submissions\\PKPSubmissionFileController::authorize<\/a>"],[0,19,"<a href=\"PKPSubmissionFileController.php.html#158\">PKP\\API\\v1\\submissions\\PKPSubmissionFileController::getMany<\/a>"],[0,1,"<a href=\"PKPSubmissionFileController.php.html#275\">PKP\\API\\v1\\submissions\\PKPSubmissionFileController::get<\/a>"],[0,17,"<a href=\"PKPSubmissionFileController.php.html#289\">PKP\\API\\v1\\submissions\\PKPSubmissionFileController::add<\/a>"],[0,7,"<a href=\"PKPSubmissionFileController.php.html#415\">PKP\\API\\v1\\submissions\\PKPSubmissionFileController::edit<\/a>"],[0,10,"<a href=\"PKPSubmissionFileController.php.html#491\">PKP\\API\\v1\\submissions\\PKPSubmissionFileController::copy<\/a>"],[0,1,"<a href=\"PKPSubmissionFileController.php.html#562\">PKP\\API\\v1\\submissions\\PKPSubmissionFileController::delete<\/a>"],[0,1,"<a href=\"PKPSubmissionFileController.php.html#580\">PKP\\API\\v1\\submissions\\PKPSubmissionFileController::getFileGenres<\/a>"],[0,8,"<a href=\"PKPSubmissionFileController.php.html#593\">PKP\\API\\v1\\submissions\\PKPSubmissionFileController::getUploadErrorResponse<\/a>"],[0,0,"<a href=\"AnonymizeData.php.html#32\">PKP\\API\\v1\\submissions\\AnonymizeData::getRequest<\/a>"],[0,8,"<a href=\"AnonymizeData.php.html#42\">PKP\\API\\v1\\submissions\\AnonymizeData::anonymizeReviews<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

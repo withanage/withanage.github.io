@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /var/www/html/ojs-main/lib/pkp/classes/xml</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../_css/bootstrap.min.css?v=11.0.5" rel="stylesheet" type="text/css">
+  <link href="../../_css/nv.d3.min.css?v=11.0.5" rel="stylesheet" type="text/css">
+  <link href="../../_css/style.css?v=11.0.5" rel="stylesheet" type="text/css">
+  <link href="../../_css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="../../index.html">/var/www/html/ojs-main/lib/pkp</a></li>
+         <li class="breadcrumb-item"><a href="../index.html">classes</a></li>
+         <li class="breadcrumb-item"><a href="index.html">xml</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="PKPXMLParser.php.html#27">PKP\xml\PKPXMLParser</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="XMLNode.php.html#20">PKP\xml\XMLNode</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="XMLParserDOMHandler.php.html#25">PKP\xml\XMLParserDOMHandler</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="XMLParserHandler.php.html#18">PKP\xml\XMLParserHandler</a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="XMLNode.php.html#20">PKP\xml\XMLNode</a></td><td class="text-right">1560</td></tr>
+       <tr><td><a href="PKPXMLParser.php.html#27">PKP\xml\PKPXMLParser</a></td><td class="text-right">702</td></tr>
+       <tr><td><a href="XMLParserDOMHandler.php.html#25">PKP\xml\XMLParserDOMHandler</a></td><td class="text-right">42</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="PKPXMLParser.php.html#43"><abbr title="PKP\xml\PKPXMLParser::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPXMLParser.php.html#48"><abbr title="PKP\xml\PKPXMLParser::parseText">parseText</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPXMLParser.php.html#79"><abbr title="PKP\xml\PKPXMLParser::parse">parse</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPXMLParser.php.html#114"><abbr title="PKP\xml\PKPXMLParser::addError">addError</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPXMLParser.php.html#122"><abbr title="PKP\xml\PKPXMLParser::getErrors">getErrors</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPXMLParser.php.html#133"><abbr title="PKP\xml\PKPXMLParser::getStatus">getStatus</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPXMLParser.php.html#143"><abbr title="PKP\xml\PKPXMLParser::setHandler">setHandler</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPXMLParser.php.html#157"><abbr title="PKP\xml\PKPXMLParser::parseTextStruct">parseTextStruct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPXMLParser.php.html#199"><abbr title="PKP\xml\PKPXMLParser::parseStruct">parseStruct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPXMLParser.php.html#214"><abbr title="PKP\xml\PKPXMLParser::createParser">createParser</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPXMLParser.php.html#227"><abbr title="PKP\xml\PKPXMLParser::destroyParser">destroyParser</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="XMLNode.php.html#42"><abbr title="PKP\xml\XMLNode::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="XMLNode.php.html#56"><abbr title="PKP\xml\XMLNode::getName">getName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="XMLNode.php.html#70"><abbr title="PKP\xml\XMLNode::setName">setName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="XMLNode.php.html#78"><abbr title="PKP\xml\XMLNode::getParent">getParent</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="XMLNode.php.html#86"><abbr title="PKP\xml\XMLNode::setParent">setParent</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="XMLNode.php.html#94"><abbr title="PKP\xml\XMLNode::getAttributes">getAttributes</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="XMLNode.php.html#104"><abbr title="PKP\xml\XMLNode::getAttribute">getAttribute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="XMLNode.php.html#113"><abbr title="PKP\xml\XMLNode::setAttribute">setAttribute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="XMLNode.php.html#121"><abbr title="PKP\xml\XMLNode::setAttributes">setAttributes</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="XMLNode.php.html#129"><abbr title="PKP\xml\XMLNode::getValue">getValue</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="XMLNode.php.html#137"><abbr title="PKP\xml\XMLNode::setValue">setValue</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="XMLNode.php.html#145"><abbr title="PKP\xml\XMLNode::getChildren">getChildren</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="XMLNode.php.html#156"><abbr title="PKP\xml\XMLNode::getChildByName">getChildByName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="XMLNode.php.html#182"><abbr title="PKP\xml\XMLNode::getChildValue">getChildValue</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="XMLNode.php.html#196"><abbr title="PKP\xml\XMLNode::addChild">addChild</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="XMLNode.php.html#206"><abbr title="PKP\xml\XMLNode::toXml">toXml</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="XMLNode.php.html#261"><abbr title="PKP\xml\XMLNode::xmlentities">xmlentities</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="XMLNode.php.html#266"><abbr title="PKP\xml\XMLNode::destroy">destroy</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="XMLParserDOMHandler.php.html#42"><abbr title="PKP\xml\XMLParserDOMHandler::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="XMLParserDOMHandler.php.html#49"><abbr title="PKP\xml\XMLParserDOMHandler::startElement">startElement</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="XMLParserDOMHandler.php.html#68"><abbr title="PKP\xml\XMLParserDOMHandler::endElement">endElement</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="XMLParserDOMHandler.php.html#78"><abbr title="PKP\xml\XMLParserDOMHandler::characterData">characterData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="XMLParserDOMHandler.php.html#86"><abbr title="PKP\xml\XMLParserDOMHandler::getResult">getResult</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="XMLParserHandler.php.html#23"><abbr title="PKP\xml\XMLParserHandler::startElement">startElement</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="XMLParserHandler.php.html#30"><abbr title="PKP\xml\XMLParserHandler::endElement">endElement</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="XMLParserHandler.php.html#37"><abbr title="PKP\xml\XMLParserHandler::characterData">characterData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="XMLParserHandler.php.html#45"><abbr title="PKP\xml\XMLParserHandler::getResult">getResult</abbr></a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="XMLNode.php.html#206"><abbr title="PKP\xml\XMLNode::toXml">toXml</abbr></a></td><td class="text-right">210</td></tr>
+       <tr><td><a href="PKPXMLParser.php.html#157"><abbr title="PKP\xml\PKPXMLParser::parseTextStruct">parseTextStruct</abbr></a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="PKPXMLParser.php.html#79"><abbr title="PKP\xml\PKPXMLParser::parse">parse</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="XMLNode.php.html#156"><abbr title="PKP\xml\XMLNode::getChildByName">getChildByName</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="PKPXMLParser.php.html#48"><abbr title="PKP\xml\PKPXMLParser::parseText">parseText</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="XMLNode.php.html#56"><abbr title="PKP\xml\XMLNode::getName">getName</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="PKPXMLParser.php.html#199"><abbr title="PKP\xml\PKPXMLParser::parseStruct">parseStruct</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="XMLNode.php.html#182"><abbr title="PKP\xml\XMLNode::getChildValue">getChildValue</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="XMLNode.php.html#266"><abbr title="PKP\xml\XMLNode::destroy">destroy</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="XMLParserDOMHandler.php.html#49"><abbr title="PKP\xml\XMLParserDOMHandler::startElement">startElement</abbr></a></td><td class="text-right">6</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 11.0.5</a> using <a href="https://www.php.net/" target="_top">PHP 8.3.11</a> and <a href="https://phpunit.de/">PHPUnit 11.2.8</a> at Wed Sep 4 13:31:09 UTC 2024.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../../_js/jquery.min.js?v=11.0.5" type="text/javascript"></script>
+  <script src="../../_js/d3.min.js?v=11.0.5" type="text/javascript"></script>
+  <script src="../../_js/nv.d3.min.js?v=11.0.5" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([4,0,0,0,0,0,0,0,0,0,0,0], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([38,0,0,0,0,0,0,0,0,0,0,0], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[0,26,"<a href=\"PKPXMLParser.php.html#27\">PKP\\xml\\PKPXMLParser<\/a>"],[0,39,"<a href=\"XMLNode.php.html#20\">PKP\\xml\\XMLNode<\/a>"],[0,6,"<a href=\"XMLParserDOMHandler.php.html#25\">PKP\\xml\\XMLParserDOMHandler<\/a>"],[0,3,"<a href=\"XMLParserHandler.php.html#18\">PKP\\xml\\XMLParserHandler<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[0,1,"<a href=\"PKPXMLParser.php.html#43\">PKP\\xml\\PKPXMLParser::__construct<\/a>"],[0,3,"<a href=\"PKPXMLParser.php.html#48\">PKP\\xml\\PKPXMLParser::parseText<\/a>"],[0,5,"<a href=\"PKPXMLParser.php.html#79\">PKP\\xml\\PKPXMLParser::parse<\/a>"],[0,1,"<a href=\"PKPXMLParser.php.html#114\">PKP\\xml\\PKPXMLParser::addError<\/a>"],[0,1,"<a href=\"PKPXMLParser.php.html#122\">PKP\\xml\\PKPXMLParser::getErrors<\/a>"],[0,1,"<a href=\"PKPXMLParser.php.html#133\">PKP\\xml\\PKPXMLParser::getStatus<\/a>"],[0,1,"<a href=\"PKPXMLParser.php.html#143\">PKP\\xml\\PKPXMLParser::setHandler<\/a>"],[0,9,"<a href=\"PKPXMLParser.php.html#157\">PKP\\xml\\PKPXMLParser::parseTextStruct<\/a>"],[0,2,"<a href=\"PKPXMLParser.php.html#199\">PKP\\xml\\PKPXMLParser::parseStruct<\/a>"],[0,1,"<a href=\"PKPXMLParser.php.html#214\">PKP\\xml\\PKPXMLParser::createParser<\/a>"],[0,1,"<a href=\"PKPXMLParser.php.html#227\">PKP\\xml\\PKPXMLParser::destroyParser<\/a>"],[0,1,"<a href=\"XMLNode.php.html#42\">PKP\\xml\\XMLNode::__construct<\/a>"],[0,3,"<a href=\"XMLNode.php.html#56\">PKP\\xml\\XMLNode::getName<\/a>"],[0,1,"<a href=\"XMLNode.php.html#70\">PKP\\xml\\XMLNode::setName<\/a>"],[0,1,"<a href=\"XMLNode.php.html#78\">PKP\\xml\\XMLNode::getParent<\/a>"],[0,1,"<a href=\"XMLNode.php.html#86\">PKP\\xml\\XMLNode::setParent<\/a>"],[0,1,"<a href=\"XMLNode.php.html#94\">PKP\\xml\\XMLNode::getAttributes<\/a>"],[0,1,"<a href=\"XMLNode.php.html#104\">PKP\\xml\\XMLNode::getAttribute<\/a>"],[0,1,"<a href=\"XMLNode.php.html#113\">PKP\\xml\\XMLNode::setAttribute<\/a>"],[0,1,"<a href=\"XMLNode.php.html#121\">PKP\\xml\\XMLNode::setAttributes<\/a>"],[0,1,"<a href=\"XMLNode.php.html#129\">PKP\\xml\\XMLNode::getValue<\/a>"],[0,1,"<a href=\"XMLNode.php.html#137\">PKP\\xml\\XMLNode::setValue<\/a>"],[0,1,"<a href=\"XMLNode.php.html#145\">PKP\\xml\\XMLNode::getChildren<\/a>"],[0,5,"<a href=\"XMLNode.php.html#156\">PKP\\xml\\XMLNode::getChildByName<\/a>"],[0,2,"<a href=\"XMLNode.php.html#182\">PKP\\xml\\XMLNode::getChildValue<\/a>"],[0,1,"<a href=\"XMLNode.php.html#196\">PKP\\xml\\XMLNode::addChild<\/a>"],[0,14,"<a href=\"XMLNode.php.html#206\">PKP\\xml\\XMLNode::toXml<\/a>"],[0,1,"<a href=\"XMLNode.php.html#261\">PKP\\xml\\XMLNode::xmlentities<\/a>"],[0,2,"<a href=\"XMLNode.php.html#266\">PKP\\xml\\XMLNode::destroy<\/a>"],[0,1,"<a href=\"XMLParserDOMHandler.php.html#42\">PKP\\xml\\XMLParserDOMHandler::__construct<\/a>"],[0,2,"<a href=\"XMLParserDOMHandler.php.html#49\">PKP\\xml\\XMLParserDOMHandler::startElement<\/a>"],[0,1,"<a href=\"XMLParserDOMHandler.php.html#68\">PKP\\xml\\XMLParserDOMHandler::endElement<\/a>"],[0,1,"<a href=\"XMLParserDOMHandler.php.html#78\">PKP\\xml\\XMLParserDOMHandler::characterData<\/a>"],[0,1,"<a href=\"XMLParserDOMHandler.php.html#86\">PKP\\xml\\XMLParserDOMHandler::getResult<\/a>"],[0,1,"<a href=\"XMLParserHandler.php.html#23\">PKP\\xml\\XMLParserHandler::startElement<\/a>"],[0,1,"<a href=\"XMLParserHandler.php.html#30\">PKP\\xml\\XMLParserHandler::endElement<\/a>"],[0,1,"<a href=\"XMLParserHandler.php.html#37\">PKP\\xml\\XMLParserHandler::characterData<\/a>"],[0,0,"<a href=\"XMLParserHandler.php.html#45\">PKP\\xml\\XMLParserHandler::getResult<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

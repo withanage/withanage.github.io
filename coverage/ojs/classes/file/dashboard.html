@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /var/www/html/ojs-main/lib/pkp/classes/file</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../_css/bootstrap.min.css?v=11.0.5" rel="stylesheet" type="text/css">
+  <link href="../../_css/nv.d3.min.css?v=11.0.5" rel="stylesheet" type="text/css">
+  <link href="../../_css/style.css?v=11.0.5" rel="stylesheet" type="text/css">
+  <link href="../../_css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="../../index.html">/var/www/html/ojs-main/lib/pkp</a></li>
+         <li class="breadcrumb-item"><a href="../index.html">classes</a></li>
+         <li class="breadcrumb-item"><a href="index.html">file</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="ContextFileManager.php.html#21">PKP\file\ContextFileManager</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FileArchive.php.html#23">PKP\file\FileArchive</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FileManager.php.html#37">PKP\file\FileManager</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPFile.php.html#19">PKP\file\PKPFile</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPLibraryFileManager.php.html#24">PKP\file\PKPLibraryFileManager</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPPublicFileManager.php.html#21">PKP\file\PKPPublicFileManager</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PrivateFileManager.php.html#21">PKP\file\PrivateFileManager</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TemporaryFile.php.html#21">PKP\file\TemporaryFile</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TemporaryFileDAO.php.html#25">PKP\file\TemporaryFileDAO</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TemporaryFileManager.php.html#25">PKP\file\TemporaryFileManager</a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="FileManager.php.html#37">PKP\file\FileManager</a></td><td class="text-right">29412</td></tr>
+       <tr><td><a href="PKPLibraryFileManager.php.html#24">PKP\file\PKPLibraryFileManager</a></td><td class="text-right">420</td></tr>
+       <tr><td><a href="TemporaryFileManager.php.html#25">PKP\file\TemporaryFileManager</a></td><td class="text-right">210</td></tr>
+       <tr><td><a href="FileArchive.php.html#23">PKP\file\FileArchive</a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="TemporaryFileDAO.php.html#25">PKP\file\TemporaryFileDAO</a></td><td class="text-right">132</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="ContextFileManager.php.html#27"><abbr title="PKP\file\ContextFileManager::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ContextFileManager.php.html#37"><abbr title="PKP\file\ContextFileManager::getBasePath">getBasePath</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FileArchive.php.html#36"><abbr title="PKP\file\FileArchive::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FileArchive.php.html#77"><abbr title="PKP\file\FileArchive::zipFunctional">zipFunctional</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FileArchive.php.html#85"><abbr title="PKP\file\FileArchive::tarFunctional">tarFunctional</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FileArchive.php.html#91"><abbr title="PKP\file\FileArchive::isFunctional">isFunctional</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FileManager.php.html#57"><abbr title="PKP\file\FileManager::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FileManager.php.html#68"><abbr title="PKP\file\FileManager::uploadedFileExists">uploadedFileExists</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FileManager.php.html#84"><abbr title="PKP\file\FileManager::uploadError">uploadError</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FileManager.php.html#98"><abbr title="PKP\file\FileManager::getUploadErrorCode">getUploadErrorCode</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FileManager.php.html#109"><abbr title="PKP\file\FileManager::getFirstUploadedPostName">getFirstUploadedPostName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FileManager.php.html#121"><abbr title="PKP\file\FileManager::getUploadedFilePath">getUploadedFilePath</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FileManager.php.html#136"><abbr title="PKP\file\FileManager::getUploadedFileName">getUploadedFileName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FileManager.php.html#151"><abbr title="PKP\file\FileManager::getUploadedFileType">getUploadedFileType</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FileManager.php.html#176"><abbr title="PKP\file\FileManager::uploadFile">uploadFile</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FileManager.php.html#200"><abbr title="PKP\file\FileManager::writeFile">writeFile</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FileManager.php.html#230"><abbr title="PKP\file\FileManager::copyFile">copyFile</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FileManager.php.html#252"><abbr title="PKP\file\FileManager::copyDir">copyDir</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FileManager.php.html#286"><abbr title="PKP\file\FileManager::isVirtualPath">isVirtualPath</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FileManager.php.html#294"><abbr title="PKP\file\FileManager::getStream">getStream</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FileManager.php.html#316"><abbr title="PKP\file\FileManager::readFileFromPath">readFileFromPath</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FileManager.php.html#355"><abbr title="PKP\file\FileManager::downloadByPath">downloadByPath</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FileManager.php.html#399"><abbr title="PKP\file\FileManager::deleteByPath">deleteByPath</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FileManager.php.html#419"><abbr title="PKP\file\FileManager::mkdir">mkdir</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FileManager.php.html#438"><abbr title="PKP\file\FileManager::rmdir">rmdir</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FileManager.php.html#450"><abbr title="PKP\file\FileManager::rmtree">rmtree</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FileManager.php.html#483"><abbr title="PKP\file\FileManager::mkdirtree">mkdirtree</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FileManager.php.html#505"><abbr title="PKP\file\FileManager::fileExists">fileExists</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FileManager.php.html#524"><abbr title="PKP\file\FileManager::getDocumentType">getDocumentType</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FileManager.php.html#564"><abbr title="PKP\file\FileManager::getDocumentExtension">getDocumentExtension</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FileManager.php.html#588"><abbr title="PKP\file\FileManager::getImageExtension">getImageExtension</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FileManager.php.html#638"><abbr title="PKP\file\FileManager::getExtension">getExtension</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FileManager.php.html#651"><abbr title="PKP\file\FileManager::truncateFileName">truncateFileName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FileManager.php.html#668"><abbr title="PKP\file\FileManager::getNiceFileSize">getNiceFileSize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FileManager.php.html#685"><abbr title="PKP\file\FileManager::setMode">setMode</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FileManager.php.html#701"><abbr title="PKP\file\FileManager::parseFileExtension">parseFileExtension</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FileManager.php.html#729"><abbr title="PKP\file\FileManager::gzDecompressFile">gzDecompressFile</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FileManager.php.html#779"><abbr title="PKP\file\FileManager::gzCompressFile">gzCompressFile</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FileManager.php.html#821"><abbr title="PKP\file\FileManager::getTemporaryFile">getTemporaryFile</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPFile.php.html#29"><abbr title="PKP\file\PKPFile::getServerFileName">getServerFileName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPFile.php.html#39"><abbr title="PKP\file\PKPFile::setServerFileName">setServerFileName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPFile.php.html#49"><abbr title="PKP\file\PKPFile::getOriginalFileName">getOriginalFileName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPFile.php.html#59"><abbr title="PKP\file\PKPFile::setOriginalFileName">setOriginalFileName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPFile.php.html#69"><abbr title="PKP\file\PKPFile::getFileType">getFileType</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPFile.php.html#77"><abbr title="PKP\file\PKPFile::setFileType">setFileType</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPFile.php.html#87"><abbr title="PKP\file\PKPFile::getDateUploaded">getDateUploaded</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPFile.php.html#97"><abbr title="PKP\file\PKPFile::setDateUploaded">setDateUploaded</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPFile.php.html#107"><abbr title="PKP\file\PKPFile::getFileSize">getFileSize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPFile.php.html#117"><abbr title="PKP\file\PKPFile::setFileSize">setFileSize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPFile.php.html#127"><abbr title="PKP\file\PKPFile::getNiceFileSize">getNiceFileSize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPFile.php.html#141"><abbr title="PKP\file\PKPFile::getFilePath">getFilePath</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPLibraryFileManager.php.html#29"><abbr title="PKP\file\PKPLibraryFileManager::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPLibraryFileManager.php.html#39"><abbr title="PKP\file\PKPLibraryFileManager::getBasePath">getBasePath</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPLibraryFileManager.php.html#47"><abbr title="PKP\file\PKPLibraryFileManager::deleteById">deleteById</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPLibraryFileManager.php.html#65"><abbr title="PKP\file\PKPLibraryFileManager::generateFileName">generateFileName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPLibraryFileManager.php.html#102"><abbr title="PKP\file\PKPLibraryFileManager::copyFromTemporaryFile">copyFromTemporaryFile</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPLibraryFileManager.php.html#122"><abbr title="PKP\file\PKPLibraryFileManager::replaceFromTemporaryFile">replaceFromTemporaryFile</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPLibraryFileManager.php.html#146"><abbr title="PKP\file\PKPLibraryFileManager::assignFromTemporaryFile">assignFromTemporaryFile</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPLibraryFileManager.php.html#162"><abbr title="PKP\file\PKPLibraryFileManager::getFileSuffixFromType">getFileSuffixFromType</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPLibraryFileManager.php.html#173"><abbr title="PKP\file\PKPLibraryFileManager::getTypeSuffixMap">getTypeSuffixMap</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPLibraryFileManager.php.html#189"><abbr title="PKP\file\PKPLibraryFileManager::getNameFromType">getNameFromType</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPLibraryFileManager.php.html#204"><abbr title="PKP\file\PKPLibraryFileManager::getTypeTitleKeyMap">getTypeTitleKeyMap</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPLibraryFileManager.php.html#220"><abbr title="PKP\file\PKPLibraryFileManager::getTitleKeyFromType">getTitleKeyFromType</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPLibraryFileManager.php.html#231"><abbr title="PKP\file\PKPLibraryFileManager::getTypeNameMap">getTypeNameMap</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPPublicFileManager.php.html#28"><abbr title="PKP\file\PKPPublicFileManager::getSiteFilesPath">getSiteFilesPath</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPPublicFileManager.php.html#40"><abbr title="PKP\file\PKPPublicFileManager::getContextFilesPath">getContextFilesPath</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPPublicFileManager.php.html#51"><abbr title="PKP\file\PKPPublicFileManager::uploadContextFile">uploadContextFile</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPPublicFileManager.php.html#65"><abbr title="PKP\file\PKPPublicFileManager::writeContextFile">writeContextFile</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPPublicFileManager.php.html#78"><abbr title="PKP\file\PKPPublicFileManager::uploadSiteFile">uploadSiteFile</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPPublicFileManager.php.html#91"><abbr title="PKP\file\PKPPublicFileManager::copySiteFile">copySiteFile</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPPublicFileManager.php.html#105"><abbr title="PKP\file\PKPPublicFileManager::copyContextFile">copyContextFile</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPPublicFileManager.php.html#118"><abbr title="PKP\file\PKPPublicFileManager::removeContextFile">removeContextFile</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPPublicFileManager.php.html#130"><abbr title="PKP\file\PKPPublicFileManager::removeSiteFile">removeSiteFile</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PrivateFileManager.php.html#29"><abbr title="PKP\file\PrivateFileManager::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PrivateFileManager.php.html#40"><abbr title="PKP\file\PrivateFileManager::getBasePath">getBasePath</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TemporaryFile.php.html#28"><abbr title="PKP\file\TemporaryFile::getFilePath">getFilePath</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TemporaryFile.php.html#43"><abbr title="PKP\file\TemporaryFile::getUserId">getUserId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TemporaryFile.php.html#53"><abbr title="PKP\file\TemporaryFile::setUserId">setUserId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TemporaryFileDAO.php.html#35"><abbr title="PKP\file\TemporaryFileDAO::getTemporaryFile">getTemporaryFile</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TemporaryFileDAO.php.html#51"><abbr title="PKP\file\TemporaryFileDAO::getTemporaryFilesByUserId">getTemporaryFilesByUserId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TemporaryFileDAO.php.html#65"><abbr title="PKP\file\TemporaryFileDAO::newDataObject">newDataObject</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TemporaryFileDAO.php.html#79"><abbr title="PKP\file\TemporaryFileDAO::_returnTemporaryFileFromRow">_returnTemporaryFileFromRow</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TemporaryFileDAO.php.html#102"><abbr title="PKP\file\TemporaryFileDAO::insertObject">insertObject</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TemporaryFileDAO.php.html#128"><abbr title="PKP\file\TemporaryFileDAO::updateObject">updateObject</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TemporaryFileDAO.php.html#159"><abbr title="PKP\file\TemporaryFileDAO::deleteTemporaryFileById">deleteTemporaryFileById</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TemporaryFileDAO.php.html#170"><abbr title="PKP\file\TemporaryFileDAO::deleteByUserId">deleteByUserId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TemporaryFileDAO.php.html#182"><abbr title="PKP\file\TemporaryFileDAO::getExpiredFiles">getExpiredFiles</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TemporaryFileManager.php.html#30"><abbr title="PKP\file\TemporaryFileManager::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TemporaryFileManager.php.html#42"><abbr title="PKP\file\TemporaryFileManager::getBasePath">getBasePath</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TemporaryFileManager.php.html#52"><abbr title="PKP\file\TemporaryFileManager::getFile">getFile</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TemporaryFileManager.php.html#61"><abbr title="PKP\file\TemporaryFileManager::deleteById">deleteById</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TemporaryFileManager.php.html#79"><abbr title="PKP\file\TemporaryFileManager::downloadById">downloadById</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TemporaryFileManager.php.html#98"><abbr title="PKP\file\TemporaryFileManager::handleUpload">handleUpload</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TemporaryFileManager.php.html#139"><abbr title="PKP\file\TemporaryFileManager::createTempFileFromExisting">createTempFileFromExisting</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TemporaryFileManager.php.html#157"><abbr title="PKP\file\TemporaryFileManager::_performPeriodicCleanup">_performPeriodicCleanup</abbr></a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="FileManager.php.html#588"><abbr title="PKP\file\FileManager::getImageExtension">getImageExtension</abbr></a></td><td class="text-right">552</td></tr>
+       <tr><td><a href="FileManager.php.html#524"><abbr title="PKP\file\FileManager::getDocumentType">getDocumentType</abbr></a></td><td class="text-right">380</td></tr>
+       <tr><td><a href="FileManager.php.html#450"><abbr title="PKP\file\FileManager::rmtree">rmtree</abbr></a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="FileManager.php.html#729"><abbr title="PKP\file\FileManager::gzDecompressFile">gzDecompressFile</abbr></a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="FileManager.php.html#779"><abbr title="PKP\file\FileManager::gzCompressFile">gzCompressFile</abbr></a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="FileManager.php.html#701"><abbr title="PKP\file\FileManager::parseFileExtension">parseFileExtension</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="FileManager.php.html#252"><abbr title="PKP\file\FileManager::copyDir">copyDir</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="FileManager.php.html#355"><abbr title="PKP\file\FileManager::downloadByPath">downloadByPath</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="FileManager.php.html#564"><abbr title="PKP\file\FileManager::getDocumentExtension">getDocumentExtension</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="FileArchive.php.html#36"><abbr title="PKP\file\FileArchive::create">create</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="FileManager.php.html#200"><abbr title="PKP\file\FileManager::writeFile">writeFile</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="FileManager.php.html#316"><abbr title="PKP\file\FileManager::readFileFromPath">readFileFromPath</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="FileManager.php.html#821"><abbr title="PKP\file\FileManager::getTemporaryFile">getTemporaryFile</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="FileManager.php.html#505"><abbr title="PKP\file\FileManager::fileExists">fileExists</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="FileManager.php.html#68"><abbr title="PKP\file\FileManager::uploadedFileExists">uploadedFileExists</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="FileManager.php.html#176"><abbr title="PKP\file\FileManager::uploadFile">uploadFile</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="FileManager.php.html#294"><abbr title="PKP\file\FileManager::getStream">getStream</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="FileManager.php.html#419"><abbr title="PKP\file\FileManager::mkdir">mkdir</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="FileManager.php.html#483"><abbr title="PKP\file\FileManager::mkdirtree">mkdirtree</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="PKPLibraryFileManager.php.html#65"><abbr title="PKP\file\PKPLibraryFileManager::generateFileName">generateFileName</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="TemporaryFileManager.php.html#98"><abbr title="PKP\file\TemporaryFileManager::handleUpload">handleUpload</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="FileManager.php.html#121"><abbr title="PKP\file\FileManager::getUploadedFilePath">getUploadedFilePath</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="FileManager.php.html#151"><abbr title="PKP\file\FileManager::getUploadedFileType">getUploadedFileType</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="FileManager.php.html#230"><abbr title="PKP\file\FileManager::copyFile">copyFile</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="FileManager.php.html#399"><abbr title="PKP\file\FileManager::deleteByPath">deleteByPath</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="FileManager.php.html#668"><abbr title="PKP\file\FileManager::getNiceFileSize">getNiceFileSize</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="PKPLibraryFileManager.php.html#122"><abbr title="PKP\file\PKPLibraryFileManager::replaceFromTemporaryFile">replaceFromTemporaryFile</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="TemporaryFileManager.php.html#157"><abbr title="PKP\file\TemporaryFileManager::_performPeriodicCleanup">_performPeriodicCleanup</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="FileArchive.php.html#85"><abbr title="PKP\file\FileArchive::tarFunctional">tarFunctional</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="FileArchive.php.html#91"><abbr title="PKP\file\FileArchive::isFunctional">isFunctional</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="FileManager.php.html#84"><abbr title="PKP\file\FileManager::uploadError">uploadError</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="FileManager.php.html#136"><abbr title="PKP\file\FileManager::getUploadedFileName">getUploadedFileName</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="FileManager.php.html#638"><abbr title="PKP\file\FileManager::getExtension">getExtension</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="FileManager.php.html#651"><abbr title="PKP\file\FileManager::truncateFileName">truncateFileName</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="FileManager.php.html#685"><abbr title="PKP\file\FileManager::setMode">setMode</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="PKPLibraryFileManager.php.html#102"><abbr title="PKP\file\PKPLibraryFileManager::copyFromTemporaryFile">copyFromTemporaryFile</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="PKPLibraryFileManager.php.html#189"><abbr title="PKP\file\PKPLibraryFileManager::getNameFromType">getNameFromType</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="TemporaryFileDAO.php.html#35"><abbr title="PKP\file\TemporaryFileDAO::getTemporaryFile">getTemporaryFile</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="TemporaryFileDAO.php.html#182"><abbr title="PKP\file\TemporaryFileDAO::getExpiredFiles">getExpiredFiles</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="TemporaryFileManager.php.html#79"><abbr title="PKP\file\TemporaryFileManager::downloadById">downloadById</abbr></a></td><td class="text-right">6</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 11.0.5</a> using <a href="https://www.php.net/" target="_top">PHP 8.3.11</a> and <a href="https://phpunit.de/">PHPUnit 11.2.8</a> at Wed Sep 4 13:31:09 UTC 2024.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../../_js/jquery.min.js?v=11.0.5" type="text/javascript"></script>
+  <script src="../../_js/d3.min.js?v=11.0.5" type="text/javascript"></script>
+  <script src="../../_js/nv.d3.min.js?v=11.0.5" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([10,0,0,0,0,0,0,0,0,0,0,0], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([95,0,0,0,0,0,0,0,0,0,0,0], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[0,2,"<a href=\"ContextFileManager.php.html#21\">PKP\\file\\ContextFileManager<\/a>"],[0,11,"<a href=\"FileArchive.php.html#23\">PKP\\file\\FileArchive<\/a>"],[0,171,"<a href=\"FileManager.php.html#37\">PKP\\file\\FileManager<\/a>"],[0,12,"<a href=\"PKPFile.php.html#19\">PKP\\file\\PKPFile<\/a>"],[0,20,"<a href=\"PKPLibraryFileManager.php.html#24\">PKP\\file\\PKPLibraryFileManager<\/a>"],[0,8,"<a href=\"PKPPublicFileManager.php.html#21\">PKP\\file\\PKPPublicFileManager<\/a>"],[0,2,"<a href=\"PrivateFileManager.php.html#21\">PKP\\file\\PrivateFileManager<\/a>"],[0,3,"<a href=\"TemporaryFile.php.html#21\">PKP\\file\\TemporaryFile<\/a>"],[0,11,"<a href=\"TemporaryFileDAO.php.html#25\">PKP\\file\\TemporaryFileDAO<\/a>"],[0,14,"<a href=\"TemporaryFileManager.php.html#25\">PKP\\file\\TemporaryFileManager<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[0,1,"<a href=\"ContextFileManager.php.html#27\">PKP\\file\\ContextFileManager::__construct<\/a>"],[0,1,"<a href=\"ContextFileManager.php.html#37\">PKP\\file\\ContextFileManager::getBasePath<\/a>"],[0,6,"<a href=\"FileArchive.php.html#36\">PKP\\file\\FileArchive::create<\/a>"],[0,1,"<a href=\"FileArchive.php.html#77\">PKP\\file\\FileArchive::zipFunctional<\/a>"],[0,2,"<a href=\"FileArchive.php.html#85\">PKP\\file\\FileArchive::tarFunctional<\/a>"],[0,2,"<a href=\"FileArchive.php.html#91\">PKP\\file\\FileArchive::isFunctional<\/a>"],[0,1,"<a href=\"FileManager.php.html#57\">PKP\\file\\FileManager::__construct<\/a>"],[0,4,"<a href=\"FileManager.php.html#68\">PKP\\file\\FileManager::uploadedFileExists<\/a>"],[0,2,"<a href=\"FileManager.php.html#84\">PKP\\file\\FileManager::uploadError<\/a>"],[0,1,"<a href=\"FileManager.php.html#98\">PKP\\file\\FileManager::getUploadErrorCode<\/a>"],[0,1,"<a href=\"FileManager.php.html#109\">PKP\\file\\FileManager::getFirstUploadedPostName<\/a>"],[0,3,"<a href=\"FileManager.php.html#121\">PKP\\file\\FileManager::getUploadedFilePath<\/a>"],[0,2,"<a href=\"FileManager.php.html#136\">PKP\\file\\FileManager::getUploadedFileName<\/a>"],[0,3,"<a href=\"FileManager.php.html#151\">PKP\\file\\FileManager::getUploadedFileType<\/a>"],[0,4,"<a href=\"FileManager.php.html#176\">PKP\\file\\FileManager::uploadFile<\/a>"],[0,6,"<a href=\"FileManager.php.html#200\">PKP\\file\\FileManager::writeFile<\/a>"],[0,3,"<a href=\"FileManager.php.html#230\">PKP\\file\\FileManager::copyFile<\/a>"],[0,7,"<a href=\"FileManager.php.html#252\">PKP\\file\\FileManager::copyDir<\/a>"],[0,1,"<a href=\"FileManager.php.html#286\">PKP\\file\\FileManager::isVirtualPath<\/a>"],[0,4,"<a href=\"FileManager.php.html#294\">PKP\\file\\FileManager::getStream<\/a>"],[0,6,"<a href=\"FileManager.php.html#316\">PKP\\file\\FileManager::readFileFromPath<\/a>"],[0,7,"<a href=\"FileManager.php.html#355\">PKP\\file\\FileManager::downloadByPath<\/a>"],[0,3,"<a href=\"FileManager.php.html#399\">PKP\\file\\FileManager::deleteByPath<\/a>"],[0,4,"<a href=\"FileManager.php.html#419\">PKP\\file\\FileManager::mkdir<\/a>"],[0,1,"<a href=\"FileManager.php.html#438\">PKP\\file\\FileManager::rmdir<\/a>"],[0,9,"<a href=\"FileManager.php.html#450\">PKP\\file\\FileManager::rmtree<\/a>"],[0,4,"<a href=\"FileManager.php.html#483\">PKP\\file\\FileManager::mkdirtree<\/a>"],[0,5,"<a href=\"FileManager.php.html#505\">PKP\\file\\FileManager::fileExists<\/a>"],[0,19,"<a href=\"FileManager.php.html#524\">PKP\\file\\FileManager::getDocumentType<\/a>"],[0,7,"<a href=\"FileManager.php.html#564\">PKP\\file\\FileManager::getDocumentExtension<\/a>"],[0,23,"<a href=\"FileManager.php.html#588\">PKP\\file\\FileManager::getImageExtension<\/a>"],[0,2,"<a href=\"FileManager.php.html#638\">PKP\\file\\FileManager::getExtension<\/a>"],[0,2,"<a href=\"FileManager.php.html#651\">PKP\\file\\FileManager::truncateFileName<\/a>"],[0,3,"<a href=\"FileManager.php.html#668\">PKP\\file\\FileManager::getNiceFileSize<\/a>"],[0,2,"<a href=\"FileManager.php.html#685\">PKP\\file\\FileManager::setMode<\/a>"],[0,8,"<a href=\"FileManager.php.html#701\">PKP\\file\\FileManager::parseFileExtension<\/a>"],[0,9,"<a href=\"FileManager.php.html#729\">PKP\\file\\FileManager::gzDecompressFile<\/a>"],[0,9,"<a href=\"FileManager.php.html#779\">PKP\\file\\FileManager::gzCompressFile<\/a>"],[0,6,"<a href=\"FileManager.php.html#821\">PKP\\file\\FileManager::getTemporaryFile<\/a>"],[0,1,"<a href=\"PKPFile.php.html#29\">PKP\\file\\PKPFile::getServerFileName<\/a>"],[0,1,"<a href=\"PKPFile.php.html#39\">PKP\\file\\PKPFile::setServerFileName<\/a>"],[0,1,"<a href=\"PKPFile.php.html#49\">PKP\\file\\PKPFile::getOriginalFileName<\/a>"],[0,1,"<a href=\"PKPFile.php.html#59\">PKP\\file\\PKPFile::setOriginalFileName<\/a>"],[0,1,"<a href=\"PKPFile.php.html#69\">PKP\\file\\PKPFile::getFileType<\/a>"],[0,1,"<a href=\"PKPFile.php.html#77\">PKP\\file\\PKPFile::setFileType<\/a>"],[0,1,"<a href=\"PKPFile.php.html#87\">PKP\\file\\PKPFile::getDateUploaded<\/a>"],[0,1,"<a href=\"PKPFile.php.html#97\">PKP\\file\\PKPFile::setDateUploaded<\/a>"],[0,1,"<a href=\"PKPFile.php.html#107\">PKP\\file\\PKPFile::getFileSize<\/a>"],[0,1,"<a href=\"PKPFile.php.html#117\">PKP\\file\\PKPFile::setFileSize<\/a>"],[0,1,"<a href=\"PKPFile.php.html#127\">PKP\\file\\PKPFile::getNiceFileSize<\/a>"],[0,1,"<a href=\"PKPFile.php.html#141\">PKP\\file\\PKPFile::getFilePath<\/a>"],[0,1,"<a href=\"PKPLibraryFileManager.php.html#29\">PKP\\file\\PKPLibraryFileManager::__construct<\/a>"],[0,1,"<a href=\"PKPLibraryFileManager.php.html#39\">PKP\\file\\PKPLibraryFileManager::getBasePath<\/a>"],[0,1,"<a href=\"PKPLibraryFileManager.php.html#47\">PKP\\file\\PKPLibraryFileManager::deleteById<\/a>"],[0,4,"<a href=\"PKPLibraryFileManager.php.html#65\">PKP\\file\\PKPLibraryFileManager::generateFileName<\/a>"],[0,2,"<a href=\"PKPLibraryFileManager.php.html#102\">PKP\\file\\PKPLibraryFileManager::copyFromTemporaryFile<\/a>"],[0,3,"<a href=\"PKPLibraryFileManager.php.html#122\">PKP\\file\\PKPLibraryFileManager::replaceFromTemporaryFile<\/a>"],[0,1,"<a href=\"PKPLibraryFileManager.php.html#146\">PKP\\file\\PKPLibraryFileManager::assignFromTemporaryFile<\/a>"],[0,1,"<a href=\"PKPLibraryFileManager.php.html#162\">PKP\\file\\PKPLibraryFileManager::getFileSuffixFromType<\/a>"],[0,1,"<a href=\"PKPLibraryFileManager.php.html#173\">PKP\\file\\PKPLibraryFileManager::getTypeSuffixMap<\/a>"],[0,2,"<a href=\"PKPLibraryFileManager.php.html#189\">PKP\\file\\PKPLibraryFileManager::getNameFromType<\/a>"],[0,1,"<a href=\"PKPLibraryFileManager.php.html#204\">PKP\\file\\PKPLibraryFileManager::getTypeTitleKeyMap<\/a>"],[0,1,"<a href=\"PKPLibraryFileManager.php.html#220\">PKP\\file\\PKPLibraryFileManager::getTitleKeyFromType<\/a>"],[0,1,"<a href=\"PKPLibraryFileManager.php.html#231\">PKP\\file\\PKPLibraryFileManager::getTypeNameMap<\/a>"],[0,1,"<a href=\"PKPPublicFileManager.php.html#28\">PKP\\file\\PKPPublicFileManager::getSiteFilesPath<\/a>"],[0,0,"<a href=\"PKPPublicFileManager.php.html#40\">PKP\\file\\PKPPublicFileManager::getContextFilesPath<\/a>"],[0,1,"<a href=\"PKPPublicFileManager.php.html#51\">PKP\\file\\PKPPublicFileManager::uploadContextFile<\/a>"],[0,1,"<a href=\"PKPPublicFileManager.php.html#65\">PKP\\file\\PKPPublicFileManager::writeContextFile<\/a>"],[0,1,"<a href=\"PKPPublicFileManager.php.html#78\">PKP\\file\\PKPPublicFileManager::uploadSiteFile<\/a>"],[0,1,"<a href=\"PKPPublicFileManager.php.html#91\">PKP\\file\\PKPPublicFileManager::copySiteFile<\/a>"],[0,1,"<a href=\"PKPPublicFileManager.php.html#105\">PKP\\file\\PKPPublicFileManager::copyContextFile<\/a>"],[0,1,"<a href=\"PKPPublicFileManager.php.html#118\">PKP\\file\\PKPPublicFileManager::removeContextFile<\/a>"],[0,1,"<a href=\"PKPPublicFileManager.php.html#130\">PKP\\file\\PKPPublicFileManager::removeSiteFile<\/a>"],[0,1,"<a href=\"PrivateFileManager.php.html#29\">PKP\\file\\PrivateFileManager::__construct<\/a>"],[0,1,"<a href=\"PrivateFileManager.php.html#40\">PKP\\file\\PrivateFileManager::getBasePath<\/a>"],[0,1,"<a href=\"TemporaryFile.php.html#28\">PKP\\file\\TemporaryFile::getFilePath<\/a>"],[0,1,"<a href=\"TemporaryFile.php.html#43\">PKP\\file\\TemporaryFile::getUserId<\/a>"],[0,1,"<a href=\"TemporaryFile.php.html#53\">PKP\\file\\TemporaryFile::setUserId<\/a>"],[0,2,"<a href=\"TemporaryFileDAO.php.html#35\">PKP\\file\\TemporaryFileDAO::getTemporaryFile<\/a>"],[0,1,"<a href=\"TemporaryFileDAO.php.html#51\">PKP\\file\\TemporaryFileDAO::getTemporaryFilesByUserId<\/a>"],[0,1,"<a href=\"TemporaryFileDAO.php.html#65\">PKP\\file\\TemporaryFileDAO::newDataObject<\/a>"],[0,1,"<a href=\"TemporaryFileDAO.php.html#79\">PKP\\file\\TemporaryFileDAO::_returnTemporaryFileFromRow<\/a>"],[0,1,"<a href=\"TemporaryFileDAO.php.html#102\">PKP\\file\\TemporaryFileDAO::insertObject<\/a>"],[0,1,"<a href=\"TemporaryFileDAO.php.html#128\">PKP\\file\\TemporaryFileDAO::updateObject<\/a>"],[0,1,"<a href=\"TemporaryFileDAO.php.html#159\">PKP\\file\\TemporaryFileDAO::deleteTemporaryFileById<\/a>"],[0,1,"<a href=\"TemporaryFileDAO.php.html#170\">PKP\\file\\TemporaryFileDAO::deleteByUserId<\/a>"],[0,2,"<a href=\"TemporaryFileDAO.php.html#182\">PKP\\file\\TemporaryFileDAO::getExpiredFiles<\/a>"],[0,1,"<a href=\"TemporaryFileManager.php.html#30\">PKP\\file\\TemporaryFileManager::__construct<\/a>"],[0,1,"<a href=\"TemporaryFileManager.php.html#42\">PKP\\file\\TemporaryFileManager::getBasePath<\/a>"],[0,1,"<a href=\"TemporaryFileManager.php.html#52\">PKP\\file\\TemporaryFileManager::getFile<\/a>"],[0,1,"<a href=\"TemporaryFileManager.php.html#61\">PKP\\file\\TemporaryFileManager::deleteById<\/a>"],[0,2,"<a href=\"TemporaryFileManager.php.html#79\">PKP\\file\\TemporaryFileManager::downloadById<\/a>"],[0,4,"<a href=\"TemporaryFileManager.php.html#98\">PKP\\file\\TemporaryFileManager::handleUpload<\/a>"],[0,1,"<a href=\"TemporaryFileManager.php.html#139\">PKP\\file\\TemporaryFileManager::createTempFileFromExisting<\/a>"],[0,3,"<a href=\"TemporaryFileManager.php.html#157\">PKP\\file\\TemporaryFileManager::_performPeriodicCleanup<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

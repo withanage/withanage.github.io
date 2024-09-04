@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /var/www/html/ojs-main/lib/pkp/controllers/grid/users/stageParticipant</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../../../_css/bootstrap.min.css?v=11.0.5" rel="stylesheet" type="text/css">
+  <link href="../../../../_css/nv.d3.min.css?v=11.0.5" rel="stylesheet" type="text/css">
+  <link href="../../../../_css/style.css?v=11.0.5" rel="stylesheet" type="text/css">
+  <link href="../../../../_css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="../../../../index.html">/var/www/html/ojs-main/lib/pkp</a></li>
+         <li class="breadcrumb-item"><a href="../../../index.html">controllers</a></li>
+         <li class="breadcrumb-item"><a href="../../index.html">grid</a></li>
+         <li class="breadcrumb-item"><a href="../index.html">users</a></li>
+         <li class="breadcrumb-item"><a href="index.html">stageParticipant</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="StageParticipantGridCategoryRow.php.html#24">PKP\controllers\grid\users\stageParticipant\StageParticipantGridCategoryRow</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="StageParticipantGridCellProvider.php.html#23">PKP\controllers\grid\users\stageParticipant\StageParticipantGridCellProvider</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="StageParticipantGridHandler.php.html#44">PKP\controllers\grid\users\stageParticipant\StageParticipantGridHandler</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="StageParticipantGridRow.php.html#31">PKP\controllers\grid\users\stageParticipant\StageParticipantGridRow</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="form/AddParticipantForm.php.html#29">PKP\controllers\grid\users\stageParticipant\form\AddParticipantForm</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="form/PKPStageParticipantNotifyForm.php.html#41">PKP\controllers\grid\users\stageParticipant\form\PKPStageParticipantNotifyForm</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="linkAction/NotifyLinkAction.php.html#23">PKP\controllers\grid\users\stageParticipant\linkAction\NotifyLinkAction</a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="form/PKPStageParticipantNotifyForm.php.html#41">PKP\controllers\grid\users\stageParticipant\form\PKPStageParticipantNotifyForm</a></td><td class="text-right">2352</td></tr>
+       <tr><td><a href="StageParticipantGridHandler.php.html#44">PKP\controllers\grid\users\stageParticipant\StageParticipantGridHandler</a></td><td class="text-right">1892</td></tr>
+       <tr><td><a href="form/AddParticipantForm.php.html#29">PKP\controllers\grid\users\stageParticipant\form\AddParticipantForm</a></td><td class="text-right">756</td></tr>
+       <tr><td><a href="StageParticipantGridRow.php.html#31">PKP\controllers\grid\users\stageParticipant\StageParticipantGridRow</a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="StageParticipantGridCellProvider.php.html#23">PKP\controllers\grid\users\stageParticipant\StageParticipantGridCellProvider</a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="linkAction/NotifyLinkAction.php.html#23">PKP\controllers\grid\users\stageParticipant\linkAction\NotifyLinkAction</a></td><td class="text-right">6</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="StageParticipantGridCategoryRow.php.html#35"><abbr title="PKP\controllers\grid\users\stageParticipant\StageParticipantGridCategoryRow::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="StageParticipantGridCategoryRow.php.html#48"><abbr title="PKP\controllers\grid\users\stageParticipant\StageParticipantGridCategoryRow::getCategoryLabel">getCategoryLabel</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="StageParticipantGridCategoryRow.php.html#62"><abbr title="PKP\controllers\grid\users\stageParticipant\StageParticipantGridCategoryRow::getSubmission">getSubmission</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="StageParticipantGridCategoryRow.php.html#72"><abbr title="PKP\controllers\grid\users\stageParticipant\StageParticipantGridCategoryRow::getStageId">getStageId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="StageParticipantGridCellProvider.php.html#37"><abbr title="PKP\controllers\grid\users\stageParticipant\StageParticipantGridCellProvider::getTemplateVarsFromRowColumn">getTemplateVarsFromRowColumn</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="StageParticipantGridHandler.php.html#51"><abbr title="PKP\controllers\grid\users\stageParticipant\StageParticipantGridHandler::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="StageParticipantGridHandler.php.html#78"><abbr title="PKP\controllers\grid\users\stageParticipant\StageParticipantGridHandler::getSubmission">getSubmission</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="StageParticipantGridHandler.php.html#88"><abbr title="PKP\controllers\grid\users\stageParticipant\StageParticipantGridHandler::getStageId">getStageId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="StageParticipantGridHandler.php.html#99"><abbr title="PKP\controllers\grid\users\stageParticipant\StageParticipantGridHandler::authorize">authorize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="StageParticipantGridHandler.php.html#112"><abbr title="PKP\controllers\grid\users\stageParticipant\StageParticipantGridHandler::_canAdminister">_canAdminister</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="StageParticipantGridHandler.php.html#127"><abbr title="PKP\controllers\grid\users\stageParticipant\StageParticipantGridHandler::initialize">initialize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="StageParticipantGridHandler.php.html#197"><abbr title="PKP\controllers\grid\users\stageParticipant\StageParticipantGridHandler::loadCategoryData">loadCategoryData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="StageParticipantGridHandler.php.html#217"><abbr title="PKP\controllers\grid\users\stageParticipant\StageParticipantGridHandler::getIsSubcomponent">getIsSubcomponent</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="StageParticipantGridHandler.php.html#225"><abbr title="PKP\controllers\grid\users\stageParticipant\StageParticipantGridHandler::getRowInstance">getRowInstance</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="StageParticipantGridHandler.php.html#233"><abbr title="PKP\controllers\grid\users\stageParticipant\StageParticipantGridHandler::getCategoryRowInstance">getCategoryRowInstance</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="StageParticipantGridHandler.php.html#242"><abbr title="PKP\controllers\grid\users\stageParticipant\StageParticipantGridHandler::getCategoryRowIdParameterName">getCategoryRowIdParameterName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="StageParticipantGridHandler.php.html#250"><abbr title="PKP\controllers\grid\users\stageParticipant\StageParticipantGridHandler::getRequestArgs">getRequestArgs</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="StageParticipantGridHandler.php.html#265"><abbr title="PKP\controllers\grid\users\stageParticipant\StageParticipantGridHandler::loadData">loadData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="StageParticipantGridHandler.php.html#305"><abbr title="PKP\controllers\grid\users\stageParticipant\StageParticipantGridHandler::addParticipant">addParticipant</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="StageParticipantGridHandler.php.html#329"><abbr title="PKP\controllers\grid\users\stageParticipant\StageParticipantGridHandler::saveParticipant">saveParticipant</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="StageParticipantGridHandler.php.html#410"><abbr title="PKP\controllers\grid\users\stageParticipant\StageParticipantGridHandler::deleteParticipant">deleteParticipant</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="StageParticipantGridHandler.php.html#482"><abbr title="PKP\controllers\grid\users\stageParticipant\StageParticipantGridHandler::fetchUserList">fetchUserList</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="StageParticipantGridHandler.php.html#518"><abbr title="PKP\controllers\grid\users\stageParticipant\StageParticipantGridHandler::viewNotify">viewNotify</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="StageParticipantGridHandler.php.html#536"><abbr title="PKP\controllers\grid\users\stageParticipant\StageParticipantGridHandler::sendNotification">sendNotification</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="StageParticipantGridHandler.php.html#581"><abbr title="PKP\controllers\grid\users\stageParticipant\StageParticipantGridHandler::fetchTemplateBody">fetchTemplateBody</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="StageParticipantGridHandler.php.html#608"><abbr title="PKP\controllers\grid\users\stageParticipant\StageParticipantGridHandler::getJSHandler">getJSHandler</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="StageParticipantGridRow.php.html#45"><abbr title="PKP\controllers\grid\users\stageParticipant\StageParticipantGridRow::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="StageParticipantGridRow.php.html#63"><abbr title="PKP\controllers\grid\users\stageParticipant\StageParticipantGridRow::initialize">initialize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="StageParticipantGridRow.php.html#160"><abbr title="PKP\controllers\grid\users\stageParticipant\StageParticipantGridRow::getSubmission">getSubmission</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="StageParticipantGridRow.php.html#170"><abbr title="PKP\controllers\grid\users\stageParticipant\StageParticipantGridRow::getStageId">getStageId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="StageParticipantGridRow.php.html#178"><abbr title="PKP\controllers\grid\users\stageParticipant\StageParticipantGridRow::getRequestArgs">getRequestArgs</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="form/AddParticipantForm.php.html#53"><abbr title="PKP\controllers\grid\users\stageParticipant\form\AddParticipantForm::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="form/AddParticipantForm.php.html#78"><abbr title="PKP\controllers\grid\users\stageParticipant\form\AddParticipantForm::getSubmission">getSubmission</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="form/AddParticipantForm.php.html#86"><abbr title="PKP\controllers\grid\users\stageParticipant\form\AddParticipantForm::initialize">initialize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="form/AddParticipantForm.php.html#99"><abbr title="PKP\controllers\grid\users\stageParticipant\form\AddParticipantForm::_isChangePermitMetadataAllowed">_isChangePermitMetadataAllowed</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="form/AddParticipantForm.php.html#115"><abbr title="PKP\controllers\grid\users\stageParticipant\form\AddParticipantForm::_isChangeRecommendOnlyAllowed">_isChangeRecommendOnlyAllowed</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="form/AddParticipantForm.php.html#131"><abbr title="PKP\controllers\grid\users\stageParticipant\form\AddParticipantForm::fetch">fetch</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="form/AddParticipantForm.php.html#223"><abbr title="PKP\controllers\grid\users\stageParticipant\form\AddParticipantForm::readInputData">readInputData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="form/AddParticipantForm.php.html#238"><abbr title="PKP\controllers\grid\users\stageParticipant\form\AddParticipantForm::validate">validate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="form/AddParticipantForm.php.html#251"><abbr title="PKP\controllers\grid\users\stageParticipant\form\AddParticipantForm::execute">execute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="form/AddParticipantForm.php.html#296"><abbr title="PKP\controllers\grid\users\stageParticipant\form\AddParticipantForm::isMessageRequired">isMessageRequired</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="form/PKPStageParticipantNotifyForm.php.html#62"><abbr title="PKP\controllers\grid\users\stageParticipant\form\PKPStageParticipantNotifyForm::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="form/PKPStageParticipantNotifyForm.php.html#92"><abbr title="PKP\controllers\grid\users\stageParticipant\form\PKPStageParticipantNotifyForm::fetch">fetch</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="form/PKPStageParticipantNotifyForm.php.html#139"><abbr title="PKP\controllers\grid\users\stageParticipant\form\PKPStageParticipantNotifyForm::readInputData">readInputData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="form/PKPStageParticipantNotifyForm.php.html#147"><abbr title="PKP\controllers\grid\users\stageParticipant\form\PKPStageParticipantNotifyForm::execute">execute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="form/PKPStageParticipantNotifyForm.php.html#161"><abbr title="PKP\controllers\grid\users\stageParticipant\form\PKPStageParticipantNotifyForm::sendMessage">sendMessage</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="form/PKPStageParticipantNotifyForm.php.html#296"><abbr title="PKP\controllers\grid\users\stageParticipant\form\PKPStageParticipantNotifyForm::getEmailVariableNames">getEmailVariableNames</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="form/PKPStageParticipantNotifyForm.php.html#328"><abbr title="PKP\controllers\grid\users\stageParticipant\form\PKPStageParticipantNotifyForm::getStageId">getStageId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="form/PKPStageParticipantNotifyForm.php.html#341"><abbr title="PKP\controllers\grid\users\stageParticipant\form\PKPStageParticipantNotifyForm::_addAssignmentTaskNotification">_addAssignmentTaskNotification</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="form/PKPStageParticipantNotifyForm.php.html#369"><abbr title="PKP\controllers\grid\users\stageParticipant\form\PKPStageParticipantNotifyForm::_logEventAndCreateNotification">_logEventAndCreateNotification</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="form/PKPStageParticipantNotifyForm.php.html#393"><abbr title="PKP\controllers\grid\users\stageParticipant\form\PKPStageParticipantNotifyForm::isMessageRequired">isMessageRequired</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="linkAction/NotifyLinkAction.php.html#34"><abbr title="PKP\controllers\grid\users\stageParticipant\linkAction\NotifyLinkAction::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="form/PKPStageParticipantNotifyForm.php.html#161"><abbr title="PKP\controllers\grid\users\stageParticipant\form\PKPStageParticipantNotifyForm::sendMessage">sendMessage</abbr></a></td><td class="text-right">462</td></tr>
+       <tr><td><a href="form/PKPStageParticipantNotifyForm.php.html#296"><abbr title="PKP\controllers\grid\users\stageParticipant\form\PKPStageParticipantNotifyForm::getEmailVariableNames">getEmailVariableNames</abbr></a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="StageParticipantGridRow.php.html#63"><abbr title="PKP\controllers\grid\users\stageParticipant\StageParticipantGridRow::initialize">initialize</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="form/AddParticipantForm.php.html#251"><abbr title="PKP\controllers\grid\users\stageParticipant\form\AddParticipantForm::execute">execute</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="StageParticipantGridHandler.php.html#329"><abbr title="PKP\controllers\grid\users\stageParticipant\StageParticipantGridHandler::saveParticipant">saveParticipant</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="StageParticipantGridHandler.php.html#410"><abbr title="PKP\controllers\grid\users\stageParticipant\StageParticipantGridHandler::deleteParticipant">deleteParticipant</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="form/AddParticipantForm.php.html#131"><abbr title="PKP\controllers\grid\users\stageParticipant\form\AddParticipantForm::fetch">fetch</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="StageParticipantGridCellProvider.php.html#37"><abbr title="PKP\controllers\grid\users\stageParticipant\StageParticipantGridCellProvider::getTemplateVarsFromRowColumn">getTemplateVarsFromRowColumn</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="form/PKPStageParticipantNotifyForm.php.html#92"><abbr title="PKP\controllers\grid\users\stageParticipant\form\PKPStageParticipantNotifyForm::fetch">fetch</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="StageParticipantGridHandler.php.html#265"><abbr title="PKP\controllers\grid\users\stageParticipant\StageParticipantGridHandler::loadData">loadData</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="StageParticipantGridHandler.php.html#536"><abbr title="PKP\controllers\grid\users\stageParticipant\StageParticipantGridHandler::sendNotification">sendNotification</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="form/PKPStageParticipantNotifyForm.php.html#62"><abbr title="PKP\controllers\grid\users\stageParticipant\form\PKPStageParticipantNotifyForm::__construct">__construct</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="StageParticipantGridHandler.php.html#127"><abbr title="PKP\controllers\grid\users\stageParticipant\StageParticipantGridHandler::initialize">initialize</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="StageParticipantGridHandler.php.html#482"><abbr title="PKP\controllers\grid\users\stageParticipant\StageParticipantGridHandler::fetchUserList">fetchUserList</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="form/AddParticipantForm.php.html#99"><abbr title="PKP\controllers\grid\users\stageParticipant\form\AddParticipantForm::_isChangePermitMetadataAllowed">_isChangePermitMetadataAllowed</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="form/AddParticipantForm.php.html#115"><abbr title="PKP\controllers\grid\users\stageParticipant\form\AddParticipantForm::_isChangeRecommendOnlyAllowed">_isChangeRecommendOnlyAllowed</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="form/AddParticipantForm.php.html#238"><abbr title="PKP\controllers\grid\users\stageParticipant\form\AddParticipantForm::validate">validate</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="StageParticipantGridHandler.php.html#305"><abbr title="PKP\controllers\grid\users\stageParticipant\StageParticipantGridHandler::addParticipant">addParticipant</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="StageParticipantGridHandler.php.html#581"><abbr title="PKP\controllers\grid\users\stageParticipant\StageParticipantGridHandler::fetchTemplateBody">fetchTemplateBody</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="form/PKPStageParticipantNotifyForm.php.html#147"><abbr title="PKP\controllers\grid\users\stageParticipant\form\PKPStageParticipantNotifyForm::execute">execute</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="form/PKPStageParticipantNotifyForm.php.html#341"><abbr title="PKP\controllers\grid\users\stageParticipant\form\PKPStageParticipantNotifyForm::_addAssignmentTaskNotification">_addAssignmentTaskNotification</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="linkAction/NotifyLinkAction.php.html#34"><abbr title="PKP\controllers\grid\users\stageParticipant\linkAction\NotifyLinkAction::__construct">__construct</abbr></a></td><td class="text-right">6</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 11.0.5</a> using <a href="https://www.php.net/" target="_top">PHP 8.3.11</a> and <a href="https://phpunit.de/">PHPUnit 11.2.8</a> at Wed Sep 4 13:31:09 UTC 2024.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../../../../_js/jquery.min.js?v=11.0.5" type="text/javascript"></script>
+  <script src="../../../../_js/d3.min.js?v=11.0.5" type="text/javascript"></script>
+  <script src="../../../../_js/nv.d3.min.js?v=11.0.5" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([7,0,0,0,0,0,0,0,0,0,0,0], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([52,0,0,0,0,0,0,0,0,0,0,0], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[0,4,"<a href=\"StageParticipantGridCategoryRow.php.html#24\">PKP\\controllers\\grid\\users\\stageParticipant\\StageParticipantGridCategoryRow<\/a>"],[0,5,"<a href=\"StageParticipantGridCellProvider.php.html#23\">PKP\\controllers\\grid\\users\\stageParticipant\\StageParticipantGridCellProvider<\/a>"],[0,43,"<a href=\"StageParticipantGridHandler.php.html#44\">PKP\\controllers\\grid\\users\\stageParticipant\\StageParticipantGridHandler<\/a>"],[0,12,"<a href=\"StageParticipantGridRow.php.html#31\">PKP\\controllers\\grid\\users\\stageParticipant\\StageParticipantGridRow<\/a>"],[0,27,"<a href=\"form\/AddParticipantForm.php.html#29\">PKP\\controllers\\grid\\users\\stageParticipant\\form\\AddParticipantForm<\/a>"],[0,48,"<a href=\"form\/PKPStageParticipantNotifyForm.php.html#41\">PKP\\controllers\\grid\\users\\stageParticipant\\form\\PKPStageParticipantNotifyForm<\/a>"],[0,2,"<a href=\"linkAction\/NotifyLinkAction.php.html#23\">PKP\\controllers\\grid\\users\\stageParticipant\\linkAction\\NotifyLinkAction<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[0,1,"<a href=\"StageParticipantGridCategoryRow.php.html#35\">PKP\\controllers\\grid\\users\\stageParticipant\\StageParticipantGridCategoryRow::__construct<\/a>"],[0,1,"<a href=\"StageParticipantGridCategoryRow.php.html#48\">PKP\\controllers\\grid\\users\\stageParticipant\\StageParticipantGridCategoryRow::getCategoryLabel<\/a>"],[0,1,"<a href=\"StageParticipantGridCategoryRow.php.html#62\">PKP\\controllers\\grid\\users\\stageParticipant\\StageParticipantGridCategoryRow::getSubmission<\/a>"],[0,1,"<a href=\"StageParticipantGridCategoryRow.php.html#72\">PKP\\controllers\\grid\\users\\stageParticipant\\StageParticipantGridCategoryRow::getStageId<\/a>"],[0,5,"<a href=\"StageParticipantGridCellProvider.php.html#37\">PKP\\controllers\\grid\\users\\stageParticipant\\StageParticipantGridCellProvider::getTemplateVarsFromRowColumn<\/a>"],[0,1,"<a href=\"StageParticipantGridHandler.php.html#51\">PKP\\controllers\\grid\\users\\stageParticipant\\StageParticipantGridHandler::__construct<\/a>"],[0,1,"<a href=\"StageParticipantGridHandler.php.html#78\">PKP\\controllers\\grid\\users\\stageParticipant\\StageParticipantGridHandler::getSubmission<\/a>"],[0,1,"<a href=\"StageParticipantGridHandler.php.html#88\">PKP\\controllers\\grid\\users\\stageParticipant\\StageParticipantGridHandler::getStageId<\/a>"],[0,1,"<a href=\"StageParticipantGridHandler.php.html#99\">PKP\\controllers\\grid\\users\\stageParticipant\\StageParticipantGridHandler::authorize<\/a>"],[0,1,"<a href=\"StageParticipantGridHandler.php.html#112\">PKP\\controllers\\grid\\users\\stageParticipant\\StageParticipantGridHandler::_canAdminister<\/a>"],[0,3,"<a href=\"StageParticipantGridHandler.php.html#127\">PKP\\controllers\\grid\\users\\stageParticipant\\StageParticipantGridHandler::initialize<\/a>"],[0,1,"<a href=\"StageParticipantGridHandler.php.html#197\">PKP\\controllers\\grid\\users\\stageParticipant\\StageParticipantGridHandler::loadCategoryData<\/a>"],[0,1,"<a href=\"StageParticipantGridHandler.php.html#217\">PKP\\controllers\\grid\\users\\stageParticipant\\StageParticipantGridHandler::getIsSubcomponent<\/a>"],[0,1,"<a href=\"StageParticipantGridHandler.php.html#225\">PKP\\controllers\\grid\\users\\stageParticipant\\StageParticipantGridHandler::getRowInstance<\/a>"],[0,1,"<a href=\"StageParticipantGridHandler.php.html#233\">PKP\\controllers\\grid\\users\\stageParticipant\\StageParticipantGridHandler::getCategoryRowInstance<\/a>"],[0,1,"<a href=\"StageParticipantGridHandler.php.html#242\">PKP\\controllers\\grid\\users\\stageParticipant\\StageParticipantGridHandler::getCategoryRowIdParameterName<\/a>"],[0,1,"<a href=\"StageParticipantGridHandler.php.html#250\">PKP\\controllers\\grid\\users\\stageParticipant\\StageParticipantGridHandler::getRequestArgs<\/a>"],[0,4,"<a href=\"StageParticipantGridHandler.php.html#265\">PKP\\controllers\\grid\\users\\stageParticipant\\StageParticipantGridHandler::loadData<\/a>"],[0,2,"<a href=\"StageParticipantGridHandler.php.html#305\">PKP\\controllers\\grid\\users\\stageParticipant\\StageParticipantGridHandler::addParticipant<\/a>"],[0,6,"<a href=\"StageParticipantGridHandler.php.html#329\">PKP\\controllers\\grid\\users\\stageParticipant\\StageParticipantGridHandler::saveParticipant<\/a>"],[0,6,"<a href=\"StageParticipantGridHandler.php.html#410\">PKP\\controllers\\grid\\users\\stageParticipant\\StageParticipantGridHandler::deleteParticipant<\/a>"],[0,3,"<a href=\"StageParticipantGridHandler.php.html#482\">PKP\\controllers\\grid\\users\\stageParticipant\\StageParticipantGridHandler::fetchUserList<\/a>"],[0,1,"<a href=\"StageParticipantGridHandler.php.html#518\">PKP\\controllers\\grid\\users\\stageParticipant\\StageParticipantGridHandler::viewNotify<\/a>"],[0,4,"<a href=\"StageParticipantGridHandler.php.html#536\">PKP\\controllers\\grid\\users\\stageParticipant\\StageParticipantGridHandler::sendNotification<\/a>"],[0,2,"<a href=\"StageParticipantGridHandler.php.html#581\">PKP\\controllers\\grid\\users\\stageParticipant\\StageParticipantGridHandler::fetchTemplateBody<\/a>"],[0,1,"<a href=\"StageParticipantGridHandler.php.html#608\">PKP\\controllers\\grid\\users\\stageParticipant\\StageParticipantGridHandler::getJSHandler<\/a>"],[0,1,"<a href=\"StageParticipantGridRow.php.html#45\">PKP\\controllers\\grid\\users\\stageParticipant\\StageParticipantGridRow::__construct<\/a>"],[0,8,"<a href=\"StageParticipantGridRow.php.html#63\">PKP\\controllers\\grid\\users\\stageParticipant\\StageParticipantGridRow::initialize<\/a>"],[0,1,"<a href=\"StageParticipantGridRow.php.html#160\">PKP\\controllers\\grid\\users\\stageParticipant\\StageParticipantGridRow::getSubmission<\/a>"],[0,1,"<a href=\"StageParticipantGridRow.php.html#170\">PKP\\controllers\\grid\\users\\stageParticipant\\StageParticipantGridRow::getStageId<\/a>"],[0,1,"<a href=\"StageParticipantGridRow.php.html#178\">PKP\\controllers\\grid\\users\\stageParticipant\\StageParticipantGridRow::getRequestArgs<\/a>"],[0,1,"<a href=\"form\/AddParticipantForm.php.html#53\">PKP\\controllers\\grid\\users\\stageParticipant\\form\\AddParticipantForm::__construct<\/a>"],[0,1,"<a href=\"form\/AddParticipantForm.php.html#78\">PKP\\controllers\\grid\\users\\stageParticipant\\form\\AddParticipantForm::getSubmission<\/a>"],[0,1,"<a href=\"form\/AddParticipantForm.php.html#86\">PKP\\controllers\\grid\\users\\stageParticipant\\form\\AddParticipantForm::initialize<\/a>"],[0,3,"<a href=\"form\/AddParticipantForm.php.html#99\">PKP\\controllers\\grid\\users\\stageParticipant\\form\\AddParticipantForm::_isChangePermitMetadataAllowed<\/a>"],[0,3,"<a href=\"form\/AddParticipantForm.php.html#115\">PKP\\controllers\\grid\\users\\stageParticipant\\form\\AddParticipantForm::_isChangeRecommendOnlyAllowed<\/a>"],[0,6,"<a href=\"form\/AddParticipantForm.php.html#131\">PKP\\controllers\\grid\\users\\stageParticipant\\form\\AddParticipantForm::fetch<\/a>"],[0,1,"<a href=\"form\/AddParticipantForm.php.html#223\">PKP\\controllers\\grid\\users\\stageParticipant\\form\\AddParticipantForm::readInputData<\/a>"],[0,3,"<a href=\"form\/AddParticipantForm.php.html#238\">PKP\\controllers\\grid\\users\\stageParticipant\\form\\AddParticipantForm::validate<\/a>"],[0,7,"<a href=\"form\/AddParticipantForm.php.html#251\">PKP\\controllers\\grid\\users\\stageParticipant\\form\\AddParticipantForm::execute<\/a>"],[0,1,"<a href=\"form\/AddParticipantForm.php.html#296\">PKP\\controllers\\grid\\users\\stageParticipant\\form\\AddParticipantForm::isMessageRequired<\/a>"],[0,4,"<a href=\"form\/PKPStageParticipantNotifyForm.php.html#62\">PKP\\controllers\\grid\\users\\stageParticipant\\form\\PKPStageParticipantNotifyForm::__construct<\/a>"],[0,5,"<a href=\"form\/PKPStageParticipantNotifyForm.php.html#92\">PKP\\controllers\\grid\\users\\stageParticipant\\form\\PKPStageParticipantNotifyForm::fetch<\/a>"],[0,1,"<a href=\"form\/PKPStageParticipantNotifyForm.php.html#139\">PKP\\controllers\\grid\\users\\stageParticipant\\form\\PKPStageParticipantNotifyForm::readInputData<\/a>"],[0,2,"<a href=\"form\/PKPStageParticipantNotifyForm.php.html#147\">PKP\\controllers\\grid\\users\\stageParticipant\\form\\PKPStageParticipantNotifyForm::execute<\/a>"],[0,21,"<a href=\"form\/PKPStageParticipantNotifyForm.php.html#161\">PKP\\controllers\\grid\\users\\stageParticipant\\form\\PKPStageParticipantNotifyForm::sendMessage<\/a>"],[0,10,"<a href=\"form\/PKPStageParticipantNotifyForm.php.html#296\">PKP\\controllers\\grid\\users\\stageParticipant\\form\\PKPStageParticipantNotifyForm::getEmailVariableNames<\/a>"],[0,1,"<a href=\"form\/PKPStageParticipantNotifyForm.php.html#328\">PKP\\controllers\\grid\\users\\stageParticipant\\form\\PKPStageParticipantNotifyForm::getStageId<\/a>"],[0,2,"<a href=\"form\/PKPStageParticipantNotifyForm.php.html#341\">PKP\\controllers\\grid\\users\\stageParticipant\\form\\PKPStageParticipantNotifyForm::_addAssignmentTaskNotification<\/a>"],[0,1,"<a href=\"form\/PKPStageParticipantNotifyForm.php.html#369\">PKP\\controllers\\grid\\users\\stageParticipant\\form\\PKPStageParticipantNotifyForm::_logEventAndCreateNotification<\/a>"],[0,1,"<a href=\"form\/PKPStageParticipantNotifyForm.php.html#393\">PKP\\controllers\\grid\\users\\stageParticipant\\form\\PKPStageParticipantNotifyForm::isMessageRequired<\/a>"],[0,2,"<a href=\"linkAction\/NotifyLinkAction.php.html#34\">PKP\\controllers\\grid\\users\\stageParticipant\\linkAction\\NotifyLinkAction::__construct<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

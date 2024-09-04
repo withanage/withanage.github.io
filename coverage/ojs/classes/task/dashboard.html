@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /var/www/html/ojs-main/lib/pkp/classes/task</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../_css/bootstrap.min.css?v=11.0.5" rel="stylesheet" type="text/css">
+  <link href="../../_css/nv.d3.min.css?v=11.0.5" rel="stylesheet" type="text/css">
+  <link href="../../_css/style.css?v=11.0.5" rel="stylesheet" type="text/css">
+  <link href="../../_css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="../../index.html">/var/www/html/ojs-main/lib/pkp</a></li>
+         <li class="breadcrumb-item"><a href="../index.html">classes</a></li>
+         <li class="breadcrumb-item"><a href="index.html">task</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="DepositDois.php.html#23">PKP\task\DepositDois</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EditorialReminders.php.html#27">PKP\task\EditorialReminders</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FileLoader.php.html#28">PKP\task\FileLoader</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPUsageStatsLoader.php.html#28">PKP\task\PKPUsageStatsLoader</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ProcessQueueJobs.php.html#24">PKP\task\ProcessQueueJobs</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PublishSubmissions.php.html#24">PKP\task\PublishSubmissions</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RemoveExpiredInvitations.php.html#22">PKP\task\RemoveExpiredInvitations</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RemoveFailedJobs.php.html#23">PKP\task\RemoveFailedJobs</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RemoveUnvalidatedExpiredUsers.php.html#24">PKP\task\RemoveUnvalidatedExpiredUsers</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ReviewReminder.php.html#28">PKP\task\ReviewReminder</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="StatisticsReport.php.html#32">PKP\task\StatisticsReport</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UpdateIPGeoDB.php.html#27">PKP\task\UpdateIPGeoDB</a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="FileLoader.php.html#28">PKP\task\FileLoader</a></td><td class="text-right">2352</td></tr>
+       <tr><td><a href="PKPUsageStatsLoader.php.html#28">PKP\task\PKPUsageStatsLoader</a></td><td class="text-right">1482</td></tr>
+       <tr><td><a href="ReviewReminder.php.html#28">PKP\task\ReviewReminder</a></td><td class="text-right">756</td></tr>
+       <tr><td><a href="ProcessQueueJobs.php.html#24">PKP\task\ProcessQueueJobs</a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="PublishSubmissions.php.html#24">PKP\task\PublishSubmissions</a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="StatisticsReport.php.html#32">PKP\task\StatisticsReport</a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="UpdateIPGeoDB.php.html#27">PKP\task\UpdateIPGeoDB</a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="EditorialReminders.php.html#27">PKP\task\EditorialReminders</a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="RemoveUnvalidatedExpiredUsers.php.html#24">PKP\task\RemoveUnvalidatedExpiredUsers</a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="DepositDois.php.html#23">PKP\task\DepositDois</a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="RemoveFailedJobs.php.html#23">PKP\task\RemoveFailedJobs</a></td><td class="text-right">12</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="DepositDois.php.html#28"><abbr title="PKP\task\DepositDois::getName">getName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DepositDois.php.html#36"><abbr title="PKP\task\DepositDois::executeActions">executeActions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EditorialReminders.php.html#29"><abbr title="PKP\task\EditorialReminders::getName">getName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EditorialReminders.php.html#34"><abbr title="PKP\task\EditorialReminders::executeActions">executeActions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FileLoader.php.html#82"><abbr title="PKP\task\FileLoader::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FileLoader.php.html#122"><abbr title="PKP\task\FileLoader::getStagePath">getStagePath</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FileLoader.php.html#130"><abbr title="PKP\task\FileLoader::getProcessingPath">getProcessingPath</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FileLoader.php.html#138"><abbr title="PKP\task\FileLoader::getRejectPath">getRejectPath</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FileLoader.php.html#146"><abbr title="PKP\task\FileLoader::getArchivePath">getArchivePath</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FileLoader.php.html#154"><abbr title="PKP\task\FileLoader::getDispatchPath">getDispatchPath</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FileLoader.php.html#162"><abbr title="PKP\task\FileLoader::getCompressArchives">getCompressArchives</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FileLoader.php.html#170"><abbr title="PKP\task\FileLoader::setCompressArchives">setCompressArchives</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FileLoader.php.html#178"><abbr title="PKP\task\FileLoader::getOnlyConsiderFiles">getOnlyConsiderFiles</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FileLoader.php.html#186"><abbr title="PKP\task\FileLoader::setOnlyConsiderFiles">setOnlyConsiderFiles</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FileLoader.php.html#204"><abbr title="PKP\task\FileLoader::checkFolderStructure">checkFolderStructure</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FileLoader.php.html#258"><abbr title="PKP\task\FileLoader::executeActions">executeActions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FileLoader.php.html#318"><abbr title="PKP\task\FileLoader::processFile">processFile</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FileLoader.php.html#325"><abbr title="PKP\task\FileLoader::moveFile">moveFile</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FileLoader.php.html#352"><abbr title="PKP\task\FileLoader::claimNextFile">claimNextFile</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FileLoader.php.html#391"><abbr title="PKP\task\FileLoader::rejectFile">rejectFile</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FileLoader.php.html#399"><abbr title="PKP\task\FileLoader::dispatchFile">dispatchFile</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FileLoader.php.html#407"><abbr title="PKP\task\FileLoader::archiveFile">archiveFile</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FileLoader.php.html#424"><abbr title="PKP\task\FileLoader::stageFile">stageFile</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPUsageStatsLoader.php.html#46"><abbr title="PKP\task\PKPUsageStatsLoader::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPUsageStatsLoader.php.html#76"><abbr title="PKP\task\PKPUsageStatsLoader::getName">getName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPUsageStatsLoader.php.html#87"><abbr title="PKP\task\PKPUsageStatsLoader::getFileJobs">getFileJobs</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPUsageStatsLoader.php.html#92"><abbr title="PKP\task\PKPUsageStatsLoader::executeActions">executeActions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPUsageStatsLoader.php.html#139"><abbr title="PKP\task\PKPUsageStatsLoader::isDateValid">isDateValid</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPUsageStatsLoader.php.html#168"><abbr title="PKP\task\PKPUsageStatsLoader::isMonthValid">isMonthValid</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPUsageStatsLoader.php.html#195"><abbr title="PKP\task\PKPUsageStatsLoader::considerMonthForStatsAggregation">considerMonthForStatsAggregation</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPUsageStatsLoader.php.html#207"><abbr title="PKP\task\PKPUsageStatsLoader::processFile">processFile</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPUsageStatsLoader.php.html#229"><abbr title="PKP\task\PKPUsageStatsLoader::autoStage">autoStage</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPUsageStatsLoader.php.html#261"><abbr title="PKP\task\PKPUsageStatsLoader::getStagedFilesByMonth">getStagedFilesByMonth</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPUsageStatsLoader.php.html#277"><abbr title="PKP\task\PKPUsageStatsLoader::getUsageEventLogsPath">getUsageEventLogsPath</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPUsageStatsLoader.php.html#285"><abbr title="PKP\task\PKPUsageStatsLoader::getUsageEventCurrentDayLogName">getUsageEventCurrentDayLogName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ProcessQueueJobs.php.html#29"><abbr title="PKP\task\ProcessQueueJobs::getName">getName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ProcessQueueJobs.php.html#38"><abbr title="PKP\task\ProcessQueueJobs::executeActions">executeActions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PublishSubmissions.php.html#29"><abbr title="PKP\task\PublishSubmissions::getName">getName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PublishSubmissions.php.html#37"><abbr title="PKP\task\PublishSubmissions::executeActions">executeActions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RemoveExpiredInvitations.php.html#27"><abbr title="PKP\task\RemoveExpiredInvitations::getName">getName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RemoveExpiredInvitations.php.html#35"><abbr title="PKP\task\RemoveExpiredInvitations::executeActions">executeActions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RemoveFailedJobs.php.html#28"><abbr title="PKP\task\RemoveFailedJobs::getName">getName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RemoveFailedJobs.php.html#37"><abbr title="PKP\task\RemoveFailedJobs::executeActions">executeActions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RemoveUnvalidatedExpiredUsers.php.html#29"><abbr title="PKP\task\RemoveUnvalidatedExpiredUsers::getName">getName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RemoveUnvalidatedExpiredUsers.php.html#38"><abbr title="PKP\task\RemoveUnvalidatedExpiredUsers::executeActions">executeActions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ReviewReminder.php.html#33"><abbr title="PKP\task\ReviewReminder::getName">getName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ReviewReminder.php.html#41"><abbr title="PKP\task\ReviewReminder::executeActions">executeActions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="StatisticsReport.php.html#40"><abbr title="PKP\task\StatisticsReport::getName">getName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="StatisticsReport.php.html#48"><abbr title="PKP\task\StatisticsReport::executeActions">executeActions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UpdateIPGeoDB.php.html#32"><abbr title="PKP\task\UpdateIPGeoDB::getName">getName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UpdateIPGeoDB.php.html#40"><abbr title="PKP\task\UpdateIPGeoDB::executeActions">executeActions</abbr></a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="ReviewReminder.php.html#41"><abbr title="PKP\task\ReviewReminder::executeActions">executeActions</abbr></a></td><td class="text-right">702</td></tr>
+       <tr><td><a href="FileLoader.php.html#204"><abbr title="PKP\task\FileLoader::checkFolderStructure">checkFolderStructure</abbr></a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="FileLoader.php.html#352"><abbr title="PKP\task\FileLoader::claimNextFile">claimNextFile</abbr></a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="PKPUsageStatsLoader.php.html#92"><abbr title="PKP\task\PKPUsageStatsLoader::executeActions">executeActions</abbr></a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="FileLoader.php.html#258"><abbr title="PKP\task\FileLoader::executeActions">executeActions</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="ProcessQueueJobs.php.html#38"><abbr title="PKP\task\ProcessQueueJobs::executeActions">executeActions</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="PKPUsageStatsLoader.php.html#168"><abbr title="PKP\task\PKPUsageStatsLoader::isMonthValid">isMonthValid</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="PKPUsageStatsLoader.php.html#229"><abbr title="PKP\task\PKPUsageStatsLoader::autoStage">autoStage</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="PublishSubmissions.php.html#37"><abbr title="PKP\task\PublishSubmissions::executeActions">executeActions</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="StatisticsReport.php.html#48"><abbr title="PKP\task\StatisticsReport::executeActions">executeActions</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="PKPUsageStatsLoader.php.html#207"><abbr title="PKP\task\PKPUsageStatsLoader::processFile">processFile</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="UpdateIPGeoDB.php.html#40"><abbr title="PKP\task\UpdateIPGeoDB::executeActions">executeActions</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="EditorialReminders.php.html#34"><abbr title="PKP\task\EditorialReminders::executeActions">executeActions</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="FileLoader.php.html#82"><abbr title="PKP\task\FileLoader::__construct">__construct</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="FileLoader.php.html#407"><abbr title="PKP\task\FileLoader::archiveFile">archiveFile</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="PKPUsageStatsLoader.php.html#46"><abbr title="PKP\task\PKPUsageStatsLoader::__construct">__construct</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="PKPUsageStatsLoader.php.html#261"><abbr title="PKP\task\PKPUsageStatsLoader::getStagedFilesByMonth">getStagedFilesByMonth</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="RemoveUnvalidatedExpiredUsers.php.html#38"><abbr title="PKP\task\RemoveUnvalidatedExpiredUsers::executeActions">executeActions</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="DepositDois.php.html#36"><abbr title="PKP\task\DepositDois::executeActions">executeActions</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="FileLoader.php.html#325"><abbr title="PKP\task\FileLoader::moveFile">moveFile</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="PKPUsageStatsLoader.php.html#139"><abbr title="PKP\task\PKPUsageStatsLoader::isDateValid">isDateValid</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="PKPUsageStatsLoader.php.html#195"><abbr title="PKP\task\PKPUsageStatsLoader::considerMonthForStatsAggregation">considerMonthForStatsAggregation</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="RemoveFailedJobs.php.html#37"><abbr title="PKP\task\RemoveFailedJobs::executeActions">executeActions</abbr></a></td><td class="text-right">6</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 11.0.5</a> using <a href="https://www.php.net/" target="_top">PHP 8.3.11</a> and <a href="https://phpunit.de/">PHPUnit 11.2.8</a> at Wed Sep 4 13:31:09 UTC 2024.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../../_js/jquery.min.js?v=11.0.5" type="text/javascript"></script>
+  <script src="../../_js/d3.min.js?v=11.0.5" type="text/javascript"></script>
+  <script src="../../_js/nv.d3.min.js?v=11.0.5" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([12,0,0,0,0,0,0,0,0,0,0,0], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([51,0,0,0,0,0,0,0,0,0,0,0], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[0,3,"<a href=\"DepositDois.php.html#23\">PKP\\task\\DepositDois<\/a>"],[0,4,"<a href=\"EditorialReminders.php.html#27\">PKP\\task\\EditorialReminders<\/a>"],[0,48,"<a href=\"FileLoader.php.html#28\">PKP\\task\\FileLoader<\/a>"],[0,38,"<a href=\"PKPUsageStatsLoader.php.html#28\">PKP\\task\\PKPUsageStatsLoader<\/a>"],[0,8,"<a href=\"ProcessQueueJobs.php.html#24\">PKP\\task\\ProcessQueueJobs<\/a>"],[0,6,"<a href=\"PublishSubmissions.php.html#24\">PKP\\task\\PublishSubmissions<\/a>"],[0,2,"<a href=\"RemoveExpiredInvitations.php.html#22\">PKP\\task\\RemoveExpiredInvitations<\/a>"],[0,3,"<a href=\"RemoveFailedJobs.php.html#23\">PKP\\task\\RemoveFailedJobs<\/a>"],[0,4,"<a href=\"RemoveUnvalidatedExpiredUsers.php.html#24\">PKP\\task\\RemoveUnvalidatedExpiredUsers<\/a>"],[0,27,"<a href=\"ReviewReminder.php.html#28\">PKP\\task\\ReviewReminder<\/a>"],[0,6,"<a href=\"StatisticsReport.php.html#32\">PKP\\task\\StatisticsReport<\/a>"],[0,5,"<a href=\"UpdateIPGeoDB.php.html#27\">PKP\\task\\UpdateIPGeoDB<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[0,1,"<a href=\"DepositDois.php.html#28\">PKP\\task\\DepositDois::getName<\/a>"],[0,2,"<a href=\"DepositDois.php.html#36\">PKP\\task\\DepositDois::executeActions<\/a>"],[0,1,"<a href=\"EditorialReminders.php.html#29\">PKP\\task\\EditorialReminders::getName<\/a>"],[0,3,"<a href=\"EditorialReminders.php.html#34\">PKP\\task\\EditorialReminders::executeActions<\/a>"],[0,3,"<a href=\"FileLoader.php.html#82\">PKP\\task\\FileLoader::__construct<\/a>"],[0,1,"<a href=\"FileLoader.php.html#122\">PKP\\task\\FileLoader::getStagePath<\/a>"],[0,1,"<a href=\"FileLoader.php.html#130\">PKP\\task\\FileLoader::getProcessingPath<\/a>"],[0,1,"<a href=\"FileLoader.php.html#138\">PKP\\task\\FileLoader::getRejectPath<\/a>"],[0,1,"<a href=\"FileLoader.php.html#146\">PKP\\task\\FileLoader::getArchivePath<\/a>"],[0,1,"<a href=\"FileLoader.php.html#154\">PKP\\task\\FileLoader::getDispatchPath<\/a>"],[0,1,"<a href=\"FileLoader.php.html#162\">PKP\\task\\FileLoader::getCompressArchives<\/a>"],[0,1,"<a href=\"FileLoader.php.html#170\">PKP\\task\\FileLoader::setCompressArchives<\/a>"],[0,1,"<a href=\"FileLoader.php.html#178\">PKP\\task\\FileLoader::getOnlyConsiderFiles<\/a>"],[0,1,"<a href=\"FileLoader.php.html#186\">PKP\\task\\FileLoader::setOnlyConsiderFiles<\/a>"],[0,10,"<a href=\"FileLoader.php.html#204\">PKP\\task\\FileLoader::checkFolderStructure<\/a>"],[0,8,"<a href=\"FileLoader.php.html#258\">PKP\\task\\FileLoader::executeActions<\/a>"],[0,0,"<a href=\"FileLoader.php.html#318\">PKP\\task\\FileLoader::processFile<\/a>"],[0,2,"<a href=\"FileLoader.php.html#325\">PKP\\task\\FileLoader::moveFile<\/a>"],[0,10,"<a href=\"FileLoader.php.html#352\">PKP\\task\\FileLoader::claimNextFile<\/a>"],[0,1,"<a href=\"FileLoader.php.html#391\">PKP\\task\\FileLoader::rejectFile<\/a>"],[0,1,"<a href=\"FileLoader.php.html#399\">PKP\\task\\FileLoader::dispatchFile<\/a>"],[0,3,"<a href=\"FileLoader.php.html#407\">PKP\\task\\FileLoader::archiveFile<\/a>"],[0,1,"<a href=\"FileLoader.php.html#424\">PKP\\task\\FileLoader::stageFile<\/a>"],[0,3,"<a href=\"PKPUsageStatsLoader.php.html#46\">PKP\\task\\PKPUsageStatsLoader::__construct<\/a>"],[0,1,"<a href=\"PKPUsageStatsLoader.php.html#76\">PKP\\task\\PKPUsageStatsLoader::getName<\/a>"],[0,0,"<a href=\"PKPUsageStatsLoader.php.html#87\">PKP\\task\\PKPUsageStatsLoader::getFileJobs<\/a>"],[0,9,"<a href=\"PKPUsageStatsLoader.php.html#92\">PKP\\task\\PKPUsageStatsLoader::executeActions<\/a>"],[0,2,"<a href=\"PKPUsageStatsLoader.php.html#139\">PKP\\task\\PKPUsageStatsLoader::isDateValid<\/a>"],[0,6,"<a href=\"PKPUsageStatsLoader.php.html#168\">PKP\\task\\PKPUsageStatsLoader::isMonthValid<\/a>"],[0,2,"<a href=\"PKPUsageStatsLoader.php.html#195\">PKP\\task\\PKPUsageStatsLoader::considerMonthForStatsAggregation<\/a>"],[0,4,"<a href=\"PKPUsageStatsLoader.php.html#207\">PKP\\task\\PKPUsageStatsLoader::processFile<\/a>"],[0,6,"<a href=\"PKPUsageStatsLoader.php.html#229\">PKP\\task\\PKPUsageStatsLoader::autoStage<\/a>"],[0,3,"<a href=\"PKPUsageStatsLoader.php.html#261\">PKP\\task\\PKPUsageStatsLoader::getStagedFilesByMonth<\/a>"],[0,1,"<a href=\"PKPUsageStatsLoader.php.html#277\">PKP\\task\\PKPUsageStatsLoader::getUsageEventLogsPath<\/a>"],[0,1,"<a href=\"PKPUsageStatsLoader.php.html#285\">PKP\\task\\PKPUsageStatsLoader::getUsageEventCurrentDayLogName<\/a>"],[0,1,"<a href=\"ProcessQueueJobs.php.html#29\">PKP\\task\\ProcessQueueJobs::getName<\/a>"],[0,7,"<a href=\"ProcessQueueJobs.php.html#38\">PKP\\task\\ProcessQueueJobs::executeActions<\/a>"],[0,1,"<a href=\"PublishSubmissions.php.html#29\">PKP\\task\\PublishSubmissions::getName<\/a>"],[0,5,"<a href=\"PublishSubmissions.php.html#37\">PKP\\task\\PublishSubmissions::executeActions<\/a>"],[0,1,"<a href=\"RemoveExpiredInvitations.php.html#27\">PKP\\task\\RemoveExpiredInvitations::getName<\/a>"],[0,1,"<a href=\"RemoveExpiredInvitations.php.html#35\">PKP\\task\\RemoveExpiredInvitations::executeActions<\/a>"],[0,1,"<a href=\"RemoveFailedJobs.php.html#28\">PKP\\task\\RemoveFailedJobs::getName<\/a>"],[0,2,"<a href=\"RemoveFailedJobs.php.html#37\">PKP\\task\\RemoveFailedJobs::executeActions<\/a>"],[0,1,"<a href=\"RemoveUnvalidatedExpiredUsers.php.html#29\">PKP\\task\\RemoveUnvalidatedExpiredUsers::getName<\/a>"],[0,3,"<a href=\"RemoveUnvalidatedExpiredUsers.php.html#38\">PKP\\task\\RemoveUnvalidatedExpiredUsers::executeActions<\/a>"],[0,1,"<a href=\"ReviewReminder.php.html#33\">PKP\\task\\ReviewReminder::getName<\/a>"],[0,26,"<a href=\"ReviewReminder.php.html#41\">PKP\\task\\ReviewReminder::executeActions<\/a>"],[0,1,"<a href=\"StatisticsReport.php.html#40\">PKP\\task\\StatisticsReport::getName<\/a>"],[0,5,"<a href=\"StatisticsReport.php.html#48\">PKP\\task\\StatisticsReport::executeActions<\/a>"],[0,1,"<a href=\"UpdateIPGeoDB.php.html#32\">PKP\\task\\UpdateIPGeoDB::getName<\/a>"],[0,4,"<a href=\"UpdateIPGeoDB.php.html#40\">PKP\\task\\UpdateIPGeoDB::executeActions<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

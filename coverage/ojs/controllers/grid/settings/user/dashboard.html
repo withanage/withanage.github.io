@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /var/www/html/ojs-main/lib/pkp/controllers/grid/settings/user</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../../../_css/bootstrap.min.css?v=11.0.5" rel="stylesheet" type="text/css">
+  <link href="../../../../_css/nv.d3.min.css?v=11.0.5" rel="stylesheet" type="text/css">
+  <link href="../../../../_css/style.css?v=11.0.5" rel="stylesheet" type="text/css">
+  <link href="../../../../_css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="../../../../index.html">/var/www/html/ojs-main/lib/pkp</a></li>
+         <li class="breadcrumb-item"><a href="../../../index.html">controllers</a></li>
+         <li class="breadcrumb-item"><a href="../../index.html">grid</a></li>
+         <li class="breadcrumb-item"><a href="../index.html">settings</a></li>
+         <li class="breadcrumb-item"><a href="index.html">user</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="UserGridHandler.php.html#46">PKP\controllers\grid\settings\user\UserGridHandler</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserGridRow.php.html#29">PKP\controllers\grid\settings\user\UserGridRow</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="form/UserDetailsForm.php.html#38">PKP\controllers\grid\settings\user\form\UserDetailsForm</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="form/UserDisableForm.php.html#25">PKP\controllers\grid\settings\user\form\UserDisableForm</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="form/UserEmailForm.php.html#29">PKP\controllers\grid\settings\user\form\UserEmailForm</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="form/UserForm.php.html#24">PKP\controllers\grid\settings\user\form\UserForm</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="form/UserRoleForm.php.html#23">PKP\controllers\grid\settings\user\form\UserRoleForm</a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="UserGridHandler.php.html#46">PKP\controllers\grid\settings\user\UserGridHandler</a></td><td class="text-right">3906</td></tr>
+       <tr><td><a href="form/UserDetailsForm.php.html#38">PKP\controllers\grid\settings\user\form\UserDetailsForm</a></td><td class="text-right">1722</td></tr>
+       <tr><td><a href="form/UserForm.php.html#24">PKP\controllers\grid\settings\user\form\UserForm</a></td><td class="text-right">272</td></tr>
+       <tr><td><a href="UserGridRow.php.html#29">PKP\controllers\grid\settings\user\UserGridRow</a></td><td class="text-right">210</td></tr>
+       <tr><td><a href="form/UserDisableForm.php.html#25">PKP\controllers\grid\settings\user\form\UserDisableForm</a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="form/UserEmailForm.php.html#29">PKP\controllers\grid\settings\user\form\UserEmailForm</a></td><td class="text-right">30</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="UserGridHandler.php.html#54"><abbr title="PKP\controllers\grid\settings\user\UserGridHandler::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserGridHandler.php.html#73"><abbr title="PKP\controllers\grid\settings\user\UserGridHandler::authorize">authorize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserGridHandler.php.html#84"><abbr title="PKP\controllers\grid\settings\user\UserGridHandler::initialize">initialize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserGridHandler.php.html#190"><abbr title="PKP\controllers\grid\settings\user\UserGridHandler::getRowInstance">getRowInstance</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserGridHandler.php.html#198"><abbr title="PKP\controllers\grid\settings\user\UserGridHandler::initFeatures">initFeatures</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserGridHandler.php.html#210"><abbr title="PKP\controllers\grid\settings\user\UserGridHandler::loadData">loadData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserGridHandler.php.html#238"><abbr title="PKP\controllers\grid\settings\user\UserGridHandler::renderFilter">renderFilter</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserGridHandler.php.html#279"><abbr title="PKP\controllers\grid\settings\user\UserGridHandler::getFilterSelectionData">getFilterSelectionData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserGridHandler.php.html#302"><abbr title="PKP\controllers\grid\settings\user\UserGridHandler::getFilterForm">getFilterForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserGridHandler.php.html#312"><abbr title="PKP\controllers\grid\settings\user\UserGridHandler::getJSHandler">getJSHandler</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserGridHandler.php.html#327"><abbr title="PKP\controllers\grid\settings\user\UserGridHandler::addUser">addUser</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserGridHandler.php.html#341"><abbr title="PKP\controllers\grid\settings\user\UserGridHandler::editUser">editUser</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserGridHandler.php.html#378"><abbr title="PKP\controllers\grid\settings\user\UserGridHandler::updateUser">updateUser</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserGridHandler.php.html#430"><abbr title="PKP\controllers\grid\settings\user\UserGridHandler::updateUserRoles">updateUserRoles</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserGridHandler.php.html#464"><abbr title="PKP\controllers\grid\settings\user\UserGridHandler::editDisableUser">editDisableUser</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserGridHandler.php.html#498"><abbr title="PKP\controllers\grid\settings\user\UserGridHandler::disableUser">disableUser</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserGridHandler.php.html#537"><abbr title="PKP\controllers\grid\settings\user\UserGridHandler::removeUser">removeUser</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserGridHandler.php.html#577"><abbr title="PKP\controllers\grid\settings\user\UserGridHandler::editEmail">editEmail</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserGridHandler.php.html#611"><abbr title="PKP\controllers\grid\settings\user\UserGridHandler::sendEmail">sendEmail</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserGridHandler.php.html#649"><abbr title="PKP\controllers\grid\settings\user\UserGridHandler::mergeUsers">mergeUsers</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserGridHandler.php.html#680"><abbr title="PKP\controllers\grid\settings\user\UserGridHandler::getRequestArgs">getRequestArgs</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserGridRow.php.html#39"><abbr title="PKP\controllers\grid\settings\user\UserGridRow::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserGridRow.php.html#54"><abbr title="PKP\controllers\grid\settings\user\UserGridRow::initialize">initialize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserGridRow.php.html#224"><abbr title="PKP\controllers\grid\settings\user\UserGridRow::getOldUserId">getOldUserId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="form/UserDetailsForm.php.html#56"><abbr title="PKP\controllers\grid\settings\user\form\UserDetailsForm::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="form/UserDetailsForm.php.html#80"><abbr title="PKP\controllers\grid\settings\user\form\UserDetailsForm::attachValidationChecks">attachValidationChecks</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="form/UserDetailsForm.php.html#135"><abbr title="PKP\controllers\grid\settings\user\form\UserDetailsForm::applyUserGroupUpdateOnly">applyUserGroupUpdateOnly</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="form/UserDetailsForm.php.html#145"><abbr title="PKP\controllers\grid\settings\user\form\UserDetailsForm::initData">initData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="form/UserDetailsForm.php.html#210"><abbr title="PKP\controllers\grid\settings\user\form\UserDetailsForm::display">display</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="form/UserDetailsForm.php.html#243"><abbr title="PKP\controllers\grid\settings\user\form\UserDetailsForm::readInputData">readInputData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="form/UserDetailsForm.php.html#285"><abbr title="PKP\controllers\grid\settings\user\form\UserDetailsForm::getLocaleFieldNames">getLocaleFieldNames</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="form/UserDetailsForm.php.html#293"><abbr title="PKP\controllers\grid\settings\user\form\UserDetailsForm::execute">execute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="form/UserDisableForm.php.html#36"><abbr title="PKP\controllers\grid\settings\user\form\UserDisableForm::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="form/UserDisableForm.php.html#50"><abbr title="PKP\controllers\grid\settings\user\form\UserDisableForm::initData">initData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="form/UserDisableForm.php.html#68"><abbr title="PKP\controllers\grid\settings\user\form\UserDisableForm::readInputData">readInputData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="form/UserDisableForm.php.html#83"><abbr title="PKP\controllers\grid\settings\user\form\UserDisableForm::display">display</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="form/UserDisableForm.php.html#96"><abbr title="PKP\controllers\grid\settings\user\form\UserDisableForm::execute">execute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="form/UserEmailForm.php.html#39"><abbr title="PKP\controllers\grid\settings\user\form\UserEmailForm::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="form/UserEmailForm.php.html#56"><abbr title="PKP\controllers\grid\settings\user\form\UserEmailForm::readInputData">readInputData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="form/UserEmailForm.php.html#69"><abbr title="PKP\controllers\grid\settings\user\form\UserEmailForm::fetch">fetch</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="form/UserEmailForm.php.html#88"><abbr title="PKP\controllers\grid\settings\user\form\UserEmailForm::execute">execute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="form/UserForm.php.html#34"><abbr title="PKP\controllers\grid\settings\user\form\UserForm::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="form/UserForm.php.html#48"><abbr title="PKP\controllers\grid\settings\user\form\UserForm::initData">initData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="form/UserForm.php.html#70"><abbr title="PKP\controllers\grid\settings\user\form\UserForm::readInputData">readInputData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="form/UserForm.php.html#82"><abbr title="PKP\controllers\grid\settings\user\form\UserForm::display">display</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="form/UserForm.php.html#108"><abbr title="PKP\controllers\grid\settings\user\form\UserForm::execute">execute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="form/UserForm.php.html#116"><abbr title="PKP\controllers\grid\settings\user\form\UserForm::saveUserGroupAssignments">saveUserGroupAssignments</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="form/UserRoleForm.php.html#34"><abbr title="PKP\controllers\grid\settings\user\form\UserRoleForm::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="form/UserRoleForm.php.html#49"><abbr title="PKP\controllers\grid\settings\user\form\UserRoleForm::display">display</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="form/UserRoleForm.php.html#62"><abbr title="PKP\controllers\grid\settings\user\form\UserRoleForm::execute">execute</abbr></a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="form/UserDetailsForm.php.html#293"><abbr title="PKP\controllers\grid\settings\user\form\UserDetailsForm::execute">execute</abbr></a></td><td class="text-right">210</td></tr>
+       <tr><td><a href="UserGridRow.php.html#54"><abbr title="PKP\controllers\grid\settings\user\UserGridRow::initialize">initialize</abbr></a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="form/UserDetailsForm.php.html#80"><abbr title="PKP\controllers\grid\settings\user\form\UserDetailsForm::attachValidationChecks">attachValidationChecks</abbr></a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="UserGridHandler.php.html#378"><abbr title="PKP\controllers\grid\settings\user\UserGridHandler::updateUser">updateUser</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="form/UserForm.php.html#116"><abbr title="PKP\controllers\grid\settings\user\form\UserForm::saveUserGroupAssignments">saveUserGroupAssignments</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="UserGridHandler.php.html#341"><abbr title="PKP\controllers\grid\settings\user\UserGridHandler::editUser">editUser</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="UserGridHandler.php.html#464"><abbr title="PKP\controllers\grid\settings\user\UserGridHandler::editDisableUser">editDisableUser</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="UserGridHandler.php.html#537"><abbr title="PKP\controllers\grid\settings\user\UserGridHandler::removeUser">removeUser</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="UserGridHandler.php.html#611"><abbr title="PKP\controllers\grid\settings\user\UserGridHandler::sendEmail">sendEmail</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="UserGridHandler.php.html#649"><abbr title="PKP\controllers\grid\settings\user\UserGridHandler::mergeUsers">mergeUsers</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="form/UserDetailsForm.php.html#145"><abbr title="PKP\controllers\grid\settings\user\form\UserDetailsForm::initData">initData</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="form/UserDetailsForm.php.html#243"><abbr title="PKP\controllers\grid\settings\user\form\UserDetailsForm::readInputData">readInputData</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="UserGridHandler.php.html#210"><abbr title="PKP\controllers\grid\settings\user\UserGridHandler::loadData">loadData</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="UserGridHandler.php.html#279"><abbr title="PKP\controllers\grid\settings\user\UserGridHandler::getFilterSelectionData">getFilterSelectionData</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="UserGridHandler.php.html#430"><abbr title="PKP\controllers\grid\settings\user\UserGridHandler::updateUserRoles">updateUserRoles</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="UserGridHandler.php.html#498"><abbr title="PKP\controllers\grid\settings\user\UserGridHandler::disableUser">disableUser</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="UserGridHandler.php.html#577"><abbr title="PKP\controllers\grid\settings\user\UserGridHandler::editEmail">editEmail</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="form/UserDisableForm.php.html#96"><abbr title="PKP\controllers\grid\settings\user\form\UserDisableForm::execute">execute</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="form/UserDetailsForm.php.html#56"><abbr title="PKP\controllers\grid\settings\user\form\UserDetailsForm::__construct">__construct</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="form/UserDetailsForm.php.html#210"><abbr title="PKP\controllers\grid\settings\user\form\UserDetailsForm::display">display</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="form/UserDisableForm.php.html#50"><abbr title="PKP\controllers\grid\settings\user\form\UserDisableForm::initData">initData</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="form/UserForm.php.html#34"><abbr title="PKP\controllers\grid\settings\user\form\UserForm::__construct">__construct</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="form/UserForm.php.html#48"><abbr title="PKP\controllers\grid\settings\user\form\UserForm::initData">initData</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="UserGridHandler.php.html#238"><abbr title="PKP\controllers\grid\settings\user\UserGridHandler::renderFilter">renderFilter</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="form/UserEmailForm.php.html#88"><abbr title="PKP\controllers\grid\settings\user\form\UserEmailForm::execute">execute</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="form/UserForm.php.html#82"><abbr title="PKP\controllers\grid\settings\user\form\UserForm::display">display</abbr></a></td><td class="text-right">6</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 11.0.5</a> using <a href="https://www.php.net/" target="_top">PHP 8.3.11</a> and <a href="https://phpunit.de/">PHPUnit 11.2.8</a> at Wed Sep 4 13:31:09 UTC 2024.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../../../../_js/jquery.min.js?v=11.0.5" type="text/javascript"></script>
+  <script src="../../../../_js/d3.min.js?v=11.0.5" type="text/javascript"></script>
+  <script src="../../../../_js/nv.d3.min.js?v=11.0.5" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([7,0,0,0,0,0,0,0,0,0,0,0], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([50,0,0,0,0,0,0,0,0,0,0,0], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[0,62,"<a href=\"UserGridHandler.php.html#46\">PKP\\controllers\\grid\\settings\\user\\UserGridHandler<\/a>"],[0,14,"<a href=\"UserGridRow.php.html#29\">PKP\\controllers\\grid\\settings\\user\\UserGridRow<\/a>"],[0,41,"<a href=\"form\/UserDetailsForm.php.html#38\">PKP\\controllers\\grid\\settings\\user\\form\\UserDetailsForm<\/a>"],[0,10,"<a href=\"form\/UserDisableForm.php.html#25\">PKP\\controllers\\grid\\settings\\user\\form\\UserDisableForm<\/a>"],[0,5,"<a href=\"form\/UserEmailForm.php.html#29\">PKP\\controllers\\grid\\settings\\user\\form\\UserEmailForm<\/a>"],[0,16,"<a href=\"form\/UserForm.php.html#24\">PKP\\controllers\\grid\\settings\\user\\form\\UserForm<\/a>"],[0,3,"<a href=\"form\/UserRoleForm.php.html#23\">PKP\\controllers\\grid\\settings\\user\\form\\UserRoleForm<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[0,1,"<a href=\"UserGridHandler.php.html#54\">PKP\\controllers\\grid\\settings\\user\\UserGridHandler::__construct<\/a>"],[0,1,"<a href=\"UserGridHandler.php.html#73\">PKP\\controllers\\grid\\settings\\user\\UserGridHandler::authorize<\/a>"],[0,1,"<a href=\"UserGridHandler.php.html#84\">PKP\\controllers\\grid\\settings\\user\\UserGridHandler::initialize<\/a>"],[0,1,"<a href=\"UserGridHandler.php.html#190\">PKP\\controllers\\grid\\settings\\user\\UserGridHandler::getRowInstance<\/a>"],[0,1,"<a href=\"UserGridHandler.php.html#198\">PKP\\controllers\\grid\\settings\\user\\UserGridHandler::initFeatures<\/a>"],[0,4,"<a href=\"UserGridHandler.php.html#210\">PKP\\controllers\\grid\\settings\\user\\UserGridHandler::loadData<\/a>"],[0,2,"<a href=\"UserGridHandler.php.html#238\">PKP\\controllers\\grid\\settings\\user\\UserGridHandler::renderFilter<\/a>"],[0,4,"<a href=\"UserGridHandler.php.html#279\">PKP\\controllers\\grid\\settings\\user\\UserGridHandler::getFilterSelectionData<\/a>"],[0,1,"<a href=\"UserGridHandler.php.html#302\">PKP\\controllers\\grid\\settings\\user\\UserGridHandler::getFilterForm<\/a>"],[0,1,"<a href=\"UserGridHandler.php.html#312\">PKP\\controllers\\grid\\settings\\user\\UserGridHandler::getJSHandler<\/a>"],[0,1,"<a href=\"UserGridHandler.php.html#327\">PKP\\controllers\\grid\\settings\\user\\UserGridHandler::addUser<\/a>"],[0,5,"<a href=\"UserGridHandler.php.html#341\">PKP\\controllers\\grid\\settings\\user\\UserGridHandler::editUser<\/a>"],[0,6,"<a href=\"UserGridHandler.php.html#378\">PKP\\controllers\\grid\\settings\\user\\UserGridHandler::updateUser<\/a>"],[0,4,"<a href=\"UserGridHandler.php.html#430\">PKP\\controllers\\grid\\settings\\user\\UserGridHandler::updateUserRoles<\/a>"],[0,5,"<a href=\"UserGridHandler.php.html#464\">PKP\\controllers\\grid\\settings\\user\\UserGridHandler::editDisableUser<\/a>"],[0,4,"<a href=\"UserGridHandler.php.html#498\">PKP\\controllers\\grid\\settings\\user\\UserGridHandler::disableUser<\/a>"],[0,5,"<a href=\"UserGridHandler.php.html#537\">PKP\\controllers\\grid\\settings\\user\\UserGridHandler::removeUser<\/a>"],[0,4,"<a href=\"UserGridHandler.php.html#577\">PKP\\controllers\\grid\\settings\\user\\UserGridHandler::editEmail<\/a>"],[0,5,"<a href=\"UserGridHandler.php.html#611\">PKP\\controllers\\grid\\settings\\user\\UserGridHandler::sendEmail<\/a>"],[0,5,"<a href=\"UserGridHandler.php.html#649\">PKP\\controllers\\grid\\settings\\user\\UserGridHandler::mergeUsers<\/a>"],[0,1,"<a href=\"UserGridHandler.php.html#680\">PKP\\controllers\\grid\\settings\\user\\UserGridHandler::getRequestArgs<\/a>"],[0,1,"<a href=\"UserGridRow.php.html#39\">PKP\\controllers\\grid\\settings\\user\\UserGridRow::__construct<\/a>"],[0,12,"<a href=\"UserGridRow.php.html#54\">PKP\\controllers\\grid\\settings\\user\\UserGridRow::initialize<\/a>"],[0,1,"<a href=\"UserGridRow.php.html#224\">PKP\\controllers\\grid\\settings\\user\\UserGridRow::getOldUserId<\/a>"],[0,3,"<a href=\"form\/UserDetailsForm.php.html#56\">PKP\\controllers\\grid\\settings\\user\\form\\UserDetailsForm::__construct<\/a>"],[0,9,"<a href=\"form\/UserDetailsForm.php.html#80\">PKP\\controllers\\grid\\settings\\user\\form\\UserDetailsForm::attachValidationChecks<\/a>"],[0,1,"<a href=\"form\/UserDetailsForm.php.html#135\">PKP\\controllers\\grid\\settings\\user\\form\\UserDetailsForm::applyUserGroupUpdateOnly<\/a>"],[0,5,"<a href=\"form\/UserDetailsForm.php.html#145\">PKP\\controllers\\grid\\settings\\user\\form\\UserDetailsForm::initData<\/a>"],[0,3,"<a href=\"form\/UserDetailsForm.php.html#210\">PKP\\controllers\\grid\\settings\\user\\form\\UserDetailsForm::display<\/a>"],[0,5,"<a href=\"form\/UserDetailsForm.php.html#243\">PKP\\controllers\\grid\\settings\\user\\form\\UserDetailsForm::readInputData<\/a>"],[0,1,"<a href=\"form\/UserDetailsForm.php.html#285\">PKP\\controllers\\grid\\settings\\user\\form\\UserDetailsForm::getLocaleFieldNames<\/a>"],[0,14,"<a href=\"form\/UserDetailsForm.php.html#293\">PKP\\controllers\\grid\\settings\\user\\form\\UserDetailsForm::execute<\/a>"],[0,1,"<a href=\"form\/UserDisableForm.php.html#36\">PKP\\controllers\\grid\\settings\\user\\form\\UserDisableForm::__construct<\/a>"],[0,3,"<a href=\"form\/UserDisableForm.php.html#50\">PKP\\controllers\\grid\\settings\\user\\form\\UserDisableForm::initData<\/a>"],[0,1,"<a href=\"form\/UserDisableForm.php.html#68\">PKP\\controllers\\grid\\settings\\user\\form\\UserDisableForm::readInputData<\/a>"],[0,1,"<a href=\"form\/UserDisableForm.php.html#83\">PKP\\controllers\\grid\\settings\\user\\form\\UserDisableForm::display<\/a>"],[0,4,"<a href=\"form\/UserDisableForm.php.html#96\">PKP\\controllers\\grid\\settings\\user\\form\\UserDisableForm::execute<\/a>"],[0,1,"<a href=\"form\/UserEmailForm.php.html#39\">PKP\\controllers\\grid\\settings\\user\\form\\UserEmailForm::__construct<\/a>"],[0,1,"<a href=\"form\/UserEmailForm.php.html#56\">PKP\\controllers\\grid\\settings\\user\\form\\UserEmailForm::readInputData<\/a>"],[0,1,"<a href=\"form\/UserEmailForm.php.html#69\">PKP\\controllers\\grid\\settings\\user\\form\\UserEmailForm::fetch<\/a>"],[0,2,"<a href=\"form\/UserEmailForm.php.html#88\">PKP\\controllers\\grid\\settings\\user\\form\\UserEmailForm::execute<\/a>"],[0,3,"<a href=\"form\/UserForm.php.html#34\">PKP\\controllers\\grid\\settings\\user\\form\\UserForm::__construct<\/a>"],[0,3,"<a href=\"form\/UserForm.php.html#48\">PKP\\controllers\\grid\\settings\\user\\form\\UserForm::initData<\/a>"],[0,1,"<a href=\"form\/UserForm.php.html#70\">PKP\\controllers\\grid\\settings\\user\\form\\UserForm::readInputData<\/a>"],[0,2,"<a href=\"form\/UserForm.php.html#82\">PKP\\controllers\\grid\\settings\\user\\form\\UserForm::display<\/a>"],[0,1,"<a href=\"form\/UserForm.php.html#108\">PKP\\controllers\\grid\\settings\\user\\form\\UserForm::execute<\/a>"],[0,6,"<a href=\"form\/UserForm.php.html#116\">PKP\\controllers\\grid\\settings\\user\\form\\UserForm::saveUserGroupAssignments<\/a>"],[0,1,"<a href=\"form\/UserRoleForm.php.html#34\">PKP\\controllers\\grid\\settings\\user\\form\\UserRoleForm::__construct<\/a>"],[0,1,"<a href=\"form\/UserRoleForm.php.html#49\">PKP\\controllers\\grid\\settings\\user\\form\\UserRoleForm::display<\/a>"],[0,1,"<a href=\"form\/UserRoleForm.php.html#62\">PKP\\controllers\\grid\\settings\\user\\form\\UserRoleForm::execute<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

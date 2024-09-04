@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /var/www/html/ojs-main/lib/pkp/classes/controllers/grid/feature</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../../../_css/bootstrap.min.css?v=11.0.5" rel="stylesheet" type="text/css">
+  <link href="../../../../_css/nv.d3.min.css?v=11.0.5" rel="stylesheet" type="text/css">
+  <link href="../../../../_css/style.css?v=11.0.5" rel="stylesheet" type="text/css">
+  <link href="../../../../_css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="../../../../index.html">/var/www/html/ojs-main/lib/pkp</a></li>
+         <li class="breadcrumb-item"><a href="../../../index.html">classes</a></li>
+         <li class="breadcrumb-item"><a href="../../index.html">controllers</a></li>
+         <li class="breadcrumb-item"><a href="../index.html">grid</a></li>
+         <li class="breadcrumb-item"><a href="index.html">feature</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="CollapsibleGridFeature.php.html#24">PKP\controllers\grid\feature\CollapsibleGridFeature</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="GeneralPagingFeature.php.html#27">PKP\controllers\grid\feature\GeneralPagingFeature</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="GridFeature.php.html#26">PKP\controllers\grid\feature\GridFeature</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InfiniteScrollingFeature.php.html#25">PKP\controllers\grid\feature\InfiniteScrollingFeature</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderCategoryGridItemsFeature.php.html#23">PKP\controllers\grid\feature\OrderCategoryGridItemsFeature</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderGridItemsFeature.php.html#20">PKP\controllers\grid\feature\OrderGridItemsFeature</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderItemsFeature.php.html#25">PKP\controllers\grid\feature\OrderItemsFeature</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderListbuilderItemsFeature.php.html#20">PKP\controllers\grid\feature\OrderListbuilderItemsFeature</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PagingFeature.php.html#22">PKP\controllers\grid\feature\PagingFeature</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="selectableItems/ItemSelectionGridColumn.php.html#21">PKP\controllers\grid\feature\selectableItems\ItemSelectionGridColumn</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="selectableItems/SelectableItemsFeature.php.html#22">PKP\controllers\grid\feature\selectableItems\SelectableItemsFeature</a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="GridFeature.php.html#26">PKP\controllers\grid\feature\GridFeature</a></td><td class="text-right">506</td></tr>
+       <tr><td><a href="OrderCategoryGridItemsFeature.php.html#23">PKP\controllers\grid\feature\OrderCategoryGridItemsFeature</a></td><td class="text-right">462</td></tr>
+       <tr><td><a href="OrderItemsFeature.php.html#25">PKP\controllers\grid\feature\OrderItemsFeature</a></td><td class="text-right">306</td></tr>
+       <tr><td><a href="GeneralPagingFeature.php.html#27">PKP\controllers\grid\feature\GeneralPagingFeature</a></td><td class="text-right">272</td></tr>
+       <tr><td><a href="PagingFeature.php.html#22">PKP\controllers\grid\feature\PagingFeature</a></td><td class="text-right">182</td></tr>
+       <tr><td><a href="InfiniteScrollingFeature.php.html#25">PKP\controllers\grid\feature\InfiniteScrollingFeature</a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="OrderGridItemsFeature.php.html#20">PKP\controllers\grid\feature\OrderGridItemsFeature</a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="selectableItems/ItemSelectionGridColumn.php.html#21">PKP\controllers\grid\feature\selectableItems\ItemSelectionGridColumn</a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="selectableItems/SelectableItemsFeature.php.html#22">PKP\controllers\grid\feature\selectableItems\SelectableItemsFeature</a></td><td class="text-right">20</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="CollapsibleGridFeature.php.html#30"><abbr title="PKP\controllers\grid\feature\CollapsibleGridFeature::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CollapsibleGridFeature.php.html#38"><abbr title="PKP\controllers\grid\feature\CollapsibleGridFeature::getJSClass">getJSClass</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CollapsibleGridFeature.php.html#46"><abbr title="PKP\controllers\grid\feature\CollapsibleGridFeature::fetchUIElements">fetchUIElements</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="GeneralPagingFeature.php.html#43"><abbr title="PKP\controllers\grid\feature\GeneralPagingFeature::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="GeneralPagingFeature.php.html#58"><abbr title="PKP\controllers\grid\feature\GeneralPagingFeature::getItemIterator">getItemIterator</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="GeneralPagingFeature.php.html#70"><abbr title="PKP\controllers\grid\feature\GeneralPagingFeature::setOptions">setOptions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="GeneralPagingFeature.php.html#111"><abbr title="PKP\controllers\grid\feature\GeneralPagingFeature::getGridDataElements">getGridDataElements</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="GeneralPagingFeature.php.html#124"><abbr title="PKP\controllers\grid\feature\GeneralPagingFeature::setGridDataElements">setGridDataElements</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="GeneralPagingFeature.php.html#143"><abbr title="PKP\controllers\grid\feature\GeneralPagingFeature::getRequestArgs">getRequestArgs</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="GeneralPagingFeature.php.html#160"><abbr title="PKP\controllers\grid\feature\GeneralPagingFeature::getGridRangeInfo">getGridRangeInfo</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="GeneralPagingFeature.php.html#187"><abbr title="PKP\controllers\grid\feature\GeneralPagingFeature::_getItemsPerPageParamName">_getItemsPerPageParamName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="GridFeature.php.html#39"><abbr title="PKP\controllers\grid\feature\GridFeature::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="GridFeature.php.html#53"><abbr title="PKP\controllers\grid\feature\GridFeature::getId">getId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="GridFeature.php.html#63"><abbr title="PKP\controllers\grid\feature\GridFeature::setId">setId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="GridFeature.php.html#73"><abbr title="PKP\controllers\grid\feature\GridFeature::getOptions">getOptions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="GridFeature.php.html#83"><abbr title="PKP\controllers\grid\feature\GridFeature::addOptions">addOptions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="GridFeature.php.html#100"><abbr title="PKP\controllers\grid\feature\GridFeature::setOptions">setOptions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="GridFeature.php.html#124"><abbr title="PKP\controllers\grid\feature\GridFeature::fetchUIElements">fetchUIElements</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="GridFeature.php.html#134"><abbr title="PKP\controllers\grid\feature\GridFeature::getJSClass">getJSClass</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="GridFeature.php.html#153"><abbr title="PKP\controllers\grid\feature\GridFeature::getRequestArgs">getRequestArgs</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="GridFeature.php.html#167"><abbr title="PKP\controllers\grid\feature\GridFeature::getGridRangeInfo">getGridRangeInfo</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="GridFeature.php.html#181"><abbr title="PKP\controllers\grid\feature\GridFeature::getGridDataElements">getGridDataElements</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="GridFeature.php.html#193"><abbr title="PKP\controllers\grid\feature\GridFeature::setGridDataElements">setGridDataElements</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="GridFeature.php.html#205"><abbr title="PKP\controllers\grid\feature\GridFeature::getInitializedRowInstance">getInitializedRowInstance</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="GridFeature.php.html#218"><abbr title="PKP\controllers\grid\feature\GridFeature::getInitializedCategoryRowInstance">getInitializedCategoryRowInstance</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="GridFeature.php.html#229"><abbr title="PKP\controllers\grid\feature\GridFeature::gridInitialize">gridInitialize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="GridFeature.php.html#242"><abbr title="PKP\controllers\grid\feature\GridFeature::loadData">loadData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="GridFeature.php.html#252"><abbr title="PKP\controllers\grid\feature\GridFeature::fetchGrid">fetchGrid</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="GridFeature.php.html#268"><abbr title="PKP\controllers\grid\feature\GridFeature::fetchRows">fetchRows</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="GridFeature.php.html#282"><abbr title="PKP\controllers\grid\feature\GridFeature::fetchRow">fetchRow</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="GridFeature.php.html#294"><abbr title="PKP\controllers\grid\feature\GridFeature::saveSequence">saveSequence</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InfiniteScrollingFeature.php.html#33"><abbr title="PKP\controllers\grid\feature\InfiniteScrollingFeature::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InfiniteScrollingFeature.php.html#45"><abbr title="PKP\controllers\grid\feature\InfiniteScrollingFeature::getJSClass">getJSClass</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InfiniteScrollingFeature.php.html#53"><abbr title="PKP\controllers\grid\feature\InfiniteScrollingFeature::fetchUIElements">fetchUIElements</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InfiniteScrollingFeature.php.html#92"><abbr title="PKP\controllers\grid\feature\InfiniteScrollingFeature::fetchRows">fetchRows</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InfiniteScrollingFeature.php.html#117"><abbr title="PKP\controllers\grid\feature\InfiniteScrollingFeature::fetchRow">fetchRow</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderCategoryGridItemsFeature.php.html#40"><abbr title="PKP\controllers\grid\feature\OrderCategoryGridItemsFeature::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderCategoryGridItemsFeature.php.html#62"><abbr title="PKP\controllers\grid\feature\OrderCategoryGridItemsFeature::getType">getType</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderCategoryGridItemsFeature.php.html#75"><abbr title="PKP\controllers\grid\feature\OrderCategoryGridItemsFeature::getJSClass">getJSClass</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderCategoryGridItemsFeature.php.html#87"><abbr title="PKP\controllers\grid\feature\OrderCategoryGridItemsFeature::getInitializedRowInstance">getInitializedRowInstance</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderCategoryGridItemsFeature.php.html#97"><abbr title="PKP\controllers\grid\feature\OrderCategoryGridItemsFeature::getInitializedCategoryRowInstance">getInitializedCategoryRowInstance</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderCategoryGridItemsFeature.php.html#108"><abbr title="PKP\controllers\grid\feature\OrderCategoryGridItemsFeature::saveSequence">saveSequence</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderCategoryGridItemsFeature.php.html#149"><abbr title="PKP\controllers\grid\feature\OrderCategoryGridItemsFeature::_saveRowsInCategoriesSequence">_saveRowsInCategoriesSequence</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderGridItemsFeature.php.html#29"><abbr title="PKP\controllers\grid\feature\OrderGridItemsFeature::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderGridItemsFeature.php.html#41"><abbr title="PKP\controllers\grid\feature\OrderGridItemsFeature::getJSClass">getJSClass</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderGridItemsFeature.php.html#55"><abbr title="PKP\controllers\grid\feature\OrderGridItemsFeature::saveSequence">saveSequence</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderItemsFeature.php.html#43"><abbr title="PKP\controllers\grid\feature\OrderItemsFeature::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderItemsFeature.php.html#58"><abbr title="PKP\controllers\grid\feature\OrderItemsFeature::setOverrideRowTemplate">setOverrideRowTemplate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderItemsFeature.php.html#70"><abbr title="PKP\controllers\grid\feature\OrderItemsFeature::getOverrideRowTemplate">getOverrideRowTemplate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderItemsFeature.php.html#86"><abbr title="PKP\controllers\grid\feature\OrderItemsFeature::setNonOrderableItemMessage">setNonOrderableItemMessage</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderItemsFeature.php.html#96"><abbr title="PKP\controllers\grid\feature\OrderItemsFeature::getNonOrderableItemMessage">getNonOrderableItemMessage</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderItemsFeature.php.html#108"><abbr title="PKP\controllers\grid\feature\OrderItemsFeature::setOptions">setOptions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderItemsFeature.php.html#122"><abbr title="PKP\controllers\grid\feature\OrderItemsFeature::fetchUIElements">fetchUIElements</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderItemsFeature.php.html#146"><abbr title="PKP\controllers\grid\feature\OrderItemsFeature::getInitializedRowInstance">getInitializedRowInstance</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderItemsFeature.php.html#157"><abbr title="PKP\controllers\grid\feature\OrderItemsFeature::gridInitialize">gridInitialize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderItemsFeature.php.html#182"><abbr title="PKP\controllers\grid\feature\OrderItemsFeature::addRowOrderAction">addRowOrderAction</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderItemsFeature.php.html#209"><abbr title="PKP\controllers\grid\feature\OrderItemsFeature::isOrderActionNecessary">isOrderActionNecessary</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderListbuilderItemsFeature.php.html#25"><abbr title="PKP\controllers\grid\feature\OrderListbuilderItemsFeature::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OrderListbuilderItemsFeature.php.html#37"><abbr title="PKP\controllers\grid\feature\OrderListbuilderItemsFeature::getJSClass">getJSClass</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PagingFeature.php.html#30"><abbr title="PKP\controllers\grid\feature\PagingFeature::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PagingFeature.php.html#42"><abbr title="PKP\controllers\grid\feature\PagingFeature::getJSClass">getJSClass</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PagingFeature.php.html#51"><abbr title="PKP\controllers\grid\feature\PagingFeature::fetchUIElements">fetchUIElements</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PagingFeature.php.html#81"><abbr title="PKP\controllers\grid\feature\PagingFeature::fetchRow">fetchRow</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="selectableItems/ItemSelectionGridColumn.php.html#33"><abbr title="PKP\controllers\grid\feature\selectableItems\ItemSelectionGridColumn::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="selectableItems/ItemSelectionGridColumn.php.html#58"><abbr title="PKP\controllers\grid\feature\selectableItems\ItemSelectionGridColumn::getSelectName">getSelectName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="selectableItems/ItemSelectionGridColumn.php.html#73"><abbr title="PKP\controllers\grid\feature\selectableItems\ItemSelectionGridColumn::getTemplateVarsFromRow">getTemplateVarsFromRow</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="selectableItems/SelectableItemsFeature.php.html#27"><abbr title="PKP\controllers\grid\feature\selectableItems\SelectableItemsFeature::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="selectableItems/SelectableItemsFeature.php.html#39"><abbr title="PKP\controllers\grid\feature\selectableItems\SelectableItemsFeature::gridInitialize">gridInitialize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="selectableItems/SelectableItemsFeature.php.html#50"><abbr title="PKP\controllers\grid\feature\selectableItems\SelectableItemsFeature::getInitializedRowInstance">getInitializedRowInstance</abbr></a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="PagingFeature.php.html#81"><abbr title="PKP\controllers\grid\feature\PagingFeature::fetchRow">fetchRow</abbr></a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="OrderCategoryGridItemsFeature.php.html#149"><abbr title="PKP\controllers\grid\feature\OrderCategoryGridItemsFeature::_saveRowsInCategoriesSequence">_saveRowsInCategoriesSequence</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="OrderCategoryGridItemsFeature.php.html#108"><abbr title="PKP\controllers\grid\feature\OrderCategoryGridItemsFeature::saveSequence">saveSequence</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="OrderGridItemsFeature.php.html#55"><abbr title="PKP\controllers\grid\feature\OrderGridItemsFeature::saveSequence">saveSequence</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="GeneralPagingFeature.php.html#70"><abbr title="PKP\controllers\grid\feature\GeneralPagingFeature::setOptions">setOptions</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="GeneralPagingFeature.php.html#111"><abbr title="PKP\controllers\grid\feature\GeneralPagingFeature::getGridDataElements">getGridDataElements</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="GeneralPagingFeature.php.html#124"><abbr title="PKP\controllers\grid\feature\GeneralPagingFeature::setGridDataElements">setGridDataElements</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="GeneralPagingFeature.php.html#160"><abbr title="PKP\controllers\grid\feature\GeneralPagingFeature::getGridRangeInfo">getGridRangeInfo</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="GridFeature.php.html#100"><abbr title="PKP\controllers\grid\feature\GridFeature::setOptions">setOptions</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="InfiniteScrollingFeature.php.html#53"><abbr title="PKP\controllers\grid\feature\InfiniteScrollingFeature::fetchUIElements">fetchUIElements</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="OrderItemsFeature.php.html#122"><abbr title="PKP\controllers\grid\feature\OrderItemsFeature::fetchUIElements">fetchUIElements</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="InfiniteScrollingFeature.php.html#117"><abbr title="PKP\controllers\grid\feature\InfiniteScrollingFeature::fetchRow">fetchRow</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="OrderCategoryGridItemsFeature.php.html#40"><abbr title="PKP\controllers\grid\feature\OrderCategoryGridItemsFeature::__construct">__construct</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="OrderCategoryGridItemsFeature.php.html#87"><abbr title="PKP\controllers\grid\feature\OrderCategoryGridItemsFeature::getInitializedRowInstance">getInitializedRowInstance</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="OrderCategoryGridItemsFeature.php.html#97"><abbr title="PKP\controllers\grid\feature\OrderCategoryGridItemsFeature::getInitializedCategoryRowInstance">getInitializedCategoryRowInstance</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="OrderItemsFeature.php.html#70"><abbr title="PKP\controllers\grid\feature\OrderItemsFeature::getOverrideRowTemplate">getOverrideRowTemplate</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="OrderItemsFeature.php.html#146"><abbr title="PKP\controllers\grid\feature\OrderItemsFeature::getInitializedRowInstance">getInitializedRowInstance</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="OrderItemsFeature.php.html#157"><abbr title="PKP\controllers\grid\feature\OrderItemsFeature::gridInitialize">gridInitialize</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="OrderItemsFeature.php.html#182"><abbr title="PKP\controllers\grid\feature\OrderItemsFeature::addRowOrderAction">addRowOrderAction</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="selectableItems/ItemSelectionGridColumn.php.html#33"><abbr title="PKP\controllers\grid\feature\selectableItems\ItemSelectionGridColumn::__construct">__construct</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="selectableItems/SelectableItemsFeature.php.html#50"><abbr title="PKP\controllers\grid\feature\selectableItems\SelectableItemsFeature::getInitializedRowInstance">getInitializedRowInstance</abbr></a></td><td class="text-right">6</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 11.0.5</a> using <a href="https://www.php.net/" target="_top">PHP 8.3.11</a> and <a href="https://phpunit.de/">PHPUnit 11.2.8</a> at Wed Sep 4 13:31:09 UTC 2024.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../../../../_js/jquery.min.js?v=11.0.5" type="text/javascript"></script>
+  <script src="../../../../_js/d3.min.js?v=11.0.5" type="text/javascript"></script>
+  <script src="../../../../_js/nv.d3.min.js?v=11.0.5" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([11,0,0,0,0,0,0,0,0,0,0,0], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([69,0,0,0,0,0,0,0,0,0,0,0], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[0,3,"<a href=\"CollapsibleGridFeature.php.html#24\">PKP\\controllers\\grid\\feature\\CollapsibleGridFeature<\/a>"],[0,16,"<a href=\"GeneralPagingFeature.php.html#27\">PKP\\controllers\\grid\\feature\\GeneralPagingFeature<\/a>"],[0,22,"<a href=\"GridFeature.php.html#26\">PKP\\controllers\\grid\\feature\\GridFeature<\/a>"],[0,8,"<a href=\"InfiniteScrollingFeature.php.html#25\">PKP\\controllers\\grid\\feature\\InfiniteScrollingFeature<\/a>"],[0,21,"<a href=\"OrderCategoryGridItemsFeature.php.html#23\">PKP\\controllers\\grid\\feature\\OrderCategoryGridItemsFeature<\/a>"],[0,6,"<a href=\"OrderGridItemsFeature.php.html#20\">PKP\\controllers\\grid\\feature\\OrderGridItemsFeature<\/a>"],[0,17,"<a href=\"OrderItemsFeature.php.html#25\">PKP\\controllers\\grid\\feature\\OrderItemsFeature<\/a>"],[0,2,"<a href=\"OrderListbuilderItemsFeature.php.html#20\">PKP\\controllers\\grid\\feature\\OrderListbuilderItemsFeature<\/a>"],[0,13,"<a href=\"PagingFeature.php.html#22\">PKP\\controllers\\grid\\feature\\PagingFeature<\/a>"],[0,4,"<a href=\"selectableItems\/ItemSelectionGridColumn.php.html#21\">PKP\\controllers\\grid\\feature\\selectableItems\\ItemSelectionGridColumn<\/a>"],[0,4,"<a href=\"selectableItems\/SelectableItemsFeature.php.html#22\">PKP\\controllers\\grid\\feature\\selectableItems\\SelectableItemsFeature<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[0,1,"<a href=\"CollapsibleGridFeature.php.html#30\">PKP\\controllers\\grid\\feature\\CollapsibleGridFeature::__construct<\/a>"],[0,1,"<a href=\"CollapsibleGridFeature.php.html#38\">PKP\\controllers\\grid\\feature\\CollapsibleGridFeature::getJSClass<\/a>"],[0,1,"<a href=\"CollapsibleGridFeature.php.html#46\">PKP\\controllers\\grid\\feature\\CollapsibleGridFeature::fetchUIElements<\/a>"],[0,1,"<a href=\"GeneralPagingFeature.php.html#43\">PKP\\controllers\\grid\\feature\\GeneralPagingFeature::__construct<\/a>"],[0,1,"<a href=\"GeneralPagingFeature.php.html#58\">PKP\\controllers\\grid\\feature\\GeneralPagingFeature::getItemIterator<\/a>"],[0,3,"<a href=\"GeneralPagingFeature.php.html#70\">PKP\\controllers\\grid\\feature\\GeneralPagingFeature::setOptions<\/a>"],[0,3,"<a href=\"GeneralPagingFeature.php.html#111\">PKP\\controllers\\grid\\feature\\GeneralPagingFeature::getGridDataElements<\/a>"],[0,3,"<a href=\"GeneralPagingFeature.php.html#124\">PKP\\controllers\\grid\\feature\\GeneralPagingFeature::setGridDataElements<\/a>"],[0,1,"<a href=\"GeneralPagingFeature.php.html#143\">PKP\\controllers\\grid\\feature\\GeneralPagingFeature::getRequestArgs<\/a>"],[0,3,"<a href=\"GeneralPagingFeature.php.html#160\">PKP\\controllers\\grid\\feature\\GeneralPagingFeature::getGridRangeInfo<\/a>"],[0,1,"<a href=\"GeneralPagingFeature.php.html#187\">PKP\\controllers\\grid\\feature\\GeneralPagingFeature::_getItemsPerPageParamName<\/a>"],[0,1,"<a href=\"GridFeature.php.html#39\">PKP\\controllers\\grid\\feature\\GridFeature::__construct<\/a>"],[0,1,"<a href=\"GridFeature.php.html#53\">PKP\\controllers\\grid\\feature\\GridFeature::getId<\/a>"],[0,1,"<a href=\"GridFeature.php.html#63\">PKP\\controllers\\grid\\feature\\GridFeature::setId<\/a>"],[0,1,"<a href=\"GridFeature.php.html#73\">PKP\\controllers\\grid\\feature\\GridFeature::getOptions<\/a>"],[0,1,"<a href=\"GridFeature.php.html#83\">PKP\\controllers\\grid\\feature\\GridFeature::addOptions<\/a>"],[0,3,"<a href=\"GridFeature.php.html#100\">PKP\\controllers\\grid\\feature\\GridFeature::setOptions<\/a>"],[0,1,"<a href=\"GridFeature.php.html#124\">PKP\\controllers\\grid\\feature\\GridFeature::fetchUIElements<\/a>"],[0,1,"<a href=\"GridFeature.php.html#134\">PKP\\controllers\\grid\\feature\\GridFeature::getJSClass<\/a>"],[0,1,"<a href=\"GridFeature.php.html#153\">PKP\\controllers\\grid\\feature\\GridFeature::getRequestArgs<\/a>"],[0,1,"<a href=\"GridFeature.php.html#167\">PKP\\controllers\\grid\\feature\\GridFeature::getGridRangeInfo<\/a>"],[0,1,"<a href=\"GridFeature.php.html#181\">PKP\\controllers\\grid\\feature\\GridFeature::getGridDataElements<\/a>"],[0,1,"<a href=\"GridFeature.php.html#193\">PKP\\controllers\\grid\\feature\\GridFeature::setGridDataElements<\/a>"],[0,1,"<a href=\"GridFeature.php.html#205\">PKP\\controllers\\grid\\feature\\GridFeature::getInitializedRowInstance<\/a>"],[0,1,"<a href=\"GridFeature.php.html#218\">PKP\\controllers\\grid\\feature\\GridFeature::getInitializedCategoryRowInstance<\/a>"],[0,1,"<a href=\"GridFeature.php.html#229\">PKP\\controllers\\grid\\feature\\GridFeature::gridInitialize<\/a>"],[0,1,"<a href=\"GridFeature.php.html#242\">PKP\\controllers\\grid\\feature\\GridFeature::loadData<\/a>"],[0,1,"<a href=\"GridFeature.php.html#252\">PKP\\controllers\\grid\\feature\\GridFeature::fetchGrid<\/a>"],[0,1,"<a href=\"GridFeature.php.html#268\">PKP\\controllers\\grid\\feature\\GridFeature::fetchRows<\/a>"],[0,1,"<a href=\"GridFeature.php.html#282\">PKP\\controllers\\grid\\feature\\GridFeature::fetchRow<\/a>"],[0,1,"<a href=\"GridFeature.php.html#294\">PKP\\controllers\\grid\\feature\\GridFeature::saveSequence<\/a>"],[0,1,"<a href=\"InfiniteScrollingFeature.php.html#33\">PKP\\controllers\\grid\\feature\\InfiniteScrollingFeature::__construct<\/a>"],[0,1,"<a href=\"InfiniteScrollingFeature.php.html#45\">PKP\\controllers\\grid\\feature\\InfiniteScrollingFeature::getJSClass<\/a>"],[0,3,"<a href=\"InfiniteScrollingFeature.php.html#53\">PKP\\controllers\\grid\\feature\\InfiniteScrollingFeature::fetchUIElements<\/a>"],[0,1,"<a href=\"InfiniteScrollingFeature.php.html#92\">PKP\\controllers\\grid\\feature\\InfiniteScrollingFeature::fetchRows<\/a>"],[0,2,"<a href=\"InfiniteScrollingFeature.php.html#117\">PKP\\controllers\\grid\\feature\\InfiniteScrollingFeature::fetchRow<\/a>"],[0,2,"<a href=\"OrderCategoryGridItemsFeature.php.html#40\">PKP\\controllers\\grid\\feature\\OrderCategoryGridItemsFeature::__construct<\/a>"],[0,1,"<a href=\"OrderCategoryGridItemsFeature.php.html#62\">PKP\\controllers\\grid\\feature\\OrderCategoryGridItemsFeature::getType<\/a>"],[0,1,"<a href=\"OrderCategoryGridItemsFeature.php.html#75\">PKP\\controllers\\grid\\feature\\OrderCategoryGridItemsFeature::getJSClass<\/a>"],[0,2,"<a href=\"OrderCategoryGridItemsFeature.php.html#87\">PKP\\controllers\\grid\\feature\\OrderCategoryGridItemsFeature::getInitializedRowInstance<\/a>"],[0,2,"<a href=\"OrderCategoryGridItemsFeature.php.html#97\">PKP\\controllers\\grid\\feature\\OrderCategoryGridItemsFeature::getInitializedCategoryRowInstance<\/a>"],[0,5,"<a href=\"OrderCategoryGridItemsFeature.php.html#108\">PKP\\controllers\\grid\\feature\\OrderCategoryGridItemsFeature::saveSequence<\/a>"],[0,8,"<a href=\"OrderCategoryGridItemsFeature.php.html#149\">PKP\\controllers\\grid\\feature\\OrderCategoryGridItemsFeature::_saveRowsInCategoriesSequence<\/a>"],[0,1,"<a href=\"OrderGridItemsFeature.php.html#29\">PKP\\controllers\\grid\\feature\\OrderGridItemsFeature::__construct<\/a>"],[0,1,"<a href=\"OrderGridItemsFeature.php.html#41\">PKP\\controllers\\grid\\feature\\OrderGridItemsFeature::getJSClass<\/a>"],[0,4,"<a href=\"OrderGridItemsFeature.php.html#55\">PKP\\controllers\\grid\\feature\\OrderGridItemsFeature::saveSequence<\/a>"],[0,1,"<a href=\"OrderItemsFeature.php.html#43\">PKP\\controllers\\grid\\feature\\OrderItemsFeature::__construct<\/a>"],[0,1,"<a href=\"OrderItemsFeature.php.html#58\">PKP\\controllers\\grid\\feature\\OrderItemsFeature::setOverrideRowTemplate<\/a>"],[0,2,"<a href=\"OrderItemsFeature.php.html#70\">PKP\\controllers\\grid\\feature\\OrderItemsFeature::getOverrideRowTemplate<\/a>"],[0,1,"<a href=\"OrderItemsFeature.php.html#86\">PKP\\controllers\\grid\\feature\\OrderItemsFeature::setNonOrderableItemMessage<\/a>"],[0,1,"<a href=\"OrderItemsFeature.php.html#96\">PKP\\controllers\\grid\\feature\\OrderItemsFeature::getNonOrderableItemMessage<\/a>"],[0,1,"<a href=\"OrderItemsFeature.php.html#108\">PKP\\controllers\\grid\\feature\\OrderItemsFeature::setOptions<\/a>"],[0,3,"<a href=\"OrderItemsFeature.php.html#122\">PKP\\controllers\\grid\\feature\\OrderItemsFeature::fetchUIElements<\/a>"],[0,2,"<a href=\"OrderItemsFeature.php.html#146\">PKP\\controllers\\grid\\feature\\OrderItemsFeature::getInitializedRowInstance<\/a>"],[0,2,"<a href=\"OrderItemsFeature.php.html#157\">PKP\\controllers\\grid\\feature\\OrderItemsFeature::gridInitialize<\/a>"],[0,2,"<a href=\"OrderItemsFeature.php.html#182\">PKP\\controllers\\grid\\feature\\OrderItemsFeature::addRowOrderAction<\/a>"],[0,1,"<a href=\"OrderItemsFeature.php.html#209\">PKP\\controllers\\grid\\feature\\OrderItemsFeature::isOrderActionNecessary<\/a>"],[0,1,"<a href=\"OrderListbuilderItemsFeature.php.html#25\">PKP\\controllers\\grid\\feature\\OrderListbuilderItemsFeature::__construct<\/a>"],[0,1,"<a href=\"OrderListbuilderItemsFeature.php.html#37\">PKP\\controllers\\grid\\feature\\OrderListbuilderItemsFeature::getJSClass<\/a>"],[0,1,"<a href=\"PagingFeature.php.html#30\">PKP\\controllers\\grid\\feature\\PagingFeature::__construct<\/a>"],[0,1,"<a href=\"PagingFeature.php.html#42\">PKP\\controllers\\grid\\feature\\PagingFeature::getJSClass<\/a>"],[0,1,"<a href=\"PagingFeature.php.html#51\">PKP\\controllers\\grid\\feature\\PagingFeature::fetchUIElements<\/a>"],[0,10,"<a href=\"PagingFeature.php.html#81\">PKP\\controllers\\grid\\feature\\PagingFeature::fetchRow<\/a>"],[0,2,"<a href=\"selectableItems\/ItemSelectionGridColumn.php.html#33\">PKP\\controllers\\grid\\feature\\selectableItems\\ItemSelectionGridColumn::__construct<\/a>"],[0,1,"<a href=\"selectableItems\/ItemSelectionGridColumn.php.html#58\">PKP\\controllers\\grid\\feature\\selectableItems\\ItemSelectionGridColumn::getSelectName<\/a>"],[0,1,"<a href=\"selectableItems\/ItemSelectionGridColumn.php.html#73\">PKP\\controllers\\grid\\feature\\selectableItems\\ItemSelectionGridColumn::getTemplateVarsFromRow<\/a>"],[0,1,"<a href=\"selectableItems\/SelectableItemsFeature.php.html#27\">PKP\\controllers\\grid\\feature\\selectableItems\\SelectableItemsFeature::__construct<\/a>"],[0,1,"<a href=\"selectableItems\/SelectableItemsFeature.php.html#39\">PKP\\controllers\\grid\\feature\\selectableItems\\SelectableItemsFeature::gridInitialize<\/a>"],[0,2,"<a href=\"selectableItems\/SelectableItemsFeature.php.html#50\">PKP\\controllers\\grid\\feature\\selectableItems\\SelectableItemsFeature::getInitializedRowInstance<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

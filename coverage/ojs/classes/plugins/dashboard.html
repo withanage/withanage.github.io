@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /var/www/html/ojs-main/lib/pkp/classes/plugins</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../_css/bootstrap.min.css?v=11.0.5" rel="stylesheet" type="text/css">
+  <link href="../../_css/nv.d3.min.css?v=11.0.5" rel="stylesheet" type="text/css">
+  <link href="../../_css/style.css?v=11.0.5" rel="stylesheet" type="text/css">
+  <link href="../../_css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="../../index.html">/var/www/html/ojs-main/lib/pkp</a></li>
+         <li class="breadcrumb-item"><a href="../index.html">classes</a></li>
+         <li class="breadcrumb-item"><a href="index.html">plugins</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="BlockPlugin.php.html#21">PKP\plugins\BlockPlugin</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="GalleryPlugin.php.html#24">PKP\plugins\GalleryPlugin</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="GatewayPlugin.php.html#22">PKP\plugins\GatewayPlugin</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Hook.php.html#21">PKP\plugins\Hook</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ImportExportPlugin.php.html#36">PKP\plugins\ImportExportPlugin</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LazyLoadPlugin.php.html#22">PKP\plugins\LazyLoadPlugin</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MetadataPlugin.php.html#19">PKP\plugins\MetadataPlugin</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OAIMetadataFormatPlugin.php.html#19">PKP\plugins\OAIMetadataFormatPlugin</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPPubIdPlugin.php.html#32">PKP\plugins\PKPPubIdPlugin</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPPubIdPluginHelper.php.html#24">PKP\plugins\PKPPubIdPluginHelper</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPViewableFilePlugin.php.html#19">PKP\plugins\PKPViewableFilePlugin</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymethodPlugin.php.html#21">PKP\plugins\PaymethodPlugin</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin.php.html#72">PKP\plugins\Plugin</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PluginGalleryDAO.php.html#32">PKP\plugins\PluginGalleryDAO</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PluginHelper.php.html#35">PKP\plugins\PluginHelper</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PluginRegistry.php.html#28">PKP\plugins\PluginRegistry</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PluginSettingsDAO.php.html#26">PKP\plugins\PluginSettingsDAO</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ReportPlugin.php.html#24">PKP\plugins\ReportPlugin</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThemePlugin.php.html#36">PKP\plugins\ThemePlugin</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="importexport/PKPImportExportDeployment.php.html#35">PKP\plugins\importexport\PKPImportExportDeployment</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="importexport/PKPImportExportFilter.php.html#28">PKP\plugins\importexport\PKPImportExportFilter</a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="ThemePlugin.php.html#36">PKP\plugins\ThemePlugin</a></td><td class="text-right">17292</td></tr>
+       <tr><td><a href="importexport/PKPImportExportDeployment.php.html#35">PKP\plugins\importexport\PKPImportExportDeployment</a></td><td class="text-right">6006</td></tr>
+       <tr><td><a href="Plugin.php.html#72">PKP\plugins\Plugin</a></td><td class="text-right">5852</td></tr>
+       <tr><td><a href="PluginGalleryDAO.php.html#32">PKP\plugins\PluginGalleryDAO</a></td><td class="text-right">2652</td></tr>
+       <tr><td><a href="GalleryPlugin.php.html#24">PKP\plugins\GalleryPlugin</a></td><td class="text-right">2162</td></tr>
+       <tr><td><a href="PKPPubIdPlugin.php.html#32">PKP\plugins\PKPPubIdPlugin</a></td><td class="text-right">2162</td></tr>
+       <tr><td><a href="ImportExportPlugin.php.html#36">PKP\plugins\ImportExportPlugin</a></td><td class="text-right">1482</td></tr>
+       <tr><td><a href="PKPPubIdPluginHelper.php.html#24">PKP\plugins\PKPPubIdPluginHelper</a></td><td class="text-right">1482</td></tr>
+       <tr><td><a href="PluginRegistry.php.html#28">PKP\plugins\PluginRegistry</a></td><td class="text-right">1260</td></tr>
+       <tr><td><a href="PluginHelper.php.html#35">PKP\plugins\PluginHelper</a></td><td class="text-right">930</td></tr>
+       <tr><td><a href="PluginSettingsDAO.php.html#26">PKP\plugins\PluginSettingsDAO</a></td><td class="text-right">600</td></tr>
+       <tr><td><a href="Hook.php.html#21">PKP\plugins\Hook</a></td><td class="text-right">462</td></tr>
+       <tr><td><a href="LazyLoadPlugin.php.html#22">PKP\plugins\LazyLoadPlugin</a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="OAIMetadataFormatPlugin.php.html#19">PKP\plugins\OAIMetadataFormatPlugin</a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="BlockPlugin.php.html#21">PKP\plugins\BlockPlugin</a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="importexport/PKPImportExportFilter.php.html#28">PKP\plugins\importexport\PKPImportExportFilter</a></td><td class="text-right">30</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="BlockPlugin.php.html#33"><abbr title="PKP\plugins\BlockPlugin::getEnabled">getEnabled</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BlockPlugin.php.html#44"><abbr title="PKP\plugins\BlockPlugin::setEnabled">setEnabled</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BlockPlugin.php.html#56"><abbr title="PKP\plugins\BlockPlugin::getBlockTemplateFilename">getBlockTemplateFilename</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BlockPlugin.php.html#69"><abbr title="PKP\plugins\BlockPlugin::getContents">getContents</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="GalleryPlugin.php.html#35"><abbr title="PKP\plugins\GalleryPlugin::getLocalizedName">getLocalizedName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="GalleryPlugin.php.html#43"><abbr title="PKP\plugins\GalleryPlugin::setName">setName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="GalleryPlugin.php.html#51"><abbr title="PKP\plugins\GalleryPlugin::getName">getName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="GalleryPlugin.php.html#59"><abbr title="PKP\plugins\GalleryPlugin::getHomepage">getHomepage</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="GalleryPlugin.php.html#67"><abbr title="PKP\plugins\GalleryPlugin::setHomepage">setHomepage</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="GalleryPlugin.php.html#76"><abbr title="PKP\plugins\GalleryPlugin::getProduct">getProduct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="GalleryPlugin.php.html#84"><abbr title="PKP\plugins\GalleryPlugin::setProduct">setProduct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="GalleryPlugin.php.html#92"><abbr title="PKP\plugins\GalleryPlugin::getCategory">getCategory</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="GalleryPlugin.php.html#100"><abbr title="PKP\plugins\GalleryPlugin::setCategory">setCategory</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="GalleryPlugin.php.html#111"><abbr title="PKP\plugins\GalleryPlugin::getVersion">getVersion</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="GalleryPlugin.php.html#127"><abbr title="PKP\plugins\GalleryPlugin::setVersion">setVersion</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="GalleryPlugin.php.html#135"><abbr title="PKP\plugins\GalleryPlugin::getDate">getDate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="GalleryPlugin.php.html#143"><abbr title="PKP\plugins\GalleryPlugin::setDate">setDate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="GalleryPlugin.php.html#151"><abbr title="PKP\plugins\GalleryPlugin::getContactName">getContactName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="GalleryPlugin.php.html#159"><abbr title="PKP\plugins\GalleryPlugin::setContactName">setContactName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="GalleryPlugin.php.html#167"><abbr title="PKP\plugins\GalleryPlugin::getContactInstitutionName">getContactInstitutionName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="GalleryPlugin.php.html#175"><abbr title="PKP\plugins\GalleryPlugin::setContactInstitutionName">setContactInstitutionName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="GalleryPlugin.php.html#183"><abbr title="PKP\plugins\GalleryPlugin::getContactEmail">getContactEmail</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="GalleryPlugin.php.html#191"><abbr title="PKP\plugins\GalleryPlugin::setContactEmail">setContactEmail</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="GalleryPlugin.php.html#199"><abbr title="PKP\plugins\GalleryPlugin::getSummary">getSummary</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="GalleryPlugin.php.html#207"><abbr title="PKP\plugins\GalleryPlugin::setSummary">setSummary</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="GalleryPlugin.php.html#215"><abbr title="PKP\plugins\GalleryPlugin::getDescription">getDescription</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="GalleryPlugin.php.html#223"><abbr title="PKP\plugins\GalleryPlugin::setDescription">setDescription</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="GalleryPlugin.php.html#231"><abbr title="PKP\plugins\GalleryPlugin::getInstallationInstructions">getInstallationInstructions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="GalleryPlugin.php.html#239"><abbr title="PKP\plugins\GalleryPlugin::setInstallationInstructions">setInstallationInstructions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="GalleryPlugin.php.html#247"><abbr title="PKP\plugins\GalleryPlugin::getReleaseDescription">getReleaseDescription</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="GalleryPlugin.php.html#255"><abbr title="PKP\plugins\GalleryPlugin::setReleaseDescription">setReleaseDescription</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="GalleryPlugin.php.html#263"><abbr title="PKP\plugins\GalleryPlugin::getReleaseMD5">getReleaseMD5</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="GalleryPlugin.php.html#271"><abbr title="PKP\plugins\GalleryPlugin::setReleaseMD5">setReleaseMD5</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="GalleryPlugin.php.html#279"><abbr title="PKP\plugins\GalleryPlugin::getReleaseCertifications">getReleaseCertifications</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="GalleryPlugin.php.html#287"><abbr title="PKP\plugins\GalleryPlugin::setReleaseCertifications">setReleaseCertifications</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="GalleryPlugin.php.html#295"><abbr title="PKP\plugins\GalleryPlugin::getReleasePackage">getReleasePackage</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="GalleryPlugin.php.html#303"><abbr title="PKP\plugins\GalleryPlugin::setReleasePackage">setReleasePackage</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="GalleryPlugin.php.html#311"><abbr title="PKP\plugins\GalleryPlugin::getLocalizedSummary">getLocalizedSummary</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="GalleryPlugin.php.html#319"><abbr title="PKP\plugins\GalleryPlugin::getLocalizedInstallationInstructions">getLocalizedInstallationInstructions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="GalleryPlugin.php.html#327"><abbr title="PKP\plugins\GalleryPlugin::getLocalizedDescription">getLocalizedDescription</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="GalleryPlugin.php.html#335"><abbr title="PKP\plugins\GalleryPlugin::getLocalizedReleaseDescription">getLocalizedReleaseDescription</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="GalleryPlugin.php.html#344"><abbr title="PKP\plugins\GalleryPlugin::getInstalledVersion">getInstalledVersion</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="GalleryPlugin.php.html#356"><abbr title="PKP\plugins\GalleryPlugin::getCurrentStatus">getCurrentStatus</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="GatewayPlugin.php.html#30"><abbr title="PKP\plugins\GatewayPlugin::fetch">fetch</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="GatewayPlugin.php.html#37"><abbr title="PKP\plugins\GatewayPlugin::getCanEnable">getCanEnable</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="GatewayPlugin.php.html#47"><abbr title="PKP\plugins\GatewayPlugin::getCanDisable">getCanDisable</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="GatewayPlugin.php.html#57"><abbr title="PKP\plugins\GatewayPlugin::getEnabled">getEnabled</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="GatewayPlugin.php.html#67"><abbr title="PKP\plugins\GatewayPlugin::setEnabled">setEnabled</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="GatewayPlugin.php.html#76"><abbr title="PKP\plugins\GatewayPlugin::getCurrentContextId">getCurrentContextId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="GatewayPlugin.php.html#89"><abbr title="PKP\plugins\GatewayPlugin::getPolicies">getPolicies</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Hook.php.html#42"><abbr title="PKP\plugins\Hook::getHooks">getHooks</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Hook.php.html#61"><abbr title="PKP\plugins\Hook::addUnsupportedHooks">addUnsupportedHooks</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Hook.php.html#69"><abbr title="PKP\plugins\Hook::clear">clear</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Hook.php.html#82"><abbr title="PKP\plugins\Hook::add">add</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Hook.php.html#97"><abbr title="PKP\plugins\Hook::register">register</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Hook.php.html#116"><abbr title="PKP\plugins\Hook::call">call</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Hook.php.html#145"><abbr title="PKP\plugins\Hook::run">run</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Hook.php.html#184"><abbr title="PKP\plugins\Hook::rememberCalledHooks">rememberCalledHooks</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Hook.php.html#201"><abbr title="PKP\plugins\Hook::resetCalledHooks">resetCalledHooks</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Hook.php.html#213"><abbr title="PKP\plugins\Hook::getCalledHooks">getCalledHooks</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ImportExportPlugin.php.html#52"><abbr title="PKP\plugins\ImportExportPlugin::executeCLI">executeCLI</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ImportExportPlugin.php.html#59"><abbr title="PKP\plugins\ImportExportPlugin::usage">usage</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ImportExportPlugin.php.html#64"><abbr title="PKP\plugins\ImportExportPlugin::supportsCLI">supportsCLI</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ImportExportPlugin.php.html#72"><abbr title="PKP\plugins\ImportExportPlugin::getActions">getActions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ImportExportPlugin.php.html#101"><abbr title="PKP\plugins\ImportExportPlugin::display">display</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ImportExportPlugin.php.html#132"><abbr title="PKP\plugins\ImportExportPlugin::pluginUrl">pluginUrl</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ImportExportPlugin.php.html#144"><abbr title="PKP\plugins\ImportExportPlugin::isRelativePath">isRelativePath</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ImportExportPlugin.php.html#163"><abbr title="PKP\plugins\ImportExportPlugin::isAllowedMethod">isAllowedMethod</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ImportExportPlugin.php.html#184"><abbr title="PKP\plugins\ImportExportPlugin::getPluginSettingsPrefix">getPluginSettingsPrefix</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ImportExportPlugin.php.html#194"><abbr title="PKP\plugins\ImportExportPlugin::getExportPath">getExportPath</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ImportExportPlugin.php.html#209"><abbr title="PKP\plugins\ImportExportPlugin::getExportFileName">getExportFileName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ImportExportPlugin.php.html#226"><abbr title="PKP\plugins\ImportExportPlugin::displayXMLValidationErrors">displayXMLValidationErrors</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ImportExportPlugin.php.html#254"><abbr title="PKP\plugins\ImportExportPlugin::setDeployment">setDeployment</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ImportExportPlugin.php.html#264"><abbr title="PKP\plugins\ImportExportPlugin::getDeployment">getDeployment</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ImportExportPlugin.php.html#276"><abbr title="PKP\plugins\ImportExportPlugin::getExportSubmissionsDeployment">getExportSubmissionsDeployment</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ImportExportPlugin.php.html#299"><abbr title="PKP\plugins\ImportExportPlugin::exportResultXML">exportResultXML</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ImportExportPlugin.php.html#321"><abbr title="PKP\plugins\ImportExportPlugin::getExportTemplateResult">getExportTemplateResult</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ImportExportPlugin.php.html#359"><abbr title="PKP\plugins\ImportExportPlugin::getImportTemplateResult">getImportTemplateResult</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ImportExportPlugin.php.html#388"><abbr title="PKP\plugins\ImportExportPlugin::getImportedFilePath">getImportedFilePath</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ImportExportPlugin.php.html#413"><abbr title="PKP\plugins\ImportExportPlugin::getBounceTab">getBounceTab</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ImportExportPlugin.php.html#436"><abbr title="PKP\plugins\ImportExportPlugin::downloadExportedFile">downloadExportedFile</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ImportExportPlugin.php.html#458"><abbr title="PKP\plugins\ImportExportPlugin::writeExportedFile">writeExportedFile</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LazyLoadPlugin.php.html#32"><abbr title="PKP\plugins\LazyLoadPlugin::register">register</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LazyLoadPlugin.php.html#48"><abbr title="PKP\plugins\LazyLoadPlugin::getName">getName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LazyLoadPlugin.php.html#73"><abbr title="PKP\plugins\LazyLoadPlugin::getEnabled">getEnabled</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LazyLoadPlugin.php.html#89"><abbr title="PKP\plugins\LazyLoadPlugin::setEnabled">setEnabled</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LazyLoadPlugin.php.html#101"><abbr title="PKP\plugins\LazyLoadPlugin::getCanEnable">getCanEnable</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LazyLoadPlugin.php.html#109"><abbr title="PKP\plugins\LazyLoadPlugin::getCanDisable">getCanDisable</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LazyLoadPlugin.php.html#118"><abbr title="PKP\plugins\LazyLoadPlugin::getCurrentContextId">getCurrentContextId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MetadataPlugin.php.html#29"><abbr title="PKP\plugins\MetadataPlugin::register">register</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MetadataPlugin.php.html#45"><abbr title="PKP\plugins\MetadataPlugin::supportsFormat">supportsFormat</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MetadataPlugin.php.html#53"><abbr title="PKP\plugins\MetadataPlugin::getSchemaObject">getSchemaObject</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OAIMetadataFormatPlugin.php.html#26"><abbr title="PKP\plugins\OAIMetadataFormatPlugin::register">register</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OAIMetadataFormatPlugin.php.html#41"><abbr title="PKP\plugins\OAIMetadataFormatPlugin::getMetadataPrefix">getMetadataPrefix</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OAIMetadataFormatPlugin.php.html#46"><abbr title="PKP\plugins\OAIMetadataFormatPlugin::getSchema">getSchema</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OAIMetadataFormatPlugin.php.html#51"><abbr title="PKP\plugins\OAIMetadataFormatPlugin::getNamespace">getNamespace</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OAIMetadataFormatPlugin.php.html#59"><abbr title="PKP\plugins\OAIMetadataFormatPlugin::getFormatClass">getFormatClass</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="OAIMetadataFormatPlugin.php.html#61"><abbr title="PKP\plugins\OAIMetadataFormatPlugin::callback_formatRequest">callback_formatRequest</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPPubIdPlugin.php.html#42"><abbr title="PKP\plugins\PKPPubIdPlugin::register">register</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPPubIdPlugin.php.html#71"><abbr title="PKP\plugins\PKPPubIdPlugin::getActions">getActions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPPubIdPlugin.php.html#93"><abbr title="PKP\plugins\PKPPubIdPlugin::manage">manage</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPPubIdPlugin.php.html#135"><abbr title="PKP\plugins\PKPPubIdPlugin::getPubId">getPubId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPPubIdPlugin.php.html#145"><abbr title="PKP\plugins\PKPPubIdPlugin::constructPubId">constructPubId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPPubIdPlugin.php.html#153"><abbr title="PKP\plugins\PKPPubIdPlugin::getPubIdType">getPubIdType</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPPubIdPlugin.php.html#160"><abbr title="PKP\plugins\PKPPubIdPlugin::getPubIdDisplayType">getPubIdDisplayType</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPPubIdPlugin.php.html#167"><abbr title="PKP\plugins\PKPPubIdPlugin::getPubIdFullName">getPubIdFullName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPPubIdPlugin.php.html#176"><abbr title="PKP\plugins\PKPPubIdPlugin::getResolvingURL">getResolvingURL</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPPubIdPlugin.php.html#185"><abbr title="PKP\plugins\PKPPubIdPlugin::getPubIdMetadataFile">getPubIdMetadataFile</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPPubIdPlugin.php.html#193"><abbr title="PKP\plugins\PKPPubIdPlugin::addJavaScript">addJavaScript</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPPubIdPlugin.php.html#204"><abbr title="PKP\plugins\PKPPubIdPlugin::getPubIdAssignFile">getPubIdAssignFile</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPPubIdPlugin.php.html#211"><abbr title="PKP\plugins\PKPPubIdPlugin::instantiateSettingsForm">instantiateSettingsForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPPubIdPlugin.php.html#219"><abbr title="PKP\plugins\PKPPubIdPlugin::getFormFieldNames">getFormFieldNames</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPPubIdPlugin.php.html#226"><abbr title="PKP\plugins\PKPPubIdPlugin::getAssignFormFieldName">getAssignFormFieldName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPPubIdPlugin.php.html#233"><abbr title="PKP\plugins\PKPPubIdPlugin::getPrefixFieldName">getPrefixFieldName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPPubIdPlugin.php.html#240"><abbr title="PKP\plugins\PKPPubIdPlugin::getSuffixFieldName">getSuffixFieldName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPPubIdPlugin.php.html#248"><abbr title="PKP\plugins\PKPPubIdPlugin::getLinkActions">getLinkActions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPPubIdPlugin.php.html#255"><abbr title="PKP\plugins\PKPPubIdPlugin::getSuffixPatternsFieldNames">getSuffixPatternsFieldNames</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPPubIdPlugin.php.html#262"><abbr title="PKP\plugins\PKPPubIdPlugin::getDAOFieldNames">getDAOFieldNames</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPPubIdPlugin.php.html#269"><abbr title="PKP\plugins\PKPPubIdPlugin::getPubObjectTypes">getPubObjectTypes</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPPubIdPlugin.php.html#285"><abbr title="PKP\plugins\PKPPubIdPlugin::isObjectTypeEnabled">isObjectTypeEnabled</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPPubIdPlugin.php.html#292"><abbr title="PKP\plugins\PKPPubIdPlugin::getNotUniqueErrorMsg">getNotUniqueErrorMsg</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPPubIdPlugin.php.html#304"><abbr title="PKP\plugins\PKPPubIdPlugin::verifyData">verifyData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPPubIdPlugin.php.html#334"><abbr title="PKP\plugins\PKPPubIdPlugin::validatePubId">validatePubId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPPubIdPlugin.php.html#345"><abbr title="PKP\plugins\PKPPubIdPlugin::getDAOs">getDAOs</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPPubIdPlugin.php.html#364"><abbr title="PKP\plugins\PKPPubIdPlugin::canBeAssigned">canBeAssigned</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPPubIdPlugin.php.html#393"><abbr title="PKP\plugins\PKPPubIdPlugin::addToSchema">addToSchema</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPPubIdPlugin.php.html#419"><abbr title="PKP\plugins\PKPPubIdPlugin::getAdditionalFieldNames">getAdditionalFieldNames</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPPubIdPlugin.php.html#434"><abbr title="PKP\plugins\PKPPubIdPlugin::getPubObjectType">getPubObjectType</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPPubIdPlugin.php.html#458"><abbr title="PKP\plugins\PKPPubIdPlugin::setStoredPubId">setStoredPubId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPPubIdPlugin.php.html#481"><abbr title="PKP\plugins\PKPPubIdPlugin::checkDuplicate">checkDuplicate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPPubIdPlugin.php.html#507"><abbr title="PKP\plugins\PKPPubIdPlugin::getContext">getContext</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPPubIdPluginHelper.php.html#33"><abbr title="PKP\plugins\PKPPubIdPluginHelper::validate">validate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPPubIdPluginHelper.php.html#57"><abbr title="PKP\plugins\PKPPubIdPluginHelper::setLinkActions">setLinkActions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPPubIdPluginHelper.php.html#77"><abbr title="PKP\plugins\PKPPubIdPluginHelper::addJavaScripts">addJavaScripts</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPPubIdPluginHelper.php.html#94"><abbr title="PKP\plugins\PKPPubIdPluginHelper::init">init</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPPubIdPluginHelper.php.html#114"><abbr title="PKP\plugins\PKPPubIdPluginHelper::readInputData">readInputData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPPubIdPluginHelper.php.html#132"><abbr title="PKP\plugins\PKPPubIdPluginHelper::readAssignInputData">readAssignInputData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPPubIdPluginHelper.php.html#151"><abbr title="PKP\plugins\PKPPubIdPluginHelper::execute">execute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPPubIdPluginHelper.php.html#182"><abbr title="PKP\plugins\PKPPubIdPluginHelper::assignPubId">assignPubId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPPubIdPluginHelper.php.html#206"><abbr title="PKP\plugins\PKPPubIdPluginHelper::clearPubId">clearPubId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPViewableFilePlugin.php.html#29"><abbr title="PKP\plugins\PKPViewableFilePlugin::getTemplateFilename">getTemplateFilename</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymethodPlugin.php.html#23"><abbr title="PKP\plugins\PaymethodPlugin::register">register</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymethodPlugin.php.html#42"><abbr title="PKP\plugins\PaymethodPlugin::getPaymentForm">getPaymentForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymethodPlugin.php.html#51"><abbr title="PKP\plugins\PaymethodPlugin::isConfigured">isConfigured</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymethodPlugin.php.html#59"><abbr title="PKP\plugins\PaymethodPlugin::saveSettings">saveSettings</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymethodPlugin.php.html#67"><abbr title="PKP\plugins\PaymethodPlugin::handle">handle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin.php.html#86"><abbr title="PKP\plugins\Plugin::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin.php.html#114"><abbr title="PKP\plugins\Plugin::register">register</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin.php.html#153"><abbr title="PKP\plugins\Plugin::getName">getName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin.php.html#160"><abbr title="PKP\plugins\Plugin::getDisplayName">getDisplayName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin.php.html#167"><abbr title="PKP\plugins\Plugin::getDescription">getDescription</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin.php.html#180"><abbr title="PKP\plugins\Plugin::getSeq">getSeq</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin.php.html#190"><abbr title="PKP\plugins\Plugin::isSitePlugin">isSitePlugin</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin.php.html#203"><abbr title="PKP\plugins\Plugin::manage">manage</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin.php.html#215"><abbr title="PKP\plugins\Plugin::getHideManagement">getHideManagement</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin.php.html#227"><abbr title="PKP\plugins\Plugin::getInstallSchemaFile">getInstallSchemaFile</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin.php.html#236"><abbr title="PKP\plugins\Plugin::getInstallMigration">getInstallMigration</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin.php.html#248"><abbr title="PKP\plugins\Plugin::getInstallSitePluginSettingsFile">getInstallSitePluginSettingsFile</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin.php.html#262"><abbr title="PKP\plugins\Plugin::getContextSpecificPluginSettingsFile">getContextSpecificPluginSettingsFile</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin.php.html#273"><abbr title="PKP\plugins\Plugin::getInstallEmailTemplatesFile">getInstallEmailTemplatesFile</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin.php.html#281"><abbr title="PKP\plugins\Plugin::getInstallEmailTemplateDataFile">getInstallEmailTemplateDataFile</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin.php.html#296"><abbr title="PKP\plugins\Plugin::getInstallFilterConfigFiles">getInstallFilterConfigFiles</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin.php.html#316"><abbr title="PKP\plugins\Plugin::getCategory">getCategory</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin.php.html#326"><abbr title="PKP\plugins\Plugin::getPluginPath">getPluginPath</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin.php.html#336"><abbr title="PKP\plugins\Plugin::getDirName">getDirName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin.php.html#350"><abbr title="PKP\plugins\Plugin::getTemplateResource">getTemplateResource</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin.php.html#379"><abbr title="PKP\plugins\Plugin::getTemplatePath">getTemplatePath</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin.php.html#393"><abbr title="PKP\plugins\Plugin::_registerTemplateResource">_registerTemplateResource</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin.php.html#418"><abbr title="PKP\plugins\Plugin::_overridePluginTemplates">_overridePluginTemplates</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin.php.html#450"><abbr title="PKP\plugins\Plugin::_findOverriddenTemplate">_findOverriddenTemplate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin.php.html#479"><abbr title="PKP\plugins\Plugin::addLocaleData">addLocaleData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin.php.html#495"><abbr title="PKP\plugins\Plugin::getSetting">getSetting</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin.php.html#513"><abbr title="PKP\plugins\Plugin::updateSetting">updateSetting</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin.php.html#535"><abbr title="PKP\plugins\Plugin::installSiteSettings">installSiteSettings</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin.php.html#552"><abbr title="PKP\plugins\Plugin::installContextSpecificSettings">installContextSpecificSettings</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin.php.html#568"><abbr title="PKP\plugins\Plugin::installEmailTemplates">installEmailTemplates</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin.php.html#600"><abbr title="PKP\plugins\Plugin::installLocale">installLocale</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin.php.html#616"><abbr title="PKP\plugins\Plugin::installFilters">installFilters</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin.php.html#656"><abbr title="PKP\plugins\Plugin::updateSchema">updateSchema</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin.php.html#680"><abbr title="PKP\plugins\Plugin::smartyPluginUrl">smartyPluginUrl</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin.php.html#698"><abbr title="PKP\plugins\Plugin::getCurrentVersion">getCurrentVersion</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin.php.html#718"><abbr title="PKP\plugins\Plugin::getRequest">getRequest</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin.php.html#737"><abbr title="PKP\plugins\Plugin::getActions">getActions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin.php.html#747"><abbr title="PKP\plugins\Plugin::getCanEnable">getCanEnable</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin.php.html#757"><abbr title="PKP\plugins\Plugin::getCanDisable">getCanDisable</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Plugin.php.html#767"><abbr title="PKP\plugins\Plugin::getEnabled">getEnabled</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PluginGalleryDAO.php.html#54"><abbr title="PKP\plugins\PluginGalleryDAO::getNewestCompatible">getNewestCompatible</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PluginGalleryDAO.php.html#78"><abbr title="PKP\plugins\PluginGalleryDAO::getExternalDocument">getExternalDocument</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PluginGalleryDAO.php.html#109"><abbr title="PKP\plugins\PluginGalleryDAO::getCachedDocument">getCachedDocument</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PluginGalleryDAO.php.html#118"><abbr title="PKP\plugins\PluginGalleryDAO::_getDocument">_getDocument</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PluginGalleryDAO.php.html#129"><abbr title="PKP\plugins\PluginGalleryDAO::newDataObject">newDataObject</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PluginGalleryDAO.php.html#138"><abbr title="PKP\plugins\PluginGalleryDAO::_compatibleFromElement">_compatibleFromElement</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PluginGalleryDAO.php.html#190"><abbr title="PKP\plugins\PluginGalleryDAO::_handleMaintainer">_handleMaintainer</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PluginGalleryDAO.php.html#216"><abbr title="PKP\plugins\PluginGalleryDAO::_handleRelease">_handleRelease</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PluginGalleryDAO.php.html#272"><abbr title="PKP\plugins\PluginGalleryDAO::_handleCompatibility">_handleCompatibility</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PluginHelper.php.html#57"><abbr title="PKP\plugins\PluginHelper::extractPlugin">extractPlugin</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PluginHelper.php.html#105"><abbr title="PKP\plugins\PluginHelper::installPlugin">installPlugin</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PluginHelper.php.html#157"><abbr title="PKP\plugins\PluginHelper::_getConnectionParams">_getConnectionParams</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PluginHelper.php.html#178"><abbr title="PKP\plugins\PluginHelper::upgradePlugin">upgradePlugin</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PluginHelper.php.html#246"><abbr title="PKP\plugins\PluginHelper::sanitizeFilename">sanitizeFilename</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PluginRegistry.php.html#38"><abbr title="PKP\plugins\PluginRegistry::getPlugins">getPlugins</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PluginRegistry.php.html#51"><abbr title="PKP\plugins\PluginRegistry::getAllPlugins">getAllPlugins</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PluginRegistry.php.html#70"><abbr title="PKP\plugins\PluginRegistry::register">register</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PluginRegistry.php.html#87"><abbr title="PKP\plugins\PluginRegistry::getPlugin">getPlugin</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PluginRegistry.php.html#109"><abbr title="PKP\plugins\PluginRegistry::loadCategory">loadCategory</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PluginRegistry.php.html#149"><abbr title="PKP\plugins\PluginRegistry::loadPlugin">loadPlugin</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PluginRegistry.php.html#167"><abbr title="PKP\plugins\PluginRegistry::getCategories">getCategories</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PluginRegistry.php.html#177"><abbr title="PKP\plugins\PluginRegistry::loadAllPlugins">loadAllPlugins</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PluginRegistry.php.html#187"><abbr title="PKP\plugins\PluginRegistry::_instantiatePlugin">_instantiatePlugin</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PluginRegistry.php.html#216"><abbr title="PKP\plugins\PluginRegistry::_loadFromDatabase">_loadFromDatabase</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PluginRegistry.php.html#233"><abbr title="PKP\plugins\PluginRegistry::_loadFromDisk">_loadFromDisk</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PluginRegistry.php.html#257"><abbr title="PKP\plugins\PluginRegistry::_deprecatedInstantiatePlugin">_deprecatedInstantiatePlugin</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PluginSettingsDAO.php.html#30"><abbr title="PKP\plugins\PluginSettingsDAO::_getCacheId">_getCacheId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PluginSettingsDAO.php.html#39"><abbr title="PKP\plugins\PluginSettingsDAO::_normalizePluginName">_normalizePluginName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PluginSettingsDAO.php.html#47"><abbr title="PKP\plugins\PluginSettingsDAO::getSetting">getSetting</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PluginSettingsDAO.php.html#61"><abbr title="PKP\plugins\PluginSettingsDAO::settingExists">settingExists</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PluginSettingsDAO.php.html#74"><abbr title="PKP\plugins\PluginSettingsDAO::getPluginSettings">getPluginSettings</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PluginSettingsDAO.php.html#91"><abbr title="PKP\plugins\PluginSettingsDAO::updateSetting">updateSetting</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PluginSettingsDAO.php.html#109"><abbr title="PKP\plugins\PluginSettingsDAO::deleteSetting">deleteSetting</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PluginSettingsDAO.php.html#126"><abbr title="PKP\plugins\PluginSettingsDAO::deleteSettingsByPlugin">deleteSettingsByPlugin</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PluginSettingsDAO.php.html#142"><abbr title="PKP\plugins\PluginSettingsDAO::deleteByContextId">deleteByContextId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PluginSettingsDAO.php.html#154"><abbr title="PKP\plugins\PluginSettingsDAO::_performReplacement">_performReplacement</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PluginSettingsDAO.php.html#170"><abbr title="PKP\plugins\PluginSettingsDAO::_buildObject">_buildObject</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PluginSettingsDAO.php.html#198"><abbr title="PKP\plugins\PluginSettingsDAO::installSettings">installSettings</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ReportPlugin.php.html#32"><abbr title="PKP\plugins\ReportPlugin::getActions">getActions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ReportPlugin.php.html#62"><abbr title="PKP\plugins\ReportPlugin::display">display</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThemePlugin.php.html#92"><abbr title="PKP\plugins\ThemePlugin::register">register</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThemePlugin.php.html#120"><abbr title="PKP\plugins\ThemePlugin::themeRegistered">themeRegistered</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThemePlugin.php.html#137"><abbr title="PKP\plugins\ThemePlugin::init">init</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThemePlugin.php.html#145"><abbr title="PKP\plugins\ThemePlugin::initAfter">initAfter</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThemePlugin.php.html#161"><abbr title="PKP\plugins\ThemePlugin::isActive">isActive</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThemePlugin.php.html#198"><abbr title="PKP\plugins\ThemePlugin::addStyle">addStyle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThemePlugin.php.html#236"><abbr title="PKP\plugins\ThemePlugin::modifyStyle">modifyStyle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThemePlugin.php.html#264"><abbr title="PKP\plugins\ThemePlugin::removeStyle">removeStyle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThemePlugin.php.html#281"><abbr title="PKP\plugins\ThemePlugin::getStyle">getStyle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThemePlugin.php.html#313"><abbr title="PKP\plugins\ThemePlugin::addScript">addScript</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThemePlugin.php.html#334"><abbr title="PKP\plugins\ThemePlugin::modifyScript">modifyScript</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThemePlugin.php.html#356"><abbr title="PKP\plugins\ThemePlugin::removeScript">removeScript</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThemePlugin.php.html#373"><abbr title="PKP\plugins\ThemePlugin::getScript">getScript</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThemePlugin.php.html#404"><abbr title="PKP\plugins\ThemePlugin::addOption">addOption</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThemePlugin.php.html#466"><abbr title="PKP\plugins\ThemePlugin::getOption">getOption</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThemePlugin.php.html#504"><abbr title="PKP\plugins\ThemePlugin::getOptionConfig">getOptionConfig</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThemePlugin.php.html#521"><abbr title="PKP\plugins\ThemePlugin::getOptionsConfig">getOptionsConfig</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThemePlugin.php.html#540"><abbr title="PKP\plugins\ThemePlugin::removeOption">removeOption</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThemePlugin.php.html#558"><abbr title="PKP\plugins\ThemePlugin::getOptionValues">getOptionValues</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThemePlugin.php.html#631"><abbr title="PKP\plugins\ThemePlugin::validateOptions">validateOptions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThemePlugin.php.html#644"><abbr title="PKP\plugins\ThemePlugin::saveOption">saveOption</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThemePlugin.php.html#674"><abbr title="PKP\plugins\ThemePlugin::addMenuArea">addMenuArea</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThemePlugin.php.html#690"><abbr title="PKP\plugins\ThemePlugin::removeMenuArea">removeMenuArea</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThemePlugin.php.html#708"><abbr title="PKP\plugins\ThemePlugin::getMenuAreas">getMenuAreas</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThemePlugin.php.html#720"><abbr title="PKP\plugins\ThemePlugin::setParent">setParent</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThemePlugin.php.html#736"><abbr title="PKP\plugins\ThemePlugin::_registerTemplates">_registerTemplates</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThemePlugin.php.html#755"><abbr title="PKP\plugins\ThemePlugin::_registerStyles">_registerStyles</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThemePlugin.php.html#799"><abbr title="PKP\plugins\ThemePlugin::_registerScripts">_registerScripts</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThemePlugin.php.html#826"><abbr title="PKP\plugins\ThemePlugin::_getBaseUrl">_getBaseUrl</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThemePlugin.php.html#840"><abbr title="PKP\plugins\ThemePlugin::_getBaseDir">_getBaseDir</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThemePlugin.php.html#859"><abbr title="PKP\plugins\ThemePlugin::isColourDark">isColourDark</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThemePlugin.php.html#876"><abbr title="PKP\plugins\ThemePlugin::displayUsageStatsGraph">displayUsageStatsGraph</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThemePlugin.php.html#885"><abbr title="PKP\plugins\ThemePlugin::addUsageStatsJavascriptData">addUsageStatsJavascriptData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThemePlugin.php.html#909"><abbr title="PKP\plugins\ThemePlugin::loadChartJavascript">loadChartJavascript</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThemePlugin.php.html#953"><abbr title="PKP\plugins\ThemePlugin::getAllDownloadsStats">getAllDownloadsStats</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThemePlugin.php.html#975"><abbr title="PKP\plugins\ThemePlugin::downloadStatsCacheMiss">downloadStatsCacheMiss</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThemePlugin.php.html#1004"><abbr title="PKP\plugins\ThemePlugin::getUsageStatsDisplayColor">getUsageStatsDisplayColor</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThemePlugin.php.html#1013"><abbr title="PKP\plugins\ThemePlugin::getSubmissionViewContext">getSubmissionViewContext</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="importexport/PKPImportExportDeployment.php.html#91"><abbr title="PKP\plugins\importexport\PKPImportExportDeployment::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="importexport/PKPImportExportDeployment.php.html#111"><abbr title="PKP\plugins\importexport\PKPImportExportDeployment::getSubmissionNodeName">getSubmissionNodeName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="importexport/PKPImportExportDeployment.php.html#121"><abbr title="PKP\plugins\importexport\PKPImportExportDeployment::getSubmissionsNodeName">getSubmissionsNodeName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="importexport/PKPImportExportDeployment.php.html#131"><abbr title="PKP\plugins\importexport\PKPImportExportDeployment::getRepresentationNodeName">getRepresentationNodeName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="importexport/PKPImportExportDeployment.php.html#141"><abbr title="PKP\plugins\importexport\PKPImportExportDeployment::getNamespace">getNamespace</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="importexport/PKPImportExportDeployment.php.html#151"><abbr title="PKP\plugins\importexport\PKPImportExportDeployment::getSchemaFilename">getSchemaFilename</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="importexport/PKPImportExportDeployment.php.html#165"><abbr title="PKP\plugins\importexport\PKPImportExportDeployment::setContext">setContext</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="importexport/PKPImportExportDeployment.php.html#174"><abbr title="PKP\plugins\importexport\PKPImportExportDeployment::getContext">getContext</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="importexport/PKPImportExportDeployment.php.html#182"><abbr title="PKP\plugins\importexport\PKPImportExportDeployment::setSubmission">setSubmission</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="importexport/PKPImportExportDeployment.php.html#193"><abbr title="PKP\plugins\importexport\PKPImportExportDeployment::getSubmission">getSubmission</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="importexport/PKPImportExportDeployment.php.html#201"><abbr title="PKP\plugins\importexport\PKPImportExportDeployment::setPublication">setPublication</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="importexport/PKPImportExportDeployment.php.html#214"><abbr title="PKP\plugins\importexport\PKPImportExportDeployment::getPublication">getPublication</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="importexport/PKPImportExportDeployment.php.html#225"><abbr title="PKP\plugins\importexport\PKPImportExportDeployment::addProcessedObjectId">addProcessedObjectId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="importexport/PKPImportExportDeployment.php.html#237"><abbr title="PKP\plugins\importexport\PKPImportExportDeployment::addError">addError</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="importexport/PKPImportExportDeployment.php.html#252"><abbr title="PKP\plugins\importexport\PKPImportExportDeployment::addWarning">addWarning</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="importexport/PKPImportExportDeployment.php.html#267"><abbr title="PKP\plugins\importexport\PKPImportExportDeployment::getProcessedObjectsIds">getProcessedObjectsIds</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="importexport/PKPImportExportDeployment.php.html#282"><abbr title="PKP\plugins\importexport\PKPImportExportDeployment::getProcessedObjectsErrors">getProcessedObjectsErrors</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="importexport/PKPImportExportDeployment.php.html#297"><abbr title="PKP\plugins\importexport\PKPImportExportDeployment::getProcessedObjectsWarnings">getProcessedObjectsWarnings</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="importexport/PKPImportExportDeployment.php.html#310"><abbr title="PKP\plugins\importexport\PKPImportExportDeployment::removeImportedObjects">removeImportedObjects</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="importexport/PKPImportExportDeployment.php.html#331"><abbr title="PKP\plugins\importexport\PKPImportExportDeployment::setUser">setUser</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="importexport/PKPImportExportDeployment.php.html#341"><abbr title="PKP\plugins\importexport\PKPImportExportDeployment::getUser">getUser</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="importexport/PKPImportExportDeployment.php.html#351"><abbr title="PKP\plugins\importexport\PKPImportExportDeployment::getFileDBIds">getFileDBIds</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="importexport/PKPImportExportDeployment.php.html#361"><abbr title="PKP\plugins\importexport\PKPImportExportDeployment::setFileDBIds">setFileDBIds</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="importexport/PKPImportExportDeployment.php.html#373"><abbr title="PKP\plugins\importexport\PKPImportExportDeployment::getFileDBId">getFileDBId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="importexport/PKPImportExportDeployment.php.html#387"><abbr title="PKP\plugins\importexport\PKPImportExportDeployment::setFileDBId">setFileDBId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="importexport/PKPImportExportDeployment.php.html#397"><abbr title="PKP\plugins\importexport\PKPImportExportDeployment::getSubmissionFileDBIds">getSubmissionFileDBIds</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="importexport/PKPImportExportDeployment.php.html#407"><abbr title="PKP\plugins\importexport\PKPImportExportDeployment::setSubmissionFileDBIds">setSubmissionFileDBIds</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="importexport/PKPImportExportDeployment.php.html#417"><abbr title="PKP\plugins\importexport\PKPImportExportDeployment::getSubmissionFileDBId">getSubmissionFileDBId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="importexport/PKPImportExportDeployment.php.html#431"><abbr title="PKP\plugins\importexport\PKPImportExportDeployment::setSubmissionFileDBId">setSubmissionFileDBId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="importexport/PKPImportExportDeployment.php.html#441"><abbr title="PKP\plugins\importexport\PKPImportExportDeployment::setAuthorDBIds">setAuthorDBIds</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="importexport/PKPImportExportDeployment.php.html#451"><abbr title="PKP\plugins\importexport\PKPImportExportDeployment::getAuthorDBIds">getAuthorDBIds</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="importexport/PKPImportExportDeployment.php.html#463"><abbr title="PKP\plugins\importexport\PKPImportExportDeployment::getAuthorDBId">getAuthorDBId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="importexport/PKPImportExportDeployment.php.html#478"><abbr title="PKP\plugins\importexport\PKPImportExportDeployment::setAuthorDBId">setAuthorDBId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="importexport/PKPImportExportDeployment.php.html#488"><abbr title="PKP\plugins\importexport\PKPImportExportDeployment::setImportPath">setImportPath</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="importexport/PKPImportExportDeployment.php.html#498"><abbr title="PKP\plugins\importexport\PKPImportExportDeployment::getImportPath">getImportPath</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="importexport/PKPImportExportDeployment.php.html#508"><abbr title="PKP\plugins\importexport\PKPImportExportDeployment::addImportedRootEntity">addImportedRootEntity</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="importexport/PKPImportExportDeployment.php.html#518"><abbr title="PKP\plugins\importexport\PKPImportExportDeployment::getImportedRootEntities">getImportedRootEntities</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="importexport/PKPImportExportDeployment.php.html#532"><abbr title="PKP\plugins\importexport\PKPImportExportDeployment::setExportRootEntities">setExportRootEntities</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="importexport/PKPImportExportDeployment.php.html#542"><abbr title="PKP\plugins\importexport\PKPImportExportDeployment::getExportRootEntities">getExportRootEntities</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="importexport/PKPImportExportDeployment.php.html#553"><abbr title="PKP\plugins\importexport\PKPImportExportDeployment::import">import</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="importexport/PKPImportExportDeployment.php.html#586"><abbr title="PKP\plugins\importexport\PKPImportExportDeployment::export">export</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="importexport/PKPImportExportDeployment.php.html#624"><abbr title="PKP\plugins\importexport\PKPImportExportDeployment::getXMLValidationErrors">getXMLValidationErrors</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="importexport/PKPImportExportDeployment.php.html#635"><abbr title="PKP\plugins\importexport\PKPImportExportDeployment::getObjectTypes">getObjectTypes</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="importexport/PKPImportExportDeployment.php.html#656"><abbr title="PKP\plugins\importexport\PKPImportExportDeployment::getObjectTypeString">getObjectTypeString</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="importexport/PKPImportExportDeployment.php.html#676"><abbr title="PKP\plugins\importexport\PKPImportExportDeployment::getWarningsAndErrors">getWarningsAndErrors</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="importexport/PKPImportExportDeployment.php.html#705"><abbr title="PKP\plugins\importexport\PKPImportExportDeployment::getImportedRootEntitiesWithNames">getImportedRootEntitiesWithNames</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="importexport/PKPImportExportDeployment.php.html#724"><abbr title="PKP\plugins\importexport\PKPImportExportDeployment::isProcessFailed">isProcessFailed</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="importexport/PKPImportExportFilter.php.html#41"><abbr title="PKP\plugins\importexport\PKPImportExportFilter::setDeployment">setDeployment</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="importexport/PKPImportExportFilter.php.html#51"><abbr title="PKP\plugins\importexport\PKPImportExportFilter::getDeployment">getDeployment</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="importexport/PKPImportExportFilter.php.html#65"><abbr title="PKP\plugins\importexport\PKPImportExportFilter::getFilter">getFilter</abbr></a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="ThemePlugin.php.html#558"><abbr title="PKP\plugins\ThemePlugin::getOptionValues">getOptionValues</abbr></a></td><td class="text-right">306</td></tr>
+       <tr><td><a href="PluginGalleryDAO.php.html#138"><abbr title="PKP\plugins\PluginGalleryDAO::_compatibleFromElement">_compatibleFromElement</abbr></a></td><td class="text-right">182</td></tr>
+       <tr><td><a href="PluginGalleryDAO.php.html#216"><abbr title="PKP\plugins\PluginGalleryDAO::_handleRelease">_handleRelease</abbr></a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="ThemePlugin.php.html#404"><abbr title="PKP\plugins\ThemePlugin::addOption">addOption</abbr></a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="PluginHelper.php.html#57"><abbr title="PKP\plugins\PluginHelper::extractPlugin">extractPlugin</abbr></a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="PluginHelper.php.html#178"><abbr title="PKP\plugins\PluginHelper::upgradePlugin">upgradePlugin</abbr></a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="PluginRegistry.php.html#187"><abbr title="PKP\plugins\PluginRegistry::_instantiatePlugin">_instantiatePlugin</abbr></a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="PKPPubIdPlugin.php.html#481"><abbr title="PKP\plugins\PKPPubIdPlugin::checkDuplicate">checkDuplicate</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="Plugin.php.html#450"><abbr title="PKP\plugins\Plugin::_findOverriddenTemplate">_findOverriddenTemplate</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="PluginGalleryDAO.php.html#54"><abbr title="PKP\plugins\PluginGalleryDAO::getNewestCompatible">getNewestCompatible</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="ThemePlugin.php.html#466"><abbr title="PKP\plugins\ThemePlugin::getOption">getOption</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="PluginGalleryDAO.php.html#190"><abbr title="PKP\plugins\PluginGalleryDAO::_handleMaintainer">_handleMaintainer</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="PluginHelper.php.html#105"><abbr title="PKP\plugins\PluginHelper::installPlugin">installPlugin</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="PluginSettingsDAO.php.html#198"><abbr title="PKP\plugins\PluginSettingsDAO::installSettings">installSettings</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="ThemePlugin.php.html#236"><abbr title="PKP\plugins\ThemePlugin::modifyStyle">modifyStyle</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="GalleryPlugin.php.html#356"><abbr title="PKP\plugins\GalleryPlugin::getCurrentStatus">getCurrentStatus</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="Hook.php.html#145"><abbr title="PKP\plugins\Hook::run">run</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="PKPPubIdPlugin.php.html#42"><abbr title="PKP\plugins\PKPPubIdPlugin::register">register</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="PKPPubIdPlugin.php.html#93"><abbr title="PKP\plugins\PKPPubIdPlugin::manage">manage</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="PKPPubIdPluginHelper.php.html#151"><abbr title="PKP\plugins\PKPPubIdPluginHelper::execute">execute</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="PluginGalleryDAO.php.html#272"><abbr title="PKP\plugins\PluginGalleryDAO::_handleCompatibility">_handleCompatibility</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="ThemePlugin.php.html#198"><abbr title="PKP\plugins\ThemePlugin::addStyle">addStyle</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="ThemePlugin.php.html#644"><abbr title="PKP\plugins\ThemePlugin::saveOption">saveOption</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="ThemePlugin.php.html#755"><abbr title="PKP\plugins\ThemePlugin::_registerStyles">_registerStyles</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="PKPPubIdPlugin.php.html#304"><abbr title="PKP\plugins\PKPPubIdPlugin::verifyData">verifyData</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="PKPPubIdPluginHelper.php.html#33"><abbr title="PKP\plugins\PKPPubIdPluginHelper::validate">validate</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="PKPPubIdPluginHelper.php.html#94"><abbr title="PKP\plugins\PKPPubIdPluginHelper::init">init</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="PKPPubIdPluginHelper.php.html#182"><abbr title="PKP\plugins\PKPPubIdPluginHelper::assignPubId">assignPubId</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Plugin.php.html#114"><abbr title="PKP\plugins\Plugin::register">register</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Plugin.php.html#350"><abbr title="PKP\plugins\Plugin::getTemplateResource">getTemplateResource</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Plugin.php.html#616"><abbr title="PKP\plugins\Plugin::installFilters">installFilters</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="PluginRegistry.php.html#233"><abbr title="PKP\plugins\PluginRegistry::_loadFromDisk">_loadFromDisk</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="importexport/PKPImportExportDeployment.php.html#310"><abbr title="PKP\plugins\importexport\PKPImportExportDeployment::removeImportedObjects">removeImportedObjects</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="importexport/PKPImportExportDeployment.php.html#586"><abbr title="PKP\plugins\importexport\PKPImportExportDeployment::export">export</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="importexport/PKPImportExportDeployment.php.html#676"><abbr title="PKP\plugins\importexport\PKPImportExportDeployment::getWarningsAndErrors">getWarningsAndErrors</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="ImportExportPlugin.php.html#226"><abbr title="PKP\plugins\ImportExportPlugin::displayXMLValidationErrors">displayXMLValidationErrors</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="ImportExportPlugin.php.html#276"><abbr title="PKP\plugins\ImportExportPlugin::getExportSubmissionsDeployment">getExportSubmissionsDeployment</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="PKPPubIdPlugin.php.html#434"><abbr title="PKP\plugins\PKPPubIdPlugin::getPubObjectType">getPubObjectType</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="PKPPubIdPluginHelper.php.html#57"><abbr title="PKP\plugins\PKPPubIdPluginHelper::setLinkActions">setLinkActions</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="PKPPubIdPluginHelper.php.html#206"><abbr title="PKP\plugins\PKPPubIdPluginHelper::clearPubId">clearPubId</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Plugin.php.html#418"><abbr title="PKP\plugins\Plugin::_overridePluginTemplates">_overridePluginTemplates</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Plugin.php.html#568"><abbr title="PKP\plugins\Plugin::installEmailTemplates">installEmailTemplates</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="PluginSettingsDAO.php.html#170"><abbr title="PKP\plugins\PluginSettingsDAO::_buildObject">_buildObject</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="ThemePlugin.php.html#1013"><abbr title="PKP\plugins\ThemePlugin::getSubmissionViewContext">getSubmissionViewContext</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="GalleryPlugin.php.html#111"><abbr title="PKP\plugins\GalleryPlugin::getVersion">getVersion</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Hook.php.html#42"><abbr title="PKP\plugins\Hook::getHooks">getHooks</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="ImportExportPlugin.php.html#144"><abbr title="PKP\plugins\ImportExportPlugin::isRelativePath">isRelativePath</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="ImportExportPlugin.php.html#163"><abbr title="PKP\plugins\ImportExportPlugin::isAllowedMethod">isAllowedMethod</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="ImportExportPlugin.php.html#299"><abbr title="PKP\plugins\ImportExportPlugin::exportResultXML">exportResultXML</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="ImportExportPlugin.php.html#321"><abbr title="PKP\plugins\ImportExportPlugin::getExportTemplateResult">getExportTemplateResult</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="LazyLoadPlugin.php.html#73"><abbr title="PKP\plugins\LazyLoadPlugin::getEnabled">getEnabled</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="OAIMetadataFormatPlugin.php.html#26"><abbr title="PKP\plugins\OAIMetadataFormatPlugin::register">register</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="PKPPubIdPlugin.php.html#364"><abbr title="PKP\plugins\PKPPubIdPlugin::canBeAssigned">canBeAssigned</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="PKPPubIdPlugin.php.html#507"><abbr title="PKP\plugins\PKPPubIdPlugin::getContext">getContext</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="PKPPubIdPluginHelper.php.html#77"><abbr title="PKP\plugins\PKPPubIdPluginHelper::addJavaScripts">addJavaScripts</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="PKPPubIdPluginHelper.php.html#114"><abbr title="PKP\plugins\PKPPubIdPluginHelper::readInputData">readInputData</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="PKPPubIdPluginHelper.php.html#132"><abbr title="PKP\plugins\PKPPubIdPluginHelper::readAssignInputData">readAssignInputData</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Plugin.php.html#379"><abbr title="PKP\plugins\Plugin::getTemplatePath">getTemplatePath</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Plugin.php.html#479"><abbr title="PKP\plugins\Plugin::addLocaleData">addLocaleData</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Plugin.php.html#495"><abbr title="PKP\plugins\Plugin::getSetting">getSetting</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Plugin.php.html#656"><abbr title="PKP\plugins\Plugin::updateSchema">updateSchema</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Plugin.php.html#680"><abbr title="PKP\plugins\Plugin::smartyPluginUrl">smartyPluginUrl</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="PluginRegistry.php.html#70"><abbr title="PKP\plugins\PluginRegistry::register">register</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="PluginRegistry.php.html#109"><abbr title="PKP\plugins\PluginRegistry::loadCategory">loadCategory</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="PluginRegistry.php.html#216"><abbr title="PKP\plugins\PluginRegistry::_loadFromDatabase">_loadFromDatabase</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="PluginRegistry.php.html#257"><abbr title="PKP\plugins\PluginRegistry::_deprecatedInstantiatePlugin">_deprecatedInstantiatePlugin</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="ThemePlugin.php.html#92"><abbr title="PKP\plugins\ThemePlugin::register">register</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="ThemePlugin.php.html#161"><abbr title="PKP\plugins\ThemePlugin::isActive">isActive</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="ThemePlugin.php.html#264"><abbr title="PKP\plugins\ThemePlugin::removeStyle">removeStyle</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="ThemePlugin.php.html#281"><abbr title="PKP\plugins\ThemePlugin::getStyle">getStyle</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="ThemePlugin.php.html#313"><abbr title="PKP\plugins\ThemePlugin::addScript">addScript</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="ThemePlugin.php.html#334"><abbr title="PKP\plugins\ThemePlugin::modifyScript">modifyScript</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="ThemePlugin.php.html#356"><abbr title="PKP\plugins\ThemePlugin::removeScript">removeScript</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="ThemePlugin.php.html#373"><abbr title="PKP\plugins\ThemePlugin::getScript">getScript</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="ThemePlugin.php.html#504"><abbr title="PKP\plugins\ThemePlugin::getOptionConfig">getOptionConfig</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="ThemePlugin.php.html#540"><abbr title="PKP\plugins\ThemePlugin::removeOption">removeOption</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="ThemePlugin.php.html#690"><abbr title="PKP\plugins\ThemePlugin::removeMenuArea">removeMenuArea</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="ThemePlugin.php.html#736"><abbr title="PKP\plugins\ThemePlugin::_registerTemplates">_registerTemplates</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="ThemePlugin.php.html#799"><abbr title="PKP\plugins\ThemePlugin::_registerScripts">_registerScripts</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="ThemePlugin.php.html#975"><abbr title="PKP\plugins\ThemePlugin::downloadStatsCacheMiss">downloadStatsCacheMiss</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="importexport/PKPImportExportDeployment.php.html#656"><abbr title="PKP\plugins\importexport\PKPImportExportDeployment::getObjectTypeString">getObjectTypeString</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="importexport/PKPImportExportDeployment.php.html#705"><abbr title="PKP\plugins\importexport\PKPImportExportDeployment::getImportedRootEntitiesWithNames">getImportedRootEntitiesWithNames</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="importexport/PKPImportExportDeployment.php.html#724"><abbr title="PKP\plugins\importexport\PKPImportExportDeployment::isProcessFailed">isProcessFailed</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="importexport/PKPImportExportFilter.php.html#65"><abbr title="PKP\plugins\importexport\PKPImportExportFilter::getFilter">getFilter</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="BlockPlugin.php.html#33"><abbr title="PKP\plugins\BlockPlugin::getEnabled">getEnabled</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="BlockPlugin.php.html#44"><abbr title="PKP\plugins\BlockPlugin::setEnabled">setEnabled</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="BlockPlugin.php.html#69"><abbr title="PKP\plugins\BlockPlugin::getContents">getContents</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Hook.php.html#82"><abbr title="PKP\plugins\Hook::add">add</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Hook.php.html#116"><abbr title="PKP\plugins\Hook::call">call</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Hook.php.html#184"><abbr title="PKP\plugins\Hook::rememberCalledHooks">rememberCalledHooks</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Hook.php.html#201"><abbr title="PKP\plugins\Hook::resetCalledHooks">resetCalledHooks</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ImportExportPlugin.php.html#209"><abbr title="PKP\plugins\ImportExportPlugin::getExportFileName">getExportFileName</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ImportExportPlugin.php.html#388"><abbr title="PKP\plugins\ImportExportPlugin::getImportedFilePath">getImportedFilePath</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ImportExportPlugin.php.html#413"><abbr title="PKP\plugins\ImportExportPlugin::getBounceTab">getBounceTab</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ImportExportPlugin.php.html#436"><abbr title="PKP\plugins\ImportExportPlugin::downloadExportedFile">downloadExportedFile</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="LazyLoadPlugin.php.html#32"><abbr title="PKP\plugins\LazyLoadPlugin::register">register</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="LazyLoadPlugin.php.html#89"><abbr title="PKP\plugins\LazyLoadPlugin::setEnabled">setEnabled</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="LazyLoadPlugin.php.html#118"><abbr title="PKP\plugins\LazyLoadPlugin::getCurrentContextId">getCurrentContextId</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="MetadataPlugin.php.html#29"><abbr title="PKP\plugins\MetadataPlugin::register">register</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="OAIMetadataFormatPlugin.php.html#61"><abbr title="PKP\plugins\OAIMetadataFormatPlugin::callback_formatRequest">callback_formatRequest</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="PKPPubIdPlugin.php.html#71"><abbr title="PKP\plugins\PKPPubIdPlugin::getActions">getActions</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="PKPPubIdPlugin.php.html#393"><abbr title="PKP\plugins\PKPPubIdPlugin::addToSchema">addToSchema</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="PKPPubIdPlugin.php.html#419"><abbr title="PKP\plugins\PKPPubIdPlugin::getAdditionalFieldNames">getAdditionalFieldNames</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="PaymethodPlugin.php.html#23"><abbr title="PKP\plugins\PaymethodPlugin::register">register</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Plugin.php.html#393"><abbr title="PKP\plugins\Plugin::_registerTemplateResource">_registerTemplateResource</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Plugin.php.html#600"><abbr title="PKP\plugins\Plugin::installLocale">installLocale</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Plugin.php.html#698"><abbr title="PKP\plugins\Plugin::getCurrentVersion">getCurrentVersion</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Plugin.php.html#718"><abbr title="PKP\plugins\Plugin::getRequest">getRequest</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="PluginGalleryDAO.php.html#78"><abbr title="PKP\plugins\PluginGalleryDAO::getExternalDocument">getExternalDocument</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="PluginRegistry.php.html#38"><abbr title="PKP\plugins\PluginRegistry::getPlugins">getPlugins</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="PluginRegistry.php.html#149"><abbr title="PKP\plugins\PluginRegistry::loadPlugin">loadPlugin</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="PluginSettingsDAO.php.html#30"><abbr title="PKP\plugins\PluginSettingsDAO::_getCacheId">_getCacheId</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="PluginSettingsDAO.php.html#61"><abbr title="PKP\plugins\PluginSettingsDAO::settingExists">settingExists</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="PluginSettingsDAO.php.html#154"><abbr title="PKP\plugins\PluginSettingsDAO::_performReplacement">_performReplacement</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ReportPlugin.php.html#32"><abbr title="PKP\plugins\ReportPlugin::getActions">getActions</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ThemePlugin.php.html#120"><abbr title="PKP\plugins\ThemePlugin::themeRegistered">themeRegistered</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ThemePlugin.php.html#521"><abbr title="PKP\plugins\ThemePlugin::getOptionsConfig">getOptionsConfig</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ThemePlugin.php.html#674"><abbr title="PKP\plugins\ThemePlugin::addMenuArea">addMenuArea</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ThemePlugin.php.html#708"><abbr title="PKP\plugins\ThemePlugin::getMenuAreas">getMenuAreas</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ThemePlugin.php.html#720"><abbr title="PKP\plugins\ThemePlugin::setParent">setParent</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ThemePlugin.php.html#826"><abbr title="PKP\plugins\ThemePlugin::_getBaseUrl">_getBaseUrl</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ThemePlugin.php.html#840"><abbr title="PKP\plugins\ThemePlugin::_getBaseDir">_getBaseDir</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ThemePlugin.php.html#953"><abbr title="PKP\plugins\ThemePlugin::getAllDownloadsStats">getAllDownloadsStats</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="importexport/PKPImportExportDeployment.php.html#182"><abbr title="PKP\plugins\importexport\PKPImportExportDeployment::setSubmission">setSubmission</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="importexport/PKPImportExportDeployment.php.html#201"><abbr title="PKP\plugins\importexport\PKPImportExportDeployment::setPublication">setPublication</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="importexport/PKPImportExportDeployment.php.html#237"><abbr title="PKP\plugins\importexport\PKPImportExportDeployment::addError">addError</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="importexport/PKPImportExportDeployment.php.html#252"><abbr title="PKP\plugins\importexport\PKPImportExportDeployment::addWarning">addWarning</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="importexport/PKPImportExportDeployment.php.html#267"><abbr title="PKP\plugins\importexport\PKPImportExportDeployment::getProcessedObjectsIds">getProcessedObjectsIds</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="importexport/PKPImportExportDeployment.php.html#282"><abbr title="PKP\plugins\importexport\PKPImportExportDeployment::getProcessedObjectsErrors">getProcessedObjectsErrors</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="importexport/PKPImportExportDeployment.php.html#297"><abbr title="PKP\plugins\importexport\PKPImportExportDeployment::getProcessedObjectsWarnings">getProcessedObjectsWarnings</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="importexport/PKPImportExportDeployment.php.html#373"><abbr title="PKP\plugins\importexport\PKPImportExportDeployment::getFileDBId">getFileDBId</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="importexport/PKPImportExportDeployment.php.html#417"><abbr title="PKP\plugins\importexport\PKPImportExportDeployment::getSubmissionFileDBId">getSubmissionFileDBId</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="importexport/PKPImportExportDeployment.php.html#463"><abbr title="PKP\plugins\importexport\PKPImportExportDeployment::getAuthorDBId">getAuthorDBId</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="importexport/PKPImportExportDeployment.php.html#518"><abbr title="PKP\plugins\importexport\PKPImportExportDeployment::getImportedRootEntities">getImportedRootEntities</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="importexport/PKPImportExportDeployment.php.html#553"><abbr title="PKP\plugins\importexport\PKPImportExportDeployment::import">import</abbr></a></td><td class="text-right">6</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 11.0.5</a> using <a href="https://www.php.net/" target="_top">PHP 8.3.11</a> and <a href="https://phpunit.de/">PHPUnit 11.2.8</a> at Wed Sep 4 13:31:09 UTC 2024.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../../_js/jquery.min.js?v=11.0.5" type="text/javascript"></script>
+  <script src="../../_js/d3.min.js?v=11.0.5" type="text/javascript"></script>
+  <script src="../../_js/nv.d3.min.js?v=11.0.5" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([21,0,0,0,0,0,0,0,0,0,0,1], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([314,0,0,0,0,0,0,0,0,0,0,0], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[0,7,"<a href=\"BlockPlugin.php.html#21\">PKP\\plugins\\BlockPlugin<\/a>"],[0,46,"<a href=\"GalleryPlugin.php.html#24\">PKP\\plugins\\GalleryPlugin<\/a>"],[0,6,"<a href=\"GatewayPlugin.php.html#22\">PKP\\plugins\\GatewayPlugin<\/a>"],[100,0,"<a href=\"GenericPlugin.php.html#19\">PKP\\plugins\\GenericPlugin<\/a>"],[0,21,"<a href=\"Hook.php.html#21\">PKP\\plugins\\Hook<\/a>"],[0,38,"<a href=\"ImportExportPlugin.php.html#36\">PKP\\plugins\\ImportExportPlugin<\/a>"],[0,12,"<a href=\"LazyLoadPlugin.php.html#22\">PKP\\plugins\\LazyLoadPlugin<\/a>"],[0,2,"<a href=\"MetadataPlugin.php.html#19\">PKP\\plugins\\MetadataPlugin<\/a>"],[0,8,"<a href=\"OAIMetadataFormatPlugin.php.html#19\">PKP\\plugins\\OAIMetadataFormatPlugin<\/a>"],[0,46,"<a href=\"PKPPubIdPlugin.php.html#32\">PKP\\plugins\\PKPPubIdPlugin<\/a>"],[0,38,"<a href=\"PKPPubIdPluginHelper.php.html#24\">PKP\\plugins\\PKPPubIdPluginHelper<\/a>"],[0,1,"<a href=\"PKPViewableFilePlugin.php.html#19\">PKP\\plugins\\PKPViewableFilePlugin<\/a>"],[0,3,"<a href=\"PaymethodPlugin.php.html#21\">PKP\\plugins\\PaymethodPlugin<\/a>"],[0,76,"<a href=\"Plugin.php.html#72\">PKP\\plugins\\Plugin<\/a>"],[0,51,"<a href=\"PluginGalleryDAO.php.html#32\">PKP\\plugins\\PluginGalleryDAO<\/a>"],[0,30,"<a href=\"PluginHelper.php.html#35\">PKP\\plugins\\PluginHelper<\/a>"],[0,35,"<a href=\"PluginRegistry.php.html#28\">PKP\\plugins\\PluginRegistry<\/a>"],[0,24,"<a href=\"PluginSettingsDAO.php.html#26\">PKP\\plugins\\PluginSettingsDAO<\/a>"],[0,2,"<a href=\"ReportPlugin.php.html#24\">PKP\\plugins\\ReportPlugin<\/a>"],[0,131,"<a href=\"ThemePlugin.php.html#36\">PKP\\plugins\\ThemePlugin<\/a>"],[0,77,"<a href=\"importexport\/PKPImportExportDeployment.php.html#35\">PKP\\plugins\\importexport\\PKPImportExportDeployment<\/a>"],[0,5,"<a href=\"importexport\/PKPImportExportFilter.php.html#28\">PKP\\plugins\\importexport\\PKPImportExportFilter<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[0,2,"<a href=\"BlockPlugin.php.html#33\">PKP\\plugins\\BlockPlugin::getEnabled<\/a>"],[0,2,"<a href=\"BlockPlugin.php.html#44\">PKP\\plugins\\BlockPlugin::setEnabled<\/a>"],[0,1,"<a href=\"BlockPlugin.php.html#56\">PKP\\plugins\\BlockPlugin::getBlockTemplateFilename<\/a>"],[0,2,"<a href=\"BlockPlugin.php.html#69\">PKP\\plugins\\BlockPlugin::getContents<\/a>"],[0,1,"<a href=\"GalleryPlugin.php.html#35\">PKP\\plugins\\GalleryPlugin::getLocalizedName<\/a>"],[0,1,"<a href=\"GalleryPlugin.php.html#43\">PKP\\plugins\\GalleryPlugin::setName<\/a>"],[0,1,"<a href=\"GalleryPlugin.php.html#51\">PKP\\plugins\\GalleryPlugin::getName<\/a>"],[0,1,"<a href=\"GalleryPlugin.php.html#59\">PKP\\plugins\\GalleryPlugin::getHomepage<\/a>"],[0,1,"<a href=\"GalleryPlugin.php.html#67\">PKP\\plugins\\GalleryPlugin::setHomepage<\/a>"],[0,1,"<a href=\"GalleryPlugin.php.html#76\">PKP\\plugins\\GalleryPlugin::getProduct<\/a>"],[0,1,"<a href=\"GalleryPlugin.php.html#84\">PKP\\plugins\\GalleryPlugin::setProduct<\/a>"],[0,1,"<a href=\"GalleryPlugin.php.html#92\">PKP\\plugins\\GalleryPlugin::getCategory<\/a>"],[0,1,"<a href=\"GalleryPlugin.php.html#100\">PKP\\plugins\\GalleryPlugin::setCategory<\/a>"],[0,3,"<a href=\"GalleryPlugin.php.html#111\">PKP\\plugins\\GalleryPlugin::getVersion<\/a>"],[0,1,"<a href=\"GalleryPlugin.php.html#127\">PKP\\plugins\\GalleryPlugin::setVersion<\/a>"],[0,1,"<a href=\"GalleryPlugin.php.html#135\">PKP\\plugins\\GalleryPlugin::getDate<\/a>"],[0,1,"<a href=\"GalleryPlugin.php.html#143\">PKP\\plugins\\GalleryPlugin::setDate<\/a>"],[0,1,"<a href=\"GalleryPlugin.php.html#151\">PKP\\plugins\\GalleryPlugin::getContactName<\/a>"],[0,1,"<a href=\"GalleryPlugin.php.html#159\">PKP\\plugins\\GalleryPlugin::setContactName<\/a>"],[0,1,"<a href=\"GalleryPlugin.php.html#167\">PKP\\plugins\\GalleryPlugin::getContactInstitutionName<\/a>"],[0,1,"<a href=\"GalleryPlugin.php.html#175\">PKP\\plugins\\GalleryPlugin::setContactInstitutionName<\/a>"],[0,1,"<a href=\"GalleryPlugin.php.html#183\">PKP\\plugins\\GalleryPlugin::getContactEmail<\/a>"],[0,1,"<a href=\"GalleryPlugin.php.html#191\">PKP\\plugins\\GalleryPlugin::setContactEmail<\/a>"],[0,1,"<a href=\"GalleryPlugin.php.html#199\">PKP\\plugins\\GalleryPlugin::getSummary<\/a>"],[0,1,"<a href=\"GalleryPlugin.php.html#207\">PKP\\plugins\\GalleryPlugin::setSummary<\/a>"],[0,1,"<a href=\"GalleryPlugin.php.html#215\">PKP\\plugins\\GalleryPlugin::getDescription<\/a>"],[0,1,"<a href=\"GalleryPlugin.php.html#223\">PKP\\plugins\\GalleryPlugin::setDescription<\/a>"],[0,1,"<a href=\"GalleryPlugin.php.html#231\">PKP\\plugins\\GalleryPlugin::getInstallationInstructions<\/a>"],[0,1,"<a href=\"GalleryPlugin.php.html#239\">PKP\\plugins\\GalleryPlugin::setInstallationInstructions<\/a>"],[0,1,"<a href=\"GalleryPlugin.php.html#247\">PKP\\plugins\\GalleryPlugin::getReleaseDescription<\/a>"],[0,1,"<a href=\"GalleryPlugin.php.html#255\">PKP\\plugins\\GalleryPlugin::setReleaseDescription<\/a>"],[0,1,"<a href=\"GalleryPlugin.php.html#263\">PKP\\plugins\\GalleryPlugin::getReleaseMD5<\/a>"],[0,1,"<a href=\"GalleryPlugin.php.html#271\">PKP\\plugins\\GalleryPlugin::setReleaseMD5<\/a>"],[0,1,"<a href=\"GalleryPlugin.php.html#279\">PKP\\plugins\\GalleryPlugin::getReleaseCertifications<\/a>"],[0,1,"<a href=\"GalleryPlugin.php.html#287\">PKP\\plugins\\GalleryPlugin::setReleaseCertifications<\/a>"],[0,1,"<a href=\"GalleryPlugin.php.html#295\">PKP\\plugins\\GalleryPlugin::getReleasePackage<\/a>"],[0,1,"<a href=\"GalleryPlugin.php.html#303\">PKP\\plugins\\GalleryPlugin::setReleasePackage<\/a>"],[0,1,"<a href=\"GalleryPlugin.php.html#311\">PKP\\plugins\\GalleryPlugin::getLocalizedSummary<\/a>"],[0,1,"<a href=\"GalleryPlugin.php.html#319\">PKP\\plugins\\GalleryPlugin::getLocalizedInstallationInstructions<\/a>"],[0,1,"<a href=\"GalleryPlugin.php.html#327\">PKP\\plugins\\GalleryPlugin::getLocalizedDescription<\/a>"],[0,1,"<a href=\"GalleryPlugin.php.html#335\">PKP\\plugins\\GalleryPlugin::getLocalizedReleaseDescription<\/a>"],[0,1,"<a href=\"GalleryPlugin.php.html#344\">PKP\\plugins\\GalleryPlugin::getInstalledVersion<\/a>"],[0,6,"<a href=\"GalleryPlugin.php.html#356\">PKP\\plugins\\GalleryPlugin::getCurrentStatus<\/a>"],[0,0,"<a href=\"GatewayPlugin.php.html#30\">PKP\\plugins\\GatewayPlugin::fetch<\/a>"],[0,1,"<a href=\"GatewayPlugin.php.html#37\">PKP\\plugins\\GatewayPlugin::getCanEnable<\/a>"],[0,1,"<a href=\"GatewayPlugin.php.html#47\">PKP\\plugins\\GatewayPlugin::getCanDisable<\/a>"],[0,1,"<a href=\"GatewayPlugin.php.html#57\">PKP\\plugins\\GatewayPlugin::getEnabled<\/a>"],[0,1,"<a href=\"GatewayPlugin.php.html#67\">PKP\\plugins\\GatewayPlugin::setEnabled<\/a>"],[0,1,"<a href=\"GatewayPlugin.php.html#76\">PKP\\plugins\\GatewayPlugin::getCurrentContextId<\/a>"],[0,1,"<a href=\"GatewayPlugin.php.html#89\">PKP\\plugins\\GatewayPlugin::getPolicies<\/a>"],[0,3,"<a href=\"Hook.php.html#42\">PKP\\plugins\\Hook::getHooks<\/a>"],[0,1,"<a href=\"Hook.php.html#61\">PKP\\plugins\\Hook::addUnsupportedHooks<\/a>"],[0,1,"<a href=\"Hook.php.html#69\">PKP\\plugins\\Hook::clear<\/a>"],[0,2,"<a href=\"Hook.php.html#82\">PKP\\plugins\\Hook::add<\/a>"],[0,1,"<a href=\"Hook.php.html#97\">PKP\\plugins\\Hook::register<\/a>"],[0,2,"<a href=\"Hook.php.html#116\">PKP\\plugins\\Hook::call<\/a>"],[0,6,"<a href=\"Hook.php.html#145\">PKP\\plugins\\Hook::run<\/a>"],[0,2,"<a href=\"Hook.php.html#184\">PKP\\plugins\\Hook::rememberCalledHooks<\/a>"],[0,2,"<a href=\"Hook.php.html#201\">PKP\\plugins\\Hook::resetCalledHooks<\/a>"],[0,1,"<a href=\"Hook.php.html#213\">PKP\\plugins\\Hook::getCalledHooks<\/a>"],[0,0,"<a href=\"ImportExportPlugin.php.html#52\">PKP\\plugins\\ImportExportPlugin::executeCLI<\/a>"],[0,0,"<a href=\"ImportExportPlugin.php.html#59\">PKP\\plugins\\ImportExportPlugin::usage<\/a>"],[0,1,"<a href=\"ImportExportPlugin.php.html#64\">PKP\\plugins\\ImportExportPlugin::supportsCLI<\/a>"],[0,1,"<a href=\"ImportExportPlugin.php.html#72\">PKP\\plugins\\ImportExportPlugin::getActions<\/a>"],[0,1,"<a href=\"ImportExportPlugin.php.html#101\">PKP\\plugins\\ImportExportPlugin::display<\/a>"],[0,1,"<a href=\"ImportExportPlugin.php.html#132\">PKP\\plugins\\ImportExportPlugin::pluginUrl<\/a>"],[0,3,"<a href=\"ImportExportPlugin.php.html#144\">PKP\\plugins\\ImportExportPlugin::isRelativePath<\/a>"],[0,3,"<a href=\"ImportExportPlugin.php.html#163\">PKP\\plugins\\ImportExportPlugin::isAllowedMethod<\/a>"],[0,1,"<a href=\"ImportExportPlugin.php.html#184\">PKP\\plugins\\ImportExportPlugin::getPluginSettingsPrefix<\/a>"],[0,1,"<a href=\"ImportExportPlugin.php.html#194\">PKP\\plugins\\ImportExportPlugin::getExportPath<\/a>"],[0,2,"<a href=\"ImportExportPlugin.php.html#209\">PKP\\plugins\\ImportExportPlugin::getExportFileName<\/a>"],[0,4,"<a href=\"ImportExportPlugin.php.html#226\">PKP\\plugins\\ImportExportPlugin::displayXMLValidationErrors<\/a>"],[0,1,"<a href=\"ImportExportPlugin.php.html#254\">PKP\\plugins\\ImportExportPlugin::setDeployment<\/a>"],[0,1,"<a href=\"ImportExportPlugin.php.html#264\">PKP\\plugins\\ImportExportPlugin::getDeployment<\/a>"],[0,4,"<a href=\"ImportExportPlugin.php.html#276\">PKP\\plugins\\ImportExportPlugin::getExportSubmissionsDeployment<\/a>"],[0,3,"<a href=\"ImportExportPlugin.php.html#299\">PKP\\plugins\\ImportExportPlugin::exportResultXML<\/a>"],[0,3,"<a href=\"ImportExportPlugin.php.html#321\">PKP\\plugins\\ImportExportPlugin::getExportTemplateResult<\/a>"],[0,1,"<a href=\"ImportExportPlugin.php.html#359\">PKP\\plugins\\ImportExportPlugin::getImportTemplateResult<\/a>"],[0,2,"<a href=\"ImportExportPlugin.php.html#388\">PKP\\plugins\\ImportExportPlugin::getImportedFilePath<\/a>"],[0,2,"<a href=\"ImportExportPlugin.php.html#413\">PKP\\plugins\\ImportExportPlugin::getBounceTab<\/a>"],[0,2,"<a href=\"ImportExportPlugin.php.html#436\">PKP\\plugins\\ImportExportPlugin::downloadExportedFile<\/a>"],[0,1,"<a href=\"ImportExportPlugin.php.html#458\">PKP\\plugins\\ImportExportPlugin::writeExportedFile<\/a>"],[0,2,"<a href=\"LazyLoadPlugin.php.html#32\">PKP\\plugins\\LazyLoadPlugin::register<\/a>"],[0,1,"<a href=\"LazyLoadPlugin.php.html#48\">PKP\\plugins\\LazyLoadPlugin::getName<\/a>"],[0,3,"<a href=\"LazyLoadPlugin.php.html#73\">PKP\\plugins\\LazyLoadPlugin::getEnabled<\/a>"],[0,2,"<a href=\"LazyLoadPlugin.php.html#89\">PKP\\plugins\\LazyLoadPlugin::setEnabled<\/a>"],[0,1,"<a href=\"LazyLoadPlugin.php.html#101\">PKP\\plugins\\LazyLoadPlugin::getCanEnable<\/a>"],[0,1,"<a href=\"LazyLoadPlugin.php.html#109\">PKP\\plugins\\LazyLoadPlugin::getCanDisable<\/a>"],[0,2,"<a href=\"LazyLoadPlugin.php.html#118\">PKP\\plugins\\LazyLoadPlugin::getCurrentContextId<\/a>"],[0,2,"<a href=\"MetadataPlugin.php.html#29\">PKP\\plugins\\MetadataPlugin::register<\/a>"],[0,0,"<a href=\"MetadataPlugin.php.html#45\">PKP\\plugins\\MetadataPlugin::supportsFormat<\/a>"],[0,0,"<a href=\"MetadataPlugin.php.html#53\">PKP\\plugins\\MetadataPlugin::getSchemaObject<\/a>"],[0,3,"<a href=\"OAIMetadataFormatPlugin.php.html#26\">PKP\\plugins\\OAIMetadataFormatPlugin::register<\/a>"],[0,1,"<a href=\"OAIMetadataFormatPlugin.php.html#41\">PKP\\plugins\\OAIMetadataFormatPlugin::getMetadataPrefix<\/a>"],[0,1,"<a href=\"OAIMetadataFormatPlugin.php.html#46\">PKP\\plugins\\OAIMetadataFormatPlugin::getSchema<\/a>"],[0,1,"<a href=\"OAIMetadataFormatPlugin.php.html#51\">PKP\\plugins\\OAIMetadataFormatPlugin::getNamespace<\/a>"],[0,0,"<a href=\"OAIMetadataFormatPlugin.php.html#59\">PKP\\plugins\\OAIMetadataFormatPlugin::getFormatClass<\/a>"],[0,2,"<a href=\"OAIMetadataFormatPlugin.php.html#61\">PKP\\plugins\\OAIMetadataFormatPlugin::callback_formatRequest<\/a>"],[0,6,"<a href=\"PKPPubIdPlugin.php.html#42\">PKP\\plugins\\PKPPubIdPlugin::register<\/a>"],[0,2,"<a href=\"PKPPubIdPlugin.php.html#71\">PKP\\plugins\\PKPPubIdPlugin::getActions<\/a>"],[0,6,"<a href=\"PKPPubIdPlugin.php.html#93\">PKP\\plugins\\PKPPubIdPlugin::manage<\/a>"],[0,0,"<a href=\"PKPPubIdPlugin.php.html#135\">PKP\\plugins\\PKPPubIdPlugin::getPubId<\/a>"],[0,0,"<a href=\"PKPPubIdPlugin.php.html#145\">PKP\\plugins\\PKPPubIdPlugin::constructPubId<\/a>"],[0,0,"<a href=\"PKPPubIdPlugin.php.html#153\">PKP\\plugins\\PKPPubIdPlugin::getPubIdType<\/a>"],[0,0,"<a href=\"PKPPubIdPlugin.php.html#160\">PKP\\plugins\\PKPPubIdPlugin::getPubIdDisplayType<\/a>"],[0,0,"<a href=\"PKPPubIdPlugin.php.html#167\">PKP\\plugins\\PKPPubIdPlugin::getPubIdFullName<\/a>"],[0,0,"<a href=\"PKPPubIdPlugin.php.html#176\">PKP\\plugins\\PKPPubIdPlugin::getResolvingURL<\/a>"],[0,0,"<a href=\"PKPPubIdPlugin.php.html#185\">PKP\\plugins\\PKPPubIdPlugin::getPubIdMetadataFile<\/a>"],[0,1,"<a href=\"PKPPubIdPlugin.php.html#193\">PKP\\plugins\\PKPPubIdPlugin::addJavaScript<\/a>"],[0,0,"<a href=\"PKPPubIdPlugin.php.html#204\">PKP\\plugins\\PKPPubIdPlugin::getPubIdAssignFile<\/a>"],[0,0,"<a href=\"PKPPubIdPlugin.php.html#211\">PKP\\plugins\\PKPPubIdPlugin::instantiateSettingsForm<\/a>"],[0,0,"<a href=\"PKPPubIdPlugin.php.html#219\">PKP\\plugins\\PKPPubIdPlugin::getFormFieldNames<\/a>"],[0,0,"<a href=\"PKPPubIdPlugin.php.html#226\">PKP\\plugins\\PKPPubIdPlugin::getAssignFormFieldName<\/a>"],[0,0,"<a href=\"PKPPubIdPlugin.php.html#233\">PKP\\plugins\\PKPPubIdPlugin::getPrefixFieldName<\/a>"],[0,0,"<a href=\"PKPPubIdPlugin.php.html#240\">PKP\\plugins\\PKPPubIdPlugin::getSuffixFieldName<\/a>"],[0,0,"<a href=\"PKPPubIdPlugin.php.html#248\">PKP\\plugins\\PKPPubIdPlugin::getLinkActions<\/a>"],[0,0,"<a href=\"PKPPubIdPlugin.php.html#255\">PKP\\plugins\\PKPPubIdPlugin::getSuffixPatternsFieldNames<\/a>"],[0,0,"<a href=\"PKPPubIdPlugin.php.html#262\">PKP\\plugins\\PKPPubIdPlugin::getDAOFieldNames<\/a>"],[0,1,"<a href=\"PKPPubIdPlugin.php.html#269\">PKP\\plugins\\PKPPubIdPlugin::getPubObjectTypes<\/a>"],[0,0,"<a href=\"PKPPubIdPlugin.php.html#285\">PKP\\plugins\\PKPPubIdPlugin::isObjectTypeEnabled<\/a>"],[0,0,"<a href=\"PKPPubIdPlugin.php.html#292\">PKP\\plugins\\PKPPubIdPlugin::getNotUniqueErrorMsg<\/a>"],[0,5,"<a href=\"PKPPubIdPlugin.php.html#304\">PKP\\plugins\\PKPPubIdPlugin::verifyData<\/a>"],[0,1,"<a href=\"PKPPubIdPlugin.php.html#334\">PKP\\plugins\\PKPPubIdPlugin::validatePubId<\/a>"],[0,1,"<a href=\"PKPPubIdPlugin.php.html#345\">PKP\\plugins\\PKPPubIdPlugin::getDAOs<\/a>"],[0,3,"<a href=\"PKPPubIdPlugin.php.html#364\">PKP\\plugins\\PKPPubIdPlugin::canBeAssigned<\/a>"],[0,2,"<a href=\"PKPPubIdPlugin.php.html#393\">PKP\\plugins\\PKPPubIdPlugin::addToSchema<\/a>"],[0,2,"<a href=\"PKPPubIdPlugin.php.html#419\">PKP\\plugins\\PKPPubIdPlugin::getAdditionalFieldNames<\/a>"],[0,4,"<a href=\"PKPPubIdPlugin.php.html#434\">PKP\\plugins\\PKPPubIdPlugin::getPubObjectType<\/a>"],[0,1,"<a href=\"PKPPubIdPlugin.php.html#458\">PKP\\plugins\\PKPPubIdPlugin::setStoredPubId<\/a>"],[0,8,"<a href=\"PKPPubIdPlugin.php.html#481\">PKP\\plugins\\PKPPubIdPlugin::checkDuplicate<\/a>"],[0,3,"<a href=\"PKPPubIdPlugin.php.html#507\">PKP\\plugins\\PKPPubIdPlugin::getContext<\/a>"],[0,5,"<a href=\"PKPPubIdPluginHelper.php.html#33\">PKP\\plugins\\PKPPubIdPluginHelper::validate<\/a>"],[0,4,"<a href=\"PKPPubIdPluginHelper.php.html#57\">PKP\\plugins\\PKPPubIdPluginHelper::setLinkActions<\/a>"],[0,3,"<a href=\"PKPPubIdPluginHelper.php.html#77\">PKP\\plugins\\PKPPubIdPluginHelper::addJavaScripts<\/a>"],[0,5,"<a href=\"PKPPubIdPluginHelper.php.html#94\">PKP\\plugins\\PKPPubIdPluginHelper::init<\/a>"],[0,3,"<a href=\"PKPPubIdPluginHelper.php.html#114\">PKP\\plugins\\PKPPubIdPluginHelper::readInputData<\/a>"],[0,3,"<a href=\"PKPPubIdPluginHelper.php.html#132\">PKP\\plugins\\PKPPubIdPluginHelper::readAssignInputData<\/a>"],[0,6,"<a href=\"PKPPubIdPluginHelper.php.html#151\">PKP\\plugins\\PKPPubIdPluginHelper::execute<\/a>"],[0,5,"<a href=\"PKPPubIdPluginHelper.php.html#182\">PKP\\plugins\\PKPPubIdPluginHelper::assignPubId<\/a>"],[0,4,"<a href=\"PKPPubIdPluginHelper.php.html#206\">PKP\\plugins\\PKPPubIdPluginHelper::clearPubId<\/a>"],[0,1,"<a href=\"PKPViewableFilePlugin.php.html#29\">PKP\\plugins\\PKPViewableFilePlugin::getTemplateFilename<\/a>"],[0,2,"<a href=\"PaymethodPlugin.php.html#23\">PKP\\plugins\\PaymethodPlugin::register<\/a>"],[0,0,"<a href=\"PaymethodPlugin.php.html#42\">PKP\\plugins\\PaymethodPlugin::getPaymentForm<\/a>"],[0,1,"<a href=\"PaymethodPlugin.php.html#51\">PKP\\plugins\\PaymethodPlugin::isConfigured<\/a>"],[0,0,"<a href=\"PaymethodPlugin.php.html#59\">PKP\\plugins\\PaymethodPlugin::saveSettings<\/a>"],[0,0,"<a href=\"PaymethodPlugin.php.html#67\">PKP\\plugins\\PaymethodPlugin::handle<\/a>"],[0,1,"<a href=\"Plugin.php.html#86\">PKP\\plugins\\Plugin::__construct<\/a>"],[0,5,"<a href=\"Plugin.php.html#114\">PKP\\plugins\\Plugin::register<\/a>"],[0,0,"<a href=\"Plugin.php.html#153\">PKP\\plugins\\Plugin::getName<\/a>"],[0,0,"<a href=\"Plugin.php.html#160\">PKP\\plugins\\Plugin::getDisplayName<\/a>"],[0,0,"<a href=\"Plugin.php.html#167\">PKP\\plugins\\Plugin::getDescription<\/a>"],[0,1,"<a href=\"Plugin.php.html#180\">PKP\\plugins\\Plugin::getSeq<\/a>"],[0,1,"<a href=\"Plugin.php.html#190\">PKP\\plugins\\Plugin::isSitePlugin<\/a>"],[0,1,"<a href=\"Plugin.php.html#203\">PKP\\plugins\\Plugin::manage<\/a>"],[0,1,"<a href=\"Plugin.php.html#215\">PKP\\plugins\\Plugin::getHideManagement<\/a>"],[0,1,"<a href=\"Plugin.php.html#227\">PKP\\plugins\\Plugin::getInstallSchemaFile<\/a>"],[0,1,"<a href=\"Plugin.php.html#236\">PKP\\plugins\\Plugin::getInstallMigration<\/a>"],[0,1,"<a href=\"Plugin.php.html#248\">PKP\\plugins\\Plugin::getInstallSitePluginSettingsFile<\/a>"],[0,1,"<a href=\"Plugin.php.html#262\">PKP\\plugins\\Plugin::getContextSpecificPluginSettingsFile<\/a>"],[0,1,"<a href=\"Plugin.php.html#273\">PKP\\plugins\\Plugin::getInstallEmailTemplatesFile<\/a>"],[0,1,"<a href=\"Plugin.php.html#281\">PKP\\plugins\\Plugin::getInstallEmailTemplateDataFile<\/a>"],[0,1,"<a href=\"Plugin.php.html#296\">PKP\\plugins\\Plugin::getInstallFilterConfigFiles<\/a>"],[0,1,"<a href=\"Plugin.php.html#316\">PKP\\plugins\\Plugin::getCategory<\/a>"],[0,1,"<a href=\"Plugin.php.html#326\">PKP\\plugins\\Plugin::getPluginPath<\/a>"],[0,1,"<a href=\"Plugin.php.html#336\">PKP\\plugins\\Plugin::getDirName<\/a>"],[0,5,"<a href=\"Plugin.php.html#350\">PKP\\plugins\\Plugin::getTemplateResource<\/a>"],[0,3,"<a href=\"Plugin.php.html#379\">PKP\\plugins\\Plugin::getTemplatePath<\/a>"],[0,2,"<a href=\"Plugin.php.html#393\">PKP\\plugins\\Plugin::_registerTemplateResource<\/a>"],[0,4,"<a href=\"Plugin.php.html#418\">PKP\\plugins\\Plugin::_overridePluginTemplates<\/a>"],[0,8,"<a href=\"Plugin.php.html#450\">PKP\\plugins\\Plugin::_findOverriddenTemplate<\/a>"],[0,3,"<a href=\"Plugin.php.html#479\">PKP\\plugins\\Plugin::addLocaleData<\/a>"],[0,3,"<a href=\"Plugin.php.html#495\">PKP\\plugins\\Plugin::getSetting<\/a>"],[0,1,"<a href=\"Plugin.php.html#513\">PKP\\plugins\\Plugin::updateSetting<\/a>"],[0,1,"<a href=\"Plugin.php.html#535\">PKP\\plugins\\Plugin::installSiteSettings<\/a>"],[0,1,"<a href=\"Plugin.php.html#552\">PKP\\plugins\\Plugin::installContextSpecificSettings<\/a>"],[0,4,"<a href=\"Plugin.php.html#568\">PKP\\plugins\\Plugin::installEmailTemplates<\/a>"],[0,2,"<a href=\"Plugin.php.html#600\">PKP\\plugins\\Plugin::installLocale<\/a>"],[0,5,"<a href=\"Plugin.php.html#616\">PKP\\plugins\\Plugin::installFilters<\/a>"],[0,3,"<a href=\"Plugin.php.html#656\">PKP\\plugins\\Plugin::updateSchema<\/a>"],[0,3,"<a href=\"Plugin.php.html#680\">PKP\\plugins\\Plugin::smartyPluginUrl<\/a>"],[0,2,"<a href=\"Plugin.php.html#698\">PKP\\plugins\\Plugin::getCurrentVersion<\/a>"],[0,2,"<a href=\"Plugin.php.html#718\">PKP\\plugins\\Plugin::getRequest<\/a>"],[0,1,"<a href=\"Plugin.php.html#737\">PKP\\plugins\\Plugin::getActions<\/a>"],[0,1,"<a href=\"Plugin.php.html#747\">PKP\\plugins\\Plugin::getCanEnable<\/a>"],[0,1,"<a href=\"Plugin.php.html#757\">PKP\\plugins\\Plugin::getCanDisable<\/a>"],[0,1,"<a href=\"Plugin.php.html#767\">PKP\\plugins\\Plugin::getEnabled<\/a>"],[0,8,"<a href=\"PluginGalleryDAO.php.html#54\">PKP\\plugins\\PluginGalleryDAO::getNewestCompatible<\/a>"],[0,2,"<a href=\"PluginGalleryDAO.php.html#78\">PKP\\plugins\\PluginGalleryDAO::getExternalDocument<\/a>"],[0,1,"<a href=\"PluginGalleryDAO.php.html#109\">PKP\\plugins\\PluginGalleryDAO::getCachedDocument<\/a>"],[0,1,"<a href=\"PluginGalleryDAO.php.html#118\">PKP\\plugins\\PluginGalleryDAO::_getDocument<\/a>"],[0,1,"<a href=\"PluginGalleryDAO.php.html#129\">PKP\\plugins\\PluginGalleryDAO::newDataObject<\/a>"],[0,13,"<a href=\"PluginGalleryDAO.php.html#138\">PKP\\plugins\\PluginGalleryDAO::_compatibleFromElement<\/a>"],[0,7,"<a href=\"PluginGalleryDAO.php.html#190\">PKP\\plugins\\PluginGalleryDAO::_handleMaintainer<\/a>"],[0,12,"<a href=\"PluginGalleryDAO.php.html#216\">PKP\\plugins\\PluginGalleryDAO::_handleRelease<\/a>"],[0,6,"<a href=\"PluginGalleryDAO.php.html#272\">PKP\\plugins\\PluginGalleryDAO::_handleCompatibility<\/a>"],[0,11,"<a href=\"PluginHelper.php.html#57\">PKP\\plugins\\PluginHelper::extractPlugin<\/a>"],[0,7,"<a href=\"PluginHelper.php.html#105\">PKP\\plugins\\PluginHelper::installPlugin<\/a>"],[0,1,"<a href=\"PluginHelper.php.html#157\">PKP\\plugins\\PluginHelper::_getConnectionParams<\/a>"],[0,10,"<a href=\"PluginHelper.php.html#178\">PKP\\plugins\\PluginHelper::upgradePlugin<\/a>"],[0,1,"<a href=\"PluginHelper.php.html#246\">PKP\\plugins\\PluginHelper::sanitizeFilename<\/a>"],[0,2,"<a href=\"PluginRegistry.php.html#38\">PKP\\plugins\\PluginRegistry::getPlugins<\/a>"],[0,1,"<a href=\"PluginRegistry.php.html#51\">PKP\\plugins\\PluginRegistry::getAllPlugins<\/a>"],[0,3,"<a href=\"PluginRegistry.php.html#70\">PKP\\plugins\\PluginRegistry::register<\/a>"],[0,1,"<a href=\"PluginRegistry.php.html#87\">PKP\\plugins\\PluginRegistry::getPlugin<\/a>"],[0,3,"<a href=\"PluginRegistry.php.html#109\">PKP\\plugins\\PluginRegistry::loadCategory<\/a>"],[0,2,"<a href=\"PluginRegistry.php.html#149\">PKP\\plugins\\PluginRegistry::loadPlugin<\/a>"],[0,1,"<a href=\"PluginRegistry.php.html#167\">PKP\\plugins\\PluginRegistry::getCategories<\/a>"],[0,1,"<a href=\"PluginRegistry.php.html#177\">PKP\\plugins\\PluginRegistry::loadAllPlugins<\/a>"],[0,10,"<a href=\"PluginRegistry.php.html#187\">PKP\\plugins\\PluginRegistry::_instantiatePlugin<\/a>"],[0,3,"<a href=\"PluginRegistry.php.html#216\">PKP\\plugins\\PluginRegistry::_loadFromDatabase<\/a>"],[0,5,"<a href=\"PluginRegistry.php.html#233\">PKP\\plugins\\PluginRegistry::_loadFromDisk<\/a>"],[0,3,"<a href=\"PluginRegistry.php.html#257\">PKP\\plugins\\PluginRegistry::_deprecatedInstantiatePlugin<\/a>"],[0,2,"<a href=\"PluginSettingsDAO.php.html#30\">PKP\\plugins\\PluginSettingsDAO::_getCacheId<\/a>"],[0,1,"<a href=\"PluginSettingsDAO.php.html#39\">PKP\\plugins\\PluginSettingsDAO::_normalizePluginName<\/a>"],[0,1,"<a href=\"PluginSettingsDAO.php.html#47\">PKP\\plugins\\PluginSettingsDAO::getSetting<\/a>"],[0,2,"<a href=\"PluginSettingsDAO.php.html#61\">PKP\\plugins\\PluginSettingsDAO::settingExists<\/a>"],[0,1,"<a href=\"PluginSettingsDAO.php.html#74\">PKP\\plugins\\PluginSettingsDAO::getPluginSettings<\/a>"],[0,1,"<a href=\"PluginSettingsDAO.php.html#91\">PKP\\plugins\\PluginSettingsDAO::updateSetting<\/a>"],[0,1,"<a href=\"PluginSettingsDAO.php.html#109\">PKP\\plugins\\PluginSettingsDAO::deleteSetting<\/a>"],[0,1,"<a href=\"PluginSettingsDAO.php.html#126\">PKP\\plugins\\PluginSettingsDAO::deleteSettingsByPlugin<\/a>"],[0,1,"<a href=\"PluginSettingsDAO.php.html#142\">PKP\\plugins\\PluginSettingsDAO::deleteByContextId<\/a>"],[0,2,"<a href=\"PluginSettingsDAO.php.html#154\">PKP\\plugins\\PluginSettingsDAO::_performReplacement<\/a>"],[0,4,"<a href=\"PluginSettingsDAO.php.html#170\">PKP\\plugins\\PluginSettingsDAO::_buildObject<\/a>"],[0,7,"<a href=\"PluginSettingsDAO.php.html#198\">PKP\\plugins\\PluginSettingsDAO::installSettings<\/a>"],[0,2,"<a href=\"ReportPlugin.php.html#32\">PKP\\plugins\\ReportPlugin::getActions<\/a>"],[0,0,"<a href=\"ReportPlugin.php.html#62\">PKP\\plugins\\ReportPlugin::display<\/a>"],[0,3,"<a href=\"ThemePlugin.php.html#92\">PKP\\plugins\\ThemePlugin::register<\/a>"],[0,2,"<a href=\"ThemePlugin.php.html#120\">PKP\\plugins\\ThemePlugin::themeRegistered<\/a>"],[0,0,"<a href=\"ThemePlugin.php.html#137\">PKP\\plugins\\ThemePlugin::init<\/a>"],[0,1,"<a href=\"ThemePlugin.php.html#145\">PKP\\plugins\\ThemePlugin::initAfter<\/a>"],[0,3,"<a href=\"ThemePlugin.php.html#161\">PKP\\plugins\\ThemePlugin::isActive<\/a>"],[0,6,"<a href=\"ThemePlugin.php.html#198\">PKP\\plugins\\ThemePlugin::addStyle<\/a>"],[0,7,"<a href=\"ThemePlugin.php.html#236\">PKP\\plugins\\ThemePlugin::modifyStyle<\/a>"],[0,3,"<a href=\"ThemePlugin.php.html#264\">PKP\\plugins\\ThemePlugin::removeStyle<\/a>"],[0,3,"<a href=\"ThemePlugin.php.html#281\">PKP\\plugins\\ThemePlugin::getStyle<\/a>"],[0,3,"<a href=\"ThemePlugin.php.html#313\">PKP\\plugins\\ThemePlugin::addScript<\/a>"],[0,3,"<a href=\"ThemePlugin.php.html#334\">PKP\\plugins\\ThemePlugin::modifyScript<\/a>"],[0,3,"<a href=\"ThemePlugin.php.html#356\">PKP\\plugins\\ThemePlugin::removeScript<\/a>"],[0,3,"<a href=\"ThemePlugin.php.html#373\">PKP\\plugins\\ThemePlugin::getScript<\/a>"],[0,12,"<a href=\"ThemePlugin.php.html#404\">PKP\\plugins\\ThemePlugin::addOption<\/a>"],[0,8,"<a href=\"ThemePlugin.php.html#466\">PKP\\plugins\\ThemePlugin::getOption<\/a>"],[0,3,"<a href=\"ThemePlugin.php.html#504\">PKP\\plugins\\ThemePlugin::getOptionConfig<\/a>"],[0,2,"<a href=\"ThemePlugin.php.html#521\">PKP\\plugins\\ThemePlugin::getOptionsConfig<\/a>"],[0,3,"<a href=\"ThemePlugin.php.html#540\">PKP\\plugins\\ThemePlugin::removeOption<\/a>"],[0,17,"<a href=\"ThemePlugin.php.html#558\">PKP\\plugins\\ThemePlugin::getOptionValues<\/a>"],[0,1,"<a href=\"ThemePlugin.php.html#631\">PKP\\plugins\\ThemePlugin::validateOptions<\/a>"],[0,6,"<a href=\"ThemePlugin.php.html#644\">PKP\\plugins\\ThemePlugin::saveOption<\/a>"],[0,2,"<a href=\"ThemePlugin.php.html#674\">PKP\\plugins\\ThemePlugin::addMenuArea<\/a>"],[0,3,"<a href=\"ThemePlugin.php.html#690\">PKP\\plugins\\ThemePlugin::removeMenuArea<\/a>"],[0,2,"<a href=\"ThemePlugin.php.html#708\">PKP\\plugins\\ThemePlugin::getMenuAreas<\/a>"],[0,2,"<a href=\"ThemePlugin.php.html#720\">PKP\\plugins\\ThemePlugin::setParent<\/a>"],[0,3,"<a href=\"ThemePlugin.php.html#736\">PKP\\plugins\\ThemePlugin::_registerTemplates<\/a>"],[0,6,"<a href=\"ThemePlugin.php.html#755\">PKP\\plugins\\ThemePlugin::_registerStyles<\/a>"],[0,3,"<a href=\"ThemePlugin.php.html#799\">PKP\\plugins\\ThemePlugin::_registerScripts<\/a>"],[0,2,"<a href=\"ThemePlugin.php.html#826\">PKP\\plugins\\ThemePlugin::_getBaseUrl<\/a>"],[0,2,"<a href=\"ThemePlugin.php.html#840\">PKP\\plugins\\ThemePlugin::_getBaseDir<\/a>"],[0,1,"<a href=\"ThemePlugin.php.html#859\">PKP\\plugins\\ThemePlugin::isColourDark<\/a>"],[0,1,"<a href=\"ThemePlugin.php.html#876\">PKP\\plugins\\ThemePlugin::displayUsageStatsGraph<\/a>"],[0,1,"<a href=\"ThemePlugin.php.html#885\">PKP\\plugins\\ThemePlugin::addUsageStatsJavascriptData<\/a>"],[0,1,"<a href=\"ThemePlugin.php.html#909\">PKP\\plugins\\ThemePlugin::loadChartJavascript<\/a>"],[0,2,"<a href=\"ThemePlugin.php.html#953\">PKP\\plugins\\ThemePlugin::getAllDownloadsStats<\/a>"],[0,3,"<a href=\"ThemePlugin.php.html#975\">PKP\\plugins\\ThemePlugin::downloadStatsCacheMiss<\/a>"],[0,1,"<a href=\"ThemePlugin.php.html#1004\">PKP\\plugins\\ThemePlugin::getUsageStatsDisplayColor<\/a>"],[0,4,"<a href=\"ThemePlugin.php.html#1013\">PKP\\plugins\\ThemePlugin::getSubmissionViewContext<\/a>"],[0,1,"<a href=\"importexport\/PKPImportExportDeployment.php.html#91\">PKP\\plugins\\importexport\\PKPImportExportDeployment::__construct<\/a>"],[0,1,"<a href=\"importexport\/PKPImportExportDeployment.php.html#111\">PKP\\plugins\\importexport\\PKPImportExportDeployment::getSubmissionNodeName<\/a>"],[0,1,"<a href=\"importexport\/PKPImportExportDeployment.php.html#121\">PKP\\plugins\\importexport\\PKPImportExportDeployment::getSubmissionsNodeName<\/a>"],[0,1,"<a href=\"importexport\/PKPImportExportDeployment.php.html#131\">PKP\\plugins\\importexport\\PKPImportExportDeployment::getRepresentationNodeName<\/a>"],[0,1,"<a href=\"importexport\/PKPImportExportDeployment.php.html#141\">PKP\\plugins\\importexport\\PKPImportExportDeployment::getNamespace<\/a>"],[0,1,"<a href=\"importexport\/PKPImportExportDeployment.php.html#151\">PKP\\plugins\\importexport\\PKPImportExportDeployment::getSchemaFilename<\/a>"],[0,1,"<a href=\"importexport\/PKPImportExportDeployment.php.html#165\">PKP\\plugins\\importexport\\PKPImportExportDeployment::setContext<\/a>"],[0,1,"<a href=\"importexport\/PKPImportExportDeployment.php.html#174\">PKP\\plugins\\importexport\\PKPImportExportDeployment::getContext<\/a>"],[0,2,"<a href=\"importexport\/PKPImportExportDeployment.php.html#182\">PKP\\plugins\\importexport\\PKPImportExportDeployment::setSubmission<\/a>"],[0,1,"<a href=\"importexport\/PKPImportExportDeployment.php.html#193\">PKP\\plugins\\importexport\\PKPImportExportDeployment::getSubmission<\/a>"],[0,2,"<a href=\"importexport\/PKPImportExportDeployment.php.html#201\">PKP\\plugins\\importexport\\PKPImportExportDeployment::setPublication<\/a>"],[0,1,"<a href=\"importexport\/PKPImportExportDeployment.php.html#214\">PKP\\plugins\\importexport\\PKPImportExportDeployment::getPublication<\/a>"],[0,1,"<a href=\"importexport\/PKPImportExportDeployment.php.html#225\">PKP\\plugins\\importexport\\PKPImportExportDeployment::addProcessedObjectId<\/a>"],[0,2,"<a href=\"importexport\/PKPImportExportDeployment.php.html#237\">PKP\\plugins\\importexport\\PKPImportExportDeployment::addError<\/a>"],[0,2,"<a href=\"importexport\/PKPImportExportDeployment.php.html#252\">PKP\\plugins\\importexport\\PKPImportExportDeployment::addWarning<\/a>"],[0,2,"<a href=\"importexport\/PKPImportExportDeployment.php.html#267\">PKP\\plugins\\importexport\\PKPImportExportDeployment::getProcessedObjectsIds<\/a>"],[0,2,"<a href=\"importexport\/PKPImportExportDeployment.php.html#282\">PKP\\plugins\\importexport\\PKPImportExportDeployment::getProcessedObjectsErrors<\/a>"],[0,2,"<a href=\"importexport\/PKPImportExportDeployment.php.html#297\">PKP\\plugins\\importexport\\PKPImportExportDeployment::getProcessedObjectsWarnings<\/a>"],[0,5,"<a href=\"importexport\/PKPImportExportDeployment.php.html#310\">PKP\\plugins\\importexport\\PKPImportExportDeployment::removeImportedObjects<\/a>"],[0,1,"<a href=\"importexport\/PKPImportExportDeployment.php.html#331\">PKP\\plugins\\importexport\\PKPImportExportDeployment::setUser<\/a>"],[0,1,"<a href=\"importexport\/PKPImportExportDeployment.php.html#341\">PKP\\plugins\\importexport\\PKPImportExportDeployment::getUser<\/a>"],[0,1,"<a href=\"importexport\/PKPImportExportDeployment.php.html#351\">PKP\\plugins\\importexport\\PKPImportExportDeployment::getFileDBIds<\/a>"],[0,1,"<a href=\"importexport\/PKPImportExportDeployment.php.html#361\">PKP\\plugins\\importexport\\PKPImportExportDeployment::setFileDBIds<\/a>"],[0,2,"<a href=\"importexport\/PKPImportExportDeployment.php.html#373\">PKP\\plugins\\importexport\\PKPImportExportDeployment::getFileDBId<\/a>"],[0,1,"<a href=\"importexport\/PKPImportExportDeployment.php.html#387\">PKP\\plugins\\importexport\\PKPImportExportDeployment::setFileDBId<\/a>"],[0,1,"<a href=\"importexport\/PKPImportExportDeployment.php.html#397\">PKP\\plugins\\importexport\\PKPImportExportDeployment::getSubmissionFileDBIds<\/a>"],[0,1,"<a href=\"importexport\/PKPImportExportDeployment.php.html#407\">PKP\\plugins\\importexport\\PKPImportExportDeployment::setSubmissionFileDBIds<\/a>"],[0,2,"<a href=\"importexport\/PKPImportExportDeployment.php.html#417\">PKP\\plugins\\importexport\\PKPImportExportDeployment::getSubmissionFileDBId<\/a>"],[0,1,"<a href=\"importexport\/PKPImportExportDeployment.php.html#431\">PKP\\plugins\\importexport\\PKPImportExportDeployment::setSubmissionFileDBId<\/a>"],[0,1,"<a href=\"importexport\/PKPImportExportDeployment.php.html#441\">PKP\\plugins\\importexport\\PKPImportExportDeployment::setAuthorDBIds<\/a>"],[0,1,"<a href=\"importexport\/PKPImportExportDeployment.php.html#451\">PKP\\plugins\\importexport\\PKPImportExportDeployment::getAuthorDBIds<\/a>"],[0,2,"<a href=\"importexport\/PKPImportExportDeployment.php.html#463\">PKP\\plugins\\importexport\\PKPImportExportDeployment::getAuthorDBId<\/a>"],[0,1,"<a href=\"importexport\/PKPImportExportDeployment.php.html#478\">PKP\\plugins\\importexport\\PKPImportExportDeployment::setAuthorDBId<\/a>"],[0,1,"<a href=\"importexport\/PKPImportExportDeployment.php.html#488\">PKP\\plugins\\importexport\\PKPImportExportDeployment::setImportPath<\/a>"],[0,1,"<a href=\"importexport\/PKPImportExportDeployment.php.html#498\">PKP\\plugins\\importexport\\PKPImportExportDeployment::getImportPath<\/a>"],[0,1,"<a href=\"importexport\/PKPImportExportDeployment.php.html#508\">PKP\\plugins\\importexport\\PKPImportExportDeployment::addImportedRootEntity<\/a>"],[0,2,"<a href=\"importexport\/PKPImportExportDeployment.php.html#518\">PKP\\plugins\\importexport\\PKPImportExportDeployment::getImportedRootEntities<\/a>"],[0,1,"<a href=\"importexport\/PKPImportExportDeployment.php.html#532\">PKP\\plugins\\importexport\\PKPImportExportDeployment::setExportRootEntities<\/a>"],[0,1,"<a href=\"importexport\/PKPImportExportDeployment.php.html#542\">PKP\\plugins\\importexport\\PKPImportExportDeployment::getExportRootEntities<\/a>"],[0,2,"<a href=\"importexport\/PKPImportExportDeployment.php.html#553\">PKP\\plugins\\importexport\\PKPImportExportDeployment::import<\/a>"],[0,5,"<a href=\"importexport\/PKPImportExportDeployment.php.html#586\">PKP\\plugins\\importexport\\PKPImportExportDeployment::export<\/a>"],[0,1,"<a href=\"importexport\/PKPImportExportDeployment.php.html#624\">PKP\\plugins\\importexport\\PKPImportExportDeployment::getXMLValidationErrors<\/a>"],[0,1,"<a href=\"importexport\/PKPImportExportDeployment.php.html#635\">PKP\\plugins\\importexport\\PKPImportExportDeployment::getObjectTypes<\/a>"],[0,3,"<a href=\"importexport\/PKPImportExportDeployment.php.html#656\">PKP\\plugins\\importexport\\PKPImportExportDeployment::getObjectTypeString<\/a>"],[0,5,"<a href=\"importexport\/PKPImportExportDeployment.php.html#676\">PKP\\plugins\\importexport\\PKPImportExportDeployment::getWarningsAndErrors<\/a>"],[0,3,"<a href=\"importexport\/PKPImportExportDeployment.php.html#705\">PKP\\plugins\\importexport\\PKPImportExportDeployment::getImportedRootEntitiesWithNames<\/a>"],[0,3,"<a href=\"importexport\/PKPImportExportDeployment.php.html#724\">PKP\\plugins\\importexport\\PKPImportExportDeployment::isProcessFailed<\/a>"],[0,1,"<a href=\"importexport\/PKPImportExportFilter.php.html#41\">PKP\\plugins\\importexport\\PKPImportExportFilter::setDeployment<\/a>"],[0,1,"<a href=\"importexport\/PKPImportExportFilter.php.html#51\">PKP\\plugins\\importexport\\PKPImportExportFilter::getDeployment<\/a>"],[0,3,"<a href=\"importexport\/PKPImportExportFilter.php.html#65\">PKP\\plugins\\importexport\\PKPImportExportFilter::getFilter<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

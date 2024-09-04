@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /var/www/html/ojs-main/lib/pkp/controllers/grid/users</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../../_css/bootstrap.min.css?v=11.0.5" rel="stylesheet" type="text/css">
+  <link href="../../../_css/nv.d3.min.css?v=11.0.5" rel="stylesheet" type="text/css">
+  <link href="../../../_css/style.css?v=11.0.5" rel="stylesheet" type="text/css">
+  <link href="../../../_css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="../../../index.html">/var/www/html/ojs-main/lib/pkp</a></li>
+         <li class="breadcrumb-item"><a href="../../index.html">controllers</a></li>
+         <li class="breadcrumb-item"><a href="../index.html">grid</a></li>
+         <li class="breadcrumb-item"><a href="index.html">users</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="author/AuthorGridHandler.php.html#40">PKP\controllers\grid\users\author\AuthorGridHandler</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="author/AuthorGridRow.php.html#30">PKP\controllers\grid\users\author\AuthorGridRow</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="author/PKPAuthorGridCellProvider.php.html#26">PKP\controllers\grid\users\author\PKPAuthorGridCellProvider</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="author/form/PKPAuthorForm.php.html#30">PKP\controllers\grid\users\author\form\PKPAuthorForm</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="exportableUsers/ExportableUsersGridHandler.php.html#32">PKP\controllers\grid\users\exportableUsers\ExportableUsersGridHandler</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/AuthorReviewerGridCellProvider.php.html#26">PKP\controllers\grid\users\reviewer\AuthorReviewerGridCellProvider</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/AuthorReviewerGridHandler.php.html#37">PKP\controllers\grid\users\reviewer\AuthorReviewerGridHandler</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/ReviewerGridCellProvider.php.html#29">PKP\controllers\grid\users\reviewer\ReviewerGridCellProvider</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/ReviewerGridRow.php.html#28">PKP\controllers\grid\users\reviewer\ReviewerGridRow</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/form/AdvancedSearchReviewerForm.php.html#39">PKP\controllers\grid\users\reviewer\form\AdvancedSearchReviewerForm</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/form/CreateReviewerForm.php.html#33">PKP\controllers\grid\users\reviewer\form\CreateReviewerForm</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/form/EditReviewForm.php.html#39">PKP\controllers\grid\users\reviewer\form\EditReviewForm</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/form/EmailReviewerForm.php.html#32">PKP\controllers\grid\users\reviewer\form\EmailReviewerForm</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/form/EnrollExistingReviewerForm.php.html#26">PKP\controllers\grid\users\reviewer\form\EnrollExistingReviewerForm</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/form/ReinstateReviewerForm.php.html#34">PKP\controllers\grid\users\reviewer\form\ReinstateReviewerForm</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/form/ResendRequestReviewerForm.php.html#34">PKP\controllers\grid\users\reviewer\form\ResendRequestReviewerForm</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/form/ReviewReminderForm.php.html#36">PKP\controllers\grid\users\reviewer\form\ReviewReminderForm</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/form/ReviewerForm.php.html#46">PKP\controllers\grid\users\reviewer\form\ReviewerForm</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/form/ReviewerGossipForm.php.html#24">PKP\controllers\grid\users\reviewer\form\ReviewerGossipForm</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/form/ReviewerNotifyActionForm.php.html#28">PKP\controllers\grid\users\reviewer\form\ReviewerNotifyActionForm</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/form/ThankReviewerForm.php.html#34">PKP\controllers\grid\users\reviewer\form\ThankReviewerForm</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/form/UnassignReviewerForm.php.html#33">PKP\controllers\grid\users\reviewer\form\UnassignReviewerForm</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="stageParticipant/StageParticipantGridCategoryRow.php.html#24">PKP\controllers\grid\users\stageParticipant\StageParticipantGridCategoryRow</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="stageParticipant/StageParticipantGridCellProvider.php.html#23">PKP\controllers\grid\users\stageParticipant\StageParticipantGridCellProvider</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="stageParticipant/StageParticipantGridHandler.php.html#44">PKP\controllers\grid\users\stageParticipant\StageParticipantGridHandler</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="stageParticipant/StageParticipantGridRow.php.html#31">PKP\controllers\grid\users\stageParticipant\StageParticipantGridRow</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="stageParticipant/form/AddParticipantForm.php.html#29">PKP\controllers\grid\users\stageParticipant\form\AddParticipantForm</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="stageParticipant/form/PKPStageParticipantNotifyForm.php.html#41">PKP\controllers\grid\users\stageParticipant\form\PKPStageParticipantNotifyForm</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="stageParticipant/linkAction/NotifyLinkAction.php.html#23">PKP\controllers\grid\users\stageParticipant\linkAction\NotifyLinkAction</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="userSelect/UserSelectGridCellProvider.php.html#23">PKP\controllers\grid\users\userSelect\UserSelectGridCellProvider</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="userSelect/UserSelectGridHandler.php.html#28">PKP\controllers\grid\users\userSelect\UserSelectGridHandler</a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="stageParticipant/form/PKPStageParticipantNotifyForm.php.html#41">PKP\controllers\grid\users\stageParticipant\form\PKPStageParticipantNotifyForm</a></td><td class="text-right">2352</td></tr>
+       <tr><td><a href="stageParticipant/StageParticipantGridHandler.php.html#44">PKP\controllers\grid\users\stageParticipant\StageParticipantGridHandler</a></td><td class="text-right">1892</td></tr>
+       <tr><td><a href="author/AuthorGridHandler.php.html#40">PKP\controllers\grid\users\author\AuthorGridHandler</a></td><td class="text-right">1482</td></tr>
+       <tr><td><a href="reviewer/ReviewerGridCellProvider.php.html#29">PKP\controllers\grid\users\reviewer\ReviewerGridCellProvider</a></td><td class="text-right">1482</td></tr>
+       <tr><td><a href="reviewer/form/ReviewerForm.php.html#46">PKP\controllers\grid\users\reviewer\form\ReviewerForm</a></td><td class="text-right">1260</td></tr>
+       <tr><td><a href="reviewer/AuthorReviewerGridCellProvider.php.html#26">PKP\controllers\grid\users\reviewer\AuthorReviewerGridCellProvider</a></td><td class="text-right">992</td></tr>
+       <tr><td><a href="stageParticipant/form/AddParticipantForm.php.html#29">PKP\controllers\grid\users\stageParticipant\form\AddParticipantForm</a></td><td class="text-right">756</td></tr>
+       <tr><td><a href="author/form/PKPAuthorForm.php.html#30">PKP\controllers\grid\users\author\form\PKPAuthorForm</a></td><td class="text-right">462</td></tr>
+       <tr><td><a href="reviewer/form/EditReviewForm.php.html#39">PKP\controllers\grid\users\reviewer\form\EditReviewForm</a></td><td class="text-right">342</td></tr>
+       <tr><td><a href="userSelect/UserSelectGridHandler.php.html#28">PKP\controllers\grid\users\userSelect\UserSelectGridHandler</a></td><td class="text-right">342</td></tr>
+       <tr><td><a href="reviewer/ReviewerGridRow.php.html#28">PKP\controllers\grid\users\reviewer\ReviewerGridRow</a></td><td class="text-right">306</td></tr>
+       <tr><td><a href="exportableUsers/ExportableUsersGridHandler.php.html#32">PKP\controllers\grid\users\exportableUsers\ExportableUsersGridHandler</a></td><td class="text-right">272</td></tr>
+       <tr><td><a href="reviewer/form/AdvancedSearchReviewerForm.php.html#39">PKP\controllers\grid\users\reviewer\form\AdvancedSearchReviewerForm</a></td><td class="text-right">240</td></tr>
+       <tr><td><a href="author/AuthorGridRow.php.html#30">PKP\controllers\grid\users\author\AuthorGridRow</a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="reviewer/form/EnrollExistingReviewerForm.php.html#26">PKP\controllers\grid\users\reviewer\form\EnrollExistingReviewerForm</a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="stageParticipant/StageParticipantGridRow.php.html#31">PKP\controllers\grid\users\stageParticipant\StageParticipantGridRow</a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="reviewer/form/CreateReviewerForm.php.html#33">PKP\controllers\grid\users\reviewer\form\CreateReviewerForm</a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="reviewer/form/ThankReviewerForm.php.html#34">PKP\controllers\grid\users\reviewer\form\ThankReviewerForm</a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="reviewer/form/UnassignReviewerForm.php.html#33">PKP\controllers\grid\users\reviewer\form\UnassignReviewerForm</a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="author/PKPAuthorGridCellProvider.php.html#26">PKP\controllers\grid\users\author\PKPAuthorGridCellProvider</a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="reviewer/AuthorReviewerGridHandler.php.html#37">PKP\controllers\grid\users\reviewer\AuthorReviewerGridHandler</a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="reviewer/form/ReinstateReviewerForm.php.html#34">PKP\controllers\grid\users\reviewer\form\ReinstateReviewerForm</a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="reviewer/form/ResendRequestReviewerForm.php.html#34">PKP\controllers\grid\users\reviewer\form\ResendRequestReviewerForm</a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="reviewer/form/ReviewReminderForm.php.html#36">PKP\controllers\grid\users\reviewer\form\ReviewReminderForm</a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="reviewer/form/EmailReviewerForm.php.html#32">PKP\controllers\grid\users\reviewer\form\EmailReviewerForm</a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="stageParticipant/StageParticipantGridCellProvider.php.html#23">PKP\controllers\grid\users\stageParticipant\StageParticipantGridCellProvider</a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="userSelect/UserSelectGridCellProvider.php.html#23">PKP\controllers\grid\users\userSelect\UserSelectGridCellProvider</a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="stageParticipant/linkAction/NotifyLinkAction.php.html#23">PKP\controllers\grid\users\stageParticipant\linkAction\NotifyLinkAction</a></td><td class="text-right">6</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="author/AuthorGridHandler.php.html#51"><abbr title="PKP\controllers\grid\users\author\AuthorGridHandler::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="author/AuthorGridHandler.php.html#72"><abbr title="PKP\controllers\grid\users\author\AuthorGridHandler::getSubmission">getSubmission</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="author/AuthorGridHandler.php.html#82"><abbr title="PKP\controllers\grid\users\author\AuthorGridHandler::getPublication">getPublication</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="author/AuthorGridHandler.php.html#92"><abbr title="PKP\controllers\grid\users\author\AuthorGridHandler::getReadOnly">getReadOnly</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="author/AuthorGridHandler.php.html#102"><abbr title="PKP\controllers\grid\users\author\AuthorGridHandler::setReadOnly">setReadOnly</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="author/AuthorGridHandler.php.html#113"><abbr title="PKP\controllers\grid\users\author\AuthorGridHandler::authorize">authorize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="author/AuthorGridHandler.php.html#124"><abbr title="PKP\controllers\grid\users\author\AuthorGridHandler::initialize">initialize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="author/AuthorGridHandler.php.html#209"><abbr title="PKP\controllers\grid\users\author\AuthorGridHandler::initFeatures">initFeatures</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="author/AuthorGridHandler.php.html#221"><abbr title="PKP\controllers\grid\users\author\AuthorGridHandler::getDataElementSequence">getDataElementSequence</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="author/AuthorGridHandler.php.html#229"><abbr title="PKP\controllers\grid\users\author\AuthorGridHandler::setDataElementSequence">setDataElementSequence</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="author/AuthorGridHandler.php.html#245"><abbr title="PKP\controllers\grid\users\author\AuthorGridHandler::getRowInstance">getRowInstance</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="author/AuthorGridHandler.php.html#256"><abbr title="PKP\controllers\grid\users\author\AuthorGridHandler::getRequestArgs">getRequestArgs</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="author/AuthorGridHandler.php.html#273"><abbr title="PKP\controllers\grid\users\author\AuthorGridHandler::canAdminister">canAdminister</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="author/AuthorGridHandler.php.html#306"><abbr title="PKP\controllers\grid\users\author\AuthorGridHandler::loadData">loadData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="author/AuthorGridHandler.php.html#324"><abbr title="PKP\controllers\grid\users\author\AuthorGridHandler::addAuthor">addAuthor</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="author/AuthorGridHandler.php.html#342"><abbr title="PKP\controllers\grid\users\author\AuthorGridHandler::editAuthor">editAuthor</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="author/AuthorGridHandler.php.html#367"><abbr title="PKP\controllers\grid\users\author\AuthorGridHandler::updateAuthor">updateAuthor</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="author/AuthorGridHandler.php.html#429"><abbr title="PKP\controllers\grid\users\author\AuthorGridHandler::deleteAuthor">deleteAuthor</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="author/AuthorGridHandler.php.html#461"><abbr title="PKP\controllers\grid\users\author\AuthorGridHandler::addUser">addUser</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="author/AuthorGridRow.php.html#47"><abbr title="PKP\controllers\grid\users\author\AuthorGridRow::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="author/AuthorGridRow.php.html#63"><abbr title="PKP\controllers\grid\users\author\AuthorGridRow::initialize">initialize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="author/AuthorGridRow.php.html#132"><abbr title="PKP\controllers\grid\users\author\AuthorGridRow::getSubmission">getSubmission</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="author/AuthorGridRow.php.html#142"><abbr title="PKP\controllers\grid\users\author\AuthorGridRow::getPublication">getPublication</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="author/AuthorGridRow.php.html#152"><abbr title="PKP\controllers\grid\users\author\AuthorGridRow::getRequestArgs">getRequestArgs</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="author/AuthorGridRow.php.html#171"><abbr title="PKP\controllers\grid\users\author\AuthorGridRow::allowedToCreateUser">allowedToCreateUser</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="author/AuthorGridRow.php.html#181"><abbr title="PKP\controllers\grid\users\author\AuthorGridRow::isReadOnly">isReadOnly</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="author/PKPAuthorGridCellProvider.php.html#36"><abbr title="PKP\controllers\grid\users\author\PKPAuthorGridCellProvider::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="author/PKPAuthorGridCellProvider.php.html#53"><abbr title="PKP\controllers\grid\users\author\PKPAuthorGridCellProvider::getTemplateVarsFromRowColumn">getTemplateVarsFromRowColumn</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="author/form/PKPAuthorForm.php.html#43"><abbr title="PKP\controllers\grid\users\author\form\PKPAuthorForm::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="author/form/PKPAuthorForm.php.html#78"><abbr title="PKP\controllers\grid\users\author\form\PKPAuthorForm::getAuthor">getAuthor</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="author/form/PKPAuthorForm.php.html#88"><abbr title="PKP\controllers\grid\users\author\form\PKPAuthorForm::setAuthor">setAuthor</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="author/form/PKPAuthorForm.php.html#98"><abbr title="PKP\controllers\grid\users\author\form\PKPAuthorForm::getPublication">getPublication</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="author/form/PKPAuthorForm.php.html#108"><abbr title="PKP\controllers\grid\users\author\form\PKPAuthorForm::setPublication">setPublication</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="author/form/PKPAuthorForm.php.html#120"><abbr title="PKP\controllers\grid\users\author\form\PKPAuthorForm::initData">initData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="author/form/PKPAuthorForm.php.html#153"><abbr title="PKP\controllers\grid\users\author\form\PKPAuthorForm::fetch">fetch</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="author/form/PKPAuthorForm.php.html#180"><abbr title="PKP\controllers\grid\users\author\form\PKPAuthorForm::readInputData">readInputData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="author/form/PKPAuthorForm.php.html#204"><abbr title="PKP\controllers\grid\users\author\form\PKPAuthorForm::execute">execute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="exportableUsers/ExportableUsersGridHandler.php.html#39"><abbr title="PKP\controllers\grid\users\exportableUsers\ExportableUsersGridHandler::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="exportableUsers/ExportableUsersGridHandler.php.html#55"><abbr title="PKP\controllers\grid\users\exportableUsers\ExportableUsersGridHandler::authorize">authorize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="exportableUsers/ExportableUsersGridHandler.php.html#66"><abbr title="PKP\controllers\grid\users\exportableUsers\ExportableUsersGridHandler::initialize">initialize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="exportableUsers/ExportableUsersGridHandler.php.html#155"><abbr title="PKP\controllers\grid\users\exportableUsers\ExportableUsersGridHandler::initFeatures">initFeatures</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="exportableUsers/ExportableUsersGridHandler.php.html#163"><abbr title="PKP\controllers\grid\users\exportableUsers\ExportableUsersGridHandler::getSelectName">getSelectName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="exportableUsers/ExportableUsersGridHandler.php.html#174"><abbr title="PKP\controllers\grid\users\exportableUsers\ExportableUsersGridHandler::isDataElementSelected">isDataElementSelected</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="exportableUsers/ExportableUsersGridHandler.php.html#182"><abbr title="PKP\controllers\grid\users\exportableUsers\ExportableUsersGridHandler::loadData">loadData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="exportableUsers/ExportableUsersGridHandler.php.html#207"><abbr title="PKP\controllers\grid\users\exportableUsers\ExportableUsersGridHandler::renderFilter">renderFilter</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="exportableUsers/ExportableUsersGridHandler.php.html#246"><abbr title="PKP\controllers\grid\users\exportableUsers\ExportableUsersGridHandler::getFilterSelectionData">getFilterSelectionData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="exportableUsers/ExportableUsersGridHandler.php.html#267"><abbr title="PKP\controllers\grid\users\exportableUsers\ExportableUsersGridHandler::getFilterForm">getFilterForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="exportableUsers/ExportableUsersGridHandler.php.html#275"><abbr title="PKP\controllers\grid\users\exportableUsers\ExportableUsersGridHandler::getRequestArgs">getRequestArgs</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="exportableUsers/ExportableUsersGridHandler.php.html#285"><abbr title="PKP\controllers\grid\users\exportableUsers\ExportableUsersGridHandler::_getPluginName">_getPluginName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/AuthorReviewerGridCellProvider.php.html#39"><abbr title="PKP\controllers\grid\users\reviewer\AuthorReviewerGridCellProvider::getCellState">getCellState</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/AuthorReviewerGridCellProvider.php.html#64"><abbr title="PKP\controllers\grid\users\reviewer\AuthorReviewerGridCellProvider::getTemplateVarsFromRowColumn">getTemplateVarsFromRowColumn</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/AuthorReviewerGridCellProvider.php.html#102"><abbr title="PKP\controllers\grid\users\reviewer\AuthorReviewerGridCellProvider::getCellActions">getCellActions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/AuthorReviewerGridCellProvider.php.html#138"><abbr title="PKP\controllers\grid\users\reviewer\AuthorReviewerGridCellProvider::_getStatusText">_getStatusText</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/AuthorReviewerGridCellProvider.php.html#173"><abbr title="PKP\controllers\grid\users\reviewer\AuthorReviewerGridCellProvider::_getStatusWithRecommendation">_getStatusWithRecommendation</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/AuthorReviewerGridHandler.php.html#42"><abbr title="PKP\controllers\grid\users\reviewer\AuthorReviewerGridHandler::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/AuthorReviewerGridHandler.php.html#60"><abbr title="PKP\controllers\grid\users\reviewer\AuthorReviewerGridHandler::getRowInstance">getRowInstance</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/AuthorReviewerGridHandler.php.html#70"><abbr title="PKP\controllers\grid\users\reviewer\AuthorReviewerGridHandler::initialize">initialize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/AuthorReviewerGridHandler.php.html#127"><abbr title="PKP\controllers\grid\users\reviewer\AuthorReviewerGridHandler::authorize">authorize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/AuthorReviewerGridHandler.php.html#156"><abbr title="PKP\controllers\grid\users\reviewer\AuthorReviewerGridHandler::loadData">loadData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/AuthorReviewerGridHandler.php.html#179"><abbr title="PKP\controllers\grid\users\reviewer\AuthorReviewerGridHandler::readReview">readReview</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/ReviewerGridCellProvider.php.html#40"><abbr title="PKP\controllers\grid\users\reviewer\ReviewerGridCellProvider::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/ReviewerGridCellProvider.php.html#57"><abbr title="PKP\controllers\grid\users\reviewer\ReviewerGridCellProvider::getCellState">getCellState</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/ReviewerGridCellProvider.php.html#82"><abbr title="PKP\controllers\grid\users\reviewer\ReviewerGridCellProvider::getTemplateVarsFromRowColumn">getTemplateVarsFromRowColumn</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/ReviewerGridCellProvider.php.html#124"><abbr title="PKP\controllers\grid\users\reviewer\ReviewerGridCellProvider::getCellActions">getCellActions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/ReviewerGridCellProvider.php.html#174"><abbr title="PKP\controllers\grid\users\reviewer\ReviewerGridCellProvider::_getStatusText">_getStatusText</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/ReviewerGridCellProvider.php.html#213"><abbr title="PKP\controllers\grid\users\reviewer\ReviewerGridCellProvider::_getStatusWithRecommendation">_getStatusWithRecommendation</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/ReviewerGridRow.php.html#39"><abbr title="PKP\controllers\grid\users\reviewer\ReviewerGridRow::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/ReviewerGridRow.php.html#53"><abbr title="PKP\controllers\grid\users\reviewer\ReviewerGridRow::initialize">initialize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/form/AdvancedSearchReviewerForm.php.html#47"><abbr title="PKP\controllers\grid\users\reviewer\form\AdvancedSearchReviewerForm::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/form/AdvancedSearchReviewerForm.php.html#60"><abbr title="PKP\controllers\grid\users\reviewer\form\AdvancedSearchReviewerForm::readInputData">readInputData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/form/AdvancedSearchReviewerForm.php.html#70"><abbr title="PKP\controllers\grid\users\reviewer\form\AdvancedSearchReviewerForm::initData">initData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/form/AdvancedSearchReviewerForm.php.html#94"><abbr title="PKP\controllers\grid\users\reviewer\form\AdvancedSearchReviewerForm::fetch">fetch</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/form/AdvancedSearchReviewerForm.php.html#259"><abbr title="PKP\controllers\grid\users\reviewer\form\AdvancedSearchReviewerForm::getEmailTemplates">getEmailTemplates</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/form/CreateReviewerForm.php.html#41"><abbr title="PKP\controllers\grid\users\reviewer\form\CreateReviewerForm::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/form/CreateReviewerForm.php.html#74"><abbr title="PKP\controllers\grid\users\reviewer\form\CreateReviewerForm::initData">initData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/form/CreateReviewerForm.php.html#89"><abbr title="PKP\controllers\grid\users\reviewer\form\CreateReviewerForm::fetch">fetch</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/form/CreateReviewerForm.php.html#104"><abbr title="PKP\controllers\grid\users\reviewer\form\CreateReviewerForm::readInputData">readInputData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/form/CreateReviewerForm.php.html#123"><abbr title="PKP\controllers\grid\users\reviewer\form\CreateReviewerForm::execute">execute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/form/EditReviewForm.php.html#49"><abbr title="PKP\controllers\grid\users\reviewer\form\EditReviewForm::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/form/EditReviewForm.php.html#86"><abbr title="PKP\controllers\grid\users\reviewer\form\EditReviewForm::initData">initData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/form/EditReviewForm.php.html#100"><abbr title="PKP\controllers\grid\users\reviewer\form\EditReviewForm::fetch">fetch</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/form/EditReviewForm.php.html#134"><abbr title="PKP\controllers\grid\users\reviewer\form\EditReviewForm::readInputData">readInputData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/form/EditReviewForm.php.html#149"><abbr title="PKP\controllers\grid\users\reviewer\form\EditReviewForm::execute">execute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/form/EmailReviewerForm.php.html#45"><abbr title="PKP\controllers\grid\users\reviewer\form\EmailReviewerForm::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/form/EmailReviewerForm.php.html#63"><abbr title="PKP\controllers\grid\users\reviewer\form\EmailReviewerForm::readInputData">readInputData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/form/EmailReviewerForm.php.html#79"><abbr title="PKP\controllers\grid\users\reviewer\form\EmailReviewerForm::fetch">fetch</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/form/EmailReviewerForm.php.html#94"><abbr title="PKP\controllers\grid\users\reviewer\form\EmailReviewerForm::execute">execute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/form/EnrollExistingReviewerForm.php.html#31"><abbr title="PKP\controllers\grid\users\reviewer\form\EnrollExistingReviewerForm::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/form/EnrollExistingReviewerForm.php.html#43"><abbr title="PKP\controllers\grid\users\reviewer\form\EnrollExistingReviewerForm::initData">initData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/form/EnrollExistingReviewerForm.php.html#58"><abbr title="PKP\controllers\grid\users\reviewer\form\EnrollExistingReviewerForm::fetch">fetch</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/form/EnrollExistingReviewerForm.php.html#71"><abbr title="PKP\controllers\grid\users\reviewer\form\EnrollExistingReviewerForm::readInputData">readInputData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/form/EnrollExistingReviewerForm.php.html#81"><abbr title="PKP\controllers\grid\users\reviewer\form\EnrollExistingReviewerForm::execute">execute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/form/EnrollExistingReviewerForm.php.html#103"><abbr title="PKP\controllers\grid\users\reviewer\form\EnrollExistingReviewerForm::isValidUserAndGroup">isValidUserAndGroup</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/form/ReinstateReviewerForm.php.html#43"><abbr title="PKP\controllers\grid\users\reviewer\form\ReinstateReviewerForm::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/form/ReinstateReviewerForm.php.html#51"><abbr title="PKP\controllers\grid\users\reviewer\form\ReinstateReviewerForm::getMailable">getMailable</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/form/ReinstateReviewerForm.php.html#63"><abbr title="PKP\controllers\grid\users\reviewer\form\ReinstateReviewerForm::execute">execute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/form/ResendRequestReviewerForm.php.html#40"><abbr title="PKP\controllers\grid\users\reviewer\form\ResendRequestReviewerForm::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/form/ResendRequestReviewerForm.php.html#50"><abbr title="PKP\controllers\grid\users\reviewer\form\ResendRequestReviewerForm::getMailable">getMailable</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/form/ResendRequestReviewerForm.php.html#58"><abbr title="PKP\controllers\grid\users\reviewer\form\ResendRequestReviewerForm::getEmailKey">getEmailKey</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/form/ResendRequestReviewerForm.php.html#68"><abbr title="PKP\controllers\grid\users\reviewer\form\ResendRequestReviewerForm::execute">execute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/form/ReviewReminderForm.php.html#44"><abbr title="PKP\controllers\grid\users\reviewer\form\ReviewReminderForm::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/form/ReviewReminderForm.php.html#62"><abbr title="PKP\controllers\grid\users\reviewer\form\ReviewReminderForm::getReviewAssignment">getReviewAssignment</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/form/ReviewReminderForm.php.html#74"><abbr title="PKP\controllers\grid\users\reviewer\form\ReviewReminderForm::initData">initData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/form/ReviewReminderForm.php.html#107"><abbr title="PKP\controllers\grid\users\reviewer\form\ReviewReminderForm::fetch">fetch</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/form/ReviewReminderForm.php.html#121"><abbr title="PKP\controllers\grid\users\reviewer\form\ReviewReminderForm::readInputData">readInputData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/form/ReviewReminderForm.php.html#132"><abbr title="PKP\controllers\grid\users\reviewer\form\ReviewReminderForm::execute">execute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/form/ReviewerForm.php.html#66"><abbr title="PKP\controllers\grid\users\reviewer\form\ReviewerForm::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/form/ReviewerForm.php.html#99"><abbr title="PKP\controllers\grid\users\reviewer\form\ReviewerForm::getSubmissionId">getSubmissionId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/form/ReviewerForm.php.html#110"><abbr title="PKP\controllers\grid\users\reviewer\form\ReviewerForm::getSubmission">getSubmission</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/form/ReviewerForm.php.html#120"><abbr title="PKP\controllers\grid\users\reviewer\form\ReviewerForm::getReviewRound">getReviewRound</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/form/ReviewerForm.php.html#130"><abbr title="PKP\controllers\grid\users\reviewer\form\ReviewerForm::setSubmission">setSubmission</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/form/ReviewerForm.php.html#140"><abbr title="PKP\controllers\grid\users\reviewer\form\ReviewerForm::setReviewRound">setReviewRound</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/form/ReviewerForm.php.html#150"><abbr title="PKP\controllers\grid\users\reviewer\form\ReviewerForm::setReviewerFormAction">setReviewerFormAction</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/form/ReviewerForm.php.html#160"><abbr title="PKP\controllers\grid\users\reviewer\form\ReviewerForm::setUserRoles">setUserRoles</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/form/ReviewerForm.php.html#170"><abbr title="PKP\controllers\grid\users\reviewer\form\ReviewerForm::getUserRoles">getUserRoles</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/form/ReviewerForm.php.html#180"><abbr title="PKP\controllers\grid\users\reviewer\form\ReviewerForm::getReviewerFormActions">getReviewerFormActions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/form/ReviewerForm.php.html#190"><abbr title="PKP\controllers\grid\users\reviewer\form\ReviewerForm::initData">initData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/form/ReviewerForm.php.html#246"><abbr title="PKP\controllers\grid\users\reviewer\form\ReviewerForm::fetch">fetch</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/form/ReviewerForm.php.html#302"><abbr title="PKP\controllers\grid\users\reviewer\form\ReviewerForm::readInputData">readInputData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/form/ReviewerForm.php.html#325"><abbr title="PKP\controllers\grid\users\reviewer\form\ReviewerForm::execute">execute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/form/ReviewerForm.php.html#411"><abbr title="PKP\controllers\grid\users\reviewer\form\ReviewerForm::getAdvancedSearchAction">getAdvancedSearchAction</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/form/ReviewerForm.php.html#441"><abbr title="PKP\controllers\grid\users\reviewer\form\ReviewerForm::_isValidReviewer">_isValidReviewer</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/form/ReviewerForm.php.html#463"><abbr title="PKP\controllers\grid\users\reviewer\form\ReviewerForm::getMailable">getMailable</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/form/ReviewerForm.php.html#494"><abbr title="PKP\controllers\grid\users\reviewer\form\ReviewerForm::getEmailTemplates">getEmailTemplates</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/form/ReviewerGossipForm.php.html#39"><abbr title="PKP\controllers\grid\users\reviewer\form\ReviewerGossipForm::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/form/ReviewerGossipForm.php.html#51"><abbr title="PKP\controllers\grid\users\reviewer\form\ReviewerGossipForm::readInputData">readInputData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/form/ReviewerGossipForm.php.html#63"><abbr title="PKP\controllers\grid\users\reviewer\form\ReviewerGossipForm::fetch">fetch</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/form/ReviewerGossipForm.php.html#77"><abbr title="PKP\controllers\grid\users\reviewer\form\ReviewerGossipForm::execute">execute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/form/ReviewerNotifyActionForm.php.html#47"><abbr title="PKP\controllers\grid\users\reviewer\form\ReviewerNotifyActionForm::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/form/ReviewerNotifyActionForm.php.html#58"><abbr title="PKP\controllers\grid\users\reviewer\form\ReviewerNotifyActionForm::getMailable">getMailable</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/form/ReviewerNotifyActionForm.php.html#66"><abbr title="PKP\controllers\grid\users\reviewer\form\ReviewerNotifyActionForm::initData">initData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/form/ReviewerNotifyActionForm.php.html#95"><abbr title="PKP\controllers\grid\users\reviewer\form\ReviewerNotifyActionForm::readInputData">readInputData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/form/ReviewerNotifyActionForm.php.html#116"><abbr title="PKP\controllers\grid\users\reviewer\form\ReviewerNotifyActionForm::setReviewAssignment">setReviewAssignment</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/form/ReviewerNotifyActionForm.php.html#126"><abbr title="PKP\controllers\grid\users\reviewer\form\ReviewerNotifyActionForm::getReviewAssignment">getReviewAssignment</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/form/ReviewerNotifyActionForm.php.html#136"><abbr title="PKP\controllers\grid\users\reviewer\form\ReviewerNotifyActionForm::setReviewRound">setReviewRound</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/form/ReviewerNotifyActionForm.php.html#146"><abbr title="PKP\controllers\grid\users\reviewer\form\ReviewerNotifyActionForm::getReviewRound">getReviewRound</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/form/ReviewerNotifyActionForm.php.html#156"><abbr title="PKP\controllers\grid\users\reviewer\form\ReviewerNotifyActionForm::setSubmission">setSubmission</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/form/ReviewerNotifyActionForm.php.html#166"><abbr title="PKP\controllers\grid\users\reviewer\form\ReviewerNotifyActionForm::getSubmission">getSubmission</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/form/ThankReviewerForm.php.html#42"><abbr title="PKP\controllers\grid\users\reviewer\form\ThankReviewerForm::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/form/ThankReviewerForm.php.html#60"><abbr title="PKP\controllers\grid\users\reviewer\form\ThankReviewerForm::getReviewAssignment">getReviewAssignment</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/form/ThankReviewerForm.php.html#71"><abbr title="PKP\controllers\grid\users\reviewer\form\ThankReviewerForm::initData">initData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/form/ThankReviewerForm.php.html#99"><abbr title="PKP\controllers\grid\users\reviewer\form\ThankReviewerForm::readInputData">readInputData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/form/ThankReviewerForm.php.html#109"><abbr title="PKP\controllers\grid\users\reviewer\form\ThankReviewerForm::execute">execute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/form/UnassignReviewerForm.php.html#42"><abbr title="PKP\controllers\grid\users\reviewer\form\UnassignReviewerForm::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/form/UnassignReviewerForm.php.html#50"><abbr title="PKP\controllers\grid\users\reviewer\form\UnassignReviewerForm::getMailable">getMailable</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/form/UnassignReviewerForm.php.html#62"><abbr title="PKP\controllers\grid\users\reviewer\form\UnassignReviewerForm::execute">execute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="stageParticipant/StageParticipantGridCategoryRow.php.html#35"><abbr title="PKP\controllers\grid\users\stageParticipant\StageParticipantGridCategoryRow::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="stageParticipant/StageParticipantGridCategoryRow.php.html#48"><abbr title="PKP\controllers\grid\users\stageParticipant\StageParticipantGridCategoryRow::getCategoryLabel">getCategoryLabel</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="stageParticipant/StageParticipantGridCategoryRow.php.html#62"><abbr title="PKP\controllers\grid\users\stageParticipant\StageParticipantGridCategoryRow::getSubmission">getSubmission</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="stageParticipant/StageParticipantGridCategoryRow.php.html#72"><abbr title="PKP\controllers\grid\users\stageParticipant\StageParticipantGridCategoryRow::getStageId">getStageId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="stageParticipant/StageParticipantGridCellProvider.php.html#37"><abbr title="PKP\controllers\grid\users\stageParticipant\StageParticipantGridCellProvider::getTemplateVarsFromRowColumn">getTemplateVarsFromRowColumn</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="stageParticipant/StageParticipantGridHandler.php.html#51"><abbr title="PKP\controllers\grid\users\stageParticipant\StageParticipantGridHandler::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="stageParticipant/StageParticipantGridHandler.php.html#78"><abbr title="PKP\controllers\grid\users\stageParticipant\StageParticipantGridHandler::getSubmission">getSubmission</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="stageParticipant/StageParticipantGridHandler.php.html#88"><abbr title="PKP\controllers\grid\users\stageParticipant\StageParticipantGridHandler::getStageId">getStageId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="stageParticipant/StageParticipantGridHandler.php.html#99"><abbr title="PKP\controllers\grid\users\stageParticipant\StageParticipantGridHandler::authorize">authorize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="stageParticipant/StageParticipantGridHandler.php.html#112"><abbr title="PKP\controllers\grid\users\stageParticipant\StageParticipantGridHandler::_canAdminister">_canAdminister</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="stageParticipant/StageParticipantGridHandler.php.html#127"><abbr title="PKP\controllers\grid\users\stageParticipant\StageParticipantGridHandler::initialize">initialize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="stageParticipant/StageParticipantGridHandler.php.html#197"><abbr title="PKP\controllers\grid\users\stageParticipant\StageParticipantGridHandler::loadCategoryData">loadCategoryData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="stageParticipant/StageParticipantGridHandler.php.html#217"><abbr title="PKP\controllers\grid\users\stageParticipant\StageParticipantGridHandler::getIsSubcomponent">getIsSubcomponent</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="stageParticipant/StageParticipantGridHandler.php.html#225"><abbr title="PKP\controllers\grid\users\stageParticipant\StageParticipantGridHandler::getRowInstance">getRowInstance</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="stageParticipant/StageParticipantGridHandler.php.html#233"><abbr title="PKP\controllers\grid\users\stageParticipant\StageParticipantGridHandler::getCategoryRowInstance">getCategoryRowInstance</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="stageParticipant/StageParticipantGridHandler.php.html#242"><abbr title="PKP\controllers\grid\users\stageParticipant\StageParticipantGridHandler::getCategoryRowIdParameterName">getCategoryRowIdParameterName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="stageParticipant/StageParticipantGridHandler.php.html#250"><abbr title="PKP\controllers\grid\users\stageParticipant\StageParticipantGridHandler::getRequestArgs">getRequestArgs</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="stageParticipant/StageParticipantGridHandler.php.html#265"><abbr title="PKP\controllers\grid\users\stageParticipant\StageParticipantGridHandler::loadData">loadData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="stageParticipant/StageParticipantGridHandler.php.html#305"><abbr title="PKP\controllers\grid\users\stageParticipant\StageParticipantGridHandler::addParticipant">addParticipant</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="stageParticipant/StageParticipantGridHandler.php.html#329"><abbr title="PKP\controllers\grid\users\stageParticipant\StageParticipantGridHandler::saveParticipant">saveParticipant</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="stageParticipant/StageParticipantGridHandler.php.html#410"><abbr title="PKP\controllers\grid\users\stageParticipant\StageParticipantGridHandler::deleteParticipant">deleteParticipant</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="stageParticipant/StageParticipantGridHandler.php.html#482"><abbr title="PKP\controllers\grid\users\stageParticipant\StageParticipantGridHandler::fetchUserList">fetchUserList</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="stageParticipant/StageParticipantGridHandler.php.html#518"><abbr title="PKP\controllers\grid\users\stageParticipant\StageParticipantGridHandler::viewNotify">viewNotify</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="stageParticipant/StageParticipantGridHandler.php.html#536"><abbr title="PKP\controllers\grid\users\stageParticipant\StageParticipantGridHandler::sendNotification">sendNotification</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="stageParticipant/StageParticipantGridHandler.php.html#581"><abbr title="PKP\controllers\grid\users\stageParticipant\StageParticipantGridHandler::fetchTemplateBody">fetchTemplateBody</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="stageParticipant/StageParticipantGridHandler.php.html#608"><abbr title="PKP\controllers\grid\users\stageParticipant\StageParticipantGridHandler::getJSHandler">getJSHandler</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="stageParticipant/StageParticipantGridRow.php.html#45"><abbr title="PKP\controllers\grid\users\stageParticipant\StageParticipantGridRow::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="stageParticipant/StageParticipantGridRow.php.html#63"><abbr title="PKP\controllers\grid\users\stageParticipant\StageParticipantGridRow::initialize">initialize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="stageParticipant/StageParticipantGridRow.php.html#160"><abbr title="PKP\controllers\grid\users\stageParticipant\StageParticipantGridRow::getSubmission">getSubmission</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="stageParticipant/StageParticipantGridRow.php.html#170"><abbr title="PKP\controllers\grid\users\stageParticipant\StageParticipantGridRow::getStageId">getStageId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="stageParticipant/StageParticipantGridRow.php.html#178"><abbr title="PKP\controllers\grid\users\stageParticipant\StageParticipantGridRow::getRequestArgs">getRequestArgs</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="stageParticipant/form/AddParticipantForm.php.html#53"><abbr title="PKP\controllers\grid\users\stageParticipant\form\AddParticipantForm::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="stageParticipant/form/AddParticipantForm.php.html#78"><abbr title="PKP\controllers\grid\users\stageParticipant\form\AddParticipantForm::getSubmission">getSubmission</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="stageParticipant/form/AddParticipantForm.php.html#86"><abbr title="PKP\controllers\grid\users\stageParticipant\form\AddParticipantForm::initialize">initialize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="stageParticipant/form/AddParticipantForm.php.html#99"><abbr title="PKP\controllers\grid\users\stageParticipant\form\AddParticipantForm::_isChangePermitMetadataAllowed">_isChangePermitMetadataAllowed</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="stageParticipant/form/AddParticipantForm.php.html#115"><abbr title="PKP\controllers\grid\users\stageParticipant\form\AddParticipantForm::_isChangeRecommendOnlyAllowed">_isChangeRecommendOnlyAllowed</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="stageParticipant/form/AddParticipantForm.php.html#131"><abbr title="PKP\controllers\grid\users\stageParticipant\form\AddParticipantForm::fetch">fetch</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="stageParticipant/form/AddParticipantForm.php.html#223"><abbr title="PKP\controllers\grid\users\stageParticipant\form\AddParticipantForm::readInputData">readInputData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="stageParticipant/form/AddParticipantForm.php.html#238"><abbr title="PKP\controllers\grid\users\stageParticipant\form\AddParticipantForm::validate">validate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="stageParticipant/form/AddParticipantForm.php.html#251"><abbr title="PKP\controllers\grid\users\stageParticipant\form\AddParticipantForm::execute">execute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="stageParticipant/form/AddParticipantForm.php.html#296"><abbr title="PKP\controllers\grid\users\stageParticipant\form\AddParticipantForm::isMessageRequired">isMessageRequired</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="stageParticipant/form/PKPStageParticipantNotifyForm.php.html#62"><abbr title="PKP\controllers\grid\users\stageParticipant\form\PKPStageParticipantNotifyForm::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="stageParticipant/form/PKPStageParticipantNotifyForm.php.html#92"><abbr title="PKP\controllers\grid\users\stageParticipant\form\PKPStageParticipantNotifyForm::fetch">fetch</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="stageParticipant/form/PKPStageParticipantNotifyForm.php.html#139"><abbr title="PKP\controllers\grid\users\stageParticipant\form\PKPStageParticipantNotifyForm::readInputData">readInputData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="stageParticipant/form/PKPStageParticipantNotifyForm.php.html#147"><abbr title="PKP\controllers\grid\users\stageParticipant\form\PKPStageParticipantNotifyForm::execute">execute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="stageParticipant/form/PKPStageParticipantNotifyForm.php.html#161"><abbr title="PKP\controllers\grid\users\stageParticipant\form\PKPStageParticipantNotifyForm::sendMessage">sendMessage</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="stageParticipant/form/PKPStageParticipantNotifyForm.php.html#296"><abbr title="PKP\controllers\grid\users\stageParticipant\form\PKPStageParticipantNotifyForm::getEmailVariableNames">getEmailVariableNames</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="stageParticipant/form/PKPStageParticipantNotifyForm.php.html#328"><abbr title="PKP\controllers\grid\users\stageParticipant\form\PKPStageParticipantNotifyForm::getStageId">getStageId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="stageParticipant/form/PKPStageParticipantNotifyForm.php.html#341"><abbr title="PKP\controllers\grid\users\stageParticipant\form\PKPStageParticipantNotifyForm::_addAssignmentTaskNotification">_addAssignmentTaskNotification</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="stageParticipant/form/PKPStageParticipantNotifyForm.php.html#369"><abbr title="PKP\controllers\grid\users\stageParticipant\form\PKPStageParticipantNotifyForm::_logEventAndCreateNotification">_logEventAndCreateNotification</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="stageParticipant/form/PKPStageParticipantNotifyForm.php.html#393"><abbr title="PKP\controllers\grid\users\stageParticipant\form\PKPStageParticipantNotifyForm::isMessageRequired">isMessageRequired</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="stageParticipant/linkAction/NotifyLinkAction.php.html#34"><abbr title="PKP\controllers\grid\users\stageParticipant\linkAction\NotifyLinkAction::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="userSelect/UserSelectGridCellProvider.php.html#33"><abbr title="PKP\controllers\grid\users\userSelect\UserSelectGridCellProvider::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="userSelect/UserSelectGridCellProvider.php.html#50"><abbr title="PKP\controllers\grid\users\userSelect\UserSelectGridCellProvider::getTemplateVarsFromRowColumn">getTemplateVarsFromRowColumn</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="userSelect/UserSelectGridHandler.php.html#36"><abbr title="PKP\controllers\grid\users\userSelect\UserSelectGridHandler::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="userSelect/UserSelectGridHandler.php.html#51"><abbr title="PKP\controllers\grid\users\userSelect\UserSelectGridHandler::authorize">authorize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="userSelect/UserSelectGridHandler.php.html#65"><abbr title="PKP\controllers\grid\users\userSelect\UserSelectGridHandler::initialize">initialize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="userSelect/UserSelectGridHandler.php.html#120"><abbr title="PKP\controllers\grid\users\userSelect\UserSelectGridHandler::initFeatures">initFeatures</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="userSelect/UserSelectGridHandler.php.html#128"><abbr title="PKP\controllers\grid\users\userSelect\UserSelectGridHandler::loadData">loadData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="userSelect/UserSelectGridHandler.php.html#150"><abbr title="PKP\controllers\grid\users\userSelect\UserSelectGridHandler::renderFilter">renderFilter</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="userSelect/UserSelectGridHandler.php.html#172"><abbr title="PKP\controllers\grid\users\userSelect\UserSelectGridHandler::getFilterSelectionData">getFilterSelectionData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="userSelect/UserSelectGridHandler.php.html#185"><abbr title="PKP\controllers\grid\users\userSelect\UserSelectGridHandler::getFilterForm">getFilterForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="userSelect/UserSelectGridHandler.php.html#193"><abbr title="PKP\controllers\grid\users\userSelect\UserSelectGridHandler::getRequestArgs">getRequestArgs</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="userSelect/UserSelectGridHandler.php.html#208"><abbr title="PKP\controllers\grid\users\userSelect\UserSelectGridHandler::isFilterFormCollapsible">isFilterFormCollapsible</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="userSelect/UserSelectGridHandler.php.html#218"><abbr title="PKP\controllers\grid\users\userSelect\UserSelectGridHandler::getItemsNumber">getItemsNumber</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="userSelect/UserSelectGridHandler.php.html#229"><abbr title="PKP\controllers\grid\users\userSelect\UserSelectGridHandler::getFilterValues">getFilterValues</abbr></a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="stageParticipant/form/PKPStageParticipantNotifyForm.php.html#161"><abbr title="PKP\controllers\grid\users\stageParticipant\form\PKPStageParticipantNotifyForm::sendMessage">sendMessage</abbr></a></td><td class="text-right">462</td></tr>
+       <tr><td><a href="reviewer/ReviewerGridRow.php.html#53"><abbr title="PKP\controllers\grid\users\reviewer\ReviewerGridRow::initialize">initialize</abbr></a></td><td class="text-right">272</td></tr>
+       <tr><td><a href="reviewer/ReviewerGridCellProvider.php.html#174"><abbr title="PKP\controllers\grid\users\reviewer\ReviewerGridCellProvider::_getStatusText">_getStatusText</abbr></a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="reviewer/form/EditReviewForm.php.html#149"><abbr title="PKP\controllers\grid\users\reviewer\form\EditReviewForm::execute">execute</abbr></a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="reviewer/AuthorReviewerGridCellProvider.php.html#138"><abbr title="PKP\controllers\grid\users\reviewer\AuthorReviewerGridCellProvider::_getStatusText">_getStatusText</abbr></a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="reviewer/form/AdvancedSearchReviewerForm.php.html#94"><abbr title="PKP\controllers\grid\users\reviewer\form\AdvancedSearchReviewerForm::fetch">fetch</abbr></a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="stageParticipant/form/PKPStageParticipantNotifyForm.php.html#296"><abbr title="PKP\controllers\grid\users\stageParticipant\form\PKPStageParticipantNotifyForm::getEmailVariableNames">getEmailVariableNames</abbr></a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="reviewer/ReviewerGridCellProvider.php.html#82"><abbr title="PKP\controllers\grid\users\reviewer\ReviewerGridCellProvider::getTemplateVarsFromRowColumn">getTemplateVarsFromRowColumn</abbr></a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="author/form/PKPAuthorForm.php.html#204"><abbr title="PKP\controllers\grid\users\author\form\PKPAuthorForm::execute">execute</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="reviewer/ReviewerGridCellProvider.php.html#124"><abbr title="PKP\controllers\grid\users\reviewer\ReviewerGridCellProvider::getCellActions">getCellActions</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="stageParticipant/StageParticipantGridRow.php.html#63"><abbr title="PKP\controllers\grid\users\stageParticipant\StageParticipantGridRow::initialize">initialize</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="author/PKPAuthorGridCellProvider.php.html#53"><abbr title="PKP\controllers\grid\users\author\PKPAuthorGridCellProvider::getTemplateVarsFromRowColumn">getTemplateVarsFromRowColumn</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="reviewer/AuthorReviewerGridCellProvider.php.html#64"><abbr title="PKP\controllers\grid\users\reviewer\AuthorReviewerGridCellProvider::getTemplateVarsFromRowColumn">getTemplateVarsFromRowColumn</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="reviewer/form/ReviewerForm.php.html#325"><abbr title="PKP\controllers\grid\users\reviewer\form\ReviewerForm::execute">execute</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="reviewer/form/UnassignReviewerForm.php.html#62"><abbr title="PKP\controllers\grid\users\reviewer\form\UnassignReviewerForm::execute">execute</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="stageParticipant/form/AddParticipantForm.php.html#251"><abbr title="PKP\controllers\grid\users\stageParticipant\form\AddParticipantForm::execute">execute</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="author/AuthorGridRow.php.html#63"><abbr title="PKP\controllers\grid\users\author\AuthorGridRow::initialize">initialize</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="reviewer/AuthorReviewerGridCellProvider.php.html#39"><abbr title="PKP\controllers\grid\users\reviewer\AuthorReviewerGridCellProvider::getCellState">getCellState</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="reviewer/AuthorReviewerGridCellProvider.php.html#102"><abbr title="PKP\controllers\grid\users\reviewer\AuthorReviewerGridCellProvider::getCellActions">getCellActions</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="reviewer/ReviewerGridCellProvider.php.html#57"><abbr title="PKP\controllers\grid\users\reviewer\ReviewerGridCellProvider::getCellState">getCellState</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="reviewer/form/EnrollExistingReviewerForm.php.html#103"><abbr title="PKP\controllers\grid\users\reviewer\form\EnrollExistingReviewerForm::isValidUserAndGroup">isValidUserAndGroup</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="reviewer/form/ReviewerForm.php.html#190"><abbr title="PKP\controllers\grid\users\reviewer\form\ReviewerForm::initData">initData</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="stageParticipant/StageParticipantGridHandler.php.html#329"><abbr title="PKP\controllers\grid\users\stageParticipant\StageParticipantGridHandler::saveParticipant">saveParticipant</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="stageParticipant/StageParticipantGridHandler.php.html#410"><abbr title="PKP\controllers\grid\users\stageParticipant\StageParticipantGridHandler::deleteParticipant">deleteParticipant</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="stageParticipant/form/AddParticipantForm.php.html#131"><abbr title="PKP\controllers\grid\users\stageParticipant\form\AddParticipantForm::fetch">fetch</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="author/AuthorGridHandler.php.html#273"><abbr title="PKP\controllers\grid\users\author\AuthorGridHandler::canAdminister">canAdminister</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="author/AuthorGridHandler.php.html#367"><abbr title="PKP\controllers\grid\users\author\AuthorGridHandler::updateAuthor">updateAuthor</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="reviewer/form/ReinstateReviewerForm.php.html#63"><abbr title="PKP\controllers\grid\users\reviewer\form\ReinstateReviewerForm::execute">execute</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="reviewer/form/ThankReviewerForm.php.html#109"><abbr title="PKP\controllers\grid\users\reviewer\form\ThankReviewerForm::execute">execute</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="stageParticipant/StageParticipantGridCellProvider.php.html#37"><abbr title="PKP\controllers\grid\users\stageParticipant\StageParticipantGridCellProvider::getTemplateVarsFromRowColumn">getTemplateVarsFromRowColumn</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="stageParticipant/form/PKPStageParticipantNotifyForm.php.html#92"><abbr title="PKP\controllers\grid\users\stageParticipant\form\PKPStageParticipantNotifyForm::fetch">fetch</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="userSelect/UserSelectGridHandler.php.html#229"><abbr title="PKP\controllers\grid\users\userSelect\UserSelectGridHandler::getFilterValues">getFilterValues</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="author/AuthorGridHandler.php.html#429"><abbr title="PKP\controllers\grid\users\author\AuthorGridHandler::deleteAuthor">deleteAuthor</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="author/form/PKPAuthorForm.php.html#43"><abbr title="PKP\controllers\grid\users\author\form\PKPAuthorForm::__construct">__construct</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="reviewer/form/CreateReviewerForm.php.html#41"><abbr title="PKP\controllers\grid\users\reviewer\form\CreateReviewerForm::__construct">__construct</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="reviewer/form/ResendRequestReviewerForm.php.html#68"><abbr title="PKP\controllers\grid\users\reviewer\form\ResendRequestReviewerForm::execute">execute</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="stageParticipant/StageParticipantGridHandler.php.html#265"><abbr title="PKP\controllers\grid\users\stageParticipant\StageParticipantGridHandler::loadData">loadData</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="stageParticipant/StageParticipantGridHandler.php.html#536"><abbr title="PKP\controllers\grid\users\stageParticipant\StageParticipantGridHandler::sendNotification">sendNotification</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="stageParticipant/form/PKPStageParticipantNotifyForm.php.html#62"><abbr title="PKP\controllers\grid\users\stageParticipant\form\PKPStageParticipantNotifyForm::__construct">__construct</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="author/AuthorGridHandler.php.html#124"><abbr title="PKP\controllers\grid\users\author\AuthorGridHandler::initialize">initialize</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="author/AuthorGridHandler.php.html#461"><abbr title="PKP\controllers\grid\users\author\AuthorGridHandler::addUser">addUser</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="exportableUsers/ExportableUsersGridHandler.php.html#246"><abbr title="PKP\controllers\grid\users\exportableUsers\ExportableUsersGridHandler::getFilterSelectionData">getFilterSelectionData</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="reviewer/form/CreateReviewerForm.php.html#123"><abbr title="PKP\controllers\grid\users\reviewer\form\CreateReviewerForm::execute">execute</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="reviewer/form/EditReviewForm.php.html#100"><abbr title="PKP\controllers\grid\users\reviewer\form\EditReviewForm::fetch">fetch</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="reviewer/form/ReviewerForm.php.html#246"><abbr title="PKP\controllers\grid\users\reviewer\form\ReviewerForm::fetch">fetch</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="reviewer/form/ReviewerForm.php.html#441"><abbr title="PKP\controllers\grid\users\reviewer\form\ReviewerForm::_isValidReviewer">_isValidReviewer</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="stageParticipant/StageParticipantGridHandler.php.html#127"><abbr title="PKP\controllers\grid\users\stageParticipant\StageParticipantGridHandler::initialize">initialize</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="stageParticipant/StageParticipantGridHandler.php.html#482"><abbr title="PKP\controllers\grid\users\stageParticipant\StageParticipantGridHandler::fetchUserList">fetchUserList</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="stageParticipant/form/AddParticipantForm.php.html#99"><abbr title="PKP\controllers\grid\users\stageParticipant\form\AddParticipantForm::_isChangePermitMetadataAllowed">_isChangePermitMetadataAllowed</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="stageParticipant/form/AddParticipantForm.php.html#115"><abbr title="PKP\controllers\grid\users\stageParticipant\form\AddParticipantForm::_isChangeRecommendOnlyAllowed">_isChangeRecommendOnlyAllowed</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="stageParticipant/form/AddParticipantForm.php.html#238"><abbr title="PKP\controllers\grid\users\stageParticipant\form\AddParticipantForm::validate">validate</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="userSelect/UserSelectGridCellProvider.php.html#50"><abbr title="PKP\controllers\grid\users\userSelect\UserSelectGridCellProvider::getTemplateVarsFromRowColumn">getTemplateVarsFromRowColumn</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="userSelect/UserSelectGridHandler.php.html#65"><abbr title="PKP\controllers\grid\users\userSelect\UserSelectGridHandler::initialize">initialize</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="author/AuthorGridHandler.php.html#209"><abbr title="PKP\controllers\grid\users\author\AuthorGridHandler::initFeatures">initFeatures</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="author/AuthorGridHandler.php.html#229"><abbr title="PKP\controllers\grid\users\author\AuthorGridHandler::setDataElementSequence">setDataElementSequence</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="author/AuthorGridHandler.php.html#324"><abbr title="PKP\controllers\grid\users\author\AuthorGridHandler::addAuthor">addAuthor</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="author/AuthorGridHandler.php.html#342"><abbr title="PKP\controllers\grid\users\author\AuthorGridHandler::editAuthor">editAuthor</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="author/form/PKPAuthorForm.php.html#120"><abbr title="PKP\controllers\grid\users\author\form\PKPAuthorForm::initData">initData</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="author/form/PKPAuthorForm.php.html#153"><abbr title="PKP\controllers\grid\users\author\form\PKPAuthorForm::fetch">fetch</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="exportableUsers/ExportableUsersGridHandler.php.html#182"><abbr title="PKP\controllers\grid\users\exportableUsers\ExportableUsersGridHandler::loadData">loadData</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="exportableUsers/ExportableUsersGridHandler.php.html#207"><abbr title="PKP\controllers\grid\users\exportableUsers\ExportableUsersGridHandler::renderFilter">renderFilter</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="reviewer/AuthorReviewerGridCellProvider.php.html#173"><abbr title="PKP\controllers\grid\users\reviewer\AuthorReviewerGridCellProvider::_getStatusWithRecommendation">_getStatusWithRecommendation</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="reviewer/AuthorReviewerGridHandler.php.html#179"><abbr title="PKP\controllers\grid\users\reviewer\AuthorReviewerGridHandler::readReview">readReview</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="reviewer/ReviewerGridCellProvider.php.html#213"><abbr title="PKP\controllers\grid\users\reviewer\ReviewerGridCellProvider::_getStatusWithRecommendation">_getStatusWithRecommendation</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="reviewer/form/AdvancedSearchReviewerForm.php.html#259"><abbr title="PKP\controllers\grid\users\reviewer\form\AdvancedSearchReviewerForm::getEmailTemplates">getEmailTemplates</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="reviewer/form/EmailReviewerForm.php.html#94"><abbr title="PKP\controllers\grid\users\reviewer\form\EmailReviewerForm::execute">execute</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="reviewer/form/EnrollExistingReviewerForm.php.html#81"><abbr title="PKP\controllers\grid\users\reviewer\form\EnrollExistingReviewerForm::execute">execute</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="reviewer/form/ReviewReminderForm.php.html#132"><abbr title="PKP\controllers\grid\users\reviewer\form\ReviewReminderForm::execute">execute</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="reviewer/form/ReviewerForm.php.html#463"><abbr title="PKP\controllers\grid\users\reviewer\form\ReviewerForm::getMailable">getMailable</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="reviewer/form/ReviewerForm.php.html#494"><abbr title="PKP\controllers\grid\users\reviewer\form\ReviewerForm::getEmailTemplates">getEmailTemplates</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="stageParticipant/StageParticipantGridHandler.php.html#305"><abbr title="PKP\controllers\grid\users\stageParticipant\StageParticipantGridHandler::addParticipant">addParticipant</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="stageParticipant/StageParticipantGridHandler.php.html#581"><abbr title="PKP\controllers\grid\users\stageParticipant\StageParticipantGridHandler::fetchTemplateBody">fetchTemplateBody</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="stageParticipant/form/PKPStageParticipantNotifyForm.php.html#147"><abbr title="PKP\controllers\grid\users\stageParticipant\form\PKPStageParticipantNotifyForm::execute">execute</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="stageParticipant/form/PKPStageParticipantNotifyForm.php.html#341"><abbr title="PKP\controllers\grid\users\stageParticipant\form\PKPStageParticipantNotifyForm::_addAssignmentTaskNotification">_addAssignmentTaskNotification</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="stageParticipant/linkAction/NotifyLinkAction.php.html#34"><abbr title="PKP\controllers\grid\users\stageParticipant\linkAction\NotifyLinkAction::__construct">__construct</abbr></a></td><td class="text-right">6</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 11.0.5</a> using <a href="https://www.php.net/" target="_top">PHP 8.3.11</a> and <a href="https://phpunit.de/">PHPUnit 11.2.8</a> at Wed Sep 4 13:31:09 UTC 2024.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../../../_js/jquery.min.js?v=11.0.5" type="text/javascript"></script>
+  <script src="../../../_js/d3.min.js?v=11.0.5" type="text/javascript"></script>
+  <script src="../../../_js/nv.d3.min.js?v=11.0.5" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([31,0,0,0,0,0,0,0,0,0,0,1], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([212,0,0,0,0,0,0,0,0,0,0,0], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[0,38,"<a href=\"author\/AuthorGridHandler.php.html#40\">PKP\\controllers\\grid\\users\\author\\AuthorGridHandler<\/a>"],[0,12,"<a href=\"author\/AuthorGridRow.php.html#30\">PKP\\controllers\\grid\\users\\author\\AuthorGridRow<\/a>"],[0,8,"<a href=\"author\/PKPAuthorGridCellProvider.php.html#26\">PKP\\controllers\\grid\\users\\author\\PKPAuthorGridCellProvider<\/a>"],[0,21,"<a href=\"author\/form\/PKPAuthorForm.php.html#30\">PKP\\controllers\\grid\\users\\author\\form\\PKPAuthorForm<\/a>"],[0,16,"<a href=\"exportableUsers\/ExportableUsersGridHandler.php.html#32\">PKP\\controllers\\grid\\users\\exportableUsers\\ExportableUsersGridHandler<\/a>"],[0,31,"<a href=\"reviewer\/AuthorReviewerGridCellProvider.php.html#26\">PKP\\controllers\\grid\\users\\reviewer\\AuthorReviewerGridCellProvider<\/a>"],[0,7,"<a href=\"reviewer\/AuthorReviewerGridHandler.php.html#37\">PKP\\controllers\\grid\\users\\reviewer\\AuthorReviewerGridHandler<\/a>"],[100,0,"<a href=\"reviewer\/AuthorReviewerGridRow.php.html#21\">PKP\\controllers\\grid\\users\\reviewer\\AuthorReviewerGridRow<\/a>"],[0,38,"<a href=\"reviewer\/ReviewerGridCellProvider.php.html#29\">PKP\\controllers\\grid\\users\\reviewer\\ReviewerGridCellProvider<\/a>"],[0,17,"<a href=\"reviewer\/ReviewerGridRow.php.html#28\">PKP\\controllers\\grid\\users\\reviewer\\ReviewerGridRow<\/a>"],[0,15,"<a href=\"reviewer\/form\/AdvancedSearchReviewerForm.php.html#39\">PKP\\controllers\\grid\\users\\reviewer\\form\\AdvancedSearchReviewerForm<\/a>"],[0,10,"<a href=\"reviewer\/form\/CreateReviewerForm.php.html#33\">PKP\\controllers\\grid\\users\\reviewer\\form\\CreateReviewerForm<\/a>"],[0,18,"<a href=\"reviewer\/form\/EditReviewForm.php.html#39\">PKP\\controllers\\grid\\users\\reviewer\\form\\EditReviewForm<\/a>"],[0,5,"<a href=\"reviewer\/form\/EmailReviewerForm.php.html#32\">PKP\\controllers\\grid\\users\\reviewer\\form\\EmailReviewerForm<\/a>"],[0,12,"<a href=\"reviewer\/form\/EnrollExistingReviewerForm.php.html#26\">PKP\\controllers\\grid\\users\\reviewer\\form\\EnrollExistingReviewerForm<\/a>"],[0,7,"<a href=\"reviewer\/form\/ReinstateReviewerForm.php.html#34\">PKP\\controllers\\grid\\users\\reviewer\\form\\ReinstateReviewerForm<\/a>"],[0,7,"<a href=\"reviewer\/form\/ResendRequestReviewerForm.php.html#34\">PKP\\controllers\\grid\\users\\reviewer\\form\\ResendRequestReviewerForm<\/a>"],[0,7,"<a href=\"reviewer\/form\/ReviewReminderForm.php.html#36\">PKP\\controllers\\grid\\users\\reviewer\\form\\ReviewReminderForm<\/a>"],[0,35,"<a href=\"reviewer\/form\/ReviewerForm.php.html#46\">PKP\\controllers\\grid\\users\\reviewer\\form\\ReviewerForm<\/a>"],[0,4,"<a href=\"reviewer\/form\/ReviewerGossipForm.php.html#24\">PKP\\controllers\\grid\\users\\reviewer\\form\\ReviewerGossipForm<\/a>"],[0,9,"<a href=\"reviewer\/form\/ReviewerNotifyActionForm.php.html#28\">PKP\\controllers\\grid\\users\\reviewer\\form\\ReviewerNotifyActionForm<\/a>"],[0,9,"<a href=\"reviewer\/form\/ThankReviewerForm.php.html#34\">PKP\\controllers\\grid\\users\\reviewer\\form\\ThankReviewerForm<\/a>"],[0,9,"<a href=\"reviewer\/form\/UnassignReviewerForm.php.html#33\">PKP\\controllers\\grid\\users\\reviewer\\form\\UnassignReviewerForm<\/a>"],[0,4,"<a href=\"stageParticipant\/StageParticipantGridCategoryRow.php.html#24\">PKP\\controllers\\grid\\users\\stageParticipant\\StageParticipantGridCategoryRow<\/a>"],[0,5,"<a href=\"stageParticipant\/StageParticipantGridCellProvider.php.html#23\">PKP\\controllers\\grid\\users\\stageParticipant\\StageParticipantGridCellProvider<\/a>"],[0,43,"<a href=\"stageParticipant\/StageParticipantGridHandler.php.html#44\">PKP\\controllers\\grid\\users\\stageParticipant\\StageParticipantGridHandler<\/a>"],[0,12,"<a href=\"stageParticipant\/StageParticipantGridRow.php.html#31\">PKP\\controllers\\grid\\users\\stageParticipant\\StageParticipantGridRow<\/a>"],[0,27,"<a href=\"stageParticipant\/form\/AddParticipantForm.php.html#29\">PKP\\controllers\\grid\\users\\stageParticipant\\form\\AddParticipantForm<\/a>"],[0,48,"<a href=\"stageParticipant\/form\/PKPStageParticipantNotifyForm.php.html#41\">PKP\\controllers\\grid\\users\\stageParticipant\\form\\PKPStageParticipantNotifyForm<\/a>"],[0,2,"<a href=\"stageParticipant\/linkAction\/NotifyLinkAction.php.html#23\">PKP\\controllers\\grid\\users\\stageParticipant\\linkAction\\NotifyLinkAction<\/a>"],[0,4,"<a href=\"userSelect\/UserSelectGridCellProvider.php.html#23\">PKP\\controllers\\grid\\users\\userSelect\\UserSelectGridCellProvider<\/a>"],[0,18,"<a href=\"userSelect\/UserSelectGridHandler.php.html#28\">PKP\\controllers\\grid\\users\\userSelect\\UserSelectGridHandler<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[0,1,"<a href=\"author\/AuthorGridHandler.php.html#51\">PKP\\controllers\\grid\\users\\author\\AuthorGridHandler::__construct<\/a>"],[0,1,"<a href=\"author\/AuthorGridHandler.php.html#72\">PKP\\controllers\\grid\\users\\author\\AuthorGridHandler::getSubmission<\/a>"],[0,1,"<a href=\"author\/AuthorGridHandler.php.html#82\">PKP\\controllers\\grid\\users\\author\\AuthorGridHandler::getPublication<\/a>"],[0,1,"<a href=\"author\/AuthorGridHandler.php.html#92\">PKP\\controllers\\grid\\users\\author\\AuthorGridHandler::getReadOnly<\/a>"],[0,1,"<a href=\"author\/AuthorGridHandler.php.html#102\">PKP\\controllers\\grid\\users\\author\\AuthorGridHandler::setReadOnly<\/a>"],[0,1,"<a href=\"author\/AuthorGridHandler.php.html#113\">PKP\\controllers\\grid\\users\\author\\AuthorGridHandler::authorize<\/a>"],[0,3,"<a href=\"author\/AuthorGridHandler.php.html#124\">PKP\\controllers\\grid\\users\\author\\AuthorGridHandler::initialize<\/a>"],[0,2,"<a href=\"author\/AuthorGridHandler.php.html#209\">PKP\\controllers\\grid\\users\\author\\AuthorGridHandler::initFeatures<\/a>"],[0,1,"<a href=\"author\/AuthorGridHandler.php.html#221\">PKP\\controllers\\grid\\users\\author\\AuthorGridHandler::getDataElementSequence<\/a>"],[0,2,"<a href=\"author\/AuthorGridHandler.php.html#229\">PKP\\controllers\\grid\\users\\author\\AuthorGridHandler::setDataElementSequence<\/a>"],[0,1,"<a href=\"author\/AuthorGridHandler.php.html#245\">PKP\\controllers\\grid\\users\\author\\AuthorGridHandler::getRowInstance<\/a>"],[0,1,"<a href=\"author\/AuthorGridHandler.php.html#256\">PKP\\controllers\\grid\\users\\author\\AuthorGridHandler::getRequestArgs<\/a>"],[0,5,"<a href=\"author\/AuthorGridHandler.php.html#273\">PKP\\controllers\\grid\\users\\author\\AuthorGridHandler::canAdminister<\/a>"],[0,1,"<a href=\"author\/AuthorGridHandler.php.html#306\">PKP\\controllers\\grid\\users\\author\\AuthorGridHandler::loadData<\/a>"],[0,2,"<a href=\"author\/AuthorGridHandler.php.html#324\">PKP\\controllers\\grid\\users\\author\\AuthorGridHandler::addAuthor<\/a>"],[0,2,"<a href=\"author\/AuthorGridHandler.php.html#342\">PKP\\controllers\\grid\\users\\author\\AuthorGridHandler::editAuthor<\/a>"],[0,5,"<a href=\"author\/AuthorGridHandler.php.html#367\">PKP\\controllers\\grid\\users\\author\\AuthorGridHandler::updateAuthor<\/a>"],[0,4,"<a href=\"author\/AuthorGridHandler.php.html#429\">PKP\\controllers\\grid\\users\\author\\AuthorGridHandler::deleteAuthor<\/a>"],[0,3,"<a href=\"author\/AuthorGridHandler.php.html#461\">PKP\\controllers\\grid\\users\\author\\AuthorGridHandler::addUser<\/a>"],[0,1,"<a href=\"author\/AuthorGridRow.php.html#47\">PKP\\controllers\\grid\\users\\author\\AuthorGridRow::__construct<\/a>"],[0,6,"<a href=\"author\/AuthorGridRow.php.html#63\">PKP\\controllers\\grid\\users\\author\\AuthorGridRow::initialize<\/a>"],[0,1,"<a href=\"author\/AuthorGridRow.php.html#132\">PKP\\controllers\\grid\\users\\author\\AuthorGridRow::getSubmission<\/a>"],[0,1,"<a href=\"author\/AuthorGridRow.php.html#142\">PKP\\controllers\\grid\\users\\author\\AuthorGridRow::getPublication<\/a>"],[0,1,"<a href=\"author\/AuthorGridRow.php.html#152\">PKP\\controllers\\grid\\users\\author\\AuthorGridRow::getRequestArgs<\/a>"],[0,1,"<a href=\"author\/AuthorGridRow.php.html#171\">PKP\\controllers\\grid\\users\\author\\AuthorGridRow::allowedToCreateUser<\/a>"],[0,1,"<a href=\"author\/AuthorGridRow.php.html#181\">PKP\\controllers\\grid\\users\\author\\AuthorGridRow::isReadOnly<\/a>"],[0,1,"<a href=\"author\/PKPAuthorGridCellProvider.php.html#36\">PKP\\controllers\\grid\\users\\author\\PKPAuthorGridCellProvider::__construct<\/a>"],[0,7,"<a href=\"author\/PKPAuthorGridCellProvider.php.html#53\">PKP\\controllers\\grid\\users\\author\\PKPAuthorGridCellProvider::getTemplateVarsFromRowColumn<\/a>"],[0,4,"<a href=\"author\/form\/PKPAuthorForm.php.html#43\">PKP\\controllers\\grid\\users\\author\\form\\PKPAuthorForm::__construct<\/a>"],[0,1,"<a href=\"author\/form\/PKPAuthorForm.php.html#78\">PKP\\controllers\\grid\\users\\author\\form\\PKPAuthorForm::getAuthor<\/a>"],[0,1,"<a href=\"author\/form\/PKPAuthorForm.php.html#88\">PKP\\controllers\\grid\\users\\author\\form\\PKPAuthorForm::setAuthor<\/a>"],[0,1,"<a href=\"author\/form\/PKPAuthorForm.php.html#98\">PKP\\controllers\\grid\\users\\author\\form\\PKPAuthorForm::getPublication<\/a>"],[0,1,"<a href=\"author\/form\/PKPAuthorForm.php.html#108\">PKP\\controllers\\grid\\users\\author\\form\\PKPAuthorForm::setPublication<\/a>"],[0,2,"<a href=\"author\/form\/PKPAuthorForm.php.html#120\">PKP\\controllers\\grid\\users\\author\\form\\PKPAuthorForm::initData<\/a>"],[0,2,"<a href=\"author\/form\/PKPAuthorForm.php.html#153\">PKP\\controllers\\grid\\users\\author\\form\\PKPAuthorForm::fetch<\/a>"],[0,1,"<a href=\"author\/form\/PKPAuthorForm.php.html#180\">PKP\\controllers\\grid\\users\\author\\form\\PKPAuthorForm::readInputData<\/a>"],[0,8,"<a href=\"author\/form\/PKPAuthorForm.php.html#204\">PKP\\controllers\\grid\\users\\author\\form\\PKPAuthorForm::execute<\/a>"],[0,1,"<a href=\"exportableUsers\/ExportableUsersGridHandler.php.html#39\">PKP\\controllers\\grid\\users\\exportableUsers\\ExportableUsersGridHandler::__construct<\/a>"],[0,1,"<a href=\"exportableUsers\/ExportableUsersGridHandler.php.html#55\">PKP\\controllers\\grid\\users\\exportableUsers\\ExportableUsersGridHandler::authorize<\/a>"],[0,1,"<a href=\"exportableUsers\/ExportableUsersGridHandler.php.html#66\">PKP\\controllers\\grid\\users\\exportableUsers\\ExportableUsersGridHandler::initialize<\/a>"],[0,1,"<a href=\"exportableUsers\/ExportableUsersGridHandler.php.html#155\">PKP\\controllers\\grid\\users\\exportableUsers\\ExportableUsersGridHandler::initFeatures<\/a>"],[0,1,"<a href=\"exportableUsers\/ExportableUsersGridHandler.php.html#163\">PKP\\controllers\\grid\\users\\exportableUsers\\ExportableUsersGridHandler::getSelectName<\/a>"],[0,1,"<a href=\"exportableUsers\/ExportableUsersGridHandler.php.html#174\">PKP\\controllers\\grid\\users\\exportableUsers\\ExportableUsersGridHandler::isDataElementSelected<\/a>"],[0,2,"<a href=\"exportableUsers\/ExportableUsersGridHandler.php.html#182\">PKP\\controllers\\grid\\users\\exportableUsers\\ExportableUsersGridHandler::loadData<\/a>"],[0,2,"<a href=\"exportableUsers\/ExportableUsersGridHandler.php.html#207\">PKP\\controllers\\grid\\users\\exportableUsers\\ExportableUsersGridHandler::renderFilter<\/a>"],[0,3,"<a href=\"exportableUsers\/ExportableUsersGridHandler.php.html#246\">PKP\\controllers\\grid\\users\\exportableUsers\\ExportableUsersGridHandler::getFilterSelectionData<\/a>"],[0,1,"<a href=\"exportableUsers\/ExportableUsersGridHandler.php.html#267\">PKP\\controllers\\grid\\users\\exportableUsers\\ExportableUsersGridHandler::getFilterForm<\/a>"],[0,1,"<a href=\"exportableUsers\/ExportableUsersGridHandler.php.html#275\">PKP\\controllers\\grid\\users\\exportableUsers\\ExportableUsersGridHandler::getRequestArgs<\/a>"],[0,1,"<a href=\"exportableUsers\/ExportableUsersGridHandler.php.html#285\">PKP\\controllers\\grid\\users\\exportableUsers\\ExportableUsersGridHandler::_getPluginName<\/a>"],[0,6,"<a href=\"reviewer\/AuthorReviewerGridCellProvider.php.html#39\">PKP\\controllers\\grid\\users\\reviewer\\AuthorReviewerGridCellProvider::getCellState<\/a>"],[0,7,"<a href=\"reviewer\/AuthorReviewerGridCellProvider.php.html#64\">PKP\\controllers\\grid\\users\\reviewer\\AuthorReviewerGridCellProvider::getTemplateVarsFromRowColumn<\/a>"],[0,6,"<a href=\"reviewer\/AuthorReviewerGridCellProvider.php.html#102\">PKP\\controllers\\grid\\users\\reviewer\\AuthorReviewerGridCellProvider::getCellActions<\/a>"],[0,10,"<a href=\"reviewer\/AuthorReviewerGridCellProvider.php.html#138\">PKP\\controllers\\grid\\users\\reviewer\\AuthorReviewerGridCellProvider::_getStatusText<\/a>"],[0,2,"<a href=\"reviewer\/AuthorReviewerGridCellProvider.php.html#173\">PKP\\controllers\\grid\\users\\reviewer\\AuthorReviewerGridCellProvider::_getStatusWithRecommendation<\/a>"],[0,1,"<a href=\"reviewer\/AuthorReviewerGridHandler.php.html#42\">PKP\\controllers\\grid\\users\\reviewer\\AuthorReviewerGridHandler::__construct<\/a>"],[0,1,"<a href=\"reviewer\/AuthorReviewerGridHandler.php.html#60\">PKP\\controllers\\grid\\users\\reviewer\\AuthorReviewerGridHandler::getRowInstance<\/a>"],[0,1,"<a href=\"reviewer\/AuthorReviewerGridHandler.php.html#70\">PKP\\controllers\\grid\\users\\reviewer\\AuthorReviewerGridHandler::initialize<\/a>"],[0,1,"<a href=\"reviewer\/AuthorReviewerGridHandler.php.html#127\">PKP\\controllers\\grid\\users\\reviewer\\AuthorReviewerGridHandler::authorize<\/a>"],[0,1,"<a href=\"reviewer\/AuthorReviewerGridHandler.php.html#156\">PKP\\controllers\\grid\\users\\reviewer\\AuthorReviewerGridHandler::loadData<\/a>"],[0,2,"<a href=\"reviewer\/AuthorReviewerGridHandler.php.html#179\">PKP\\controllers\\grid\\users\\reviewer\\AuthorReviewerGridHandler::readReview<\/a>"],[0,1,"<a href=\"reviewer\/ReviewerGridCellProvider.php.html#40\">PKP\\controllers\\grid\\users\\reviewer\\ReviewerGridCellProvider::__construct<\/a>"],[0,6,"<a href=\"reviewer\/ReviewerGridCellProvider.php.html#57\">PKP\\controllers\\grid\\users\\reviewer\\ReviewerGridCellProvider::getCellState<\/a>"],[0,9,"<a href=\"reviewer\/ReviewerGridCellProvider.php.html#82\">PKP\\controllers\\grid\\users\\reviewer\\ReviewerGridCellProvider::getTemplateVarsFromRowColumn<\/a>"],[0,8,"<a href=\"reviewer\/ReviewerGridCellProvider.php.html#124\">PKP\\controllers\\grid\\users\\reviewer\\ReviewerGridCellProvider::getCellActions<\/a>"],[0,12,"<a href=\"reviewer\/ReviewerGridCellProvider.php.html#174\">PKP\\controllers\\grid\\users\\reviewer\\ReviewerGridCellProvider::_getStatusText<\/a>"],[0,2,"<a href=\"reviewer\/ReviewerGridCellProvider.php.html#213\">PKP\\controllers\\grid\\users\\reviewer\\ReviewerGridCellProvider::_getStatusWithRecommendation<\/a>"],[0,1,"<a href=\"reviewer\/ReviewerGridRow.php.html#39\">PKP\\controllers\\grid\\users\\reviewer\\ReviewerGridRow::__construct<\/a>"],[0,16,"<a href=\"reviewer\/ReviewerGridRow.php.html#53\">PKP\\controllers\\grid\\users\\reviewer\\ReviewerGridRow::initialize<\/a>"],[0,1,"<a href=\"reviewer\/form\/AdvancedSearchReviewerForm.php.html#47\">PKP\\controllers\\grid\\users\\reviewer\\form\\AdvancedSearchReviewerForm::__construct<\/a>"],[0,1,"<a href=\"reviewer\/form\/AdvancedSearchReviewerForm.php.html#60\">PKP\\controllers\\grid\\users\\reviewer\\form\\AdvancedSearchReviewerForm::readInputData<\/a>"],[0,1,"<a href=\"reviewer\/form\/AdvancedSearchReviewerForm.php.html#70\">PKP\\controllers\\grid\\users\\reviewer\\form\\AdvancedSearchReviewerForm::initData<\/a>"],[0,10,"<a href=\"reviewer\/form\/AdvancedSearchReviewerForm.php.html#94\">PKP\\controllers\\grid\\users\\reviewer\\form\\AdvancedSearchReviewerForm::fetch<\/a>"],[0,2,"<a href=\"reviewer\/form\/AdvancedSearchReviewerForm.php.html#259\">PKP\\controllers\\grid\\users\\reviewer\\form\\AdvancedSearchReviewerForm::getEmailTemplates<\/a>"],[0,4,"<a href=\"reviewer\/form\/CreateReviewerForm.php.html#41\">PKP\\controllers\\grid\\users\\reviewer\\form\\CreateReviewerForm::__construct<\/a>"],[0,1,"<a href=\"reviewer\/form\/CreateReviewerForm.php.html#74\">PKP\\controllers\\grid\\users\\reviewer\\form\\CreateReviewerForm::initData<\/a>"],[0,1,"<a href=\"reviewer\/form\/CreateReviewerForm.php.html#89\">PKP\\controllers\\grid\\users\\reviewer\\form\\CreateReviewerForm::fetch<\/a>"],[0,1,"<a href=\"reviewer\/form\/CreateReviewerForm.php.html#104\">PKP\\controllers\\grid\\users\\reviewer\\form\\CreateReviewerForm::readInputData<\/a>"],[0,3,"<a href=\"reviewer\/form\/CreateReviewerForm.php.html#123\">PKP\\controllers\\grid\\users\\reviewer\\form\\CreateReviewerForm::execute<\/a>"],[0,1,"<a href=\"reviewer\/form\/EditReviewForm.php.html#49\">PKP\\controllers\\grid\\users\\reviewer\\form\\EditReviewForm::__construct<\/a>"],[0,1,"<a href=\"reviewer\/form\/EditReviewForm.php.html#86\">PKP\\controllers\\grid\\users\\reviewer\\form\\EditReviewForm::initData<\/a>"],[0,3,"<a href=\"reviewer\/form\/EditReviewForm.php.html#100\">PKP\\controllers\\grid\\users\\reviewer\\form\\EditReviewForm::fetch<\/a>"],[0,1,"<a href=\"reviewer\/form\/EditReviewForm.php.html#134\">PKP\\controllers\\grid\\users\\reviewer\\form\\EditReviewForm::readInputData<\/a>"],[0,12,"<a href=\"reviewer\/form\/EditReviewForm.php.html#149\">PKP\\controllers\\grid\\users\\reviewer\\form\\EditReviewForm::execute<\/a>"],[0,1,"<a href=\"reviewer\/form\/EmailReviewerForm.php.html#45\">PKP\\controllers\\grid\\users\\reviewer\\form\\EmailReviewerForm::__construct<\/a>"],[0,1,"<a href=\"reviewer\/form\/EmailReviewerForm.php.html#63\">PKP\\controllers\\grid\\users\\reviewer\\form\\EmailReviewerForm::readInputData<\/a>"],[0,1,"<a href=\"reviewer\/form\/EmailReviewerForm.php.html#79\">PKP\\controllers\\grid\\users\\reviewer\\form\\EmailReviewerForm::fetch<\/a>"],[0,2,"<a href=\"reviewer\/form\/EmailReviewerForm.php.html#94\">PKP\\controllers\\grid\\users\\reviewer\\form\\EmailReviewerForm::execute<\/a>"],[0,1,"<a href=\"reviewer\/form\/EnrollExistingReviewerForm.php.html#31\">PKP\\controllers\\grid\\users\\reviewer\\form\\EnrollExistingReviewerForm::__construct<\/a>"],[0,1,"<a href=\"reviewer\/form\/EnrollExistingReviewerForm.php.html#43\">PKP\\controllers\\grid\\users\\reviewer\\form\\EnrollExistingReviewerForm::initData<\/a>"],[0,1,"<a href=\"reviewer\/form\/EnrollExistingReviewerForm.php.html#58\">PKP\\controllers\\grid\\users\\reviewer\\form\\EnrollExistingReviewerForm::fetch<\/a>"],[0,1,"<a href=\"reviewer\/form\/EnrollExistingReviewerForm.php.html#71\">PKP\\controllers\\grid\\users\\reviewer\\form\\EnrollExistingReviewerForm::readInputData<\/a>"],[0,2,"<a href=\"reviewer\/form\/EnrollExistingReviewerForm.php.html#81\">PKP\\controllers\\grid\\users\\reviewer\\form\\EnrollExistingReviewerForm::execute<\/a>"],[0,6,"<a href=\"reviewer\/form\/EnrollExistingReviewerForm.php.html#103\">PKP\\controllers\\grid\\users\\reviewer\\form\\EnrollExistingReviewerForm::isValidUserAndGroup<\/a>"],[0,1,"<a href=\"reviewer\/form\/ReinstateReviewerForm.php.html#43\">PKP\\controllers\\grid\\users\\reviewer\\form\\ReinstateReviewerForm::__construct<\/a>"],[0,1,"<a href=\"reviewer\/form\/ReinstateReviewerForm.php.html#51\">PKP\\controllers\\grid\\users\\reviewer\\form\\ReinstateReviewerForm::getMailable<\/a>"],[0,5,"<a href=\"reviewer\/form\/ReinstateReviewerForm.php.html#63\">PKP\\controllers\\grid\\users\\reviewer\\form\\ReinstateReviewerForm::execute<\/a>"],[0,1,"<a href=\"reviewer\/form\/ResendRequestReviewerForm.php.html#40\">PKP\\controllers\\grid\\users\\reviewer\\form\\ResendRequestReviewerForm::__construct<\/a>"],[0,1,"<a href=\"reviewer\/form\/ResendRequestReviewerForm.php.html#50\">PKP\\controllers\\grid\\users\\reviewer\\form\\ResendRequestReviewerForm::getMailable<\/a>"],[0,1,"<a href=\"reviewer\/form\/ResendRequestReviewerForm.php.html#58\">PKP\\controllers\\grid\\users\\reviewer\\form\\ResendRequestReviewerForm::getEmailKey<\/a>"],[0,4,"<a href=\"reviewer\/form\/ResendRequestReviewerForm.php.html#68\">PKP\\controllers\\grid\\users\\reviewer\\form\\ResendRequestReviewerForm::execute<\/a>"],[0,1,"<a href=\"reviewer\/form\/ReviewReminderForm.php.html#44\">PKP\\controllers\\grid\\users\\reviewer\\form\\ReviewReminderForm::__construct<\/a>"],[0,1,"<a href=\"reviewer\/form\/ReviewReminderForm.php.html#62\">PKP\\controllers\\grid\\users\\reviewer\\form\\ReviewReminderForm::getReviewAssignment<\/a>"],[0,1,"<a href=\"reviewer\/form\/ReviewReminderForm.php.html#74\">PKP\\controllers\\grid\\users\\reviewer\\form\\ReviewReminderForm::initData<\/a>"],[0,1,"<a href=\"reviewer\/form\/ReviewReminderForm.php.html#107\">PKP\\controllers\\grid\\users\\reviewer\\form\\ReviewReminderForm::fetch<\/a>"],[0,1,"<a href=\"reviewer\/form\/ReviewReminderForm.php.html#121\">PKP\\controllers\\grid\\users\\reviewer\\form\\ReviewReminderForm::readInputData<\/a>"],[0,2,"<a href=\"reviewer\/form\/ReviewReminderForm.php.html#132\">PKP\\controllers\\grid\\users\\reviewer\\form\\ReviewReminderForm::execute<\/a>"],[0,1,"<a href=\"reviewer\/form\/ReviewerForm.php.html#66\">PKP\\controllers\\grid\\users\\reviewer\\form\\ReviewerForm::__construct<\/a>"],[0,1,"<a href=\"reviewer\/form\/ReviewerForm.php.html#99\">PKP\\controllers\\grid\\users\\reviewer\\form\\ReviewerForm::getSubmissionId<\/a>"],[0,1,"<a href=\"reviewer\/form\/ReviewerForm.php.html#110\">PKP\\controllers\\grid\\users\\reviewer\\form\\ReviewerForm::getSubmission<\/a>"],[0,1,"<a href=\"reviewer\/form\/ReviewerForm.php.html#120\">PKP\\controllers\\grid\\users\\reviewer\\form\\ReviewerForm::getReviewRound<\/a>"],[0,1,"<a href=\"reviewer\/form\/ReviewerForm.php.html#130\">PKP\\controllers\\grid\\users\\reviewer\\form\\ReviewerForm::setSubmission<\/a>"],[0,1,"<a href=\"reviewer\/form\/ReviewerForm.php.html#140\">PKP\\controllers\\grid\\users\\reviewer\\form\\ReviewerForm::setReviewRound<\/a>"],[0,1,"<a href=\"reviewer\/form\/ReviewerForm.php.html#150\">PKP\\controllers\\grid\\users\\reviewer\\form\\ReviewerForm::setReviewerFormAction<\/a>"],[0,1,"<a href=\"reviewer\/form\/ReviewerForm.php.html#160\">PKP\\controllers\\grid\\users\\reviewer\\form\\ReviewerForm::setUserRoles<\/a>"],[0,1,"<a href=\"reviewer\/form\/ReviewerForm.php.html#170\">PKP\\controllers\\grid\\users\\reviewer\\form\\ReviewerForm::getUserRoles<\/a>"],[0,1,"<a href=\"reviewer\/form\/ReviewerForm.php.html#180\">PKP\\controllers\\grid\\users\\reviewer\\form\\ReviewerForm::getReviewerFormActions<\/a>"],[0,6,"<a href=\"reviewer\/form\/ReviewerForm.php.html#190\">PKP\\controllers\\grid\\users\\reviewer\\form\\ReviewerForm::initData<\/a>"],[0,3,"<a href=\"reviewer\/form\/ReviewerForm.php.html#246\">PKP\\controllers\\grid\\users\\reviewer\\form\\ReviewerForm::fetch<\/a>"],[0,1,"<a href=\"reviewer\/form\/ReviewerForm.php.html#302\">PKP\\controllers\\grid\\users\\reviewer\\form\\ReviewerForm::readInputData<\/a>"],[0,7,"<a href=\"reviewer\/form\/ReviewerForm.php.html#325\">PKP\\controllers\\grid\\users\\reviewer\\form\\ReviewerForm::execute<\/a>"],[0,1,"<a href=\"reviewer\/form\/ReviewerForm.php.html#411\">PKP\\controllers\\grid\\users\\reviewer\\form\\ReviewerForm::getAdvancedSearchAction<\/a>"],[0,3,"<a href=\"reviewer\/form\/ReviewerForm.php.html#441\">PKP\\controllers\\grid\\users\\reviewer\\form\\ReviewerForm::_isValidReviewer<\/a>"],[0,2,"<a href=\"reviewer\/form\/ReviewerForm.php.html#463\">PKP\\controllers\\grid\\users\\reviewer\\form\\ReviewerForm::getMailable<\/a>"],[0,2,"<a href=\"reviewer\/form\/ReviewerForm.php.html#494\">PKP\\controllers\\grid\\users\\reviewer\\form\\ReviewerForm::getEmailTemplates<\/a>"],[0,1,"<a href=\"reviewer\/form\/ReviewerGossipForm.php.html#39\">PKP\\controllers\\grid\\users\\reviewer\\form\\ReviewerGossipForm::__construct<\/a>"],[0,1,"<a href=\"reviewer\/form\/ReviewerGossipForm.php.html#51\">PKP\\controllers\\grid\\users\\reviewer\\form\\ReviewerGossipForm::readInputData<\/a>"],[0,1,"<a href=\"reviewer\/form\/ReviewerGossipForm.php.html#63\">PKP\\controllers\\grid\\users\\reviewer\\form\\ReviewerGossipForm::fetch<\/a>"],[0,1,"<a href=\"reviewer\/form\/ReviewerGossipForm.php.html#77\">PKP\\controllers\\grid\\users\\reviewer\\form\\ReviewerGossipForm::execute<\/a>"],[0,1,"<a href=\"reviewer\/form\/ReviewerNotifyActionForm.php.html#47\">PKP\\controllers\\grid\\users\\reviewer\\form\\ReviewerNotifyActionForm::__construct<\/a>"],[0,0,"<a href=\"reviewer\/form\/ReviewerNotifyActionForm.php.html#58\">PKP\\controllers\\grid\\users\\reviewer\\form\\ReviewerNotifyActionForm::getMailable<\/a>"],[0,1,"<a href=\"reviewer\/form\/ReviewerNotifyActionForm.php.html#66\">PKP\\controllers\\grid\\users\\reviewer\\form\\ReviewerNotifyActionForm::initData<\/a>"],[0,1,"<a href=\"reviewer\/form\/ReviewerNotifyActionForm.php.html#95\">PKP\\controllers\\grid\\users\\reviewer\\form\\ReviewerNotifyActionForm::readInputData<\/a>"],[0,1,"<a href=\"reviewer\/form\/ReviewerNotifyActionForm.php.html#116\">PKP\\controllers\\grid\\users\\reviewer\\form\\ReviewerNotifyActionForm::setReviewAssignment<\/a>"],[0,1,"<a href=\"reviewer\/form\/ReviewerNotifyActionForm.php.html#126\">PKP\\controllers\\grid\\users\\reviewer\\form\\ReviewerNotifyActionForm::getReviewAssignment<\/a>"],[0,1,"<a href=\"reviewer\/form\/ReviewerNotifyActionForm.php.html#136\">PKP\\controllers\\grid\\users\\reviewer\\form\\ReviewerNotifyActionForm::setReviewRound<\/a>"],[0,1,"<a href=\"reviewer\/form\/ReviewerNotifyActionForm.php.html#146\">PKP\\controllers\\grid\\users\\reviewer\\form\\ReviewerNotifyActionForm::getReviewRound<\/a>"],[0,1,"<a href=\"reviewer\/form\/ReviewerNotifyActionForm.php.html#156\">PKP\\controllers\\grid\\users\\reviewer\\form\\ReviewerNotifyActionForm::setSubmission<\/a>"],[0,1,"<a href=\"reviewer\/form\/ReviewerNotifyActionForm.php.html#166\">PKP\\controllers\\grid\\users\\reviewer\\form\\ReviewerNotifyActionForm::getSubmission<\/a>"],[0,1,"<a href=\"reviewer\/form\/ThankReviewerForm.php.html#42\">PKP\\controllers\\grid\\users\\reviewer\\form\\ThankReviewerForm::__construct<\/a>"],[0,1,"<a href=\"reviewer\/form\/ThankReviewerForm.php.html#60\">PKP\\controllers\\grid\\users\\reviewer\\form\\ThankReviewerForm::getReviewAssignment<\/a>"],[0,1,"<a href=\"reviewer\/form\/ThankReviewerForm.php.html#71\">PKP\\controllers\\grid\\users\\reviewer\\form\\ThankReviewerForm::initData<\/a>"],[0,1,"<a href=\"reviewer\/form\/ThankReviewerForm.php.html#99\">PKP\\controllers\\grid\\users\\reviewer\\form\\ThankReviewerForm::readInputData<\/a>"],[0,5,"<a href=\"reviewer\/form\/ThankReviewerForm.php.html#109\">PKP\\controllers\\grid\\users\\reviewer\\form\\ThankReviewerForm::execute<\/a>"],[0,1,"<a href=\"reviewer\/form\/UnassignReviewerForm.php.html#42\">PKP\\controllers\\grid\\users\\reviewer\\form\\UnassignReviewerForm::__construct<\/a>"],[0,1,"<a href=\"reviewer\/form\/UnassignReviewerForm.php.html#50\">PKP\\controllers\\grid\\users\\reviewer\\form\\UnassignReviewerForm::getMailable<\/a>"],[0,7,"<a href=\"reviewer\/form\/UnassignReviewerForm.php.html#62\">PKP\\controllers\\grid\\users\\reviewer\\form\\UnassignReviewerForm::execute<\/a>"],[0,1,"<a href=\"stageParticipant\/StageParticipantGridCategoryRow.php.html#35\">PKP\\controllers\\grid\\users\\stageParticipant\\StageParticipantGridCategoryRow::__construct<\/a>"],[0,1,"<a href=\"stageParticipant\/StageParticipantGridCategoryRow.php.html#48\">PKP\\controllers\\grid\\users\\stageParticipant\\StageParticipantGridCategoryRow::getCategoryLabel<\/a>"],[0,1,"<a href=\"stageParticipant\/StageParticipantGridCategoryRow.php.html#62\">PKP\\controllers\\grid\\users\\stageParticipant\\StageParticipantGridCategoryRow::getSubmission<\/a>"],[0,1,"<a href=\"stageParticipant\/StageParticipantGridCategoryRow.php.html#72\">PKP\\controllers\\grid\\users\\stageParticipant\\StageParticipantGridCategoryRow::getStageId<\/a>"],[0,5,"<a href=\"stageParticipant\/StageParticipantGridCellProvider.php.html#37\">PKP\\controllers\\grid\\users\\stageParticipant\\StageParticipantGridCellProvider::getTemplateVarsFromRowColumn<\/a>"],[0,1,"<a href=\"stageParticipant\/StageParticipantGridHandler.php.html#51\">PKP\\controllers\\grid\\users\\stageParticipant\\StageParticipantGridHandler::__construct<\/a>"],[0,1,"<a href=\"stageParticipant\/StageParticipantGridHandler.php.html#78\">PKP\\controllers\\grid\\users\\stageParticipant\\StageParticipantGridHandler::getSubmission<\/a>"],[0,1,"<a href=\"stageParticipant\/StageParticipantGridHandler.php.html#88\">PKP\\controllers\\grid\\users\\stageParticipant\\StageParticipantGridHandler::getStageId<\/a>"],[0,1,"<a href=\"stageParticipant\/StageParticipantGridHandler.php.html#99\">PKP\\controllers\\grid\\users\\stageParticipant\\StageParticipantGridHandler::authorize<\/a>"],[0,1,"<a href=\"stageParticipant\/StageParticipantGridHandler.php.html#112\">PKP\\controllers\\grid\\users\\stageParticipant\\StageParticipantGridHandler::_canAdminister<\/a>"],[0,3,"<a href=\"stageParticipant\/StageParticipantGridHandler.php.html#127\">PKP\\controllers\\grid\\users\\stageParticipant\\StageParticipantGridHandler::initialize<\/a>"],[0,1,"<a href=\"stageParticipant\/StageParticipantGridHandler.php.html#197\">PKP\\controllers\\grid\\users\\stageParticipant\\StageParticipantGridHandler::loadCategoryData<\/a>"],[0,1,"<a href=\"stageParticipant\/StageParticipantGridHandler.php.html#217\">PKP\\controllers\\grid\\users\\stageParticipant\\StageParticipantGridHandler::getIsSubcomponent<\/a>"],[0,1,"<a href=\"stageParticipant\/StageParticipantGridHandler.php.html#225\">PKP\\controllers\\grid\\users\\stageParticipant\\StageParticipantGridHandler::getRowInstance<\/a>"],[0,1,"<a href=\"stageParticipant\/StageParticipantGridHandler.php.html#233\">PKP\\controllers\\grid\\users\\stageParticipant\\StageParticipantGridHandler::getCategoryRowInstance<\/a>"],[0,1,"<a href=\"stageParticipant\/StageParticipantGridHandler.php.html#242\">PKP\\controllers\\grid\\users\\stageParticipant\\StageParticipantGridHandler::getCategoryRowIdParameterName<\/a>"],[0,1,"<a href=\"stageParticipant\/StageParticipantGridHandler.php.html#250\">PKP\\controllers\\grid\\users\\stageParticipant\\StageParticipantGridHandler::getRequestArgs<\/a>"],[0,4,"<a href=\"stageParticipant\/StageParticipantGridHandler.php.html#265\">PKP\\controllers\\grid\\users\\stageParticipant\\StageParticipantGridHandler::loadData<\/a>"],[0,2,"<a href=\"stageParticipant\/StageParticipantGridHandler.php.html#305\">PKP\\controllers\\grid\\users\\stageParticipant\\StageParticipantGridHandler::addParticipant<\/a>"],[0,6,"<a href=\"stageParticipant\/StageParticipantGridHandler.php.html#329\">PKP\\controllers\\grid\\users\\stageParticipant\\StageParticipantGridHandler::saveParticipant<\/a>"],[0,6,"<a href=\"stageParticipant\/StageParticipantGridHandler.php.html#410\">PKP\\controllers\\grid\\users\\stageParticipant\\StageParticipantGridHandler::deleteParticipant<\/a>"],[0,3,"<a href=\"stageParticipant\/StageParticipantGridHandler.php.html#482\">PKP\\controllers\\grid\\users\\stageParticipant\\StageParticipantGridHandler::fetchUserList<\/a>"],[0,1,"<a href=\"stageParticipant\/StageParticipantGridHandler.php.html#518\">PKP\\controllers\\grid\\users\\stageParticipant\\StageParticipantGridHandler::viewNotify<\/a>"],[0,4,"<a href=\"stageParticipant\/StageParticipantGridHandler.php.html#536\">PKP\\controllers\\grid\\users\\stageParticipant\\StageParticipantGridHandler::sendNotification<\/a>"],[0,2,"<a href=\"stageParticipant\/StageParticipantGridHandler.php.html#581\">PKP\\controllers\\grid\\users\\stageParticipant\\StageParticipantGridHandler::fetchTemplateBody<\/a>"],[0,1,"<a href=\"stageParticipant\/StageParticipantGridHandler.php.html#608\">PKP\\controllers\\grid\\users\\stageParticipant\\StageParticipantGridHandler::getJSHandler<\/a>"],[0,1,"<a href=\"stageParticipant\/StageParticipantGridRow.php.html#45\">PKP\\controllers\\grid\\users\\stageParticipant\\StageParticipantGridRow::__construct<\/a>"],[0,8,"<a href=\"stageParticipant\/StageParticipantGridRow.php.html#63\">PKP\\controllers\\grid\\users\\stageParticipant\\StageParticipantGridRow::initialize<\/a>"],[0,1,"<a href=\"stageParticipant\/StageParticipantGridRow.php.html#160\">PKP\\controllers\\grid\\users\\stageParticipant\\StageParticipantGridRow::getSubmission<\/a>"],[0,1,"<a href=\"stageParticipant\/StageParticipantGridRow.php.html#170\">PKP\\controllers\\grid\\users\\stageParticipant\\StageParticipantGridRow::getStageId<\/a>"],[0,1,"<a href=\"stageParticipant\/StageParticipantGridRow.php.html#178\">PKP\\controllers\\grid\\users\\stageParticipant\\StageParticipantGridRow::getRequestArgs<\/a>"],[0,1,"<a href=\"stageParticipant\/form\/AddParticipantForm.php.html#53\">PKP\\controllers\\grid\\users\\stageParticipant\\form\\AddParticipantForm::__construct<\/a>"],[0,1,"<a href=\"stageParticipant\/form\/AddParticipantForm.php.html#78\">PKP\\controllers\\grid\\users\\stageParticipant\\form\\AddParticipantForm::getSubmission<\/a>"],[0,1,"<a href=\"stageParticipant\/form\/AddParticipantForm.php.html#86\">PKP\\controllers\\grid\\users\\stageParticipant\\form\\AddParticipantForm::initialize<\/a>"],[0,3,"<a href=\"stageParticipant\/form\/AddParticipantForm.php.html#99\">PKP\\controllers\\grid\\users\\stageParticipant\\form\\AddParticipantForm::_isChangePermitMetadataAllowed<\/a>"],[0,3,"<a href=\"stageParticipant\/form\/AddParticipantForm.php.html#115\">PKP\\controllers\\grid\\users\\stageParticipant\\form\\AddParticipantForm::_isChangeRecommendOnlyAllowed<\/a>"],[0,6,"<a href=\"stageParticipant\/form\/AddParticipantForm.php.html#131\">PKP\\controllers\\grid\\users\\stageParticipant\\form\\AddParticipantForm::fetch<\/a>"],[0,1,"<a href=\"stageParticipant\/form\/AddParticipantForm.php.html#223\">PKP\\controllers\\grid\\users\\stageParticipant\\form\\AddParticipantForm::readInputData<\/a>"],[0,3,"<a href=\"stageParticipant\/form\/AddParticipantForm.php.html#238\">PKP\\controllers\\grid\\users\\stageParticipant\\form\\AddParticipantForm::validate<\/a>"],[0,7,"<a href=\"stageParticipant\/form\/AddParticipantForm.php.html#251\">PKP\\controllers\\grid\\users\\stageParticipant\\form\\AddParticipantForm::execute<\/a>"],[0,1,"<a href=\"stageParticipant\/form\/AddParticipantForm.php.html#296\">PKP\\controllers\\grid\\users\\stageParticipant\\form\\AddParticipantForm::isMessageRequired<\/a>"],[0,4,"<a href=\"stageParticipant\/form\/PKPStageParticipantNotifyForm.php.html#62\">PKP\\controllers\\grid\\users\\stageParticipant\\form\\PKPStageParticipantNotifyForm::__construct<\/a>"],[0,5,"<a href=\"stageParticipant\/form\/PKPStageParticipantNotifyForm.php.html#92\">PKP\\controllers\\grid\\users\\stageParticipant\\form\\PKPStageParticipantNotifyForm::fetch<\/a>"],[0,1,"<a href=\"stageParticipant\/form\/PKPStageParticipantNotifyForm.php.html#139\">PKP\\controllers\\grid\\users\\stageParticipant\\form\\PKPStageParticipantNotifyForm::readInputData<\/a>"],[0,2,"<a href=\"stageParticipant\/form\/PKPStageParticipantNotifyForm.php.html#147\">PKP\\controllers\\grid\\users\\stageParticipant\\form\\PKPStageParticipantNotifyForm::execute<\/a>"],[0,21,"<a href=\"stageParticipant\/form\/PKPStageParticipantNotifyForm.php.html#161\">PKP\\controllers\\grid\\users\\stageParticipant\\form\\PKPStageParticipantNotifyForm::sendMessage<\/a>"],[0,10,"<a href=\"stageParticipant\/form\/PKPStageParticipantNotifyForm.php.html#296\">PKP\\controllers\\grid\\users\\stageParticipant\\form\\PKPStageParticipantNotifyForm::getEmailVariableNames<\/a>"],[0,1,"<a href=\"stageParticipant\/form\/PKPStageParticipantNotifyForm.php.html#328\">PKP\\controllers\\grid\\users\\stageParticipant\\form\\PKPStageParticipantNotifyForm::getStageId<\/a>"],[0,2,"<a href=\"stageParticipant\/form\/PKPStageParticipantNotifyForm.php.html#341\">PKP\\controllers\\grid\\users\\stageParticipant\\form\\PKPStageParticipantNotifyForm::_addAssignmentTaskNotification<\/a>"],[0,1,"<a href=\"stageParticipant\/form\/PKPStageParticipantNotifyForm.php.html#369\">PKP\\controllers\\grid\\users\\stageParticipant\\form\\PKPStageParticipantNotifyForm::_logEventAndCreateNotification<\/a>"],[0,1,"<a href=\"stageParticipant\/form\/PKPStageParticipantNotifyForm.php.html#393\">PKP\\controllers\\grid\\users\\stageParticipant\\form\\PKPStageParticipantNotifyForm::isMessageRequired<\/a>"],[0,2,"<a href=\"stageParticipant\/linkAction\/NotifyLinkAction.php.html#34\">PKP\\controllers\\grid\\users\\stageParticipant\\linkAction\\NotifyLinkAction::__construct<\/a>"],[0,1,"<a href=\"userSelect\/UserSelectGridCellProvider.php.html#33\">PKP\\controllers\\grid\\users\\userSelect\\UserSelectGridCellProvider::__construct<\/a>"],[0,3,"<a href=\"userSelect\/UserSelectGridCellProvider.php.html#50\">PKP\\controllers\\grid\\users\\userSelect\\UserSelectGridCellProvider::getTemplateVarsFromRowColumn<\/a>"],[0,1,"<a href=\"userSelect\/UserSelectGridHandler.php.html#36\">PKP\\controllers\\grid\\users\\userSelect\\UserSelectGridHandler::__construct<\/a>"],[0,1,"<a href=\"userSelect\/UserSelectGridHandler.php.html#51\">PKP\\controllers\\grid\\users\\userSelect\\UserSelectGridHandler::authorize<\/a>"],[0,3,"<a href=\"userSelect\/UserSelectGridHandler.php.html#65\">PKP\\controllers\\grid\\users\\userSelect\\UserSelectGridHandler::initialize<\/a>"],[0,1,"<a href=\"userSelect\/UserSelectGridHandler.php.html#120\">PKP\\controllers\\grid\\users\\userSelect\\UserSelectGridHandler::initFeatures<\/a>"],[0,1,"<a href=\"userSelect\/UserSelectGridHandler.php.html#128\">PKP\\controllers\\grid\\users\\userSelect\\UserSelectGridHandler::loadData<\/a>"],[0,1,"<a href=\"userSelect\/UserSelectGridHandler.php.html#150\">PKP\\controllers\\grid\\users\\userSelect\\UserSelectGridHandler::renderFilter<\/a>"],[0,1,"<a href=\"userSelect\/UserSelectGridHandler.php.html#172\">PKP\\controllers\\grid\\users\\userSelect\\UserSelectGridHandler::getFilterSelectionData<\/a>"],[0,1,"<a href=\"userSelect\/UserSelectGridHandler.php.html#185\">PKP\\controllers\\grid\\users\\userSelect\\UserSelectGridHandler::getFilterForm<\/a>"],[0,1,"<a href=\"userSelect\/UserSelectGridHandler.php.html#193\">PKP\\controllers\\grid\\users\\userSelect\\UserSelectGridHandler::getRequestArgs<\/a>"],[0,1,"<a href=\"userSelect\/UserSelectGridHandler.php.html#208\">PKP\\controllers\\grid\\users\\userSelect\\UserSelectGridHandler::isFilterFormCollapsible<\/a>"],[0,1,"<a href=\"userSelect\/UserSelectGridHandler.php.html#218\">PKP\\controllers\\grid\\users\\userSelect\\UserSelectGridHandler::getItemsNumber<\/a>"],[0,5,"<a href=\"userSelect\/UserSelectGridHandler.php.html#229\">PKP\\controllers\\grid\\users\\userSelect\\UserSelectGridHandler::getFilterValues<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

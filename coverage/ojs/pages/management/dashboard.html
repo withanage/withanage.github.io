@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /var/www/html/ojs-main/lib/pkp/pages/management</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../_css/bootstrap.min.css?v=11.0.5" rel="stylesheet" type="text/css">
+  <link href="../../_css/nv.d3.min.css?v=11.0.5" rel="stylesheet" type="text/css">
+  <link href="../../_css/style.css?v=11.0.5" rel="stylesheet" type="text/css">
+  <link href="../../_css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="../../index.html">/var/www/html/ojs-main/lib/pkp</a></li>
+         <li class="breadcrumb-item"><a href="../index.html">pages</a></li>
+         <li class="breadcrumb-item"><a href="index.html">management</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="ManagementHandler.php.html#63">PKP\pages\management\ManagementHandler</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPToolsHandler.php.html#31">PKP\pages\management\PKPToolsHandler</a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="ManagementHandler.php.html#63">PKP\pages\management\ManagementHandler</a></td><td class="text-right">1892</td></tr>
+       <tr><td><a href="PKPToolsHandler.php.html#31">PKP\pages\management\PKPToolsHandler</a></td><td class="text-right">240</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="ManagementHandler.php.html#74"><abbr title="PKP\pages\management\ManagementHandler::initialize">initialize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ManagementHandler.php.html#89"><abbr title="PKP\pages\management\ManagementHandler::authorize">authorize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ManagementHandler.php.html#101"><abbr title="PKP\pages\management\ManagementHandler::settings">settings</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ManagementHandler.php.html#143"><abbr title="PKP\pages\management\ManagementHandler::context">context</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ManagementHandler.php.html#202"><abbr title="PKP\pages\management\ManagementHandler::website">website</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ManagementHandler.php.html#285"><abbr title="PKP\pages\management\ManagementHandler::workflow">workflow</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ManagementHandler.php.html#322"><abbr title="PKP\pages\management\ManagementHandler::distribution">distribution</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ManagementHandler.php.html#381"><abbr title="PKP\pages\management\ManagementHandler::announcements">announcements</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ManagementHandler.php.html#439"><abbr title="PKP\pages\management\ManagementHandler::institutions">institutions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ManagementHandler.php.html#494"><abbr title="PKP\pages\management\ManagementHandler::access">access</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ManagementHandler.php.html#540"><abbr title="PKP\pages\management\ManagementHandler::manageEmails">manageEmails</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ManagementHandler.php.html#576"><abbr title="PKP\pages\management\ManagementHandler::getEmailTemplateForm">getEmailTemplateForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ManagementHandler.php.html#584"><abbr title="PKP\pages\management\ManagementHandler::getEmailGroupFilters">getEmailGroupFilters</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ManagementHandler.php.html#595"><abbr title="PKP\pages\management\ManagementHandler::getEmailFromFilters">getEmailFromFilters</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ManagementHandler.php.html#606"><abbr title="PKP\pages\management\ManagementHandler::getEmailToFilters">getEmailToFilters</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ManagementHandler.php.html#617"><abbr title="PKP\pages\management\ManagementHandler::getEmailSetupForm">getEmailSetupForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ManagementHandler.php.html#622"><abbr title="PKP\pages\management\ManagementHandler::hasReviewStage">hasReviewStage</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ManagementHandler.php.html#632"><abbr title="PKP\pages\management\ManagementHandler::getInformationForm">getInformationForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ManagementHandler.php.html#645"><abbr title="PKP\pages\management\ManagementHandler::getContextApiUrl">getContextApiUrl</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ManagementHandler.php.html#656"><abbr title="PKP\pages\management\ManagementHandler::getSupportedFormLocales">getSupportedFormLocales</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ManagementHandler.php.html#665"><abbr title="PKP\pages\management\ManagementHandler::addReviewFormWorkflowSupport">addReviewFormWorkflowSupport</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ManagementHandler.php.html#687"><abbr title="PKP\pages\management\ManagementHandler::getHighlightsListPanel">getHighlightsListPanel</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ManagementHandler.php.html#728"><abbr title="PKP\pages\management\ManagementHandler::getTemporaryFileApiUrl">getTemporaryFileApiUrl</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPToolsHandler.php.html#39"><abbr title="PKP\pages\management\PKPToolsHandler::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPToolsHandler.php.html#54"><abbr title="PKP\pages\management\PKPToolsHandler::tools">tools</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPToolsHandler.php.html#78"><abbr title="PKP\pages\management\PKPToolsHandler::index">index</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPToolsHandler.php.html#92"><abbr title="PKP\pages\management\PKPToolsHandler::importexport">importexport</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPToolsHandler.php.html#120"><abbr title="PKP\pages\management\PKPToolsHandler::permissions">permissions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPToolsHandler.php.html#135"><abbr title="PKP\pages\management\PKPToolsHandler::resetPermissions">resetPermissions</abbr></a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="ManagementHandler.php.html#101"><abbr title="PKP\pages\management\ManagementHandler::settings">settings</abbr></a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="PKPToolsHandler.php.html#54"><abbr title="PKP\pages\management\PKPToolsHandler::tools">tools</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="ManagementHandler.php.html#322"><abbr title="PKP\pages\management\ManagementHandler::distribution">distribution</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="ManagementHandler.php.html#143"><abbr title="PKP\pages\management\ManagementHandler::context">context</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="ManagementHandler.php.html#494"><abbr title="PKP\pages\management\ManagementHandler::access">access</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="PKPToolsHandler.php.html#92"><abbr title="PKP\pages\management\PKPToolsHandler::importexport">importexport</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="PKPToolsHandler.php.html#135"><abbr title="PKP\pages\management\PKPToolsHandler::resetPermissions">resetPermissions</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="ManagementHandler.php.html#202"><abbr title="PKP\pages\management\ManagementHandler::website">website</abbr></a></td><td class="text-right">6</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 11.0.5</a> using <a href="https://www.php.net/" target="_top">PHP 8.3.11</a> and <a href="https://phpunit.de/">PHPUnit 11.2.8</a> at Wed Sep 4 13:31:09 UTC 2024.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../../_js/jquery.min.js?v=11.0.5" type="text/javascript"></script>
+  <script src="../../_js/d3.min.js?v=11.0.5" type="text/javascript"></script>
+  <script src="../../_js/nv.d3.min.js?v=11.0.5" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([2,0,0,0,0,0,0,0,0,0,0,0], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([29,0,0,0,0,0,0,0,0,0,0,0], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[0,43,"<a href=\"ManagementHandler.php.html#63\">PKP\\pages\\management\\ManagementHandler<\/a>"],[0,15,"<a href=\"PKPToolsHandler.php.html#31\">PKP\\pages\\management\\PKPToolsHandler<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[0,1,"<a href=\"ManagementHandler.php.html#74\">PKP\\pages\\management\\ManagementHandler::initialize<\/a>"],[0,1,"<a href=\"ManagementHandler.php.html#89\">PKP\\pages\\management\\ManagementHandler::authorize<\/a>"],[0,12,"<a href=\"ManagementHandler.php.html#101\">PKP\\pages\\management\\ManagementHandler::settings<\/a>"],[0,3,"<a href=\"ManagementHandler.php.html#143\">PKP\\pages\\management\\ManagementHandler::context<\/a>"],[0,2,"<a href=\"ManagementHandler.php.html#202\">PKP\\pages\\management\\ManagementHandler::website<\/a>"],[0,1,"<a href=\"ManagementHandler.php.html#285\">PKP\\pages\\management\\ManagementHandler::workflow<\/a>"],[0,5,"<a href=\"ManagementHandler.php.html#322\">PKP\\pages\\management\\ManagementHandler::distribution<\/a>"],[0,1,"<a href=\"ManagementHandler.php.html#381\">PKP\\pages\\management\\ManagementHandler::announcements<\/a>"],[0,1,"<a href=\"ManagementHandler.php.html#439\">PKP\\pages\\management\\ManagementHandler::institutions<\/a>"],[0,3,"<a href=\"ManagementHandler.php.html#494\">PKP\\pages\\management\\ManagementHandler::access<\/a>"],[0,1,"<a href=\"ManagementHandler.php.html#540\">PKP\\pages\\management\\ManagementHandler::manageEmails<\/a>"],[0,1,"<a href=\"ManagementHandler.php.html#576\">PKP\\pages\\management\\ManagementHandler::getEmailTemplateForm<\/a>"],[0,1,"<a href=\"ManagementHandler.php.html#584\">PKP\\pages\\management\\ManagementHandler::getEmailGroupFilters<\/a>"],[0,1,"<a href=\"ManagementHandler.php.html#595\">PKP\\pages\\management\\ManagementHandler::getEmailFromFilters<\/a>"],[0,1,"<a href=\"ManagementHandler.php.html#606\">PKP\\pages\\management\\ManagementHandler::getEmailToFilters<\/a>"],[0,1,"<a href=\"ManagementHandler.php.html#617\">PKP\\pages\\management\\ManagementHandler::getEmailSetupForm<\/a>"],[0,1,"<a href=\"ManagementHandler.php.html#622\">PKP\\pages\\management\\ManagementHandler::hasReviewStage<\/a>"],[0,1,"<a href=\"ManagementHandler.php.html#632\">PKP\\pages\\management\\ManagementHandler::getInformationForm<\/a>"],[0,1,"<a href=\"ManagementHandler.php.html#645\">PKP\\pages\\management\\ManagementHandler::getContextApiUrl<\/a>"],[0,1,"<a href=\"ManagementHandler.php.html#656\">PKP\\pages\\management\\ManagementHandler::getSupportedFormLocales<\/a>"],[0,1,"<a href=\"ManagementHandler.php.html#665\">PKP\\pages\\management\\ManagementHandler::addReviewFormWorkflowSupport<\/a>"],[0,1,"<a href=\"ManagementHandler.php.html#687\">PKP\\pages\\management\\ManagementHandler::getHighlightsListPanel<\/a>"],[0,1,"<a href=\"ManagementHandler.php.html#728\">PKP\\pages\\management\\ManagementHandler::getTemporaryFileApiUrl<\/a>"],[0,1,"<a href=\"PKPToolsHandler.php.html#39\">PKP\\pages\\management\\PKPToolsHandler::__construct<\/a>"],[0,6,"<a href=\"PKPToolsHandler.php.html#54\">PKP\\pages\\management\\PKPToolsHandler::tools<\/a>"],[0,1,"<a href=\"PKPToolsHandler.php.html#78\">PKP\\pages\\management\\PKPToolsHandler::index<\/a>"],[0,3,"<a href=\"PKPToolsHandler.php.html#92\">PKP\\pages\\management\\PKPToolsHandler::importexport<\/a>"],[0,1,"<a href=\"PKPToolsHandler.php.html#120\">PKP\\pages\\management\\PKPToolsHandler::permissions<\/a>"],[0,3,"<a href=\"PKPToolsHandler.php.html#135\">PKP\\pages\\management\\PKPToolsHandler::resetPermissions<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

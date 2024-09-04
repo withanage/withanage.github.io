@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /var/www/html/ojs-main/lib/pkp/classes/middleware</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../_css/bootstrap.min.css?v=11.0.5" rel="stylesheet" type="text/css">
+  <link href="../../_css/nv.d3.min.css?v=11.0.5" rel="stylesheet" type="text/css">
+  <link href="../../_css/style.css?v=11.0.5" rel="stylesheet" type="text/css">
+  <link href="../../_css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="../../index.html">/var/www/html/ojs-main/lib/pkp</a></li>
+         <li class="breadcrumb-item"><a href="../index.html">classes</a></li>
+         <li class="breadcrumb-item"><a href="index.html">middleware</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="AllowCrossOrigin.php.html#22">PKP\middleware\AllowCrossOrigin</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AttachFileUploadHeader.php.html#22">PKP\middleware\AttachFileUploadHeader</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DecodeApiTokenWithValidation.php.html#38">PKP\middleware\DecodeApiTokenWithValidation</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HasContext.php.html#24">PKP\middleware\HasContext</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HasRoles.php.html#28">PKP\middleware\HasRoles</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HasUser.php.html#24">PKP\middleware\HasUser</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPAuthenticateSession.php.html#21">PKP\middleware\PKPAuthenticateSession</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPEncryptCookies.php.html#21">PKP\middleware\PKPEncryptCookies</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPStartSession.php.html#19">PKP\middleware\PKPStartSession</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PolicyAuthorizer.php.html#30">PKP\middleware\PolicyAuthorizer</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SetupContextBasedOnRequestUrl.php.html#25">PKP\middleware\SetupContextBasedOnRequestUrl</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ValidateCsrfToken.php.html#26">PKP\middleware\ValidateCsrfToken</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="traits/HasRequiredMiddleware.php.html#21">PKP\middleware\traits\HasRequiredMiddleware</a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="DecodeApiTokenWithValidation.php.html#38">PKP\middleware\DecodeApiTokenWithValidation</a></td><td class="text-right">420</td></tr>
+       <tr><td><a href="ValidateCsrfToken.php.html#26">PKP\middleware\ValidateCsrfToken</a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="PolicyAuthorizer.php.html#30">PKP\middleware\PolicyAuthorizer</a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="HasRoles.php.html#28">PKP\middleware\HasRoles</a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="PKPEncryptCookies.php.html#21">PKP\middleware\PKPEncryptCookies</a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="traits/HasRequiredMiddleware.php.html#21">PKP\middleware\traits\HasRequiredMiddleware</a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="SetupContextBasedOnRequestUrl.php.html#25">PKP\middleware\SetupContextBasedOnRequestUrl</a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="HasContext.php.html#24">PKP\middleware\HasContext</a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="HasUser.php.html#24">PKP\middleware\HasUser</a></td><td class="text-right">6</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="AllowCrossOrigin.php.html#28"><abbr title="PKP\middleware\AllowCrossOrigin::handle">handle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AttachFileUploadHeader.php.html#28"><abbr title="PKP\middleware\AttachFileUploadHeader::handle">handle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DecodeApiTokenWithValidation.php.html#45"><abbr title="PKP\middleware\DecodeApiTokenWithValidation::requiredMiddleware">requiredMiddleware</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DecodeApiTokenWithValidation.php.html#59"><abbr title="PKP\middleware\DecodeApiTokenWithValidation::handle">handle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DecodeApiTokenWithValidation.php.html#140"><abbr title="PKP\middleware\DecodeApiTokenWithValidation::setUserResolver">setUserResolver</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DecodeApiTokenWithValidation.php.html#157"><abbr title="PKP\middleware\DecodeApiTokenWithValidation::getApiToken">getApiToken</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HasContext.php.html#30"><abbr title="PKP\middleware\HasContext::handle">handle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HasRoles.php.html#48"><abbr title="PKP\middleware\HasRoles::handle">handle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HasUser.php.html#30"><abbr title="PKP\middleware\HasUser::handle">handle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPAuthenticateSession.php.html#29"><abbr title="PKP\middleware\PKPAuthenticateSession::logout">logout</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPAuthenticateSession.php.html#45"><abbr title="PKP\middleware\PKPAuthenticateSession::redirectTo">redirectTo</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPEncryptCookies.php.html#39"><abbr title="PKP\middleware\PKPEncryptCookies::handle">handle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPEncryptCookies.php.html#56"><abbr title="PKP\middleware\PKPEncryptCookies::encrypt">encrypt</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPStartSession.php.html#24"><abbr title="PKP\middleware\PKPStartSession::startSession">startSession</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PolicyAuthorizer.php.html#39"><abbr title="PKP\middleware\PolicyAuthorizer::handle">handle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PolicyAuthorizer.php.html#82"><abbr title="PKP\middleware\PolicyAuthorizer::getRoleAssignmentMap">getRoleAssignmentMap</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SetupContextBasedOnRequestUrl.php.html#41"><abbr title="PKP\middleware\SetupContextBasedOnRequestUrl::handle">handle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ValidateCsrfToken.php.html#33"><abbr title="PKP\middleware\ValidateCsrfToken::requiredMiddleware">requiredMiddleware</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ValidateCsrfToken.php.html#43"><abbr title="PKP\middleware\ValidateCsrfToken::handle">handle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ValidateCsrfToken.php.html#70"><abbr title="PKP\middleware\ValidateCsrfToken::isApiRequest">isApiRequest</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ValidateCsrfToken.php.html#88"><abbr title="PKP\middleware\ValidateCsrfToken::isCsrfRequiredForRequest">isCsrfRequiredForRequest</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ValidateCsrfToken.php.html#96"><abbr title="PKP\middleware\ValidateCsrfToken::isCsrfValid">isCsrfValid</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="traits/HasRequiredMiddleware.php.html#35"><abbr title="PKP\middleware\traits\HasRequiredMiddleware::requiredMiddleware">requiredMiddleware</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="traits/HasRequiredMiddleware.php.html#40"><abbr title="PKP\middleware\traits\HasRequiredMiddleware::hasRequiredMiddleware">hasRequiredMiddleware</abbr></a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="DecodeApiTokenWithValidation.php.html#59"><abbr title="PKP\middleware\DecodeApiTokenWithValidation::handle">handle</abbr></a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="HasRoles.php.html#48"><abbr title="PKP\middleware\HasRoles::handle">handle</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="DecodeApiTokenWithValidation.php.html#157"><abbr title="PKP\middleware\DecodeApiTokenWithValidation::getApiToken">getApiToken</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="PolicyAuthorizer.php.html#39"><abbr title="PKP\middleware\PolicyAuthorizer::handle">handle</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="ValidateCsrfToken.php.html#43"><abbr title="PKP\middleware\ValidateCsrfToken::handle">handle</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="traits/HasRequiredMiddleware.php.html#40"><abbr title="PKP\middleware\traits\HasRequiredMiddleware::hasRequiredMiddleware">hasRequiredMiddleware</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="DecodeApiTokenWithValidation.php.html#140"><abbr title="PKP\middleware\DecodeApiTokenWithValidation::setUserResolver">setUserResolver</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="PKPEncryptCookies.php.html#56"><abbr title="PKP\middleware\PKPEncryptCookies::encrypt">encrypt</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="SetupContextBasedOnRequestUrl.php.html#41"><abbr title="PKP\middleware\SetupContextBasedOnRequestUrl::handle">handle</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="ValidateCsrfToken.php.html#70"><abbr title="PKP\middleware\ValidateCsrfToken::isApiRequest">isApiRequest</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="HasContext.php.html#30"><abbr title="PKP\middleware\HasContext::handle">handle</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="HasUser.php.html#30"><abbr title="PKP\middleware\HasUser::handle">handle</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="PKPEncryptCookies.php.html#39"><abbr title="PKP\middleware\PKPEncryptCookies::handle">handle</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="PolicyAuthorizer.php.html#82"><abbr title="PKP\middleware\PolicyAuthorizer::getRoleAssignmentMap">getRoleAssignmentMap</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ValidateCsrfToken.php.html#96"><abbr title="PKP\middleware\ValidateCsrfToken::isCsrfValid">isCsrfValid</abbr></a></td><td class="text-right">6</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 11.0.5</a> using <a href="https://www.php.net/" target="_top">PHP 8.3.11</a> and <a href="https://phpunit.de/">PHPUnit 11.2.8</a> at Wed Sep 4 13:31:09 UTC 2024.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../../_js/jquery.min.js?v=11.0.5" type="text/javascript"></script>
+  <script src="../../_js/d3.min.js?v=11.0.5" type="text/javascript"></script>
+  <script src="../../_js/nv.d3.min.js?v=11.0.5" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([13,0,0,0,0,0,0,0,0,0,0,0], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([24,0,0,0,0,0,0,0,0,0,0,0], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[0,1,"<a href=\"AllowCrossOrigin.php.html#22\">PKP\\middleware\\AllowCrossOrigin<\/a>"],[0,1,"<a href=\"AttachFileUploadHeader.php.html#22\">PKP\\middleware\\AttachFileUploadHeader<\/a>"],[0,20,"<a href=\"DecodeApiTokenWithValidation.php.html#38\">PKP\\middleware\\DecodeApiTokenWithValidation<\/a>"],[0,2,"<a href=\"HasContext.php.html#24\">PKP\\middleware\\HasContext<\/a>"],[0,6,"<a href=\"HasRoles.php.html#28\">PKP\\middleware\\HasRoles<\/a>"],[0,2,"<a href=\"HasUser.php.html#24\">PKP\\middleware\\HasUser<\/a>"],[0,2,"<a href=\"PKPAuthenticateSession.php.html#21\">PKP\\middleware\\PKPAuthenticateSession<\/a>"],[0,5,"<a href=\"PKPEncryptCookies.php.html#21\">PKP\\middleware\\PKPEncryptCookies<\/a>"],[0,1,"<a href=\"PKPStartSession.php.html#19\">PKP\\middleware\\PKPStartSession<\/a>"],[0,7,"<a href=\"PolicyAuthorizer.php.html#30\">PKP\\middleware\\PolicyAuthorizer<\/a>"],[0,3,"<a href=\"SetupContextBasedOnRequestUrl.php.html#25\">PKP\\middleware\\SetupContextBasedOnRequestUrl<\/a>"],[0,12,"<a href=\"ValidateCsrfToken.php.html#26\">PKP\\middleware\\ValidateCsrfToken<\/a>"],[0,5,"<a href=\"traits\/HasRequiredMiddleware.php.html#21\">PKP\\middleware\\traits\\HasRequiredMiddleware<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[0,1,"<a href=\"AllowCrossOrigin.php.html#28\">PKP\\middleware\\AllowCrossOrigin::handle<\/a>"],[0,1,"<a href=\"AttachFileUploadHeader.php.html#28\">PKP\\middleware\\AttachFileUploadHeader::handle<\/a>"],[0,1,"<a href=\"DecodeApiTokenWithValidation.php.html#45\">PKP\\middleware\\DecodeApiTokenWithValidation::requiredMiddleware<\/a>"],[0,11,"<a href=\"DecodeApiTokenWithValidation.php.html#59\">PKP\\middleware\\DecodeApiTokenWithValidation::handle<\/a>"],[0,3,"<a href=\"DecodeApiTokenWithValidation.php.html#140\">PKP\\middleware\\DecodeApiTokenWithValidation::setUserResolver<\/a>"],[0,5,"<a href=\"DecodeApiTokenWithValidation.php.html#157\">PKP\\middleware\\DecodeApiTokenWithValidation::getApiToken<\/a>"],[0,2,"<a href=\"HasContext.php.html#30\">PKP\\middleware\\HasContext::handle<\/a>"],[0,6,"<a href=\"HasRoles.php.html#48\">PKP\\middleware\\HasRoles::handle<\/a>"],[0,2,"<a href=\"HasUser.php.html#30\">PKP\\middleware\\HasUser::handle<\/a>"],[0,1,"<a href=\"PKPAuthenticateSession.php.html#29\">PKP\\middleware\\PKPAuthenticateSession::logout<\/a>"],[0,1,"<a href=\"PKPAuthenticateSession.php.html#45\">PKP\\middleware\\PKPAuthenticateSession::redirectTo<\/a>"],[0,2,"<a href=\"PKPEncryptCookies.php.html#39\">PKP\\middleware\\PKPEncryptCookies::handle<\/a>"],[0,3,"<a href=\"PKPEncryptCookies.php.html#56\">PKP\\middleware\\PKPEncryptCookies::encrypt<\/a>"],[0,1,"<a href=\"PKPStartSession.php.html#24\">PKP\\middleware\\PKPStartSession::startSession<\/a>"],[0,5,"<a href=\"PolicyAuthorizer.php.html#39\">PKP\\middleware\\PolicyAuthorizer::handle<\/a>"],[0,2,"<a href=\"PolicyAuthorizer.php.html#82\">PKP\\middleware\\PolicyAuthorizer::getRoleAssignmentMap<\/a>"],[0,3,"<a href=\"SetupContextBasedOnRequestUrl.php.html#41\">PKP\\middleware\\SetupContextBasedOnRequestUrl::handle<\/a>"],[0,1,"<a href=\"ValidateCsrfToken.php.html#33\">PKP\\middleware\\ValidateCsrfToken::requiredMiddleware<\/a>"],[0,5,"<a href=\"ValidateCsrfToken.php.html#43\">PKP\\middleware\\ValidateCsrfToken::handle<\/a>"],[0,3,"<a href=\"ValidateCsrfToken.php.html#70\">PKP\\middleware\\ValidateCsrfToken::isApiRequest<\/a>"],[0,1,"<a href=\"ValidateCsrfToken.php.html#88\">PKP\\middleware\\ValidateCsrfToken::isCsrfRequiredForRequest<\/a>"],[0,2,"<a href=\"ValidateCsrfToken.php.html#96\">PKP\\middleware\\ValidateCsrfToken::isCsrfValid<\/a>"],[0,0,"<a href=\"traits\/HasRequiredMiddleware.php.html#35\">PKP\\middleware\\traits\\HasRequiredMiddleware::requiredMiddleware<\/a>"],[0,5,"<a href=\"traits\/HasRequiredMiddleware.php.html#40\">PKP\\middleware\\traits\\HasRequiredMiddleware::hasRequiredMiddleware<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /var/www/html/ojs-main/lib/pkp/classes/search</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../_css/bootstrap.min.css?v=11.0.5" rel="stylesheet" type="text/css">
+  <link href="../../_css/nv.d3.min.css?v=11.0.5" rel="stylesheet" type="text/css">
+  <link href="../../_css/style.css?v=11.0.5" rel="stylesheet" type="text/css">
+  <link href="../../_css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="../../index.html">/var/www/html/ojs-main/lib/pkp</a></li>
+         <li class="breadcrumb-item"><a href="../index.html">classes</a></li>
+         <li class="breadcrumb-item"><a href="index.html">search</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="SearchFileParser.php.html#29">PKP\search\SearchFileParser</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SearchHTMLParser.php.html#19">PKP\search\SearchHTMLParser</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SearchHelperParser.php.html#22">PKP\search\SearchHelperParser</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubmissionSearch.php.html#33">PKP\search\SubmissionSearch</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubmissionSearchDAO.php.html#26">PKP\search\SubmissionSearchDAO</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubmissionSearchIndex.php.html#23">PKP\search\SubmissionSearchIndex</a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="SubmissionSearch.php.html#33">PKP\search\SubmissionSearch</a></td><td class="text-right">2756</td></tr>
+       <tr><td><a href="SearchFileParser.php.html#29">PKP\search\SearchFileParser</a></td><td class="text-right">380</td></tr>
+       <tr><td><a href="SubmissionSearchDAO.php.html#26">PKP\search\SubmissionSearchDAO</a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="SubmissionSearchIndex.php.html#23">PKP\search\SubmissionSearchIndex</a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="SearchHelperParser.php.html#22">PKP\search\SearchHelperParser</a></td><td class="text-right">56</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="SearchFileParser.php.html#42"><abbr title="PKP\search\SearchFileParser::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SearchFileParser.php.html#52"><abbr title="PKP\search\SearchFileParser::getFilePath">getFilePath</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SearchFileParser.php.html#62"><abbr title="PKP\search\SearchFileParser::setFilePath">setFilePath</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SearchFileParser.php.html#72"><abbr title="PKP\search\SearchFileParser::open">open</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SearchFileParser.php.html#83"><abbr title="PKP\search\SearchFileParser::close">close</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SearchFileParser.php.html#95"><abbr title="PKP\search\SearchFileParser::read">read</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SearchFileParser.php.html#108"><abbr title="PKP\search\SearchFileParser::doRead">doRead</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SearchFileParser.php.html#125"><abbr title="PKP\search\SearchFileParser::fromFile">fromFile</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SearchFileParser.php.html#139"><abbr title="PKP\search\SearchFileParser::fromFileType">fromFileType</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SearchHTMLParser.php.html#21"><abbr title="PKP\search\SearchHTMLParser::doRead">doRead</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SearchHelperParser.php.html#29"><abbr title="PKP\search\SearchHelperParser::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SearchHelperParser.php.html#35"><abbr title="PKP\search\SearchHelperParser::open">open</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SearchHelperParser.php.html#49"><abbr title="PKP\search\SearchHelperParser::close">close</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubmissionSearch.php.html#53"><abbr title="PKP\search\SubmissionSearch::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubmissionSearch.php.html#65"><abbr title="PKP\search\SubmissionSearch::_parseQuery">_parseQuery</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubmissionSearch.php.html#76"><abbr title="PKP\search\SubmissionSearch::_parseQueryInternal">_parseQueryInternal</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubmissionSearch.php.html#140"><abbr title="PKP\search\SubmissionSearch::_getMergedArray">_getMergedArray</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubmissionSearch.php.html#162"><abbr title="PKP\search\SubmissionSearch::_getMergedKeywordResults">_getMergedKeywordResults</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubmissionSearch.php.html#217"><abbr title="PKP\search\SubmissionSearch::_getMergedPhraseResults">_getMergedPhraseResults</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubmissionSearch.php.html#257"><abbr title="PKP\search\SubmissionSearch::retrieveResults">retrieveResults</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubmissionSearch.php.html#331"><abbr title="PKP\search\SubmissionSearch::getResultSetOrderingDirectionOptions">getResultSetOrderingDirectionOptions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubmissionSearch.php.html#349"><abbr title="PKP\search\SubmissionSearch::getResultSetOrdering">getResultSetOrdering</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubmissionSearch.php.html#383"><abbr title="PKP\search\SubmissionSearch::formatResults">formatResults</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubmissionSearch.php.html#392"><abbr title="PKP\search\SubmissionSearch::getResultSetOrderingOptions">getResultSetOrderingOptions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubmissionSearch.php.html#398"><abbr title="PKP\search\SubmissionSearch::getSparseArray">getSparseArray</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubmissionSearch.php.html#407"><abbr title="PKP\search\SubmissionSearch::getDefaultOrderDir">getDefaultOrderDir</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubmissionSearch.php.html#414"><abbr title="PKP\search\SubmissionSearch::getSearchDao">getSearchDao</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubmissionSearchDAO.php.html#35"><abbr title="PKP\search\SubmissionSearchDAO::deleteSubmissionKeywords">deleteSubmissionKeywords</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubmissionSearchDAO.php.html#53"><abbr title="PKP\search\SubmissionSearchDAO::insertObject">insertObject</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubmissionSearchDAO.php.html#79"><abbr title="PKP\search\SubmissionSearchDAO::insertObjectKeywords">insertObjectKeywords</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubmissionSearchDAO.php.html#149"><abbr title="PKP\search\SubmissionSearchDAO::clearIndex">clearIndex</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubmissionSearchDAO.php.html#169"><abbr title="PKP\search\SubmissionSearchDAO::getKeywordIdMap">getKeywordIdMap</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubmissionSearchIndex.php.html#38"><abbr title="PKP\search\SubmissionSearchIndex::filterKeywords">filterKeywords</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubmissionSearchIndex.php.html#84"><abbr title="PKP\search\SubmissionSearchIndex::loadStopwords">loadStopwords</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubmissionSearchIndex.php.html#104"><abbr title="PKP\search\SubmissionSearchIndex::submissionChangesFinished">submissionChangesFinished</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubmissionSearchIndex.php.html#117"><abbr title="PKP\search\SubmissionSearchIndex::submissionMetadataChanged">submissionMetadataChanged</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubmissionSearchIndex.php.html#124"><abbr title="PKP\search\SubmissionSearchIndex::clearSubmissionFiles">clearSubmissionFiles</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubmissionSearchIndex.php.html#132"><abbr title="PKP\search\SubmissionSearchIndex::deleteTextIndex">deleteTextIndex</abbr></a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="SubmissionSearch.php.html#162"><abbr title="PKP\search\SubmissionSearch::_getMergedKeywordResults">_getMergedKeywordResults</abbr></a></td><td class="text-right">272</td></tr>
+       <tr><td><a href="SubmissionSearch.php.html#76"><abbr title="PKP\search\SubmissionSearch::_parseQueryInternal">_parseQueryInternal</abbr></a></td><td class="text-right">240</td></tr>
+       <tr><td><a href="SubmissionSearchIndex.php.html#38"><abbr title="PKP\search\SubmissionSearchIndex::filterKeywords">filterKeywords</abbr></a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="SearchFileParser.php.html#139"><abbr title="PKP\search\SearchFileParser::fromFileType">fromFileType</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="SubmissionSearch.php.html#257"><abbr title="PKP\search\SubmissionSearch::retrieveResults">retrieveResults</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="SubmissionSearch.php.html#140"><abbr title="PKP\search\SubmissionSearch::_getMergedArray">_getMergedArray</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="SubmissionSearch.php.html#349"><abbr title="PKP\search\SubmissionSearch::getResultSetOrdering">getResultSetOrdering</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="SubmissionSearchDAO.php.html#79"><abbr title="PKP\search\SubmissionSearchDAO::insertObjectKeywords">insertObjectKeywords</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="SearchFileParser.php.html#95"><abbr title="PKP\search\SearchFileParser::read">read</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="SearchHelperParser.php.html#35"><abbr title="PKP\search\SearchHelperParser::open">open</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="SearchHelperParser.php.html#49"><abbr title="PKP\search\SearchHelperParser::close">close</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="SearchFileParser.php.html#72"><abbr title="PKP\search\SearchFileParser::open">open</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="SearchFileParser.php.html#83"><abbr title="PKP\search\SearchFileParser::close">close</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="SubmissionSearch.php.html#217"><abbr title="PKP\search\SubmissionSearch::_getMergedPhraseResults">_getMergedPhraseResults</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="SubmissionSearchDAO.php.html#53"><abbr title="PKP\search\SubmissionSearchDAO::insertObject">insertObject</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="SubmissionSearchDAO.php.html#149"><abbr title="PKP\search\SubmissionSearchDAO::clearIndex">clearIndex</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="SubmissionSearchDAO.php.html#169"><abbr title="PKP\search\SubmissionSearchDAO::getKeywordIdMap">getKeywordIdMap</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="SubmissionSearchIndex.php.html#84"><abbr title="PKP\search\SubmissionSearchIndex::loadStopwords">loadStopwords</abbr></a></td><td class="text-right">6</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 11.0.5</a> using <a href="https://www.php.net/" target="_top">PHP 8.3.11</a> and <a href="https://phpunit.de/">PHPUnit 11.2.8</a> at Wed Sep 4 13:31:09 UTC 2024.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../../_js/jquery.min.js?v=11.0.5" type="text/javascript"></script>
+  <script src="../../_js/d3.min.js?v=11.0.5" type="text/javascript"></script>
+  <script src="../../_js/nv.d3.min.js?v=11.0.5" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([6,0,0,0,0,0,0,0,0,0,0,0], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([38,0,0,0,0,0,0,0,0,0,0,0], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[0,19,"<a href=\"SearchFileParser.php.html#29\">PKP\\search\\SearchFileParser<\/a>"],[0,1,"<a href=\"SearchHTMLParser.php.html#19\">PKP\\search\\SearchHTMLParser<\/a>"],[0,7,"<a href=\"SearchHelperParser.php.html#22\">PKP\\search\\SearchHelperParser<\/a>"],[0,52,"<a href=\"SubmissionSearch.php.html#33\">PKP\\search\\SubmissionSearch<\/a>"],[0,12,"<a href=\"SubmissionSearchDAO.php.html#26\">PKP\\search\\SubmissionSearchDAO<\/a>"],[0,12,"<a href=\"SubmissionSearchIndex.php.html#23\">PKP\\search\\SubmissionSearchIndex<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[0,1,"<a href=\"SearchFileParser.php.html#42\">PKP\\search\\SearchFileParser::__construct<\/a>"],[0,1,"<a href=\"SearchFileParser.php.html#52\">PKP\\search\\SearchFileParser::getFilePath<\/a>"],[0,1,"<a href=\"SearchFileParser.php.html#62\">PKP\\search\\SearchFileParser::setFilePath<\/a>"],[0,2,"<a href=\"SearchFileParser.php.html#72\">PKP\\search\\SearchFileParser::open<\/a>"],[0,2,"<a href=\"SearchFileParser.php.html#83\">PKP\\search\\SearchFileParser::close<\/a>"],[0,3,"<a href=\"SearchFileParser.php.html#95\">PKP\\search\\SearchFileParser::read<\/a>"],[0,1,"<a href=\"SearchFileParser.php.html#108\">PKP\\search\\SearchFileParser::doRead<\/a>"],[0,1,"<a href=\"SearchFileParser.php.html#125\">PKP\\search\\SearchFileParser::fromFile<\/a>"],[0,7,"<a href=\"SearchFileParser.php.html#139\">PKP\\search\\SearchFileParser::fromFileType<\/a>"],[0,1,"<a href=\"SearchHTMLParser.php.html#21\">PKP\\search\\SearchHTMLParser::doRead<\/a>"],[0,1,"<a href=\"SearchHelperParser.php.html#29\">PKP\\search\\SearchHelperParser::__construct<\/a>"],[0,3,"<a href=\"SearchHelperParser.php.html#35\">PKP\\search\\SearchHelperParser::open<\/a>"],[0,3,"<a href=\"SearchHelperParser.php.html#49\">PKP\\search\\SearchHelperParser::close<\/a>"],[0,1,"<a href=\"SubmissionSearch.php.html#53\">PKP\\search\\SubmissionSearch::__construct<\/a>"],[0,1,"<a href=\"SubmissionSearch.php.html#65\">PKP\\search\\SubmissionSearch::_parseQuery<\/a>"],[0,15,"<a href=\"SubmissionSearch.php.html#76\">PKP\\search\\SubmissionSearch::_parseQueryInternal<\/a>"],[0,5,"<a href=\"SubmissionSearch.php.html#140\">PKP\\search\\SubmissionSearch::_getMergedArray<\/a>"],[0,16,"<a href=\"SubmissionSearch.php.html#162\">PKP\\search\\SubmissionSearch::_getMergedKeywordResults<\/a>"],[0,2,"<a href=\"SubmissionSearch.php.html#217\">PKP\\search\\SubmissionSearch::_getMergedPhraseResults<\/a>"],[0,6,"<a href=\"SubmissionSearch.php.html#257\">PKP\\search\\SubmissionSearch::retrieveResults<\/a>"],[0,1,"<a href=\"SubmissionSearch.php.html#331\">PKP\\search\\SubmissionSearch::getResultSetOrderingDirectionOptions<\/a>"],[0,5,"<a href=\"SubmissionSearch.php.html#349\">PKP\\search\\SubmissionSearch::getResultSetOrdering<\/a>"],[0,0,"<a href=\"SubmissionSearch.php.html#383\">PKP\\search\\SubmissionSearch::formatResults<\/a>"],[0,0,"<a href=\"SubmissionSearch.php.html#392\">PKP\\search\\SubmissionSearch::getResultSetOrderingOptions<\/a>"],[0,0,"<a href=\"SubmissionSearch.php.html#398\">PKP\\search\\SubmissionSearch::getSparseArray<\/a>"],[0,0,"<a href=\"SubmissionSearch.php.html#407\">PKP\\search\\SubmissionSearch::getDefaultOrderDir<\/a>"],[0,0,"<a href=\"SubmissionSearch.php.html#414\">PKP\\search\\SubmissionSearch::getSearchDao<\/a>"],[0,1,"<a href=\"SubmissionSearchDAO.php.html#35\">PKP\\search\\SubmissionSearchDAO::deleteSubmissionKeywords<\/a>"],[0,2,"<a href=\"SubmissionSearchDAO.php.html#53\">PKP\\search\\SubmissionSearchDAO::insertObject<\/a>"],[0,5,"<a href=\"SubmissionSearchDAO.php.html#79\">PKP\\search\\SubmissionSearchDAO::insertObjectKeywords<\/a>"],[0,2,"<a href=\"SubmissionSearchDAO.php.html#149\">PKP\\search\\SubmissionSearchDAO::clearIndex<\/a>"],[0,2,"<a href=\"SubmissionSearchDAO.php.html#169\">PKP\\search\\SubmissionSearchDAO::getKeywordIdMap<\/a>"],[0,10,"<a href=\"SubmissionSearchIndex.php.html#38\">PKP\\search\\SubmissionSearchIndex::filterKeywords<\/a>"],[0,2,"<a href=\"SubmissionSearchIndex.php.html#84\">PKP\\search\\SubmissionSearchIndex::loadStopwords<\/a>"],[0,0,"<a href=\"SubmissionSearchIndex.php.html#104\">PKP\\search\\SubmissionSearchIndex::submissionChangesFinished<\/a>"],[0,0,"<a href=\"SubmissionSearchIndex.php.html#117\">PKP\\search\\SubmissionSearchIndex::submissionMetadataChanged<\/a>"],[0,0,"<a href=\"SubmissionSearchIndex.php.html#124\">PKP\\search\\SubmissionSearchIndex::clearSubmissionFiles<\/a>"],[0,0,"<a href=\"SubmissionSearchIndex.php.html#132\">PKP\\search\\SubmissionSearchIndex::deleteTextIndex<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

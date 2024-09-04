@@ -1,0 +1,921 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /var/www/html/ojs-main/lib/pkp/classes/submission</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../_css/bootstrap.min.css?v=11.0.5" rel="stylesheet" type="text/css">
+  <link href="../../_css/nv.d3.min.css?v=11.0.5" rel="stylesheet" type="text/css">
+  <link href="../../_css/style.css?v=11.0.5" rel="stylesheet" type="text/css">
+  <link href="../../_css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="../../index.html">/var/www/html/ojs-main/lib/pkp</a></li>
+         <li class="breadcrumb-item"><a href="../index.html">classes</a></li>
+         <li class="breadcrumb-item"><a href="index.html">submission</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Collector.php.html#38">PKP\submission\Collector</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DAO.php.html#40">PKP\submission\DAO</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DashboardView.php.html#25">PKP\submission\DashboardView</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Genre.php.html#23">PKP\submission\Genre</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="GenreDAO.php.html#28">PKP\submission\GenreDAO</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPSubmission.php.html#40">PKP\submission\PKPSubmission</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Repository.php.html#46">PKP\submission\Repository</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Representation.php.html#25">PKP\submission\Representation</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ReviewFilesDAO.php.html#22">PKP\submission\ReviewFilesDAO</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubmissionAgency.php.html#21">PKP\submission\SubmissionAgency</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubmissionAgencyDAO.php.html#26">PKP\submission\SubmissionAgencyDAO</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubmissionAgencyEntryDAO.php.html#25">PKP\submission\SubmissionAgencyEntryDAO</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubmissionComment.php.html#23">PKP\submission\SubmissionComment</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubmissionCommentDAO.php.html#26">PKP\submission\SubmissionCommentDAO</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubmissionDiscipline.php.html#21">PKP\submission\SubmissionDiscipline</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubmissionDisciplineDAO.php.html#27">PKP\submission\SubmissionDisciplineDAO</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubmissionDisciplineEntryDAO.php.html#25">PKP\submission\SubmissionDisciplineEntryDAO</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubmissionKeyword.php.html#21">PKP\submission\SubmissionKeyword</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubmissionKeywordDAO.php.html#26">PKP\submission\SubmissionKeywordDAO</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubmissionKeywordEntryDAO.php.html#25">PKP\submission\SubmissionKeywordEntryDAO</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubmissionLanguage.php.html#22">PKP\submission\SubmissionLanguage</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubmissionLanguageDAO.php.html#27">PKP\submission\SubmissionLanguageDAO</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubmissionLanguageEntryDAO.php.html#27">PKP\submission\SubmissionLanguageEntryDAO</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubmissionSubject.php.html#21">PKP\submission\SubmissionSubject</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubmissionSubjectDAO.php.html#26">PKP\submission\SubmissionSubjectDAO</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubmissionSubjectEntryDAO.php.html#25">PKP\submission\SubmissionSubjectEntryDAO</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="action/EditorAction.php.html#44">PKP\submission\action\EditorAction</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="maps/Schema.php.html#37">PKP\submission\maps\Schema</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewAssignment/Collector.php.html#28">PKP\submission\reviewAssignment\Collector</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewAssignment/DAO.php.html#28">PKP\submission\reviewAssignment\DAO</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewAssignment/Repository.php.html#32">PKP\submission\reviewAssignment\Repository</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewAssignment/ReviewAssignment.php.html#21">PKP\submission\reviewAssignment\ReviewAssignment</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewAssignment/maps/Schema.php.html#22">PKP\submission\reviewAssignment\maps\Schema</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewRound/ReviewRound.php.html#30">PKP\submission\reviewRound\ReviewRound</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewRound/ReviewRoundDAO.php.html#26">PKP\submission\reviewRound\ReviewRoundDAO</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/ReviewerAction.php.html#41">PKP\submission\reviewer\ReviewerAction</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/form/PKPReviewerReviewStep1Form.php.html#30">PKP\submission\reviewer\form\PKPReviewerReviewStep1Form</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/form/PKPReviewerReviewStep2Form.php.html#24">PKP\submission\reviewer\form\PKPReviewerReviewStep2Form</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/form/PKPReviewerReviewStep3Form.php.html#46">PKP\submission\reviewer\form\PKPReviewerReviewStep3Form</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/form/ReviewerReviewForm.php.html#25">PKP\submission\reviewer\form\ReviewerReviewForm</a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Repository.php.html#46">PKP\submission\Repository</a></td><td class="text-right">31862</td></tr>
+       <tr><td><a href="reviewAssignment/ReviewAssignment.php.html#21">PKP\submission\reviewAssignment\ReviewAssignment</a></td><td class="text-right">10712</td></tr>
+       <tr><td><a href="maps/Schema.php.html#37">PKP\submission\maps\Schema</a></td><td class="text-right">6006</td></tr>
+       <tr><td><a href="Collector.php.html#38">PKP\submission\Collector</a></td><td class="text-right">3660</td></tr>
+       <tr><td><a href="reviewRound/ReviewRound.php.html#30">PKP\submission\reviewRound\ReviewRound</a></td><td class="text-right">3422</td></tr>
+       <tr><td><a href="GenreDAO.php.html#28">PKP\submission\GenreDAO</a></td><td class="text-right">2070</td></tr>
+       <tr><td><a href="reviewer/form/PKPReviewerReviewStep3Form.php.html#46">PKP\submission\reviewer\form\PKPReviewerReviewStep3Form</a></td><td class="text-right">1560</td></tr>
+       <tr><td><a href="reviewRound/ReviewRoundDAO.php.html#26">PKP\submission\reviewRound\ReviewRoundDAO</a></td><td class="text-right">1482</td></tr>
+       <tr><td><a href="PKPSubmission.php.html#40">PKP\submission\PKPSubmission</a></td><td class="text-right">930</td></tr>
+       <tr><td><a href="reviewAssignment/Repository.php.html#32">PKP\submission\reviewAssignment\Repository</a></td><td class="text-right">756</td></tr>
+       <tr><td><a href="SubmissionComment.php.html#23">PKP\submission\SubmissionComment</a></td><td class="text-right">702</td></tr>
+       <tr><td><a href="DAO.php.html#40">PKP\submission\DAO</a></td><td class="text-right">506</td></tr>
+       <tr><td><a href="reviewAssignment/Collector.php.html#28">PKP\submission\reviewAssignment\Collector</a></td><td class="text-right">506</td></tr>
+       <tr><td><a href="SubmissionKeywordDAO.php.html#26">PKP\submission\SubmissionKeywordDAO</a></td><td class="text-right">380</td></tr>
+       <tr><td><a href="SubmissionCommentDAO.php.html#26">PKP\submission\SubmissionCommentDAO</a></td><td class="text-right">306</td></tr>
+       <tr><td><a href="SubmissionAgencyDAO.php.html#26">PKP\submission\SubmissionAgencyDAO</a></td><td class="text-right">272</td></tr>
+       <tr><td><a href="SubmissionDisciplineDAO.php.html#27">PKP\submission\SubmissionDisciplineDAO</a></td><td class="text-right">272</td></tr>
+       <tr><td><a href="SubmissionLanguageDAO.php.html#27">PKP\submission\SubmissionLanguageDAO</a></td><td class="text-right">272</td></tr>
+       <tr><td><a href="SubmissionSubjectDAO.php.html#26">PKP\submission\SubmissionSubjectDAO</a></td><td class="text-right">272</td></tr>
+       <tr><td><a href="action/EditorAction.php.html#44">PKP\submission\action\EditorAction</a></td><td class="text-right">272</td></tr>
+       <tr><td><a href="Representation.php.html#25">PKP\submission\Representation</a></td><td class="text-right">240</td></tr>
+       <tr><td><a href="reviewer/ReviewerAction.php.html#41">PKP\submission\reviewer\ReviewerAction</a></td><td class="text-right">240</td></tr>
+       <tr><td><a href="reviewAssignment/DAO.php.html#28">PKP\submission\reviewAssignment\DAO</a></td><td class="text-right">182</td></tr>
+       <tr><td><a href="DashboardView.php.html#25">PKP\submission\DashboardView</a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="reviewAssignment/maps/Schema.php.html#22">PKP\submission\reviewAssignment\maps\Schema</a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="reviewer/form/PKPReviewerReviewStep1Form.php.html#30">PKP\submission\reviewer\form\PKPReviewerReviewStep1Form</a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="reviewer/form/ReviewerReviewForm.php.html#25">PKP\submission\reviewer\form\ReviewerReviewForm</a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="reviewer/form/PKPReviewerReviewStep2Form.php.html#24">PKP\submission\reviewer\form\PKPReviewerReviewStep2Form</a></td><td class="text-right">30</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Collector.php.html#84"><abbr title="PKP\submission\Collector::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Collector.php.html#89"><abbr title="PKP\submission\Collector::getCount">getCount</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Collector.php.html#97"><abbr title="PKP\submission\Collector::getIds">getIds</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Collector.php.html#107"><abbr title="PKP\submission\Collector::getMany">getMany</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Collector.php.html#115"><abbr title="PKP\submission\Collector::filterByContextIds">filterByContextIds</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Collector.php.html#124"><abbr title="PKP\submission\Collector::filterByCategoryIds">filterByCategoryIds</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Collector.php.html#136"><abbr title="PKP\submission\Collector::filterByDoiStatuses">filterByDoiStatuses</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Collector.php.html#148"><abbr title="PKP\submission\Collector::filterByHasDois">filterByHasDois</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Collector.php.html#160"><abbr title="PKP\submission\Collector::filterByStatus">filterByStatus</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Collector.php.html#169"><abbr title="PKP\submission\Collector::filterByStageIds">filterByStageIds</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Collector.php.html#181"><abbr title="PKP\submission\Collector::filterByIncomplete">filterByIncomplete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Collector.php.html#190"><abbr title="PKP\submission\Collector::filterByOverdue">filterByOverdue</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Collector.php.html#199"><abbr title="PKP\submission\Collector::filterByDaysInactive">filterByDaysInactive</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Collector.php.html#210"><abbr title="PKP\submission\Collector::filterByReviewersActive">filterByReviewersActive</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Collector.php.html#219"><abbr title="PKP\submission\Collector::filterByReviewsSubmitted">filterByReviewsSubmitted</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Collector.php.html#228"><abbr title="PKP\submission\Collector::filterByAwaitingReviews">filterByAwaitingReviews</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Collector.php.html#237"><abbr title="PKP\submission\Collector::filterByRevisionsRequested">filterByRevisionsRequested</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Collector.php.html#247"><abbr title="PKP\submission\Collector::filterByRevisionsSubmitted">filterByRevisionsSubmitted</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Collector.php.html#259"><abbr title="PKP\submission\Collector::assignedTo">assignedTo</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Collector.php.html#270"><abbr title="PKP\submission\Collector::isReviewedBy">isReviewedBy</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Collector.php.html#281"><abbr title="PKP\submission\Collector::filterByReviewIds">filterByReviewIds</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Collector.php.html#290"><abbr title="PKP\submission\Collector::searchPhrase">searchPhrase</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Collector.php.html#300"><abbr title="PKP\submission\Collector::excludeIds">excludeIds</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Collector.php.html#309"><abbr title="PKP\submission\Collector::limit">limit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Collector.php.html#319"><abbr title="PKP\submission\Collector::offset">offset</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Collector.php.html#332"><abbr title="PKP\submission\Collector::orderBy">orderBy</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Collector.php.html#344"><abbr title="PKP\submission\Collector::addDoiStatusFilterToQuery">addDoiStatusFilterToQuery</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Collector.php.html#351"><abbr title="PKP\submission\Collector::addHasDoisFilterToQuery">addHasDoisFilterToQuery</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Collector.php.html#358"><abbr title="PKP\submission\Collector::getQueryBuilder">getQueryBuilder</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Collector.php.html#670"><abbr title="PKP\submission\Collector::buildReviewStageQueries">buildReviewStageQueries</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Collector.php.html#855"><abbr title="PKP\submission\Collector::getViewsCountBuilder">getViewsCountBuilder</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Collector.php.html#868"><abbr title="PKP\submission\Collector::getReviewStages">getReviewStages</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DAO.php.html#73"><abbr title="PKP\submission\DAO::getParentColumn">getParentColumn</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DAO.php.html#81"><abbr title="PKP\submission\DAO::newDataObject">newDataObject</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DAO.php.html#89"><abbr title="PKP\submission\DAO::getCount">getCount</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DAO.php.html#101"><abbr title="PKP\submission\DAO::getIds">getIds</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DAO.php.html#114"><abbr title="PKP\submission\DAO::getMany">getMany</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DAO.php.html#130"><abbr title="PKP\submission\DAO::getIdByUrlPath">getIdByUrlPath</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DAO.php.html#146"><abbr title="PKP\submission\DAO::getIdsBySetting">getIdsBySetting</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DAO.php.html#165"><abbr title="PKP\submission\DAO::getByPubId">getByPubId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DAO.php.html#192"><abbr title="PKP\submission\DAO::getByDoi">getByDoi</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DAO.php.html#206"><abbr title="PKP\submission\DAO::fromRow">fromRow</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DAO.php.html#224"><abbr title="PKP\submission\DAO::insert">insert</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DAO.php.html#232"><abbr title="PKP\submission\DAO::update">update</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DAO.php.html#240"><abbr title="PKP\submission\DAO::delete">delete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DAO.php.html#248"><abbr title="PKP\submission\DAO::deleteById">deleteById</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DashboardView.php.html#51"><abbr title="PKP\submission\DashboardView::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DashboardView.php.html#66"><abbr title="PKP\submission\DashboardView::getTypes">getTypes</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DashboardView.php.html#84"><abbr title="PKP\submission\DashboardView::getCollector">getCollector</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DashboardView.php.html#92"><abbr title="PKP\submission\DashboardView::setCount">setCount</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DashboardView.php.html#97"><abbr title="PKP\submission\DashboardView::getCount">getCount</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DashboardView.php.html#105"><abbr title="PKP\submission\DashboardView::getRoles">getRoles</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DashboardView.php.html#113"><abbr title="PKP\submission\DashboardView::getData">getData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Genre.php.html#32"><abbr title="PKP\submission\Genre::getContextId">getContextId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Genre.php.html#40"><abbr title="PKP\submission\Genre::setContextId">setContextId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Genre.php.html#50"><abbr title="PKP\submission\Genre::getSequence">getSequence</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Genre.php.html#60"><abbr title="PKP\submission\Genre::setSequence">setSequence</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Genre.php.html#70"><abbr title="PKP\submission\Genre::getKey">getKey</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Genre.php.html#80"><abbr title="PKP\submission\Genre::setKey">setKey</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Genre.php.html#90"><abbr title="PKP\submission\Genre::getEnabled">getEnabled</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Genre.php.html#100"><abbr title="PKP\submission\Genre::setEnabled">setEnabled</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Genre.php.html#111"><abbr title="PKP\submission\Genre::setName">setName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Genre.php.html#123"><abbr title="PKP\submission\Genre::getName">getName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Genre.php.html#133"><abbr title="PKP\submission\Genre::getLocalizedName">getLocalizedName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Genre.php.html#143"><abbr title="PKP\submission\Genre::getCategory">getCategory</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Genre.php.html#153"><abbr title="PKP\submission\Genre::setCategory">setCategory</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Genre.php.html#163"><abbr title="PKP\submission\Genre::getDependent">getDependent</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Genre.php.html#173"><abbr title="PKP\submission\Genre::setDependent">setDependent</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Genre.php.html#183"><abbr title="PKP\submission\Genre::getSupplementary">getSupplementary</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Genre.php.html#193"><abbr title="PKP\submission\Genre::setSupplementary">setSupplementary</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Genre.php.html#201"><abbr title="PKP\submission\Genre::getRequired">getRequired</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Genre.php.html#209"><abbr title="PKP\submission\Genre::setRequired">setRequired</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Genre.php.html#219"><abbr title="PKP\submission\Genre::isDefault">isDefault</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="GenreDAO.php.html#37"><abbr title="PKP\submission\GenreDAO::getById">getById</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="GenreDAO.php.html#62"><abbr title="PKP\submission\GenreDAO::getEnabledByContextId">getEnabledByContextId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="GenreDAO.php.html#83"><abbr title="PKP\submission\GenreDAO::getByDependenceAndContextId">getByDependenceAndContextId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="GenreDAO.php.html#104"><abbr title="PKP\submission\GenreDAO::getBySupplementaryAndContextId">getBySupplementaryAndContextId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="GenreDAO.php.html#124"><abbr title="PKP\submission\GenreDAO::getPrimaryByContextId">getPrimaryByContextId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="GenreDAO.php.html#144"><abbr title="PKP\submission\GenreDAO::getByContextId">getByContextId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="GenreDAO.php.html#159"><abbr title="PKP\submission\GenreDAO::getRequiredToSubmit">getRequiredToSubmit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="GenreDAO.php.html#178"><abbr title="PKP\submission\GenreDAO::getByKey">getByKey</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="GenreDAO.php.html#198"><abbr title="PKP\submission\GenreDAO::getLocaleFieldNames">getLocaleFieldNames</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="GenreDAO.php.html#208"><abbr title="PKP\submission\GenreDAO::updateLocaleFields">updateLocaleFields</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="GenreDAO.php.html#222"><abbr title="PKP\submission\GenreDAO::newDataObject">newDataObject</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="GenreDAO.php.html#236"><abbr title="PKP\submission\GenreDAO::_fromRow">_fromRow</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="GenreDAO.php.html#263"><abbr title="PKP\submission\GenreDAO::insertObject">insertObject</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="GenreDAO.php.html#291"><abbr title="PKP\submission\GenreDAO::updateObject">updateObject</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="GenreDAO.php.html#322"><abbr title="PKP\submission\GenreDAO::deleteObject">deleteObject</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="GenreDAO.php.html#330"><abbr title="PKP\submission\GenreDAO::deleteById">deleteById</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="GenreDAO.php.html#341"><abbr title="PKP\submission\GenreDAO::deleteByContextId">deleteByContextId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="GenreDAO.php.html#358"><abbr title="PKP\submission\GenreDAO::installDefaults">installDefaults</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="GenreDAO.php.html#400"><abbr title="PKP\submission\GenreDAO::getDefaultKeys">getDefaultKeys</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="GenreDAO.php.html#422"><abbr title="PKP\submission\GenreDAO::keyExists">keyExists</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="GenreDAO.php.html#441"><abbr title="PKP\submission\GenreDAO::deleteSettingsByLocale">deleteSettingsByLocale</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPSubmission.php.html#56"><abbr title="PKP\submission\PKPSubmission::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPSubmission.php.html#70"><abbr title="PKP\submission\PKPSubmission::getBestId">getBestId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPSubmission.php.html#84"><abbr title="PKP\submission\PKPSubmission::getCurrentPublication">getCurrentPublication</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPSubmission.php.html#105"><abbr title="PKP\submission\PKPSubmission::getOriginalPublication">getOriginalPublication</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPSubmission.php.html#123"><abbr title="PKP\submission\PKPSubmission::getLatestPublication">getLatestPublication</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPSubmission.php.html#142"><abbr title="PKP\submission\PKPSubmission::getPublishedPublications">getPublishedPublications</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPSubmission.php.html#157"><abbr title="PKP\submission\PKPSubmission::stampModified">stampModified</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPSubmission.php.html#165"><abbr title="PKP\submission\PKPSubmission::stampLastActivity">stampLastActivity</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPSubmission.php.html#175"><abbr title="PKP\submission\PKPSubmission::getStatusMap">getStatusMap</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPSubmission.php.html#191"><abbr title="PKP\submission\PKPSubmission::getStatusKey">getStatusKey</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPSubmission.php.html#200"><abbr title="PKP\submission\PKPSubmission::getDAO">getDAO</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPSubmission.php.html#208"><abbr title="PKP\submission\PKPSubmission::getPublicationLanguageNames">getPublicationLanguageNames</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPSubmission.php.html#219"><abbr title="PKP\submission\PKPSubmission::getPublicationLanguages">getPublicationLanguages</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPSubmission.php.html#239"><abbr title="PKP\submission\PKPSubmission::getSectionId">getSectionId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPSubmission.php.html#249"><abbr title="PKP\submission\PKPSubmission::_getContextLicenseFieldValue">_getContextLicenseFieldValue</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPSubmission.php.html#258"><abbr title="PKP\submission\PKPSubmission::getDefaultLocale">getDefaultLocale</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPSubmission.php.html#274"><abbr title="PKP\submission\PKPSubmission::getStoredPubId">getStoredPubId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPSubmission.php.html#288"><abbr title="PKP\submission\PKPSubmission::getUIDisplayString">getUIDisplayString</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Repository.php.html#62"><abbr title="PKP\submission\Repository::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Repository.php.html#70"><abbr title="PKP\submission\Repository::newDataObject">newDataObject</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Repository.php.html#80"><abbr title="PKP\submission\Repository::exists">exists</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Repository.php.html#86"><abbr title="PKP\submission\Repository::get">get</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Repository.php.html#92"><abbr title="PKP\submission\Repository::getCollector">getCollector</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Repository.php.html#101"><abbr title="PKP\submission\Repository::getSchemaMap">getSchemaMap</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Repository.php.html#110"><abbr title="PKP\submission\Repository::getByBestId">getByBestId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Repository.php.html#123"><abbr title="PKP\submission\Repository::getByUrlPath">getByUrlPath</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Repository.php.html#137"><abbr title="PKP\submission\Repository::getByDoi">getByDoi</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Repository.php.html#143"><abbr title="PKP\submission\Repository::getIdsBySetting">getIdsBySetting</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Repository.php.html#156"><abbr title="PKP\submission\Repository::getWorkflowUrlByUserRoles">getWorkflowUrlByUserRoles</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Repository.php.html#265"><abbr title="PKP\submission\Repository::validate">validate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Repository.php.html#355"><abbr title="PKP\submission\Repository::validateSubmit">validateSubmit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Repository.php.html#469"><abbr title="PKP\submission\Repository::canCurrentUserDelete">canCurrentUserDelete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Repository.php.html#496"><abbr title="PKP\submission\Repository::canEditPublication">canEditPublication</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Repository.php.html#520"><abbr title="PKP\submission\Repository::canPreview">canPreview</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Repository.php.html#550"><abbr title="PKP\submission\Repository::add">add</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Repository.php.html#582"><abbr title="PKP\submission\Repository::edit">edit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Repository.php.html#600"><abbr title="PKP\submission\Repository::submit">submit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Repository.php.html#624"><abbr title="PKP\submission\Repository::delete">delete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Repository.php.html#636"><abbr title="PKP\submission\Repository::deleteByContextId">deleteByContextId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Repository.php.html#660"><abbr title="PKP\submission\Repository::updateStatus">updateStatus</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Repository.php.html#689"><abbr title="PKP\submission\Repository::resetPermissions">resetPermissions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Repository.php.html#712"><abbr title="PKP\submission\Repository::getSortSelectOptions">getSortSelectOptions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Repository.php.html#728"><abbr title="PKP\submission\Repository::getDefaultSortOption">getDefaultSortOption</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Repository.php.html#736"><abbr title="PKP\submission\Repository::getUrlApi">getUrlApi</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Repository.php.html#749"><abbr title="PKP\submission\Repository::getUrlAuthorWorkflow">getUrlAuthorWorkflow</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Repository.php.html#764"><abbr title="PKP\submission\Repository::getUrlEditorialWorkflow">getUrlEditorialWorkflow</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Repository.php.html#779"><abbr title="PKP\submission\Repository::getUrlSubmissionWizard">getUrlSubmissionWizard</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Repository.php.html#797"><abbr title="PKP\submission\Repository::getDashboardViews">getDashboardViews</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Repository.php.html#821"><abbr title="PKP\submission\Repository::mapDashboardViews">mapDashboardViews</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Repository.php.html#1064"><abbr title="PKP\submission\Repository::filterViewsByUserRoles">filterViewsByUserRoles</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Repository.php.html#1078"><abbr title="PKP\submission\Repository::setViewsCount">setViewsCount</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Repository.php.html#1113"><abbr title="PKP\submission\Repository::createDois">createDois</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Repository.php.html#1119"><abbr title="PKP\submission\Repository::getSortOption">getSortOption</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Repository.php.html#1129"><abbr title="PKP\submission\Repository::_canUserAccessUnassignedSubmissions">_canUserAccessUnassignedSubmissions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Repository.php.html#1147"><abbr title="PKP\submission\Repository::getStatusByPublications">getStatusByPublications</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Repository.php.html#1183"><abbr title="PKP\submission\Repository::getCurrentPublicationIdByPublications">getCurrentPublicationIdByPublications</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Repository.php.html#1212"><abbr title="PKP\submission\Repository::_roleCanPreview">_roleCanPreview</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Representation.php.html#30"><abbr title="PKP\submission\Representation::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Representation.php.html#43"><abbr title="PKP\submission\Representation::getSequence">getSequence</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Representation.php.html#53"><abbr title="PKP\submission\Representation::setSequence">setSequence</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Representation.php.html#63"><abbr title="PKP\submission\Representation::getLocalizedName">getLocalizedName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Representation.php.html#75"><abbr title="PKP\submission\Representation::getName">getName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Representation.php.html#86"><abbr title="PKP\submission\Representation::setName">setName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Representation.php.html#96"><abbr title="PKP\submission\Representation::getIsApproved">getIsApproved</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Representation.php.html#106"><abbr title="PKP\submission\Representation::setIsApproved">setIsApproved</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Representation.php.html#115"><abbr title="PKP\submission\Representation::getDoi">getDoi</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Representation.php.html#138"><abbr title="PKP\submission\Representation::getStoredPubId">getStoredPubId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Representation.php.html#155"><abbr title="PKP\submission\Representation::setStoredPubId">setStoredPubId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Representation.php.html#165"><abbr title="PKP\submission\Representation::getContextId">getContextId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Representation.php.html#175"><abbr title="PKP\submission\Representation::getDAO">getDAO</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ReviewFilesDAO.php.html#30"><abbr title="PKP\submission\ReviewFilesDAO::grant">grant</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ReviewFilesDAO.php.html#47"><abbr title="PKP\submission\ReviewFilesDAO::revoke">revoke</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ReviewFilesDAO.php.html#60"><abbr title="PKP\submission\ReviewFilesDAO::revokeByReviewId">revokeByReviewId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ReviewFilesDAO.php.html#71"><abbr title="PKP\submission\ReviewFilesDAO::revokeBySubmissionFileId">revokeBySubmissionFileId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ReviewFilesDAO.php.html#87"><abbr title="PKP\submission\ReviewFilesDAO::check">check</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubmissionAgency.php.html#32"><abbr title="PKP\submission\SubmissionAgency::getAgency">getAgency</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubmissionAgency.php.html#43"><abbr title="PKP\submission\SubmissionAgency::setAgency">setAgency</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubmissionAgency.php.html#48"><abbr title="PKP\submission\SubmissionAgency::getLocaleMetadataFieldNames">getLocaleMetadataFieldNames</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubmissionAgencyDAO.php.html#38"><abbr title="PKP\submission\SubmissionAgencyDAO::build">build</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubmissionAgencyDAO.php.html#46"><abbr title="PKP\submission\SubmissionAgencyDAO::getLocaleFieldNames">getLocaleFieldNames</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubmissionAgencyDAO.php.html#60"><abbr title="PKP\submission\SubmissionAgencyDAO::getAgencies">getAgencies</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubmissionAgencyDAO.php.html#84"><abbr title="PKP\submission\SubmissionAgencyDAO::getAllUniqueAgencies">getAllUniqueAgencies</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubmissionAgencyDAO.php.html#103"><abbr title="PKP\submission\SubmissionAgencyDAO::insertAgencies">insertAgencies</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubmissionAgencyEntryDAO.php.html#32"><abbr title="PKP\submission\SubmissionAgencyEntryDAO::newDataObject">newDataObject</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubmissionAgencyEntryDAO.php.html#47"><abbr title="PKP\submission\SubmissionAgencyEntryDAO::getByControlledVocabId">getByControlledVocabId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubmissionComment.php.html#36"><abbr title="PKP\submission\SubmissionComment::getCommentType">getCommentType</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubmissionComment.php.html#46"><abbr title="PKP\submission\SubmissionComment::setCommentType">setCommentType</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubmissionComment.php.html#56"><abbr title="PKP\submission\SubmissionComment::getRoleId">getRoleId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubmissionComment.php.html#66"><abbr title="PKP\submission\SubmissionComment::setRoleId">setRoleId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubmissionComment.php.html#76"><abbr title="PKP\submission\SubmissionComment::getSubmissionId">getSubmissionId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubmissionComment.php.html#86"><abbr title="PKP\submission\SubmissionComment::setSubmissionId">setSubmissionId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubmissionComment.php.html#96"><abbr title="PKP\submission\SubmissionComment::getAssocId">getAssocId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubmissionComment.php.html#106"><abbr title="PKP\submission\SubmissionComment::setAssocId">setAssocId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubmissionComment.php.html#116"><abbr title="PKP\submission\SubmissionComment::getAuthorId">getAuthorId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubmissionComment.php.html#126"><abbr title="PKP\submission\SubmissionComment::setAuthorId">setAuthorId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubmissionComment.php.html#136"><abbr title="PKP\submission\SubmissionComment::getAuthorName">getAuthorName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubmissionComment.php.html#154"><abbr title="PKP\submission\SubmissionComment::getAuthorEmail">getAuthorEmail</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubmissionComment.php.html#172"><abbr title="PKP\submission\SubmissionComment::getCommentTitle">getCommentTitle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubmissionComment.php.html#182"><abbr title="PKP\submission\SubmissionComment::setCommentTitle">setCommentTitle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubmissionComment.php.html#192"><abbr title="PKP\submission\SubmissionComment::getComments">getComments</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubmissionComment.php.html#202"><abbr title="PKP\submission\SubmissionComment::setComments">setComments</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubmissionComment.php.html#212"><abbr title="PKP\submission\SubmissionComment::getDatePosted">getDatePosted</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubmissionComment.php.html#222"><abbr title="PKP\submission\SubmissionComment::setDatePosted">setDatePosted</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubmissionComment.php.html#232"><abbr title="PKP\submission\SubmissionComment::getDateModified">getDateModified</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubmissionComment.php.html#242"><abbr title="PKP\submission\SubmissionComment::setDateModified">setDateModified</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubmissionComment.php.html#252"><abbr title="PKP\submission\SubmissionComment::getViewable">getViewable</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubmissionComment.php.html#262"><abbr title="PKP\submission\SubmissionComment::setViewable">setViewable</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubmissionCommentDAO.php.html#37"><abbr title="PKP\submission\SubmissionCommentDAO::getSubmissionComments">getSubmissionComments</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubmissionCommentDAO.php.html#68"><abbr title="PKP\submission\SubmissionCommentDAO::getByUserId">getByUserId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubmissionCommentDAO.php.html#90"><abbr title="PKP\submission\SubmissionCommentDAO::getReviewerCommentsByReviewerId">getReviewerCommentsByReviewerId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubmissionCommentDAO.php.html#110"><abbr title="PKP\submission\SubmissionCommentDAO::getById">getById</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubmissionCommentDAO.php.html#125"><abbr title="PKP\submission\SubmissionCommentDAO::newDataObject">newDataObject</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubmissionCommentDAO.php.html#139"><abbr title="PKP\submission\SubmissionCommentDAO::_fromRow">_fromRow</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubmissionCommentDAO.php.html#166"><abbr title="PKP\submission\SubmissionCommentDAO::insertObject">insertObject</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubmissionCommentDAO.php.html#198"><abbr title="PKP\submission\SubmissionCommentDAO::deleteObject">deleteObject</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubmissionCommentDAO.php.html#206"><abbr title="PKP\submission\SubmissionCommentDAO::deleteById">deleteById</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubmissionCommentDAO.php.html#218"><abbr title="PKP\submission\SubmissionCommentDAO::deleteBySubmissionId">deleteBySubmissionId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubmissionCommentDAO.php.html#231"><abbr title="PKP\submission\SubmissionCommentDAO::updateObject">updateObject</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubmissionDiscipline.php.html#32"><abbr title="PKP\submission\SubmissionDiscipline::getDiscipline">getDiscipline</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubmissionDiscipline.php.html#43"><abbr title="PKP\submission\SubmissionDiscipline::setDiscipline">setDiscipline</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubmissionDiscipline.php.html#48"><abbr title="PKP\submission\SubmissionDiscipline::getLocaleMetadataFieldNames">getLocaleMetadataFieldNames</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubmissionDisciplineDAO.php.html#39"><abbr title="PKP\submission\SubmissionDisciplineDAO::build">build</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubmissionDisciplineDAO.php.html#47"><abbr title="PKP\submission\SubmissionDisciplineDAO::getLocaleFieldNames">getLocaleFieldNames</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubmissionDisciplineDAO.php.html#61"><abbr title="PKP\submission\SubmissionDisciplineDAO::getDisciplines">getDisciplines</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubmissionDisciplineDAO.php.html#85"><abbr title="PKP\submission\SubmissionDisciplineDAO::getAllUniqueDisciplines">getAllUniqueDisciplines</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubmissionDisciplineDAO.php.html#104"><abbr title="PKP\submission\SubmissionDisciplineDAO::insertDisciplines">insertDisciplines</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubmissionDisciplineEntryDAO.php.html#32"><abbr title="PKP\submission\SubmissionDisciplineEntryDAO::newDataObject">newDataObject</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubmissionDisciplineEntryDAO.php.html#47"><abbr title="PKP\submission\SubmissionDisciplineEntryDAO::getByControlledVocabId">getByControlledVocabId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubmissionKeyword.php.html#32"><abbr title="PKP\submission\SubmissionKeyword::getKeyword">getKeyword</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubmissionKeyword.php.html#43"><abbr title="PKP\submission\SubmissionKeyword::setKeyword">setKeyword</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubmissionKeyword.php.html#48"><abbr title="PKP\submission\SubmissionKeyword::getLocaleMetadataFieldNames">getLocaleMetadataFieldNames</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubmissionKeywordDAO.php.html#38"><abbr title="PKP\submission\SubmissionKeywordDAO::build">build</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubmissionKeywordDAO.php.html#47"><abbr title="PKP\submission\SubmissionKeywordDAO::getLocaleFieldNames">getLocaleFieldNames</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubmissionKeywordDAO.php.html#61"><abbr title="PKP\submission\SubmissionKeywordDAO::getKeywords">getKeywords</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubmissionKeywordDAO.php.html#90"><abbr title="PKP\submission\SubmissionKeywordDAO::getAllUniqueKeywords">getAllUniqueKeywords</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubmissionKeywordDAO.php.html#109"><abbr title="PKP\submission\SubmissionKeywordDAO::insertKeywords">insertKeywords</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubmissionKeywordDAO.php.html#141"><abbr title="PKP\submission\SubmissionKeywordDAO::deleteByPublicationId">deleteByPublicationId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubmissionKeywordEntryDAO.php.html#32"><abbr title="PKP\submission\SubmissionKeywordEntryDAO::newDataObject">newDataObject</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubmissionKeywordEntryDAO.php.html#47"><abbr title="PKP\submission\SubmissionKeywordEntryDAO::getByControlledVocabId">getByControlledVocabId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubmissionLanguage.php.html#33"><abbr title="PKP\submission\SubmissionLanguage::getLanguage">getLanguage</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubmissionLanguage.php.html#44"><abbr title="PKP\submission\SubmissionLanguage::setLanguage">setLanguage</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubmissionLanguage.php.html#52"><abbr title="PKP\submission\SubmissionLanguage::getLocaleMetadataFieldNames">getLocaleMetadataFieldNames</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubmissionLanguageDAO.php.html#39"><abbr title="PKP\submission\SubmissionLanguageDAO::build">build</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubmissionLanguageDAO.php.html#48"><abbr title="PKP\submission\SubmissionLanguageDAO::getLocaleFieldNames">getLocaleFieldNames</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubmissionLanguageDAO.php.html#62"><abbr title="PKP\submission\SubmissionLanguageDAO::getLanguages">getLanguages</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubmissionLanguageDAO.php.html#86"><abbr title="PKP\submission\SubmissionLanguageDAO::getAllUniqueLanguages">getAllUniqueLanguages</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubmissionLanguageDAO.php.html#105"><abbr title="PKP\submission\SubmissionLanguageDAO::insertLanguages">insertLanguages</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubmissionLanguageEntryDAO.php.html#34"><abbr title="PKP\submission\SubmissionLanguageEntryDAO::newDataObject">newDataObject</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubmissionLanguageEntryDAO.php.html#49"><abbr title="PKP\submission\SubmissionLanguageEntryDAO::getByControlledVocabId">getByControlledVocabId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubmissionSubject.php.html#32"><abbr title="PKP\submission\SubmissionSubject::getSubject">getSubject</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubmissionSubject.php.html#43"><abbr title="PKP\submission\SubmissionSubject::setSubject">setSubject</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubmissionSubject.php.html#51"><abbr title="PKP\submission\SubmissionSubject::getLocaleMetadataFieldNames">getLocaleMetadataFieldNames</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubmissionSubjectDAO.php.html#38"><abbr title="PKP\submission\SubmissionSubjectDAO::build">build</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubmissionSubjectDAO.php.html#47"><abbr title="PKP\submission\SubmissionSubjectDAO::getLocaleFieldNames">getLocaleFieldNames</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubmissionSubjectDAO.php.html#61"><abbr title="PKP\submission\SubmissionSubjectDAO::getSubjects">getSubjects</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubmissionSubjectDAO.php.html#86"><abbr title="PKP\submission\SubmissionSubjectDAO::getAllUniqueSubjects">getAllUniqueSubjects</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubmissionSubjectDAO.php.html#105"><abbr title="PKP\submission\SubmissionSubjectDAO::insertSubjects">insertSubjects</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubmissionSubjectEntryDAO.php.html#32"><abbr title="PKP\submission\SubmissionSubjectEntryDAO::newDataObject">newDataObject</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubmissionSubjectEntryDAO.php.html#47"><abbr title="PKP\submission\SubmissionSubjectEntryDAO::getByControlledVocabId">getByControlledVocabId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="action/EditorAction.php.html#49"><abbr title="PKP\submission\action\EditorAction::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="action/EditorAction.php.html#70"><abbr title="PKP\submission\action\EditorAction::addReviewer">addReviewer</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="action/EditorAction.php.html#172"><abbr title="PKP\submission\action\EditorAction::setDueDates">setDueDates</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="action/EditorAction.php.html#219"><abbr title="PKP\submission\action\EditorAction::createMail">createMail</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="maps/Schema.php.html#62"><abbr title="PKP\submission\maps\Schema::getSubmissionsListProps">getSubmissionsListProps</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="maps/Schema.php.html#112"><abbr title="PKP\submission\maps\Schema::map">map</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="maps/Schema.php.html#139"><abbr title="PKP\submission\maps\Schema::summarize">summarize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="maps/Schema.php.html#164"><abbr title="PKP\submission\maps\Schema::mapMany">mapMany</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="maps/Schema.php.html#198"><abbr title="PKP\submission\maps\Schema::summarizeMany">summarizeMany</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="maps/Schema.php.html#237"><abbr title="PKP\submission\maps\Schema::mapToSubmissionsList">mapToSubmissionsList</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="maps/Schema.php.html#261"><abbr title="PKP\submission\maps\Schema::mapManyToSubmissionsList">mapManyToSubmissionsList</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="maps/Schema.php.html#298"><abbr title="PKP\submission\maps\Schema::mapToStats">mapToStats</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="maps/Schema.php.html#319"><abbr title="PKP\submission\maps\Schema::summarizeWithoutPublication">summarizeWithoutPublication</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="maps/Schema.php.html#336"><abbr title="PKP\submission\maps\Schema::mapByProperties">mapByProperties</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="maps/Schema.php.html#416"><abbr title="PKP\submission\maps\Schema::getPropertyReviewAssignments">getPropertyReviewAssignments</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="maps/Schema.php.html#462"><abbr title="PKP\submission\maps\Schema::getPropertyReviewRounds">getPropertyReviewRounds</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="maps/Schema.php.html#503"><abbr title="PKP\submission\maps\Schema::getPropertyStages">getPropertyStages</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="maps/Schema.php.html#638"><abbr title="PKP\submission\maps\Schema::getPropertyStageAssignments">getPropertyStageAssignments</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="maps/Schema.php.html#646"><abbr title="PKP\submission\maps\Schema::getUserGroup">getUserGroup</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="maps/Schema.php.html#663"><abbr title="PKP\submission\maps\Schema::getStageAssignmentsBySubmissions">getStageAssignmentsBySubmissions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="maps/Schema.php.html#674"><abbr title="PKP\submission\maps\Schema::getReviewRoundsFromSubmission">getReviewRoundsFromSubmission</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="maps/Schema.php.html#686"><abbr title="PKP\submission\maps\Schema::areRecommendationsIn">areRecommendationsIn</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="maps/Schema.php.html#696"><abbr title="PKP\submission\maps\Schema::appSpecificProps">appSpecificProps</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewAssignment/Collector.php.html#52"><abbr title="PKP\submission\reviewAssignment\Collector::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewAssignment/Collector.php.html#58"><abbr title="PKP\submission\reviewAssignment\Collector::getCount">getCount</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewAssignment/Collector.php.html#68"><abbr title="PKP\submission\reviewAssignment\Collector::getIds">getIds</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewAssignment/Collector.php.html#78"><abbr title="PKP\submission\reviewAssignment\Collector::getMany">getMany</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewAssignment/Collector.php.html#86"><abbr title="PKP\submission\reviewAssignment\Collector::filterByContextIds">filterByContextIds</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewAssignment/Collector.php.html#95"><abbr title="PKP\submission\reviewAssignment\Collector::filterBySubmissionIds">filterBySubmissionIds</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewAssignment/Collector.php.html#106"><abbr title="PKP\submission\reviewAssignment\Collector::filterByIsIncomplete">filterByIsIncomplete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewAssignment/Collector.php.html#115"><abbr title="PKP\submission\reviewAssignment\Collector::filterByIsArchived">filterByIsArchived</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewAssignment/Collector.php.html#124"><abbr title="PKP\submission\reviewAssignment\Collector::filterByIsOverdue">filterByIsOverdue</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewAssignment/Collector.php.html#133"><abbr title="PKP\submission\reviewAssignment\Collector::filterByReviewRoundIds">filterByReviewRoundIds</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewAssignment/Collector.php.html#139"><abbr title="PKP\submission\reviewAssignment\Collector::filterByReviewerIds">filterByReviewerIds</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewAssignment/Collector.php.html#145"><abbr title="PKP\submission\reviewAssignment\Collector::filterByLastReviewRound">filterByLastReviewRound</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewAssignment/Collector.php.html#154"><abbr title="PKP\submission\reviewAssignment\Collector::filterByReviewMethods">filterByReviewMethods</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewAssignment/Collector.php.html#163"><abbr title="PKP\submission\reviewAssignment\Collector::filterByStageId">filterByStageId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewAssignment/Collector.php.html#169"><abbr title="PKP\submission\reviewAssignment\Collector::filterByReviewFormIds">filterByReviewFormIds</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewAssignment/Collector.php.html#178"><abbr title="PKP\submission\reviewAssignment\Collector::limit">limit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewAssignment/Collector.php.html#188"><abbr title="PKP\submission\reviewAssignment\Collector::offset">offset</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewAssignment/Collector.php.html#197"><abbr title="PKP\submission\reviewAssignment\Collector::orderByContextId">orderByContextId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewAssignment/Collector.php.html#207"><abbr title="PKP\submission\reviewAssignment\Collector::orderBySubmissionId">orderBySubmissionId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewAssignment/Collector.php.html#217"><abbr title="PKP\submission\reviewAssignment\Collector::getQueryBuilder">getQueryBuilder</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewAssignment/Collector.php.html#370"><abbr title="PKP\submission\reviewAssignment\Collector::getViewsCountBuilder">getViewsCountBuilder</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewAssignment/DAO.php.html#74"><abbr title="PKP\submission\reviewAssignment\DAO::newDataObject">newDataObject</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewAssignment/DAO.php.html#82"><abbr title="PKP\submission\reviewAssignment\DAO::exists">exists</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewAssignment/DAO.php.html#93"><abbr title="PKP\submission\reviewAssignment\DAO::get">get</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewAssignment/DAO.php.html#106"><abbr title="PKP\submission\reviewAssignment\DAO::getCount">getCount</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewAssignment/DAO.php.html#119"><abbr title="PKP\submission\reviewAssignment\DAO::getIds">getIds</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewAssignment/DAO.php.html#131"><abbr title="PKP\submission\reviewAssignment\DAO::getMany">getMany</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewAssignment/DAO.php.html#147"><abbr title="PKP\submission\reviewAssignment\DAO::fromRow">fromRow</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewAssignment/DAO.php.html#161"><abbr title="PKP\submission\reviewAssignment\DAO::insert">insert</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewAssignment/DAO.php.html#169"><abbr title="PKP\submission\reviewAssignment\DAO::update">update</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewAssignment/DAO.php.html#177"><abbr title="PKP\submission\reviewAssignment\DAO::delete">delete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewAssignment/DAO.php.html#187"><abbr title="PKP\submission\reviewAssignment\DAO::getExternalReviewerIdsByCompletedYear">getExternalReviewerIdsByCompletedYear</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewAssignment/Repository.php.html#44"><abbr title="PKP\submission\reviewAssignment\Repository::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewAssignment/Repository.php.html#52"><abbr title="PKP\submission\reviewAssignment\Repository::newDataObject">newDataObject</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewAssignment/Repository.php.html#62"><abbr title="PKP\submission\reviewAssignment\Repository::get">get</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewAssignment/Repository.php.html#68"><abbr title="PKP\submission\reviewAssignment\Repository::exists">exists</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewAssignment/Repository.php.html#74"><abbr title="PKP\submission\reviewAssignment\Repository::getCollector">getCollector</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewAssignment/Repository.php.html#83"><abbr title="PKP\submission\reviewAssignment\Repository::getSchemaMap">getSchemaMap</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewAssignment/Repository.php.html#99"><abbr title="PKP\submission\reviewAssignment\Repository::validate">validate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewAssignment/Repository.php.html#168"><abbr title="PKP\submission\reviewAssignment\Repository::add">add</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewAssignment/Repository.php.html#183"><abbr title="PKP\submission\reviewAssignment\Repository::edit">edit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewAssignment/Repository.php.html#200"><abbr title="PKP\submission\reviewAssignment\Repository::delete">delete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewAssignment/Repository.php.html#222"><abbr title="PKP\submission\reviewAssignment\Repository::deleteMany">deleteMany</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewAssignment/Repository.php.html#232"><abbr title="PKP\submission\reviewAssignment\Repository::deleteByContextId">deleteByContextId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewAssignment/Repository.php.html#251"><abbr title="PKP\submission\reviewAssignment\Repository::getReviewMethodsTranslationKeys">getReviewMethodsTranslationKeys</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewAssignment/Repository.php.html#264"><abbr title="PKP\submission\reviewAssignment\Repository::updateReviewRoundStatus">updateReviewRoundStatus</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewAssignment/Repository.php.html#287"><abbr title="PKP\submission\reviewAssignment\Repository::getExternalReviewerIdsByCompletedYear">getExternalReviewerIdsByCompletedYear</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewAssignment/ReviewAssignment.php.html#77"><abbr title="PKP\submission\reviewAssignment\ReviewAssignment::getSubmissionId">getSubmissionId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewAssignment/ReviewAssignment.php.html#87"><abbr title="PKP\submission\reviewAssignment\ReviewAssignment::setSubmissionId">setSubmissionId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewAssignment/ReviewAssignment.php.html#97"><abbr title="PKP\submission\reviewAssignment\ReviewAssignment::getReviewerId">getReviewerId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewAssignment/ReviewAssignment.php.html#107"><abbr title="PKP\submission\reviewAssignment\ReviewAssignment::setReviewerId">setReviewerId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewAssignment/ReviewAssignment.php.html#117"><abbr title="PKP\submission\reviewAssignment\ReviewAssignment::getReviewerFullName">getReviewerFullName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewAssignment/ReviewAssignment.php.html#127"><abbr title="PKP\submission\reviewAssignment\ReviewAssignment::setReviewerFullName">setReviewerFullName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewAssignment/ReviewAssignment.php.html#137"><abbr title="PKP\submission\reviewAssignment\ReviewAssignment::getComments">getComments</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewAssignment/ReviewAssignment.php.html#147"><abbr title="PKP\submission\reviewAssignment\ReviewAssignment::setComments">setComments</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewAssignment/ReviewAssignment.php.html#157"><abbr title="PKP\submission\reviewAssignment\ReviewAssignment::getCompetingInterests">getCompetingInterests</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewAssignment/ReviewAssignment.php.html#167"><abbr title="PKP\submission\reviewAssignment\ReviewAssignment::setCompetingInterests">setCompetingInterests</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewAssignment/ReviewAssignment.php.html#177"><abbr title="PKP\submission\reviewAssignment\ReviewAssignment::getStageId">getStageId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewAssignment/ReviewAssignment.php.html#187"><abbr title="PKP\submission\reviewAssignment\ReviewAssignment::setStageId">setStageId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewAssignment/ReviewAssignment.php.html#197"><abbr title="PKP\submission\reviewAssignment\ReviewAssignment::getReviewMethod">getReviewMethod</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewAssignment/ReviewAssignment.php.html#207"><abbr title="PKP\submission\reviewAssignment\ReviewAssignment::setReviewMethod">setReviewMethod</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewAssignment/ReviewAssignment.php.html#217"><abbr title="PKP\submission\reviewAssignment\ReviewAssignment::getReviewRoundId">getReviewRoundId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewAssignment/ReviewAssignment.php.html#227"><abbr title="PKP\submission\reviewAssignment\ReviewAssignment::setReviewRoundId">setReviewRoundId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewAssignment/ReviewAssignment.php.html#237"><abbr title="PKP\submission\reviewAssignment\ReviewAssignment::getRecommendation">getRecommendation</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewAssignment/ReviewAssignment.php.html#247"><abbr title="PKP\submission\reviewAssignment\ReviewAssignment::setRecommendation">setRecommendation</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewAssignment/ReviewAssignment.php.html#257"><abbr title="PKP\submission\reviewAssignment\ReviewAssignment::getConsidered">getConsidered</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewAssignment/ReviewAssignment.php.html#267"><abbr title="PKP\submission\reviewAssignment\ReviewAssignment::setConsidered">setConsidered</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewAssignment/ReviewAssignment.php.html#277"><abbr title="PKP\submission\reviewAssignment\ReviewAssignment::getDateRated">getDateRated</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewAssignment/ReviewAssignment.php.html#287"><abbr title="PKP\submission\reviewAssignment\ReviewAssignment::setDateRated">setDateRated</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewAssignment/ReviewAssignment.php.html#297"><abbr title="PKP\submission\reviewAssignment\ReviewAssignment::getLastModified">getLastModified</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewAssignment/ReviewAssignment.php.html#307"><abbr title="PKP\submission\reviewAssignment\ReviewAssignment::setLastModified">setLastModified</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewAssignment/ReviewAssignment.php.html#315"><abbr title="PKP\submission\reviewAssignment\ReviewAssignment::stampModified">stampModified</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewAssignment/ReviewAssignment.php.html#325"><abbr title="PKP\submission\reviewAssignment\ReviewAssignment::getDateAssigned">getDateAssigned</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewAssignment/ReviewAssignment.php.html#335"><abbr title="PKP\submission\reviewAssignment\ReviewAssignment::setDateAssigned">setDateAssigned</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewAssignment/ReviewAssignment.php.html#345"><abbr title="PKP\submission\reviewAssignment\ReviewAssignment::getDateNotified">getDateNotified</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewAssignment/ReviewAssignment.php.html#355"><abbr title="PKP\submission\reviewAssignment\ReviewAssignment::setDateNotified">setDateNotified</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewAssignment/ReviewAssignment.php.html#365"><abbr title="PKP\submission\reviewAssignment\ReviewAssignment::getDateConfirmed">getDateConfirmed</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewAssignment/ReviewAssignment.php.html#375"><abbr title="PKP\submission\reviewAssignment\ReviewAssignment::setDateConfirmed">setDateConfirmed</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewAssignment/ReviewAssignment.php.html#385"><abbr title="PKP\submission\reviewAssignment\ReviewAssignment::getDateCompleted">getDateCompleted</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewAssignment/ReviewAssignment.php.html#395"><abbr title="PKP\submission\reviewAssignment\ReviewAssignment::setDateCompleted">setDateCompleted</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewAssignment/ReviewAssignment.php.html#405"><abbr title="PKP\submission\reviewAssignment\ReviewAssignment::getDateAcknowledged">getDateAcknowledged</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewAssignment/ReviewAssignment.php.html#415"><abbr title="PKP\submission\reviewAssignment\ReviewAssignment::setDateAcknowledged">setDateAcknowledged</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewAssignment/ReviewAssignment.php.html#425"><abbr title="PKP\submission\reviewAssignment\ReviewAssignment::getDateReminded">getDateReminded</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewAssignment/ReviewAssignment.php.html#435"><abbr title="PKP\submission\reviewAssignment\ReviewAssignment::setDateReminded">setDateReminded</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewAssignment/ReviewAssignment.php.html#445"><abbr title="PKP\submission\reviewAssignment\ReviewAssignment::getDateDue">getDateDue</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewAssignment/ReviewAssignment.php.html#455"><abbr title="PKP\submission\reviewAssignment\ReviewAssignment::setDateDue">setDateDue</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewAssignment/ReviewAssignment.php.html#465"><abbr title="PKP\submission\reviewAssignment\ReviewAssignment::getDateResponseDue">getDateResponseDue</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewAssignment/ReviewAssignment.php.html#475"><abbr title="PKP\submission\reviewAssignment\ReviewAssignment::setDateResponseDue">setDateResponseDue</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewAssignment/ReviewAssignment.php.html#485"><abbr title="PKP\submission\reviewAssignment\ReviewAssignment::getDeclined">getDeclined</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewAssignment/ReviewAssignment.php.html#495"><abbr title="PKP\submission\reviewAssignment\ReviewAssignment::setDeclined">setDeclined</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewAssignment/ReviewAssignment.php.html#505"><abbr title="PKP\submission\reviewAssignment\ReviewAssignment::getCancelled">getCancelled</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewAssignment/ReviewAssignment.php.html#515"><abbr title="PKP\submission\reviewAssignment\ReviewAssignment::setCancelled">setCancelled</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewAssignment/ReviewAssignment.php.html#525"><abbr title="PKP\submission\reviewAssignment\ReviewAssignment::getRequestResent">getRequestResent</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewAssignment/ReviewAssignment.php.html#535"><abbr title="PKP\submission\reviewAssignment\ReviewAssignment::setRequestResent">setRequestResent</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewAssignment/ReviewAssignment.php.html#545"><abbr title="PKP\submission\reviewAssignment\ReviewAssignment::getReminderWasAutomatic">getReminderWasAutomatic</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewAssignment/ReviewAssignment.php.html#555"><abbr title="PKP\submission\reviewAssignment\ReviewAssignment::setReminderWasAutomatic">setReminderWasAutomatic</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewAssignment/ReviewAssignment.php.html#565"><abbr title="PKP\submission\reviewAssignment\ReviewAssignment::getQuality">getQuality</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewAssignment/ReviewAssignment.php.html#575"><abbr title="PKP\submission\reviewAssignment\ReviewAssignment::setQuality">setQuality</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewAssignment/ReviewAssignment.php.html#585"><abbr title="PKP\submission\reviewAssignment\ReviewAssignment::getRound">getRound</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewAssignment/ReviewAssignment.php.html#595"><abbr title="PKP\submission\reviewAssignment\ReviewAssignment::setRound">setRound</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewAssignment/ReviewAssignment.php.html#605"><abbr title="PKP\submission\reviewAssignment\ReviewAssignment::getStep">getStep</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewAssignment/ReviewAssignment.php.html#615"><abbr title="PKP\submission\reviewAssignment\ReviewAssignment::setStep">setStep</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewAssignment/ReviewAssignment.php.html#625"><abbr title="PKP\submission\reviewAssignment\ReviewAssignment::getReviewFormId">getReviewFormId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewAssignment/ReviewAssignment.php.html#635"><abbr title="PKP\submission\reviewAssignment\ReviewAssignment::setReviewFormId">setReviewFormId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewAssignment/ReviewAssignment.php.html#645"><abbr title="PKP\submission\reviewAssignment\ReviewAssignment::getStatus">getStatus</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewAssignment/ReviewAssignment.php.html#703"><abbr title="PKP\submission\reviewAssignment\ReviewAssignment::isRead">isRead</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewAssignment/ReviewAssignment.php.html#720"><abbr title="PKP\submission\reviewAssignment\ReviewAssignment::getStatusKey">getStatusKey</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewAssignment/ReviewAssignment.php.html#762"><abbr title="PKP\submission\reviewAssignment\ReviewAssignment::getReviewMethodKey">getReviewMethodKey</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewAssignment/ReviewAssignment.php.html#791"><abbr title="PKP\submission\reviewAssignment\ReviewAssignment::getWeeksDue">getWeeksDue</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewAssignment/ReviewAssignment.php.html#806"><abbr title="PKP\submission\reviewAssignment\ReviewAssignment::getReviewerRecommendationOptions">getReviewerRecommendationOptions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewAssignment/ReviewAssignment.php.html#823"><abbr title="PKP\submission\reviewAssignment\ReviewAssignment::getLocalizedRecommendation">getLocalizedRecommendation</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewAssignment/ReviewAssignment.php.html#836"><abbr title="PKP\submission\reviewAssignment\ReviewAssignment::canResendReviewRequest">canResendReviewRequest</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewAssignment/maps/Schema.php.html#33"><abbr title="PKP\submission\reviewAssignment\maps\Schema::map">map</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewAssignment/maps/Schema.php.html#43"><abbr title="PKP\submission\reviewAssignment\maps\Schema::summarize">summarize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewAssignment/maps/Schema.php.html#53"><abbr title="PKP\submission\reviewAssignment\maps\Schema::mapMany">mapMany</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewAssignment/maps/Schema.php.html#78"><abbr title="PKP\submission\reviewAssignment\maps\Schema::summarizeMany">summarizeMany</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewAssignment/maps/Schema.php.html#101"><abbr title="PKP\submission\reviewAssignment\maps\Schema::mapByProperties">mapByProperties</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewRound/ReviewRound.php.html#73"><abbr title="PKP\submission\reviewRound\ReviewRound::getSubmissionId">getSubmissionId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewRound/ReviewRound.php.html#83"><abbr title="PKP\submission\reviewRound\ReviewRound::setSubmissionId">setSubmissionId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewRound/ReviewRound.php.html#93"><abbr title="PKP\submission\reviewRound\ReviewRound::getStageId">getStageId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewRound/ReviewRound.php.html#103"><abbr title="PKP\submission\reviewRound\ReviewRound::setStageId">setStageId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewRound/ReviewRound.php.html#113"><abbr title="PKP\submission\reviewRound\ReviewRound::getRound">getRound</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewRound/ReviewRound.php.html#121"><abbr title="PKP\submission\reviewRound\ReviewRound::setRound">setRound</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewRound/ReviewRound.php.html#131"><abbr title="PKP\submission\reviewRound\ReviewRound::getStatus">getStatus</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewRound/ReviewRound.php.html#141"><abbr title="PKP\submission\reviewRound\ReviewRound::setStatus">setStatus</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewRound/ReviewRound.php.html#156"><abbr title="PKP\submission\reviewRound\ReviewRound::determineStatus">determineStatus</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewRound/ReviewRound.php.html#299"><abbr title="PKP\submission\reviewRound\ReviewRound::getStatusKey">getStatusKey</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewRound/ReviewRoundDAO.php.html#41"><abbr title="PKP\submission\reviewRound\ReviewRoundDAO::build">build</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewRound/ReviewRoundDAO.php.html#75"><abbr title="PKP\submission\reviewRound\ReviewRoundDAO::newDataObject">newDataObject</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewRound/ReviewRoundDAO.php.html#87"><abbr title="PKP\submission\reviewRound\ReviewRoundDAO::insertObject">insertObject</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewRound/ReviewRoundDAO.php.html#111"><abbr title="PKP\submission\reviewRound\ReviewRoundDAO::updateObject">updateObject</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewRound/ReviewRoundDAO.php.html#138"><abbr title="PKP\submission\reviewRound\ReviewRoundDAO::getReviewRound">getReviewRound</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewRound/ReviewRoundDAO.php.html#155"><abbr title="PKP\submission\reviewRound\ReviewRoundDAO::getById">getById</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewRound/ReviewRoundDAO.php.html#172"><abbr title="PKP\submission\reviewRound\ReviewRoundDAO::getBySubmissionFileId">getBySubmissionFileId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewRound/ReviewRoundDAO.php.html#195"><abbr title="PKP\submission\reviewRound\ReviewRoundDAO::getBySubmissionId">getBySubmissionId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewRound/ReviewRoundDAO.php.html#215"><abbr title="PKP\submission\reviewRound\ReviewRoundDAO::getCurrentRoundBySubmissionId">getCurrentRoundBySubmissionId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewRound/ReviewRoundDAO.php.html#240"><abbr title="PKP\submission\reviewRound\ReviewRoundDAO::getLastReviewRoundBySubmissionId">getLastReviewRoundBySubmissionId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewRound/ReviewRoundDAO.php.html#262"><abbr title="PKP\submission\reviewRound\ReviewRoundDAO::submissionHasReviewRound">submissionHasReviewRound</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewRound/ReviewRoundDAO.php.html#286"><abbr title="PKP\submission\reviewRound\ReviewRoundDAO::updateStatus">updateStatus</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewRound/ReviewRoundDAO.php.html#311"><abbr title="PKP\submission\reviewRound\ReviewRoundDAO::deleteBySubmissionId">deleteBySubmissionId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewRound/ReviewRoundDAO.php.html#323"><abbr title="PKP\submission\reviewRound\ReviewRoundDAO::deleteByContextId">deleteByContextId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewRound/ReviewRoundDAO.php.html#336"><abbr title="PKP\submission\reviewRound\ReviewRoundDAO::deleteObject">deleteObject</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewRound/ReviewRoundDAO.php.html#344"><abbr title="PKP\submission\reviewRound\ReviewRoundDAO::deleteById">deleteById</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewRound/ReviewRoundDAO.php.html#366"><abbr title="PKP\submission\reviewRound\ReviewRoundDAO::_fromRow">_fromRow</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewRound/ReviewRoundDAO.php.html#390"><abbr title="PKP\submission\reviewRound\ReviewRoundDAO::getReviewRoundCountBySubmissionId">getReviewRoundCountBySubmissionId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/ReviewerAction.php.html#51"><abbr title="PKP\submission\reviewer\ReviewerAction::confirmReview">confirmReview</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/ReviewerAction.php.html#117"><abbr title="PKP\submission\reviewer\ReviewerAction::getResponseEmail">getResponseEmail</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/form/PKPReviewerReviewStep1Form.php.html#35"><abbr title="PKP\submission\reviewer\form\PKPReviewerReviewStep1Form::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/form/PKPReviewerReviewStep1Form.php.html#53"><abbr title="PKP\submission\reviewer\form\PKPReviewerReviewStep1Form::fetch">fetch</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/form/PKPReviewerReviewStep1Form.php.html#118"><abbr title="PKP\submission\reviewer\form\PKPReviewerReviewStep1Form::readInputData">readInputData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/form/PKPReviewerReviewStep1Form.php.html#126"><abbr title="PKP\submission\reviewer\form\PKPReviewerReviewStep1Form::execute">execute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/form/PKPReviewerReviewStep2Form.php.html#29"><abbr title="PKP\submission\reviewer\form\PKPReviewerReviewStep2Form::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/form/PKPReviewerReviewStep2Form.php.html#43"><abbr title="PKP\submission\reviewer\form\PKPReviewerReviewStep2Form::fetch">fetch</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/form/PKPReviewerReviewStep2Form.php.html#62"><abbr title="PKP\submission\reviewer\form\PKPReviewerReviewStep2Form::execute">execute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/form/PKPReviewerReviewStep3Form.php.html#51"><abbr title="PKP\submission\reviewer\form\PKPReviewerReviewStep3Form::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/form/PKPReviewerReviewStep3Form.php.html#74"><abbr title="PKP\submission\reviewer\form\PKPReviewerReviewStep3Form::initData">initData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/form/PKPReviewerReviewStep3Form.php.html#98"><abbr title="PKP\submission\reviewer\form\PKPReviewerReviewStep3Form::readInputData">readInputData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/form/PKPReviewerReviewStep3Form.php.html#110"><abbr title="PKP\submission\reviewer\form\PKPReviewerReviewStep3Form::fetch">fetch</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/form/PKPReviewerReviewStep3Form.php.html#150"><abbr title="PKP\submission\reviewer\form\PKPReviewerReviewStep3Form::execute">execute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/form/PKPReviewerReviewStep3Form.php.html#267"><abbr title="PKP\submission\reviewer\form\PKPReviewerReviewStep3Form::saveForLater">saveForLater</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/form/PKPReviewerReviewStep3Form.php.html#287"><abbr title="PKP\submission\reviewer\form\PKPReviewerReviewStep3Form::saveReviewForm">saveReviewForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/form/ReviewerReviewForm.php.html#42"><abbr title="PKP\submission\reviewer\form\ReviewerReviewForm::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/form/ReviewerReviewForm.php.html#60"><abbr title="PKP\submission\reviewer\form\ReviewerReviewForm::getReviewSubmission">getReviewSubmission</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/form/ReviewerReviewForm.php.html#68"><abbr title="PKP\submission\reviewer\form\ReviewerReviewForm::getReviewAssignment">getReviewAssignment</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/form/ReviewerReviewForm.php.html#76"><abbr title="PKP\submission\reviewer\form\ReviewerReviewForm::getStep">getStep</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/form/ReviewerReviewForm.php.html#90"><abbr title="PKP\submission\reviewer\form\ReviewerReviewForm::fetch">fetch</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="reviewer/form/ReviewerReviewForm.php.html#112"><abbr title="PKP\submission\reviewer\form\ReviewerReviewForm::updateReviewStepAndSaveSubmission">updateReviewStepAndSaveSubmission</abbr></a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Repository.php.html#821"><abbr title="PKP\submission\Repository::mapDashboardViews">mapDashboardViews</abbr></a></td><td class="text-right">1560</td></tr>
+       <tr><td><a href="reviewRound/ReviewRound.php.html#156"><abbr title="PKP\submission\reviewRound\ReviewRound::determineStatus">determineStatus</abbr></a></td><td class="text-right">930</td></tr>
+       <tr><td><a href="Collector.php.html#358"><abbr title="PKP\submission\Collector::getQueryBuilder">getQueryBuilder</abbr></a></td><td class="text-right">756</td></tr>
+       <tr><td><a href="maps/Schema.php.html#336"><abbr title="PKP\submission\maps\Schema::mapByProperties">mapByProperties</abbr></a></td><td class="text-right">650</td></tr>
+       <tr><td><a href="reviewRound/ReviewRound.php.html#299"><abbr title="PKP\submission\reviewRound\ReviewRound::getStatusKey">getStatusKey</abbr></a></td><td class="text-right">420</td></tr>
+       <tr><td><a href="Repository.php.html#355"><abbr title="PKP\submission\Repository::validateSubmit">validateSubmit</abbr></a></td><td class="text-right">380</td></tr>
+       <tr><td><a href="reviewer/form/PKPReviewerReviewStep3Form.php.html#287"><abbr title="PKP\submission\reviewer\form\PKPReviewerReviewStep3Form::saveReviewForm">saveReviewForm</abbr></a></td><td class="text-right">380</td></tr>
+       <tr><td><a href="Repository.php.html#265"><abbr title="PKP\submission\Repository::validate">validate</abbr></a></td><td class="text-right">342</td></tr>
+       <tr><td><a href="maps/Schema.php.html#503"><abbr title="PKP\submission\maps\Schema::getPropertyStages">getPropertyStages</abbr></a></td><td class="text-right">306</td></tr>
+       <tr><td><a href="reviewAssignment/ReviewAssignment.php.html#645"><abbr title="PKP\submission\reviewAssignment\ReviewAssignment::getStatus">getStatus</abbr></a></td><td class="text-right">306</td></tr>
+       <tr><td><a href="Repository.php.html#156"><abbr title="PKP\submission\Repository::getWorkflowUrlByUserRoles">getWorkflowUrlByUserRoles</abbr></a></td><td class="text-right">240</td></tr>
+       <tr><td><a href="maps/Schema.php.html#416"><abbr title="PKP\submission\maps\Schema::getPropertyReviewAssignments">getPropertyReviewAssignments</abbr></a></td><td class="text-right">182</td></tr>
+       <tr><td><a href="reviewAssignment/ReviewAssignment.php.html#720"><abbr title="PKP\submission\reviewAssignment\ReviewAssignment::getStatusKey">getStatusKey</abbr></a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="reviewAssignment/Repository.php.html#99"><abbr title="PKP\submission\reviewAssignment\Repository::validate">validate</abbr></a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="reviewer/ReviewerAction.php.html#51"><abbr title="PKP\submission\reviewer\ReviewerAction::confirmReview">confirmReview</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="Repository.php.html#1147"><abbr title="PKP\submission\Repository::getStatusByPublications">getStatusByPublications</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="SubmissionAgencyDAO.php.html#103"><abbr title="PKP\submission\SubmissionAgencyDAO::insertAgencies">insertAgencies</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="SubmissionDisciplineDAO.php.html#104"><abbr title="PKP\submission\SubmissionDisciplineDAO::insertDisciplines">insertDisciplines</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="SubmissionKeywordDAO.php.html#61"><abbr title="PKP\submission\SubmissionKeywordDAO::getKeywords">getKeywords</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="SubmissionLanguageDAO.php.html#105"><abbr title="PKP\submission\SubmissionLanguageDAO::insertLanguages">insertLanguages</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="SubmissionSubjectDAO.php.html#105"><abbr title="PKP\submission\SubmissionSubjectDAO::insertSubjects">insertSubjects</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="action/EditorAction.php.html#70"><abbr title="PKP\submission\action\EditorAction::addReviewer">addReviewer</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="reviewAssignment/maps/Schema.php.html#101"><abbr title="PKP\submission\reviewAssignment\maps\Schema::mapByProperties">mapByProperties</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="reviewer/ReviewerAction.php.html#117"><abbr title="PKP\submission\reviewer\ReviewerAction::getResponseEmail">getResponseEmail</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="reviewer/form/PKPReviewerReviewStep3Form.php.html#150"><abbr title="PKP\submission\reviewer\form\PKPReviewerReviewStep3Form::execute">execute</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="GenreDAO.php.html#358"><abbr title="PKP\submission\GenreDAO::installDefaults">installDefaults</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="Repository.php.html#550"><abbr title="PKP\submission\Repository::add">add</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="Repository.php.html#1078"><abbr title="PKP\submission\Repository::setViewsCount">setViewsCount</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="Repository.php.html#1183"><abbr title="PKP\submission\Repository::getCurrentPublicationIdByPublications">getCurrentPublicationIdByPublications</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="SubmissionKeywordDAO.php.html#109"><abbr title="PKP\submission\SubmissionKeywordDAO::insertKeywords">insertKeywords</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="GenreDAO.php.html#291"><abbr title="PKP\submission\GenreDAO::updateObject">updateObject</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="PKPSubmission.php.html#84"><abbr title="PKP\submission\PKPSubmission::getCurrentPublication">getCurrentPublication</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Repository.php.html#469"><abbr title="PKP\submission\Repository::canCurrentUserDelete">canCurrentUserDelete</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Repository.php.html#520"><abbr title="PKP\submission\Repository::canPreview">canPreview</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="SubmissionAgencyDAO.php.html#60"><abbr title="PKP\submission\SubmissionAgencyDAO::getAgencies">getAgencies</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="SubmissionCommentDAO.php.html#37"><abbr title="PKP\submission\SubmissionCommentDAO::getSubmissionComments">getSubmissionComments</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="SubmissionDisciplineDAO.php.html#61"><abbr title="PKP\submission\SubmissionDisciplineDAO::getDisciplines">getDisciplines</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="SubmissionLanguageDAO.php.html#62"><abbr title="PKP\submission\SubmissionLanguageDAO::getLanguages">getLanguages</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="SubmissionSubjectDAO.php.html#61"><abbr title="PKP\submission\SubmissionSubjectDAO::getSubjects">getSubjects</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="action/EditorAction.php.html#172"><abbr title="PKP\submission\action\EditorAction::setDueDates">setDueDates</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="reviewAssignment/ReviewAssignment.php.html#762"><abbr title="PKP\submission\reviewAssignment\ReviewAssignment::getReviewMethodKey">getReviewMethodKey</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="reviewRound/ReviewRoundDAO.php.html#41"><abbr title="PKP\submission\reviewRound\ReviewRoundDAO::build">build</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Collector.php.html#670"><abbr title="PKP\submission\Collector::buildReviewStageQueries">buildReviewStageQueries</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="DAO.php.html#165"><abbr title="PKP\submission\DAO::getByPubId">getByPubId</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="GenreDAO.php.html#37"><abbr title="PKP\submission\GenreDAO::getById">getById</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="GenreDAO.php.html#178"><abbr title="PKP\submission\GenreDAO::getByKey">getByKey</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="GenreDAO.php.html#263"><abbr title="PKP\submission\GenreDAO::insertObject">insertObject</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="GenreDAO.php.html#422"><abbr title="PKP\submission\GenreDAO::keyExists">keyExists</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="PKPSubmission.php.html#105"><abbr title="PKP\submission\PKPSubmission::getOriginalPublication">getOriginalPublication</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="PKPSubmission.php.html#123"><abbr title="PKP\submission\PKPSubmission::getLatestPublication">getLatestPublication</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Repository.php.html#496"><abbr title="PKP\submission\Repository::canEditPublication">canEditPublication</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Repository.php.html#660"><abbr title="PKP\submission\Repository::updateStatus">updateStatus</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Repository.php.html#689"><abbr title="PKP\submission\Repository::resetPermissions">resetPermissions</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Repository.php.html#1212"><abbr title="PKP\submission\Repository::_roleCanPreview">_roleCanPreview</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="reviewRound/ReviewRoundDAO.php.html#215"><abbr title="PKP\submission\reviewRound\ReviewRoundDAO::getCurrentRoundBySubmissionId">getCurrentRoundBySubmissionId</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="reviewRound/ReviewRoundDAO.php.html#240"><abbr title="PKP\submission\reviewRound\ReviewRoundDAO::getLastReviewRoundBySubmissionId">getLastReviewRoundBySubmissionId</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="reviewer/form/PKPReviewerReviewStep3Form.php.html#51"><abbr title="PKP\submission\reviewer\form\PKPReviewerReviewStep3Form::__construct">__construct</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="reviewer/form/PKPReviewerReviewStep3Form.php.html#110"><abbr title="PKP\submission\reviewer\form\PKPReviewerReviewStep3Form::fetch">fetch</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="DAO.php.html#248"><abbr title="PKP\submission\DAO::deleteById">deleteById</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="DashboardView.php.html#66"><abbr title="PKP\submission\DashboardView::getTypes">getTypes</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="DashboardView.php.html#113"><abbr title="PKP\submission\DashboardView::getData">getData</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="GenreDAO.php.html#400"><abbr title="PKP\submission\GenreDAO::getDefaultKeys">getDefaultKeys</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Repository.php.html#797"><abbr title="PKP\submission\Repository::getDashboardViews">getDashboardViews</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Repository.php.html#1129"><abbr title="PKP\submission\Repository::_canUserAccessUnassignedSubmissions">_canUserAccessUnassignedSubmissions</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="SubmissionComment.php.html#136"><abbr title="PKP\submission\SubmissionComment::getAuthorName">getAuthorName</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="SubmissionComment.php.html#154"><abbr title="PKP\submission\SubmissionComment::getAuthorEmail">getAuthorEmail</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="action/EditorAction.php.html#219"><abbr title="PKP\submission\action\EditorAction::createMail">createMail</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="maps/Schema.php.html#646"><abbr title="PKP\submission\maps\Schema::getUserGroup">getUserGroup</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="reviewAssignment/ReviewAssignment.php.html#703"><abbr title="PKP\submission\reviewAssignment\ReviewAssignment::isRead">isRead</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="reviewAssignment/ReviewAssignment.php.html#836"><abbr title="PKP\submission\reviewAssignment\ReviewAssignment::canResendReviewRequest">canResendReviewRequest</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="reviewRound/ReviewRoundDAO.php.html#262"><abbr title="PKP\submission\reviewRound\ReviewRoundDAO::submissionHasReviewRound">submissionHasReviewRound</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="reviewRound/ReviewRoundDAO.php.html#286"><abbr title="PKP\submission\reviewRound\ReviewRoundDAO::updateStatus">updateStatus</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="reviewRound/ReviewRoundDAO.php.html#390"><abbr title="PKP\submission\reviewRound\ReviewRoundDAO::getReviewRoundCountBySubmissionId">getReviewRoundCountBySubmissionId</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="reviewer/form/PKPReviewerReviewStep1Form.php.html#35"><abbr title="PKP\submission\reviewer\form\PKPReviewerReviewStep1Form::__construct">__construct</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="reviewer/form/PKPReviewerReviewStep1Form.php.html#126"><abbr title="PKP\submission\reviewer\form\PKPReviewerReviewStep1Form::execute">execute</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="reviewer/form/PKPReviewerReviewStep2Form.php.html#43"><abbr title="PKP\submission\reviewer\form\PKPReviewerReviewStep2Form::fetch">fetch</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="reviewer/form/PKPReviewerReviewStep3Form.php.html#74"><abbr title="PKP\submission\reviewer\form\PKPReviewerReviewStep3Form::initData">initData</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Collector.php.html#148"><abbr title="PKP\submission\Collector::filterByHasDois">filterByHasDois</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="DAO.php.html#114"><abbr title="PKP\submission\DAO::getMany">getMany</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="DAO.php.html#130"><abbr title="PKP\submission\DAO::getIdByUrlPath">getIdByUrlPath</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="DAO.php.html#192"><abbr title="PKP\submission\DAO::getByDoi">getByDoi</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="GenreDAO.php.html#341"><abbr title="PKP\submission\GenreDAO::deleteByContextId">deleteByContextId</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="PKPSubmission.php.html#70"><abbr title="PKP\submission\PKPSubmission::getBestId">getBestId</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="PKPSubmission.php.html#142"><abbr title="PKP\submission\PKPSubmission::getPublishedPublications">getPublishedPublications</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="PKPSubmission.php.html#208"><abbr title="PKP\submission\PKPSubmission::getPublicationLanguageNames">getPublicationLanguageNames</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="PKPSubmission.php.html#274"><abbr title="PKP\submission\PKPSubmission::getStoredPubId">getStoredPubId</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Repository.php.html#70"><abbr title="PKP\submission\Repository::newDataObject">newDataObject</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Repository.php.html#110"><abbr title="PKP\submission\Repository::getByBestId">getByBestId</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Repository.php.html#123"><abbr title="PKP\submission\Repository::getByUrlPath">getByUrlPath</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Repository.php.html#600"><abbr title="PKP\submission\Repository::submit">submit</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Repository.php.html#636"><abbr title="PKP\submission\Repository::deleteByContextId">deleteByContextId</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Repository.php.html#736"><abbr title="PKP\submission\Repository::getUrlApi">getUrlApi</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Repository.php.html#779"><abbr title="PKP\submission\Repository::getUrlSubmissionWizard">getUrlSubmissionWizard</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Repository.php.html#1064"><abbr title="PKP\submission\Repository::filterViewsByUserRoles">filterViewsByUserRoles</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Representation.php.html#115"><abbr title="PKP\submission\Representation::getDoi">getDoi</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Representation.php.html#138"><abbr title="PKP\submission\Representation::getStoredPubId">getStoredPubId</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="SubmissionAgencyDAO.php.html#84"><abbr title="PKP\submission\SubmissionAgencyDAO::getAllUniqueAgencies">getAllUniqueAgencies</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="SubmissionCommentDAO.php.html#110"><abbr title="PKP\submission\SubmissionCommentDAO::getById">getById</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="SubmissionCommentDAO.php.html#231"><abbr title="PKP\submission\SubmissionCommentDAO::updateObject">updateObject</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="SubmissionDisciplineDAO.php.html#85"><abbr title="PKP\submission\SubmissionDisciplineDAO::getAllUniqueDisciplines">getAllUniqueDisciplines</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="SubmissionKeywordDAO.php.html#90"><abbr title="PKP\submission\SubmissionKeywordDAO::getAllUniqueKeywords">getAllUniqueKeywords</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="SubmissionKeywordDAO.php.html#141"><abbr title="PKP\submission\SubmissionKeywordDAO::deleteByPublicationId">deleteByPublicationId</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="SubmissionLanguageDAO.php.html#86"><abbr title="PKP\submission\SubmissionLanguageDAO::getAllUniqueLanguages">getAllUniqueLanguages</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="SubmissionSubjectDAO.php.html#86"><abbr title="PKP\submission\SubmissionSubjectDAO::getAllUniqueSubjects">getAllUniqueSubjects</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="maps/Schema.php.html#298"><abbr title="PKP\submission\maps\Schema::mapToStats">mapToStats</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="maps/Schema.php.html#462"><abbr title="PKP\submission\maps\Schema::getPropertyReviewRounds">getPropertyReviewRounds</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="maps/Schema.php.html#638"><abbr title="PKP\submission\maps\Schema::getPropertyStageAssignments">getPropertyStageAssignments</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="maps/Schema.php.html#686"><abbr title="PKP\submission\maps\Schema::areRecommendationsIn">areRecommendationsIn</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="reviewAssignment/Collector.php.html#217"><abbr title="PKP\submission\reviewAssignment\Collector::getQueryBuilder">getQueryBuilder</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="reviewAssignment/DAO.php.html#93"><abbr title="PKP\submission\reviewAssignment\DAO::get">get</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="reviewAssignment/DAO.php.html#131"><abbr title="PKP\submission\reviewAssignment\DAO::getMany">getMany</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="reviewAssignment/Repository.php.html#52"><abbr title="PKP\submission\reviewAssignment\Repository::newDataObject">newDataObject</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="reviewAssignment/Repository.php.html#222"><abbr title="PKP\submission\reviewAssignment\Repository::deleteMany">deleteMany</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="reviewAssignment/Repository.php.html#232"><abbr title="PKP\submission\reviewAssignment\Repository::deleteByContextId">deleteByContextId</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="reviewAssignment/Repository.php.html#264"><abbr title="PKP\submission\reviewAssignment\Repository::updateReviewRoundStatus">updateReviewRoundStatus</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="reviewAssignment/ReviewAssignment.php.html#545"><abbr title="PKP\submission\reviewAssignment\ReviewAssignment::getReminderWasAutomatic">getReminderWasAutomatic</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="reviewAssignment/ReviewAssignment.php.html#791"><abbr title="PKP\submission\reviewAssignment\ReviewAssignment::getWeeksDue">getWeeksDue</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="reviewAssignment/ReviewAssignment.php.html#823"><abbr title="PKP\submission\reviewAssignment\ReviewAssignment::getLocalizedRecommendation">getLocalizedRecommendation</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="reviewRound/ReviewRoundDAO.php.html#138"><abbr title="PKP\submission\reviewRound\ReviewRoundDAO::getReviewRound">getReviewRound</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="reviewRound/ReviewRoundDAO.php.html#155"><abbr title="PKP\submission\reviewRound\ReviewRoundDAO::getById">getById</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="reviewRound/ReviewRoundDAO.php.html#172"><abbr title="PKP\submission\reviewRound\ReviewRoundDAO::getBySubmissionFileId">getBySubmissionFileId</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="reviewRound/ReviewRoundDAO.php.html#311"><abbr title="PKP\submission\reviewRound\ReviewRoundDAO::deleteBySubmissionId">deleteBySubmissionId</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="reviewer/form/PKPReviewerReviewStep1Form.php.html#53"><abbr title="PKP\submission\reviewer\form\PKPReviewerReviewStep1Form::fetch">fetch</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="reviewer/form/ReviewerReviewForm.php.html#90"><abbr title="PKP\submission\reviewer\form\ReviewerReviewForm::fetch">fetch</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="reviewer/form/ReviewerReviewForm.php.html#112"><abbr title="PKP\submission\reviewer\form\ReviewerReviewForm::updateReviewStepAndSaveSubmission">updateReviewStepAndSaveSubmission</abbr></a></td><td class="text-right">6</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 11.0.5</a> using <a href="https://www.php.net/" target="_top">PHP 8.3.11</a> and <a href="https://phpunit.de/">PHPUnit 11.2.8</a> at Wed Sep 4 13:31:09 UTC 2024.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../../_js/jquery.min.js?v=11.0.5" type="text/javascript"></script>
+  <script src="../../_js/d3.min.js?v=11.0.5" type="text/javascript"></script>
+  <script src="../../_js/nv.d3.min.js?v=11.0.5" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([40,0,0,0,0,0,0,0,0,0,0,0], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([443,0,0,0,0,0,0,0,0,0,0,0], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[0,60,"<a href=\"Collector.php.html#38\">PKP\\submission\\Collector<\/a>"],[0,22,"<a href=\"DAO.php.html#40\">PKP\\submission\\DAO<\/a>"],[0,11,"<a href=\"DashboardView.php.html#25\">PKP\\submission\\DashboardView<\/a>"],[0,20,"<a href=\"Genre.php.html#23\">PKP\\submission\\Genre<\/a>"],[0,45,"<a href=\"GenreDAO.php.html#28\">PKP\\submission\\GenreDAO<\/a>"],[0,30,"<a href=\"PKPSubmission.php.html#40\">PKP\\submission\\PKPSubmission<\/a>"],[0,178,"<a href=\"Repository.php.html#46\">PKP\\submission\\Repository<\/a>"],[0,15,"<a href=\"Representation.php.html#25\">PKP\\submission\\Representation<\/a>"],[0,5,"<a href=\"ReviewFilesDAO.php.html#22\">PKP\\submission\\ReviewFilesDAO<\/a>"],[0,3,"<a href=\"SubmissionAgency.php.html#21\">PKP\\submission\\SubmissionAgency<\/a>"],[0,16,"<a href=\"SubmissionAgencyDAO.php.html#26\">PKP\\submission\\SubmissionAgencyDAO<\/a>"],[0,2,"<a href=\"SubmissionAgencyEntryDAO.php.html#25\">PKP\\submission\\SubmissionAgencyEntryDAO<\/a>"],[0,26,"<a href=\"SubmissionComment.php.html#23\">PKP\\submission\\SubmissionComment<\/a>"],[0,17,"<a href=\"SubmissionCommentDAO.php.html#26\">PKP\\submission\\SubmissionCommentDAO<\/a>"],[0,3,"<a href=\"SubmissionDiscipline.php.html#21\">PKP\\submission\\SubmissionDiscipline<\/a>"],[0,16,"<a href=\"SubmissionDisciplineDAO.php.html#27\">PKP\\submission\\SubmissionDisciplineDAO<\/a>"],[0,2,"<a href=\"SubmissionDisciplineEntryDAO.php.html#25\">PKP\\submission\\SubmissionDisciplineEntryDAO<\/a>"],[0,3,"<a href=\"SubmissionKeyword.php.html#21\">PKP\\submission\\SubmissionKeyword<\/a>"],[0,19,"<a href=\"SubmissionKeywordDAO.php.html#26\">PKP\\submission\\SubmissionKeywordDAO<\/a>"],[0,2,"<a href=\"SubmissionKeywordEntryDAO.php.html#25\">PKP\\submission\\SubmissionKeywordEntryDAO<\/a>"],[0,3,"<a href=\"SubmissionLanguage.php.html#22\">PKP\\submission\\SubmissionLanguage<\/a>"],[0,16,"<a href=\"SubmissionLanguageDAO.php.html#27\">PKP\\submission\\SubmissionLanguageDAO<\/a>"],[0,2,"<a href=\"SubmissionLanguageEntryDAO.php.html#27\">PKP\\submission\\SubmissionLanguageEntryDAO<\/a>"],[0,3,"<a href=\"SubmissionSubject.php.html#21\">PKP\\submission\\SubmissionSubject<\/a>"],[0,16,"<a href=\"SubmissionSubjectDAO.php.html#26\">PKP\\submission\\SubmissionSubjectDAO<\/a>"],[0,2,"<a href=\"SubmissionSubjectEntryDAO.php.html#25\">PKP\\submission\\SubmissionSubjectEntryDAO<\/a>"],[0,16,"<a href=\"action\/EditorAction.php.html#44\">PKP\\submission\\action\\EditorAction<\/a>"],[0,77,"<a href=\"maps\/Schema.php.html#37\">PKP\\submission\\maps\\Schema<\/a>"],[0,22,"<a href=\"reviewAssignment\/Collector.php.html#28\">PKP\\submission\\reviewAssignment\\Collector<\/a>"],[0,13,"<a href=\"reviewAssignment\/DAO.php.html#28\">PKP\\submission\\reviewAssignment\\DAO<\/a>"],[0,27,"<a href=\"reviewAssignment\/Repository.php.html#32\">PKP\\submission\\reviewAssignment\\Repository<\/a>"],[0,103,"<a href=\"reviewAssignment\/ReviewAssignment.php.html#21\">PKP\\submission\\reviewAssignment\\ReviewAssignment<\/a>"],[0,11,"<a href=\"reviewAssignment\/maps\/Schema.php.html#22\">PKP\\submission\\reviewAssignment\\maps\\Schema<\/a>"],[0,58,"<a href=\"reviewRound\/ReviewRound.php.html#30\">PKP\\submission\\reviewRound\\ReviewRound<\/a>"],[0,38,"<a href=\"reviewRound\/ReviewRoundDAO.php.html#26\">PKP\\submission\\reviewRound\\ReviewRoundDAO<\/a>"],[0,15,"<a href=\"reviewer\/ReviewerAction.php.html#41\">PKP\\submission\\reviewer\\ReviewerAction<\/a>"],[0,9,"<a href=\"reviewer\/form\/PKPReviewerReviewStep1Form.php.html#30\">PKP\\submission\\reviewer\\form\\PKPReviewerReviewStep1Form<\/a>"],[0,5,"<a href=\"reviewer\/form\/PKPReviewerReviewStep2Form.php.html#24\">PKP\\submission\\reviewer\\form\\PKPReviewerReviewStep2Form<\/a>"],[0,39,"<a href=\"reviewer\/form\/PKPReviewerReviewStep3Form.php.html#46\">PKP\\submission\\reviewer\\form\\PKPReviewerReviewStep3Form<\/a>"],[0,8,"<a href=\"reviewer\/form\/ReviewerReviewForm.php.html#25\">PKP\\submission\\reviewer\\form\\ReviewerReviewForm<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[0,1,"<a href=\"Collector.php.html#84\">PKP\\submission\\Collector::__construct<\/a>"],[0,1,"<a href=\"Collector.php.html#89\">PKP\\submission\\Collector::getCount<\/a>"],[0,1,"<a href=\"Collector.php.html#97\">PKP\\submission\\Collector::getIds<\/a>"],[0,1,"<a href=\"Collector.php.html#107\">PKP\\submission\\Collector::getMany<\/a>"],[0,1,"<a href=\"Collector.php.html#115\">PKP\\submission\\Collector::filterByContextIds<\/a>"],[0,1,"<a href=\"Collector.php.html#124\">PKP\\submission\\Collector::filterByCategoryIds<\/a>"],[0,1,"<a href=\"Collector.php.html#136\">PKP\\submission\\Collector::filterByDoiStatuses<\/a>"],[0,2,"<a href=\"Collector.php.html#148\">PKP\\submission\\Collector::filterByHasDois<\/a>"],[0,1,"<a href=\"Collector.php.html#160\">PKP\\submission\\Collector::filterByStatus<\/a>"],[0,1,"<a href=\"Collector.php.html#169\">PKP\\submission\\Collector::filterByStageIds<\/a>"],[0,1,"<a href=\"Collector.php.html#181\">PKP\\submission\\Collector::filterByIncomplete<\/a>"],[0,1,"<a href=\"Collector.php.html#190\">PKP\\submission\\Collector::filterByOverdue<\/a>"],[0,1,"<a href=\"Collector.php.html#199\">PKP\\submission\\Collector::filterByDaysInactive<\/a>"],[0,1,"<a href=\"Collector.php.html#210\">PKP\\submission\\Collector::filterByReviewersActive<\/a>"],[0,1,"<a href=\"Collector.php.html#219\">PKP\\submission\\Collector::filterByReviewsSubmitted<\/a>"],[0,1,"<a href=\"Collector.php.html#228\">PKP\\submission\\Collector::filterByAwaitingReviews<\/a>"],[0,1,"<a href=\"Collector.php.html#237\">PKP\\submission\\Collector::filterByRevisionsRequested<\/a>"],[0,1,"<a href=\"Collector.php.html#247\">PKP\\submission\\Collector::filterByRevisionsSubmitted<\/a>"],[0,1,"<a href=\"Collector.php.html#259\">PKP\\submission\\Collector::assignedTo<\/a>"],[0,1,"<a href=\"Collector.php.html#270\">PKP\\submission\\Collector::isReviewedBy<\/a>"],[0,1,"<a href=\"Collector.php.html#281\">PKP\\submission\\Collector::filterByReviewIds<\/a>"],[0,1,"<a href=\"Collector.php.html#290\">PKP\\submission\\Collector::searchPhrase<\/a>"],[0,1,"<a href=\"Collector.php.html#300\">PKP\\submission\\Collector::excludeIds<\/a>"],[0,1,"<a href=\"Collector.php.html#309\">PKP\\submission\\Collector::limit<\/a>"],[0,1,"<a href=\"Collector.php.html#319\">PKP\\submission\\Collector::offset<\/a>"],[0,1,"<a href=\"Collector.php.html#332\">PKP\\submission\\Collector::orderBy<\/a>"],[0,0,"<a href=\"Collector.php.html#344\">PKP\\submission\\Collector::addDoiStatusFilterToQuery<\/a>"],[0,0,"<a href=\"Collector.php.html#351\">PKP\\submission\\Collector::addHasDoisFilterToQuery<\/a>"],[0,27,"<a href=\"Collector.php.html#358\">PKP\\submission\\Collector::getQueryBuilder<\/a>"],[0,4,"<a href=\"Collector.php.html#670\">PKP\\submission\\Collector::buildReviewStageQueries<\/a>"],[0,1,"<a href=\"Collector.php.html#855\">PKP\\submission\\Collector::getViewsCountBuilder<\/a>"],[0,1,"<a href=\"Collector.php.html#868\">PKP\\submission\\Collector::getReviewStages<\/a>"],[0,1,"<a href=\"DAO.php.html#73\">PKP\\submission\\DAO::getParentColumn<\/a>"],[0,1,"<a href=\"DAO.php.html#81\">PKP\\submission\\DAO::newDataObject<\/a>"],[0,1,"<a href=\"DAO.php.html#89\">PKP\\submission\\DAO::getCount<\/a>"],[0,1,"<a href=\"DAO.php.html#101\">PKP\\submission\\DAO::getIds<\/a>"],[0,2,"<a href=\"DAO.php.html#114\">PKP\\submission\\DAO::getMany<\/a>"],[0,2,"<a href=\"DAO.php.html#130\">PKP\\submission\\DAO::getIdByUrlPath<\/a>"],[0,1,"<a href=\"DAO.php.html#146\">PKP\\submission\\DAO::getIdsBySetting<\/a>"],[0,4,"<a href=\"DAO.php.html#165\">PKP\\submission\\DAO::getByPubId<\/a>"],[0,2,"<a href=\"DAO.php.html#192\">PKP\\submission\\DAO::getByDoi<\/a>"],[0,1,"<a href=\"DAO.php.html#206\">PKP\\submission\\DAO::fromRow<\/a>"],[0,1,"<a href=\"DAO.php.html#224\">PKP\\submission\\DAO::insert<\/a>"],[0,1,"<a href=\"DAO.php.html#232\">PKP\\submission\\DAO::update<\/a>"],[0,1,"<a href=\"DAO.php.html#240\">PKP\\submission\\DAO::delete<\/a>"],[0,3,"<a href=\"DAO.php.html#248\">PKP\\submission\\DAO::deleteById<\/a>"],[0,1,"<a href=\"DashboardView.php.html#51\">PKP\\submission\\DashboardView::__construct<\/a>"],[0,3,"<a href=\"DashboardView.php.html#66\">PKP\\submission\\DashboardView::getTypes<\/a>"],[0,1,"<a href=\"DashboardView.php.html#84\">PKP\\submission\\DashboardView::getCollector<\/a>"],[0,1,"<a href=\"DashboardView.php.html#92\">PKP\\submission\\DashboardView::setCount<\/a>"],[0,1,"<a href=\"DashboardView.php.html#97\">PKP\\submission\\DashboardView::getCount<\/a>"],[0,1,"<a href=\"DashboardView.php.html#105\">PKP\\submission\\DashboardView::getRoles<\/a>"],[0,3,"<a href=\"DashboardView.php.html#113\">PKP\\submission\\DashboardView::getData<\/a>"],[0,1,"<a href=\"Genre.php.html#32\">PKP\\submission\\Genre::getContextId<\/a>"],[0,1,"<a href=\"Genre.php.html#40\">PKP\\submission\\Genre::setContextId<\/a>"],[0,1,"<a href=\"Genre.php.html#50\">PKP\\submission\\Genre::getSequence<\/a>"],[0,1,"<a href=\"Genre.php.html#60\">PKP\\submission\\Genre::setSequence<\/a>"],[0,1,"<a href=\"Genre.php.html#70\">PKP\\submission\\Genre::getKey<\/a>"],[0,1,"<a href=\"Genre.php.html#80\">PKP\\submission\\Genre::setKey<\/a>"],[0,1,"<a href=\"Genre.php.html#90\">PKP\\submission\\Genre::getEnabled<\/a>"],[0,1,"<a href=\"Genre.php.html#100\">PKP\\submission\\Genre::setEnabled<\/a>"],[0,1,"<a href=\"Genre.php.html#111\">PKP\\submission\\Genre::setName<\/a>"],[0,1,"<a href=\"Genre.php.html#123\">PKP\\submission\\Genre::getName<\/a>"],[0,1,"<a href=\"Genre.php.html#133\">PKP\\submission\\Genre::getLocalizedName<\/a>"],[0,1,"<a href=\"Genre.php.html#143\">PKP\\submission\\Genre::getCategory<\/a>"],[0,1,"<a href=\"Genre.php.html#153\">PKP\\submission\\Genre::setCategory<\/a>"],[0,1,"<a href=\"Genre.php.html#163\">PKP\\submission\\Genre::getDependent<\/a>"],[0,1,"<a href=\"Genre.php.html#173\">PKP\\submission\\Genre::setDependent<\/a>"],[0,1,"<a href=\"Genre.php.html#183\">PKP\\submission\\Genre::getSupplementary<\/a>"],[0,1,"<a href=\"Genre.php.html#193\">PKP\\submission\\Genre::setSupplementary<\/a>"],[0,1,"<a href=\"Genre.php.html#201\">PKP\\submission\\Genre::getRequired<\/a>"],[0,1,"<a href=\"Genre.php.html#209\">PKP\\submission\\Genre::setRequired<\/a>"],[0,1,"<a href=\"Genre.php.html#219\">PKP\\submission\\Genre::isDefault<\/a>"],[0,4,"<a href=\"GenreDAO.php.html#37\">PKP\\submission\\GenreDAO::getById<\/a>"],[0,1,"<a href=\"GenreDAO.php.html#62\">PKP\\submission\\GenreDAO::getEnabledByContextId<\/a>"],[0,1,"<a href=\"GenreDAO.php.html#83\">PKP\\submission\\GenreDAO::getByDependenceAndContextId<\/a>"],[0,1,"<a href=\"GenreDAO.php.html#104\">PKP\\submission\\GenreDAO::getBySupplementaryAndContextId<\/a>"],[0,1,"<a href=\"GenreDAO.php.html#124\">PKP\\submission\\GenreDAO::getPrimaryByContextId<\/a>"],[0,1,"<a href=\"GenreDAO.php.html#144\">PKP\\submission\\GenreDAO::getByContextId<\/a>"],[0,1,"<a href=\"GenreDAO.php.html#159\">PKP\\submission\\GenreDAO::getRequiredToSubmit<\/a>"],[0,4,"<a href=\"GenreDAO.php.html#178\">PKP\\submission\\GenreDAO::getByKey<\/a>"],[0,1,"<a href=\"GenreDAO.php.html#198\">PKP\\submission\\GenreDAO::getLocaleFieldNames<\/a>"],[0,1,"<a href=\"GenreDAO.php.html#208\">PKP\\submission\\GenreDAO::updateLocaleFields<\/a>"],[0,1,"<a href=\"GenreDAO.php.html#222\">PKP\\submission\\GenreDAO::newDataObject<\/a>"],[0,1,"<a href=\"GenreDAO.php.html#236\">PKP\\submission\\GenreDAO::_fromRow<\/a>"],[0,4,"<a href=\"GenreDAO.php.html#263\">PKP\\submission\\GenreDAO::insertObject<\/a>"],[0,5,"<a href=\"GenreDAO.php.html#291\">PKP\\submission\\GenreDAO::updateObject<\/a>"],[0,1,"<a href=\"GenreDAO.php.html#322\">PKP\\submission\\GenreDAO::deleteObject<\/a>"],[0,1,"<a href=\"GenreDAO.php.html#330\">PKP\\submission\\GenreDAO::deleteById<\/a>"],[0,2,"<a href=\"GenreDAO.php.html#341\">PKP\\submission\\GenreDAO::deleteByContextId<\/a>"],[0,6,"<a href=\"GenreDAO.php.html#358\">PKP\\submission\\GenreDAO::installDefaults<\/a>"],[0,3,"<a href=\"GenreDAO.php.html#400\">PKP\\submission\\GenreDAO::getDefaultKeys<\/a>"],[0,4,"<a href=\"GenreDAO.php.html#422\">PKP\\submission\\GenreDAO::keyExists<\/a>"],[0,1,"<a href=\"GenreDAO.php.html#441\">PKP\\submission\\GenreDAO::deleteSettingsByLocale<\/a>"],[0,1,"<a href=\"PKPSubmission.php.html#56\">PKP\\submission\\PKPSubmission::__construct<\/a>"],[0,2,"<a href=\"PKPSubmission.php.html#70\">PKP\\submission\\PKPSubmission::getBestId<\/a>"],[0,5,"<a href=\"PKPSubmission.php.html#84\">PKP\\submission\\PKPSubmission::getCurrentPublication<\/a>"],[0,4,"<a href=\"PKPSubmission.php.html#105\">PKP\\submission\\PKPSubmission::getOriginalPublication<\/a>"],[0,4,"<a href=\"PKPSubmission.php.html#123\">PKP\\submission\\PKPSubmission::getLatestPublication<\/a>"],[0,2,"<a href=\"PKPSubmission.php.html#142\">PKP\\submission\\PKPSubmission::getPublishedPublications<\/a>"],[0,1,"<a href=\"PKPSubmission.php.html#157\">PKP\\submission\\PKPSubmission::stampModified<\/a>"],[0,1,"<a href=\"PKPSubmission.php.html#165\">PKP\\submission\\PKPSubmission::stampLastActivity<\/a>"],[0,1,"<a href=\"PKPSubmission.php.html#175\">PKP\\submission\\PKPSubmission::getStatusMap<\/a>"],[0,1,"<a href=\"PKPSubmission.php.html#191\">PKP\\submission\\PKPSubmission::getStatusKey<\/a>"],[0,1,"<a href=\"PKPSubmission.php.html#200\">PKP\\submission\\PKPSubmission::getDAO<\/a>"],[0,2,"<a href=\"PKPSubmission.php.html#208\">PKP\\submission\\PKPSubmission::getPublicationLanguageNames<\/a>"],[0,1,"<a href=\"PKPSubmission.php.html#219\">PKP\\submission\\PKPSubmission::getPublicationLanguages<\/a>"],[0,0,"<a href=\"PKPSubmission.php.html#239\">PKP\\submission\\PKPSubmission::getSectionId<\/a>"],[0,0,"<a href=\"PKPSubmission.php.html#249\">PKP\\submission\\PKPSubmission::_getContextLicenseFieldValue<\/a>"],[0,1,"<a href=\"PKPSubmission.php.html#258\">PKP\\submission\\PKPSubmission::getDefaultLocale<\/a>"],[0,2,"<a href=\"PKPSubmission.php.html#274\">PKP\\submission\\PKPSubmission::getStoredPubId<\/a>"],[0,1,"<a href=\"PKPSubmission.php.html#288\">PKP\\submission\\PKPSubmission::getUIDisplayString<\/a>"],[0,1,"<a href=\"Repository.php.html#62\">PKP\\submission\\Repository::__construct<\/a>"],[0,2,"<a href=\"Repository.php.html#70\">PKP\\submission\\Repository::newDataObject<\/a>"],[0,1,"<a href=\"Repository.php.html#80\">PKP\\submission\\Repository::exists<\/a>"],[0,1,"<a href=\"Repository.php.html#86\">PKP\\submission\\Repository::get<\/a>"],[0,1,"<a href=\"Repository.php.html#92\">PKP\\submission\\Repository::getCollector<\/a>"],[0,1,"<a href=\"Repository.php.html#101\">PKP\\submission\\Repository::getSchemaMap<\/a>"],[0,2,"<a href=\"Repository.php.html#110\">PKP\\submission\\Repository::getByBestId<\/a>"],[0,2,"<a href=\"Repository.php.html#123\">PKP\\submission\\Repository::getByUrlPath<\/a>"],[0,1,"<a href=\"Repository.php.html#137\">PKP\\submission\\Repository::getByDoi<\/a>"],[0,1,"<a href=\"Repository.php.html#143\">PKP\\submission\\Repository::getIdsBySetting<\/a>"],[0,15,"<a href=\"Repository.php.html#156\">PKP\\submission\\Repository::getWorkflowUrlByUserRoles<\/a>"],[0,18,"<a href=\"Repository.php.html#265\">PKP\\submission\\Repository::validate<\/a>"],[0,19,"<a href=\"Repository.php.html#355\">PKP\\submission\\Repository::validateSubmit<\/a>"],[0,5,"<a href=\"Repository.php.html#469\">PKP\\submission\\Repository::canCurrentUserDelete<\/a>"],[0,4,"<a href=\"Repository.php.html#496\">PKP\\submission\\Repository::canEditPublication<\/a>"],[0,5,"<a href=\"Repository.php.html#520\">PKP\\submission\\Repository::canPreview<\/a>"],[0,6,"<a href=\"Repository.php.html#550\">PKP\\submission\\Repository::add<\/a>"],[0,1,"<a href=\"Repository.php.html#582\">PKP\\submission\\Repository::edit<\/a>"],[0,2,"<a href=\"Repository.php.html#600\">PKP\\submission\\Repository::submit<\/a>"],[0,1,"<a href=\"Repository.php.html#624\">PKP\\submission\\Repository::delete<\/a>"],[0,2,"<a href=\"Repository.php.html#636\">PKP\\submission\\Repository::deleteByContextId<\/a>"],[0,4,"<a href=\"Repository.php.html#660\">PKP\\submission\\Repository::updateStatus<\/a>"],[0,4,"<a href=\"Repository.php.html#689\">PKP\\submission\\Repository::resetPermissions<\/a>"],[0,1,"<a href=\"Repository.php.html#712\">PKP\\submission\\Repository::getSortSelectOptions<\/a>"],[0,1,"<a href=\"Repository.php.html#728\">PKP\\submission\\Repository::getDefaultSortOption<\/a>"],[0,2,"<a href=\"Repository.php.html#736\">PKP\\submission\\Repository::getUrlApi<\/a>"],[0,1,"<a href=\"Repository.php.html#749\">PKP\\submission\\Repository::getUrlAuthorWorkflow<\/a>"],[0,1,"<a href=\"Repository.php.html#764\">PKP\\submission\\Repository::getUrlEditorialWorkflow<\/a>"],[0,2,"<a href=\"Repository.php.html#779\">PKP\\submission\\Repository::getUrlSubmissionWizard<\/a>"],[0,3,"<a href=\"Repository.php.html#797\">PKP\\submission\\Repository::getDashboardViews<\/a>"],[0,39,"<a href=\"Repository.php.html#821\">PKP\\submission\\Repository::mapDashboardViews<\/a>"],[0,2,"<a href=\"Repository.php.html#1064\">PKP\\submission\\Repository::filterViewsByUserRoles<\/a>"],[0,6,"<a href=\"Repository.php.html#1078\">PKP\\submission\\Repository::setViewsCount<\/a>"],[0,0,"<a href=\"Repository.php.html#1113\">PKP\\submission\\Repository::createDois<\/a>"],[0,1,"<a href=\"Repository.php.html#1119\">PKP\\submission\\Repository::getSortOption<\/a>"],[0,3,"<a href=\"Repository.php.html#1129\">PKP\\submission\\Repository::_canUserAccessUnassignedSubmissions<\/a>"],[0,7,"<a href=\"Repository.php.html#1147\">PKP\\submission\\Repository::getStatusByPublications<\/a>"],[0,6,"<a href=\"Repository.php.html#1183\">PKP\\submission\\Repository::getCurrentPublicationIdByPublications<\/a>"],[0,4,"<a href=\"Repository.php.html#1212\">PKP\\submission\\Repository::_roleCanPreview<\/a>"],[0,1,"<a href=\"Representation.php.html#30\">PKP\\submission\\Representation::__construct<\/a>"],[0,1,"<a href=\"Representation.php.html#43\">PKP\\submission\\Representation::getSequence<\/a>"],[0,1,"<a href=\"Representation.php.html#53\">PKP\\submission\\Representation::setSequence<\/a>"],[0,1,"<a href=\"Representation.php.html#63\">PKP\\submission\\Representation::getLocalizedName<\/a>"],[0,1,"<a href=\"Representation.php.html#75\">PKP\\submission\\Representation::getName<\/a>"],[0,1,"<a href=\"Representation.php.html#86\">PKP\\submission\\Representation::setName<\/a>"],[0,1,"<a href=\"Representation.php.html#96\">PKP\\submission\\Representation::getIsApproved<\/a>"],[0,1,"<a href=\"Representation.php.html#106\">PKP\\submission\\Representation::setIsApproved<\/a>"],[0,2,"<a href=\"Representation.php.html#115\">PKP\\submission\\Representation::getDoi<\/a>"],[0,2,"<a href=\"Representation.php.html#138\">PKP\\submission\\Representation::getStoredPubId<\/a>"],[0,1,"<a href=\"Representation.php.html#155\">PKP\\submission\\Representation::setStoredPubId<\/a>"],[0,1,"<a href=\"Representation.php.html#165\">PKP\\submission\\Representation::getContextId<\/a>"],[0,1,"<a href=\"Representation.php.html#175\">PKP\\submission\\Representation::getDAO<\/a>"],[0,1,"<a href=\"ReviewFilesDAO.php.html#30\">PKP\\submission\\ReviewFilesDAO::grant<\/a>"],[0,1,"<a href=\"ReviewFilesDAO.php.html#47\">PKP\\submission\\ReviewFilesDAO::revoke<\/a>"],[0,1,"<a href=\"ReviewFilesDAO.php.html#60\">PKP\\submission\\ReviewFilesDAO::revokeByReviewId<\/a>"],[0,1,"<a href=\"ReviewFilesDAO.php.html#71\">PKP\\submission\\ReviewFilesDAO::revokeBySubmissionFileId<\/a>"],[0,1,"<a href=\"ReviewFilesDAO.php.html#87\">PKP\\submission\\ReviewFilesDAO::check<\/a>"],[0,1,"<a href=\"SubmissionAgency.php.html#32\">PKP\\submission\\SubmissionAgency::getAgency<\/a>"],[0,1,"<a href=\"SubmissionAgency.php.html#43\">PKP\\submission\\SubmissionAgency::setAgency<\/a>"],[0,1,"<a href=\"SubmissionAgency.php.html#48\">PKP\\submission\\SubmissionAgency::getLocaleMetadataFieldNames<\/a>"],[0,1,"<a href=\"SubmissionAgencyDAO.php.html#38\">PKP\\submission\\SubmissionAgencyDAO::build<\/a>"],[0,1,"<a href=\"SubmissionAgencyDAO.php.html#46\">PKP\\submission\\SubmissionAgencyDAO::getLocaleFieldNames<\/a>"],[0,5,"<a href=\"SubmissionAgencyDAO.php.html#60\">PKP\\submission\\SubmissionAgencyDAO::getAgencies<\/a>"],[0,2,"<a href=\"SubmissionAgencyDAO.php.html#84\">PKP\\submission\\SubmissionAgencyDAO::getAllUniqueAgencies<\/a>"],[0,7,"<a href=\"SubmissionAgencyDAO.php.html#103\">PKP\\submission\\SubmissionAgencyDAO::insertAgencies<\/a>"],[0,1,"<a href=\"SubmissionAgencyEntryDAO.php.html#32\">PKP\\submission\\SubmissionAgencyEntryDAO::newDataObject<\/a>"],[0,1,"<a href=\"SubmissionAgencyEntryDAO.php.html#47\">PKP\\submission\\SubmissionAgencyEntryDAO::getByControlledVocabId<\/a>"],[0,1,"<a href=\"SubmissionComment.php.html#36\">PKP\\submission\\SubmissionComment::getCommentType<\/a>"],[0,1,"<a href=\"SubmissionComment.php.html#46\">PKP\\submission\\SubmissionComment::setCommentType<\/a>"],[0,1,"<a href=\"SubmissionComment.php.html#56\">PKP\\submission\\SubmissionComment::getRoleId<\/a>"],[0,1,"<a href=\"SubmissionComment.php.html#66\">PKP\\submission\\SubmissionComment::setRoleId<\/a>"],[0,1,"<a href=\"SubmissionComment.php.html#76\">PKP\\submission\\SubmissionComment::getSubmissionId<\/a>"],[0,1,"<a href=\"SubmissionComment.php.html#86\">PKP\\submission\\SubmissionComment::setSubmissionId<\/a>"],[0,1,"<a href=\"SubmissionComment.php.html#96\">PKP\\submission\\SubmissionComment::getAssocId<\/a>"],[0,1,"<a href=\"SubmissionComment.php.html#106\">PKP\\submission\\SubmissionComment::setAssocId<\/a>"],[0,1,"<a href=\"SubmissionComment.php.html#116\">PKP\\submission\\SubmissionComment::getAuthorId<\/a>"],[0,1,"<a href=\"SubmissionComment.php.html#126\">PKP\\submission\\SubmissionComment::setAuthorId<\/a>"],[0,3,"<a href=\"SubmissionComment.php.html#136\">PKP\\submission\\SubmissionComment::getAuthorName<\/a>"],[0,3,"<a href=\"SubmissionComment.php.html#154\">PKP\\submission\\SubmissionComment::getAuthorEmail<\/a>"],[0,1,"<a href=\"SubmissionComment.php.html#172\">PKP\\submission\\SubmissionComment::getCommentTitle<\/a>"],[0,1,"<a href=\"SubmissionComment.php.html#182\">PKP\\submission\\SubmissionComment::setCommentTitle<\/a>"],[0,1,"<a href=\"SubmissionComment.php.html#192\">PKP\\submission\\SubmissionComment::getComments<\/a>"],[0,1,"<a href=\"SubmissionComment.php.html#202\">PKP\\submission\\SubmissionComment::setComments<\/a>"],[0,1,"<a href=\"SubmissionComment.php.html#212\">PKP\\submission\\SubmissionComment::getDatePosted<\/a>"],[0,1,"<a href=\"SubmissionComment.php.html#222\">PKP\\submission\\SubmissionComment::setDatePosted<\/a>"],[0,1,"<a href=\"SubmissionComment.php.html#232\">PKP\\submission\\SubmissionComment::getDateModified<\/a>"],[0,1,"<a href=\"SubmissionComment.php.html#242\">PKP\\submission\\SubmissionComment::setDateModified<\/a>"],[0,1,"<a href=\"SubmissionComment.php.html#252\">PKP\\submission\\SubmissionComment::getViewable<\/a>"],[0,1,"<a href=\"SubmissionComment.php.html#262\">PKP\\submission\\SubmissionComment::setViewable<\/a>"],[0,5,"<a href=\"SubmissionCommentDAO.php.html#37\">PKP\\submission\\SubmissionCommentDAO::getSubmissionComments<\/a>"],[0,1,"<a href=\"SubmissionCommentDAO.php.html#68\">PKP\\submission\\SubmissionCommentDAO::getByUserId<\/a>"],[0,1,"<a href=\"SubmissionCommentDAO.php.html#90\">PKP\\submission\\SubmissionCommentDAO::getReviewerCommentsByReviewerId<\/a>"],[0,2,"<a href=\"SubmissionCommentDAO.php.html#110\">PKP\\submission\\SubmissionCommentDAO::getById<\/a>"],[0,1,"<a href=\"SubmissionCommentDAO.php.html#125\">PKP\\submission\\SubmissionCommentDAO::newDataObject<\/a>"],[0,1,"<a href=\"SubmissionCommentDAO.php.html#139\">PKP\\submission\\SubmissionCommentDAO::_fromRow<\/a>"],[0,1,"<a href=\"SubmissionCommentDAO.php.html#166\">PKP\\submission\\SubmissionCommentDAO::insertObject<\/a>"],[0,1,"<a href=\"SubmissionCommentDAO.php.html#198\">PKP\\submission\\SubmissionCommentDAO::deleteObject<\/a>"],[0,1,"<a href=\"SubmissionCommentDAO.php.html#206\">PKP\\submission\\SubmissionCommentDAO::deleteById<\/a>"],[0,1,"<a href=\"SubmissionCommentDAO.php.html#218\">PKP\\submission\\SubmissionCommentDAO::deleteBySubmissionId<\/a>"],[0,2,"<a href=\"SubmissionCommentDAO.php.html#231\">PKP\\submission\\SubmissionCommentDAO::updateObject<\/a>"],[0,1,"<a href=\"SubmissionDiscipline.php.html#32\">PKP\\submission\\SubmissionDiscipline::getDiscipline<\/a>"],[0,1,"<a href=\"SubmissionDiscipline.php.html#43\">PKP\\submission\\SubmissionDiscipline::setDiscipline<\/a>"],[0,1,"<a href=\"SubmissionDiscipline.php.html#48\">PKP\\submission\\SubmissionDiscipline::getLocaleMetadataFieldNames<\/a>"],[0,1,"<a href=\"SubmissionDisciplineDAO.php.html#39\">PKP\\submission\\SubmissionDisciplineDAO::build<\/a>"],[0,1,"<a href=\"SubmissionDisciplineDAO.php.html#47\">PKP\\submission\\SubmissionDisciplineDAO::getLocaleFieldNames<\/a>"],[0,5,"<a href=\"SubmissionDisciplineDAO.php.html#61\">PKP\\submission\\SubmissionDisciplineDAO::getDisciplines<\/a>"],[0,2,"<a href=\"SubmissionDisciplineDAO.php.html#85\">PKP\\submission\\SubmissionDisciplineDAO::getAllUniqueDisciplines<\/a>"],[0,7,"<a href=\"SubmissionDisciplineDAO.php.html#104\">PKP\\submission\\SubmissionDisciplineDAO::insertDisciplines<\/a>"],[0,1,"<a href=\"SubmissionDisciplineEntryDAO.php.html#32\">PKP\\submission\\SubmissionDisciplineEntryDAO::newDataObject<\/a>"],[0,1,"<a href=\"SubmissionDisciplineEntryDAO.php.html#47\">PKP\\submission\\SubmissionDisciplineEntryDAO::getByControlledVocabId<\/a>"],[0,1,"<a href=\"SubmissionKeyword.php.html#32\">PKP\\submission\\SubmissionKeyword::getKeyword<\/a>"],[0,1,"<a href=\"SubmissionKeyword.php.html#43\">PKP\\submission\\SubmissionKeyword::setKeyword<\/a>"],[0,1,"<a href=\"SubmissionKeyword.php.html#48\">PKP\\submission\\SubmissionKeyword::getLocaleMetadataFieldNames<\/a>"],[0,1,"<a href=\"SubmissionKeywordDAO.php.html#38\">PKP\\submission\\SubmissionKeywordDAO::build<\/a>"],[0,1,"<a href=\"SubmissionKeywordDAO.php.html#47\">PKP\\submission\\SubmissionKeywordDAO::getLocaleFieldNames<\/a>"],[0,7,"<a href=\"SubmissionKeywordDAO.php.html#61\">PKP\\submission\\SubmissionKeywordDAO::getKeywords<\/a>"],[0,2,"<a href=\"SubmissionKeywordDAO.php.html#90\">PKP\\submission\\SubmissionKeywordDAO::getAllUniqueKeywords<\/a>"],[0,6,"<a href=\"SubmissionKeywordDAO.php.html#109\">PKP\\submission\\SubmissionKeywordDAO::insertKeywords<\/a>"],[0,2,"<a href=\"SubmissionKeywordDAO.php.html#141\">PKP\\submission\\SubmissionKeywordDAO::deleteByPublicationId<\/a>"],[0,1,"<a href=\"SubmissionKeywordEntryDAO.php.html#32\">PKP\\submission\\SubmissionKeywordEntryDAO::newDataObject<\/a>"],[0,1,"<a href=\"SubmissionKeywordEntryDAO.php.html#47\">PKP\\submission\\SubmissionKeywordEntryDAO::getByControlledVocabId<\/a>"],[0,1,"<a href=\"SubmissionLanguage.php.html#33\">PKP\\submission\\SubmissionLanguage::getLanguage<\/a>"],[0,1,"<a href=\"SubmissionLanguage.php.html#44\">PKP\\submission\\SubmissionLanguage::setLanguage<\/a>"],[0,1,"<a href=\"SubmissionLanguage.php.html#52\">PKP\\submission\\SubmissionLanguage::getLocaleMetadataFieldNames<\/a>"],[0,1,"<a href=\"SubmissionLanguageDAO.php.html#39\">PKP\\submission\\SubmissionLanguageDAO::build<\/a>"],[0,1,"<a href=\"SubmissionLanguageDAO.php.html#48\">PKP\\submission\\SubmissionLanguageDAO::getLocaleFieldNames<\/a>"],[0,5,"<a href=\"SubmissionLanguageDAO.php.html#62\">PKP\\submission\\SubmissionLanguageDAO::getLanguages<\/a>"],[0,2,"<a href=\"SubmissionLanguageDAO.php.html#86\">PKP\\submission\\SubmissionLanguageDAO::getAllUniqueLanguages<\/a>"],[0,7,"<a href=\"SubmissionLanguageDAO.php.html#105\">PKP\\submission\\SubmissionLanguageDAO::insertLanguages<\/a>"],[0,1,"<a href=\"SubmissionLanguageEntryDAO.php.html#34\">PKP\\submission\\SubmissionLanguageEntryDAO::newDataObject<\/a>"],[0,1,"<a href=\"SubmissionLanguageEntryDAO.php.html#49\">PKP\\submission\\SubmissionLanguageEntryDAO::getByControlledVocabId<\/a>"],[0,1,"<a href=\"SubmissionSubject.php.html#32\">PKP\\submission\\SubmissionSubject::getSubject<\/a>"],[0,1,"<a href=\"SubmissionSubject.php.html#43\">PKP\\submission\\SubmissionSubject::setSubject<\/a>"],[0,1,"<a href=\"SubmissionSubject.php.html#51\">PKP\\submission\\SubmissionSubject::getLocaleMetadataFieldNames<\/a>"],[0,1,"<a href=\"SubmissionSubjectDAO.php.html#38\">PKP\\submission\\SubmissionSubjectDAO::build<\/a>"],[0,1,"<a href=\"SubmissionSubjectDAO.php.html#47\">PKP\\submission\\SubmissionSubjectDAO::getLocaleFieldNames<\/a>"],[0,5,"<a href=\"SubmissionSubjectDAO.php.html#61\">PKP\\submission\\SubmissionSubjectDAO::getSubjects<\/a>"],[0,2,"<a href=\"SubmissionSubjectDAO.php.html#86\">PKP\\submission\\SubmissionSubjectDAO::getAllUniqueSubjects<\/a>"],[0,7,"<a href=\"SubmissionSubjectDAO.php.html#105\">PKP\\submission\\SubmissionSubjectDAO::insertSubjects<\/a>"],[0,1,"<a href=\"SubmissionSubjectEntryDAO.php.html#32\">PKP\\submission\\SubmissionSubjectEntryDAO::newDataObject<\/a>"],[0,1,"<a href=\"SubmissionSubjectEntryDAO.php.html#47\">PKP\\submission\\SubmissionSubjectEntryDAO::getByControlledVocabId<\/a>"],[0,1,"<a href=\"action\/EditorAction.php.html#49\">PKP\\submission\\action\\EditorAction::__construct<\/a>"],[0,7,"<a href=\"action\/EditorAction.php.html#70\">PKP\\submission\\action\\EditorAction::addReviewer<\/a>"],[0,5,"<a href=\"action\/EditorAction.php.html#172\">PKP\\submission\\action\\EditorAction::setDueDates<\/a>"],[0,3,"<a href=\"action\/EditorAction.php.html#219\">PKP\\submission\\action\\EditorAction::createMail<\/a>"],[0,1,"<a href=\"maps\/Schema.php.html#62\">PKP\\submission\\maps\\Schema::getSubmissionsListProps<\/a>"],[0,1,"<a href=\"maps\/Schema.php.html#112\">PKP\\submission\\maps\\Schema::map<\/a>"],[0,1,"<a href=\"maps\/Schema.php.html#139\">PKP\\submission\\maps\\Schema::summarize<\/a>"],[0,1,"<a href=\"maps\/Schema.php.html#164\">PKP\\submission\\maps\\Schema::mapMany<\/a>"],[0,1,"<a href=\"maps\/Schema.php.html#198\">PKP\\submission\\maps\\Schema::summarizeMany<\/a>"],[0,1,"<a href=\"maps\/Schema.php.html#237\">PKP\\submission\\maps\\Schema::mapToSubmissionsList<\/a>"],[0,1,"<a href=\"maps\/Schema.php.html#261\">PKP\\submission\\maps\\Schema::mapManyToSubmissionsList<\/a>"],[0,2,"<a href=\"maps\/Schema.php.html#298\">PKP\\submission\\maps\\Schema::mapToStats<\/a>"],[0,1,"<a href=\"maps\/Schema.php.html#319\">PKP\\submission\\maps\\Schema::summarizeWithoutPublication<\/a>"],[0,25,"<a href=\"maps\/Schema.php.html#336\">PKP\\submission\\maps\\Schema::mapByProperties<\/a>"],[0,13,"<a href=\"maps\/Schema.php.html#416\">PKP\\submission\\maps\\Schema::getPropertyReviewAssignments<\/a>"],[0,2,"<a href=\"maps\/Schema.php.html#462\">PKP\\submission\\maps\\Schema::getPropertyReviewRounds<\/a>"],[0,17,"<a href=\"maps\/Schema.php.html#503\">PKP\\submission\\maps\\Schema::getPropertyStages<\/a>"],[0,2,"<a href=\"maps\/Schema.php.html#638\">PKP\\submission\\maps\\Schema::getPropertyStageAssignments<\/a>"],[0,3,"<a href=\"maps\/Schema.php.html#646\">PKP\\submission\\maps\\Schema::getUserGroup<\/a>"],[0,1,"<a href=\"maps\/Schema.php.html#663\">PKP\\submission\\maps\\Schema::getStageAssignmentsBySubmissions<\/a>"],[0,1,"<a href=\"maps\/Schema.php.html#674\">PKP\\submission\\maps\\Schema::getReviewRoundsFromSubmission<\/a>"],[0,2,"<a href=\"maps\/Schema.php.html#686\">PKP\\submission\\maps\\Schema::areRecommendationsIn<\/a>"],[0,1,"<a href=\"maps\/Schema.php.html#696\">PKP\\submission\\maps\\Schema::appSpecificProps<\/a>"],[0,1,"<a href=\"reviewAssignment\/Collector.php.html#52\">PKP\\submission\\reviewAssignment\\Collector::__construct<\/a>"],[0,1,"<a href=\"reviewAssignment\/Collector.php.html#58\">PKP\\submission\\reviewAssignment\\Collector::getCount<\/a>"],[0,1,"<a href=\"reviewAssignment\/Collector.php.html#68\">PKP\\submission\\reviewAssignment\\Collector::getIds<\/a>"],[0,1,"<a href=\"reviewAssignment\/Collector.php.html#78\">PKP\\submission\\reviewAssignment\\Collector::getMany<\/a>"],[0,1,"<a href=\"reviewAssignment\/Collector.php.html#86\">PKP\\submission\\reviewAssignment\\Collector::filterByContextIds<\/a>"],[0,1,"<a href=\"reviewAssignment\/Collector.php.html#95\">PKP\\submission\\reviewAssignment\\Collector::filterBySubmissionIds<\/a>"],[0,1,"<a href=\"reviewAssignment\/Collector.php.html#106\">PKP\\submission\\reviewAssignment\\Collector::filterByIsIncomplete<\/a>"],[0,1,"<a href=\"reviewAssignment\/Collector.php.html#115\">PKP\\submission\\reviewAssignment\\Collector::filterByIsArchived<\/a>"],[0,1,"<a href=\"reviewAssignment\/Collector.php.html#124\">PKP\\submission\\reviewAssignment\\Collector::filterByIsOverdue<\/a>"],[0,1,"<a href=\"reviewAssignment\/Collector.php.html#133\">PKP\\submission\\reviewAssignment\\Collector::filterByReviewRoundIds<\/a>"],[0,1,"<a href=\"reviewAssignment\/Collector.php.html#139\">PKP\\submission\\reviewAssignment\\Collector::filterByReviewerIds<\/a>"],[0,1,"<a href=\"reviewAssignment\/Collector.php.html#145\">PKP\\submission\\reviewAssignment\\Collector::filterByLastReviewRound<\/a>"],[0,1,"<a href=\"reviewAssignment\/Collector.php.html#154\">PKP\\submission\\reviewAssignment\\Collector::filterByReviewMethods<\/a>"],[0,1,"<a href=\"reviewAssignment\/Collector.php.html#163\">PKP\\submission\\reviewAssignment\\Collector::filterByStageId<\/a>"],[0,1,"<a href=\"reviewAssignment\/Collector.php.html#169\">PKP\\submission\\reviewAssignment\\Collector::filterByReviewFormIds<\/a>"],[0,1,"<a href=\"reviewAssignment\/Collector.php.html#178\">PKP\\submission\\reviewAssignment\\Collector::limit<\/a>"],[0,1,"<a href=\"reviewAssignment\/Collector.php.html#188\">PKP\\submission\\reviewAssignment\\Collector::offset<\/a>"],[0,1,"<a href=\"reviewAssignment\/Collector.php.html#197\">PKP\\submission\\reviewAssignment\\Collector::orderByContextId<\/a>"],[0,1,"<a href=\"reviewAssignment\/Collector.php.html#207\">PKP\\submission\\reviewAssignment\\Collector::orderBySubmissionId<\/a>"],[0,2,"<a href=\"reviewAssignment\/Collector.php.html#217\">PKP\\submission\\reviewAssignment\\Collector::getQueryBuilder<\/a>"],[0,1,"<a href=\"reviewAssignment\/Collector.php.html#370\">PKP\\submission\\reviewAssignment\\Collector::getViewsCountBuilder<\/a>"],[0,1,"<a href=\"reviewAssignment\/DAO.php.html#74\">PKP\\submission\\reviewAssignment\\DAO::newDataObject<\/a>"],[0,1,"<a href=\"reviewAssignment\/DAO.php.html#82\">PKP\\submission\\reviewAssignment\\DAO::exists<\/a>"],[0,2,"<a href=\"reviewAssignment\/DAO.php.html#93\">PKP\\submission\\reviewAssignment\\DAO::get<\/a>"],[0,1,"<a href=\"reviewAssignment\/DAO.php.html#106\">PKP\\submission\\reviewAssignment\\DAO::getCount<\/a>"],[0,1,"<a href=\"reviewAssignment\/DAO.php.html#119\">PKP\\submission\\reviewAssignment\\DAO::getIds<\/a>"],[0,2,"<a href=\"reviewAssignment\/DAO.php.html#131\">PKP\\submission\\reviewAssignment\\DAO::getMany<\/a>"],[0,1,"<a href=\"reviewAssignment\/DAO.php.html#147\">PKP\\submission\\reviewAssignment\\DAO::fromRow<\/a>"],[0,1,"<a href=\"reviewAssignment\/DAO.php.html#161\">PKP\\submission\\reviewAssignment\\DAO::insert<\/a>"],[0,1,"<a href=\"reviewAssignment\/DAO.php.html#169\">PKP\\submission\\reviewAssignment\\DAO::update<\/a>"],[0,1,"<a href=\"reviewAssignment\/DAO.php.html#177\">PKP\\submission\\reviewAssignment\\DAO::delete<\/a>"],[0,1,"<a href=\"reviewAssignment\/DAO.php.html#187\">PKP\\submission\\reviewAssignment\\DAO::getExternalReviewerIdsByCompletedYear<\/a>"],[0,1,"<a href=\"reviewAssignment\/Repository.php.html#44\">PKP\\submission\\reviewAssignment\\Repository::__construct<\/a>"],[0,2,"<a href=\"reviewAssignment\/Repository.php.html#52\">PKP\\submission\\reviewAssignment\\Repository::newDataObject<\/a>"],[0,1,"<a href=\"reviewAssignment\/Repository.php.html#62\">PKP\\submission\\reviewAssignment\\Repository::get<\/a>"],[0,1,"<a href=\"reviewAssignment\/Repository.php.html#68\">PKP\\submission\\reviewAssignment\\Repository::exists<\/a>"],[0,1,"<a href=\"reviewAssignment\/Repository.php.html#74\">PKP\\submission\\reviewAssignment\\Repository::getCollector<\/a>"],[0,1,"<a href=\"reviewAssignment\/Repository.php.html#83\">PKP\\submission\\reviewAssignment\\Repository::getSchemaMap<\/a>"],[0,9,"<a href=\"reviewAssignment\/Repository.php.html#99\">PKP\\submission\\reviewAssignment\\Repository::validate<\/a>"],[0,1,"<a href=\"reviewAssignment\/Repository.php.html#168\">PKP\\submission\\reviewAssignment\\Repository::add<\/a>"],[0,1,"<a href=\"reviewAssignment\/Repository.php.html#183\">PKP\\submission\\reviewAssignment\\Repository::edit<\/a>"],[0,1,"<a href=\"reviewAssignment\/Repository.php.html#200\">PKP\\submission\\reviewAssignment\\Repository::delete<\/a>"],[0,2,"<a href=\"reviewAssignment\/Repository.php.html#222\">PKP\\submission\\reviewAssignment\\Repository::deleteMany<\/a>"],[0,2,"<a href=\"reviewAssignment\/Repository.php.html#232\">PKP\\submission\\reviewAssignment\\Repository::deleteByContextId<\/a>"],[0,1,"<a href=\"reviewAssignment\/Repository.php.html#251\">PKP\\submission\\reviewAssignment\\Repository::getReviewMethodsTranslationKeys<\/a>"],[0,2,"<a href=\"reviewAssignment\/Repository.php.html#264\">PKP\\submission\\reviewAssignment\\Repository::updateReviewRoundStatus<\/a>"],[0,1,"<a href=\"reviewAssignment\/Repository.php.html#287\">PKP\\submission\\reviewAssignment\\Repository::getExternalReviewerIdsByCompletedYear<\/a>"],[0,1,"<a href=\"reviewAssignment\/ReviewAssignment.php.html#77\">PKP\\submission\\reviewAssignment\\ReviewAssignment::getSubmissionId<\/a>"],[0,1,"<a href=\"reviewAssignment\/ReviewAssignment.php.html#87\">PKP\\submission\\reviewAssignment\\ReviewAssignment::setSubmissionId<\/a>"],[0,1,"<a href=\"reviewAssignment\/ReviewAssignment.php.html#97\">PKP\\submission\\reviewAssignment\\ReviewAssignment::getReviewerId<\/a>"],[0,1,"<a href=\"reviewAssignment\/ReviewAssignment.php.html#107\">PKP\\submission\\reviewAssignment\\ReviewAssignment::setReviewerId<\/a>"],[0,1,"<a href=\"reviewAssignment\/ReviewAssignment.php.html#117\">PKP\\submission\\reviewAssignment\\ReviewAssignment::getReviewerFullName<\/a>"],[0,1,"<a href=\"reviewAssignment\/ReviewAssignment.php.html#127\">PKP\\submission\\reviewAssignment\\ReviewAssignment::setReviewerFullName<\/a>"],[0,1,"<a href=\"reviewAssignment\/ReviewAssignment.php.html#137\">PKP\\submission\\reviewAssignment\\ReviewAssignment::getComments<\/a>"],[0,1,"<a href=\"reviewAssignment\/ReviewAssignment.php.html#147\">PKP\\submission\\reviewAssignment\\ReviewAssignment::setComments<\/a>"],[0,1,"<a href=\"reviewAssignment\/ReviewAssignment.php.html#157\">PKP\\submission\\reviewAssignment\\ReviewAssignment::getCompetingInterests<\/a>"],[0,1,"<a href=\"reviewAssignment\/ReviewAssignment.php.html#167\">PKP\\submission\\reviewAssignment\\ReviewAssignment::setCompetingInterests<\/a>"],[0,1,"<a href=\"reviewAssignment\/ReviewAssignment.php.html#177\">PKP\\submission\\reviewAssignment\\ReviewAssignment::getStageId<\/a>"],[0,1,"<a href=\"reviewAssignment\/ReviewAssignment.php.html#187\">PKP\\submission\\reviewAssignment\\ReviewAssignment::setStageId<\/a>"],[0,1,"<a href=\"reviewAssignment\/ReviewAssignment.php.html#197\">PKP\\submission\\reviewAssignment\\ReviewAssignment::getReviewMethod<\/a>"],[0,1,"<a href=\"reviewAssignment\/ReviewAssignment.php.html#207\">PKP\\submission\\reviewAssignment\\ReviewAssignment::setReviewMethod<\/a>"],[0,1,"<a href=\"reviewAssignment\/ReviewAssignment.php.html#217\">PKP\\submission\\reviewAssignment\\ReviewAssignment::getReviewRoundId<\/a>"],[0,1,"<a href=\"reviewAssignment\/ReviewAssignment.php.html#227\">PKP\\submission\\reviewAssignment\\ReviewAssignment::setReviewRoundId<\/a>"],[0,1,"<a href=\"reviewAssignment\/ReviewAssignment.php.html#237\">PKP\\submission\\reviewAssignment\\ReviewAssignment::getRecommendation<\/a>"],[0,1,"<a href=\"reviewAssignment\/ReviewAssignment.php.html#247\">PKP\\submission\\reviewAssignment\\ReviewAssignment::setRecommendation<\/a>"],[0,1,"<a href=\"reviewAssignment\/ReviewAssignment.php.html#257\">PKP\\submission\\reviewAssignment\\ReviewAssignment::getConsidered<\/a>"],[0,1,"<a href=\"reviewAssignment\/ReviewAssignment.php.html#267\">PKP\\submission\\reviewAssignment\\ReviewAssignment::setConsidered<\/a>"],[0,1,"<a href=\"reviewAssignment\/ReviewAssignment.php.html#277\">PKP\\submission\\reviewAssignment\\ReviewAssignment::getDateRated<\/a>"],[0,1,"<a href=\"reviewAssignment\/ReviewAssignment.php.html#287\">PKP\\submission\\reviewAssignment\\ReviewAssignment::setDateRated<\/a>"],[0,1,"<a href=\"reviewAssignment\/ReviewAssignment.php.html#297\">PKP\\submission\\reviewAssignment\\ReviewAssignment::getLastModified<\/a>"],[0,1,"<a href=\"reviewAssignment\/ReviewAssignment.php.html#307\">PKP\\submission\\reviewAssignment\\ReviewAssignment::setLastModified<\/a>"],[0,1,"<a href=\"reviewAssignment\/ReviewAssignment.php.html#315\">PKP\\submission\\reviewAssignment\\ReviewAssignment::stampModified<\/a>"],[0,1,"<a href=\"reviewAssignment\/ReviewAssignment.php.html#325\">PKP\\submission\\reviewAssignment\\ReviewAssignment::getDateAssigned<\/a>"],[0,1,"<a href=\"reviewAssignment\/ReviewAssignment.php.html#335\">PKP\\submission\\reviewAssignment\\ReviewAssignment::setDateAssigned<\/a>"],[0,1,"<a href=\"reviewAssignment\/ReviewAssignment.php.html#345\">PKP\\submission\\reviewAssignment\\ReviewAssignment::getDateNotified<\/a>"],[0,1,"<a href=\"reviewAssignment\/ReviewAssignment.php.html#355\">PKP\\submission\\reviewAssignment\\ReviewAssignment::setDateNotified<\/a>"],[0,1,"<a href=\"reviewAssignment\/ReviewAssignment.php.html#365\">PKP\\submission\\reviewAssignment\\ReviewAssignment::getDateConfirmed<\/a>"],[0,1,"<a href=\"reviewAssignment\/ReviewAssignment.php.html#375\">PKP\\submission\\reviewAssignment\\ReviewAssignment::setDateConfirmed<\/a>"],[0,1,"<a href=\"reviewAssignment\/ReviewAssignment.php.html#385\">PKP\\submission\\reviewAssignment\\ReviewAssignment::getDateCompleted<\/a>"],[0,1,"<a href=\"reviewAssignment\/ReviewAssignment.php.html#395\">PKP\\submission\\reviewAssignment\\ReviewAssignment::setDateCompleted<\/a>"],[0,1,"<a href=\"reviewAssignment\/ReviewAssignment.php.html#405\">PKP\\submission\\reviewAssignment\\ReviewAssignment::getDateAcknowledged<\/a>"],[0,1,"<a href=\"reviewAssignment\/ReviewAssignment.php.html#415\">PKP\\submission\\reviewAssignment\\ReviewAssignment::setDateAcknowledged<\/a>"],[0,1,"<a href=\"reviewAssignment\/ReviewAssignment.php.html#425\">PKP\\submission\\reviewAssignment\\ReviewAssignment::getDateReminded<\/a>"],[0,1,"<a href=\"reviewAssignment\/ReviewAssignment.php.html#435\">PKP\\submission\\reviewAssignment\\ReviewAssignment::setDateReminded<\/a>"],[0,1,"<a href=\"reviewAssignment\/ReviewAssignment.php.html#445\">PKP\\submission\\reviewAssignment\\ReviewAssignment::getDateDue<\/a>"],[0,1,"<a href=\"reviewAssignment\/ReviewAssignment.php.html#455\">PKP\\submission\\reviewAssignment\\ReviewAssignment::setDateDue<\/a>"],[0,1,"<a href=\"reviewAssignment\/ReviewAssignment.php.html#465\">PKP\\submission\\reviewAssignment\\ReviewAssignment::getDateResponseDue<\/a>"],[0,1,"<a href=\"reviewAssignment\/ReviewAssignment.php.html#475\">PKP\\submission\\reviewAssignment\\ReviewAssignment::setDateResponseDue<\/a>"],[0,1,"<a href=\"reviewAssignment\/ReviewAssignment.php.html#485\">PKP\\submission\\reviewAssignment\\ReviewAssignment::getDeclined<\/a>"],[0,1,"<a href=\"reviewAssignment\/ReviewAssignment.php.html#495\">PKP\\submission\\reviewAssignment\\ReviewAssignment::setDeclined<\/a>"],[0,1,"<a href=\"reviewAssignment\/ReviewAssignment.php.html#505\">PKP\\submission\\reviewAssignment\\ReviewAssignment::getCancelled<\/a>"],[0,1,"<a href=\"reviewAssignment\/ReviewAssignment.php.html#515\">PKP\\submission\\reviewAssignment\\ReviewAssignment::setCancelled<\/a>"],[0,1,"<a href=\"reviewAssignment\/ReviewAssignment.php.html#525\">PKP\\submission\\reviewAssignment\\ReviewAssignment::getRequestResent<\/a>"],[0,1,"<a href=\"reviewAssignment\/ReviewAssignment.php.html#535\">PKP\\submission\\reviewAssignment\\ReviewAssignment::setRequestResent<\/a>"],[0,2,"<a href=\"reviewAssignment\/ReviewAssignment.php.html#545\">PKP\\submission\\reviewAssignment\\ReviewAssignment::getReminderWasAutomatic<\/a>"],[0,1,"<a href=\"reviewAssignment\/ReviewAssignment.php.html#555\">PKP\\submission\\reviewAssignment\\ReviewAssignment::setReminderWasAutomatic<\/a>"],[0,1,"<a href=\"reviewAssignment\/ReviewAssignment.php.html#565\">PKP\\submission\\reviewAssignment\\ReviewAssignment::getQuality<\/a>"],[0,1,"<a href=\"reviewAssignment\/ReviewAssignment.php.html#575\">PKP\\submission\\reviewAssignment\\ReviewAssignment::setQuality<\/a>"],[0,1,"<a href=\"reviewAssignment\/ReviewAssignment.php.html#585\">PKP\\submission\\reviewAssignment\\ReviewAssignment::getRound<\/a>"],[0,1,"<a href=\"reviewAssignment\/ReviewAssignment.php.html#595\">PKP\\submission\\reviewAssignment\\ReviewAssignment::setRound<\/a>"],[0,1,"<a href=\"reviewAssignment\/ReviewAssignment.php.html#605\">PKP\\submission\\reviewAssignment\\ReviewAssignment::getStep<\/a>"],[0,1,"<a href=\"reviewAssignment\/ReviewAssignment.php.html#615\">PKP\\submission\\reviewAssignment\\ReviewAssignment::setStep<\/a>"],[0,1,"<a href=\"reviewAssignment\/ReviewAssignment.php.html#625\">PKP\\submission\\reviewAssignment\\ReviewAssignment::getReviewFormId<\/a>"],[0,1,"<a href=\"reviewAssignment\/ReviewAssignment.php.html#635\">PKP\\submission\\reviewAssignment\\ReviewAssignment::setReviewFormId<\/a>"],[0,17,"<a href=\"reviewAssignment\/ReviewAssignment.php.html#645\">PKP\\submission\\reviewAssignment\\ReviewAssignment::getStatus<\/a>"],[0,3,"<a href=\"reviewAssignment\/ReviewAssignment.php.html#703\">PKP\\submission\\reviewAssignment\\ReviewAssignment::isRead<\/a>"],[0,12,"<a href=\"reviewAssignment\/ReviewAssignment.php.html#720\">PKP\\submission\\reviewAssignment\\ReviewAssignment::getStatusKey<\/a>"],[0,5,"<a href=\"reviewAssignment\/ReviewAssignment.php.html#762\">PKP\\submission\\reviewAssignment\\ReviewAssignment::getReviewMethodKey<\/a>"],[0,2,"<a href=\"reviewAssignment\/ReviewAssignment.php.html#791\">PKP\\submission\\reviewAssignment\\ReviewAssignment::getWeeksDue<\/a>"],[0,1,"<a href=\"reviewAssignment\/ReviewAssignment.php.html#806\">PKP\\submission\\reviewAssignment\\ReviewAssignment::getReviewerRecommendationOptions<\/a>"],[0,2,"<a href=\"reviewAssignment\/ReviewAssignment.php.html#823\">PKP\\submission\\reviewAssignment\\ReviewAssignment::getLocalizedRecommendation<\/a>"],[0,3,"<a href=\"reviewAssignment\/ReviewAssignment.php.html#836\">PKP\\submission\\reviewAssignment\\ReviewAssignment::canResendReviewRequest<\/a>"],[0,1,"<a href=\"reviewAssignment\/maps\/Schema.php.html#33\">PKP\\submission\\reviewAssignment\\maps\\Schema::map<\/a>"],[0,1,"<a href=\"reviewAssignment\/maps\/Schema.php.html#43\">PKP\\submission\\reviewAssignment\\maps\\Schema::summarize<\/a>"],[0,1,"<a href=\"reviewAssignment\/maps\/Schema.php.html#53\">PKP\\submission\\reviewAssignment\\maps\\Schema::mapMany<\/a>"],[0,1,"<a href=\"reviewAssignment\/maps\/Schema.php.html#78\">PKP\\submission\\reviewAssignment\\maps\\Schema::summarizeMany<\/a>"],[0,7,"<a href=\"reviewAssignment\/maps\/Schema.php.html#101\">PKP\\submission\\reviewAssignment\\maps\\Schema::mapByProperties<\/a>"],[0,1,"<a href=\"reviewRound\/ReviewRound.php.html#73\">PKP\\submission\\reviewRound\\ReviewRound::getSubmissionId<\/a>"],[0,1,"<a href=\"reviewRound\/ReviewRound.php.html#83\">PKP\\submission\\reviewRound\\ReviewRound::setSubmissionId<\/a>"],[0,1,"<a href=\"reviewRound\/ReviewRound.php.html#93\">PKP\\submission\\reviewRound\\ReviewRound::getStageId<\/a>"],[0,1,"<a href=\"reviewRound\/ReviewRound.php.html#103\">PKP\\submission\\reviewRound\\ReviewRound::setStageId<\/a>"],[0,1,"<a href=\"reviewRound\/ReviewRound.php.html#113\">PKP\\submission\\reviewRound\\ReviewRound::getRound<\/a>"],[0,1,"<a href=\"reviewRound\/ReviewRound.php.html#121\">PKP\\submission\\reviewRound\\ReviewRound::setRound<\/a>"],[0,1,"<a href=\"reviewRound\/ReviewRound.php.html#131\">PKP\\submission\\reviewRound\\ReviewRound::getStatus<\/a>"],[0,1,"<a href=\"reviewRound\/ReviewRound.php.html#141\">PKP\\submission\\reviewRound\\ReviewRound::setStatus<\/a>"],[0,30,"<a href=\"reviewRound\/ReviewRound.php.html#156\">PKP\\submission\\reviewRound\\ReviewRound::determineStatus<\/a>"],[0,20,"<a href=\"reviewRound\/ReviewRound.php.html#299\">PKP\\submission\\reviewRound\\ReviewRound::getStatusKey<\/a>"],[0,5,"<a href=\"reviewRound\/ReviewRoundDAO.php.html#41\">PKP\\submission\\reviewRound\\ReviewRoundDAO::build<\/a>"],[0,1,"<a href=\"reviewRound\/ReviewRoundDAO.php.html#75\">PKP\\submission\\reviewRound\\ReviewRoundDAO::newDataObject<\/a>"],[0,1,"<a href=\"reviewRound\/ReviewRoundDAO.php.html#87\">PKP\\submission\\reviewRound\\ReviewRoundDAO::insertObject<\/a>"],[0,1,"<a href=\"reviewRound\/ReviewRoundDAO.php.html#111\">PKP\\submission\\reviewRound\\ReviewRoundDAO::updateObject<\/a>"],[0,2,"<a href=\"reviewRound\/ReviewRoundDAO.php.html#138\">PKP\\submission\\reviewRound\\ReviewRoundDAO::getReviewRound<\/a>"],[0,2,"<a href=\"reviewRound\/ReviewRoundDAO.php.html#155\">PKP\\submission\\reviewRound\\ReviewRoundDAO::getById<\/a>"],[0,2,"<a href=\"reviewRound\/ReviewRoundDAO.php.html#172\">PKP\\submission\\reviewRound\\ReviewRoundDAO::getBySubmissionFileId<\/a>"],[0,1,"<a href=\"reviewRound\/ReviewRoundDAO.php.html#195\">PKP\\submission\\reviewRound\\ReviewRoundDAO::getBySubmissionId<\/a>"],[0,4,"<a href=\"reviewRound\/ReviewRoundDAO.php.html#215\">PKP\\submission\\reviewRound\\ReviewRoundDAO::getCurrentRoundBySubmissionId<\/a>"],[0,4,"<a href=\"reviewRound\/ReviewRoundDAO.php.html#240\">PKP\\submission\\reviewRound\\ReviewRoundDAO::getLastReviewRoundBySubmissionId<\/a>"],[0,3,"<a href=\"reviewRound\/ReviewRoundDAO.php.html#262\">PKP\\submission\\reviewRound\\ReviewRoundDAO::submissionHasReviewRound<\/a>"],[0,3,"<a href=\"reviewRound\/ReviewRoundDAO.php.html#286\">PKP\\submission\\reviewRound\\ReviewRoundDAO::updateStatus<\/a>"],[0,2,"<a href=\"reviewRound\/ReviewRoundDAO.php.html#311\">PKP\\submission\\reviewRound\\ReviewRoundDAO::deleteBySubmissionId<\/a>"],[0,1,"<a href=\"reviewRound\/ReviewRoundDAO.php.html#323\">PKP\\submission\\reviewRound\\ReviewRoundDAO::deleteByContextId<\/a>"],[0,1,"<a href=\"reviewRound\/ReviewRoundDAO.php.html#336\">PKP\\submission\\reviewRound\\ReviewRoundDAO::deleteObject<\/a>"],[0,1,"<a href=\"reviewRound\/ReviewRoundDAO.php.html#344\">PKP\\submission\\reviewRound\\ReviewRoundDAO::deleteById<\/a>"],[0,1,"<a href=\"reviewRound\/ReviewRoundDAO.php.html#366\">PKP\\submission\\reviewRound\\ReviewRoundDAO::_fromRow<\/a>"],[0,3,"<a href=\"reviewRound\/ReviewRoundDAO.php.html#390\">PKP\\submission\\reviewRound\\ReviewRoundDAO::getReviewRoundCountBySubmissionId<\/a>"],[0,8,"<a href=\"reviewer\/ReviewerAction.php.html#51\">PKP\\submission\\reviewer\\ReviewerAction::confirmReview<\/a>"],[0,7,"<a href=\"reviewer\/ReviewerAction.php.html#117\">PKP\\submission\\reviewer\\ReviewerAction::getResponseEmail<\/a>"],[0,3,"<a href=\"reviewer\/form\/PKPReviewerReviewStep1Form.php.html#35\">PKP\\submission\\reviewer\\form\\PKPReviewerReviewStep1Form::__construct<\/a>"],[0,2,"<a href=\"reviewer\/form\/PKPReviewerReviewStep1Form.php.html#53\">PKP\\submission\\reviewer\\form\\PKPReviewerReviewStep1Form::fetch<\/a>"],[0,1,"<a href=\"reviewer\/form\/PKPReviewerReviewStep1Form.php.html#118\">PKP\\submission\\reviewer\\form\\PKPReviewerReviewStep1Form::readInputData<\/a>"],[0,3,"<a href=\"reviewer\/form\/PKPReviewerReviewStep1Form.php.html#126\">PKP\\submission\\reviewer\\form\\PKPReviewerReviewStep1Form::execute<\/a>"],[0,1,"<a href=\"reviewer\/form\/PKPReviewerReviewStep2Form.php.html#29\">PKP\\submission\\reviewer\\form\\PKPReviewerReviewStep2Form::__construct<\/a>"],[0,3,"<a href=\"reviewer\/form\/PKPReviewerReviewStep2Form.php.html#43\">PKP\\submission\\reviewer\\form\\PKPReviewerReviewStep2Form::fetch<\/a>"],[0,1,"<a href=\"reviewer\/form\/PKPReviewerReviewStep2Form.php.html#62\">PKP\\submission\\reviewer\\form\\PKPReviewerReviewStep2Form::execute<\/a>"],[0,4,"<a href=\"reviewer\/form\/PKPReviewerReviewStep3Form.php.html#51\">PKP\\submission\\reviewer\\form\\PKPReviewerReviewStep3Form::__construct<\/a>"],[0,3,"<a href=\"reviewer\/form\/PKPReviewerReviewStep3Form.php.html#74\">PKP\\submission\\reviewer\\form\\PKPReviewerReviewStep3Form::initData<\/a>"],[0,1,"<a href=\"reviewer\/form\/PKPReviewerReviewStep3Form.php.html#98\">PKP\\submission\\reviewer\\form\\PKPReviewerReviewStep3Form::readInputData<\/a>"],[0,4,"<a href=\"reviewer\/form\/PKPReviewerReviewStep3Form.php.html#110\">PKP\\submission\\reviewer\\form\\PKPReviewerReviewStep3Form::fetch<\/a>"],[0,7,"<a href=\"reviewer\/form\/PKPReviewerReviewStep3Form.php.html#150\">PKP\\submission\\reviewer\\form\\PKPReviewerReviewStep3Form::execute<\/a>"],[0,1,"<a href=\"reviewer\/form\/PKPReviewerReviewStep3Form.php.html#267\">PKP\\submission\\reviewer\\form\\PKPReviewerReviewStep3Form::saveForLater<\/a>"],[0,19,"<a href=\"reviewer\/form\/PKPReviewerReviewStep3Form.php.html#287\">PKP\\submission\\reviewer\\form\\PKPReviewerReviewStep3Form::saveReviewForm<\/a>"],[0,1,"<a href=\"reviewer\/form\/ReviewerReviewForm.php.html#42\">PKP\\submission\\reviewer\\form\\ReviewerReviewForm::__construct<\/a>"],[0,1,"<a href=\"reviewer\/form\/ReviewerReviewForm.php.html#60\">PKP\\submission\\reviewer\\form\\ReviewerReviewForm::getReviewSubmission<\/a>"],[0,1,"<a href=\"reviewer\/form\/ReviewerReviewForm.php.html#68\">PKP\\submission\\reviewer\\form\\ReviewerReviewForm::getReviewAssignment<\/a>"],[0,1,"<a href=\"reviewer\/form\/ReviewerReviewForm.php.html#76\">PKP\\submission\\reviewer\\form\\ReviewerReviewForm::getStep<\/a>"],[0,2,"<a href=\"reviewer\/form\/ReviewerReviewForm.php.html#90\">PKP\\submission\\reviewer\\form\\ReviewerReviewForm::fetch<\/a>"],[0,2,"<a href=\"reviewer\/form\/ReviewerReviewForm.php.html#112\">PKP\\submission\\reviewer\\form\\ReviewerReviewForm::updateReviewStepAndSaveSubmission<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

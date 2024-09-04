@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /var/www/html/ojs-main/lib/pkp/classes/components/listPanels</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../../_css/bootstrap.min.css?v=11.0.5" rel="stylesheet" type="text/css">
+  <link href="../../../_css/nv.d3.min.css?v=11.0.5" rel="stylesheet" type="text/css">
+  <link href="../../../_css/style.css?v=11.0.5" rel="stylesheet" type="text/css">
+  <link href="../../../_css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="../../../index.html">/var/www/html/ojs-main/lib/pkp</a></li>
+         <li class="breadcrumb-item"><a href="../../index.html">classes</a></li>
+         <li class="breadcrumb-item"><a href="../index.html">components</a></li>
+         <li class="breadcrumb-item"><a href="index.html">listPanels</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="ContributorsListPanel.php.html#23">PKP\components\listPanels\ContributorsListPanel</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HighlightsListPanel.php.html#20">PKP\components\listPanels\HighlightsListPanel</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ListPanel.php.html#18">PKP\components\listPanels\ListPanel</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPAnnouncementsListPanel.php.html#18">PKP\components\listPanels\PKPAnnouncementsListPanel</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPDoiListPanel.php.html#25">PKP\components\listPanels\PKPDoiListPanel</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPInstitutionsListPanel.php.html#20">PKP\components\listPanels\PKPInstitutionsListPanel</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPSelectReviewerListPanel.php.html#22">PKP\components\listPanels\PKPSelectReviewerListPanel</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPSubmissionsListPanel.php.html#28">PKP\components\listPanels\PKPSubmissionsListPanel</a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="PKPSelectReviewerListPanel.php.html#22">PKP\components\listPanels\PKPSelectReviewerListPanel</a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="PKPSubmissionsListPanel.php.html#28">PKP\components\listPanels\PKPSubmissionsListPanel</a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="ListPanel.php.html#18">PKP\components\listPanels\ListPanel</a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="ContributorsListPanel.php.html#23">PKP\components\listPanels\ContributorsListPanel</a></td><td class="text-right">42</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="ContributorsListPanel.php.html#32"><abbr title="PKP\components\listPanels\ContributorsListPanel::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ContributorsListPanel.php.html#52"><abbr title="PKP\components\listPanels\ContributorsListPanel::getConfig">getConfig</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ContributorsListPanel.php.html#80"><abbr title="PKP\components\listPanels\ContributorsListPanel::getPublicationUrlFormat">getPublicationUrlFormat</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ContributorsListPanel.php.html#93"><abbr title="PKP\components\listPanels\ContributorsListPanel::getLocalizedForm">getLocalizedForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ContributorsListPanel.php.html#118"><abbr title="PKP\components\listPanels\ContributorsListPanel::getForm">getForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HighlightsListPanel.php.html#34"><abbr title="PKP\components\listPanels\HighlightsListPanel::getConfig">getConfig</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ListPanel.php.html#51"><abbr title="PKP\components\listPanels\ListPanel::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ListPanel.php.html#64"><abbr title="PKP\components\listPanels\ListPanel::set">set</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ListPanel.php.html#81"><abbr title="PKP\components\listPanels\ListPanel::getConfig">getConfig</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPAnnouncementsListPanel.php.html#38"><abbr title="PKP\components\listPanels\PKPAnnouncementsListPanel::getConfig">getConfig</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPDoiListPanel.php.html#67"><abbr title="PKP\components\listPanels\PKPDoiListPanel::getConfig">getConfig</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPDoiListPanel.php.html#155"><abbr title="PKP\components\listPanels\PKPDoiListPanel::setAppConfig">setAppConfig</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPInstitutionsListPanel.php.html#40"><abbr title="PKP\components\listPanels\PKPInstitutionsListPanel::getConfig">getConfig</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPSelectReviewerListPanel.php.html#54"><abbr title="PKP\components\listPanels\PKPSelectReviewerListPanel::set">set</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPSelectReviewerListPanel.php.html#64"><abbr title="PKP\components\listPanels\PKPSelectReviewerListPanel::getConfig">getConfig</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPSelectReviewerListPanel.php.html#170"><abbr title="PKP\components\listPanels\PKPSelectReviewerListPanel::getItems">getItems</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPSelectReviewerListPanel.php.html#187"><abbr title="PKP\components\listPanels\PKPSelectReviewerListPanel::getItemsMax">getItemsMax</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPSelectReviewerListPanel.php.html#195"><abbr title="PKP\components\listPanels\PKPSelectReviewerListPanel::_getCollector">_getCollector</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPSubmissionsListPanel.php.html#57"><abbr title="PKP\components\listPanels\PKPSubmissionsListPanel::getConfig">getConfig</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPSubmissionsListPanel.php.html#218"><abbr title="PKP\components\listPanels\PKPSubmissionsListPanel::getCategoryFilters">getCategoryFilters</abbr></a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="PKPSubmissionsListPanel.php.html#57"><abbr title="PKP\components\listPanels\PKPSubmissionsListPanel::getConfig">getConfig</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="ListPanel.php.html#64"><abbr title="PKP\components\listPanels\ListPanel::set">set</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="ListPanel.php.html#81"><abbr title="PKP\components\listPanels\ListPanel::getConfig">getConfig</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="PKPSelectReviewerListPanel.php.html#54"><abbr title="PKP\components\listPanels\PKPSelectReviewerListPanel::set">set</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="PKPSelectReviewerListPanel.php.html#64"><abbr title="PKP\components\listPanels\PKPSelectReviewerListPanel::getConfig">getConfig</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="PKPSubmissionsListPanel.php.html#218"><abbr title="PKP\components\listPanels\PKPSubmissionsListPanel::getCategoryFilters">getCategoryFilters</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="ContributorsListPanel.php.html#93"><abbr title="PKP\components\listPanels\ContributorsListPanel::getLocalizedForm">getLocalizedForm</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="PKPDoiListPanel.php.html#67"><abbr title="PKP\components\listPanels\PKPDoiListPanel::getConfig">getConfig</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="PKPSelectReviewerListPanel.php.html#170"><abbr title="PKP\components\listPanels\PKPSelectReviewerListPanel::getItems">getItems</abbr></a></td><td class="text-right">6</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 11.0.5</a> using <a href="https://www.php.net/" target="_top">PHP 8.3.11</a> and <a href="https://phpunit.de/">PHPUnit 11.2.8</a> at Wed Sep 4 13:31:09 UTC 2024.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../../../_js/jquery.min.js?v=11.0.5" type="text/javascript"></script>
+  <script src="../../../_js/d3.min.js?v=11.0.5" type="text/javascript"></script>
+  <script src="../../../_js/nv.d3.min.js?v=11.0.5" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([8,0,0,0,0,0,0,0,0,0,0,0], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([20,0,0,0,0,0,0,0,0,0,0,0], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[0,6,"<a href=\"ContributorsListPanel.php.html#23\">PKP\\components\\listPanels\\ContributorsListPanel<\/a>"],[0,1,"<a href=\"HighlightsListPanel.php.html#20\">PKP\\components\\listPanels\\HighlightsListPanel<\/a>"],[0,7,"<a href=\"ListPanel.php.html#18\">PKP\\components\\listPanels\\ListPanel<\/a>"],[0,1,"<a href=\"PKPAnnouncementsListPanel.php.html#18\">PKP\\components\\listPanels\\PKPAnnouncementsListPanel<\/a>"],[0,2,"<a href=\"PKPDoiListPanel.php.html#25\">PKP\\components\\listPanels\\PKPDoiListPanel<\/a>"],[0,1,"<a href=\"PKPInstitutionsListPanel.php.html#20\">PKP\\components\\listPanels\\PKPInstitutionsListPanel<\/a>"],[0,10,"<a href=\"PKPSelectReviewerListPanel.php.html#22\">PKP\\components\\listPanels\\PKPSelectReviewerListPanel<\/a>"],[0,8,"<a href=\"PKPSubmissionsListPanel.php.html#28\">PKP\\components\\listPanels\\PKPSubmissionsListPanel<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[0,1,"<a href=\"ContributorsListPanel.php.html#32\">PKP\\components\\listPanels\\ContributorsListPanel::__construct<\/a>"],[0,1,"<a href=\"ContributorsListPanel.php.html#52\">PKP\\components\\listPanels\\ContributorsListPanel::getConfig<\/a>"],[0,1,"<a href=\"ContributorsListPanel.php.html#80\">PKP\\components\\listPanels\\ContributorsListPanel::getPublicationUrlFormat<\/a>"],[0,2,"<a href=\"ContributorsListPanel.php.html#93\">PKP\\components\\listPanels\\ContributorsListPanel::getLocalizedForm<\/a>"],[0,1,"<a href=\"ContributorsListPanel.php.html#118\">PKP\\components\\listPanels\\ContributorsListPanel::getForm<\/a>"],[0,1,"<a href=\"HighlightsListPanel.php.html#34\">PKP\\components\\listPanels\\HighlightsListPanel::getConfig<\/a>"],[0,1,"<a href=\"ListPanel.php.html#51\">PKP\\components\\listPanels\\ListPanel::__construct<\/a>"],[0,3,"<a href=\"ListPanel.php.html#64\">PKP\\components\\listPanels\\ListPanel::set<\/a>"],[0,3,"<a href=\"ListPanel.php.html#81\">PKP\\components\\listPanels\\ListPanel::getConfig<\/a>"],[0,1,"<a href=\"PKPAnnouncementsListPanel.php.html#38\">PKP\\components\\listPanels\\PKPAnnouncementsListPanel::getConfig<\/a>"],[0,2,"<a href=\"PKPDoiListPanel.php.html#67\">PKP\\components\\listPanels\\PKPDoiListPanel::getConfig<\/a>"],[0,0,"<a href=\"PKPDoiListPanel.php.html#155\">PKP\\components\\listPanels\\PKPDoiListPanel::setAppConfig<\/a>"],[0,1,"<a href=\"PKPInstitutionsListPanel.php.html#40\">PKP\\components\\listPanels\\PKPInstitutionsListPanel::getConfig<\/a>"],[0,3,"<a href=\"PKPSelectReviewerListPanel.php.html#54\">PKP\\components\\listPanels\\PKPSelectReviewerListPanel::set<\/a>"],[0,3,"<a href=\"PKPSelectReviewerListPanel.php.html#64\">PKP\\components\\listPanels\\PKPSelectReviewerListPanel::getConfig<\/a>"],[0,2,"<a href=\"PKPSelectReviewerListPanel.php.html#170\">PKP\\components\\listPanels\\PKPSelectReviewerListPanel::getItems<\/a>"],[0,1,"<a href=\"PKPSelectReviewerListPanel.php.html#187\">PKP\\components\\listPanels\\PKPSelectReviewerListPanel::getItemsMax<\/a>"],[0,1,"<a href=\"PKPSelectReviewerListPanel.php.html#195\">PKP\\components\\listPanels\\PKPSelectReviewerListPanel::_getCollector<\/a>"],[0,5,"<a href=\"PKPSubmissionsListPanel.php.html#57\">PKP\\components\\listPanels\\PKPSubmissionsListPanel::getConfig<\/a>"],[0,3,"<a href=\"PKPSubmissionsListPanel.php.html#218\">PKP\\components\\listPanels\\PKPSubmissionsListPanel::getCategoryFilters<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

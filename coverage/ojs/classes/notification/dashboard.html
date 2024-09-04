@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /var/www/html/ojs-main/lib/pkp/classes/notification</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../_css/bootstrap.min.css?v=11.0.5" rel="stylesheet" type="text/css">
+  <link href="../../_css/nv.d3.min.css?v=11.0.5" rel="stylesheet" type="text/css">
+  <link href="../../_css/style.css?v=11.0.5" rel="stylesheet" type="text/css">
+  <link href="../../_css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="../../index.html">/var/www/html/ojs-main/lib/pkp</a></li>
+         <li class="breadcrumb-item"><a href="../index.html">classes</a></li>
+         <li class="breadcrumb-item"><a href="index.html">notification</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Notification.php.html#22">PKP\notification\Notification</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="NotificationManagerDelegate.php.html#25">PKP\notification\NotificationManagerDelegate</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="NotificationSettingsDAO.php.html#23">PKP\notification\NotificationSettingsDAO</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="NotificationSubscriptionSettingsDAO.php.html#28">PKP\notification\NotificationSubscriptionSettingsDAO</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPNotificationManager.php.html#39">PKP\notification\PKPNotificationManager</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPNotificationOperationManager.php.html#36">PKP\notification\PKPNotificationOperationManager</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Repository.php.html#21">PKP\notification\Repository</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="form/PKPNotificationSettingsForm.php.html#32">PKP\notification\form\PKPNotificationSettingsForm</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="form/PKPNotificationsUnsubscribeForm.php.html#30">PKP\notification\form\PKPNotificationsUnsubscribeForm</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="managerDelegate/AnnouncementNotificationManager.php.html#27">PKP\notification\managerDelegate\AnnouncementNotificationManager</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="managerDelegate/EditorAssignmentNotificationManager.php.html#26">PKP\notification\managerDelegate\EditorAssignmentNotificationManager</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="managerDelegate/EditorDecisionNotificationManager.php.html#25">PKP\notification\managerDelegate\EditorDecisionNotificationManager</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="managerDelegate/EditorialReportNotificationManager.php.html#27">PKP\notification\managerDelegate\EditorialReportNotificationManager</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="managerDelegate/PKPApproveSubmissionNotificationManager.php.html#26">PKP\notification\managerDelegate\PKPApproveSubmissionNotificationManager</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="managerDelegate/PKPEditingProductionStatusNotificationManager.php.html#31">PKP\notification\managerDelegate\PKPEditingProductionStatusNotificationManager</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="managerDelegate/PendingRevisionsNotificationManager.php.html#31">PKP\notification\managerDelegate\PendingRevisionsNotificationManager</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="managerDelegate/QueryNotificationManager.php.html#34">PKP\notification\managerDelegate\QueryNotificationManager</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="managerDelegate/SubmissionNotificationManager.php.html#27">PKP\notification\managerDelegate\SubmissionNotificationManager</a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="PKPNotificationManager.php.html#39">PKP\notification\PKPNotificationManager</a></td><td class="text-right">19182</td></tr>
+       <tr><td><a href="PKPNotificationOperationManager.php.html#36">PKP\notification\PKPNotificationOperationManager</a></td><td class="text-right">1892</td></tr>
+       <tr><td><a href="managerDelegate/PKPEditingProductionStatusNotificationManager.php.html#31">PKP\notification\managerDelegate\PKPEditingProductionStatusNotificationManager</a></td><td class="text-right">1260</td></tr>
+       <tr><td><a href="managerDelegate/EditorDecisionNotificationManager.php.html#25">PKP\notification\managerDelegate\EditorDecisionNotificationManager</a></td><td class="text-right">756</td></tr>
+       <tr><td><a href="managerDelegate/EditorAssignmentNotificationManager.php.html#26">PKP\notification\managerDelegate\EditorAssignmentNotificationManager</a></td><td class="text-right">380</td></tr>
+       <tr><td><a href="managerDelegate/QueryNotificationManager.php.html#34">PKP\notification\managerDelegate\QueryNotificationManager</a></td><td class="text-right">272</td></tr>
+       <tr><td><a href="managerDelegate/SubmissionNotificationManager.php.html#27">PKP\notification\managerDelegate\SubmissionNotificationManager</a></td><td class="text-right">272</td></tr>
+       <tr><td><a href="form/PKPNotificationSettingsForm.php.html#32">PKP\notification\form\PKPNotificationSettingsForm</a></td><td class="text-right">210</td></tr>
+       <tr><td><a href="managerDelegate/PendingRevisionsNotificationManager.php.html#31">PKP\notification\managerDelegate\PendingRevisionsNotificationManager</a></td><td class="text-right">210</td></tr>
+       <tr><td><a href="managerDelegate/PKPApproveSubmissionNotificationManager.php.html#26">PKP\notification\managerDelegate\PKPApproveSubmissionNotificationManager</a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="form/PKPNotificationsUnsubscribeForm.php.html#30">PKP\notification\form\PKPNotificationsUnsubscribeForm</a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="NotificationSettingsDAO.php.html#23">PKP\notification\NotificationSettingsDAO</a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="NotificationManagerDelegate.php.html#25">PKP\notification\NotificationManagerDelegate</a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="NotificationSubscriptionSettingsDAO.php.html#28">PKP\notification\NotificationSubscriptionSettingsDAO</a></td><td class="text-right">30</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Notification.php.html#109"><abbr title="PKP\notification\Notification::casts">casts</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Notification.php.html#122"><abbr title="PKP\notification\Notification::id">id</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Notification.php.html#135"><abbr title="PKP\notification\Notification::getId">getId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Notification.php.html#145"><abbr title="PKP\notification\Notification::scopeWithContextId">scopeWithContextId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Notification.php.html#157"><abbr title="PKP\notification\Notification::scopeWithUserId">scopeWithUserId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Notification.php.html#169"><abbr title="PKP\notification\Notification::scopeWithAssoc">scopeWithAssoc</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Notification.php.html#178"><abbr title="PKP\notification\Notification::scopeWithLevel">scopeWithLevel</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Notification.php.html#186"><abbr title="PKP\notification\Notification::scopeWithType">scopeWithType</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Notification.php.html#194"><abbr title="PKP\notification\Notification::scopeWithRead">scopeWithRead</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="NotificationManagerDelegate.php.html#33"><abbr title="PKP\notification\NotificationManagerDelegate::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="NotificationManagerDelegate.php.html#41"><abbr title="PKP\notification\NotificationManagerDelegate::getNotificationType">getNotificationType</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="NotificationManagerDelegate.php.html#49"><abbr title="PKP\notification\NotificationManagerDelegate::updateNotification">updateNotification</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="NotificationManagerDelegate.php.html#59"><abbr title="PKP\notification\NotificationManagerDelegate::createNotification">createNotification</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="NotificationManagerDelegate.php.html#72"><abbr title="PKP\notification\NotificationManagerDelegate::multipleTypesUpdate">multipleTypesUpdate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="NotificationSettingsDAO.php.html#28"><abbr title="PKP\notification\NotificationSettingsDAO::getNotificationSettings">getNotificationSettings</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="NotificationSettingsDAO.php.html#53"><abbr title="PKP\notification\NotificationSettingsDAO::updateNotificationSetting">updateNotificationSetting</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="NotificationSubscriptionSettingsDAO.php.html#39"><abbr title="PKP\notification\NotificationSubscriptionSettingsDAO::deleteNotificationSubscriptionSettings">deleteNotificationSubscriptionSettings</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="NotificationSubscriptionSettingsDAO.php.html#53"><abbr title="PKP\notification\NotificationSubscriptionSettingsDAO::getNotificationSubscriptionSettings">getNotificationSubscriptionSettings</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="NotificationSubscriptionSettingsDAO.php.html#67"><abbr title="PKP\notification\NotificationSubscriptionSettingsDAO::updateNotificationSubscriptionSettings">updateNotificationSubscriptionSettings</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="NotificationSubscriptionSettingsDAO.php.html#93"><abbr title="PKP\notification\NotificationSubscriptionSettingsDAO::getSubscribedUserIds">getSubscribedUserIds</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPNotificationManager.php.html#46"><abbr title="PKP\notification\PKPNotificationManager::getNotificationUrl">getNotificationUrl</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPNotificationManager.php.html#120"><abbr title="PKP\notification\PKPNotificationManager::getNotificationMessage">getNotificationMessage</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPNotificationManager.php.html#224"><abbr title="PKP\notification\PKPNotificationManager::getNotificationContents">getNotificationContents</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPNotificationManager.php.html#255"><abbr title="PKP\notification\PKPNotificationManager::getNotificationTitle">getNotificationTitle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPNotificationManager.php.html#280"><abbr title="PKP\notification\PKPNotificationManager::getStyleClass">getStyleClass</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPNotificationManager.php.html#306"><abbr title="PKP\notification\PKPNotificationManager::getIconClass">getIconClass</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPNotificationManager.php.html#330"><abbr title="PKP\notification\PKPNotificationManager::isVisibleToAllUsers">isVisibleToAllUsers</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPNotificationManager.php.html#363"><abbr title="PKP\notification\PKPNotificationManager::updateNotification">updateNotification</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPNotificationManager.php.html#378"><abbr title="PKP\notification\PKPNotificationManager::getNotificationSettingsMap">getNotificationSettingsMap</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPNotificationManager.php.html#413"><abbr title="PKP\notification\PKPNotificationManager::getDecisionStageNotifications">getDecisionStageNotifications</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPNotificationManager.php.html#428"><abbr title="PKP\notification\PKPNotificationManager::getNotificationTypeByEditorDecision">getNotificationTypeByEditorDecision</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPNotificationManager.php.html#449"><abbr title="PKP\notification\PKPNotificationManager::getMgrDelegate">getMgrDelegate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPNotificationManager.php.html#506"><abbr title="PKP\notification\PKPNotificationManager::getByDelegate">getByDelegate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPNotificationManager.php.html#521"><abbr title="PKP\notification\PKPNotificationManager::getNotificationSettings">getNotificationSettings</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPNotificationManager.php.html#530"><abbr title="PKP\notification\PKPNotificationManager::_getTranslatedKeyWithParameters">_getTranslatedKeyWithParameters</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPNotificationOperationManager.php.html#44"><abbr title="PKP\notification\PKPNotificationOperationManager::getNotificationUrl">getNotificationUrl</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPNotificationOperationManager.php.html#52"><abbr title="PKP\notification\PKPNotificationOperationManager::getNotificationMessage">getNotificationMessage</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPNotificationOperationManager.php.html#62"><abbr title="PKP\notification\PKPNotificationOperationManager::getNotificationContents">getNotificationContents</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPNotificationOperationManager.php.html#70"><abbr title="PKP\notification\PKPNotificationOperationManager::getNotificationTitle">getNotificationTitle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPNotificationOperationManager.php.html#78"><abbr title="PKP\notification\PKPNotificationOperationManager::getStyleClass">getStyleClass</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPNotificationOperationManager.php.html#86"><abbr title="PKP\notification\PKPNotificationOperationManager::getIconClass">getIconClass</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPNotificationOperationManager.php.html#94"><abbr title="PKP\notification\PKPNotificationOperationManager::isVisibleToAllUsers">isVisibleToAllUsers</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPNotificationOperationManager.php.html#109"><abbr title="PKP\notification\PKPNotificationOperationManager::getParamsForCurrentLocale">getParamsForCurrentLocale</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPNotificationOperationManager.php.html#143"><abbr title="PKP\notification\PKPNotificationOperationManager::createNotification">createNotification</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPNotificationOperationManager.php.html#172"><abbr title="PKP\notification\PKPNotificationOperationManager::createTrivialNotification">createTrivialNotification</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPNotificationOperationManager.php.html#197"><abbr title="PKP\notification\PKPNotificationOperationManager::deleteTrivialNotifications">deleteTrivialNotifications</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPNotificationOperationManager.php.html#210"><abbr title="PKP\notification\PKPNotificationOperationManager::formatToGeneralNotification">formatToGeneralNotification</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPNotificationOperationManager.php.html#229"><abbr title="PKP\notification\PKPNotificationOperationManager::formatToInPlaceNotification">formatToInPlaceNotification</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPNotificationOperationManager.php.html#244"><abbr title="PKP\notification\PKPNotificationOperationManager::getUserBlockedNotifications">getUserBlockedNotifications</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPNotificationOperationManager.php.html#253"><abbr title="PKP\notification\PKPNotificationOperationManager::getUserBlockedEmailedNotifications">getUserBlockedEmailedNotifications</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPNotificationOperationManager.php.html#262"><abbr title="PKP\notification\PKPNotificationOperationManager::fetchLinkActionNotificationContent">fetchLinkActionNotificationContent</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPNotificationOperationManager.php.html#272"><abbr title="PKP\notification\PKPNotificationOperationManager::formatNotification">formatNotification</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPNotificationOperationManager.php.html#304"><abbr title="PKP\notification\PKPNotificationOperationManager::createUnsubscribeUniqueKey">createUnsubscribeUniqueKey</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPNotificationOperationManager.php.html#313"><abbr title="PKP\notification\PKPNotificationOperationManager::createUnsubscribeToken">createUnsubscribeToken</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPNotificationOperationManager.php.html#326"><abbr title="PKP\notification\PKPNotificationOperationManager::validateUnsubscribeToken">validateUnsubscribeToken</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPNotificationOperationManager.php.html#341"><abbr title="PKP\notification\PKPNotificationOperationManager::getUnsubscribeNotificationUrl">getUnsubscribeNotificationUrl</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Repository.php.html#26"><abbr title="PKP\notification\Repository::build">build</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Repository.php.html#43"><abbr title="PKP\notification\Repository::transfer">transfer</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="form/PKPNotificationSettingsForm.php.html#37"><abbr title="PKP\notification\form\PKPNotificationSettingsForm::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="form/PKPNotificationSettingsForm.php.html#49"><abbr title="PKP\notification\form\PKPNotificationSettingsForm::readInputData">readInputData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="form/PKPNotificationSettingsForm.php.html#65"><abbr title="PKP\notification\form\PKPNotificationSettingsForm::getNotificationSettingsMap">getNotificationSettingsMap</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="form/PKPNotificationSettingsForm.php.html#77"><abbr title="PKP\notification\form\PKPNotificationSettingsForm::getNotificationSettingCategories">getNotificationSettingCategories</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="form/PKPNotificationSettingsForm.php.html#122"><abbr title="PKP\notification\form\PKPNotificationSettingsForm::fetch">fetch</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="form/PKPNotificationSettingsForm.php.html#141"><abbr title="PKP\notification\form\PKPNotificationSettingsForm::execute">execute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="form/PKPNotificationsUnsubscribeForm.php.html#44"><abbr title="PKP\notification\form\PKPNotificationsUnsubscribeForm::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="form/PKPNotificationsUnsubscribeForm.php.html#59"><abbr title="PKP\notification\form\PKPNotificationsUnsubscribeForm::readInputData">readInputData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="form/PKPNotificationsUnsubscribeForm.php.html#74"><abbr title="PKP\notification\form\PKPNotificationsUnsubscribeForm::getNotificationSettingsMap">getNotificationSettingsMap</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="form/PKPNotificationsUnsubscribeForm.php.html#85"><abbr title="PKP\notification\form\PKPNotificationsUnsubscribeForm::fetch">fetch</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="form/PKPNotificationsUnsubscribeForm.php.html#116"><abbr title="PKP\notification\form\PKPNotificationsUnsubscribeForm::execute">execute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="managerDelegate/AnnouncementNotificationManager.php.html#37"><abbr title="PKP\notification\managerDelegate\AnnouncementNotificationManager::initialize">initialize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="managerDelegate/AnnouncementNotificationManager.php.html#45"><abbr title="PKP\notification\managerDelegate\AnnouncementNotificationManager::getNotificationMessage">getNotificationMessage</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="managerDelegate/AnnouncementNotificationManager.php.html#53"><abbr title="PKP\notification\managerDelegate\AnnouncementNotificationManager::getNotificationContents">getNotificationContents</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="managerDelegate/AnnouncementNotificationManager.php.html#61"><abbr title="PKP\notification\managerDelegate\AnnouncementNotificationManager::getNotificationUrl">getNotificationUrl</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="managerDelegate/AnnouncementNotificationManager.php.html#76"><abbr title="PKP\notification\managerDelegate\AnnouncementNotificationManager::getIconClass">getIconClass</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="managerDelegate/AnnouncementNotificationManager.php.html#84"><abbr title="PKP\notification\managerDelegate\AnnouncementNotificationManager::getStyleClass">getStyleClass</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="managerDelegate/AnnouncementNotificationManager.php.html#96"><abbr title="PKP\notification\managerDelegate\AnnouncementNotificationManager::notify">notify</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="managerDelegate/EditorAssignmentNotificationManager.php.html#31"><abbr title="PKP\notification\managerDelegate\EditorAssignmentNotificationManager::getNotificationMessage">getNotificationMessage</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="managerDelegate/EditorAssignmentNotificationManager.php.html#45"><abbr title="PKP\notification\managerDelegate\EditorAssignmentNotificationManager::getStyleClass">getStyleClass</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="managerDelegate/EditorAssignmentNotificationManager.php.html#53"><abbr title="PKP\notification\managerDelegate\EditorAssignmentNotificationManager::isVisibleToAllUsers">isVisibleToAllUsers</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="managerDelegate/EditorAssignmentNotificationManager.php.html#67"><abbr title="PKP\notification\managerDelegate\EditorAssignmentNotificationManager::updateNotification">updateNotification</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="managerDelegate/EditorAssignmentNotificationManager.php.html#112"><abbr title="PKP\notification\managerDelegate\EditorAssignmentNotificationManager::_getStageIdByNotificationType">_getStageIdByNotificationType</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="managerDelegate/EditorDecisionNotificationManager.php.html#30"><abbr title="PKP\notification\managerDelegate\EditorDecisionNotificationManager::getNotificationMessage">getNotificationMessage</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="managerDelegate/EditorDecisionNotificationManager.php.html#49"><abbr title="PKP\notification\managerDelegate\EditorDecisionNotificationManager::getStyleClass">getStyleClass</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="managerDelegate/EditorDecisionNotificationManager.php.html#57"><abbr title="PKP\notification\managerDelegate\EditorDecisionNotificationManager::getNotificationTitle">getNotificationTitle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="managerDelegate/EditorDecisionNotificationManager.php.html#65"><abbr title="PKP\notification\managerDelegate\EditorDecisionNotificationManager::updateNotification">updateNotification</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="managerDelegate/EditorDecisionNotificationManager.php.html#110"><abbr title="PKP\notification\managerDelegate\EditorDecisionNotificationManager::getNotificationUrl">getNotificationUrl</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="managerDelegate/EditorDecisionNotificationManager.php.html#135"><abbr title="PKP\notification\managerDelegate\EditorDecisionNotificationManager::_getAllEditorDecisionNotificationTypes">_getAllEditorDecisionNotificationTypes</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="managerDelegate/EditorDecisionNotificationManager.php.html#153"><abbr title="PKP\notification\managerDelegate\EditorDecisionNotificationManager::_getNotificationTaskLevel">_getNotificationTaskLevel</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="managerDelegate/EditorialReportNotificationManager.php.html#35"><abbr title="PKP\notification\managerDelegate\EditorialReportNotificationManager::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="managerDelegate/EditorialReportNotificationManager.php.html#46"><abbr title="PKP\notification\managerDelegate\EditorialReportNotificationManager::initialize">initialize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="managerDelegate/EditorialReportNotificationManager.php.html#54"><abbr title="PKP\notification\managerDelegate\EditorialReportNotificationManager::getNotificationMessage">getNotificationMessage</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="managerDelegate/EditorialReportNotificationManager.php.html#62"><abbr title="PKP\notification\managerDelegate\EditorialReportNotificationManager::getNotificationUrl">getNotificationUrl</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="managerDelegate/EditorialReportNotificationManager.php.html#72"><abbr title="PKP\notification\managerDelegate\EditorialReportNotificationManager::getIconClass">getIconClass</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="managerDelegate/EditorialReportNotificationManager.php.html#80"><abbr title="PKP\notification\managerDelegate\EditorialReportNotificationManager::getStyleClass">getStyleClass</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="managerDelegate/EditorialReportNotificationManager.php.html#92"><abbr title="PKP\notification\managerDelegate\EditorialReportNotificationManager::notify">notify</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="managerDelegate/PKPApproveSubmissionNotificationManager.php.html#31"><abbr title="PKP\notification\managerDelegate\PKPApproveSubmissionNotificationManager::getNotificationUrl">getNotificationUrl</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="managerDelegate/PKPApproveSubmissionNotificationManager.php.html#41"><abbr title="PKP\notification\managerDelegate\PKPApproveSubmissionNotificationManager::getStyleClass">getStyleClass</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="managerDelegate/PKPApproveSubmissionNotificationManager.php.html#49"><abbr title="PKP\notification\managerDelegate\PKPApproveSubmissionNotificationManager::isVisibleToAllUsers">isVisibleToAllUsers</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="managerDelegate/PKPApproveSubmissionNotificationManager.php.html#57"><abbr title="PKP\notification\managerDelegate\PKPApproveSubmissionNotificationManager::updateNotification">updateNotification</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="managerDelegate/PKPApproveSubmissionNotificationManager.php.html#97"><abbr title="PKP\notification\managerDelegate\PKPApproveSubmissionNotificationManager::multipleTypesUpdate">multipleTypesUpdate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="managerDelegate/PKPEditingProductionStatusNotificationManager.php.html#36"><abbr title="PKP\notification\managerDelegate\PKPEditingProductionStatusNotificationManager::getNotificationMessage">getNotificationMessage</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="managerDelegate/PKPEditingProductionStatusNotificationManager.php.html#49"><abbr title="PKP\notification\managerDelegate\PKPEditingProductionStatusNotificationManager::getNotificationUrl">getNotificationUrl</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="managerDelegate/PKPEditingProductionStatusNotificationManager.php.html#71"><abbr title="PKP\notification\managerDelegate\PKPEditingProductionStatusNotificationManager::getStyleClass">getStyleClass</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="managerDelegate/PKPEditingProductionStatusNotificationManager.php.html#79"><abbr title="PKP\notification\managerDelegate\PKPEditingProductionStatusNotificationManager::updateNotification">updateNotification</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="managerDelegate/PKPEditingProductionStatusNotificationManager.php.html#210"><abbr title="PKP\notification\managerDelegate\PKPEditingProductionStatusNotificationManager::_removeNotification">_removeNotification</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="managerDelegate/PKPEditingProductionStatusNotificationManager.php.html#222"><abbr title="PKP\notification\managerDelegate\PKPEditingProductionStatusNotificationManager::_createNotification">_createNotification</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="managerDelegate/PendingRevisionsNotificationManager.php.html#36"><abbr title="PKP\notification\managerDelegate\PendingRevisionsNotificationManager::getStyleClass">getStyleClass</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="managerDelegate/PendingRevisionsNotificationManager.php.html#44"><abbr title="PKP\notification\managerDelegate\PendingRevisionsNotificationManager::getNotificationUrl">getNotificationUrl</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="managerDelegate/PendingRevisionsNotificationManager.php.html#53"><abbr title="PKP\notification\managerDelegate\PendingRevisionsNotificationManager::getNotificationMessage">getNotificationMessage</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="managerDelegate/PendingRevisionsNotificationManager.php.html#64"><abbr title="PKP\notification\managerDelegate\PendingRevisionsNotificationManager::getNotificationContents">getNotificationContents</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="managerDelegate/PendingRevisionsNotificationManager.php.html#86"><abbr title="PKP\notification\managerDelegate\PendingRevisionsNotificationManager::getNotificationTitle">getNotificationTitle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="managerDelegate/PendingRevisionsNotificationManager.php.html#96"><abbr title="PKP\notification\managerDelegate\PendingRevisionsNotificationManager::updateNotification">updateNotification</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="managerDelegate/PendingRevisionsNotificationManager.php.html#159"><abbr title="PKP\notification\managerDelegate\PendingRevisionsNotificationManager::_getStageDataByType">_getStageDataByType</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="managerDelegate/QueryNotificationManager.php.html#39"><abbr title="PKP\notification\managerDelegate\QueryNotificationManager::getNotificationMessage">getNotificationMessage</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="managerDelegate/QueryNotificationManager.php.html#77"><abbr title="PKP\notification\managerDelegate\QueryNotificationManager::getQuerySubmission">getQuerySubmission</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="managerDelegate/QueryNotificationManager.php.html#94"><abbr title="PKP\notification\managerDelegate\QueryNotificationManager::getNotificationUrl">getNotificationUrl</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="managerDelegate/QueryNotificationManager.php.html#113"><abbr title="PKP\notification\managerDelegate\QueryNotificationManager::getNotificationContents">getNotificationContents</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="managerDelegate/QueryNotificationManager.php.html#146"><abbr title="PKP\notification\managerDelegate\QueryNotificationManager::getStyleClass">getStyleClass</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="managerDelegate/SubmissionNotificationManager.php.html#32"><abbr title="PKP\notification\managerDelegate\SubmissionNotificationManager::getNotificationMessage">getNotificationMessage</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="managerDelegate/SubmissionNotificationManager.php.html#49"><abbr title="PKP\notification\managerDelegate\SubmissionNotificationManager::getNotificationUrl">getNotificationUrl</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="managerDelegate/SubmissionNotificationManager.php.html#77"><abbr title="PKP\notification\managerDelegate\SubmissionNotificationManager::getIconClass">getIconClass</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="managerDelegate/SubmissionNotificationManager.php.html#88"><abbr title="PKP\notification\managerDelegate\SubmissionNotificationManager::getStyleClass">getStyleClass</abbr></a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="PKPNotificationManager.php.html#120"><abbr title="PKP\notification\PKPNotificationManager::getNotificationMessage">getNotificationMessage</abbr></a></td><td class="text-right">930</td></tr>
+       <tr><td><a href="PKPNotificationManager.php.html#449"><abbr title="PKP\notification\PKPNotificationManager::getMgrDelegate">getMgrDelegate</abbr></a></td><td class="text-right">930</td></tr>
+       <tr><td><a href="managerDelegate/PKPEditingProductionStatusNotificationManager.php.html#79"><abbr title="PKP\notification\managerDelegate\PKPEditingProductionStatusNotificationManager::updateNotification">updateNotification</abbr></a></td><td class="text-right">420</td></tr>
+       <tr><td><a href="PKPNotificationManager.php.html#46"><abbr title="PKP\notification\PKPNotificationManager::getNotificationUrl">getNotificationUrl</abbr></a></td><td class="text-right">380</td></tr>
+       <tr><td><a href="PKPNotificationManager.php.html#280"><abbr title="PKP\notification\PKPNotificationManager::getStyleClass">getStyleClass</abbr></a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="managerDelegate/EditorDecisionNotificationManager.php.html#30"><abbr title="PKP\notification\managerDelegate\EditorDecisionNotificationManager::getNotificationMessage">getNotificationMessage</abbr></a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="PKPNotificationManager.php.html#428"><abbr title="PKP\notification\PKPNotificationManager::getNotificationTypeByEditorDecision">getNotificationTypeByEditorDecision</abbr></a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="PKPNotificationManager.php.html#306"><abbr title="PKP\notification\PKPNotificationManager::getIconClass">getIconClass</abbr></a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="PKPNotificationManager.php.html#330"><abbr title="PKP\notification\PKPNotificationManager::isVisibleToAllUsers">isVisibleToAllUsers</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="PKPNotificationOperationManager.php.html#109"><abbr title="PKP\notification\PKPNotificationOperationManager::getParamsForCurrentLocale">getParamsForCurrentLocale</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="managerDelegate/EditorAssignmentNotificationManager.php.html#112"><abbr title="PKP\notification\managerDelegate\EditorAssignmentNotificationManager::_getStageIdByNotificationType">_getStageIdByNotificationType</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="managerDelegate/EditorDecisionNotificationManager.php.html#65"><abbr title="PKP\notification\managerDelegate\EditorDecisionNotificationManager::updateNotification">updateNotification</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="PKPNotificationManager.php.html#224"><abbr title="PKP\notification\PKPNotificationManager::getNotificationContents">getNotificationContents</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="managerDelegate/EditorAssignmentNotificationManager.php.html#67"><abbr title="PKP\notification\managerDelegate\EditorAssignmentNotificationManager::updateNotification">updateNotification</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="managerDelegate/PKPApproveSubmissionNotificationManager.php.html#57"><abbr title="PKP\notification\managerDelegate\PKPApproveSubmissionNotificationManager::updateNotification">updateNotification</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="managerDelegate/PKPEditingProductionStatusNotificationManager.php.html#49"><abbr title="PKP\notification\managerDelegate\PKPEditingProductionStatusNotificationManager::getNotificationUrl">getNotificationUrl</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="managerDelegate/PendingRevisionsNotificationManager.php.html#96"><abbr title="PKP\notification\managerDelegate\PendingRevisionsNotificationManager::updateNotification">updateNotification</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="NotificationSettingsDAO.php.html#53"><abbr title="PKP\notification\NotificationSettingsDAO::updateNotificationSetting">updateNotificationSetting</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="PKPNotificationManager.php.html#255"><abbr title="PKP\notification\PKPNotificationManager::getNotificationTitle">getNotificationTitle</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="PKPNotificationOperationManager.php.html#143"><abbr title="PKP\notification\PKPNotificationOperationManager::createNotification">createNotification</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="form/PKPNotificationSettingsForm.php.html#141"><abbr title="PKP\notification\form\PKPNotificationSettingsForm::execute">execute</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="managerDelegate/PKPEditingProductionStatusNotificationManager.php.html#36"><abbr title="PKP\notification\managerDelegate\PKPEditingProductionStatusNotificationManager::getNotificationMessage">getNotificationMessage</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="managerDelegate/QueryNotificationManager.php.html#39"><abbr title="PKP\notification\managerDelegate\QueryNotificationManager::getNotificationMessage">getNotificationMessage</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="managerDelegate/SubmissionNotificationManager.php.html#32"><abbr title="PKP\notification\managerDelegate\SubmissionNotificationManager::getNotificationMessage">getNotificationMessage</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="managerDelegate/SubmissionNotificationManager.php.html#49"><abbr title="PKP\notification\managerDelegate\SubmissionNotificationManager::getNotificationUrl">getNotificationUrl</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="managerDelegate/EditorAssignmentNotificationManager.php.html#31"><abbr title="PKP\notification\managerDelegate\EditorAssignmentNotificationManager::getNotificationMessage">getNotificationMessage</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="managerDelegate/QueryNotificationManager.php.html#113"><abbr title="PKP\notification\managerDelegate\QueryNotificationManager::getNotificationContents">getNotificationContents</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="NotificationSettingsDAO.php.html#28"><abbr title="PKP\notification\NotificationSettingsDAO::getNotificationSettings">getNotificationSettings</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="PKPNotificationManager.php.html#363"><abbr title="PKP\notification\PKPNotificationManager::updateNotification">updateNotification</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="PKPNotificationOperationManager.php.html#172"><abbr title="PKP\notification\PKPNotificationOperationManager::createTrivialNotification">createTrivialNotification</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="PKPNotificationOperationManager.php.html#197"><abbr title="PKP\notification\PKPNotificationOperationManager::deleteTrivialNotifications">deleteTrivialNotifications</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="PKPNotificationOperationManager.php.html#272"><abbr title="PKP\notification\PKPNotificationOperationManager::formatNotification">formatNotification</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="PKPNotificationOperationManager.php.html#341"><abbr title="PKP\notification\PKPNotificationOperationManager::getUnsubscribeNotificationUrl">getUnsubscribeNotificationUrl</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="form/PKPNotificationSettingsForm.php.html#77"><abbr title="PKP\notification\form\PKPNotificationSettingsForm::getNotificationSettingCategories">getNotificationSettingCategories</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="form/PKPNotificationsUnsubscribeForm.php.html#116"><abbr title="PKP\notification\form\PKPNotificationsUnsubscribeForm::execute">execute</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="managerDelegate/EditorDecisionNotificationManager.php.html#110"><abbr title="PKP\notification\managerDelegate\EditorDecisionNotificationManager::getNotificationUrl">getNotificationUrl</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="managerDelegate/EditorDecisionNotificationManager.php.html#153"><abbr title="PKP\notification\managerDelegate\EditorDecisionNotificationManager::_getNotificationTaskLevel">_getNotificationTaskLevel</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="managerDelegate/PendingRevisionsNotificationManager.php.html#159"><abbr title="PKP\notification\managerDelegate\PendingRevisionsNotificationManager::_getStageDataByType">_getStageDataByType</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="managerDelegate/QueryNotificationManager.php.html#77"><abbr title="PKP\notification\managerDelegate\QueryNotificationManager::getQuerySubmission">getQuerySubmission</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="managerDelegate/QueryNotificationManager.php.html#94"><abbr title="PKP\notification\managerDelegate\QueryNotificationManager::getNotificationUrl">getNotificationUrl</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="managerDelegate/SubmissionNotificationManager.php.html#77"><abbr title="PKP\notification\managerDelegate\SubmissionNotificationManager::getIconClass">getIconClass</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="managerDelegate/SubmissionNotificationManager.php.html#88"><abbr title="PKP\notification\managerDelegate\SubmissionNotificationManager::getStyleClass">getStyleClass</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="NotificationManagerDelegate.php.html#59"><abbr title="PKP\notification\NotificationManagerDelegate::createNotification">createNotification</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="NotificationSubscriptionSettingsDAO.php.html#67"><abbr title="PKP\notification\NotificationSubscriptionSettingsDAO::updateNotificationSubscriptionSettings">updateNotificationSubscriptionSettings</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="PKPNotificationManager.php.html#506"><abbr title="PKP\notification\PKPNotificationManager::getByDelegate">getByDelegate</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="PKPNotificationManager.php.html#521"><abbr title="PKP\notification\PKPNotificationManager::getNotificationSettings">getNotificationSettings</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="PKPNotificationOperationManager.php.html#210"><abbr title="PKP\notification\PKPNotificationOperationManager::formatToGeneralNotification">formatToGeneralNotification</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="PKPNotificationOperationManager.php.html#229"><abbr title="PKP\notification\PKPNotificationOperationManager::formatToInPlaceNotification">formatToInPlaceNotification</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="PKPNotificationOperationManager.php.html#313"><abbr title="PKP\notification\PKPNotificationOperationManager::createUnsubscribeToken">createUnsubscribeToken</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="PKPNotificationOperationManager.php.html#326"><abbr title="PKP\notification\PKPNotificationOperationManager::validateUnsubscribeToken">validateUnsubscribeToken</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="form/PKPNotificationSettingsForm.php.html#49"><abbr title="PKP\notification\form\PKPNotificationSettingsForm::readInputData">readInputData</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="form/PKPNotificationSettingsForm.php.html#122"><abbr title="PKP\notification\form\PKPNotificationSettingsForm::fetch">fetch</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="form/PKPNotificationsUnsubscribeForm.php.html#59"><abbr title="PKP\notification\form\PKPNotificationsUnsubscribeForm::readInputData">readInputData</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="form/PKPNotificationsUnsubscribeForm.php.html#85"><abbr title="PKP\notification\form\PKPNotificationsUnsubscribeForm::fetch">fetch</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="managerDelegate/PKPEditingProductionStatusNotificationManager.php.html#222"><abbr title="PKP\notification\managerDelegate\PKPEditingProductionStatusNotificationManager::_createNotification">_createNotification</abbr></a></td><td class="text-right">6</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 11.0.5</a> using <a href="https://www.php.net/" target="_top">PHP 8.3.11</a> and <a href="https://phpunit.de/">PHPUnit 11.2.8</a> at Wed Sep 4 13:31:09 UTC 2024.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../../_js/jquery.min.js?v=11.0.5" type="text/javascript"></script>
+  <script src="../../_js/d3.min.js?v=11.0.5" type="text/javascript"></script>
+  <script src="../../_js/nv.d3.min.js?v=11.0.5" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([18,0,0,0,0,0,0,0,0,0,0,0], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([122,0,0,0,0,0,0,0,0,0,0,0], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[0,9,"<a href=\"Notification.php.html#22\">PKP\\notification\\Notification<\/a>"],[0,6,"<a href=\"NotificationManagerDelegate.php.html#25\">PKP\\notification\\NotificationManagerDelegate<\/a>"],[0,8,"<a href=\"NotificationSettingsDAO.php.html#23\">PKP\\notification\\NotificationSettingsDAO<\/a>"],[0,5,"<a href=\"NotificationSubscriptionSettingsDAO.php.html#28\">PKP\\notification\\NotificationSubscriptionSettingsDAO<\/a>"],[0,138,"<a href=\"PKPNotificationManager.php.html#39\">PKP\\notification\\PKPNotificationManager<\/a>"],[0,43,"<a href=\"PKPNotificationOperationManager.php.html#36\">PKP\\notification\\PKPNotificationOperationManager<\/a>"],[0,2,"<a href=\"Repository.php.html#21\">PKP\\notification\\Repository<\/a>"],[0,14,"<a href=\"form\/PKPNotificationSettingsForm.php.html#32\">PKP\\notification\\form\\PKPNotificationSettingsForm<\/a>"],[0,9,"<a href=\"form\/PKPNotificationsUnsubscribeForm.php.html#30\">PKP\\notification\\form\\PKPNotificationsUnsubscribeForm<\/a>"],[0,7,"<a href=\"managerDelegate\/AnnouncementNotificationManager.php.html#27\">PKP\\notification\\managerDelegate\\AnnouncementNotificationManager<\/a>"],[0,19,"<a href=\"managerDelegate\/EditorAssignmentNotificationManager.php.html#26\">PKP\\notification\\managerDelegate\\EditorAssignmentNotificationManager<\/a>"],[0,27,"<a href=\"managerDelegate\/EditorDecisionNotificationManager.php.html#25\">PKP\\notification\\managerDelegate\\EditorDecisionNotificationManager<\/a>"],[0,7,"<a href=\"managerDelegate\/EditorialReportNotificationManager.php.html#27\">PKP\\notification\\managerDelegate\\EditorialReportNotificationManager<\/a>"],[0,10,"<a href=\"managerDelegate\/PKPApproveSubmissionNotificationManager.php.html#26\">PKP\\notification\\managerDelegate\\PKPApproveSubmissionNotificationManager<\/a>"],[0,35,"<a href=\"managerDelegate\/PKPEditingProductionStatusNotificationManager.php.html#31\">PKP\\notification\\managerDelegate\\PKPEditingProductionStatusNotificationManager<\/a>"],[0,14,"<a href=\"managerDelegate\/PendingRevisionsNotificationManager.php.html#31\">PKP\\notification\\managerDelegate\\PendingRevisionsNotificationManager<\/a>"],[0,16,"<a href=\"managerDelegate\/QueryNotificationManager.php.html#34\">PKP\\notification\\managerDelegate\\QueryNotificationManager<\/a>"],[0,16,"<a href=\"managerDelegate\/SubmissionNotificationManager.php.html#27\">PKP\\notification\\managerDelegate\\SubmissionNotificationManager<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[0,1,"<a href=\"Notification.php.html#109\">PKP\\notification\\Notification::casts<\/a>"],[0,1,"<a href=\"Notification.php.html#122\">PKP\\notification\\Notification::id<\/a>"],[0,1,"<a href=\"Notification.php.html#135\">PKP\\notification\\Notification::getId<\/a>"],[0,1,"<a href=\"Notification.php.html#145\">PKP\\notification\\Notification::scopeWithContextId<\/a>"],[0,1,"<a href=\"Notification.php.html#157\">PKP\\notification\\Notification::scopeWithUserId<\/a>"],[0,1,"<a href=\"Notification.php.html#169\">PKP\\notification\\Notification::scopeWithAssoc<\/a>"],[0,1,"<a href=\"Notification.php.html#178\">PKP\\notification\\Notification::scopeWithLevel<\/a>"],[0,1,"<a href=\"Notification.php.html#186\">PKP\\notification\\Notification::scopeWithType<\/a>"],[0,1,"<a href=\"Notification.php.html#194\">PKP\\notification\\Notification::scopeWithRead<\/a>"],[0,1,"<a href=\"NotificationManagerDelegate.php.html#33\">PKP\\notification\\NotificationManagerDelegate::__construct<\/a>"],[0,1,"<a href=\"NotificationManagerDelegate.php.html#41\">PKP\\notification\\NotificationManagerDelegate::getNotificationType<\/a>"],[0,1,"<a href=\"NotificationManagerDelegate.php.html#49\">PKP\\notification\\NotificationManagerDelegate::updateNotification<\/a>"],[0,2,"<a href=\"NotificationManagerDelegate.php.html#59\">PKP\\notification\\NotificationManagerDelegate::createNotification<\/a>"],[0,1,"<a href=\"NotificationManagerDelegate.php.html#72\">PKP\\notification\\NotificationManagerDelegate::multipleTypesUpdate<\/a>"],[0,3,"<a href=\"NotificationSettingsDAO.php.html#28\">PKP\\notification\\NotificationSettingsDAO::getNotificationSettings<\/a>"],[0,5,"<a href=\"NotificationSettingsDAO.php.html#53\">PKP\\notification\\NotificationSettingsDAO::updateNotificationSetting<\/a>"],[0,1,"<a href=\"NotificationSubscriptionSettingsDAO.php.html#39\">PKP\\notification\\NotificationSubscriptionSettingsDAO::deleteNotificationSubscriptionSettings<\/a>"],[0,1,"<a href=\"NotificationSubscriptionSettingsDAO.php.html#53\">PKP\\notification\\NotificationSubscriptionSettingsDAO::getNotificationSubscriptionSettings<\/a>"],[0,2,"<a href=\"NotificationSubscriptionSettingsDAO.php.html#67\">PKP\\notification\\NotificationSubscriptionSettingsDAO::updateNotificationSubscriptionSettings<\/a>"],[0,1,"<a href=\"NotificationSubscriptionSettingsDAO.php.html#93\">PKP\\notification\\NotificationSubscriptionSettingsDAO::getSubscribedUserIds<\/a>"],[0,19,"<a href=\"PKPNotificationManager.php.html#46\">PKP\\notification\\PKPNotificationManager::getNotificationUrl<\/a>"],[0,30,"<a href=\"PKPNotificationManager.php.html#120\">PKP\\notification\\PKPNotificationManager::getNotificationMessage<\/a>"],[0,6,"<a href=\"PKPNotificationManager.php.html#224\">PKP\\notification\\PKPNotificationManager::getNotificationContents<\/a>"],[0,5,"<a href=\"PKPNotificationManager.php.html#255\">PKP\\notification\\PKPNotificationManager::getNotificationTitle<\/a>"],[0,11,"<a href=\"PKPNotificationManager.php.html#280\">PKP\\notification\\PKPNotificationManager::getStyleClass<\/a>"],[0,9,"<a href=\"PKPNotificationManager.php.html#306\">PKP\\notification\\PKPNotificationManager::getIconClass<\/a>"],[0,8,"<a href=\"PKPNotificationManager.php.html#330\">PKP\\notification\\PKPNotificationManager::isVisibleToAllUsers<\/a>"],[0,3,"<a href=\"PKPNotificationManager.php.html#363\">PKP\\notification\\PKPNotificationManager::updateNotification<\/a>"],[0,1,"<a href=\"PKPNotificationManager.php.html#378\">PKP\\notification\\PKPNotificationManager::getNotificationSettingsMap<\/a>"],[0,1,"<a href=\"PKPNotificationManager.php.html#413\">PKP\\notification\\PKPNotificationManager::getDecisionStageNotifications<\/a>"],[0,10,"<a href=\"PKPNotificationManager.php.html#428\">PKP\\notification\\PKPNotificationManager::getNotificationTypeByEditorDecision<\/a>"],[0,30,"<a href=\"PKPNotificationManager.php.html#449\">PKP\\notification\\PKPNotificationManager::getMgrDelegate<\/a>"],[0,2,"<a href=\"PKPNotificationManager.php.html#506\">PKP\\notification\\PKPNotificationManager::getByDelegate<\/a>"],[0,2,"<a href=\"PKPNotificationManager.php.html#521\">PKP\\notification\\PKPNotificationManager::getNotificationSettings<\/a>"],[0,1,"<a href=\"PKPNotificationManager.php.html#530\">PKP\\notification\\PKPNotificationManager::_getTranslatedKeyWithParameters<\/a>"],[0,1,"<a href=\"PKPNotificationOperationManager.php.html#44\">PKP\\notification\\PKPNotificationOperationManager::getNotificationUrl<\/a>"],[0,1,"<a href=\"PKPNotificationOperationManager.php.html#52\">PKP\\notification\\PKPNotificationOperationManager::getNotificationMessage<\/a>"],[0,1,"<a href=\"PKPNotificationOperationManager.php.html#62\">PKP\\notification\\PKPNotificationOperationManager::getNotificationContents<\/a>"],[0,1,"<a href=\"PKPNotificationOperationManager.php.html#70\">PKP\\notification\\PKPNotificationOperationManager::getNotificationTitle<\/a>"],[0,1,"<a href=\"PKPNotificationOperationManager.php.html#78\">PKP\\notification\\PKPNotificationOperationManager::getStyleClass<\/a>"],[0,1,"<a href=\"PKPNotificationOperationManager.php.html#86\">PKP\\notification\\PKPNotificationOperationManager::getIconClass<\/a>"],[0,1,"<a href=\"PKPNotificationOperationManager.php.html#94\">PKP\\notification\\PKPNotificationOperationManager::isVisibleToAllUsers<\/a>"],[0,7,"<a href=\"PKPNotificationOperationManager.php.html#109\">PKP\\notification\\PKPNotificationOperationManager::getParamsForCurrentLocale<\/a>"],[0,5,"<a href=\"PKPNotificationOperationManager.php.html#143\">PKP\\notification\\PKPNotificationOperationManager::createNotification<\/a>"],[0,3,"<a href=\"PKPNotificationOperationManager.php.html#172\">PKP\\notification\\PKPNotificationOperationManager::createTrivialNotification<\/a>"],[0,3,"<a href=\"PKPNotificationOperationManager.php.html#197\">PKP\\notification\\PKPNotificationOperationManager::deleteTrivialNotifications<\/a>"],[0,2,"<a href=\"PKPNotificationOperationManager.php.html#210\">PKP\\notification\\PKPNotificationOperationManager::formatToGeneralNotification<\/a>"],[0,2,"<a href=\"PKPNotificationOperationManager.php.html#229\">PKP\\notification\\PKPNotificationOperationManager::formatToInPlaceNotification<\/a>"],[0,1,"<a href=\"PKPNotificationOperationManager.php.html#244\">PKP\\notification\\PKPNotificationOperationManager::getUserBlockedNotifications<\/a>"],[0,1,"<a href=\"PKPNotificationOperationManager.php.html#253\">PKP\\notification\\PKPNotificationOperationManager::getUserBlockedEmailedNotifications<\/a>"],[0,1,"<a href=\"PKPNotificationOperationManager.php.html#262\">PKP\\notification\\PKPNotificationOperationManager::fetchLinkActionNotificationContent<\/a>"],[0,3,"<a href=\"PKPNotificationOperationManager.php.html#272\">PKP\\notification\\PKPNotificationOperationManager::formatNotification<\/a>"],[0,1,"<a href=\"PKPNotificationOperationManager.php.html#304\">PKP\\notification\\PKPNotificationOperationManager::createUnsubscribeUniqueKey<\/a>"],[0,2,"<a href=\"PKPNotificationOperationManager.php.html#313\">PKP\\notification\\PKPNotificationOperationManager::createUnsubscribeToken<\/a>"],[0,2,"<a href=\"PKPNotificationOperationManager.php.html#326\">PKP\\notification\\PKPNotificationOperationManager::validateUnsubscribeToken<\/a>"],[0,3,"<a href=\"PKPNotificationOperationManager.php.html#341\">PKP\\notification\\PKPNotificationOperationManager::getUnsubscribeNotificationUrl<\/a>"],[0,1,"<a href=\"Repository.php.html#26\">PKP\\notification\\Repository::build<\/a>"],[0,1,"<a href=\"Repository.php.html#43\">PKP\\notification\\Repository::transfer<\/a>"],[0,1,"<a href=\"form\/PKPNotificationSettingsForm.php.html#37\">PKP\\notification\\form\\PKPNotificationSettingsForm::__construct<\/a>"],[0,2,"<a href=\"form\/PKPNotificationSettingsForm.php.html#49\">PKP\\notification\\form\\PKPNotificationSettingsForm::readInputData<\/a>"],[0,1,"<a href=\"form\/PKPNotificationSettingsForm.php.html#65\">PKP\\notification\\form\\PKPNotificationSettingsForm::getNotificationSettingsMap<\/a>"],[0,3,"<a href=\"form\/PKPNotificationSettingsForm.php.html#77\">PKP\\notification\\form\\PKPNotificationSettingsForm::getNotificationSettingCategories<\/a>"],[0,2,"<a href=\"form\/PKPNotificationSettingsForm.php.html#122\">PKP\\notification\\form\\PKPNotificationSettingsForm::fetch<\/a>"],[0,5,"<a href=\"form\/PKPNotificationSettingsForm.php.html#141\">PKP\\notification\\form\\PKPNotificationSettingsForm::execute<\/a>"],[0,1,"<a href=\"form\/PKPNotificationsUnsubscribeForm.php.html#44\">PKP\\notification\\form\\PKPNotificationsUnsubscribeForm::__construct<\/a>"],[0,2,"<a href=\"form\/PKPNotificationsUnsubscribeForm.php.html#59\">PKP\\notification\\form\\PKPNotificationsUnsubscribeForm::readInputData<\/a>"],[0,1,"<a href=\"form\/PKPNotificationsUnsubscribeForm.php.html#74\">PKP\\notification\\form\\PKPNotificationsUnsubscribeForm::getNotificationSettingsMap<\/a>"],[0,2,"<a href=\"form\/PKPNotificationsUnsubscribeForm.php.html#85\">PKP\\notification\\form\\PKPNotificationsUnsubscribeForm::fetch<\/a>"],[0,3,"<a href=\"form\/PKPNotificationsUnsubscribeForm.php.html#116\">PKP\\notification\\form\\PKPNotificationsUnsubscribeForm::execute<\/a>"],[0,1,"<a href=\"managerDelegate\/AnnouncementNotificationManager.php.html#37\">PKP\\notification\\managerDelegate\\AnnouncementNotificationManager::initialize<\/a>"],[0,1,"<a href=\"managerDelegate\/AnnouncementNotificationManager.php.html#45\">PKP\\notification\\managerDelegate\\AnnouncementNotificationManager::getNotificationMessage<\/a>"],[0,1,"<a href=\"managerDelegate\/AnnouncementNotificationManager.php.html#53\">PKP\\notification\\managerDelegate\\AnnouncementNotificationManager::getNotificationContents<\/a>"],[0,1,"<a href=\"managerDelegate\/AnnouncementNotificationManager.php.html#61\">PKP\\notification\\managerDelegate\\AnnouncementNotificationManager::getNotificationUrl<\/a>"],[0,1,"<a href=\"managerDelegate\/AnnouncementNotificationManager.php.html#76\">PKP\\notification\\managerDelegate\\AnnouncementNotificationManager::getIconClass<\/a>"],[0,1,"<a href=\"managerDelegate\/AnnouncementNotificationManager.php.html#84\">PKP\\notification\\managerDelegate\\AnnouncementNotificationManager::getStyleClass<\/a>"],[0,1,"<a href=\"managerDelegate\/AnnouncementNotificationManager.php.html#96\">PKP\\notification\\managerDelegate\\AnnouncementNotificationManager::notify<\/a>"],[0,4,"<a href=\"managerDelegate\/EditorAssignmentNotificationManager.php.html#31\">PKP\\notification\\managerDelegate\\EditorAssignmentNotificationManager::getNotificationMessage<\/a>"],[0,1,"<a href=\"managerDelegate\/EditorAssignmentNotificationManager.php.html#45\">PKP\\notification\\managerDelegate\\EditorAssignmentNotificationManager::getStyleClass<\/a>"],[0,1,"<a href=\"managerDelegate\/EditorAssignmentNotificationManager.php.html#53\">PKP\\notification\\managerDelegate\\EditorAssignmentNotificationManager::isVisibleToAllUsers<\/a>"],[0,6,"<a href=\"managerDelegate\/EditorAssignmentNotificationManager.php.html#67\">PKP\\notification\\managerDelegate\\EditorAssignmentNotificationManager::updateNotification<\/a>"],[0,7,"<a href=\"managerDelegate\/EditorAssignmentNotificationManager.php.html#112\">PKP\\notification\\managerDelegate\\EditorAssignmentNotificationManager::_getStageIdByNotificationType<\/a>"],[0,11,"<a href=\"managerDelegate\/EditorDecisionNotificationManager.php.html#30\">PKP\\notification\\managerDelegate\\EditorDecisionNotificationManager::getNotificationMessage<\/a>"],[0,1,"<a href=\"managerDelegate\/EditorDecisionNotificationManager.php.html#49\">PKP\\notification\\managerDelegate\\EditorDecisionNotificationManager::getStyleClass<\/a>"],[0,1,"<a href=\"managerDelegate\/EditorDecisionNotificationManager.php.html#57\">PKP\\notification\\managerDelegate\\EditorDecisionNotificationManager::getNotificationTitle<\/a>"],[0,7,"<a href=\"managerDelegate\/EditorDecisionNotificationManager.php.html#65\">PKP\\notification\\managerDelegate\\EditorDecisionNotificationManager::updateNotification<\/a>"],[0,3,"<a href=\"managerDelegate\/EditorDecisionNotificationManager.php.html#110\">PKP\\notification\\managerDelegate\\EditorDecisionNotificationManager::getNotificationUrl<\/a>"],[0,1,"<a href=\"managerDelegate\/EditorDecisionNotificationManager.php.html#135\">PKP\\notification\\managerDelegate\\EditorDecisionNotificationManager::_getAllEditorDecisionNotificationTypes<\/a>"],[0,3,"<a href=\"managerDelegate\/EditorDecisionNotificationManager.php.html#153\">PKP\\notification\\managerDelegate\\EditorDecisionNotificationManager::_getNotificationTaskLevel<\/a>"],[0,1,"<a href=\"managerDelegate\/EditorialReportNotificationManager.php.html#35\">PKP\\notification\\managerDelegate\\EditorialReportNotificationManager::__construct<\/a>"],[0,1,"<a href=\"managerDelegate\/EditorialReportNotificationManager.php.html#46\">PKP\\notification\\managerDelegate\\EditorialReportNotificationManager::initialize<\/a>"],[0,1,"<a href=\"managerDelegate\/EditorialReportNotificationManager.php.html#54\">PKP\\notification\\managerDelegate\\EditorialReportNotificationManager::getNotificationMessage<\/a>"],[0,1,"<a href=\"managerDelegate\/EditorialReportNotificationManager.php.html#62\">PKP\\notification\\managerDelegate\\EditorialReportNotificationManager::getNotificationUrl<\/a>"],[0,1,"<a href=\"managerDelegate\/EditorialReportNotificationManager.php.html#72\">PKP\\notification\\managerDelegate\\EditorialReportNotificationManager::getIconClass<\/a>"],[0,1,"<a href=\"managerDelegate\/EditorialReportNotificationManager.php.html#80\">PKP\\notification\\managerDelegate\\EditorialReportNotificationManager::getStyleClass<\/a>"],[0,1,"<a href=\"managerDelegate\/EditorialReportNotificationManager.php.html#92\">PKP\\notification\\managerDelegate\\EditorialReportNotificationManager::notify<\/a>"],[0,1,"<a href=\"managerDelegate\/PKPApproveSubmissionNotificationManager.php.html#31\">PKP\\notification\\managerDelegate\\PKPApproveSubmissionNotificationManager::getNotificationUrl<\/a>"],[0,1,"<a href=\"managerDelegate\/PKPApproveSubmissionNotificationManager.php.html#41\">PKP\\notification\\managerDelegate\\PKPApproveSubmissionNotificationManager::getStyleClass<\/a>"],[0,1,"<a href=\"managerDelegate\/PKPApproveSubmissionNotificationManager.php.html#49\">PKP\\notification\\managerDelegate\\PKPApproveSubmissionNotificationManager::isVisibleToAllUsers<\/a>"],[0,6,"<a href=\"managerDelegate\/PKPApproveSubmissionNotificationManager.php.html#57\">PKP\\notification\\managerDelegate\\PKPApproveSubmissionNotificationManager::updateNotification<\/a>"],[0,1,"<a href=\"managerDelegate\/PKPApproveSubmissionNotificationManager.php.html#97\">PKP\\notification\\managerDelegate\\PKPApproveSubmissionNotificationManager::multipleTypesUpdate<\/a>"],[0,5,"<a href=\"managerDelegate\/PKPEditingProductionStatusNotificationManager.php.html#36\">PKP\\notification\\managerDelegate\\PKPEditingProductionStatusNotificationManager::getNotificationMessage<\/a>"],[0,6,"<a href=\"managerDelegate\/PKPEditingProductionStatusNotificationManager.php.html#49\">PKP\\notification\\managerDelegate\\PKPEditingProductionStatusNotificationManager::getNotificationUrl<\/a>"],[0,1,"<a href=\"managerDelegate\/PKPEditingProductionStatusNotificationManager.php.html#71\">PKP\\notification\\managerDelegate\\PKPEditingProductionStatusNotificationManager::getStyleClass<\/a>"],[0,20,"<a href=\"managerDelegate\/PKPEditingProductionStatusNotificationManager.php.html#79\">PKP\\notification\\managerDelegate\\PKPEditingProductionStatusNotificationManager::updateNotification<\/a>"],[0,1,"<a href=\"managerDelegate\/PKPEditingProductionStatusNotificationManager.php.html#210\">PKP\\notification\\managerDelegate\\PKPEditingProductionStatusNotificationManager::_removeNotification<\/a>"],[0,2,"<a href=\"managerDelegate\/PKPEditingProductionStatusNotificationManager.php.html#222\">PKP\\notification\\managerDelegate\\PKPEditingProductionStatusNotificationManager::_createNotification<\/a>"],[0,1,"<a href=\"managerDelegate\/PendingRevisionsNotificationManager.php.html#36\">PKP\\notification\\managerDelegate\\PendingRevisionsNotificationManager::getStyleClass<\/a>"],[0,1,"<a href=\"managerDelegate\/PendingRevisionsNotificationManager.php.html#44\">PKP\\notification\\managerDelegate\\PendingRevisionsNotificationManager::getNotificationUrl<\/a>"],[0,1,"<a href=\"managerDelegate\/PendingRevisionsNotificationManager.php.html#53\">PKP\\notification\\managerDelegate\\PendingRevisionsNotificationManager::getNotificationMessage<\/a>"],[0,1,"<a href=\"managerDelegate\/PendingRevisionsNotificationManager.php.html#64\">PKP\\notification\\managerDelegate\\PendingRevisionsNotificationManager::getNotificationContents<\/a>"],[0,1,"<a href=\"managerDelegate\/PendingRevisionsNotificationManager.php.html#86\">PKP\\notification\\managerDelegate\\PendingRevisionsNotificationManager::getNotificationTitle<\/a>"],[0,6,"<a href=\"managerDelegate\/PendingRevisionsNotificationManager.php.html#96\">PKP\\notification\\managerDelegate\\PendingRevisionsNotificationManager::updateNotification<\/a>"],[0,3,"<a href=\"managerDelegate\/PendingRevisionsNotificationManager.php.html#159\">PKP\\notification\\managerDelegate\\PendingRevisionsNotificationManager::_getStageDataByType<\/a>"],[0,5,"<a href=\"managerDelegate\/QueryNotificationManager.php.html#39\">PKP\\notification\\managerDelegate\\QueryNotificationManager::getNotificationMessage<\/a>"],[0,3,"<a href=\"managerDelegate\/QueryNotificationManager.php.html#77\">PKP\\notification\\managerDelegate\\QueryNotificationManager::getQuerySubmission<\/a>"],[0,3,"<a href=\"managerDelegate\/QueryNotificationManager.php.html#94\">PKP\\notification\\managerDelegate\\QueryNotificationManager::getNotificationUrl<\/a>"],[0,4,"<a href=\"managerDelegate\/QueryNotificationManager.php.html#113\">PKP\\notification\\managerDelegate\\QueryNotificationManager::getNotificationContents<\/a>"],[0,1,"<a href=\"managerDelegate\/QueryNotificationManager.php.html#146\">PKP\\notification\\managerDelegate\\QueryNotificationManager::getStyleClass<\/a>"],[0,5,"<a href=\"managerDelegate\/SubmissionNotificationManager.php.html#32\">PKP\\notification\\managerDelegate\\SubmissionNotificationManager::getNotificationMessage<\/a>"],[0,5,"<a href=\"managerDelegate\/SubmissionNotificationManager.php.html#49\">PKP\\notification\\managerDelegate\\SubmissionNotificationManager::getNotificationUrl<\/a>"],[0,3,"<a href=\"managerDelegate\/SubmissionNotificationManager.php.html#77\">PKP\\notification\\managerDelegate\\SubmissionNotificationManager::getIconClass<\/a>"],[0,3,"<a href=\"managerDelegate\/SubmissionNotificationManager.php.html#88\">PKP\\notification\\managerDelegate\\SubmissionNotificationManager::getStyleClass<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

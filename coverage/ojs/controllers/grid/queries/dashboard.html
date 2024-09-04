@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /var/www/html/ojs-main/lib/pkp/controllers/grid/queries</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../../_css/bootstrap.min.css?v=11.0.5" rel="stylesheet" type="text/css">
+  <link href="../../../_css/nv.d3.min.css?v=11.0.5" rel="stylesheet" type="text/css">
+  <link href="../../../_css/style.css?v=11.0.5" rel="stylesheet" type="text/css">
+  <link href="../../../_css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="../../../index.html">/var/www/html/ojs-main/lib/pkp</a></li>
+         <li class="breadcrumb-item"><a href="../../index.html">controllers</a></li>
+         <li class="breadcrumb-item"><a href="../index.html">grid</a></li>
+         <li class="breadcrumb-item"><a href="index.html">queries</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="QueriesAccessHelper.php.html#36">PKP\controllers\grid\queries\QueriesAccessHelper</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QueriesGridCellProvider.php.html#34">PKP\controllers\grid\queries\QueriesGridCellProvider</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QueriesGridHandler.php.html#47">PKP\controllers\grid\queries\QueriesGridHandler</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QueriesGridRow.php.html#25">PKP\controllers\grid\queries\QueriesGridRow</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QueryNotesGridCellProvider.php.html#32">PKP\controllers\grid\queries\QueryNotesGridCellProvider</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QueryNotesGridHandler.php.html#43">PKP\controllers\grid\queries\QueryNotesGridHandler</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QueryNotesGridRow.php.html#24">PKP\controllers\grid\queries\QueryNotesGridRow</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QueryTitleGridColumn.php.html#25">PKP\controllers\grid\queries\QueryTitleGridColumn</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="form/QueryForm.php.html#36">PKP\controllers\grid\queries\form\QueryForm</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="form/QueryNoteForm.php.html#29">PKP\controllers\grid\queries\form\QueryNoteForm</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="traits/StageMailable.php.html#27">PKP\controllers\grid\queries\traits\StageMailable</a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="QueriesGridHandler.php.html#47">PKP\controllers\grid\queries\QueriesGridHandler</a></td><td class="text-right">4830</td></tr>
+       <tr><td><a href="form/QueryForm.php.html#36">PKP\controllers\grid\queries\form\QueryForm</a></td><td class="text-right">4830</td></tr>
+       <tr><td><a href="QueryNotesGridHandler.php.html#43">PKP\controllers\grid\queries\QueryNotesGridHandler</a></td><td class="text-right">650</td></tr>
+       <tr><td><a href="QueriesAccessHelper.php.html#36">PKP\controllers\grid\queries\QueriesAccessHelper</a></td><td class="text-right">506</td></tr>
+       <tr><td><a href="QueriesGridCellProvider.php.html#34">PKP\controllers\grid\queries\QueriesGridCellProvider</a></td><td class="text-right">240</td></tr>
+       <tr><td><a href="form/QueryNoteForm.php.html#29">PKP\controllers\grid\queries\form\QueryNoteForm</a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="QueriesGridRow.php.html#25">PKP\controllers\grid\queries\QueriesGridRow</a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="QueryNotesGridCellProvider.php.html#32">PKP\controllers\grid\queries\QueryNotesGridCellProvider</a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="QueryNotesGridRow.php.html#24">PKP\controllers\grid\queries\QueryNotesGridRow</a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="QueryTitleGridColumn.php.html#25">PKP\controllers\grid\queries\QueryTitleGridColumn</a></td><td class="text-right">30</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="QueriesAccessHelper.php.html#50"><abbr title="PKP\controllers\grid\queries\QueriesAccessHelper::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QueriesAccessHelper.php.html#61"><abbr title="PKP\controllers\grid\queries\QueriesAccessHelper::getAuthorizedContextObject">getAuthorizedContextObject</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QueriesAccessHelper.php.html#73"><abbr title="PKP\controllers\grid\queries\QueriesAccessHelper::getCanOpenClose">getCanOpenClose</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QueriesAccessHelper.php.html#96"><abbr title="PKP\controllers\grid\queries\QueriesAccessHelper::getCanOrder">getCanOrder</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QueriesAccessHelper.php.html#108"><abbr title="PKP\controllers\grid\queries\QueriesAccessHelper::getCanCreate">getCanCreate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QueriesAccessHelper.php.html#120"><abbr title="PKP\controllers\grid\queries\QueriesAccessHelper::getCanEdit">getCanEdit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QueriesAccessHelper.php.html#152"><abbr title="PKP\controllers\grid\queries\QueriesAccessHelper::getCanDelete">getCanDelete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QueriesAccessHelper.php.html#181"><abbr title="PKP\controllers\grid\queries\QueriesAccessHelper::getCanListAll">getCanListAll</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QueriesAccessHelper.php.html#194"><abbr title="PKP\controllers\grid\queries\QueriesAccessHelper::isAssigned">isAssigned</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QueriesAccessHelper.php.html#209"><abbr title="PKP\controllers\grid\queries\QueriesAccessHelper::hasStageRole">hasStageRole</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QueriesGridCellProvider.php.html#52"><abbr title="PKP\controllers\grid\queries\QueriesGridCellProvider::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QueriesGridCellProvider.php.html#72"><abbr title="PKP\controllers\grid\queries\QueriesGridCellProvider::getTemplateVarsFromRowColumn">getTemplateVarsFromRowColumn</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QueriesGridCellProvider.php.html#112"><abbr title="PKP\controllers\grid\queries\QueriesGridCellProvider::getCellActions">getCellActions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QueriesGridCellProvider.php.html#149"><abbr title="PKP\controllers\grid\queries\QueriesGridCellProvider::getRequestArgs">getRequestArgs</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QueriesGridHandler.php.html#60"><abbr title="PKP\controllers\grid\queries\QueriesGridHandler::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QueriesGridHandler.php.html#86"><abbr title="PKP\controllers\grid\queries\QueriesGridHandler::getSubmission">getSubmission</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QueriesGridHandler.php.html#96"><abbr title="PKP\controllers\grid\queries\QueriesGridHandler::getQuery">getQuery</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QueriesGridHandler.php.html#106"><abbr title="PKP\controllers\grid\queries\QueriesGridHandler::getStageId">getStageId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QueriesGridHandler.php.html#116"><abbr title="PKP\controllers\grid\queries\QueriesGridHandler::getAssocType">getAssocType</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QueriesGridHandler.php.html#126"><abbr title="PKP\controllers\grid\queries\QueriesGridHandler::getAssocId">getAssocId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QueriesGridHandler.php.html#136"><abbr title="PKP\controllers\grid\queries\QueriesGridHandler::getCellProvider">getCellProvider</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QueriesGridHandler.php.html#153"><abbr title="PKP\controllers\grid\queries\QueriesGridHandler::authorize">authorize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QueriesGridHandler.php.html#173"><abbr title="PKP\controllers\grid\queries\QueriesGridHandler::initialize">initialize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QueriesGridHandler.php.html#253"><abbr title="PKP\controllers\grid\queries\QueriesGridHandler::initFeatures">initFeatures</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QueriesGridHandler.php.html#265"><abbr title="PKP\controllers\grid\queries\QueriesGridHandler::getDataElementSequence">getDataElementSequence</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QueriesGridHandler.php.html#273"><abbr title="PKP\controllers\grid\queries\QueriesGridHandler::setDataElementSequence">setDataElementSequence</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QueriesGridHandler.php.html#286"><abbr title="PKP\controllers\grid\queries\QueriesGridHandler::getRowInstance">getRowInstance</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QueriesGridHandler.php.html#300"><abbr title="PKP\controllers\grid\queries\QueriesGridHandler::getAccessHelper">getAccessHelper</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QueriesGridHandler.php.html#311"><abbr title="PKP\controllers\grid\queries\QueriesGridHandler::getRequestArgs">getRequestArgs</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QueriesGridHandler.php.html#324"><abbr title="PKP\controllers\grid\queries\QueriesGridHandler::loadData">loadData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QueriesGridHandler.php.html#346"><abbr title="PKP\controllers\grid\queries\QueriesGridHandler::addQuery">addQuery</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QueriesGridHandler.php.html#370"><abbr title="PKP\controllers\grid\queries\QueriesGridHandler::deleteQuery">deleteQuery</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QueriesGridHandler.php.html#411"><abbr title="PKP\controllers\grid\queries\QueriesGridHandler::openQuery">openQuery</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QueriesGridHandler.php.html#432"><abbr title="PKP\controllers\grid\queries\QueriesGridHandler::closeQuery">closeQuery</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QueriesGridHandler.php.html#450"><abbr title="PKP\controllers\grid\queries\QueriesGridHandler::getQueryNotesGridHandlerName">getQueryNotesGridHandlerName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QueriesGridHandler.php.html#463"><abbr title="PKP\controllers\grid\queries\QueriesGridHandler::readQuery">readQuery</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QueriesGridHandler.php.html#528"><abbr title="PKP\controllers\grid\queries\QueriesGridHandler::participants">participants</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QueriesGridHandler.php.html#566"><abbr title="PKP\controllers\grid\queries\QueriesGridHandler::editQuery">editQuery</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QueriesGridHandler.php.html#593"><abbr title="PKP\controllers\grid\queries\QueriesGridHandler::updateQuery">updateQuery</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QueriesGridHandler.php.html#725"><abbr title="PKP\controllers\grid\queries\QueriesGridHandler::leaveQuery">leaveQuery</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QueriesGridHandler.php.html#747"><abbr title="PKP\controllers\grid\queries\QueriesGridHandler::_getCurrentUserCanLeave">_getCurrentUserCanLeave</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QueriesGridHandler.php.html#767"><abbr title="PKP\controllers\grid\queries\QueriesGridHandler::fetchTemplateBody">fetchTemplateBody</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QueriesGridRow.php.html#43"><abbr title="PKP\controllers\grid\queries\QueriesGridRow::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QueriesGridRow.php.html#60"><abbr title="PKP\controllers\grid\queries\QueriesGridRow::initialize">initialize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QueriesGridRow.php.html#116"><abbr title="PKP\controllers\grid\queries\QueriesGridRow::getSubmission">getSubmission</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QueriesGridRow.php.html#126"><abbr title="PKP\controllers\grid\queries\QueriesGridRow::getStageId">getStageId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QueriesGridRow.php.html#136"><abbr title="PKP\controllers\grid\queries\QueriesGridRow::getRequestArgs">getRequestArgs</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QueryNotesGridCellProvider.php.html#42"><abbr title="PKP\controllers\grid\queries\QueryNotesGridCellProvider::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QueryNotesGridCellProvider.php.html#60"><abbr title="PKP\controllers\grid\queries\QueryNotesGridCellProvider::getTemplateVarsFromRowColumn">getTemplateVarsFromRowColumn</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QueryNotesGridCellProvider.php.html#80"><abbr title="PKP\controllers\grid\queries\QueryNotesGridCellProvider::getCellActions">getCellActions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QueryNotesGridHandler.php.html#53"><abbr title="PKP\controllers\grid\queries\QueryNotesGridHandler::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QueryNotesGridHandler.php.html#69"><abbr title="PKP\controllers\grid\queries\QueryNotesGridHandler::getSubmission">getSubmission</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QueryNotesGridHandler.php.html#78"><abbr title="PKP\controllers\grid\queries\QueryNotesGridHandler::getQuery">getQuery</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QueryNotesGridHandler.php.html#88"><abbr title="PKP\controllers\grid\queries\QueryNotesGridHandler::getStageId">getStageId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QueryNotesGridHandler.php.html#100"><abbr title="PKP\controllers\grid\queries\QueryNotesGridHandler::authorize">authorize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QueryNotesGridHandler.php.html#114"><abbr title="PKP\controllers\grid\queries\QueryNotesGridHandler::initialize">initialize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QueryNotesGridHandler.php.html#155"><abbr title="PKP\controllers\grid\queries\QueryNotesGridHandler::getRowInstance">getRowInstance</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QueryNotesGridHandler.php.html#166"><abbr title="PKP\controllers\grid\queries\QueryNotesGridHandler::getRequestArgs">getRequestArgs</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QueryNotesGridHandler.php.html#186"><abbr title="PKP\controllers\grid\queries\QueryNotesGridHandler::loadData">loadData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QueryNotesGridHandler.php.html#205"><abbr title="PKP\controllers\grid\queries\QueryNotesGridHandler::addNote">addNote</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QueryNotesGridHandler.php.html#218"><abbr title="PKP\controllers\grid\queries\QueryNotesGridHandler::insertNote">insertNote</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QueryNotesGridHandler.php.html#238"><abbr title="PKP\controllers\grid\queries\QueryNotesGridHandler::getCanManage">getCanManage</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QueryNotesGridHandler.php.html#256"><abbr title="PKP\controllers\grid\queries\QueryNotesGridHandler::deleteNote">deleteNote</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QueryNotesGridHandler.php.html#278"><abbr title="PKP\controllers\grid\queries\QueryNotesGridHandler::insertedNoteNotify">insertedNoteNotify</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QueryNotesGridRow.php.html#42"><abbr title="PKP\controllers\grid\queries\QueryNotesGridRow::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QueryNotesGridRow.php.html#59"><abbr title="PKP\controllers\grid\queries\QueryNotesGridRow::initialize">initialize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QueryNotesGridRow.php.html#100"><abbr title="PKP\controllers\grid\queries\QueryNotesGridRow::getQuery">getQuery</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QueryNotesGridRow.php.html#110"><abbr title="PKP\controllers\grid\queries\QueryNotesGridRow::getRequestArgs">getRequestArgs</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QueryTitleGridColumn.php.html#35"><abbr title="PKP\controllers\grid\queries\QueryTitleGridColumn::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QueryTitleGridColumn.php.html#61"><abbr title="PKP\controllers\grid\queries\QueryTitleGridColumn::getTemplateVarsFromRow">getTemplateVarsFromRow</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QueryTitleGridColumn.php.html#76"><abbr title="PKP\controllers\grid\queries\QueryTitleGridColumn::getCellActions">getCellActions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="form/QueryForm.php.html#65"><abbr title="PKP\controllers\grid\queries\form\QueryForm::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="form/QueryForm.php.html#117"><abbr title="PKP\controllers\grid\queries\form\QueryForm::setIsNew">setIsNew</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="form/QueryForm.php.html#127"><abbr title="PKP\controllers\grid\queries\form\QueryForm::getQuery">getQuery</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="form/QueryForm.php.html#137"><abbr title="PKP\controllers\grid\queries\form\QueryForm::setQuery">setQuery</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="form/QueryForm.php.html#147"><abbr title="PKP\controllers\grid\queries\form\QueryForm::getStageId">getStageId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="form/QueryForm.php.html#157"><abbr title="PKP\controllers\grid\queries\form\QueryForm::setStageId">setStageId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="form/QueryForm.php.html#167"><abbr title="PKP\controllers\grid\queries\form\QueryForm::getAssocType">getAssocType</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="form/QueryForm.php.html#177"><abbr title="PKP\controllers\grid\queries\form\QueryForm::setAssocType">setAssocType</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="form/QueryForm.php.html#187"><abbr title="PKP\controllers\grid\queries\form\QueryForm::getAssocId">getAssocId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="form/QueryForm.php.html#197"><abbr title="PKP\controllers\grid\queries\form\QueryForm::setAssocId">setAssocId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="form/QueryForm.php.html#209"><abbr title="PKP\controllers\grid\queries\form\QueryForm::initData">initData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="form/QueryForm.php.html#237"><abbr title="PKP\controllers\grid\queries\form\QueryForm::fetch">fetch</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="form/QueryForm.php.html#408"><abbr title="PKP\controllers\grid\queries\form\QueryForm::readInputData">readInputData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="form/QueryForm.php.html#421"><abbr title="PKP\controllers\grid\queries\form\QueryForm::validate">validate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="form/QueryForm.php.html#510"><abbr title="PKP\controllers\grid\queries\form\QueryForm::execute">execute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="form/QueryNoteForm.php.html#51"><abbr title="PKP\controllers\grid\queries\form\QueryNoteForm::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="form/QueryNoteForm.php.html#85"><abbr title="PKP\controllers\grid\queries\form\QueryNoteForm::getQuery">getQuery</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="form/QueryNoteForm.php.html#95"><abbr title="PKP\controllers\grid\queries\form\QueryNoteForm::setQuery">setQuery</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="form/QueryNoteForm.php.html#105"><abbr title="PKP\controllers\grid\queries\form\QueryNoteForm::readInputData">readInputData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="form/QueryNoteForm.php.html#117"><abbr title="PKP\controllers\grid\queries\form\QueryNoteForm::fetch">fetch</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="form/QueryNoteForm.php.html#133"><abbr title="PKP\controllers\grid\queries\form\QueryNoteForm::execute">execute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="traits/StageMailable.php.html#29"><abbr title="PKP\controllers\grid\queries\traits\StageMailable::getStageId">getStageId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="traits/StageMailable.php.html#34"><abbr title="PKP\controllers\grid\queries\traits\StageMailable::getStageMailable">getStageMailable</abbr></a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="form/QueryForm.php.html#237"><abbr title="PKP\controllers\grid\queries\form\QueryForm::fetch">fetch</abbr></a></td><td class="text-right">870</td></tr>
+       <tr><td><a href="form/QueryForm.php.html#421"><abbr title="PKP\controllers\grid\queries\form\QueryForm::validate">validate</abbr></a></td><td class="text-right">506</td></tr>
+       <tr><td><a href="QueriesGridCellProvider.php.html#72"><abbr title="PKP\controllers\grid\queries\QueriesGridCellProvider::getTemplateVarsFromRowColumn">getTemplateVarsFromRowColumn</abbr></a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="QueriesGridHandler.php.html#593"><abbr title="PKP\controllers\grid\queries\QueriesGridHandler::updateQuery">updateQuery</abbr></a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="QueriesGridHandler.php.html#173"><abbr title="PKP\controllers\grid\queries\QueriesGridHandler::initialize">initialize</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="QueriesAccessHelper.php.html#120"><abbr title="PKP\controllers\grid\queries\QueriesAccessHelper::getCanEdit">getCanEdit</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="QueriesGridHandler.php.html#370"><abbr title="PKP\controllers\grid\queries\QueriesGridHandler::deleteQuery">deleteQuery</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="QueriesAccessHelper.php.html#152"><abbr title="PKP\controllers\grid\queries\QueriesAccessHelper::getCanDelete">getCanDelete</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="QueriesGridHandler.php.html#528"><abbr title="PKP\controllers\grid\queries\QueriesGridHandler::participants">participants</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="QueriesGridRow.php.html#60"><abbr title="PKP\controllers\grid\queries\QueriesGridRow::initialize">initialize</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="QueryNotesGridHandler.php.html#256"><abbr title="PKP\controllers\grid\queries\QueryNotesGridHandler::deleteNote">deleteNote</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="QueryNotesGridHandler.php.html#278"><abbr title="PKP\controllers\grid\queries\QueryNotesGridHandler::insertedNoteNotify">insertedNoteNotify</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="QueriesAccessHelper.php.html#73"><abbr title="PKP\controllers\grid\queries\QueriesAccessHelper::getCanOpenClose">getCanOpenClose</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="QueriesGridCellProvider.php.html#112"><abbr title="PKP\controllers\grid\queries\QueriesGridCellProvider::getCellActions">getCellActions</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="QueriesGridHandler.php.html#463"><abbr title="PKP\controllers\grid\queries\QueriesGridHandler::readQuery">readQuery</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="QueryNotesGridCellProvider.php.html#60"><abbr title="PKP\controllers\grid\queries\QueryNotesGridCellProvider::getTemplateVarsFromRowColumn">getTemplateVarsFromRowColumn</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="QueryNotesGridRow.php.html#59"><abbr title="PKP\controllers\grid\queries\QueryNotesGridRow::initialize">initialize</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="form/QueryForm.php.html#510"><abbr title="PKP\controllers\grid\queries\form\QueryForm::execute">execute</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="form/QueryNoteForm.php.html#133"><abbr title="PKP\controllers\grid\queries\form\QueryNoteForm::execute">execute</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="QueriesGridHandler.php.html#411"><abbr title="PKP\controllers\grid\queries\QueriesGridHandler::openQuery">openQuery</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="QueriesGridHandler.php.html#432"><abbr title="PKP\controllers\grid\queries\QueriesGridHandler::closeQuery">closeQuery</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="QueriesGridHandler.php.html#725"><abbr title="PKP\controllers\grid\queries\QueriesGridHandler::leaveQuery">leaveQuery</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="QueriesGridHandler.php.html#747"><abbr title="PKP\controllers\grid\queries\QueriesGridHandler::_getCurrentUserCanLeave">_getCurrentUserCanLeave</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="QueryNotesGridCellProvider.php.html#80"><abbr title="PKP\controllers\grid\queries\QueryNotesGridCellProvider::getCellActions">getCellActions</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="QueryTitleGridColumn.php.html#76"><abbr title="PKP\controllers\grid\queries\QueryTitleGridColumn::getCellActions">getCellActions</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="QueriesGridHandler.php.html#153"><abbr title="PKP\controllers\grid\queries\QueriesGridHandler::authorize">authorize</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="QueriesGridHandler.php.html#253"><abbr title="PKP\controllers\grid\queries\QueriesGridHandler::initFeatures">initFeatures</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="QueriesGridHandler.php.html#324"><abbr title="PKP\controllers\grid\queries\QueriesGridHandler::loadData">loadData</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="QueriesGridHandler.php.html#346"><abbr title="PKP\controllers\grid\queries\QueriesGridHandler::addQuery">addQuery</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="QueriesGridHandler.php.html#566"><abbr title="PKP\controllers\grid\queries\QueriesGridHandler::editQuery">editQuery</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="QueriesGridHandler.php.html#767"><abbr title="PKP\controllers\grid\queries\QueriesGridHandler::fetchTemplateBody">fetchTemplateBody</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="QueryNotesGridHandler.php.html#186"><abbr title="PKP\controllers\grid\queries\QueryNotesGridHandler::loadData">loadData</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="QueryNotesGridHandler.php.html#218"><abbr title="PKP\controllers\grid\queries\QueryNotesGridHandler::insertNote">insertNote</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="QueryNotesGridHandler.php.html#238"><abbr title="PKP\controllers\grid\queries\QueryNotesGridHandler::getCanManage">getCanManage</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="form/QueryForm.php.html#65"><abbr title="PKP\controllers\grid\queries\form\QueryForm::__construct">__construct</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="form/QueryForm.php.html#209"><abbr title="PKP\controllers\grid\queries\form\QueryForm::initData">initData</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="form/QueryNoteForm.php.html#51"><abbr title="PKP\controllers\grid\queries\form\QueryNoteForm::__construct">__construct</abbr></a></td><td class="text-right">6</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 11.0.5</a> using <a href="https://www.php.net/" target="_top">PHP 8.3.11</a> and <a href="https://phpunit.de/">PHPUnit 11.2.8</a> at Wed Sep 4 13:31:09 UTC 2024.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../../../_js/jquery.min.js?v=11.0.5" type="text/javascript"></script>
+  <script src="../../../_js/d3.min.js?v=11.0.5" type="text/javascript"></script>
+  <script src="../../../_js/nv.d3.min.js?v=11.0.5" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([11,0,0,0,0,0,0,0,0,0,0,0], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([94,0,0,0,0,0,0,0,0,0,0,0], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[0,22,"<a href=\"QueriesAccessHelper.php.html#36\">PKP\\controllers\\grid\\queries\\QueriesAccessHelper<\/a>"],[0,15,"<a href=\"QueriesGridCellProvider.php.html#34\">PKP\\controllers\\grid\\queries\\QueriesGridCellProvider<\/a>"],[0,69,"<a href=\"QueriesGridHandler.php.html#47\">PKP\\controllers\\grid\\queries\\QueriesGridHandler<\/a>"],[0,9,"<a href=\"QueriesGridRow.php.html#25\">PKP\\controllers\\grid\\queries\\QueriesGridRow<\/a>"],[0,8,"<a href=\"QueryNotesGridCellProvider.php.html#32\">PKP\\controllers\\grid\\queries\\QueryNotesGridCellProvider<\/a>"],[0,25,"<a href=\"QueryNotesGridHandler.php.html#43\">PKP\\controllers\\grid\\queries\\QueryNotesGridHandler<\/a>"],[0,7,"<a href=\"QueryNotesGridRow.php.html#24\">PKP\\controllers\\grid\\queries\\QueryNotesGridRow<\/a>"],[0,5,"<a href=\"QueryTitleGridColumn.php.html#25\">PKP\\controllers\\grid\\queries\\QueryTitleGridColumn<\/a>"],[0,69,"<a href=\"form\/QueryForm.php.html#36\">PKP\\controllers\\grid\\queries\\form\\QueryForm<\/a>"],[0,10,"<a href=\"form\/QueryNoteForm.php.html#29\">PKP\\controllers\\grid\\queries\\form\\QueryNoteForm<\/a>"],[0,1,"<a href=\"traits\/StageMailable.php.html#27\">PKP\\controllers\\grid\\queries\\traits\\StageMailable<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[0,1,"<a href=\"QueriesAccessHelper.php.html#50\">PKP\\controllers\\grid\\queries\\QueriesAccessHelper::__construct<\/a>"],[0,1,"<a href=\"QueriesAccessHelper.php.html#61\">PKP\\controllers\\grid\\queries\\QueriesAccessHelper::getAuthorizedContextObject<\/a>"],[0,4,"<a href=\"QueriesAccessHelper.php.html#73\">PKP\\controllers\\grid\\queries\\QueriesAccessHelper::getCanOpenClose<\/a>"],[0,1,"<a href=\"QueriesAccessHelper.php.html#96\">PKP\\controllers\\grid\\queries\\QueriesAccessHelper::getCanOrder<\/a>"],[0,1,"<a href=\"QueriesAccessHelper.php.html#108\">PKP\\controllers\\grid\\queries\\QueriesAccessHelper::getCanCreate<\/a>"],[0,6,"<a href=\"QueriesAccessHelper.php.html#120\">PKP\\controllers\\grid\\queries\\QueriesAccessHelper::getCanEdit<\/a>"],[0,5,"<a href=\"QueriesAccessHelper.php.html#152\">PKP\\controllers\\grid\\queries\\QueriesAccessHelper::getCanDelete<\/a>"],[0,1,"<a href=\"QueriesAccessHelper.php.html#181\">PKP\\controllers\\grid\\queries\\QueriesAccessHelper::getCanListAll<\/a>"],[0,1,"<a href=\"QueriesAccessHelper.php.html#194\">PKP\\controllers\\grid\\queries\\QueriesAccessHelper::isAssigned<\/a>"],[0,1,"<a href=\"QueriesAccessHelper.php.html#209\">PKP\\controllers\\grid\\queries\\QueriesAccessHelper::hasStageRole<\/a>"],[0,1,"<a href=\"QueriesGridCellProvider.php.html#52\">PKP\\controllers\\grid\\queries\\QueriesGridCellProvider::__construct<\/a>"],[0,9,"<a href=\"QueriesGridCellProvider.php.html#72\">PKP\\controllers\\grid\\queries\\QueriesGridCellProvider::getTemplateVarsFromRowColumn<\/a>"],[0,4,"<a href=\"QueriesGridCellProvider.php.html#112\">PKP\\controllers\\grid\\queries\\QueriesGridCellProvider::getCellActions<\/a>"],[0,1,"<a href=\"QueriesGridCellProvider.php.html#149\">PKP\\controllers\\grid\\queries\\QueriesGridCellProvider::getRequestArgs<\/a>"],[0,1,"<a href=\"QueriesGridHandler.php.html#60\">PKP\\controllers\\grid\\queries\\QueriesGridHandler::__construct<\/a>"],[0,1,"<a href=\"QueriesGridHandler.php.html#86\">PKP\\controllers\\grid\\queries\\QueriesGridHandler::getSubmission<\/a>"],[0,1,"<a href=\"QueriesGridHandler.php.html#96\">PKP\\controllers\\grid\\queries\\QueriesGridHandler::getQuery<\/a>"],[0,1,"<a href=\"QueriesGridHandler.php.html#106\">PKP\\controllers\\grid\\queries\\QueriesGridHandler::getStageId<\/a>"],[0,1,"<a href=\"QueriesGridHandler.php.html#116\">PKP\\controllers\\grid\\queries\\QueriesGridHandler::getAssocType<\/a>"],[0,1,"<a href=\"QueriesGridHandler.php.html#126\">PKP\\controllers\\grid\\queries\\QueriesGridHandler::getAssocId<\/a>"],[0,1,"<a href=\"QueriesGridHandler.php.html#136\">PKP\\controllers\\grid\\queries\\QueriesGridHandler::getCellProvider<\/a>"],[0,2,"<a href=\"QueriesGridHandler.php.html#153\">PKP\\controllers\\grid\\queries\\QueriesGridHandler::authorize<\/a>"],[0,8,"<a href=\"QueriesGridHandler.php.html#173\">PKP\\controllers\\grid\\queries\\QueriesGridHandler::initialize<\/a>"],[0,2,"<a href=\"QueriesGridHandler.php.html#253\">PKP\\controllers\\grid\\queries\\QueriesGridHandler::initFeatures<\/a>"],[0,1,"<a href=\"QueriesGridHandler.php.html#265\">PKP\\controllers\\grid\\queries\\QueriesGridHandler::getDataElementSequence<\/a>"],[0,1,"<a href=\"QueriesGridHandler.php.html#273\">PKP\\controllers\\grid\\queries\\QueriesGridHandler::setDataElementSequence<\/a>"],[0,1,"<a href=\"QueriesGridHandler.php.html#286\">PKP\\controllers\\grid\\queries\\QueriesGridHandler::getRowInstance<\/a>"],[0,1,"<a href=\"QueriesGridHandler.php.html#300\">PKP\\controllers\\grid\\queries\\QueriesGridHandler::getAccessHelper<\/a>"],[0,1,"<a href=\"QueriesGridHandler.php.html#311\">PKP\\controllers\\grid\\queries\\QueriesGridHandler::getRequestArgs<\/a>"],[0,2,"<a href=\"QueriesGridHandler.php.html#324\">PKP\\controllers\\grid\\queries\\QueriesGridHandler::loadData<\/a>"],[0,2,"<a href=\"QueriesGridHandler.php.html#346\">PKP\\controllers\\grid\\queries\\QueriesGridHandler::addQuery<\/a>"],[0,6,"<a href=\"QueriesGridHandler.php.html#370\">PKP\\controllers\\grid\\queries\\QueriesGridHandler::deleteQuery<\/a>"],[0,3,"<a href=\"QueriesGridHandler.php.html#411\">PKP\\controllers\\grid\\queries\\QueriesGridHandler::openQuery<\/a>"],[0,3,"<a href=\"QueriesGridHandler.php.html#432\">PKP\\controllers\\grid\\queries\\QueriesGridHandler::closeQuery<\/a>"],[0,1,"<a href=\"QueriesGridHandler.php.html#450\">PKP\\controllers\\grid\\queries\\QueriesGridHandler::getQueryNotesGridHandlerName<\/a>"],[0,4,"<a href=\"QueriesGridHandler.php.html#463\">PKP\\controllers\\grid\\queries\\QueriesGridHandler::readQuery<\/a>"],[0,5,"<a href=\"QueriesGridHandler.php.html#528\">PKP\\controllers\\grid\\queries\\QueriesGridHandler::participants<\/a>"],[0,2,"<a href=\"QueriesGridHandler.php.html#566\">PKP\\controllers\\grid\\queries\\QueriesGridHandler::editQuery<\/a>"],[0,9,"<a href=\"QueriesGridHandler.php.html#593\">PKP\\controllers\\grid\\queries\\QueriesGridHandler::updateQuery<\/a>"],[0,3,"<a href=\"QueriesGridHandler.php.html#725\">PKP\\controllers\\grid\\queries\\QueriesGridHandler::leaveQuery<\/a>"],[0,3,"<a href=\"QueriesGridHandler.php.html#747\">PKP\\controllers\\grid\\queries\\QueriesGridHandler::_getCurrentUserCanLeave<\/a>"],[0,2,"<a href=\"QueriesGridHandler.php.html#767\">PKP\\controllers\\grid\\queries\\QueriesGridHandler::fetchTemplateBody<\/a>"],[0,1,"<a href=\"QueriesGridRow.php.html#43\">PKP\\controllers\\grid\\queries\\QueriesGridRow::__construct<\/a>"],[0,5,"<a href=\"QueriesGridRow.php.html#60\">PKP\\controllers\\grid\\queries\\QueriesGridRow::initialize<\/a>"],[0,1,"<a href=\"QueriesGridRow.php.html#116\">PKP\\controllers\\grid\\queries\\QueriesGridRow::getSubmission<\/a>"],[0,1,"<a href=\"QueriesGridRow.php.html#126\">PKP\\controllers\\grid\\queries\\QueriesGridRow::getStageId<\/a>"],[0,1,"<a href=\"QueriesGridRow.php.html#136\">PKP\\controllers\\grid\\queries\\QueriesGridRow::getRequestArgs<\/a>"],[0,1,"<a href=\"QueryNotesGridCellProvider.php.html#42\">PKP\\controllers\\grid\\queries\\QueryNotesGridCellProvider::__construct<\/a>"],[0,4,"<a href=\"QueryNotesGridCellProvider.php.html#60\">PKP\\controllers\\grid\\queries\\QueryNotesGridCellProvider::getTemplateVarsFromRowColumn<\/a>"],[0,3,"<a href=\"QueryNotesGridCellProvider.php.html#80\">PKP\\controllers\\grid\\queries\\QueryNotesGridCellProvider::getCellActions<\/a>"],[0,1,"<a href=\"QueryNotesGridHandler.php.html#53\">PKP\\controllers\\grid\\queries\\QueryNotesGridHandler::__construct<\/a>"],[0,1,"<a href=\"QueryNotesGridHandler.php.html#69\">PKP\\controllers\\grid\\queries\\QueryNotesGridHandler::getSubmission<\/a>"],[0,1,"<a href=\"QueryNotesGridHandler.php.html#78\">PKP\\controllers\\grid\\queries\\QueryNotesGridHandler::getQuery<\/a>"],[0,1,"<a href=\"QueryNotesGridHandler.php.html#88\">PKP\\controllers\\grid\\queries\\QueryNotesGridHandler::getStageId<\/a>"],[0,1,"<a href=\"QueryNotesGridHandler.php.html#100\">PKP\\controllers\\grid\\queries\\QueryNotesGridHandler::authorize<\/a>"],[0,1,"<a href=\"QueryNotesGridHandler.php.html#114\">PKP\\controllers\\grid\\queries\\QueryNotesGridHandler::initialize<\/a>"],[0,1,"<a href=\"QueryNotesGridHandler.php.html#155\">PKP\\controllers\\grid\\queries\\QueryNotesGridHandler::getRowInstance<\/a>"],[0,1,"<a href=\"QueryNotesGridHandler.php.html#166\">PKP\\controllers\\grid\\queries\\QueryNotesGridHandler::getRequestArgs<\/a>"],[0,2,"<a href=\"QueryNotesGridHandler.php.html#186\">PKP\\controllers\\grid\\queries\\QueryNotesGridHandler::loadData<\/a>"],[0,1,"<a href=\"QueryNotesGridHandler.php.html#205\">PKP\\controllers\\grid\\queries\\QueryNotesGridHandler::addNote<\/a>"],[0,2,"<a href=\"QueryNotesGridHandler.php.html#218\">PKP\\controllers\\grid\\queries\\QueryNotesGridHandler::insertNote<\/a>"],[0,2,"<a href=\"QueryNotesGridHandler.php.html#238\">PKP\\controllers\\grid\\queries\\QueryNotesGridHandler::getCanManage<\/a>"],[0,5,"<a href=\"QueryNotesGridHandler.php.html#256\">PKP\\controllers\\grid\\queries\\QueryNotesGridHandler::deleteNote<\/a>"],[0,5,"<a href=\"QueryNotesGridHandler.php.html#278\">PKP\\controllers\\grid\\queries\\QueryNotesGridHandler::insertedNoteNotify<\/a>"],[0,1,"<a href=\"QueryNotesGridRow.php.html#42\">PKP\\controllers\\grid\\queries\\QueryNotesGridRow::__construct<\/a>"],[0,4,"<a href=\"QueryNotesGridRow.php.html#59\">PKP\\controllers\\grid\\queries\\QueryNotesGridRow::initialize<\/a>"],[0,1,"<a href=\"QueryNotesGridRow.php.html#100\">PKP\\controllers\\grid\\queries\\QueryNotesGridRow::getQuery<\/a>"],[0,1,"<a href=\"QueryNotesGridRow.php.html#110\">PKP\\controllers\\grid\\queries\\QueryNotesGridRow::getRequestArgs<\/a>"],[0,1,"<a href=\"QueryTitleGridColumn.php.html#35\">PKP\\controllers\\grid\\queries\\QueryTitleGridColumn::__construct<\/a>"],[0,1,"<a href=\"QueryTitleGridColumn.php.html#61\">PKP\\controllers\\grid\\queries\\QueryTitleGridColumn::getTemplateVarsFromRow<\/a>"],[0,3,"<a href=\"QueryTitleGridColumn.php.html#76\">PKP\\controllers\\grid\\queries\\QueryTitleGridColumn::getCellActions<\/a>"],[0,2,"<a href=\"form\/QueryForm.php.html#65\">PKP\\controllers\\grid\\queries\\form\\QueryForm::__construct<\/a>"],[0,1,"<a href=\"form\/QueryForm.php.html#117\">PKP\\controllers\\grid\\queries\\form\\QueryForm::setIsNew<\/a>"],[0,1,"<a href=\"form\/QueryForm.php.html#127\">PKP\\controllers\\grid\\queries\\form\\QueryForm::getQuery<\/a>"],[0,1,"<a href=\"form\/QueryForm.php.html#137\">PKP\\controllers\\grid\\queries\\form\\QueryForm::setQuery<\/a>"],[0,1,"<a href=\"form\/QueryForm.php.html#147\">PKP\\controllers\\grid\\queries\\form\\QueryForm::getStageId<\/a>"],[0,1,"<a href=\"form\/QueryForm.php.html#157\">PKP\\controllers\\grid\\queries\\form\\QueryForm::setStageId<\/a>"],[0,1,"<a href=\"form\/QueryForm.php.html#167\">PKP\\controllers\\grid\\queries\\form\\QueryForm::getAssocType<\/a>"],[0,1,"<a href=\"form\/QueryForm.php.html#177\">PKP\\controllers\\grid\\queries\\form\\QueryForm::setAssocType<\/a>"],[0,1,"<a href=\"form\/QueryForm.php.html#187\">PKP\\controllers\\grid\\queries\\form\\QueryForm::getAssocId<\/a>"],[0,1,"<a href=\"form\/QueryForm.php.html#197\">PKP\\controllers\\grid\\queries\\form\\QueryForm::setAssocId<\/a>"],[0,2,"<a href=\"form\/QueryForm.php.html#209\">PKP\\controllers\\grid\\queries\\form\\QueryForm::initData<\/a>"],[0,29,"<a href=\"form\/QueryForm.php.html#237\">PKP\\controllers\\grid\\queries\\form\\QueryForm::fetch<\/a>"],[0,1,"<a href=\"form\/QueryForm.php.html#408\">PKP\\controllers\\grid\\queries\\form\\QueryForm::readInputData<\/a>"],[0,22,"<a href=\"form\/QueryForm.php.html#421\">PKP\\controllers\\grid\\queries\\form\\QueryForm::validate<\/a>"],[0,4,"<a href=\"form\/QueryForm.php.html#510\">PKP\\controllers\\grid\\queries\\form\\QueryForm::execute<\/a>"],[0,2,"<a href=\"form\/QueryNoteForm.php.html#51\">PKP\\controllers\\grid\\queries\\form\\QueryNoteForm::__construct<\/a>"],[0,1,"<a href=\"form\/QueryNoteForm.php.html#85\">PKP\\controllers\\grid\\queries\\form\\QueryNoteForm::getQuery<\/a>"],[0,1,"<a href=\"form\/QueryNoteForm.php.html#95\">PKP\\controllers\\grid\\queries\\form\\QueryNoteForm::setQuery<\/a>"],[0,1,"<a href=\"form\/QueryNoteForm.php.html#105\">PKP\\controllers\\grid\\queries\\form\\QueryNoteForm::readInputData<\/a>"],[0,1,"<a href=\"form\/QueryNoteForm.php.html#117\">PKP\\controllers\\grid\\queries\\form\\QueryNoteForm::fetch<\/a>"],[0,4,"<a href=\"form\/QueryNoteForm.php.html#133\">PKP\\controllers\\grid\\queries\\form\\QueryNoteForm::execute<\/a>"],[0,0,"<a href=\"traits\/StageMailable.php.html#29\">PKP\\controllers\\grid\\queries\\traits\\StageMailable::getStageId<\/a>"],[0,1,"<a href=\"traits\/StageMailable.php.html#34\">PKP\\controllers\\grid\\queries\\traits\\StageMailable::getStageMailable<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

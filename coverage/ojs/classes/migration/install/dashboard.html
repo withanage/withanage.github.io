@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /var/www/html/ojs-main/lib/pkp/classes/migration/install</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../../_css/bootstrap.min.css?v=11.0.5" rel="stylesheet" type="text/css">
+  <link href="../../../_css/nv.d3.min.css?v=11.0.5" rel="stylesheet" type="text/css">
+  <link href="../../../_css/style.css?v=11.0.5" rel="stylesheet" type="text/css">
+  <link href="../../../_css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="../../../index.html">/var/www/html/ojs-main/lib/pkp</a></li>
+         <li class="breadcrumb-item"><a href="../../index.html">classes</a></li>
+         <li class="breadcrumb-item"><a href="../index.html">migration</a></li>
+         <li class="breadcrumb-item"><a href="index.html">install</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="AnnouncementsMigration.php.html#20">PKP\migration\install\AnnouncementsMigration</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CategoriesMigration.php.html#20">PKP\migration\install\CategoriesMigration</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CommonMigration.php.html#23">PKP\migration\install\CommonMigration</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ControlledVocabMigration.php.html#20">PKP\migration\install\ControlledVocabMigration</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DoiMigration.php.html#21">PKP\migration\install\DoiMigration</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FailedJobsMigration.php.html#21">PKP\migration\install\FailedJobsMigration</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FilesMigration.php.html#20">PKP\migration\install\FilesMigration</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="GenresMigration.php.html#21">PKP\migration\install\GenresMigration</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HighlightsMigration.php.html#20">PKP\migration\install\HighlightsMigration</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InstitutionsMigration.php.html#21">PKP\migration\install\InstitutionsMigration</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InvitationsMigration.php.html#20">PKP\migration\install\InvitationsMigration</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="JobsMigration.php.html#20">PKP\migration\install\JobsMigration</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LibraryFilesMigration.php.html#20">PKP\migration\install\LibraryFilesMigration</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LogMigration.php.html#21">PKP\migration\install\LogMigration</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MetadataMigration.php.html#21">PKP\migration\install\MetadataMigration</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="NavigationMenusMigration.php.html#21">PKP\migration\install\NavigationMenusMigration</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="NotesMigration.php.html#20">PKP\migration\install\NotesMigration</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ReviewFormsMigration.php.html#20">PKP\migration\install\ReviewFormsMigration</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ReviewsMigration.php.html#20">PKP\migration\install\ReviewsMigration</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RolesAndUserGroupsMigration.php.html#21">PKP\migration\install\RolesAndUserGroupsMigration</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SessionsMigration.php.html#20">PKP\migration\install\SessionsMigration</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubmissionFilesMigration.php.html#20">PKP\migration\install\SubmissionFilesMigration</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubmissionsMigration.php.html#22">PKP\migration\install\SubmissionsMigration</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TemporaryFilesMigration.php.html#20">PKP\migration\install\TemporaryFilesMigration</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TombstoneMigration.php.html#20">PKP\migration\install\TombstoneMigration</a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="CommonMigration.php.html#23">PKP\migration\install\CommonMigration</a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="ReviewFormsMigration.php.html#20">PKP\migration\install\ReviewFormsMigration</a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="InstitutionsMigration.php.html#21">PKP\migration\install\InstitutionsMigration</a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="LogMigration.php.html#21">PKP\migration\install\LogMigration</a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="SubmissionsMigration.php.html#22">PKP\migration\install\SubmissionsMigration</a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="ReviewsMigration.php.html#20">PKP\migration\install\ReviewsMigration</a></td><td class="text-right">12</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="AnnouncementsMigration.php.html#25"><abbr title="PKP\migration\install\AnnouncementsMigration::up">up</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AnnouncementsMigration.php.html#90"><abbr title="PKP\migration\install\AnnouncementsMigration::down">down</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CategoriesMigration.php.html#25"><abbr title="PKP\migration\install\CategoriesMigration::up">up</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CategoriesMigration.php.html#84"><abbr title="PKP\migration\install\CategoriesMigration::down">down</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CommonMigration.php.html#28"><abbr title="PKP\migration\install\CommonMigration::up">up</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CommonMigration.php.html#258"><abbr title="PKP\migration\install\CommonMigration::down">down</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ControlledVocabMigration.php.html#25"><abbr title="PKP\migration\install\ControlledVocabMigration::up">up</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ControlledVocabMigration.php.html#84"><abbr title="PKP\migration\install\ControlledVocabMigration::down">down</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DoiMigration.php.html#26"><abbr title="PKP\migration\install\DoiMigration::up">up</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DoiMigration.php.html#62"><abbr title="PKP\migration\install\DoiMigration::down">down</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FailedJobsMigration.php.html#26"><abbr title="PKP\migration\install\FailedJobsMigration::up">up</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FailedJobsMigration.php.html#43"><abbr title="PKP\migration\install\FailedJobsMigration::down">down</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FilesMigration.php.html#25"><abbr title="PKP\migration\install\FilesMigration::up">up</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FilesMigration.php.html#38"><abbr title="PKP\migration\install\FilesMigration::down">down</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="GenresMigration.php.html#26"><abbr title="PKP\migration\install\GenresMigration::up">up</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="GenresMigration.php.html#69"><abbr title="PKP\migration\install\GenresMigration::down">down</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HighlightsMigration.php.html#25"><abbr title="PKP\migration\install\HighlightsMigration::up">up</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HighlightsMigration.php.html#57"><abbr title="PKP\migration\install\HighlightsMigration::down">down</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InstitutionsMigration.php.html#26"><abbr title="PKP\migration\install\InstitutionsMigration::up">up</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InstitutionsMigration.php.html#84"><abbr title="PKP\migration\install\InstitutionsMigration::down">down</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InvitationsMigration.php.html#25"><abbr title="PKP\migration\install\InvitationsMigration::up">up</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InvitationsMigration.php.html#73"><abbr title="PKP\migration\install\InvitationsMigration::down">down</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="JobsMigration.php.html#25"><abbr title="PKP\migration\install\JobsMigration::up">up</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="JobsMigration.php.html#58"><abbr title="PKP\migration\install\JobsMigration::down">down</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LibraryFilesMigration.php.html#25"><abbr title="PKP\migration\install\LibraryFilesMigration::up">up</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LibraryFilesMigration.php.html#72"><abbr title="PKP\migration\install\LibraryFilesMigration::down">down</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LogMigration.php.html#26"><abbr title="PKP\migration\install\LogMigration::up">up</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="LogMigration.php.html#108"><abbr title="PKP\migration\install\LogMigration::down">down</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MetadataMigration.php.html#26"><abbr title="PKP\migration\install\MetadataMigration::up">up</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MetadataMigration.php.html#116"><abbr title="PKP\migration\install\MetadataMigration::down">down</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="NavigationMenusMigration.php.html#26"><abbr title="PKP\migration\install\NavigationMenusMigration::up">up</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="NavigationMenusMigration.php.html#105"><abbr title="PKP\migration\install\NavigationMenusMigration::down">down</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="NotesMigration.php.html#25"><abbr title="PKP\migration\install\NotesMigration::up">up</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="NotesMigration.php.html#49"><abbr title="PKP\migration\install\NotesMigration::down">down</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ReviewFormsMigration.php.html#25"><abbr title="PKP\migration\install\ReviewFormsMigration::up">up</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ReviewFormsMigration.php.html#96"><abbr title="PKP\migration\install\ReviewFormsMigration::down">down</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ReviewsMigration.php.html#25"><abbr title="PKP\migration\install\ReviewsMigration::up">up</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ReviewsMigration.php.html#165"><abbr title="PKP\migration\install\ReviewsMigration::down">down</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RolesAndUserGroupsMigration.php.html#26"><abbr title="PKP\migration\install\RolesAndUserGroupsMigration::up">up</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RolesAndUserGroupsMigration.php.html#117"><abbr title="PKP\migration\install\RolesAndUserGroupsMigration::down">down</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SessionsMigration.php.html#25"><abbr title="PKP\migration\install\SessionsMigration::up">up</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SessionsMigration.php.html#45"><abbr title="PKP\migration\install\SessionsMigration::down">down</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubmissionFilesMigration.php.html#25"><abbr title="PKP\migration\install\SubmissionFilesMigration::up">up</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubmissionFilesMigration.php.html#100"><abbr title="PKP\migration\install\SubmissionFilesMigration::down">down</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubmissionsMigration.php.html#29"><abbr title="PKP\migration\install\SubmissionsMigration::up">up</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SubmissionsMigration.php.html#272"><abbr title="PKP\migration\install\SubmissionsMigration::down">down</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TemporaryFilesMigration.php.html#25"><abbr title="PKP\migration\install\TemporaryFilesMigration::up">up</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TemporaryFilesMigration.php.html#47"><abbr title="PKP\migration\install\TemporaryFilesMigration::down">down</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TombstoneMigration.php.html#25"><abbr title="PKP\migration\install\TombstoneMigration::up">up</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TombstoneMigration.php.html#72"><abbr title="PKP\migration\install\TombstoneMigration::down">down</abbr></a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="CommonMigration.php.html#28"><abbr title="PKP\migration\install\CommonMigration::up">up</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="ReviewFormsMigration.php.html#25"><abbr title="PKP\migration\install\ReviewFormsMigration::up">up</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="InstitutionsMigration.php.html#26"><abbr title="PKP\migration\install\InstitutionsMigration::up">up</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="LogMigration.php.html#26"><abbr title="PKP\migration\install\LogMigration::up">up</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="SubmissionsMigration.php.html#29"><abbr title="PKP\migration\install\SubmissionsMigration::up">up</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="ReviewsMigration.php.html#25"><abbr title="PKP\migration\install\ReviewsMigration::up">up</abbr></a></td><td class="text-right">6</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 11.0.5</a> using <a href="https://www.php.net/" target="_top">PHP 8.3.11</a> and <a href="https://phpunit.de/">PHPUnit 11.2.8</a> at Wed Sep 4 13:31:09 UTC 2024.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../../../_js/jquery.min.js?v=11.0.5" type="text/javascript"></script>
+  <script src="../../../_js/d3.min.js?v=11.0.5" type="text/javascript"></script>
+  <script src="../../../_js/nv.d3.min.js?v=11.0.5" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([25,0,0,0,0,0,0,0,0,0,0,0], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([50,0,0,0,0,0,0,0,0,0,0,0], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[0,2,"<a href=\"AnnouncementsMigration.php.html#20\">PKP\\migration\\install\\AnnouncementsMigration<\/a>"],[0,2,"<a href=\"CategoriesMigration.php.html#20\">PKP\\migration\\install\\CategoriesMigration<\/a>"],[0,6,"<a href=\"CommonMigration.php.html#23\">PKP\\migration\\install\\CommonMigration<\/a>"],[0,2,"<a href=\"ControlledVocabMigration.php.html#20\">PKP\\migration\\install\\ControlledVocabMigration<\/a>"],[0,2,"<a href=\"DoiMigration.php.html#21\">PKP\\migration\\install\\DoiMigration<\/a>"],[0,2,"<a href=\"FailedJobsMigration.php.html#21\">PKP\\migration\\install\\FailedJobsMigration<\/a>"],[0,2,"<a href=\"FilesMigration.php.html#20\">PKP\\migration\\install\\FilesMigration<\/a>"],[0,2,"<a href=\"GenresMigration.php.html#21\">PKP\\migration\\install\\GenresMigration<\/a>"],[0,2,"<a href=\"HighlightsMigration.php.html#20\">PKP\\migration\\install\\HighlightsMigration<\/a>"],[0,4,"<a href=\"InstitutionsMigration.php.html#21\">PKP\\migration\\install\\InstitutionsMigration<\/a>"],[0,2,"<a href=\"InvitationsMigration.php.html#20\">PKP\\migration\\install\\InvitationsMigration<\/a>"],[0,2,"<a href=\"JobsMigration.php.html#20\">PKP\\migration\\install\\JobsMigration<\/a>"],[0,2,"<a href=\"LibraryFilesMigration.php.html#20\">PKP\\migration\\install\\LibraryFilesMigration<\/a>"],[0,4,"<a href=\"LogMigration.php.html#21\">PKP\\migration\\install\\LogMigration<\/a>"],[0,2,"<a href=\"MetadataMigration.php.html#21\">PKP\\migration\\install\\MetadataMigration<\/a>"],[0,2,"<a href=\"NavigationMenusMigration.php.html#21\">PKP\\migration\\install\\NavigationMenusMigration<\/a>"],[0,2,"<a href=\"NotesMigration.php.html#20\">PKP\\migration\\install\\NotesMigration<\/a>"],[0,6,"<a href=\"ReviewFormsMigration.php.html#20\">PKP\\migration\\install\\ReviewFormsMigration<\/a>"],[0,3,"<a href=\"ReviewsMigration.php.html#20\">PKP\\migration\\install\\ReviewsMigration<\/a>"],[0,2,"<a href=\"RolesAndUserGroupsMigration.php.html#21\">PKP\\migration\\install\\RolesAndUserGroupsMigration<\/a>"],[0,2,"<a href=\"SessionsMigration.php.html#20\">PKP\\migration\\install\\SessionsMigration<\/a>"],[0,2,"<a href=\"SubmissionFilesMigration.php.html#20\">PKP\\migration\\install\\SubmissionFilesMigration<\/a>"],[0,4,"<a href=\"SubmissionsMigration.php.html#22\">PKP\\migration\\install\\SubmissionsMigration<\/a>"],[0,2,"<a href=\"TemporaryFilesMigration.php.html#20\">PKP\\migration\\install\\TemporaryFilesMigration<\/a>"],[0,2,"<a href=\"TombstoneMigration.php.html#20\">PKP\\migration\\install\\TombstoneMigration<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[0,1,"<a href=\"AnnouncementsMigration.php.html#25\">PKP\\migration\\install\\AnnouncementsMigration::up<\/a>"],[0,1,"<a href=\"AnnouncementsMigration.php.html#90\">PKP\\migration\\install\\AnnouncementsMigration::down<\/a>"],[0,1,"<a href=\"CategoriesMigration.php.html#25\">PKP\\migration\\install\\CategoriesMigration::up<\/a>"],[0,1,"<a href=\"CategoriesMigration.php.html#84\">PKP\\migration\\install\\CategoriesMigration::down<\/a>"],[0,5,"<a href=\"CommonMigration.php.html#28\">PKP\\migration\\install\\CommonMigration::up<\/a>"],[0,1,"<a href=\"CommonMigration.php.html#258\">PKP\\migration\\install\\CommonMigration::down<\/a>"],[0,1,"<a href=\"ControlledVocabMigration.php.html#25\">PKP\\migration\\install\\ControlledVocabMigration::up<\/a>"],[0,1,"<a href=\"ControlledVocabMigration.php.html#84\">PKP\\migration\\install\\ControlledVocabMigration::down<\/a>"],[0,1,"<a href=\"DoiMigration.php.html#26\">PKP\\migration\\install\\DoiMigration::up<\/a>"],[0,1,"<a href=\"DoiMigration.php.html#62\">PKP\\migration\\install\\DoiMigration::down<\/a>"],[0,1,"<a href=\"FailedJobsMigration.php.html#26\">PKP\\migration\\install\\FailedJobsMigration::up<\/a>"],[0,1,"<a href=\"FailedJobsMigration.php.html#43\">PKP\\migration\\install\\FailedJobsMigration::down<\/a>"],[0,1,"<a href=\"FilesMigration.php.html#25\">PKP\\migration\\install\\FilesMigration::up<\/a>"],[0,1,"<a href=\"FilesMigration.php.html#38\">PKP\\migration\\install\\FilesMigration::down<\/a>"],[0,1,"<a href=\"GenresMigration.php.html#26\">PKP\\migration\\install\\GenresMigration::up<\/a>"],[0,1,"<a href=\"GenresMigration.php.html#69\">PKP\\migration\\install\\GenresMigration::down<\/a>"],[0,1,"<a href=\"HighlightsMigration.php.html#25\">PKP\\migration\\install\\HighlightsMigration::up<\/a>"],[0,1,"<a href=\"HighlightsMigration.php.html#57\">PKP\\migration\\install\\HighlightsMigration::down<\/a>"],[0,3,"<a href=\"InstitutionsMigration.php.html#26\">PKP\\migration\\install\\InstitutionsMigration::up<\/a>"],[0,1,"<a href=\"InstitutionsMigration.php.html#84\">PKP\\migration\\install\\InstitutionsMigration::down<\/a>"],[0,1,"<a href=\"InvitationsMigration.php.html#25\">PKP\\migration\\install\\InvitationsMigration::up<\/a>"],[0,1,"<a href=\"InvitationsMigration.php.html#73\">PKP\\migration\\install\\InvitationsMigration::down<\/a>"],[0,1,"<a href=\"JobsMigration.php.html#25\">PKP\\migration\\install\\JobsMigration::up<\/a>"],[0,1,"<a href=\"JobsMigration.php.html#58\">PKP\\migration\\install\\JobsMigration::down<\/a>"],[0,1,"<a href=\"LibraryFilesMigration.php.html#25\">PKP\\migration\\install\\LibraryFilesMigration::up<\/a>"],[0,1,"<a href=\"LibraryFilesMigration.php.html#72\">PKP\\migration\\install\\LibraryFilesMigration::down<\/a>"],[0,3,"<a href=\"LogMigration.php.html#26\">PKP\\migration\\install\\LogMigration::up<\/a>"],[0,1,"<a href=\"LogMigration.php.html#108\">PKP\\migration\\install\\LogMigration::down<\/a>"],[0,1,"<a href=\"MetadataMigration.php.html#26\">PKP\\migration\\install\\MetadataMigration::up<\/a>"],[0,1,"<a href=\"MetadataMigration.php.html#116\">PKP\\migration\\install\\MetadataMigration::down<\/a>"],[0,1,"<a href=\"NavigationMenusMigration.php.html#26\">PKP\\migration\\install\\NavigationMenusMigration::up<\/a>"],[0,1,"<a href=\"NavigationMenusMigration.php.html#105\">PKP\\migration\\install\\NavigationMenusMigration::down<\/a>"],[0,1,"<a href=\"NotesMigration.php.html#25\">PKP\\migration\\install\\NotesMigration::up<\/a>"],[0,1,"<a href=\"NotesMigration.php.html#49\">PKP\\migration\\install\\NotesMigration::down<\/a>"],[0,5,"<a href=\"ReviewFormsMigration.php.html#25\">PKP\\migration\\install\\ReviewFormsMigration::up<\/a>"],[0,1,"<a href=\"ReviewFormsMigration.php.html#96\">PKP\\migration\\install\\ReviewFormsMigration::down<\/a>"],[0,2,"<a href=\"ReviewsMigration.php.html#25\">PKP\\migration\\install\\ReviewsMigration::up<\/a>"],[0,1,"<a href=\"ReviewsMigration.php.html#165\">PKP\\migration\\install\\ReviewsMigration::down<\/a>"],[0,1,"<a href=\"RolesAndUserGroupsMigration.php.html#26\">PKP\\migration\\install\\RolesAndUserGroupsMigration::up<\/a>"],[0,1,"<a href=\"RolesAndUserGroupsMigration.php.html#117\">PKP\\migration\\install\\RolesAndUserGroupsMigration::down<\/a>"],[0,1,"<a href=\"SessionsMigration.php.html#25\">PKP\\migration\\install\\SessionsMigration::up<\/a>"],[0,1,"<a href=\"SessionsMigration.php.html#45\">PKP\\migration\\install\\SessionsMigration::down<\/a>"],[0,1,"<a href=\"SubmissionFilesMigration.php.html#25\">PKP\\migration\\install\\SubmissionFilesMigration::up<\/a>"],[0,1,"<a href=\"SubmissionFilesMigration.php.html#100\">PKP\\migration\\install\\SubmissionFilesMigration::down<\/a>"],[0,3,"<a href=\"SubmissionsMigration.php.html#29\">PKP\\migration\\install\\SubmissionsMigration::up<\/a>"],[0,1,"<a href=\"SubmissionsMigration.php.html#272\">PKP\\migration\\install\\SubmissionsMigration::down<\/a>"],[0,1,"<a href=\"TemporaryFilesMigration.php.html#25\">PKP\\migration\\install\\TemporaryFilesMigration::up<\/a>"],[0,1,"<a href=\"TemporaryFilesMigration.php.html#47\">PKP\\migration\\install\\TemporaryFilesMigration::down<\/a>"],[0,1,"<a href=\"TombstoneMigration.php.html#25\">PKP\\migration\\install\\TombstoneMigration::up<\/a>"],[0,1,"<a href=\"TombstoneMigration.php.html#72\">PKP\\migration\\install\\TombstoneMigration::down<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

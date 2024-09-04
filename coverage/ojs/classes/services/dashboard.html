@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /var/www/html/ojs-main/lib/pkp/classes/services</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../_css/bootstrap.min.css?v=11.0.5" rel="stylesheet" type="text/css">
+  <link href="../../_css/nv.d3.min.css?v=11.0.5" rel="stylesheet" type="text/css">
+  <link href="../../_css/style.css?v=11.0.5" rel="stylesheet" type="text/css">
+  <link href="../../_css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="../../index.html">/var/www/html/ojs-main/lib/pkp</a></li>
+         <li class="breadcrumb-item"><a href="../index.html">classes</a></li>
+         <li class="breadcrumb-item"><a href="index.html">services</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="PKPContextService.php.html#52">PKP\services\PKPContextService</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPFileService.php.html#30">PKP\services\PKPFileService</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPNavigationMenuService.php.html#36">PKP\services\PKPNavigationMenuService</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPSchemaService.php.html#28">PKP\services\PKPSchemaService</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPSiteService.php.html#33">PKP\services\PKPSiteService</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPStatsContextService.php.html#22">PKP\services\PKPStatsContextService</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPStatsEditorialService.php.html#23">PKP\services\PKPStatsEditorialService</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPStatsGeoService.php.html#22">PKP\services\PKPStatsGeoService</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPStatsPublicationService.php.html#24">PKP\services\PKPStatsPublicationService</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPStatsSushiService.php.html#24">PKP\services\PKPStatsSushiService</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="queryBuilders/PKPContextQueryBuilder.php.html#25">PKP\services\queryBuilders\PKPContextQueryBuilder</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="queryBuilders/PKPStatsContextQueryBuilder.php.html#25">PKP\services\queryBuilders\PKPStatsContextQueryBuilder</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="queryBuilders/PKPStatsEditorialQueryBuilder.php.html#28">PKP\services\queryBuilders\PKPStatsEditorialQueryBuilder</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="queryBuilders/PKPStatsGeoQueryBuilder.php.html#29">PKP\services\queryBuilders\PKPStatsGeoQueryBuilder</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="queryBuilders/PKPStatsPublicationQueryBuilder.php.html#28">PKP\services\queryBuilders\PKPStatsPublicationQueryBuilder</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="queryBuilders/PKPStatsQueryBuilder.php.html#24">PKP\services\queryBuilders\PKPStatsQueryBuilder</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="queryBuilders/PKPStatsSushiQueryBuilder.php.html#27">PKP\services\queryBuilders\PKPStatsSushiQueryBuilder</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPStatsServiceTrait.php.html#24">PKP\services\PKPStatsServiceTrait</a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="PKPNavigationMenuService.php.html#36">PKP\services\PKPNavigationMenuService</a></td><td class="text-right">11556</td></tr>
+       <tr><td><a href="PKPSchemaService.php.html#28">PKP\services\PKPSchemaService</a></td><td class="text-right">11342</td></tr>
+       <tr><td><a href="PKPContextService.php.html#52">PKP\services\PKPContextService</a></td><td class="text-right">9702</td></tr>
+       <tr><td><a href="PKPFileService.php.html#30">PKP\services\PKPFileService</a></td><td class="text-right">4160</td></tr>
+       <tr><td><a href="queryBuilders/PKPStatsEditorialQueryBuilder.php.html#28">PKP\services\queryBuilders\PKPStatsEditorialQueryBuilder</a></td><td class="text-right">1892</td></tr>
+       <tr><td><a href="PKPSiteService.php.html#33">PKP\services\PKPSiteService</a></td><td class="text-right">1406</td></tr>
+       <tr><td><a href="PKPStatsEditorialService.php.html#23">PKP\services\PKPStatsEditorialService</a></td><td class="text-right">1406</td></tr>
+       <tr><td><a href="PKPStatsPublicationService.php.html#24">PKP\services\PKPStatsPublicationService</a></td><td class="text-right">992</td></tr>
+       <tr><td><a href="queryBuilders/PKPStatsSushiQueryBuilder.php.html#27">PKP\services\queryBuilders\PKPStatsSushiQueryBuilder</a></td><td class="text-right">812</td></tr>
+       <tr><td><a href="queryBuilders/PKPStatsGeoQueryBuilder.php.html#29">PKP\services\queryBuilders\PKPStatsGeoQueryBuilder</a></td><td class="text-right">756</td></tr>
+       <tr><td><a href="PKPStatsGeoService.php.html#22">PKP\services\PKPStatsGeoService</a></td><td class="text-right">506</td></tr>
+       <tr><td><a href="queryBuilders/PKPStatsPublicationQueryBuilder.php.html#28">PKP\services\queryBuilders\PKPStatsPublicationQueryBuilder</a></td><td class="text-right">462</td></tr>
+       <tr><td><a href="queryBuilders/PKPStatsQueryBuilder.php.html#24">PKP\services\queryBuilders\PKPStatsQueryBuilder</a></td><td class="text-right">342</td></tr>
+       <tr><td><a href="PKPStatsServiceTrait.php.html#24">PKP\services\PKPStatsServiceTrait</a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="PKPStatsContextService.php.html#22">PKP\services\PKPStatsContextService</a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="queryBuilders/PKPContextQueryBuilder.php.html#25">PKP\services\queryBuilders\PKPContextQueryBuilder</a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="PKPStatsSushiService.php.html#24">PKP\services\PKPStatsSushiService</a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="queryBuilders/PKPStatsContextQueryBuilder.php.html#25">PKP\services\queryBuilders\PKPStatsContextQueryBuilder</a></td><td class="text-right">30</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="PKPContextService.php.html#69"><abbr title="PKP\services\PKPContextService::get">get</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPContextService.php.html#77"><abbr title="PKP\services\PKPContextService::getCount">getCount</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPContextService.php.html#85"><abbr title="PKP\services\PKPContextService::getIds">getIds</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPContextService.php.html#103"><abbr title="PKP\services\PKPContextService::getManySummary">getManySummary</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPContextService.php.html#123"><abbr title="PKP\services\PKPContextService::getMany">getMany</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPContextService.php.html#148"><abbr title="PKP\services\PKPContextService::getMax">getMax</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPContextService.php.html#167"><abbr title="PKP\services\PKPContextService::getQueryBuilder">getQueryBuilder</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPContextService.php.html#195"><abbr title="PKP\services\PKPContextService::getProperties">getProperties</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPContextService.php.html#244"><abbr title="PKP\services\PKPContextService::getSummaryProperties">getSummaryProperties</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPContextService.php.html#256"><abbr title="PKP\services\PKPContextService::getFullProperties">getFullProperties</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPContextService.php.html#268"><abbr title="PKP\services\PKPContextService::validate">validate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPContextService.php.html#458"><abbr title="PKP\services\PKPContextService::add">add</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPContextService.php.html#577"><abbr title="PKP\services\PKPContextService::edit">edit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPContextService.php.html#616"><abbr title="PKP\services\PKPContextService::delete">delete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPContextService.php.html#684"><abbr title="PKP\services\PKPContextService::restoreLocaleDefaults">restoreLocaleDefaults</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPContextService.php.html#732"><abbr title="PKP\services\PKPContextService::moveTemporaryFile">moveTemporaryFile</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPContextService.php.html#766"><abbr title="PKP\services\PKPContextService::exists">exists</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPContextService.php.html#797"><abbr title="PKP\services\PKPContextService::_saveFileParam">_saveFileParam</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPFileService.php.html#42"><abbr title="PKP\services\PKPFileService::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPFileService.php.html#73"><abbr title="PKP\services\PKPFileService::get">get</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPFileService.php.html#90"><abbr title="PKP\services\PKPFileService::add">add</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPFileService.php.html#126"><abbr title="PKP\services\PKPFileService::delete">delete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPFileService.php.html#157"><abbr title="PKP\services\PKPFileService::download">download</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPFileService.php.html#199"><abbr title="PKP\services\PKPFileService::formatFilename">formatFilename</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPFileService.php.html#221"><abbr title="PKP\services\PKPFileService::getDocumentType">getDocumentType</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPFileService.php.html#285"><abbr title="PKP\services\PKPFileService::getNiceFileSize">getNiceFileSize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPNavigationMenuService.php.html#45"><abbr title="PKP\services\PKPNavigationMenuService::getMenuItemTypes">getMenuItemTypes</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPNavigationMenuService.php.html#132"><abbr title="PKP\services\PKPNavigationMenuService::getMenuItemCustomEditTemplates">getMenuItemCustomEditTemplates</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPNavigationMenuService.php.html#153"><abbr title="PKP\services\PKPNavigationMenuService::getDisplayStatus">getDisplayStatus</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPNavigationMenuService.php.html#389"><abbr title="PKP\services\PKPNavigationMenuService::loadMenuTree">loadMenuTree</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPNavigationMenuService.php.html#440"><abbr title="PKP\services\PKPNavigationMenuService::getMenuTree">getMenuTree</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPNavigationMenuService.php.html#453"><abbr title="PKP\services\PKPNavigationMenuService::loadMenuTreeDisplayState">loadMenuTreeDisplayState</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPNavigationMenuService.php.html#475"><abbr title="PKP\services\PKPNavigationMenuService::arrayToObject">arrayToObject</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPNavigationMenuService.php.html#521"><abbr title="PKP\services\PKPNavigationMenuService::transformNavMenuItemTitle">transformNavMenuItemTitle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPNavigationMenuService.php.html#547"><abbr title="PKP\services\PKPNavigationMenuService::populateNMIAssignmentContainedObjects">populateNMIAssignmentContainedObjects</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPNavigationMenuService.php.html#576"><abbr title="PKP\services\PKPNavigationMenuService::_hasNMTreeNMIAssignmentWithChildOfNMIType">_hasNMTreeNMIAssignmentWithChildOfNMIType</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPNavigationMenuService.php.html#602"><abbr title="PKP\services\PKPNavigationMenuService::setNMITitleLocalized">setNMITitleLocalized</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPNavigationMenuService.php.html#620"><abbr title="PKP\services\PKPNavigationMenuService::setAllNMILocalizedTitles">setAllNMILocalizedTitles</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPNavigationMenuService.php.html#641"><abbr title="PKP\services\PKPNavigationMenuService::_callbackHandleCustomNavigationMenuItems">_callbackHandleCustomNavigationMenuItems</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPSchemaService.php.html#71"><abbr title="PKP\services\PKPSchemaService::get">get</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPSchemaService.php.html#122"><abbr title="PKP\services\PKPSchemaService::merge">merge</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPSchemaService.php.html#159"><abbr title="PKP\services\PKPSchemaService::getSummaryProps">getSummaryProps</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPSchemaService.php.html#182"><abbr title="PKP\services\PKPSchemaService::getFullProps">getFullProps</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPSchemaService.php.html#203"><abbr title="PKP\services\PKPSchemaService::getRequiredProps">getRequiredProps</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPSchemaService.php.html#220"><abbr title="PKP\services\PKPSchemaService::getMultilingualProps">getMultilingualProps</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPSchemaService.php.html#245"><abbr title="PKP\services\PKPSchemaService::sanitize">sanitize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPSchemaService.php.html#283"><abbr title="PKP\services\PKPSchemaService::coerce">coerce</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPSchemaService.php.html#338"><abbr title="PKP\services\PKPSchemaService::getValidationRules">getValidationRules</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPSchemaService.php.html#363"><abbr title="PKP\services\PKPSchemaService::addPropValidationRules">addPropValidationRules</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPSchemaService.php.html#425"><abbr title="PKP\services\PKPSchemaService::formatValidationErrors">formatValidationErrors</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPSchemaService.php.html#458"><abbr title="PKP\services\PKPSchemaService::setDefaults">setDefaults</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPSchemaService.php.html#492"><abbr title="PKP\services\PKPSchemaService::getLocaleDefaults">getLocaleDefaults</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPSchemaService.php.html#515"><abbr title="PKP\services\PKPSchemaService::getDefault">getDefault</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPSchemaService.php.html#588"><abbr title="PKP\services\PKPSchemaService::addMissingMultilingualValues">addMissingMultilingualValues</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPSiteService.php.html#42"><abbr title="PKP\services\PKPSiteService::getProperties">getProperties</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPSiteService.php.html#67"><abbr title="PKP\services\PKPSiteService::getSummaryProperties">getSummaryProperties</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPSiteService.php.html#77"><abbr title="PKP\services\PKPSiteService::getFullProperties">getFullProperties</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPSiteService.php.html#100"><abbr title="PKP\services\PKPSiteService::validate">validate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPSiteService.php.html#203"><abbr title="PKP\services\PKPSiteService::edit">edit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPSiteService.php.html#245"><abbr title="PKP\services\PKPSiteService::moveTemporaryFile">moveTemporaryFile</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPSiteService.php.html#292"><abbr title="PKP\services\PKPSiteService::_saveFileParam">_saveFileParam</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPStatsContextService.php.html#29"><abbr title="PKP\services\PKPStatsContextService::getCount">getCount</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPStatsContextService.php.html#42"><abbr title="PKP\services\PKPStatsContextService::getTotals">getTotals</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPStatsContextService.php.html#59"><abbr title="PKP\services\PKPStatsContextService::getTotal">getTotal</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPStatsContextService.php.html#76"><abbr title="PKP\services\PKPStatsContextService::getDefaultArgs">getDefaultArgs</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPStatsContextService.php.html#87"><abbr title="PKP\services\PKPStatsContextService::getQueryBuilder">getQueryBuilder</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPStatsEditorialService.php.html#34"><abbr title="PKP\services\PKPStatsEditorialService::getOverview">getOverview</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPStatsEditorialService.php.html#204"><abbr title="PKP\services\PKPStatsEditorialService::getAverages">getAverages</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPStatsEditorialService.php.html#312"><abbr title="PKP\services\PKPStatsEditorialService::countSubmissionsReceived">countSubmissionsReceived</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPStatsEditorialService.php.html#328"><abbr title="PKP\services\PKPStatsEditorialService::countSubmissionsPublished">countSubmissionsPublished</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPStatsEditorialService.php.html#344"><abbr title="PKP\services\PKPStatsEditorialService::countByDecisions">countByDecisions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPStatsEditorialService.php.html#361"><abbr title="PKP\services\PKPStatsEditorialService::countByDecisionsForSubmittedDate">countByDecisionsForSubmittedDate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPStatsEditorialService.php.html#377"><abbr title="PKP\services\PKPStatsEditorialService::countByStatus">countByStatus</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPStatsEditorialService.php.html#390"><abbr title="PKP\services\PKPStatsEditorialService::countSubmissionsSkipped">countSubmissionsSkipped</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPStatsEditorialService.php.html#405"><abbr title="PKP\services\PKPStatsEditorialService::countSubmissionsInProgress">countSubmissionsInProgress</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPStatsEditorialService.php.html#420"><abbr title="PKP\services\PKPStatsEditorialService::countSubmissionsImported">countSubmissionsImported</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPStatsEditorialService.php.html#436"><abbr title="PKP\services\PKPStatsEditorialService::countActiveByStages">countActiveByStages</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPStatsEditorialService.php.html#454"><abbr title="PKP\services\PKPStatsEditorialService::getDaysToDecisions">getDaysToDecisions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPStatsEditorialService.php.html#471"><abbr title="PKP\services\PKPStatsEditorialService::getAverageDaysToDecisions">getAverageDaysToDecisions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPStatsEditorialService.php.html#493"><abbr title="PKP\services\PKPStatsEditorialService::calculateDaysToDecisionRate">calculateDaysToDecisionRate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPStatsEditorialService.php.html#507"><abbr title="PKP\services\PKPStatsEditorialService::getQueryBuilder">getQueryBuilder</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPStatsEditorialService.php.html#539"><abbr title="PKP\services\PKPStatsEditorialService::getAcceptedDecisions">getAcceptedDecisions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPStatsEditorialService.php.html#556"><abbr title="PKP\services\PKPStatsEditorialService::getDeclinedDecisions">getDeclinedDecisions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPStatsGeoService.php.html#34"><abbr title="PKP\services\PKPStatsGeoService::getCount">getCount</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPStatsGeoService.php.html#62"><abbr title="PKP\services\PKPStatsGeoService::getTotals">getTotals</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPStatsGeoService.php.html#86"><abbr title="PKP\services\PKPStatsGeoService::getDefaultArgs">getDefaultArgs</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPStatsGeoService.php.html#99"><abbr title="PKP\services\PKPStatsGeoService::getQueryBuilder">getQueryBuilder</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPStatsGeoService.php.html#136"><abbr title="PKP\services\PKPStatsGeoService::monthExists">monthExists</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPStatsGeoService.php.html#147"><abbr title="PKP\services\PKPStatsGeoService::deleteDailyMetrics">deleteDailyMetrics</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPStatsGeoService.php.html#158"><abbr title="PKP\services\PKPStatsGeoService::deleteMonthlyMetrics">deleteMonthlyMetrics</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPStatsGeoService.php.html#169"><abbr title="PKP\services\PKPStatsGeoService::addMonthlyMetrics">addMonthlyMetrics</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPStatsPublicationService.php.html#32"><abbr title="PKP\services\PKPStatsPublicationService::filterRecordPdf">filterRecordPdf</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPStatsPublicationService.php.html#41"><abbr title="PKP\services\PKPStatsPublicationService::filterRecordHtml">filterRecordHtml</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPStatsPublicationService.php.html#50"><abbr title="PKP\services\PKPStatsPublicationService::filterRecordOther">filterRecordOther</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPStatsPublicationService.php.html#59"><abbr title="PKP\services\PKPStatsPublicationService::filterRecordAbstract">filterRecordAbstract</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPStatsPublicationService.php.html#68"><abbr title="PKP\services\PKPStatsPublicationService::filterRecordSuppFile">filterRecordSuppFile</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPStatsPublicationService.php.html#78"><abbr title="PKP\services\PKPStatsPublicationService::getCount">getCount</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPStatsPublicationService.php.html#100"><abbr title="PKP\services\PKPStatsPublicationService::getTotals">getTotals</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPStatsPublicationService.php.html#127"><abbr title="PKP\services\PKPStatsPublicationService::getTotalsByType">getTotalsByType</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPStatsPublicationService.php.html#183"><abbr title="PKP\services\PKPStatsPublicationService::getFilesCount">getFilesCount</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPStatsPublicationService.php.html#208"><abbr title="PKP\services\PKPStatsPublicationService::getFilesTotals">getFilesTotals</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPStatsPublicationService.php.html#232"><abbr title="PKP\services\PKPStatsPublicationService::getDefaultArgs">getDefaultArgs</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPStatsPublicationService.php.html#245"><abbr title="PKP\services\PKPStatsPublicationService::getAppSpecificFilters">getAppSpecificFilters</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPStatsPublicationService.php.html#254"><abbr title="PKP\services\PKPStatsPublicationService::getQueryBuilder">getQueryBuilder</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPStatsSushiService.php.html#29"><abbr title="PKP\services\PKPStatsSushiService::getQueryBuilder">getQueryBuilder</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPStatsSushiService.php.html#53"><abbr title="PKP\services\PKPStatsSushiService::monthExists">monthExists</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPStatsSushiService.php.html#65"><abbr title="PKP\services\PKPStatsSushiService::getEarliestDate">getEarliestDate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPStatsSushiService.php.html#81"><abbr title="PKP\services\PKPStatsSushiService::deleteDailyMetrics">deleteDailyMetrics</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPStatsSushiService.php.html#92"><abbr title="PKP\services\PKPStatsSushiService::deleteMonthlyMetrics">deleteMonthlyMetrics</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPStatsSushiService.php.html#103"><abbr title="PKP\services\PKPStatsSushiService::addMonthlyMetrics">addMonthlyMetrics</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="queryBuilders/PKPContextQueryBuilder.php.html#55"><abbr title="PKP\services\queryBuilders\PKPContextQueryBuilder::filterByIsEnabled">filterByIsEnabled</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="queryBuilders/PKPContextQueryBuilder.php.html#72"><abbr title="PKP\services\queryBuilders\PKPContextQueryBuilder::filterByUserId">filterByUserId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="queryBuilders/PKPContextQueryBuilder.php.html#85"><abbr title="PKP\services\queryBuilders\PKPContextQueryBuilder::searchPhrase">searchPhrase</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="queryBuilders/PKPContextQueryBuilder.php.html#94"><abbr title="PKP\services\queryBuilders\PKPContextQueryBuilder::getCount">getCount</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="queryBuilders/PKPContextQueryBuilder.php.html#104"><abbr title="PKP\services\queryBuilders\PKPContextQueryBuilder::getIds">getIds</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="queryBuilders/PKPContextQueryBuilder.php.html#121"><abbr title="PKP\services\queryBuilders\PKPContextQueryBuilder::getManySummary">getManySummary</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="queryBuilders/PKPContextQueryBuilder.php.html#147"><abbr title="PKP\services\queryBuilders\PKPContextQueryBuilder::getQuery">getQuery</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="queryBuilders/PKPStatsContextQueryBuilder.php.html#30"><abbr title="PKP\services\queryBuilders\PKPStatsContextQueryBuilder::getContextIds">getContextIds</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="queryBuilders/PKPStatsContextQueryBuilder.php.html#42"><abbr title="PKP\services\queryBuilders\PKPStatsContextQueryBuilder::_getObject">_getObject</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="queryBuilders/PKPStatsEditorialQueryBuilder.php.html#52"><abbr title="PKP\services\queryBuilders\PKPStatsEditorialQueryBuilder::filterByContexts">filterByContexts</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="queryBuilders/PKPStatsEditorialQueryBuilder.php.html#66"><abbr title="PKP\services\queryBuilders\PKPStatsEditorialQueryBuilder::filterBySections">filterBySections</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="queryBuilders/PKPStatsEditorialQueryBuilder.php.html#79"><abbr title="PKP\services\queryBuilders\PKPStatsEditorialQueryBuilder::before">before</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="queryBuilders/PKPStatsEditorialQueryBuilder.php.html#92"><abbr title="PKP\services\queryBuilders\PKPStatsEditorialQueryBuilder::after">after</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="queryBuilders/PKPStatsEditorialQueryBuilder.php.html#103"><abbr title="PKP\services\queryBuilders\PKPStatsEditorialQueryBuilder::countSubmissionsReceived">countSubmissionsReceived</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="queryBuilders/PKPStatsEditorialQueryBuilder.php.html#129"><abbr title="PKP\services\queryBuilders\PKPStatsEditorialQueryBuilder::countByDecisions">countByDecisions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="queryBuilders/PKPStatsEditorialQueryBuilder.php.html#183"><abbr title="PKP\services\queryBuilders\PKPStatsEditorialQueryBuilder::countByStatus">countByStatus</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="queryBuilders/PKPStatsEditorialQueryBuilder.php.html#197"><abbr title="PKP\services\queryBuilders\PKPStatsEditorialQueryBuilder::countActiveByStages">countActiveByStages</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="queryBuilders/PKPStatsEditorialQueryBuilder.php.html#210"><abbr title="PKP\services\queryBuilders\PKPStatsEditorialQueryBuilder::countPublished">countPublished</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="queryBuilders/PKPStatsEditorialQueryBuilder.php.html#251"><abbr title="PKP\services\queryBuilders\PKPStatsEditorialQueryBuilder::getDaysToDecisions">getDaysToDecisions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="queryBuilders/PKPStatsEditorialQueryBuilder.php.html#271"><abbr title="PKP\services\queryBuilders\PKPStatsEditorialQueryBuilder::getAverageDaysToDecisions">getAverageDaysToDecisions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="queryBuilders/PKPStatsEditorialQueryBuilder.php.html#284"><abbr title="PKP\services\queryBuilders\PKPStatsEditorialQueryBuilder::getSubmissionsReceivedDates">getSubmissionsReceivedDates</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="queryBuilders/PKPStatsEditorialQueryBuilder.php.html#295"><abbr title="PKP\services\queryBuilders\PKPStatsEditorialQueryBuilder::getPublishedDates">getPublishedDates</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="queryBuilders/PKPStatsEditorialQueryBuilder.php.html#323"><abbr title="PKP\services\queryBuilders\PKPStatsEditorialQueryBuilder::getDecisionsDates">getDecisionsDates</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="queryBuilders/PKPStatsEditorialQueryBuilder.php.html#349"><abbr title="PKP\services\queryBuilders\PKPStatsEditorialQueryBuilder::_getBaseQuery">_getBaseQuery</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="queryBuilders/PKPStatsEditorialQueryBuilder.php.html#387"><abbr title="PKP\services\queryBuilders\PKPStatsEditorialQueryBuilder::_getObject">_getObject</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="queryBuilders/PKPStatsEditorialQueryBuilder.php.html#418"><abbr title="PKP\services\queryBuilders\PKPStatsEditorialQueryBuilder::_getDaysToDecisionsObject">_getDaysToDecisionsObject</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="queryBuilders/PKPStatsEditorialQueryBuilder.php.html#457"><abbr title="PKP\services\queryBuilders\PKPStatsEditorialQueryBuilder::countImported">countImported</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="queryBuilders/PKPStatsEditorialQueryBuilder.php.html#472"><abbr title="PKP\services\queryBuilders\PKPStatsEditorialQueryBuilder::countInProgress">countInProgress</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="queryBuilders/PKPStatsEditorialQueryBuilder.php.html#484"><abbr title="PKP\services\queryBuilders\PKPStatsEditorialQueryBuilder::countSkipped">countSkipped</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="queryBuilders/PKPStatsEditorialQueryBuilder.php.html#494"><abbr title="PKP\services\queryBuilders\PKPStatsEditorialQueryBuilder::_dateDiff">_dateDiff</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="queryBuilders/PKPStatsGeoQueryBuilder.php.html#47"><abbr title="PKP\services\queryBuilders\PKPStatsGeoQueryBuilder::getSectionColumn">getSectionColumn</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="queryBuilders/PKPStatsGeoQueryBuilder.php.html#52"><abbr title="PKP\services\queryBuilders\PKPStatsGeoQueryBuilder::filterByPKPSections">filterByPKPSections</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="queryBuilders/PKPStatsGeoQueryBuilder.php.html#61"><abbr title="PKP\services\queryBuilders\PKPStatsGeoQueryBuilder::filterBySubmissions">filterBySubmissions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="queryBuilders/PKPStatsGeoQueryBuilder.php.html#70"><abbr title="PKP\services\queryBuilders\PKPStatsGeoQueryBuilder::filterByCountries">filterByCountries</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="queryBuilders/PKPStatsGeoQueryBuilder.php.html#79"><abbr title="PKP\services\queryBuilders\PKPStatsGeoQueryBuilder::filterByRegions">filterByRegions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="queryBuilders/PKPStatsGeoQueryBuilder.php.html#88"><abbr title="PKP\services\queryBuilders\PKPStatsGeoQueryBuilder::filterByCities">filterByCities</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="queryBuilders/PKPStatsGeoQueryBuilder.php.html#97"><abbr title="PKP\services\queryBuilders\PKPStatsGeoQueryBuilder::getGeoData">getGeoData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="queryBuilders/PKPStatsGeoQueryBuilder.php.html#107"><abbr title="PKP\services\queryBuilders\PKPStatsGeoQueryBuilder::getSum">getSum</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="queryBuilders/PKPStatsGeoQueryBuilder.php.html#123"><abbr title="PKP\services\queryBuilders\PKPStatsGeoQueryBuilder::_getAppSpecificQuery">_getAppSpecificQuery</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="queryBuilders/PKPStatsGeoQueryBuilder.php.html#132"><abbr title="PKP\services\queryBuilders\PKPStatsGeoQueryBuilder::_getObject">_getObject</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="queryBuilders/PKPStatsGeoQueryBuilder.php.html#225"><abbr title="PKP\services\queryBuilders\PKPStatsGeoQueryBuilder::monthExists">monthExists</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="queryBuilders/PKPStatsGeoQueryBuilder.php.html#236"><abbr title="PKP\services\queryBuilders\PKPStatsGeoQueryBuilder::deleteDailyMetrics">deleteDailyMetrics</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="queryBuilders/PKPStatsGeoQueryBuilder.php.html#251"><abbr title="PKP\services\queryBuilders\PKPStatsGeoQueryBuilder::deleteMonthlyMetrics">deleteMonthlyMetrics</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="queryBuilders/PKPStatsGeoQueryBuilder.php.html#261"><abbr title="PKP\services\queryBuilders\PKPStatsGeoQueryBuilder::addMonthlyMetrics">addMonthlyMetrics</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="queryBuilders/PKPStatsPublicationQueryBuilder.php.html#52"><abbr title="PKP\services\queryBuilders\PKPStatsPublicationQueryBuilder::getSectionColumn">getSectionColumn</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="queryBuilders/PKPStatsPublicationQueryBuilder.php.html#57"><abbr title="PKP\services\queryBuilders\PKPStatsPublicationQueryBuilder::filterByPKPSections">filterByPKPSections</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="queryBuilders/PKPStatsPublicationQueryBuilder.php.html#66"><abbr title="PKP\services\queryBuilders\PKPStatsPublicationQueryBuilder::filterBySubmissions">filterBySubmissions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="queryBuilders/PKPStatsPublicationQueryBuilder.php.html#75"><abbr title="PKP\services\queryBuilders\PKPStatsPublicationQueryBuilder::filterByRepresentations">filterByRepresentations</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="queryBuilders/PKPStatsPublicationQueryBuilder.php.html#84"><abbr title="PKP\services\queryBuilders\PKPStatsPublicationQueryBuilder::filterBySubmissionFiles">filterBySubmissionFiles</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="queryBuilders/PKPStatsPublicationQueryBuilder.php.html#93"><abbr title="PKP\services\queryBuilders\PKPStatsPublicationQueryBuilder::filterByAssocTypes">filterByAssocTypes</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="queryBuilders/PKPStatsPublicationQueryBuilder.php.html#102"><abbr title="PKP\services\queryBuilders\PKPStatsPublicationQueryBuilder::filterByFileTypes">filterByFileTypes</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="queryBuilders/PKPStatsPublicationQueryBuilder.php.html#111"><abbr title="PKP\services\queryBuilders\PKPStatsPublicationQueryBuilder::getSubmissionIds">getSubmissionIds</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="queryBuilders/PKPStatsPublicationQueryBuilder.php.html#121"><abbr title="PKP\services\queryBuilders\PKPStatsPublicationQueryBuilder::getSum">getSum</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="queryBuilders/PKPStatsPublicationQueryBuilder.php.html#132"><abbr title="PKP\services\queryBuilders\PKPStatsPublicationQueryBuilder::_getAppSpecificQuery">_getAppSpecificQuery</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="queryBuilders/PKPStatsPublicationQueryBuilder.php.html#141"><abbr title="PKP\services\queryBuilders\PKPStatsPublicationQueryBuilder::_getObject">_getObject</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="queryBuilders/PKPStatsQueryBuilder.php.html#45"><abbr title="PKP\services\queryBuilders\PKPStatsQueryBuilder::filterByContexts">filterByContexts</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="queryBuilders/PKPStatsQueryBuilder.php.html#57"><abbr title="PKP\services\queryBuilders\PKPStatsQueryBuilder::before">before</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="queryBuilders/PKPStatsQueryBuilder.php.html#69"><abbr title="PKP\services\queryBuilders\PKPStatsQueryBuilder::after">after</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="queryBuilders/PKPStatsQueryBuilder.php.html#78"><abbr title="PKP\services\queryBuilders\PKPStatsQueryBuilder::limit">limit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="queryBuilders/PKPStatsQueryBuilder.php.html#87"><abbr title="PKP\services\queryBuilders\PKPStatsQueryBuilder::offset">offset</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="queryBuilders/PKPStatsQueryBuilder.php.html#103"><abbr title="PKP\services\queryBuilders\PKPStatsQueryBuilder::getSum">getSum</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="queryBuilders/PKPStatsQueryBuilder.php.html#128"><abbr title="PKP\services\queryBuilders\PKPStatsQueryBuilder::_getObject">_getObject</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="queryBuilders/PKPStatsQueryBuilder.php.html#133"><abbr title="PKP\services\queryBuilders\PKPStatsQueryBuilder::getSelectColumns">getSelectColumns</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="queryBuilders/PKPStatsSushiQueryBuilder.php.html#41"><abbr title="PKP\services\queryBuilders\PKPStatsSushiQueryBuilder::filterByYOP">filterByYOP</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="queryBuilders/PKPStatsSushiQueryBuilder.php.html#50"><abbr title="PKP\services\queryBuilders\PKPStatsSushiQueryBuilder::filterBySubmissions">filterBySubmissions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="queryBuilders/PKPStatsSushiQueryBuilder.php.html#59"><abbr title="PKP\services\queryBuilders\PKPStatsSushiQueryBuilder::filterByInstitution">filterByInstitution</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="queryBuilders/PKPStatsSushiQueryBuilder.php.html#68"><abbr title="PKP\services\queryBuilders\PKPStatsSushiQueryBuilder::getSum">getSum</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="queryBuilders/PKPStatsSushiQueryBuilder.php.html#114"><abbr title="PKP\services\queryBuilders\PKPStatsSushiQueryBuilder::_getObject">_getObject</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="queryBuilders/PKPStatsSushiQueryBuilder.php.html#170"><abbr title="PKP\services\queryBuilders\PKPStatsSushiQueryBuilder::monthExists">monthExists</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="queryBuilders/PKPStatsSushiQueryBuilder.php.html#181"><abbr title="PKP\services\queryBuilders\PKPStatsSushiQueryBuilder::deleteDailyMetrics">deleteDailyMetrics</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="queryBuilders/PKPStatsSushiQueryBuilder.php.html#197"><abbr title="PKP\services\queryBuilders\PKPStatsSushiQueryBuilder::deleteMonthlyMetrics">deleteMonthlyMetrics</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="queryBuilders/PKPStatsSushiQueryBuilder.php.html#208"><abbr title="PKP\services\queryBuilders\PKPStatsSushiQueryBuilder::addMonthlyMetrics">addMonthlyMetrics</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPStatsServiceTrait.php.html#34"><abbr title="PKP\services\PKPStatsServiceTrait::getTimeline">getTimeline</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPStatsServiceTrait.php.html#84"><abbr title="PKP\services\PKPStatsServiceTrait::getEmptyTimelineIntervals">getEmptyTimelineIntervals</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPStatsServiceTrait.php.html#117"><abbr title="PKP\services\PKPStatsServiceTrait::getTimelineReportColumnNames">getTimelineReportColumnNames</abbr></a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="PKPNavigationMenuService.php.html#153"><abbr title="PKP\services\PKPNavigationMenuService::getDisplayStatus">getDisplayStatus</abbr></a></td><td class="text-right">2162</td></tr>
+       <tr><td><a href="PKPContextService.php.html#268"><abbr title="PKP\services\PKPContextService::validate">validate</abbr></a></td><td class="text-right">1640</td></tr>
+       <tr><td><a href="PKPFileService.php.html#221"><abbr title="PKP\services\PKPFileService::getDocumentType">getDocumentType</abbr></a></td><td class="text-right">1640</td></tr>
+       <tr><td><a href="PKPSchemaService.php.html#283"><abbr title="PKP\services\PKPSchemaService::coerce">coerce</abbr></a></td><td class="text-right">306</td></tr>
+       <tr><td><a href="PKPNavigationMenuService.php.html#475"><abbr title="PKP\services\PKPNavigationMenuService::arrayToObject">arrayToObject</abbr></a></td><td class="text-right">240</td></tr>
+       <tr><td><a href="PKPSchemaService.php.html#515"><abbr title="PKP\services\PKPSchemaService::getDefault">getDefault</abbr></a></td><td class="text-right">240</td></tr>
+       <tr><td><a href="PKPSiteService.php.html#100"><abbr title="PKP\services\PKPSiteService::validate">validate</abbr></a></td><td class="text-right">240</td></tr>
+       <tr><td><a href="PKPContextService.php.html#458"><abbr title="PKP\services\PKPContextService::add">add</abbr></a></td><td class="text-right">210</td></tr>
+       <tr><td><a href="PKPSchemaService.php.html#363"><abbr title="PKP\services\PKPSchemaService::addPropValidationRules">addPropValidationRules</abbr></a></td><td class="text-right">182</td></tr>
+       <tr><td><a href="queryBuilders/PKPStatsGeoQueryBuilder.php.html#132"><abbr title="PKP\services\queryBuilders\PKPStatsGeoQueryBuilder::_getObject">_getObject</abbr></a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="PKPStatsEditorialService.php.html#204"><abbr title="PKP\services\PKPStatsEditorialService::getAverages">getAverages</abbr></a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="queryBuilders/PKPStatsPublicationQueryBuilder.php.html#141"><abbr title="PKP\services\queryBuilders\PKPStatsPublicationQueryBuilder::_getObject">_getObject</abbr></a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="queryBuilders/PKPStatsQueryBuilder.php.html#133"><abbr title="PKP\services\queryBuilders\PKPStatsQueryBuilder::getSelectColumns">getSelectColumns</abbr></a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="queryBuilders/PKPStatsSushiQueryBuilder.php.html#114"><abbr title="PKP\services\queryBuilders\PKPStatsSushiQueryBuilder::_getObject">_getObject</abbr></a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="PKPNavigationMenuService.php.html#389"><abbr title="PKP\services\PKPNavigationMenuService::loadMenuTree">loadMenuTree</abbr></a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="PKPSchemaService.php.html#588"><abbr title="PKP\services\PKPSchemaService::addMissingMultilingualValues">addMissingMultilingualValues</abbr></a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="PKPStatsPublicationService.php.html#254"><abbr title="PKP\services\PKPStatsPublicationService::getQueryBuilder">getQueryBuilder</abbr></a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="queryBuilders/PKPStatsSushiQueryBuilder.php.html#68"><abbr title="PKP\services\queryBuilders\PKPStatsSushiQueryBuilder::getSum">getSum</abbr></a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="PKPContextService.php.html#797"><abbr title="PKP\services\PKPContextService::_saveFileParam">_saveFileParam</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="PKPNavigationMenuService.php.html#576"><abbr title="PKP\services\PKPNavigationMenuService::_hasNMTreeNMIAssignmentWithChildOfNMIType">_hasNMTreeNMIAssignmentWithChildOfNMIType</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="PKPSchemaService.php.html#122"><abbr title="PKP\services\PKPSchemaService::merge">merge</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="PKPSchemaService.php.html#245"><abbr title="PKP\services\PKPSchemaService::sanitize">sanitize</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="PKPSiteService.php.html#292"><abbr title="PKP\services\PKPSiteService::_saveFileParam">_saveFileParam</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="PKPStatsEditorialService.php.html#34"><abbr title="PKP\services\PKPStatsEditorialService::getOverview">getOverview</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="PKPStatsGeoService.php.html#99"><abbr title="PKP\services\PKPStatsGeoService::getQueryBuilder">getQueryBuilder</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="PKPContextService.php.html#195"><abbr title="PKP\services\PKPContextService::getProperties">getProperties</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="PKPContextService.php.html#577"><abbr title="PKP\services\PKPContextService::edit">edit</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="PKPFileService.php.html#90"><abbr title="PKP\services\PKPFileService::add">add</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="PKPSchemaService.php.html#71"><abbr title="PKP\services\PKPSchemaService::get">get</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="PKPSchemaService.php.html#458"><abbr title="PKP\services\PKPSchemaService::setDefaults">setDefaults</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="queryBuilders/PKPStatsEditorialQueryBuilder.php.html#129"><abbr title="PKP\services\queryBuilders\PKPStatsEditorialQueryBuilder::countByDecisions">countByDecisions</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="PKPSiteService.php.html#203"><abbr title="PKP\services\PKPSiteService::edit">edit</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="PKPStatsPublicationService.php.html#127"><abbr title="PKP\services\PKPStatsPublicationService::getTotalsByType">getTotalsByType</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="PKPStatsServiceTrait.php.html#34"><abbr title="PKP\services\PKPStatsServiceTrait::getTimeline">getTimeline</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="PKPFileService.php.html#157"><abbr title="PKP\services\PKPFileService::download">download</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="PKPNavigationMenuService.php.html#453"><abbr title="PKP\services\PKPNavigationMenuService::loadMenuTreeDisplayState">loadMenuTreeDisplayState</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="PKPNavigationMenuService.php.html#521"><abbr title="PKP\services\PKPNavigationMenuService::transformNavMenuItemTitle">transformNavMenuItemTitle</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="PKPNavigationMenuService.php.html#641"><abbr title="PKP\services\PKPNavigationMenuService::_callbackHandleCustomNavigationMenuItems">_callbackHandleCustomNavigationMenuItems</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="PKPStatsGeoService.php.html#62"><abbr title="PKP\services\PKPStatsGeoService::getTotals">getTotals</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="queryBuilders/PKPStatsEditorialQueryBuilder.php.html#210"><abbr title="PKP\services\queryBuilders\PKPStatsEditorialQueryBuilder::countPublished">countPublished</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="PKPContextService.php.html#123"><abbr title="PKP\services\PKPContextService::getMany">getMany</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="PKPContextService.php.html#732"><abbr title="PKP\services\PKPContextService::moveTemporaryFile">moveTemporaryFile</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="PKPFileService.php.html#126"><abbr title="PKP\services\PKPFileService::delete">delete</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="PKPNavigationMenuService.php.html#602"><abbr title="PKP\services\PKPNavigationMenuService::setNMITitleLocalized">setNMITitleLocalized</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="PKPNavigationMenuService.php.html#620"><abbr title="PKP\services\PKPNavigationMenuService::setAllNMILocalizedTitles">setAllNMILocalizedTitles</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="PKPSchemaService.php.html#159"><abbr title="PKP\services\PKPSchemaService::getSummaryProps">getSummaryProps</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="PKPSchemaService.php.html#338"><abbr title="PKP\services\PKPSchemaService::getValidationRules">getValidationRules</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="PKPSchemaService.php.html#492"><abbr title="PKP\services\PKPSchemaService::getLocaleDefaults">getLocaleDefaults</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="PKPSiteService.php.html#245"><abbr title="PKP\services\PKPSiteService::moveTemporaryFile">moveTemporaryFile</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="PKPStatsContextService.php.html#87"><abbr title="PKP\services\PKPStatsContextService::getQueryBuilder">getQueryBuilder</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="PKPStatsEditorialService.php.html#507"><abbr title="PKP\services\PKPStatsEditorialService::getQueryBuilder">getQueryBuilder</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="PKPStatsGeoService.php.html#34"><abbr title="PKP\services\PKPStatsGeoService::getCount">getCount</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="queryBuilders/PKPContextQueryBuilder.php.html#147"><abbr title="PKP\services\queryBuilders\PKPContextQueryBuilder::getQuery">getQuery</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="queryBuilders/PKPStatsContextQueryBuilder.php.html#42"><abbr title="PKP\services\queryBuilders\PKPStatsContextQueryBuilder::_getObject">_getObject</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="queryBuilders/PKPStatsEditorialQueryBuilder.php.html#418"><abbr title="PKP\services\queryBuilders\PKPStatsEditorialQueryBuilder::_getDaysToDecisionsObject">_getDaysToDecisionsObject</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="PKPStatsServiceTrait.php.html#84"><abbr title="PKP\services\PKPStatsServiceTrait::getEmptyTimelineIntervals">getEmptyTimelineIntervals</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="PKPContextService.php.html#148"><abbr title="PKP\services\PKPContextService::getMax">getMax</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="PKPFileService.php.html#199"><abbr title="PKP\services\PKPFileService::formatFilename">formatFilename</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="PKPFileService.php.html#285"><abbr title="PKP\services\PKPFileService::getNiceFileSize">getNiceFileSize</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="PKPSchemaService.php.html#182"><abbr title="PKP\services\PKPSchemaService::getFullProps">getFullProps</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="PKPSchemaService.php.html#220"><abbr title="PKP\services\PKPSchemaService::getMultilingualProps">getMultilingualProps</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="PKPStatsSushiService.php.html#29"><abbr title="PKP\services\PKPStatsSushiService::getQueryBuilder">getQueryBuilder</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="queryBuilders/PKPStatsEditorialQueryBuilder.php.html#103"><abbr title="PKP\services\queryBuilders\PKPStatsEditorialQueryBuilder::countSubmissionsReceived">countSubmissionsReceived</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="queryBuilders/PKPStatsEditorialQueryBuilder.php.html#349"><abbr title="PKP\services\queryBuilders\PKPStatsEditorialQueryBuilder::_getBaseQuery">_getBaseQuery</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="queryBuilders/PKPStatsEditorialQueryBuilder.php.html#494"><abbr title="PKP\services\queryBuilders\PKPStatsEditorialQueryBuilder::_dateDiff">_dateDiff</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="queryBuilders/PKPStatsQueryBuilder.php.html#103"><abbr title="PKP\services\queryBuilders\PKPStatsQueryBuilder::getSum">getSum</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="PKPContextService.php.html#684"><abbr title="PKP\services\PKPContextService::restoreLocaleDefaults">restoreLocaleDefaults</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="PKPNavigationMenuService.php.html#440"><abbr title="PKP\services\PKPNavigationMenuService::getMenuTree">getMenuTree</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="PKPNavigationMenuService.php.html#547"><abbr title="PKP\services\PKPNavigationMenuService::populateNMIAssignmentContainedObjects">populateNMIAssignmentContainedObjects</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="PKPSchemaService.php.html#203"><abbr title="PKP\services\PKPSchemaService::getRequiredProps">getRequiredProps</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="PKPSchemaService.php.html#425"><abbr title="PKP\services\PKPSchemaService::formatValidationErrors">formatValidationErrors</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="PKPSiteService.php.html#42"><abbr title="PKP\services\PKPSiteService::getProperties">getProperties</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="PKPStatsContextService.php.html#42"><abbr title="PKP\services\PKPStatsContextService::getTotals">getTotals</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="PKPStatsContextService.php.html#59"><abbr title="PKP\services\PKPStatsContextService::getTotal">getTotal</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="PKPStatsPublicationService.php.html#32"><abbr title="PKP\services\PKPStatsPublicationService::filterRecordPdf">filterRecordPdf</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="PKPStatsPublicationService.php.html#41"><abbr title="PKP\services\PKPStatsPublicationService::filterRecordHtml">filterRecordHtml</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="PKPStatsPublicationService.php.html#50"><abbr title="PKP\services\PKPStatsPublicationService::filterRecordOther">filterRecordOther</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="PKPStatsPublicationService.php.html#100"><abbr title="PKP\services\PKPStatsPublicationService::getTotals">getTotals</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="PKPStatsPublicationService.php.html#208"><abbr title="PKP\services\PKPStatsPublicationService::getFilesTotals">getFilesTotals</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="PKPStatsSushiService.php.html#65"><abbr title="PKP\services\PKPStatsSushiService::getEarliestDate">getEarliestDate</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="queryBuilders/PKPStatsEditorialQueryBuilder.php.html#52"><abbr title="PKP\services\queryBuilders\PKPStatsEditorialQueryBuilder::filterByContexts">filterByContexts</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="queryBuilders/PKPStatsEditorialQueryBuilder.php.html#66"><abbr title="PKP\services\queryBuilders\PKPStatsEditorialQueryBuilder::filterBySections">filterBySections</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="queryBuilders/PKPStatsEditorialQueryBuilder.php.html#323"><abbr title="PKP\services\queryBuilders\PKPStatsEditorialQueryBuilder::getDecisionsDates">getDecisionsDates</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="queryBuilders/PKPStatsGeoQueryBuilder.php.html#107"><abbr title="PKP\services\queryBuilders\PKPStatsGeoQueryBuilder::getSum">getSum</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="queryBuilders/PKPStatsGeoQueryBuilder.php.html#236"><abbr title="PKP\services\queryBuilders\PKPStatsGeoQueryBuilder::deleteDailyMetrics">deleteDailyMetrics</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="queryBuilders/PKPStatsGeoQueryBuilder.php.html#261"><abbr title="PKP\services\queryBuilders\PKPStatsGeoQueryBuilder::addMonthlyMetrics">addMonthlyMetrics</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="queryBuilders/PKPStatsPublicationQueryBuilder.php.html#121"><abbr title="PKP\services\queryBuilders\PKPStatsPublicationQueryBuilder::getSum">getSum</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="queryBuilders/PKPStatsSushiQueryBuilder.php.html#181"><abbr title="PKP\services\queryBuilders\PKPStatsSushiQueryBuilder::deleteDailyMetrics">deleteDailyMetrics</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="queryBuilders/PKPStatsSushiQueryBuilder.php.html#208"><abbr title="PKP\services\queryBuilders\PKPStatsSushiQueryBuilder::addMonthlyMetrics">addMonthlyMetrics</abbr></a></td><td class="text-right">6</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 11.0.5</a> using <a href="https://www.php.net/" target="_top">PHP 8.3.11</a> and <a href="https://phpunit.de/">PHPUnit 11.2.8</a> at Wed Sep 4 13:31:09 UTC 2024.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../../_js/jquery.min.js?v=11.0.5" type="text/javascript"></script>
+  <script src="../../_js/d3.min.js?v=11.0.5" type="text/javascript"></script>
+  <script src="../../_js/nv.d3.min.js?v=11.0.5" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([18,0,0,0,0,0,0,0,0,0,0,0], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([185,0,0,0,0,0,0,0,0,0,0,0], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[0,98,"<a href=\"PKPContextService.php.html#52\">PKP\\services\\PKPContextService<\/a>"],[0,64,"<a href=\"PKPFileService.php.html#30\">PKP\\services\\PKPFileService<\/a>"],[0,107,"<a href=\"PKPNavigationMenuService.php.html#36\">PKP\\services\\PKPNavigationMenuService<\/a>"],[0,106,"<a href=\"PKPSchemaService.php.html#28\">PKP\\services\\PKPSchemaService<\/a>"],[0,37,"<a href=\"PKPSiteService.php.html#33\">PKP\\services\\PKPSiteService<\/a>"],[0,10,"<a href=\"PKPStatsContextService.php.html#22\">PKP\\services\\PKPStatsContextService<\/a>"],[0,37,"<a href=\"PKPStatsEditorialService.php.html#23\">PKP\\services\\PKPStatsEditorialService<\/a>"],[0,22,"<a href=\"PKPStatsGeoService.php.html#22\">PKP\\services\\PKPStatsGeoService<\/a>"],[0,31,"<a href=\"PKPStatsPublicationService.php.html#24\">PKP\\services\\PKPStatsPublicationService<\/a>"],[0,9,"<a href=\"PKPStatsSushiService.php.html#24\">PKP\\services\\PKPStatsSushiService<\/a>"],[0,10,"<a href=\"queryBuilders\/PKPContextQueryBuilder.php.html#25\">PKP\\services\\queryBuilders\\PKPContextQueryBuilder<\/a>"],[0,5,"<a href=\"queryBuilders\/PKPStatsContextQueryBuilder.php.html#25\">PKP\\services\\queryBuilders\\PKPStatsContextQueryBuilder<\/a>"],[0,43,"<a href=\"queryBuilders\/PKPStatsEditorialQueryBuilder.php.html#28\">PKP\\services\\queryBuilders\\PKPStatsEditorialQueryBuilder<\/a>"],[0,27,"<a href=\"queryBuilders\/PKPStatsGeoQueryBuilder.php.html#29\">PKP\\services\\queryBuilders\\PKPStatsGeoQueryBuilder<\/a>"],[0,21,"<a href=\"queryBuilders\/PKPStatsPublicationQueryBuilder.php.html#28\">PKP\\services\\queryBuilders\\PKPStatsPublicationQueryBuilder<\/a>"],[0,18,"<a href=\"queryBuilders\/PKPStatsQueryBuilder.php.html#24\">PKP\\services\\queryBuilders\\PKPStatsQueryBuilder<\/a>"],[0,28,"<a href=\"queryBuilders\/PKPStatsSushiQueryBuilder.php.html#27\">PKP\\services\\queryBuilders\\PKPStatsSushiQueryBuilder<\/a>"],[0,11,"<a href=\"PKPStatsServiceTrait.php.html#24\">PKP\\services\\PKPStatsServiceTrait<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[0,1,"<a href=\"PKPContextService.php.html#69\">PKP\\services\\PKPContextService::get<\/a>"],[0,1,"<a href=\"PKPContextService.php.html#77\">PKP\\services\\PKPContextService::getCount<\/a>"],[0,1,"<a href=\"PKPContextService.php.html#85\">PKP\\services\\PKPContextService::getIds<\/a>"],[0,1,"<a href=\"PKPContextService.php.html#103\">PKP\\services\\PKPContextService::getManySummary<\/a>"],[0,4,"<a href=\"PKPContextService.php.html#123\">PKP\\services\\PKPContextService::getMany<\/a>"],[0,3,"<a href=\"PKPContextService.php.html#148\">PKP\\services\\PKPContextService::getMax<\/a>"],[0,1,"<a href=\"PKPContextService.php.html#167\">PKP\\services\\PKPContextService::getQueryBuilder<\/a>"],[0,7,"<a href=\"PKPContextService.php.html#195\">PKP\\services\\PKPContextService::getProperties<\/a>"],[0,1,"<a href=\"PKPContextService.php.html#244\">PKP\\services\\PKPContextService::getSummaryProperties<\/a>"],[0,1,"<a href=\"PKPContextService.php.html#256\">PKP\\services\\PKPContextService::getFullProperties<\/a>"],[0,40,"<a href=\"PKPContextService.php.html#268\">PKP\\services\\PKPContextService::validate<\/a>"],[0,14,"<a href=\"PKPContextService.php.html#458\">PKP\\services\\PKPContextService::add<\/a>"],[0,7,"<a href=\"PKPContextService.php.html#577\">PKP\\services\\PKPContextService::edit<\/a>"],[0,1,"<a href=\"PKPContextService.php.html#616\">PKP\\services\\PKPContextService::delete<\/a>"],[0,2,"<a href=\"PKPContextService.php.html#684\">PKP\\services\\PKPContextService::restoreLocaleDefaults<\/a>"],[0,4,"<a href=\"PKPContextService.php.html#732\">PKP\\services\\PKPContextService::moveTemporaryFile<\/a>"],[0,1,"<a href=\"PKPContextService.php.html#766\">PKP\\services\\PKPContextService::exists<\/a>"],[0,8,"<a href=\"PKPContextService.php.html#797\">PKP\\services\\PKPContextService::_saveFileParam<\/a>"],[0,1,"<a href=\"PKPFileService.php.html#42\">PKP\\services\\PKPFileService::__construct<\/a>"],[0,1,"<a href=\"PKPFileService.php.html#73\">PKP\\services\\PKPFileService::get<\/a>"],[0,7,"<a href=\"PKPFileService.php.html#90\">PKP\\services\\PKPFileService::add<\/a>"],[0,4,"<a href=\"PKPFileService.php.html#126\">PKP\\services\\PKPFileService::delete<\/a>"],[0,5,"<a href=\"PKPFileService.php.html#157\">PKP\\services\\PKPFileService::download<\/a>"],[0,3,"<a href=\"PKPFileService.php.html#199\">PKP\\services\\PKPFileService::formatFilename<\/a>"],[0,40,"<a href=\"PKPFileService.php.html#221\">PKP\\services\\PKPFileService::getDocumentType<\/a>"],[0,3,"<a href=\"PKPFileService.php.html#285\">PKP\\services\\PKPFileService::getNiceFileSize<\/a>"],[0,1,"<a href=\"PKPNavigationMenuService.php.html#45\">PKP\\services\\PKPNavigationMenuService::getMenuItemTypes<\/a>"],[0,1,"<a href=\"PKPNavigationMenuService.php.html#132\">PKP\\services\\PKPNavigationMenuService::getMenuItemCustomEditTemplates<\/a>"],[0,46,"<a href=\"PKPNavigationMenuService.php.html#153\">PKP\\services\\PKPNavigationMenuService::getDisplayStatus<\/a>"],[0,9,"<a href=\"PKPNavigationMenuService.php.html#389\">PKP\\services\\PKPNavigationMenuService::loadMenuTree<\/a>"],[0,2,"<a href=\"PKPNavigationMenuService.php.html#440\">PKP\\services\\PKPNavigationMenuService::getMenuTree<\/a>"],[0,5,"<a href=\"PKPNavigationMenuService.php.html#453\">PKP\\services\\PKPNavigationMenuService::loadMenuTreeDisplayState<\/a>"],[0,15,"<a href=\"PKPNavigationMenuService.php.html#475\">PKP\\services\\PKPNavigationMenuService::arrayToObject<\/a>"],[0,5,"<a href=\"PKPNavigationMenuService.php.html#521\">PKP\\services\\PKPNavigationMenuService::transformNavMenuItemTitle<\/a>"],[0,2,"<a href=\"PKPNavigationMenuService.php.html#547\">PKP\\services\\PKPNavigationMenuService::populateNMIAssignmentContainedObjects<\/a>"],[0,8,"<a href=\"PKPNavigationMenuService.php.html#576\">PKP\\services\\PKPNavigationMenuService::_hasNMTreeNMIAssignmentWithChildOfNMIType<\/a>"],[0,4,"<a href=\"PKPNavigationMenuService.php.html#602\">PKP\\services\\PKPNavigationMenuService::setNMITitleLocalized<\/a>"],[0,4,"<a href=\"PKPNavigationMenuService.php.html#620\">PKP\\services\\PKPNavigationMenuService::setAllNMILocalizedTitles<\/a>"],[0,5,"<a href=\"PKPNavigationMenuService.php.html#641\">PKP\\services\\PKPNavigationMenuService::_callbackHandleCustomNavigationMenuItems<\/a>"],[0,7,"<a href=\"PKPSchemaService.php.html#71\">PKP\\services\\PKPSchemaService::get<\/a>"],[0,8,"<a href=\"PKPSchemaService.php.html#122\">PKP\\services\\PKPSchemaService::merge<\/a>"],[0,4,"<a href=\"PKPSchemaService.php.html#159\">PKP\\services\\PKPSchemaService::getSummaryProps<\/a>"],[0,3,"<a href=\"PKPSchemaService.php.html#182\">PKP\\services\\PKPSchemaService::getFullProps<\/a>"],[0,2,"<a href=\"PKPSchemaService.php.html#203\">PKP\\services\\PKPSchemaService::getRequiredProps<\/a>"],[0,3,"<a href=\"PKPSchemaService.php.html#220\">PKP\\services\\PKPSchemaService::getMultilingualProps<\/a>"],[0,8,"<a href=\"PKPSchemaService.php.html#245\">PKP\\services\\PKPSchemaService::sanitize<\/a>"],[0,17,"<a href=\"PKPSchemaService.php.html#283\">PKP\\services\\PKPSchemaService::coerce<\/a>"],[0,4,"<a href=\"PKPSchemaService.php.html#338\">PKP\\services\\PKPSchemaService::getValidationRules<\/a>"],[0,13,"<a href=\"PKPSchemaService.php.html#363\">PKP\\services\\PKPSchemaService::addPropValidationRules<\/a>"],[0,2,"<a href=\"PKPSchemaService.php.html#425\">PKP\\services\\PKPSchemaService::formatValidationErrors<\/a>"],[0,7,"<a href=\"PKPSchemaService.php.html#458\">PKP\\services\\PKPSchemaService::setDefaults<\/a>"],[0,4,"<a href=\"PKPSchemaService.php.html#492\">PKP\\services\\PKPSchemaService::getLocaleDefaults<\/a>"],[0,15,"<a href=\"PKPSchemaService.php.html#515\">PKP\\services\\PKPSchemaService::getDefault<\/a>"],[0,9,"<a href=\"PKPSchemaService.php.html#588\">PKP\\services\\PKPSchemaService::addMissingMultilingualValues<\/a>"],[0,2,"<a href=\"PKPSiteService.php.html#42\">PKP\\services\\PKPSiteService::getProperties<\/a>"],[0,1,"<a href=\"PKPSiteService.php.html#67\">PKP\\services\\PKPSiteService::getSummaryProperties<\/a>"],[0,1,"<a href=\"PKPSiteService.php.html#77\">PKP\\services\\PKPSiteService::getFullProperties<\/a>"],[0,15,"<a href=\"PKPSiteService.php.html#100\">PKP\\services\\PKPSiteService::validate<\/a>"],[0,6,"<a href=\"PKPSiteService.php.html#203\">PKP\\services\\PKPSiteService::edit<\/a>"],[0,4,"<a href=\"PKPSiteService.php.html#245\">PKP\\services\\PKPSiteService::moveTemporaryFile<\/a>"],[0,8,"<a href=\"PKPSiteService.php.html#292\">PKP\\services\\PKPSiteService::_saveFileParam<\/a>"],[0,1,"<a href=\"PKPStatsContextService.php.html#29\">PKP\\services\\PKPStatsContextService::getCount<\/a>"],[0,2,"<a href=\"PKPStatsContextService.php.html#42\">PKP\\services\\PKPStatsContextService::getTotals<\/a>"],[0,2,"<a href=\"PKPStatsContextService.php.html#59\">PKP\\services\\PKPStatsContextService::getTotal<\/a>"],[0,1,"<a href=\"PKPStatsContextService.php.html#76\">PKP\\services\\PKPStatsContextService::getDefaultArgs<\/a>"],[0,4,"<a href=\"PKPStatsContextService.php.html#87\">PKP\\services\\PKPStatsContextService::getQueryBuilder<\/a>"],[0,8,"<a href=\"PKPStatsEditorialService.php.html#34\">PKP\\services\\PKPStatsEditorialService::getOverview<\/a>"],[0,11,"<a href=\"PKPStatsEditorialService.php.html#204\">PKP\\services\\PKPStatsEditorialService::getAverages<\/a>"],[0,1,"<a href=\"PKPStatsEditorialService.php.html#312\">PKP\\services\\PKPStatsEditorialService::countSubmissionsReceived<\/a>"],[0,1,"<a href=\"PKPStatsEditorialService.php.html#328\">PKP\\services\\PKPStatsEditorialService::countSubmissionsPublished<\/a>"],[0,1,"<a href=\"PKPStatsEditorialService.php.html#344\">PKP\\services\\PKPStatsEditorialService::countByDecisions<\/a>"],[0,1,"<a href=\"PKPStatsEditorialService.php.html#361\">PKP\\services\\PKPStatsEditorialService::countByDecisionsForSubmittedDate<\/a>"],[0,1,"<a href=\"PKPStatsEditorialService.php.html#377\">PKP\\services\\PKPStatsEditorialService::countByStatus<\/a>"],[0,1,"<a href=\"PKPStatsEditorialService.php.html#390\">PKP\\services\\PKPStatsEditorialService::countSubmissionsSkipped<\/a>"],[0,1,"<a href=\"PKPStatsEditorialService.php.html#405\">PKP\\services\\PKPStatsEditorialService::countSubmissionsInProgress<\/a>"],[0,1,"<a href=\"PKPStatsEditorialService.php.html#420\">PKP\\services\\PKPStatsEditorialService::countSubmissionsImported<\/a>"],[0,1,"<a href=\"PKPStatsEditorialService.php.html#436\">PKP\\services\\PKPStatsEditorialService::countActiveByStages<\/a>"],[0,1,"<a href=\"PKPStatsEditorialService.php.html#454\">PKP\\services\\PKPStatsEditorialService::getDaysToDecisions<\/a>"],[0,1,"<a href=\"PKPStatsEditorialService.php.html#471\">PKP\\services\\PKPStatsEditorialService::getAverageDaysToDecisions<\/a>"],[0,1,"<a href=\"PKPStatsEditorialService.php.html#493\">PKP\\services\\PKPStatsEditorialService::calculateDaysToDecisionRate<\/a>"],[0,4,"<a href=\"PKPStatsEditorialService.php.html#507\">PKP\\services\\PKPStatsEditorialService::getQueryBuilder<\/a>"],[0,1,"<a href=\"PKPStatsEditorialService.php.html#539\">PKP\\services\\PKPStatsEditorialService::getAcceptedDecisions<\/a>"],[0,1,"<a href=\"PKPStatsEditorialService.php.html#556\">PKP\\services\\PKPStatsEditorialService::getDeclinedDecisions<\/a>"],[0,4,"<a href=\"PKPStatsGeoService.php.html#34\">PKP\\services\\PKPStatsGeoService::getCount<\/a>"],[0,5,"<a href=\"PKPStatsGeoService.php.html#62\">PKP\\services\\PKPStatsGeoService::getTotals<\/a>"],[0,1,"<a href=\"PKPStatsGeoService.php.html#86\">PKP\\services\\PKPStatsGeoService::getDefaultArgs<\/a>"],[0,8,"<a href=\"PKPStatsGeoService.php.html#99\">PKP\\services\\PKPStatsGeoService::getQueryBuilder<\/a>"],[0,1,"<a href=\"PKPStatsGeoService.php.html#136\">PKP\\services\\PKPStatsGeoService::monthExists<\/a>"],[0,1,"<a href=\"PKPStatsGeoService.php.html#147\">PKP\\services\\PKPStatsGeoService::deleteDailyMetrics<\/a>"],[0,1,"<a href=\"PKPStatsGeoService.php.html#158\">PKP\\services\\PKPStatsGeoService::deleteMonthlyMetrics<\/a>"],[0,1,"<a href=\"PKPStatsGeoService.php.html#169\">PKP\\services\\PKPStatsGeoService::addMonthlyMetrics<\/a>"],[0,2,"<a href=\"PKPStatsPublicationService.php.html#32\">PKP\\services\\PKPStatsPublicationService::filterRecordPdf<\/a>"],[0,2,"<a href=\"PKPStatsPublicationService.php.html#41\">PKP\\services\\PKPStatsPublicationService::filterRecordHtml<\/a>"],[0,2,"<a href=\"PKPStatsPublicationService.php.html#50\">PKP\\services\\PKPStatsPublicationService::filterRecordOther<\/a>"],[0,1,"<a href=\"PKPStatsPublicationService.php.html#59\">PKP\\services\\PKPStatsPublicationService::filterRecordAbstract<\/a>"],[0,1,"<a href=\"PKPStatsPublicationService.php.html#68\">PKP\\services\\PKPStatsPublicationService::filterRecordSuppFile<\/a>"],[0,1,"<a href=\"PKPStatsPublicationService.php.html#78\">PKP\\services\\PKPStatsPublicationService::getCount<\/a>"],[0,2,"<a href=\"PKPStatsPublicationService.php.html#100\">PKP\\services\\PKPStatsPublicationService::getTotals<\/a>"],[0,6,"<a href=\"PKPStatsPublicationService.php.html#127\">PKP\\services\\PKPStatsPublicationService::getTotalsByType<\/a>"],[0,1,"<a href=\"PKPStatsPublicationService.php.html#183\">PKP\\services\\PKPStatsPublicationService::getFilesCount<\/a>"],[0,2,"<a href=\"PKPStatsPublicationService.php.html#208\">PKP\\services\\PKPStatsPublicationService::getFilesTotals<\/a>"],[0,1,"<a href=\"PKPStatsPublicationService.php.html#232\">PKP\\services\\PKPStatsPublicationService::getDefaultArgs<\/a>"],[0,1,"<a href=\"PKPStatsPublicationService.php.html#245\">PKP\\services\\PKPStatsPublicationService::getAppSpecificFilters<\/a>"],[0,9,"<a href=\"PKPStatsPublicationService.php.html#254\">PKP\\services\\PKPStatsPublicationService::getQueryBuilder<\/a>"],[0,3,"<a href=\"PKPStatsSushiService.php.html#29\">PKP\\services\\PKPStatsSushiService::getQueryBuilder<\/a>"],[0,1,"<a href=\"PKPStatsSushiService.php.html#53\">PKP\\services\\PKPStatsSushiService::monthExists<\/a>"],[0,2,"<a href=\"PKPStatsSushiService.php.html#65\">PKP\\services\\PKPStatsSushiService::getEarliestDate<\/a>"],[0,1,"<a href=\"PKPStatsSushiService.php.html#81\">PKP\\services\\PKPStatsSushiService::deleteDailyMetrics<\/a>"],[0,1,"<a href=\"PKPStatsSushiService.php.html#92\">PKP\\services\\PKPStatsSushiService::deleteMonthlyMetrics<\/a>"],[0,1,"<a href=\"PKPStatsSushiService.php.html#103\">PKP\\services\\PKPStatsSushiService::addMonthlyMetrics<\/a>"],[0,1,"<a href=\"queryBuilders\/PKPContextQueryBuilder.php.html#55\">PKP\\services\\queryBuilders\\PKPContextQueryBuilder::filterByIsEnabled<\/a>"],[0,1,"<a href=\"queryBuilders\/PKPContextQueryBuilder.php.html#72\">PKP\\services\\queryBuilders\\PKPContextQueryBuilder::filterByUserId<\/a>"],[0,1,"<a href=\"queryBuilders\/PKPContextQueryBuilder.php.html#85\">PKP\\services\\queryBuilders\\PKPContextQueryBuilder::searchPhrase<\/a>"],[0,1,"<a href=\"queryBuilders\/PKPContextQueryBuilder.php.html#94\">PKP\\services\\queryBuilders\\PKPContextQueryBuilder::getCount<\/a>"],[0,1,"<a href=\"queryBuilders\/PKPContextQueryBuilder.php.html#104\">PKP\\services\\queryBuilders\\PKPContextQueryBuilder::getIds<\/a>"],[0,1,"<a href=\"queryBuilders\/PKPContextQueryBuilder.php.html#121\">PKP\\services\\queryBuilders\\PKPContextQueryBuilder::getManySummary<\/a>"],[0,4,"<a href=\"queryBuilders\/PKPContextQueryBuilder.php.html#147\">PKP\\services\\queryBuilders\\PKPContextQueryBuilder::getQuery<\/a>"],[0,1,"<a href=\"queryBuilders\/PKPStatsContextQueryBuilder.php.html#30\">PKP\\services\\queryBuilders\\PKPStatsContextQueryBuilder::getContextIds<\/a>"],[0,4,"<a href=\"queryBuilders\/PKPStatsContextQueryBuilder.php.html#42\">PKP\\services\\queryBuilders\\PKPStatsContextQueryBuilder::_getObject<\/a>"],[0,2,"<a href=\"queryBuilders\/PKPStatsEditorialQueryBuilder.php.html#52\">PKP\\services\\queryBuilders\\PKPStatsEditorialQueryBuilder::filterByContexts<\/a>"],[0,2,"<a href=\"queryBuilders\/PKPStatsEditorialQueryBuilder.php.html#66\">PKP\\services\\queryBuilders\\PKPStatsEditorialQueryBuilder::filterBySections<\/a>"],[0,1,"<a href=\"queryBuilders\/PKPStatsEditorialQueryBuilder.php.html#79\">PKP\\services\\queryBuilders\\PKPStatsEditorialQueryBuilder::before<\/a>"],[0,1,"<a href=\"queryBuilders\/PKPStatsEditorialQueryBuilder.php.html#92\">PKP\\services\\queryBuilders\\PKPStatsEditorialQueryBuilder::after<\/a>"],[0,3,"<a href=\"queryBuilders\/PKPStatsEditorialQueryBuilder.php.html#103\">PKP\\services\\queryBuilders\\PKPStatsEditorialQueryBuilder::countSubmissionsReceived<\/a>"],[0,7,"<a href=\"queryBuilders\/PKPStatsEditorialQueryBuilder.php.html#129\">PKP\\services\\queryBuilders\\PKPStatsEditorialQueryBuilder::countByDecisions<\/a>"],[0,1,"<a href=\"queryBuilders\/PKPStatsEditorialQueryBuilder.php.html#183\">PKP\\services\\queryBuilders\\PKPStatsEditorialQueryBuilder::countByStatus<\/a>"],[0,1,"<a href=\"queryBuilders\/PKPStatsEditorialQueryBuilder.php.html#197\">PKP\\services\\queryBuilders\\PKPStatsEditorialQueryBuilder::countActiveByStages<\/a>"],[0,5,"<a href=\"queryBuilders\/PKPStatsEditorialQueryBuilder.php.html#210\">PKP\\services\\queryBuilders\\PKPStatsEditorialQueryBuilder::countPublished<\/a>"],[0,1,"<a href=\"queryBuilders\/PKPStatsEditorialQueryBuilder.php.html#251\">PKP\\services\\queryBuilders\\PKPStatsEditorialQueryBuilder::getDaysToDecisions<\/a>"],[0,1,"<a href=\"queryBuilders\/PKPStatsEditorialQueryBuilder.php.html#271\">PKP\\services\\queryBuilders\\PKPStatsEditorialQueryBuilder::getAverageDaysToDecisions<\/a>"],[0,1,"<a href=\"queryBuilders\/PKPStatsEditorialQueryBuilder.php.html#284\">PKP\\services\\queryBuilders\\PKPStatsEditorialQueryBuilder::getSubmissionsReceivedDates<\/a>"],[0,1,"<a href=\"queryBuilders\/PKPStatsEditorialQueryBuilder.php.html#295\">PKP\\services\\queryBuilders\\PKPStatsEditorialQueryBuilder::getPublishedDates<\/a>"],[0,2,"<a href=\"queryBuilders\/PKPStatsEditorialQueryBuilder.php.html#323\">PKP\\services\\queryBuilders\\PKPStatsEditorialQueryBuilder::getDecisionsDates<\/a>"],[0,3,"<a href=\"queryBuilders\/PKPStatsEditorialQueryBuilder.php.html#349\">PKP\\services\\queryBuilders\\PKPStatsEditorialQueryBuilder::_getBaseQuery<\/a>"],[0,1,"<a href=\"queryBuilders\/PKPStatsEditorialQueryBuilder.php.html#387\">PKP\\services\\queryBuilders\\PKPStatsEditorialQueryBuilder::_getObject<\/a>"],[0,4,"<a href=\"queryBuilders\/PKPStatsEditorialQueryBuilder.php.html#418\">PKP\\services\\queryBuilders\\PKPStatsEditorialQueryBuilder::_getDaysToDecisionsObject<\/a>"],[0,1,"<a href=\"queryBuilders\/PKPStatsEditorialQueryBuilder.php.html#457\">PKP\\services\\queryBuilders\\PKPStatsEditorialQueryBuilder::countImported<\/a>"],[0,1,"<a href=\"queryBuilders\/PKPStatsEditorialQueryBuilder.php.html#472\">PKP\\services\\queryBuilders\\PKPStatsEditorialQueryBuilder::countInProgress<\/a>"],[0,1,"<a href=\"queryBuilders\/PKPStatsEditorialQueryBuilder.php.html#484\">PKP\\services\\queryBuilders\\PKPStatsEditorialQueryBuilder::countSkipped<\/a>"],[0,3,"<a href=\"queryBuilders\/PKPStatsEditorialQueryBuilder.php.html#494\">PKP\\services\\queryBuilders\\PKPStatsEditorialQueryBuilder::_dateDiff<\/a>"],[0,0,"<a href=\"queryBuilders\/PKPStatsGeoQueryBuilder.php.html#47\">PKP\\services\\queryBuilders\\PKPStatsGeoQueryBuilder::getSectionColumn<\/a>"],[0,1,"<a href=\"queryBuilders\/PKPStatsGeoQueryBuilder.php.html#52\">PKP\\services\\queryBuilders\\PKPStatsGeoQueryBuilder::filterByPKPSections<\/a>"],[0,1,"<a href=\"queryBuilders\/PKPStatsGeoQueryBuilder.php.html#61\">PKP\\services\\queryBuilders\\PKPStatsGeoQueryBuilder::filterBySubmissions<\/a>"],[0,1,"<a href=\"queryBuilders\/PKPStatsGeoQueryBuilder.php.html#70\">PKP\\services\\queryBuilders\\PKPStatsGeoQueryBuilder::filterByCountries<\/a>"],[0,1,"<a href=\"queryBuilders\/PKPStatsGeoQueryBuilder.php.html#79\">PKP\\services\\queryBuilders\\PKPStatsGeoQueryBuilder::filterByRegions<\/a>"],[0,1,"<a href=\"queryBuilders\/PKPStatsGeoQueryBuilder.php.html#88\">PKP\\services\\queryBuilders\\PKPStatsGeoQueryBuilder::filterByCities<\/a>"],[0,1,"<a href=\"queryBuilders\/PKPStatsGeoQueryBuilder.php.html#97\">PKP\\services\\queryBuilders\\PKPStatsGeoQueryBuilder::getGeoData<\/a>"],[0,2,"<a href=\"queryBuilders\/PKPStatsGeoQueryBuilder.php.html#107\">PKP\\services\\queryBuilders\\PKPStatsGeoQueryBuilder::getSum<\/a>"],[0,1,"<a href=\"queryBuilders\/PKPStatsGeoQueryBuilder.php.html#123\">PKP\\services\\queryBuilders\\PKPStatsGeoQueryBuilder::_getAppSpecificQuery<\/a>"],[0,12,"<a href=\"queryBuilders\/PKPStatsGeoQueryBuilder.php.html#132\">PKP\\services\\queryBuilders\\PKPStatsGeoQueryBuilder::_getObject<\/a>"],[0,1,"<a href=\"queryBuilders\/PKPStatsGeoQueryBuilder.php.html#225\">PKP\\services\\queryBuilders\\PKPStatsGeoQueryBuilder::monthExists<\/a>"],[0,2,"<a href=\"queryBuilders\/PKPStatsGeoQueryBuilder.php.html#236\">PKP\\services\\queryBuilders\\PKPStatsGeoQueryBuilder::deleteDailyMetrics<\/a>"],[0,1,"<a href=\"queryBuilders\/PKPStatsGeoQueryBuilder.php.html#251\">PKP\\services\\queryBuilders\\PKPStatsGeoQueryBuilder::deleteMonthlyMetrics<\/a>"],[0,2,"<a href=\"queryBuilders\/PKPStatsGeoQueryBuilder.php.html#261\">PKP\\services\\queryBuilders\\PKPStatsGeoQueryBuilder::addMonthlyMetrics<\/a>"],[0,0,"<a href=\"queryBuilders\/PKPStatsPublicationQueryBuilder.php.html#52\">PKP\\services\\queryBuilders\\PKPStatsPublicationQueryBuilder::getSectionColumn<\/a>"],[0,1,"<a href=\"queryBuilders\/PKPStatsPublicationQueryBuilder.php.html#57\">PKP\\services\\queryBuilders\\PKPStatsPublicationQueryBuilder::filterByPKPSections<\/a>"],[0,1,"<a href=\"queryBuilders\/PKPStatsPublicationQueryBuilder.php.html#66\">PKP\\services\\queryBuilders\\PKPStatsPublicationQueryBuilder::filterBySubmissions<\/a>"],[0,1,"<a href=\"queryBuilders\/PKPStatsPublicationQueryBuilder.php.html#75\">PKP\\services\\queryBuilders\\PKPStatsPublicationQueryBuilder::filterByRepresentations<\/a>"],[0,1,"<a href=\"queryBuilders\/PKPStatsPublicationQueryBuilder.php.html#84\">PKP\\services\\queryBuilders\\PKPStatsPublicationQueryBuilder::filterBySubmissionFiles<\/a>"],[0,1,"<a href=\"queryBuilders\/PKPStatsPublicationQueryBuilder.php.html#93\">PKP\\services\\queryBuilders\\PKPStatsPublicationQueryBuilder::filterByAssocTypes<\/a>"],[0,1,"<a href=\"queryBuilders\/PKPStatsPublicationQueryBuilder.php.html#102\">PKP\\services\\queryBuilders\\PKPStatsPublicationQueryBuilder::filterByFileTypes<\/a>"],[0,1,"<a href=\"queryBuilders\/PKPStatsPublicationQueryBuilder.php.html#111\">PKP\\services\\queryBuilders\\PKPStatsPublicationQueryBuilder::getSubmissionIds<\/a>"],[0,2,"<a href=\"queryBuilders\/PKPStatsPublicationQueryBuilder.php.html#121\">PKP\\services\\queryBuilders\\PKPStatsPublicationQueryBuilder::getSum<\/a>"],[0,1,"<a href=\"queryBuilders\/PKPStatsPublicationQueryBuilder.php.html#132\">PKP\\services\\queryBuilders\\PKPStatsPublicationQueryBuilder::_getAppSpecificQuery<\/a>"],[0,11,"<a href=\"queryBuilders\/PKPStatsPublicationQueryBuilder.php.html#141\">PKP\\services\\queryBuilders\\PKPStatsPublicationQueryBuilder::_getObject<\/a>"],[0,1,"<a href=\"queryBuilders\/PKPStatsQueryBuilder.php.html#45\">PKP\\services\\queryBuilders\\PKPStatsQueryBuilder::filterByContexts<\/a>"],[0,1,"<a href=\"queryBuilders\/PKPStatsQueryBuilder.php.html#57\">PKP\\services\\queryBuilders\\PKPStatsQueryBuilder::before<\/a>"],[0,1,"<a href=\"queryBuilders\/PKPStatsQueryBuilder.php.html#69\">PKP\\services\\queryBuilders\\PKPStatsQueryBuilder::after<\/a>"],[0,1,"<a href=\"queryBuilders\/PKPStatsQueryBuilder.php.html#78\">PKP\\services\\queryBuilders\\PKPStatsQueryBuilder::limit<\/a>"],[0,1,"<a href=\"queryBuilders\/PKPStatsQueryBuilder.php.html#87\">PKP\\services\\queryBuilders\\PKPStatsQueryBuilder::offset<\/a>"],[0,3,"<a href=\"queryBuilders\/PKPStatsQueryBuilder.php.html#103\">PKP\\services\\queryBuilders\\PKPStatsQueryBuilder::getSum<\/a>"],[0,0,"<a href=\"queryBuilders\/PKPStatsQueryBuilder.php.html#128\">PKP\\services\\queryBuilders\\PKPStatsQueryBuilder::_getObject<\/a>"],[0,10,"<a href=\"queryBuilders\/PKPStatsQueryBuilder.php.html#133\">PKP\\services\\queryBuilders\\PKPStatsQueryBuilder::getSelectColumns<\/a>"],[0,1,"<a href=\"queryBuilders\/PKPStatsSushiQueryBuilder.php.html#41\">PKP\\services\\queryBuilders\\PKPStatsSushiQueryBuilder::filterByYOP<\/a>"],[0,1,"<a href=\"queryBuilders\/PKPStatsSushiQueryBuilder.php.html#50\">PKP\\services\\queryBuilders\\PKPStatsSushiQueryBuilder::filterBySubmissions<\/a>"],[0,1,"<a href=\"queryBuilders\/PKPStatsSushiQueryBuilder.php.html#59\">PKP\\services\\queryBuilders\\PKPStatsSushiQueryBuilder::filterByInstitution<\/a>"],[0,9,"<a href=\"queryBuilders\/PKPStatsSushiQueryBuilder.php.html#68\">PKP\\services\\queryBuilders\\PKPStatsSushiQueryBuilder::getSum<\/a>"],[0,10,"<a href=\"queryBuilders\/PKPStatsSushiQueryBuilder.php.html#114\">PKP\\services\\queryBuilders\\PKPStatsSushiQueryBuilder::_getObject<\/a>"],[0,1,"<a href=\"queryBuilders\/PKPStatsSushiQueryBuilder.php.html#170\">PKP\\services\\queryBuilders\\PKPStatsSushiQueryBuilder::monthExists<\/a>"],[0,2,"<a href=\"queryBuilders\/PKPStatsSushiQueryBuilder.php.html#181\">PKP\\services\\queryBuilders\\PKPStatsSushiQueryBuilder::deleteDailyMetrics<\/a>"],[0,1,"<a href=\"queryBuilders\/PKPStatsSushiQueryBuilder.php.html#197\">PKP\\services\\queryBuilders\\PKPStatsSushiQueryBuilder::deleteMonthlyMetrics<\/a>"],[0,2,"<a href=\"queryBuilders\/PKPStatsSushiQueryBuilder.php.html#208\">PKP\\services\\queryBuilders\\PKPStatsSushiQueryBuilder::addMonthlyMetrics<\/a>"],[0,6,"<a href=\"PKPStatsServiceTrait.php.html#34\">PKP\\services\\PKPStatsServiceTrait::getTimeline<\/a>"],[0,4,"<a href=\"PKPStatsServiceTrait.php.html#84\">PKP\\services\\PKPStatsServiceTrait::getEmptyTimelineIntervals<\/a>"],[0,1,"<a href=\"PKPStatsServiceTrait.php.html#117\">PKP\\services\\PKPStatsServiceTrait::getTimelineReportColumnNames<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

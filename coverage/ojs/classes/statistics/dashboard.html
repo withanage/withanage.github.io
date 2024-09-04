@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /var/www/html/ojs-main/lib/pkp/classes/statistics</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../_css/bootstrap.min.css?v=11.0.5" rel="stylesheet" type="text/css">
+  <link href="../../_css/nv.d3.min.css?v=11.0.5" rel="stylesheet" type="text/css">
+  <link href="../../_css/style.css?v=11.0.5" rel="stylesheet" type="text/css">
+  <link href="../../_css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="../../index.html">/var/www/html/ojs-main/lib/pkp</a></li>
+         <li class="breadcrumb-item"><a href="../index.html">classes</a></li>
+         <li class="breadcrumb-item"><a href="index.html">statistics</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="PKPStatisticsHelper.php.html#28">PKP\statistics\PKPStatisticsHelper</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPTemporaryItemInvestigationsDAO.php.html#23">PKP\statistics\PKPTemporaryItemInvestigationsDAO</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPTemporaryItemRequestsDAO.php.html#24">PKP\statistics\PKPTemporaryItemRequestsDAO</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPTemporaryTotalsDAO.php.html#31">PKP\statistics\PKPTemporaryTotalsDAO</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TemporaryInstitutionsDAO.php.html#22">PKP\statistics\TemporaryInstitutionsDAO</a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="PKPStatisticsHelper.php.html#28">PKP\statistics\PKPStatisticsHelper</a></td><td class="text-right">1722</td></tr>
+       <tr><td><a href="PKPTemporaryTotalsDAO.php.html#31">PKP\statistics\PKPTemporaryTotalsDAO</a></td><td class="text-right">506</td></tr>
+       <tr><td><a href="PKPTemporaryItemInvestigationsDAO.php.html#23">PKP\statistics\PKPTemporaryItemInvestigationsDAO</a></td><td class="text-right">240</td></tr>
+       <tr><td><a href="PKPTemporaryItemRequestsDAO.php.html#24">PKP\statistics\PKPTemporaryItemRequestsDAO</a></td><td class="text-right">182</td></tr>
+       <tr><td><a href="TemporaryInstitutionsDAO.php.html#22">PKP\statistics\TemporaryInstitutionsDAO</a></td><td class="text-right">20</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="PKPStatisticsHelper.php.html#83"><abbr title="PKP\statistics\PKPStatisticsHelper::getUsageStatsDirPath">getUsageStatsDirPath</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPStatisticsHelper.php.html#92"><abbr title="PKP\statistics\PKPStatisticsHelper::getSaltFileName">getSaltFileName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPStatisticsHelper.php.html#100"><abbr title="PKP\statistics\PKPStatisticsHelper::getGeoDBPath">getGeoDBPath</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPStatisticsHelper.php.html#111"><abbr title="PKP\statistics\PKPStatisticsHelper::getDocumentType">getDocumentType</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPStatisticsHelper.php.html#138"><abbr title="PKP\statistics\PKPStatisticsHelper::hashIp">hashIp</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPStatisticsHelper.php.html#146"><abbr title="PKP\statistics\PKPStatisticsHelper::createNewSalt">createNewSalt</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPStatisticsHelper.php.html#164"><abbr title="PKP\statistics\PKPStatisticsHelper::getGeoData">getGeoData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPStatisticsHelper.php.html#198"><abbr title="PKP\statistics\PKPStatisticsHelper::getLocation">getLocation</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPStatisticsHelper.php.html#271"><abbr title="PKP\statistics\PKPStatisticsHelper::getInstitutionIds">getInstitutionIds</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPTemporaryItemInvestigationsDAO.php.html#35"><abbr title="PKP\statistics\PKPTemporaryItemInvestigationsDAO::insert">insert</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPTemporaryItemInvestigationsDAO.php.html#47"><abbr title="PKP\statistics\PKPTemporaryItemInvestigationsDAO::getInsertData">getInsertData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPTemporaryItemInvestigationsDAO.php.html#69"><abbr title="PKP\statistics\PKPTemporaryItemInvestigationsDAO::deleteByLoadId">deleteByLoadId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPTemporaryItemInvestigationsDAO.php.html#83"><abbr title="PKP\statistics\PKPTemporaryItemInvestigationsDAO::compileUniqueClicks">compileUniqueClicks</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPTemporaryItemInvestigationsDAO.php.html#127"><abbr title="PKP\statistics\PKPTemporaryItemInvestigationsDAO::compileSubmissionGeoDailyMetrics">compileSubmissionGeoDailyMetrics</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPTemporaryItemInvestigationsDAO.php.html#153"><abbr title="PKP\statistics\PKPTemporaryItemInvestigationsDAO::compileCounterSubmissionDailyMetrics">compileCounterSubmissionDailyMetrics</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPTemporaryItemInvestigationsDAO.php.html#179"><abbr title="PKP\statistics\PKPTemporaryItemInvestigationsDAO::compileCounterSubmissionInstitutionDailyMetrics">compileCounterSubmissionInstitutionDailyMetrics</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPTemporaryItemRequestsDAO.php.html#35"><abbr title="PKP\statistics\PKPTemporaryItemRequestsDAO::insert">insert</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPTemporaryItemRequestsDAO.php.html#47"><abbr title="PKP\statistics\PKPTemporaryItemRequestsDAO::getInsertData">getInsertData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPTemporaryItemRequestsDAO.php.html#69"><abbr title="PKP\statistics\PKPTemporaryItemRequestsDAO::deleteByLoadId">deleteByLoadId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPTemporaryItemRequestsDAO.php.html#83"><abbr title="PKP\statistics\PKPTemporaryItemRequestsDAO::compileUniqueClicks">compileUniqueClicks</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPTemporaryItemRequestsDAO.php.html#125"><abbr title="PKP\statistics\PKPTemporaryItemRequestsDAO::compileCounterSubmissionDailyMetrics">compileCounterSubmissionDailyMetrics</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPTemporaryItemRequestsDAO.php.html#152"><abbr title="PKP\statistics\PKPTemporaryItemRequestsDAO::compileCounterSubmissionInstitutionDailyMetrics">compileCounterSubmissionInstitutionDailyMetrics</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPTemporaryTotalsDAO.php.html#41"><abbr title="PKP\statistics\PKPTemporaryTotalsDAO::insert">insert</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPTemporaryTotalsDAO.php.html#53"><abbr title="PKP\statistics\PKPTemporaryTotalsDAO::getInsertData">getInsertData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPTemporaryTotalsDAO.php.html#76"><abbr title="PKP\statistics\PKPTemporaryTotalsDAO::deleteByLoadId">deleteByLoadId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPTemporaryTotalsDAO.php.html#90"><abbr title="PKP\statistics\PKPTemporaryTotalsDAO::removeDoubleClicks">removeDoubleClicks</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPTemporaryTotalsDAO.php.html#133"><abbr title="PKP\statistics\PKPTemporaryTotalsDAO::compileContextMetrics">compileContextMetrics</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPTemporaryTotalsDAO.php.html#148"><abbr title="PKP\statistics\PKPTemporaryTotalsDAO::compileSubmissionMetrics">compileSubmissionMetrics</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPTemporaryTotalsDAO.php.html#177"><abbr title="PKP\statistics\PKPTemporaryTotalsDAO::deleteSubmissionGeoDailyByLoadId">deleteSubmissionGeoDailyByLoadId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPTemporaryTotalsDAO.php.html#182"><abbr title="PKP\statistics\PKPTemporaryTotalsDAO::deleteCounterSubmissionDailyByLoadId">deleteCounterSubmissionDailyByLoadId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPTemporaryTotalsDAO.php.html#187"><abbr title="PKP\statistics\PKPTemporaryTotalsDAO::deleteCounterSubmissionInstitutionDailyByLoadId">deleteCounterSubmissionInstitutionDailyByLoadId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPTemporaryTotalsDAO.php.html#196"><abbr title="PKP\statistics\PKPTemporaryTotalsDAO::compileSubmissionGeoDailyMetrics">compileSubmissionGeoDailyMetrics</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPTemporaryTotalsDAO.php.html#222"><abbr title="PKP\statistics\PKPTemporaryTotalsDAO::compileCounterSubmissionDailyMetrics">compileCounterSubmissionDailyMetrics</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PKPTemporaryTotalsDAO.php.html#268"><abbr title="PKP\statistics\PKPTemporaryTotalsDAO::compileCounterSubmissionInstitutionDailyMetrics">compileCounterSubmissionInstitutionDailyMetrics</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TemporaryInstitutionsDAO.php.html#30"><abbr title="PKP\statistics\TemporaryInstitutionsDAO::insert">insert</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TemporaryInstitutionsDAO.php.html#45"><abbr title="PKP\statistics\TemporaryInstitutionsDAO::deleteByLoadId">deleteByLoadId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TemporaryInstitutionsDAO.php.html#53"><abbr title="PKP\statistics\TemporaryInstitutionsDAO::getInstitutionIdsByLoadId">getInstitutionIdsByLoadId</abbr></a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="PKPStatisticsHelper.php.html#198"><abbr title="PKP\statistics\PKPStatisticsHelper::getLocation">getLocation</abbr></a></td><td class="text-right">210</td></tr>
+       <tr><td><a href="PKPStatisticsHelper.php.html#111"><abbr title="PKP\statistics\PKPStatisticsHelper::getDocumentType">getDocumentType</abbr></a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="PKPStatisticsHelper.php.html#164"><abbr title="PKP\statistics\PKPStatisticsHelper::getGeoData">getGeoData</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="PKPStatisticsHelper.php.html#146"><abbr title="PKP\statistics\PKPStatisticsHelper::createNewSalt">createNewSalt</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="PKPStatisticsHelper.php.html#271"><abbr title="PKP\statistics\PKPStatisticsHelper::getInstitutionIds">getInstitutionIds</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="PKPTemporaryItemInvestigationsDAO.php.html#47"><abbr title="PKP\statistics\PKPTemporaryItemInvestigationsDAO::getInsertData">getInsertData</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="PKPTemporaryItemRequestsDAO.php.html#47"><abbr title="PKP\statistics\PKPTemporaryItemRequestsDAO::getInsertData">getInsertData</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="PKPTemporaryTotalsDAO.php.html#53"><abbr title="PKP\statistics\PKPTemporaryTotalsDAO::getInsertData">getInsertData</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="PKPTemporaryTotalsDAO.php.html#268"><abbr title="PKP\statistics\PKPTemporaryTotalsDAO::compileCounterSubmissionInstitutionDailyMetrics">compileCounterSubmissionInstitutionDailyMetrics</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="PKPTemporaryItemInvestigationsDAO.php.html#179"><abbr title="PKP\statistics\PKPTemporaryItemInvestigationsDAO::compileCounterSubmissionInstitutionDailyMetrics">compileCounterSubmissionInstitutionDailyMetrics</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="PKPTemporaryItemRequestsDAO.php.html#152"><abbr title="PKP\statistics\PKPTemporaryItemRequestsDAO::compileCounterSubmissionInstitutionDailyMetrics">compileCounterSubmissionInstitutionDailyMetrics</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="PKPTemporaryTotalsDAO.php.html#222"><abbr title="PKP\statistics\PKPTemporaryTotalsDAO::compileCounterSubmissionDailyMetrics">compileCounterSubmissionDailyMetrics</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="PKPTemporaryItemInvestigationsDAO.php.html#83"><abbr title="PKP\statistics\PKPTemporaryItemInvestigationsDAO::compileUniqueClicks">compileUniqueClicks</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="PKPTemporaryItemInvestigationsDAO.php.html#127"><abbr title="PKP\statistics\PKPTemporaryItemInvestigationsDAO::compileSubmissionGeoDailyMetrics">compileSubmissionGeoDailyMetrics</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="PKPTemporaryItemInvestigationsDAO.php.html#153"><abbr title="PKP\statistics\PKPTemporaryItemInvestigationsDAO::compileCounterSubmissionDailyMetrics">compileCounterSubmissionDailyMetrics</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="PKPTemporaryItemRequestsDAO.php.html#83"><abbr title="PKP\statistics\PKPTemporaryItemRequestsDAO::compileUniqueClicks">compileUniqueClicks</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="PKPTemporaryItemRequestsDAO.php.html#125"><abbr title="PKP\statistics\PKPTemporaryItemRequestsDAO::compileCounterSubmissionDailyMetrics">compileCounterSubmissionDailyMetrics</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="PKPTemporaryTotalsDAO.php.html#90"><abbr title="PKP\statistics\PKPTemporaryTotalsDAO::removeDoubleClicks">removeDoubleClicks</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="PKPTemporaryTotalsDAO.php.html#196"><abbr title="PKP\statistics\PKPTemporaryTotalsDAO::compileSubmissionGeoDailyMetrics">compileSubmissionGeoDailyMetrics</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="TemporaryInstitutionsDAO.php.html#30"><abbr title="PKP\statistics\TemporaryInstitutionsDAO::insert">insert</abbr></a></td><td class="text-right">6</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 11.0.5</a> using <a href="https://www.php.net/" target="_top">PHP 8.3.11</a> and <a href="https://phpunit.de/">PHPUnit 11.2.8</a> at Wed Sep 4 13:31:09 UTC 2024.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../../_js/jquery.min.js?v=11.0.5" type="text/javascript"></script>
+  <script src="../../_js/d3.min.js?v=11.0.5" type="text/javascript"></script>
+  <script src="../../_js/nv.d3.min.js?v=11.0.5" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([5,0,0,0,0,0,0,0,0,0,0,0], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([37,0,0,0,0,0,0,0,0,0,0,0], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[0,41,"<a href=\"PKPStatisticsHelper.php.html#28\">PKP\\statistics\\PKPStatisticsHelper<\/a>"],[0,15,"<a href=\"PKPTemporaryItemInvestigationsDAO.php.html#23\">PKP\\statistics\\PKPTemporaryItemInvestigationsDAO<\/a>"],[0,13,"<a href=\"PKPTemporaryItemRequestsDAO.php.html#24\">PKP\\statistics\\PKPTemporaryItemRequestsDAO<\/a>"],[0,22,"<a href=\"PKPTemporaryTotalsDAO.php.html#31\">PKP\\statistics\\PKPTemporaryTotalsDAO<\/a>"],[0,4,"<a href=\"TemporaryInstitutionsDAO.php.html#22\">PKP\\statistics\\TemporaryInstitutionsDAO<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[0,1,"<a href=\"PKPStatisticsHelper.php.html#83\">PKP\\statistics\\PKPStatisticsHelper::getUsageStatsDirPath<\/a>"],[0,1,"<a href=\"PKPStatisticsHelper.php.html#92\">PKP\\statistics\\PKPStatisticsHelper::getSaltFileName<\/a>"],[0,1,"<a href=\"PKPStatisticsHelper.php.html#100\">PKP\\statistics\\PKPStatisticsHelper::getGeoDBPath<\/a>"],[0,10,"<a href=\"PKPStatisticsHelper.php.html#111\">PKP\\statistics\\PKPStatisticsHelper::getDocumentType<\/a>"],[0,1,"<a href=\"PKPStatisticsHelper.php.html#138\">PKP\\statistics\\PKPStatisticsHelper::hashIp<\/a>"],[0,4,"<a href=\"PKPStatisticsHelper.php.html#146\">PKP\\statistics\\PKPStatisticsHelper::createNewSalt<\/a>"],[0,5,"<a href=\"PKPStatisticsHelper.php.html#164\">PKP\\statistics\\PKPStatisticsHelper::getGeoData<\/a>"],[0,14,"<a href=\"PKPStatisticsHelper.php.html#198\">PKP\\statistics\\PKPStatisticsHelper::getLocation<\/a>"],[0,4,"<a href=\"PKPStatisticsHelper.php.html#271\">PKP\\statistics\\PKPStatisticsHelper::getInstitutionIds<\/a>"],[0,1,"<a href=\"PKPTemporaryItemInvestigationsDAO.php.html#35\">PKP\\statistics\\PKPTemporaryItemInvestigationsDAO::insert<\/a>"],[0,4,"<a href=\"PKPTemporaryItemInvestigationsDAO.php.html#47\">PKP\\statistics\\PKPTemporaryItemInvestigationsDAO::getInsertData<\/a>"],[0,1,"<a href=\"PKPTemporaryItemInvestigationsDAO.php.html#69\">PKP\\statistics\\PKPTemporaryItemInvestigationsDAO::deleteByLoadId<\/a>"],[0,2,"<a href=\"PKPTemporaryItemInvestigationsDAO.php.html#83\">PKP\\statistics\\PKPTemporaryItemInvestigationsDAO::compileUniqueClicks<\/a>"],[0,2,"<a href=\"PKPTemporaryItemInvestigationsDAO.php.html#127\">PKP\\statistics\\PKPTemporaryItemInvestigationsDAO::compileSubmissionGeoDailyMetrics<\/a>"],[0,2,"<a href=\"PKPTemporaryItemInvestigationsDAO.php.html#153\">PKP\\statistics\\PKPTemporaryItemInvestigationsDAO::compileCounterSubmissionDailyMetrics<\/a>"],[0,3,"<a href=\"PKPTemporaryItemInvestigationsDAO.php.html#179\">PKP\\statistics\\PKPTemporaryItemInvestigationsDAO::compileCounterSubmissionInstitutionDailyMetrics<\/a>"],[0,1,"<a href=\"PKPTemporaryItemRequestsDAO.php.html#35\">PKP\\statistics\\PKPTemporaryItemRequestsDAO::insert<\/a>"],[0,4,"<a href=\"PKPTemporaryItemRequestsDAO.php.html#47\">PKP\\statistics\\PKPTemporaryItemRequestsDAO::getInsertData<\/a>"],[0,1,"<a href=\"PKPTemporaryItemRequestsDAO.php.html#69\">PKP\\statistics\\PKPTemporaryItemRequestsDAO::deleteByLoadId<\/a>"],[0,2,"<a href=\"PKPTemporaryItemRequestsDAO.php.html#83\">PKP\\statistics\\PKPTemporaryItemRequestsDAO::compileUniqueClicks<\/a>"],[0,2,"<a href=\"PKPTemporaryItemRequestsDAO.php.html#125\">PKP\\statistics\\PKPTemporaryItemRequestsDAO::compileCounterSubmissionDailyMetrics<\/a>"],[0,3,"<a href=\"PKPTemporaryItemRequestsDAO.php.html#152\">PKP\\statistics\\PKPTemporaryItemRequestsDAO::compileCounterSubmissionInstitutionDailyMetrics<\/a>"],[0,1,"<a href=\"PKPTemporaryTotalsDAO.php.html#41\">PKP\\statistics\\PKPTemporaryTotalsDAO::insert<\/a>"],[0,4,"<a href=\"PKPTemporaryTotalsDAO.php.html#53\">PKP\\statistics\\PKPTemporaryTotalsDAO::getInsertData<\/a>"],[0,1,"<a href=\"PKPTemporaryTotalsDAO.php.html#76\">PKP\\statistics\\PKPTemporaryTotalsDAO::deleteByLoadId<\/a>"],[0,2,"<a href=\"PKPTemporaryTotalsDAO.php.html#90\">PKP\\statistics\\PKPTemporaryTotalsDAO::removeDoubleClicks<\/a>"],[0,1,"<a href=\"PKPTemporaryTotalsDAO.php.html#133\">PKP\\statistics\\PKPTemporaryTotalsDAO::compileContextMetrics<\/a>"],[0,1,"<a href=\"PKPTemporaryTotalsDAO.php.html#148\">PKP\\statistics\\PKPTemporaryTotalsDAO::compileSubmissionMetrics<\/a>"],[0,1,"<a href=\"PKPTemporaryTotalsDAO.php.html#177\">PKP\\statistics\\PKPTemporaryTotalsDAO::deleteSubmissionGeoDailyByLoadId<\/a>"],[0,1,"<a href=\"PKPTemporaryTotalsDAO.php.html#182\">PKP\\statistics\\PKPTemporaryTotalsDAO::deleteCounterSubmissionDailyByLoadId<\/a>"],[0,1,"<a href=\"PKPTemporaryTotalsDAO.php.html#187\">PKP\\statistics\\PKPTemporaryTotalsDAO::deleteCounterSubmissionInstitutionDailyByLoadId<\/a>"],[0,2,"<a href=\"PKPTemporaryTotalsDAO.php.html#196\">PKP\\statistics\\PKPTemporaryTotalsDAO::compileSubmissionGeoDailyMetrics<\/a>"],[0,3,"<a href=\"PKPTemporaryTotalsDAO.php.html#222\">PKP\\statistics\\PKPTemporaryTotalsDAO::compileCounterSubmissionDailyMetrics<\/a>"],[0,4,"<a href=\"PKPTemporaryTotalsDAO.php.html#268\">PKP\\statistics\\PKPTemporaryTotalsDAO::compileCounterSubmissionInstitutionDailyMetrics<\/a>"],[0,2,"<a href=\"TemporaryInstitutionsDAO.php.html#30\">PKP\\statistics\\TemporaryInstitutionsDAO::insert<\/a>"],[0,1,"<a href=\"TemporaryInstitutionsDAO.php.html#45\">PKP\\statistics\\TemporaryInstitutionsDAO::deleteByLoadId<\/a>"],[0,1,"<a href=\"TemporaryInstitutionsDAO.php.html#53\">PKP\\statistics\\TemporaryInstitutionsDAO::getInstitutionIdsByLoadId<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>
